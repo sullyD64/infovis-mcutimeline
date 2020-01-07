@@ -1,0 +1,7 @@
+svg = d3.select("main")
+  .append("svg")
+  .classed("canvas", true)
+  .classed("bg-white", true)
+  .attr("width", "100%")
+  .attr("height", "100%")
+  // .attr("viewBox","0 0 1 1")
