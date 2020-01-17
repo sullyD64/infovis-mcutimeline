@@ -1,0 +1,133 @@
+
+Data ingestion:
+✔ Recuperare le page source @done (20-01-14 18:20)
+  before 20th (1)
+  20th century: 1900s~1990s (10)
+  21th century: 2000s, 2010~2019, 2023, 2024, 2091 (14)
+  > 25 pagine totali
+
+  ✔ Prendere i pageid @done (20-01-10 10:56)
+  ✔ Prendere i wikitext raw @done (20-01-10 12:27)
+  ✘ Prendere i json (NON SERVONO) @cancelled (20-01-14 19:16)
+    https://marvelcinematicuniverse.fandom.com/api/v1/Articles/AsSimpleJson?id=$pageid
+
+✔ Estrarre manualmente gli eventi del Time Heist @done (20-01-13 16:01)
+  pagine coinvolte
+  ✔ 1970s @done (20-01-12 14:01)
+  ✔ 2012 @done (20-01-12 14:12)
+  ✔ 2013 @done (20-01-13 10:43)
+  ✔ 2014 @done (20-01-13 10:47)
+
+✔ Estrarre manualmente gli eventi della timeline alternativa della Lighthouse e della Dark dimension @done (20-01-14 11:58)
+  pagine coinvolte
+  ✔ 2018 lighthouse history @done (20-01-14 11:54)
+  ✔ 2018 dark dimension @done (20-01-14 13:13)
+
+ ✔ Estrarre manualmente gli eventi della timeline storica alternativa del Framework e di Sakaar @done (20-01-14 13:13)
+   pagine coinvolte
+   ✔ 2017 framework @done (20-01-14 13:13)
+   ✔ 2017 sakaar @done (20-01-14 13:13)
+   per sakaar, operare questo find/replace
+     (?s)^=====Sakaar - Day ([0-9]+)=====\n^\*
+     =====Sakaar=====\n*<!--Day $1-->
+
+✔ Pulizia manuale dei file @done (20-01-14 16:34)
+  ✔ Fix di errori nelle bullet list @done (20-01-14 16:34)
+  ✔ Rimozione di accapi imprevisti dovuti a presenza di immagini @done (20-01-14 16:34)
+  ✔ Rimozione del Behind the Scenes in 2013 @done (20-01-14 16:34)
+  ✔ Fix di errori nei tag html @done (20-01-14 19:17)
+
+✔ Parsing del wikitext @done (20-01-14 16:23)
+  ✔ Date @done (20-01-12 13:57)
+  ✔ Eventi voce singola @done (20-01-12 13:58)
+  ✔ Eventi con tag sbilanciati @done (20-01-12 13:59)
+    ✔ PROBLEMA: i tag della forma <tag attr=value/> (senza value racchiuso tra apici e senza spazio prima della chiusura) non vengono correttamente processati, il parser ignora l'endtag e per questo il testo risulta sbilanciato. Correggere aggiungendo apici e spazio prima di /> @done (20-01-16 14:28)
+  ✔ Pulizia testo da tag ref @done (20-01-12 13:59)
+  ✔ Estrazione titolo da grassetto @done (20-01-13 12:35)
+  ✔ Tag html: estrarre solo <ref>, ignorare tutti gli altri @done (20-01-14 19:48)
+  ✔ Ignorare quotes @done (20-01-13 12:42)
+  ✔ Ignorare qualunque template a inizio riga @done (20-01-14 19:15)
+  ✔ Ignorare immagini (tag [[File:]] a inizio riga) @done (20-01-13 12:42)
+    ✔ Rimuovere immagini e file con regex prima del processamento @done (20-01-13 12:35)
+      ✔ Ignorare i ref il cui contenuto è rimasto vuoto in seguito alla rimozione di file @done (20-01-16 14:36)
+      <ref[^>]*>[' ]*</ref>
+  ✔ Realtà/timeline @done (20-01-14 13:13)
+  ✔ Accorpare eventi con sotto-voci: @done (20-01-14 19:21)
+    ✔ Aggiungere conteggio temporaneo del livello di lista @done (20-01-14 19:19)
+    ✔ L'evento di livello 1 viene joinato con la lista di sotto-eventi di livello 2 @done (20-01-14 19:19)
+    ✔ ID, Date, Title: non cambiano @done (20-01-14 19:19)
+    ✔ Line: (index del main-index dell'ultimo sotto-evento) @done (20-01-14 19:20)
+    ✔ Desc: unione delle descrizioni separate da \n @done (20-01-14 19:20)
+    ✔ Links, templates, refs: per ciascuno, unione insiemistica di quelli del main con quelli dei sotto-eventi @done (20-01-14 19:21)
+  ✔ RI-FORMATTAZIONE: @done (20-01-14 16:23)
+    ✔ Capire quali tag html sono utilizzati: @done (20-01-13 18:01)
+      ref, br, small, nowiki
+      <(?!((\/)?(ref|br|small|nowiki))|\!\-\-)[^>]*>
+    ✘ Rimuovere commenti <!-- ... --> (NO, SONO NECESSARI PER COLLOCARE NEL TEMPO EVENTI DELLO STESSO GIORNO, alcuni commenti indicano infatti il minutaggio video/ora e minuti del giorno) @cancelled (20-01-14 11:55)
+    ✔ Rimuovere wikilinks [[link|label]] @done (20-01-13 18:53)
+    ✔ Rimuovere WPS links @done (20-01-13 18:53)
+    ✔ Riformattare link esterni [href text] @done (20-01-14 14:41)
+    ✔ Riformattare bold e italics @done (20-01-14 16:23)
+    ✔ Riformattare i nowiki tag <nowiki>('|[|]|[...])<nowiki> @done (20-01-14 19:28)
+
+☐ Analisi dei dati
+  ✔ Conteggio degli eventi per ciascuna pagina (sheet) @done (20-01-14 18:59)
+  ✔ Conteggio ref univoche senza name: 445 @done (20-01-14 19:16)
+  ✔ Conteggio ref univoche named: 1611 @done (20-01-14 19:17)
+  ☐ Estrazione ref
+    ☐ Parsing del testo INTERNO ai ref
+
+      ☐ Problema: l'attuale parser riconosce tutti i tag e prende solo l'ultimo data 
+
+    ☐ Problema: i ref con name possono averne diversi. Qual è il separatore?
+    
+    ✔ Problemi: ref con nome errato @done (20-01-16 16:19)
+      A) (una cifra che va da :0 a :4)
+            name=["'][^:"']*:[0-9]["'] *[\/]?>
+        non sono troppi e fanno tutti riferimento alla stagione 3 di runaways (di cui sono assenti invece i riferimenti giusti R3xx), ma sono anche riferimenti sbagliati su
+        Spider-Man: Far From Home (2024)
+
+          (name=[\"\'][^:\"\']*):x([\"\'] *[\/]?>)
+        replace con 
+          \1R30x\2 
+
+        file coinvolti
+        2016, 2018, 2024
+        ✔ fixare @done (20-01-16 16:18)
+      B) molti ref singoli leggermente errati, tipo 
+        T:R invece di TR per Thor: Ragnarok
+        SP:FfH o S-M:FfH invece di SMFFH per Spider-Man: Far From Home
+        TWS o CA:TWS invece di CATWS per Captain America: The Winter Soldier
+
+        tuttavia sembra che tutti siano in coppia con ref di tipo Real Events, quindi verranno poi ignorati.
+        ✔ fixare @done (20-01-16 16:18)
+
+    ✔ CASISTICHE REF @done (20-01-16 15:59)
+    <ref (name="..")? />
+    <ref name="..." > ... </ref>
+    <ref> ... </ref>
+
+    ☐ Problema: come capire a quale film/serie si riferiscono i ref senza nome?
+      ✔ Recuperare i titoli di tutti gli episodi delle serie, corrispondenza con serie, stagione e refname (sheet) @done (20-01-16 11:54)
+      https://marvelcinematicuniverse.fandom.com/wiki/Category:TV_Episodes
+      (sheet)
+      https://www.csvjson.com/csv2json
+      ☐ Analizzare i wikilink e cercare corrispondenza con episodi
+
+
+  ☐ Personaggi
+    ☐ Problema: Quale personaggio appare in quale film? potrei risolvere avendo una lista di personaggi e di apparenze nei film, così da poter scegliere tra quelli che appaiono in un film per l'evento di quel film.
+
+
+    https://www.imdb.com/list/ls044111840/
+
+
+
+ ☐ Creazione del dataset iniziale
+   ☐ Filtrare eventi con ref
+     Real People / Real Events
+     Ref di sole serie TV
+
+   https://marvelcinematicuniverse.fandom.com/wiki/Marvel_Cinematic_Universe_Wiki:Formatting_Guide
+
+  
