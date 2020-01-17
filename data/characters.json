@@ -1,0 +1,926 @@
+[
+    {
+        "a": "Robert Downey Jr.",
+        "b": "Tony Stark/Iron Man",
+        "c": [
+            "Iron Man (2008)",
+            "The Incredible Hulk (2008)",
+            "Iron Man 2 (2010)",
+            "The Avengers (2012)",
+            "Iron Man 3 (2013)",
+            "Avengers: Age of Ultron (2015)",
+            "Captain America: Civil War (2016)",
+            "Spider-Man: Homecoming (2017)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Chris Evans",
+        "b": "Steve Rogers/Captain America",
+        "c": [
+            "Captain America: The First Avenger (2011)",
+            "The Avengers (2012)",
+            "Thor: Dark World (2013) as Captain America Loki",
+            "Captain America: The Winter Soldier (2014)",
+            "Avengers: Age of Ultron (2015)",
+            "Captain America: Civil War (2016)",
+            "Spider-Man: Homecoming (2017)",
+            "Avengers: Infinity War (2018)",
+            "Captain Marvel (2019)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Scarlett Johansson",
+        "b": "Natasha Romanoff/Black Widow",
+        "c": [
+            "Iron Man 2 (2010)",
+            "The Avengers (2012)",
+            "Captain America: The Winter Soldier (2014)",
+            "Avengers: Age of Ultron (2015)",
+            "Captain America: Civil War (2016)",
+            "Avengers: Infinity War (2018)",
+            "Captain Marvel (2019)",
+            "Avengers: Endgame (2019)",
+            "Black Widow (2020)"
+        ]
+    },
+    {
+        "a": "Chris Hemsworth",
+        "b": "Thor Odinson",
+        "c": [
+            "Thor (2011)",
+            "The Avengers (2012)",
+            "Thor: Dark World (2013)",
+            "Avengers: Age of Ultron (2015)",
+            "Thor: Ragnarok (2017)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "Thor: Love and Thunder (2021)"
+        ]
+    },
+    {
+        "a": "Mark Ruffalo",
+        "b": "Dr. Bruce Banner/Hulk",
+        "c": [
+            "The Incredible Hulk (2008)(Edward Norton)",
+            "The Avengers (2012)",
+            "Iron Man 3 (2013)",
+            "Avengers: Age of Ultron (2015)",
+            "Thor: Ragnarok (2017)",
+            "Avengers: Infinity War (2018)",
+            "Captain Marvel (2019)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Jeremy Renner",
+        "b": "Clint Barton/ Hawkeye",
+        "c": [
+            "Thor (2011)",
+            "The Avengers (2012)",
+            "Avengers: Age of Ultron (2015)",
+            "Captain America: Civil War (2016)",
+            "Avengers: Endgame (2019)",
+            "Hawkeye (2021) - TV Series"
+        ]
+    },
+    {
+        "a": "Samuel L. Jackson",
+        "b": "Nick Fury",
+        "c": [
+            "Iron Man (2008)",
+            "Iron Man 2 (2010)",
+            "Thor (2011)",
+            "Captain America: The First Avenger (2011)",
+            "The Avengers (2012)",
+            "Captain America: The Winter Soldier (2014)",
+            "Avengers: Age of Ultron (2015)",
+            "Avengers: Infinity War (2018)",
+            "Captain Marvel (2019)",
+            "Avengers: Endgame (2019)",
+            "Spider-Man: Far From Home (2019)"
+        ]
+    },
+    {
+        "a": "Clark Gregg",
+        "b": "Agent Coulson",
+        "c": [
+            "Iron Man (2008)",
+            "Iron Man 2 (2010)",
+            "Thor (2011)",
+            "The Avengers (2012)",
+            "Agents of SHIELD (2013-2019)",
+            "Captain Marvel (2019)"
+        ]
+    },
+    {
+        "a": "Don Cheadle",
+        "b": "James Rhodey/War Machine",
+        "c": [
+            "Iron Man (2008) (Terrence Howard)",
+            "Iron Man 2 (2010)",
+            "Iron Man 3 (2013)",
+            "Avengers: Age of Ultron (2015)",
+            "Captain America: Civil War (2016)",
+            "Avengers: Infinity War (2018)",
+            "Captain Marvel (2019)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Gwyneth Paltrow",
+        "b": "Pepper Potts",
+        "c": [
+            "Iron Man (2008)",
+            "Iron Man 2 (2010)",
+            "The Avengers (2012)",
+            "Iron Man 3 (2013)",
+            "Spider-Man: Homecoming (2017)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Paul Bettany",
+        "b": "JARVIS and Vision",
+        "c": [
+            "Iron Man (2008)",
+            "Iron Man 2 (2010)",
+            "The Avengers (2012)",
+            "Iron Man 3 (2013)",
+            "Avengers: Age of Ultron (2015) as JARVIS and Vision",
+            "Captain America: Civil War (2016)",
+            "Avengers: Infinity War (2018)",
+            "WandaVision (2021) - TV Series"
+        ]
+    },
+    {
+        "a": "Jon Favreau",
+        "b": "Happy Hogan",
+        "c": [
+            "Iron Man (2008)",
+            "Iron Man 2 (2010)",
+            "Iron Man 3 (2013)",
+            "Spider-Man: Homecoming (2017)",
+            "Avengers: Infinity War (2018) deleted scenes",
+            "Avengers: Endgame (2019)",
+            "Spider-Man: Far From Home (2019)"
+        ]
+    },
+    {
+        "a": "William Hurt",
+        "b": "General Thaddeus Ross",
+        "c": [
+            "The Incredible Hulk (2008)",
+            "Captain America: Civil War (2016)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "John Slattery",
+        "b": "Howard Stark",
+        "c": [
+            "Iron Man 2 (2010)",
+            "Captain America:  The First Avenger (2011) (Dominic Cooper)",
+            "Ant-Man (2015)",
+            "Captain America: Civil War (2016)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Tom Holland",
+        "b": "Peter Parker/Spider-Man",
+        "c": [
+            "Iron Man 2 (2010) (Max Favreau - Expo Kid)",
+            "Captain America: Civil War (2016)",
+            "Spider-Man: Homecoming (2017)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "Spider-Man: Far From Home (2019)"
+        ]
+    },
+    {
+        "a": "Tom Hiddleston",
+        "b": "Loki Laufeyson",
+        "c": [
+            "Thor (2011)",
+            "The Avengers (2012)",
+            "Thor: Dark World (2013)",
+            "Thor: Ragnarok (2017)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019) ",
+            "Loki (2021) - TV Series"
+        ]
+    },
+    {
+        "a": "Natalie Portman",
+        "b": "Jane Foster",
+        "c": [
+            "Thor (2011)",
+            "Thor: Dark World (2013)",
+            "Avengers: Endgame (2019)",
+            "Thor: Love and Thunder (2021)"
+        ]
+    },
+    {
+        "a": "Anthony Hopkins",
+        "b": "Odin Borson",
+        "c": [
+            "Thor (2011)",
+            "Thor: Dark World (2013)",
+            "Thor: Ragnarok (2017)"
+        ]
+    },
+    {
+        "a": "Stellan Skarsgård",
+        "b": "Dr. Erik Selvig",
+        "c": [
+            "Thor (2011)",
+            "The Avengers (2012)",
+            "Thor: Dark World (2013)",
+            "Avengers: Age of Ultron (2015)"
+        ]
+    },
+    {
+        "a": "Kat Dennings",
+        "b": "Darcy Lewis",
+        "c": [
+            "Thor (2011)",
+            "Thor: Dark World (2013)"
+        ]
+    },
+    {
+        "a": "Idris Elba",
+        "b": "Heimdall",
+        "c": [
+            "Thor (2011)",
+            "Thor: Dark World (2013)",
+            "Avengers: Age of Ultron (2015)",
+            "Thor: Ragnarok (2017)",
+            "Avengers: Infinity War (2018)"
+        ]
+    },
+    {
+        "a": "Ray Stevenson",
+        "b": "Volstagg",
+        "c": [
+            "Thor (2011)",
+            "Thor: Dark World (2013)",
+            "Thor: Ragnarok (2017)"
+        ]
+    },
+    {
+        "a": "Tadanobu Asano",
+        "b": "Hogun",
+        "c": [
+            "Thor (2011)",
+            "Thor: Dark World (2013)",
+            "Thor: Ragnarok (2017)"
+        ]
+    },
+    {
+        "a": "Zachary Levi",
+        "b": "Fandral",
+        "c": [
+            "Thor (2011) (Josh Dallas)",
+            "Thor: Dark World (2013)",
+            "Thor: Ragnarok (2017)"
+        ]
+    },
+    {
+        "a": "Jaimie Alexander",
+        "b": "Sif",
+        "c": [
+            "Thor (2011)",
+            "Thor: Dark World (2013)"
+        ]
+    },
+    {
+        "a": "Rene Russo",
+        "b": "Frigga",
+        "c": [
+            "Thor (2011)",
+            "Thor: Dark World (2013)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Maximiliano Hernández",
+        "b": "Agent Jasper Sitwell",
+        "c": [
+            "Thor (2011)",
+            "The Avengers (2012)",
+            "Captain America: The Winter Soldier (2014)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Hayley Atwell",
+        "b": "Peggy Carter",
+        "c": [
+            "Captain America: The First Avenger (2011)",
+            "Captain America: The Winter Soldier (2014)",
+            "Avengers: Age of Ultron (2015)",
+            "Ant-Man (2015)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Ross Marquand",
+        "b": "Johann Schmidt/ Red Skull",
+        "c": [
+            "Captain America: The First Avenger (2011) (Hugo Weaving)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Toby Jones",
+        "b": "Arnim Zola",
+        "c": [
+            "Captain America: The First Avenger (2011)",
+            "Captain America: The Winter Soldier (2014)"
+        ]
+    },
+    {
+        "a": "Sebastian Stan",
+        "b": "Bucky Barnes/ Winter Soldier",
+        "c": [
+            "Captain America: The First Avenger (2011)",
+            "Captain America: The Winter Soldier (2014)",
+            "Captain America: Civil War (2016)",
+            "Black Panther (2018)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "The Falcon and the Winter Soldier (2020) - TV Series"
+        ]
+    },
+    {
+        "a": "Cobie Smulders",
+        "b": "Agent Maria Hill",
+        "c": [
+            "The Avengers (2012)",
+            "Captain America: The Winter Soldier (2014)",
+            "Avengers: Age of Ultron (2015)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "Spider-Man: Far From Home (2019)"
+        ]
+    },
+    {
+        "a": "Josh Brolin",
+        "b": "Thanos",
+        "c": [
+            "The Avengers (2012) (Damion Poitier)",
+            "Guardians of Galaxy (2014)",
+            "Avengers: Age of Ultron (2015)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Ty Simpkins",
+        "b": "Harley Keener",
+        "c": [
+            "Iron Man 3 (2013)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Benicio Del Toro",
+        "b": "Taneleer Tivan/The Collector",
+        "c": [
+            "Thor: Dark World (2013)",
+            "Guardians of Galaxy (2014)",
+            "Avengers: Infinity War (2018)"
+        ]
+    },
+    {
+        "a": "Robert Redford",
+        "b": "Alexander Pierce",
+        "c": [
+            "Captain America: The Winter Soldier (2014)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Anthony Mackie",
+        "b": "Sam Wilson/Falcon",
+        "c": [
+            "Captain America: The Winter Soldier (2014)",
+            "Avengers: Age of Ultron (2015)",
+            "Ant-Man (2015)",
+            "Captain America: Civil War (2016)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "The Falcon and the Winter Soldier (2020) - TV Series"
+        ]
+    },
+    {
+        "a": "Frank Grillo",
+        "b": "Brock Rumlow/Crossbones",
+        "c": [
+            "Captain America: The Winter Soldier (2014)",
+            "Captain America: Civil War (2016)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Emily VanCamp",
+        "b": "Sharon Carter/Agent 13",
+        "c": [
+            "Captain America: The Winter Soldier (2014)",
+            "Captain America: Civil War (2016)",
+            "The Falcon and the Winter Soldier (2020) - TV Series"
+        ]
+    },
+    {
+        "a": "Callan Mulvey",
+        "b": "Jack Rollins",
+        "c": [
+            "Captain America: The Winter Soldier (2014)",
+            "Avengers: Endgame"
+        ]
+    },
+    {
+        "a": "Jenny Agutter",
+        "b": "Councilwoman Hawley",
+        "c": [
+            "The Avengers (2012)",
+            "Captain America: The Winter Soldier (2014)"
+        ]
+    },
+    {
+        "a": "Thomas Kretschmann",
+        "b": "Baron Strucker",
+        "c": [
+            "Captain America: The Winter Soldier (2014)",
+            "Avengers: Age of Ultron (2015)"
+        ]
+    },
+    {
+        "a": "Chris Pratt",
+        "b": "Peter Quill/Starlord",
+        "c": [
+            "Guardians of Galaxy (2014)",
+            "Guardians of Galaxy Vol. 2 (2017)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "Guardians of Galaxy Vol. 3 (2021)"
+        ]
+    },
+    {
+        "a": "Zoe Saldana",
+        "b": "Gamora",
+        "c": [
+            "Guardians of Galaxy (2014)",
+            "Guardians of Galaxy Vol. 2 (2017)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "Guardians of Galaxy Vol. 3 (2021)"
+        ]
+    },
+    {
+        "a": "Dave Bautista",
+        "b": "Drax",
+        "c": [
+            "Guardians of Galaxy (2014)",
+            "Guardians of Galaxy Vol. 2 (2017)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "Guardians of Galaxy Vol. 3 (2021)"
+        ]
+    },
+    {
+        "a": "Vin Diesel",
+        "b": "Groot",
+        "c": [
+            "Guardians of Galaxy (2014)",
+            "Guardians of Galaxy Vol. 2 (2017)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "Guardians of Galaxy Vol. 3 (2021)"
+        ]
+    },
+    {
+        "a": "Bradley Cooper",
+        "b": "Rocket Racoon",
+        "c": [
+            "Guardians of Galaxy (2014)",
+            "Guardians of Galaxy Vol. 2 (2017)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "Guardians of Galaxy Vol. 3 (2021)"
+        ]
+    },
+    {
+        "a": "Lee Pace",
+        "b": "Ronan",
+        "c": [
+            "Guardians of Galaxy (2014)",
+            "Captain Marvel (2019)"
+        ]
+    },
+    {
+        "a": "Michael Rooker",
+        "b": "Yondu Udonta",
+        "c": [
+            "Guardians of Galaxy (2014)",
+            "Guardians of Galaxy Vol. 2 (2017)"
+        ]
+    },
+    {
+        "a": "Karen Gillan",
+        "b": "Nebula",
+        "c": [
+            "Guardians of Galaxy (2014)",
+            "Guardians of Galaxy Vol. 2 (2017)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "Guardians of Galaxy Vol. 3 (2021)"
+        ]
+    },
+    {
+        "a": "Djimon Hounsou",
+        "b": "Korath",
+        "c": [
+
+            "Guardians of Galaxy (2014)",
+            "Captain Marvel (2019)"
+        ]
+    },
+    {
+        "a": "Sean Gunn",
+        "b": "Kraglin",
+        "c": [
+            "Guardians of Galaxy (2014)",
+            "Guardians of Galaxy Vol. 2 (2017)",
+            "Avengers: Endgame (2019)",
+            "Guardians of Galaxy Vol. 3 (2021)"
+        ]
+    },
+    {
+        "a": "Seth Green",
+        "b": "Howard the Duck",
+        "c": [
+            "Guardians of Galaxy (2014)",
+            "Guardians of Galaxy Vol. 2 (2017)",
+            "Avengers: Endgame (2019)",
+            "Guardians of Galaxy Vol. 3 (2021)"
+        ]
+    },
+    {
+        "a": "James Spader",
+        "b": "Ultron",
+        "c": [
+            "Avengers: Age of Ultron (2015)"
+        ]
+    },
+    {
+        "a": "Aaron Taylor-Johnson",
+        "b": "Pietro Maximoff/Quicksilver",
+        "c": [
+            "Captain America: The Winter Soldier (2014)",
+            "Avengers: Age of Ultron (2015)"
+        ]
+    },
+    {
+        "a": "Elizabeth Olsen",
+        "b": "Wanda Maximoff/Scarlett Witch",
+        "c": [
+            "Captain America: The Winter Soldier (2014)",
+            "Avengers: Age of Ultron (2015)",
+            "Captain America: Civil War (2016)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "WandaVision (2021) - TV Series",
+            "Doctor Strange: The Multiverse of Madness (2021)"
+        ]
+    },
+    {
+        "a": "Linda Cardellini",
+        "b": "Laura Barton",
+        "c": [
+            "Avengers: Age of Ultron (2015)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Andy Serkis",
+        "b": "Ullysses Klaue",
+        "c": [
+            "Avengers: Age of Ultron (2015)",
+            "Black Panther (2018)"
+        ]
+    },
+    {
+        "a": "Henry Goodman",
+        "b": "Dr. List",
+        "c": [
+            "Captain America: The Winter Soldier (2014)",
+            "Avengers: Age of Ultron (2015)"
+        ]
+    },
+    {
+        "a": "Paul Rudd",
+        "b": "Scott Lang/Ant-Man",
+        "c": [
+            "Ant-Man (2015)",
+            "Captain America: Civil War (2016)",
+            "Ant-Man and the Wasp (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Michael Douglas",
+        "b": "Dr. Hank Pym",
+        "c": [
+            "Ant-Man (2015)",
+            "Ant-Man and the Wasp (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Evangeline Lilly",
+        "b": "Hope van Dyne/Wasp",
+        "c": [
+            "Ant-Man (2015)",
+            "Ant-Man and the Wasp (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Bobby Cannavale",
+        "b": "Paxton",
+        "c": [
+            "Ant-Man (2015)",
+            "Ant-Man and the Wasp (2018)"
+        ]
+    },
+    {
+        "a": "Judy Greer",
+        "b": "Maggie Lang",
+        "c": [
+            "Ant-Man (2015)",
+            "Ant-Man and the Wasp (2018)"
+        ]
+    },
+    {
+        "a": "Abby Ryder Fortson",
+        "b": "Cassie Lang",
+        "c": [
+            "Ant-Man (2015)",
+            "Ant-Man and the Wasp (2018)",
+            "Avengers: Endgame (2019) (Emma Furmann)"
+        ]
+    },
+    {
+        "a": "Michael Peña",
+        "b": "Luis",
+        "c": [
+            "Ant-Man (2015)",
+            "Ant-Man and the Wasp (2018)"
+        ]
+    },
+    {
+        "a": "David Dastmalchian",
+        "b": "Kurt",
+        "c": [
+            "Ant-Man (2015)",
+            "Ant-Man and the Wasp (2018)"
+        ]
+    },
+    {
+        "a": "T.I.",
+        "b": "Dave",
+        "c": [
+            "Ant-Man (2015)",
+            "Ant-Man and the Wasp (2018)"
+        ]
+    },
+    {
+        "a": "Benedict Cumberbatch",
+        "b": "Doctor Strange",
+        "c": [
+            "Doctor Strange (2016)",
+            "Thor: Ragnarok (2017)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "Doctor Strange: Multiverse of Madness (2021)"
+        ]
+    },
+    {
+        "a": "Tilda Swinton",
+        "b": "The Ancient One",
+        "c": [
+            "Doctor Strange (2016)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Benedict Wong",
+        "b": "Wong",
+        "c": [
+            "Doctor Strange (2016)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "Doctor Strange: Multiverse of Madness (2021)"
+        ]
+    },
+    {
+        "a": "Chadwick Boseman",
+        "b": "T'Challa/Black Panther",
+        "c": [
+            "Captain America: Civil War (2016)",
+            "Black Panther (2018)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Daniel Brühl",
+        "b": "Zemo",
+        "c": [
+            "Captain America: Civil War (2016)",
+            "The Falcon and the Winter Soldier (2020)  - TV"
+        ]
+    },
+    {
+        "a": "Martin Freeman",
+        "b": "Agent Everret Ross",
+        "c": [
+            "Captain America: Civil War (2016)",
+            "Black Panther (2018)"
+        ]
+    },
+    {
+        "a": "Marisa Tomei",
+        "b": "Aunt May Parker",
+        "c": [
+            "Captain America: Civil War (2016)",
+            "Spider-Man: Homecoming (2017)",
+            "Avengers: Endgame (2019)",
+            "Spider-Man: Far From Home (2019)"
+        ]
+    },
+    {
+        "a": "John Kani",
+        "b": "King T'Chaka",
+        "c": [
+            "Captain America: Civil War (2016)",
+            "Black Panther (2018)"
+        ]
+    },
+    {
+        "a": "Florence Kasumba",
+        "b": "Ayo",
+        "c": [
+            "Captain America: Civil War (2016)",
+            "Black Panther (2018)",
+            "Avengers: Infinity War (2018)"
+        ]
+    },
+    {
+        "a": "Kerry Condon",
+        "b": "Friday",
+        "c": [
+            "Avengers: Age of Ultron (2015)",
+            "Captain America: Civil War (2016)",
+            "Spider-Man: Homecoming (2017)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Winston Duke",
+        "b": "M'Baku",
+        "c": [
+            "Black Panther (2018)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Danai Gurira",
+        "b": "Okoye",
+        "c": [
+            "Black Panther (2018)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Letitia Wright",
+        "b": "Shuri",
+        "c": [
+            "Black Panther (2018)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Angela Bassett",
+        "b": "Ramonda",
+        "c": [
+            "Black Panther (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Zendaya",
+        "b": "Michelle J.",
+        "c": [
+            "Spider-Man: Homecoming (2017)",
+            "Spider-Man: Far From Home (2019)"
+        ]
+    },
+    {
+        "a": "Jacob Batalon",
+        "b": "Ned Leads ",
+        "c": [
+            "Spider-Man: Homecoming (2017)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "Spider-Man: Far From Home (2019)"
+        ]
+    },
+    {
+        "a": "Michelle Pfeiffer",
+        "b": "Janet van Dyne",
+        "c": [
+            "Ant-Man (2015) (Hayley Lovitt)",
+            "Ant-Man and the Wasp (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Taika Waititi",
+        "b": "Korg",
+        "c": [
+            "Thor: Ragnarok (2017)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Tessa Thompson",
+        "b": "Valkyre",
+        "c": [
+            "Thor: Ragnarok (2017)",
+            "Avengers: Endgame (2019)",
+            "Thor: Love and Thunder (2021)"
+        ]
+    },
+    {
+        "a": "Pom Klementieff",
+        "b": "Mantis",
+        "c": [
+            "Guardians of Galaxy Vol. 2 (2017)",
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)",
+            "Guardians of Galaxy Vol. 3 (2021)"
+        ]
+    },
+    {
+        "a": "Terry Notary",
+        "b": "Cull Obisidian",
+        "c": [
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Monique Ganderton",
+        "b": "Proxima Midnight",
+        "c": [
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Michael James Shaw",
+        "b": "Corvus Glaive",
+        "c": [
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Tom Vaughan-Lawlor",
+        "b": "Ebony Maw",
+        "c": [
+            "Avengers: Infinity War (2018)",
+            "Avengers: Endgame (2019)"
+        ]
+    },
+    {
+        "a": "Brie Larson",
+        "b": "Carol Danvers/Captain Marvel",
+        "c": [            
+            "Captain Marvel (2019)",
+            "Avengers: Endgame (2019)"
+        ]    
+    }
+]
