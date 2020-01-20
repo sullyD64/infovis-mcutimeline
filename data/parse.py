@@ -30,7 +30,7 @@ class TextFormatter(object):
 
     def fix_void_ref_nodes(self):
         """Fix incorrectly formatted void html elements."""
-        self.text = re.sub(r'name=([^\'\"]*\'?[^\\\'\">]*)/>', 'name="\1" />', self.text)
+        self.text = re.sub(r'name=([^\'\"]*\'?[^\\\'\">]*)/>', r'name="\1" />', self.text)
         return self
 
     # -------------- Event desc preprocessing
@@ -101,19 +101,20 @@ class Ref(object):
         self.eid = eid
         if text:
             self.ref_name = MyHTMLParser().extract_name(text)
-            self.ref_desc = TextFormatter() \
-                .begin(text) \
-                .strip_ref_html_tags() \
-                .convert_quotes_from_double_to_single() \
-                .convert_userbloglinks_to_html() \
-                .strip_wiki_links() \
-                .strip_wps_templates() \
-                .remove_nowiki_html_tags() \
-                .remove_quote_templates() \
-                .convert_ext_links_to_html() \
-                .convert_bolds_to_html() \
-                .convert_italics_to_html() \
+            self.ref_desc = (TextFormatter()
+                .begin(text)
+                .strip_ref_html_tags()
+                .convert_quotes_from_double_to_single()
+                .convert_userbloglinks_to_html()
+                .strip_wiki_links()
+                .strip_wps_templates()
+                .remove_nowiki_html_tags()
+                .remove_quote_templates()
+                .convert_ext_links_to_html()
+                .convert_bolds_to_html()
+                .convert_italics_to_html()
                 .end()
+            )
 
             self.ref_desc = self.ref_desc if self.ref_desc else None  # replace empty string with none
             self.ref_links = [str(x) for x in wtp.parse(
@@ -124,6 +125,9 @@ class Ref(object):
                 .remove_quote_templates()
                 .end()
             ).wikilinks]
+
+    def to_dict(self):
+        return self.__dict__
 
     @classmethod
     def from_dict(self, **kwargs):
@@ -143,6 +147,11 @@ class Ref(object):
         if isinstance(other, Ref):
             return self.__key() == other.__key()
         return NotImplemented
+    
+    def __lt__(self, other):
+        if isinstance(other, Ref):
+            return self.eid < other.eid
+        return NotImplemented
 
 
 class Event(object):
@@ -161,21 +170,23 @@ class Event(object):
         self.title = self.__get_title(text)
 
         tf = TextFormatter()
-        text_norefs = tf \
-            .begin(text) \
-            .remove_ref_nodes() \
+        text_norefs = (tf
+            .begin(text)
+            .remove_ref_nodes()
             .end()
+        )
 
-        self.desc = tf \
-            .begin(text_norefs) \
-            .convert_quotes_from_double_to_single() \
-            .strip_wiki_links() \
-            .strip_wps_templates() \
-            .convert_ext_links_to_html() \
-            .convert_bolds_to_html() \
-            .convert_italics_to_html() \
-            .remove_nowiki_html_tags() \
+        self.desc = (tf
+            .begin(text_norefs)
+            .convert_quotes_from_double_to_single()
+            .strip_wiki_links()
+            .strip_wps_templates()
+            .convert_ext_links_to_html()
+            .convert_bolds_to_html()
+            .convert_italics_to_html()
+            .remove_nowiki_html_tags()
             .end()
+        )
 
         self.level = self.__get_heading_level(self.desc)
         self.multiple = False
@@ -235,7 +246,7 @@ class Event(object):
     @classmethod
     def from_dict(self, **kwargs):
         ev = Event(empty=True)
-        for k in kwargs.keys():
+        for k, v in kwargs.items():
             if k == 'refs':
                 ev.refs = [Ref.from_dict(**x) for x in kwargs['refs']]
             else:
@@ -251,7 +262,7 @@ class Event(object):
         jdict = {}
         for k, v in self.__dict__.items():
             if v and isinstance(v, list) and all(isinstance(x, Ref) for x in v):
-                v = [ref.__dict__ for ref in v]
+                v = [ref.to_dict() for ref in v]
             jdict[k] = v
         return jdict
 
@@ -339,12 +350,13 @@ class Main(object):
                     # remove_files_or_images:   done before processing text, because sometimes images are displayed on a single line.
                     # remove_empty_refs:        remove empty <ref> tags which were left over by the previous removal of links/images.
                     # fix_incorrect_refs:       done before processing text, because those tags are incorrectly parsed by htmlparser and thus cause errors in detecting balanced tags.
-                    line = TextFormatter() \
-                        .begin(line) \
-                        .remove_wiki_images_or_files() \
-                        .remove_empty_ref_nodes() \
-                        .fix_void_ref_nodes() \
+                    line = (TextFormatter()
+                        .begin(line)
+                        .remove_wiki_images_or_files()
+                        .remove_empty_ref_nodes()
+                        .fix_void_ref_nodes()
                         .end()
+                    )
 
                     curr_text += line
                     if is_text_balanced:
