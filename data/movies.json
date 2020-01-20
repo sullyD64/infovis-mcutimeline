@@ -1,0 +1,163 @@
+[
+    {
+        "id": "IM",
+        "title": "Iron Man",
+        "series": "Iron Man",
+        "year": 2008,
+        "phase": 1
+    },
+    {
+        "id": "TIH",
+        "title": "The Incredible Hulk",
+        "series": "Hulk",
+        "year": 2008,
+        "phase": 1
+    },
+    {
+        "id": "IM2",
+        "title": "Iron Man 2",
+        "series": "Iron Man",
+        "year": 2010,
+        "phase": 1
+    },
+    {
+        "id": "T",
+        "title": "Thor",
+        "series": "Thor",
+        "year": 2011,
+        "phase": 1
+    },
+    {
+        "id": "CATFA",
+        "title": "Captain America: The First Avenger",
+        "series": "Captain America",
+        "year": 2011,
+        "phase": 1
+    },
+    {
+        "id": "TA",
+        "title": "The Avengers",
+        "series": "Avengers",
+        "year": 2012,
+        "phase": 2
+    },
+    {
+        "id": "IM3",
+        "title": "Iron Man 3",
+        "series": "Iron Man",
+        "year": 2013,
+        "phase": 2
+    },
+    {
+        "id": "TTDW",
+        "title": "Thor: The Dark World",
+        "series": "Thor",
+        "year": 2013,
+        "phase": 2
+    },
+    {
+        "id": "CATWS",
+        "title": "Captain America: The Winter Soldier",
+        "series": "Captain America",
+        "year": 2014,
+        "phase": 2
+    },
+    {
+        "id": "GotG",
+        "title": "Guardians of the Galaxy",
+        "series": "Guardians of the Galaxy",
+        "year": 2014,
+        "phase": 2
+    },
+    {
+        "id": "AAoU",
+        "title": "Avengers: Age of Ultron",
+        "series": "Avengers",
+        "year": 2015,
+        "phase": 2
+    },
+    {
+        "id": "AM",
+        "title": "Ant-Man",
+        "series": "Ant-Man",
+        "year": 2015,
+        "phase": 2
+    },
+    {
+        "id": "CACW",
+        "title": "Captain America: Civil War",
+        "series": "Captain America",
+        "year": 2016,
+        "phase": 3
+    },
+    {
+        "id": "DS",
+        "title": "Doctor Strange",
+        "series": "Doctor Strange",
+        "year": 2016,
+        "phase": 3
+    },
+    {
+        "id": "GotGv2",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "series": "Guardians of the Galaxy",
+        "year": 2017,
+        "phase": 3
+    },
+    {
+        "id": "SMH",
+        "title": "Spider-Man: Homecoming",
+        "series": "Spider-Man",
+        "year": 2017,
+        "phase": 3
+    },
+    {
+        "id": "TR",
+        "title": "Thor: Ragnarok",
+        "series": "Thor",
+        "year": 2017,
+        "phase": 3
+    },
+    {
+        "id": "BP",
+        "title": "Black Panther",
+        "series": "Black Panther",
+        "year": 2018,
+        "phase": 3
+    },
+    {
+        "id": "AIW",
+        "title": "Avengers: Infinity War",
+        "series": "Avengers",
+        "year": 2018,
+        "phase": 3
+    },
+    {
+        "id": "AMatW",
+        "title": "Ant-Man and the Wasp",
+        "series": "Ant-Man",
+        "year": 2018,
+        "phase": 3
+    },
+    {
+        "id": "CM",
+        "title": "Captain Marvel",
+        "series": "Captain Marvel",
+        "year": 2019,
+        "phase": 3
+    },
+    {
+        "id": "AE",
+        "title": "Avengers: Endgame",
+        "series": "Avengers",
+        "year": 2019,
+        "phase": 3
+    },
+    {
+        "id": "SMFFH",
+        "title": "Spiderman: Far From Home",
+        "series": "Spider-Man",
+        "year": 2019,
+        "phase": 3
+    }
+]
