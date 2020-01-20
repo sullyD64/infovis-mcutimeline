@@ -9,7 +9,7 @@ import wikitextparser as wtp
 
 class TextFormatter(object):
 
-    def begin(self, text):
+    def begin(self, text: str):
         self.text = text
         return self
 
@@ -17,7 +17,7 @@ class TextFormatter(object):
         return self.text
 
     # -------------- Line preprocessing
-    
+
     def remove_wiki_images_or_files(self):
         """Remove file links and display image tags."""
         self.text = re.sub(r"\[\[[:]?File:([^\[\]]*\[\[[^\]]*\]\])*[^\]]*\]\]", '', self.text)
@@ -78,16 +78,16 @@ class TextFormatter(object):
         """Removes starting and trailing <ref> tags"""
         self.text = re.sub(r'(?s)(<ref([^>]*[^\/])?>(.*?)<\/ref>|<ref[^>]*\/>)', r'\3', self.text)
         return self
-    
+
     def convert_quotes_from_double_to_single(self):
         """Converts all double quotes to single quotes, to avoid collision in html attributes."""
-        self.text = re.sub(r'\"','\'', self.text)
+        self.text = re.sub(r'\"', '\'', self.text)
         return self
 
     def convert_userbloglinks_to_html(self):
         """Convert internal wikilinks to user blog posts from wikitext format to html anchors."""
         urlprefix = 'https://marvelcinematicuniverse.fandom.com/wiki/'
-        self.text = re.sub(r'\[\[User blog:([^\/]*)\/([^\|]*)\|([^\]]*)\]\]', r'<a href="https://marvelcinematicuniverse.fandom.com/wiki/User_blog:\1/\2">\3</a>', self.text)  
+        self.text = re.sub(r'\[\[User blog:([^\/]*)\/([^\|]*)\|([^\]]*)\]\]', r'<a href="https://marvelcinematicuniverse.fandom.com/wiki/User_blog:\1/\2">\3</a>', self.text)
         return self
 
     def remove_quote_templates(self):
@@ -97,7 +97,7 @@ class TextFormatter(object):
 
 
 class Ref(object):
-    def __init__(self, eid: int, text=None):
+    def __init__(self, eid: int, text: str = None):
         self.eid = eid
         if text:
             self.ref_name = MyHTMLParser().extract_name(text)
@@ -115,15 +115,15 @@ class Ref(object):
                 .convert_italics_to_html() \
                 .end()
 
-            self.ref_desc = self.ref_desc if self.ref_desc else None # replace empty string with none
+            self.ref_desc = self.ref_desc if self.ref_desc else None  # replace empty string with none
             self.ref_links = [str(x) for x in wtp.parse(
                 TextFormatter()
-                    .begin(text)
-                    .convert_userbloglinks_to_html()
-                    .strip_wps_templates()
-                    .remove_quote_templates()
-                    .end()
-                ).wikilinks]
+                .begin(text)
+                .convert_userbloglinks_to_html()
+                .strip_wps_templates()
+                .remove_quote_templates()
+                .end()
+            ).wikilinks]
 
     @classmethod
     def from_dict(self, **kwargs):
@@ -148,7 +148,10 @@ class Ref(object):
 class Event(object):
     eid = 0
 
-    def __init__(self, filename: str, ln: str, text: str, day, month, year, reality):
+    def __init__(self, filename: str = None, ln: str = None, text: str = None, day: str = None, month: str = None, year: str = None, reality: str = None, empty: bool = False):
+        if empty:
+            return
+
         Event.eid += 1
         self.id = Event.eid
         self.file = filename
@@ -175,15 +178,13 @@ class Event(object):
             .end()
 
         self.level = self.__get_heading_level(self.desc)
-
         self.multiple = False
 
         self.links = [str(x) for x in wtp.parse(text_norefs).wikilinks]
         parsed = wtp.parse(text)
         # self.templates = [str(x) for x in parsed.templates]
         self.refs = [Ref(self.id, str(x)) for x in list(filter(self.__filter_tags, parsed.tags()))]  # only extract <ref> tags
-        self.refs = list(filter(lambda x: any([x.ref_name, x.ref_desc]), self.refs)) # remove empty refs
-
+        self.refs = list(filter(lambda x: any([x.ref_name, x.ref_desc]), self.refs))  # remove empty refs
 
     def join(self, sub_evs: list):
         start_line = re.sub(r'([0-9]+)-[0-9]*', '\1', self.line)
@@ -195,6 +196,7 @@ class Event(object):
 
         sub_evs_refs_flat = [element for sublist in [ev.refs for ev in sub_evs] for element in sublist]
         sub_evs_refs_unique = set(sub_evs_refs_flat)
+
         def change_eid(ref):
             ref.eid = self.id
             return ref
@@ -229,6 +231,16 @@ class Event(object):
     def __filter_tags(self, tag):
         ignored_tags = ['<br>', '<nowiki>', '<small>']
         return not any([str(tag).startswith(it) for it in ignored_tags])
+
+    @classmethod
+    def from_dict(self, **kwargs):
+        ev = Event(empty=True)
+        for k in kwargs.keys():
+            if k == 'refs':
+                ev.refs = [Ref.from_dict(**x) for x in kwargs['refs']]
+            else:
+                exec(f'ev.{k} = kwargs["{k}"]')
+        return ev
 
     def to_dict(self):
         '''
@@ -331,7 +343,7 @@ class Main(object):
                         .begin(line) \
                         .remove_wiki_images_or_files() \
                         .remove_empty_ref_nodes() \
-                        .fix_void_ref_nodes () \
+                        .fix_void_ref_nodes() \
                         .end()
 
                     curr_text += line
@@ -389,7 +401,8 @@ if __name__ == "__main__":
     #     exit("usage: python parse.py <filepath>")
     # fname = sys.argv[1]
 
-    filelist = ['before-20th', '1900s', '1910s', '1920s', '1930s', '1940s', '1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2023', '2024', '2091', 'framework', 'lighthouse', 'dark-dimension', 'time-heist', ]
+    filelist = ['before-20th', '1900s', '1910s', '1920s', '1930s', '1940s', '1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010', '2011', '2012',
+                '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2023', '2024', '2091', 'framework', 'lighthouse', 'dark-dimension', 'time-heist', ]
     # filelist = ['before-20th' ]
     # filelist = ['time-heist']
     # filelist = ['2018' ]
