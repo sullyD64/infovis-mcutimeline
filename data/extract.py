@@ -3,7 +3,7 @@ import json
 import os
 import re
 
-from parse import Event, Ref
+from structs import Event, Ref
 
 # refnames_movie = ['IM', 'TIH', 'IM2', 'T', 'CATFA', 'TA', 'IM3', 'TTDW', 'CATWS', 'GotG', 'AAoU', 'AM', 'CACW', 'DS', 'GotGV2', 'SMH', 'TR', 'BP', 'AIW', 'AMatW', 'CM', 'AE', 'SMFFH', ]
 # refnames_shows = ['AoS', 'AC', 'AoSSS', 'I', 'DD', 'JJ', 'LC', 'IF', 'TD', 'TP', 'R', 'C&D', ]
