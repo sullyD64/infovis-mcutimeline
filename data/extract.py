@@ -4,6 +4,7 @@ import os
 import re
 
 from structs import Event, Ref
+import wikitextparser as wtp
 
 DIR = os.path.dirname(__file__)
 OUT_DIR = os.path.join(DIR, 'auto')
@@ -26,13 +27,23 @@ class Extractor(object):
         """
         return Extractor(data=self.data)
 
+    def extend(self, other):
+        """
+        Extends current data with other Extractor's data.
+        """
+        if isinstance(other, Extractor):
+            self.data.extend(other.get())
+        else:
+            raise NotImplementedError
+        return self
+
     def get(self):
         """
         Returns current extractor data.
         """
         return self.data
 
-    def filter_row(self, pred):
+    def filter_rows(self, pred):
         """ 
         Filters data by selecting elements matching pred.
         """
@@ -42,29 +53,35 @@ class Extractor(object):
             raise NotImplementedError
         return self
 
-    def filter_col(self, col_names: list):
+    def filter_cols(self, col_names: list):
         """
-        Filters data by selecting the given attributes or keys for each element in data.
-        Works with both objects and dicts, replaces elements with dicts containing the selected columns.
+        Filters data by selecting the given attributes or keys for each element in data.\n
+        Works with both objects and dicts.
         """
         if not self.data:
-            raise Exception("filter_col: Empty list")
+            raise Exception("filter_cols: Empty list")
         if isinstance(self.data[0], dict):
             self.data = [{col: d[col] for col in col_names} for d in self.data]
         elif isinstance(self.data[0], object):
-            self.data = [{col: getattr(d, col) for col in col_names} for d in self.data]
+            clazz = self.data[0].__class__
+            self.data = [d.to_dict() for d in self.data]
+            self.data = [clazz.from_dict(**{col: d[col] for col in col_names}) for d in self.data]
         else:
             raise NotImplementedError
         return self
 
     def consume_key(self, key: str):
         """
-        ** Must be called after filter_col **
-        If data elements are dicts and key is in the dicts' keysets, "consumes" the key.
+        WARNING: after calling consume_key, replaced elements are dicts containing the selected columns.\n
+        If data elements are dicts and key is in the dicts' keysets, "consumes" the key.\n
         Replaces elements with the key's corresponding values.
         """
         if not self.data:
             raise Exception("consume_key: Empty list")
+
+        if not isinstance(self.data[0], dict):
+            self.data = [d.to_dict(**{'ignore_nested': True}) for d in self.data]
+
         keys = self.data[0].keys()
         if key in keys:
             self.data = [d[key] for d in self.data]
@@ -77,18 +94,25 @@ class Extractor(object):
         self.data = list(map(func, self.data))
         return self
 
-    def addattr(self, attr, value):
+    def addattr(self, attr, value_or_func, use_element=False, **kwargs):
         """
-        Updates all elements, adding attribute `attr` with value `value`.
-        If elements are dicts, adds (`attr`,`value`) kv-pair instead.
+        If `value_or_func` is callable, it is called with kwargs as parameter.\n
+        If `use_element` is True, the element is passed to the function in kwargs, under key 'element'.\n
+        Updates all elements, setting a new attribute `attr`.\n
+        If elements are dicts, adds new key `attr` instead.
         """
         for elem in self.data:
+            if callable(value_or_func):
+                if use_element:
+                    kwargs['element'] = elem
+                value = value_or_func(**kwargs)
+            else:
+                value = value_or_func
             if isinstance(elem, dict):
                 elem[attr] = value
             else:
-                elem.attr = value
+                setattr(elem, attr, value)
         return self
-
 
     def flatten(self):
         """Flattens data (a list of lists) into a list."""
@@ -115,7 +139,7 @@ class Extractor(object):
 
     def save(self, outfile=None):
         """
-        Saves current data in outfile, serialized as JSON. Default file name is extracted__{outfile}.json. 
+        Saves current data in outfile, serialized as JSON. Default file name is extracted__{outfile}.json. \n
         Python objects anywhere in data are dictified. (see Event.to_dict() or Ref.to_dict())
         """
         def __dictify(elem):
@@ -146,33 +170,46 @@ if __name__ == "__main__":
     # extract all refs, flattened
     (extr_refs
         .mapto(lambda ev: Event.from_dict(**ev))  # Parse raw data into Event and Ref objects.
-        # .filter_row(lambda ev: ev.file == "1900s")
-        # .filter_row(lambda ev: any([ref.ref_name == "\u0001" for ref in ev.refs]))
-        # .save('events')
-        .filter_col(['refs'])
+        .save('events')
         .consume_key('refs')
         .flatten()
         .save('refs')
-     )
+    )
 
-    # extract unique anonymous refs
-    (extr_refs.fork()
-        .filter_row(lambda ref: ref.ref_name is None)
-        .unique()
+
+    # extract anonymous refs
+    extr_refs_anon = (extr_refs.fork()
+        .filter_rows(lambda ref: ref.ref_name is None) .unique()
         .sort()
-        .filter_col(['eid', 'ref_desc', 'ref_links'])
         .count('anonymous refs')
         .save('refs_anon')
     )
 
-    extr_refs_named = (extr_refs.fork()
-        .filter_row(lambda ref: ref.ref_name is not None)
-        .sort()
-        .addattr('movie', 'provaprova') # TODO
+    def get_wikipage(**kwargs):
+        mode, desc = kwargs['mode'], kwargs['element'].ref_desc
+        if mode == 1:
+            text = re.match(r'^<i>([^"]*)</i>', desc).group(1)
+        if mode == 2:
+            text = re.match(r'^In <i>([^"]*)</i>', desc).group(1)
+        title = wtp.parse(text).wikilinks[0].title
+        return title
+
+    # extracts valid anonymous refs, then adds source title
+    extr_refs_anon_2 = (extr_refs_anon.fork()
+        .filter_rows(lambda ref: re.match(r'^In <i>[^"]*</i>', ref.ref_desc))
+        .addattr('source_title', get_wikipage, use_element=True, **{'mode': 2})
+    )
+    (extr_refs_anon
+        .filter_rows(lambda ref: re.match(r'^<i>[^"]*</i>', ref.ref_desc))
+        .addattr('source_title', get_wikipage, use_element=True, **{'mode': 1})
+        .extend(extr_refs_anon_2)
+        .count('anonymous valid refs')
+        .save('refs_anon_valid')
     )
 
     # extract named refs
-    (extr_refs_named.fork()
+    extr_refs_named = (extr_refs.fork()
+        .filter_rows(lambda ref: ref.ref_name is not None)
         .unique()
         .sort()
         .count('named refs')
@@ -181,11 +218,10 @@ if __name__ == "__main__":
 
     # extract unique refnames
     refnames = (extr_refs_named.fork()
-        .filter_col(['ref_name'])
         .consume_key('ref_name')
         .unique()
         .sort()
-        .count('refnames')
+        .count('unique refnames')
         .save('refnames')
         .get()
     )
@@ -194,9 +230,68 @@ if __name__ == "__main__":
     extr_movies = Extractor(f'{manual_dir}/movies.json')
     extr_episodes = Extractor(f'{manual_dir}/episodes.json')
 
-    episodes_refnames = (extr_episodes
-        .fork()
-        .filter_col(['series', 'refname'])
-        .consume_key('refname')
-        .get()
+    def add_source_attrs(**kwargs):
+        to_add, source = kwargs['to_add'], kwargs['element']
+        if to_add == 'd':
+            out = {}
+            for k, v in source.items():
+                if k == 'refname':
+                    continue
+                out[k] = v
+            return out
+        elif to_add == 's':
+            return source['refname']
+    
+    # extract sources by combining movies and tv episodes
+    extr_episodes = (extr_episodes
+        .addattr('details', add_source_attrs, use_element=True, **{'to_add': 'd'})
+        .addattr('sid', add_source_attrs, use_element=True, **{'to_add': 's'})
+        .addattr('type', 'tv_episode')
+        .filter_cols(['sid', 'type', 'details'])
     )
+    extr_sources = (extr_movies.fork()
+        .addattr('details', add_source_attrs, use_element=True, **{'to_add': 'd'})
+        .addattr('sid', add_source_attrs, use_element=True, **{'to_add': 's'})
+        .addattr('type', 'movie')
+        .filter_cols(['sid', 'type', 'details'])
+        .extend(extr_episodes)
+        .save('sources')
+    )
+
+    # TODO Extractor: extr_refs_named > add source attribute (check values against extr_sources, check if source or sub-source)
+    # TODO Extractor: extr_refs_anon  > add source attribute copying from ref_name
+    # TODO Structs: Ref > add refid
+
+
+    # reflegend = {}
+
+    # def get_root(name: str):
+    #     tkns = name.split(' ')
+    #     prfx = tkns[0]
+    #     sffx = ' '.join(tkns[1:])
+    #     # if '/' in prfx:
+    #     #     pass
+
+    #     if re.match(r'^[A-Za-z&]+[0-9]{1,3}', prfx) and prfx in ep_refnames:
+    #         series = (extr_episodes
+    #             .filter_rows(lambda ep: ep['refname'] == prfx)
+    #             .get())[0]['series']
+    #         return series
+
+    # named_refs = extr_refs_named.get()
+    # for ref in named_refs:
+    #     # name = ref.ref_name
+    #     name = get_root(ref.ref_name)
+
+    #     if name:
+    #         if name not in reflegend.keys():
+    #             reflegend[name] = {
+    #                 'count': 1,
+    #                 # 'events': [ref.eid],
+    #             }
+    #         else:
+    #             reflegend[name]['count'] += 1
+    #             # reflegend[name]['events'].append(ref.eid)
+
+    # with open(os.path.join(os.path.dirname(__file__), f'reflegend.json'), 'w') as outfile:
+    #     outfile.write(json.dumps(reflegend, indent=2, ensure_ascii=False))

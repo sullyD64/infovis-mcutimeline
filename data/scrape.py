@@ -10,6 +10,8 @@ from utils import TextFormatter
 BASE_URL = 'https://marvelcinematicuniverse.fandom.com/wiki/'
 OUT_DIR = os.path.join(os.path.dirname(__file__), 'auto/characters')
 
+MEDIA = ['movie', 'oneshot', 'tv series', 'web series', 'game', 'comic']
+
 class WikipageNotExistingError(Exception):
     def __init__(self, page):
         super().__init__(f"Wiki page not found: \"{page}\"")
@@ -41,10 +43,9 @@ def get_character_details(page: str):
         if chartemp:
             print(f'[Found] character template for {page}')
             appearences = {}
-            media_list = ['movie', 'oneshot', 'tv series', 'web series', 'game', 'comic']
 
             tf = TextFormatter()
-            for media in media_list:
+            for media in MEDIA:
                 m_apps = list(filter(lambda arg: media in arg.name, chartemp.arguments))
                 m_apps = m_apps[0].value if m_apps else None
 

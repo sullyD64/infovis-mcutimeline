@@ -6,7 +6,15 @@ from utils import TextFormatter, MyHTMLParser
 
 
 class Ref(object):
-    def __init__(self, eid: int, text: str = None):
+    def __init__(
+        self, 
+        eid: int = None,
+        text: str = None, 
+        empty: bool = False):
+
+        if empty:
+            return
+
         self.eid = eid
         if text:
             self.ref_name = MyHTMLParser().extract_name(text)
@@ -18,7 +26,7 @@ class Ref(object):
                              .convert_userbloglinks_to_html()
                              .convert_bolds_to_html()
                              .convert_italics_to_html()
-                             .strip_wiki_links()
+                            #  .strip_wiki_links()
                              .strip_wps_templates()
                              .remove_quote_templates()
                              .remove_nowiki_html_tags()
@@ -36,15 +44,16 @@ class Ref(object):
                 .get()
             ).wikilinks]
 
-    def to_dict(self):
+    def to_dict(self, **kwargs):
+        if kwargs:
+            pass # do nothing
         return self.__dict__
 
     @classmethod
     def from_dict(self, **kwargs):
-        ref = Ref(kwargs['eid'])
-        ref.ref_name = kwargs['ref_name']
-        ref.ref_desc = kwargs['ref_desc']
-        ref.ref_links = kwargs['ref_links']
+        ref = Ref()
+        for k, v in kwargs.items():
+            setattr(ref, k, v)
         return ref
 
     def key(self):
@@ -167,15 +176,14 @@ class Event(object):
     @classmethod
     def from_dict(self, **kwargs):
         ev = Event(empty=True)
-        for k in kwargs.keys():
+        for k, v in kwargs.items():
             if k == 'refs':
-                ev.refs = [Ref.from_dict(**x) for x in kwargs['refs']]
+                ev.refs = [Ref.from_dict(**x) for x in v]
             else:
-                setattr(ev, k, kwargs[k])
-                # exec(f'ev.{k} = kwargs["{k}"]')
+                setattr(ev, k, v)
         return ev
 
-    def to_dict(self):
+    def to_dict(self, **kwargs):
         '''
         WTP objects (which are just wrappers) are stringified on Event __init__,
         but Event still carries a list of Ref objects which are not JSON serializable.
@@ -183,7 +191,7 @@ class Event(object):
         '''
         jdict = {}
         for k, v in self.__dict__.items():
-            if v and isinstance(v, list) and all(isinstance(x, Ref) for x in v):
+            if v and isinstance(v, list) and all(isinstance(x, Ref) for x in v) and (not kwargs or not kwargs['ignore_nested']):
                 v = [ref.to_dict() for ref in v]
             jdict[k] = v
         return jdict
