@@ -4,34 +4,36 @@ import wikitextparser as wtp
 
 from utils import TextFormatter, MyHTMLParser
 
+
 class Ref(object):
     def __init__(self, eid: int, text: str = None):
         self.eid = eid
         if text:
             self.ref_name = MyHTMLParser().extract_name(text)
             self.ref_desc = (TextFormatter()
-                             .begin(text)
+                             .text(text)
                              .strip_ref_html_tags()
-                             .convert_quotes_from_double_to_single()
-                             .convert_userbloglinks_to_html()
-                             .strip_wiki_links()
-                             .strip_wps_templates()
-                             .remove_nowiki_html_tags()
-                             .remove_quote_templates()
+                             .mark_double_quotes()
                              .convert_ext_links_to_html()
+                             .convert_userbloglinks_to_html()
                              .convert_bolds_to_html()
                              .convert_italics_to_html()
-                             .end()
+                             .strip_wiki_links()
+                             .strip_wps_templates()
+                             .remove_quote_templates()
+                             .remove_nowiki_html_tags()
+                             .restore_double_quotes()
+                             .get()
                              )
 
             self.ref_desc = self.ref_desc if self.ref_desc else None  # replace empty string with none
             self.ref_links = [str(x) for x in wtp.parse(
                 TextFormatter()
-                .begin(text)
+                .text(text)
                 .convert_userbloglinks_to_html()
                 .strip_wps_templates()
                 .remove_quote_templates()
-                .end()
+                .get()
             ).wikilinks]
 
     def to_dict(self):
@@ -45,15 +47,15 @@ class Ref(object):
         ref.ref_links = kwargs['ref_links']
         return ref
 
-    def __key(self):
+    def key(self):
         return (self.ref_name, self.ref_desc)
 
     def __hash__(self):
-        return hash(self.__key())
+        return hash(self.key())
 
     def __eq__(self, other):
         if isinstance(other, Ref):
-            return self.__key() == other.__key()
+            return self.key() == other.key()
         return NotImplemented
 
     def __lt__(self, other):
@@ -65,7 +67,17 @@ class Ref(object):
 class Event(object):
     eid = 0
 
-    def __init__(self, filename: str = None, ln: str = None, text: str = None, day: str = None, month: str = None, year: str = None, reality: str = None, empty: bool = False):
+    def __init__(
+        self,
+        filename: str = None,
+        ln: str = None,
+        text: str = None,
+        day: str = None,
+        month: str = None,
+        year: str = None,
+        reality: str = None,
+        empty: bool = False):
+
         if empty:
             return
 
@@ -79,21 +91,22 @@ class Event(object):
 
         tf = TextFormatter()
         text_norefs = (tf
-                       .begin(text)
+                       .text(text)
                        .remove_ref_nodes()
-                       .end()
+                       .get()
                        )
 
         self.desc = (tf
-                     .begin(text_norefs)
-                     .convert_quotes_from_double_to_single()
-                     .strip_wiki_links()
-                     .strip_wps_templates()
+                     .text(text_norefs)
+                     .mark_double_quotes()
                      .convert_ext_links_to_html()
                      .convert_bolds_to_html()
                      .convert_italics_to_html()
+                     .strip_wiki_links()
+                     .strip_wps_templates()
                      .remove_nowiki_html_tags()
-                     .end()
+                     .restore_double_quotes()
+                     .get()
                      )
 
         self.level = self.__get_heading_level(self.desc)
@@ -154,11 +167,12 @@ class Event(object):
     @classmethod
     def from_dict(self, **kwargs):
         ev = Event(empty=True)
-        for k, v in kwargs.items():
+        for k in kwargs.keys():
             if k == 'refs':
                 ev.refs = [Ref.from_dict(**x) for x in kwargs['refs']]
             else:
-                exec(f'ev.{k} = kwargs["{k}"]')
+                setattr(ev, k, kwargs[k])
+                # exec(f'ev.{k} = kwargs["{k}"]')
         return ev
 
     def to_dict(self):

@@ -1,8 +1,7 @@
 import os
 import re
-import sys
 
-from structs import Ref, Event, EventList
+from structs import Event, EventList
 from utils import TextFormatter, MyHTMLParser
 
 class Main(object):
@@ -51,11 +50,11 @@ class Main(object):
                     # remove_empty_refs:        remove empty <ref> tags which were left over by the previous removal of links/images.
                     # fix_incorrect_refs:       done before processing text, because those tags are incorrectly parsed by htmlparser and thus cause errors in detecting balanced tags.
                     line = (TextFormatter()
-                        .begin(line)
+                        .text(line)
                         .remove_wiki_images_or_files()
                         .remove_empty_ref_nodes()
                         .fix_void_ref_nodes()
-                        .end()
+                        .get()
                     )
 
                     curr_text += line
