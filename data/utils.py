@@ -112,11 +112,12 @@ class TextFormatter(object):
         return self
 
     def mark_double_quotes(self):
-        """Converts all double quotes to single quotes, to avoid collision in html attributes."""
+        """Converts all double quotes to a special character, to avoid collision in html attributes."""
         self.t = re.sub(r'\"', '~', self.t)
         return self
 
     def restore_double_quotes(self):
+        """Restores all "escaped" double quotes."""
         self.t = re.sub(r'~', '"', self.t)
         return self
 
@@ -129,6 +130,13 @@ class TextFormatter(object):
     def remove_quote_templates(self):
         """Remove quote templates entirely."""
         self.t = re.sub(r'\{\{Quote(\|[^\|]*){3}\}\}', '', self.t)
+        return self
+
+    # --------------
+
+    def strip_small_html_tags(self):
+        """"Removes starting and trailing <small> tags"""
+        self.t = re.sub(r'<small>([^<>]*)</small>', r'\1', self.t)
         return self
 
 
