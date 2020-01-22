@@ -5,9 +5,8 @@ import re
 
 from structs import Event, Ref
 
-# refnames_movie = ['IM', 'TIH', 'IM2', 'T', 'CATFA', 'TA', 'IM3', 'TTDW', 'CATWS', 'GotG', 'AAoU', 'AM', 'CACW', 'DS', 'GotGV2', 'SMH', 'TR', 'BP', 'AIW', 'AMatW', 'CM', 'AE', 'SMFFH', ]
-# refnames_shows = ['AoS', 'AC', 'AoSSS', 'I', 'DD', 'JJ', 'LC', 'IF', 'TD', 'TP', 'R', 'C&D', ]
-
+DIR = os.path.dirname(__file__)
+OUT_DIR = os.path.join(DIR, 'auto')
 
 class Extractor(object):
     """ 
@@ -18,7 +17,7 @@ class Extractor(object):
         if not infile:
             self.data = data
         else:
-            with open(os.path.join(os.path.dirname(__file__), f'{infile}.json')) as wrapper:
+            with open(infile) as wrapper:
                 self.data = json.loads(wrapper.read())
 
     def fork(self):
@@ -114,9 +113,9 @@ class Extractor(object):
         print(f'{len(self.data)} {what}')
         return self
 
-    def save(self, outpath=None):
+    def save(self, outfile=None):
         """
-        Saves current data outpath, serialized as JSON. Default file name is extracted__{outpath}.json. 
+        Saves current data in outfile, serialized as JSON. Default file name is extracted__{outfile}.json. 
         Python objects anywhere in data are dictified. (see Event.to_dict() or Ref.to_dict())
         """
         def __dictify(elem):
@@ -130,21 +129,19 @@ class Extractor(object):
                 elem = [__dictify(x) for x in elem]
             return elem
 
-        outpath = '' if not outpath else outpath
-        with open(os.path.join(os.path.dirname(__file__), f'extracted__{outpath}.json'), 'w') as outfile:
+        outfile = '' if not outfile else outfile
+        with open(f'{OUT_DIR}/extracted__{outfile}.json', 'w') as outfile:
             dict_data = list(map(__dictify, self.data))
             outfile.write(json.dumps(dict_data, indent=2, ensure_ascii=False))
         return self
 
 
 if __name__ == "__main__":
-    infile = 'parsed'
-
-    for outfile in glob.glob(os.path.join(os.path.dirname(__file__), 'extracted__*')):
-        pass
+    for outfile in glob.glob(f'{OUT_DIR}/extracted__*'):
         os.remove(outfile)
 
-    extr_refs = Extractor(infile)
+    infile_parsed = os.path.join(DIR, f'{OUT_DIR}/parsed.json')
+    extr_refs = Extractor(infile_parsed)
 
     # extract all refs, flattened
     (extr_refs
@@ -155,7 +152,7 @@ if __name__ == "__main__":
         .filter_col(['refs'])
         .consume_key('refs')
         .flatten()
-        # .save('refs')
+        .save('refs')
      )
 
     # extract unique anonymous refs
@@ -193,8 +190,9 @@ if __name__ == "__main__":
         .get()
     )
 
-    extr_movies = Extractor('movies')
-    extr_episodes = Extractor('episodes')
+    manual_dir = os.path.join(DIR, 'manual')
+    extr_movies = Extractor(f'{manual_dir}/movies.json')
+    extr_episodes = Extractor(f'{manual_dir}/episodes.json')
 
     episodes_refnames = (extr_episodes
         .fork()

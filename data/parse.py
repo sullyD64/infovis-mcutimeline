@@ -4,6 +4,10 @@ import re
 from structs import Event, EventList
 from utils import TextFormatter, MyHTMLParser
 
+DIR = os.path.dirname(__file__)
+IN_DIR = os.path.join(DIR, 'raw')
+OUT_DIR = os.path.join(DIR, 'auto')
+
 class Main(object):
     @staticmethod
     def parse(file: list, filename: str):
@@ -105,12 +109,7 @@ class Main(object):
 
 
 if __name__ == "__main__":
-    indir = os.path.join(os.path.dirname(__file__), 'raw/')
-    outpath = os.path.join(os.path.dirname(__file__), 'parsed.json')
-
-    # if len(sys.argv) != 2:
-    #     exit("usage: python parse.py <filepath>")
-    # fname = sys.argv[1]
+    outfile = f'{OUT_DIR}/parsed.json'
 
     filelist = ['before-20th', '1900s', '1910s', '1920s', '1930s', '1940s', '1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010', '2011', '2012',
                 '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2023', '2024', '2091', 'framework', 'lighthouse', 'dark-dimension', 'time-heist', ]
@@ -121,11 +120,12 @@ if __name__ == "__main__":
     elist = EventList()
     for i, fname in enumerate(filelist, start=1):
         try:
-            with open(indir + fname) as wrapper:
+            infile = f'{IN_DIR}/{fname}'
+            with open(infile) as wrapper:
                 tfile = wrapper.read().splitlines()
 
                 # COMMENT IF NEEDED
-                print(f'[Parsing] {i}/{len(filelist)}\t{indir + fname}')
+                print(f'[Parsing] {i}/{len(filelist)}\t{infile}')
                 elist.events.extend(Main.parse(tfile, fname).events)
 
                 # # UNCOMMENT IF NEEDED
@@ -149,6 +149,6 @@ if __name__ == "__main__":
     print(f'[Parsing] grouping nested events...')
     elist.events = Main.group_events(elist).events
 
-    with open(outpath, 'w') as outfile:
-        outfile.write(str(elist))
-        print(f'[Done] output available at {outpath}')
+    with open(outfile, 'w') as output:
+        output.write(str(elist))
+        print(f'[Done] output available at {outfile}')

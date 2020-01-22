@@ -1,4 +1,3 @@
-import re
 import unittest
 
 from utils import TextFormatter, WikitagsNotBalancedError
