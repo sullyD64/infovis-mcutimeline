@@ -164,50 +164,10 @@ if __name__ == "__main__":
     for outfile in glob.glob(f'{OUT_DIR}/extracted__*'):
         os.remove(outfile)
 
-    infile_parsed = os.path.join(DIR, f'{OUT_DIR}/parsed.json')
-    extr_refs = Extractor(infile_parsed)
-
-    # extract all refs, flattened
-    (extr_refs
-        .mapto(lambda ev: Event.from_dict(**ev))  # Parse raw data into Event and Ref objects.
-        .save('events')
-        .consume_key('refs')
-        .flatten()
-        .save('refs')
-    )
 
     # =============================
-    # ANONYMOUS REFS
+    # 1. SOURCES
     # =============================
-
-    # extract anonymous refs
-    extr_refs_anon = (extr_refs.fork()
-        .filter_rows(lambda ref: ref.ref_name is None) .unique()
-        .sort()
-        .count('anonymous refs')
-        .save('refs_anon')
-    )
-
-    def get_wikipage(**kwargs):
-        mode, desc = kwargs['mode'], kwargs['element'].ref_desc
-        if mode == 1:
-            text = re.match(r'^<i>([^"]*)</i>', desc).group(1)
-        if mode == 2:
-            text = re.match(r'^In <i>([^"]*)</i>', desc).group(1)
-        title = wtp.parse(text).wikilinks[0].title
-        return title
-
-    # extracts valid anonymous refs, then adds source title
-    (extr_refs_anon
-        .filter_rows(lambda ref: re.match(r'^<i>[^"]*</i>', ref.ref_desc))
-        .addattr('source_title', get_wikipage, use_element=True, **{'mode': 1})
-        .extend(
-            extr_refs_anon.fork()
-            .filter_rows(lambda ref: re.match(r'^In <i>[^"]*</i>', ref.ref_desc))
-            .addattr('source_title', get_wikipage, use_element=True, **{'mode': 2})        )
-        .count('anonymous valid refs')
-        .save('refs_anon_valid')
-    )
 
     manual_dir = os.path.join(DIR, 'manual')
     extr_movies = Extractor(f'{manual_dir}/movies.json')
@@ -224,30 +184,93 @@ if __name__ == "__main__":
             return out
         elif to_add == 's':
             return source['refname']
-    
+
     # extract sources by combining movies and tv episodes
     extr_episodes = (extr_episodes
-        .addattr('details', add_source_attrs, use_element=True, **{'to_add': 'd'})
-        .addattr('sid', add_source_attrs, use_element=True, **{'to_add': 's'})
-        .addattr('type', 'episode')
-        .filter_cols(['sid', 'type', 'details'])
-    )
+                     .addattr('details', add_source_attrs, use_element=True, **{'to_add': 'd'})
+                     .addattr('sid', add_source_attrs, use_element=True, **{'to_add': 's'})
+                     .addattr('type', 'episode')
+                     .filter_cols(['sid', 'type', 'details'])
+                     )
     extr_sources = (extr_movies.fork()
-        .addattr('details', add_source_attrs, use_element=True, **{'to_add': 'd'})
-        .addattr('sid', add_source_attrs, use_element=True, **{'to_add': 's'})
-        .addattr('type', 'film')
-        .filter_cols(['sid', 'type', 'details'])
-        .extend(extr_episodes)
-        .save('sources')
+                    .addattr('details', add_source_attrs, use_element=True, **{'to_add': 'd'})
+                    .addattr('sid', add_source_attrs, use_element=True, **{'to_add': 's'})
+                    .addattr('type', 'film')
+                    .filter_cols(['sid', 'type', 'details'])
+                    .extend(extr_episodes)
+                    .count('sources')
+                    .save('sources')
+                    )
+    sources = extr_sources.get()
+
+    print('='*100)
+    # =============================
+    # 2. REFS
+    # =============================
+
+    infile_parsed = os.path.join(DIR, f'{OUT_DIR}/parsed.json')
+    extr_refs = Extractor(infile_parsed)
+
+    # extract all refs, flattened
+    (extr_refs
+        .mapto(lambda ev: Event.from_dict(**ev))  # Parse raw data into Event and Ref objects.
+        .save('events')
+        .consume_key('refs')
+        .flatten()
+        .count('refs')
+        .save('refs')
     )
 
     print('='*100)
-    sources = extr_sources.get()
+    # =============================
+    # 2.1 ANONYMOUS REFS
+    # =============================
+
+    # extract anonymous refs
+    extr_refs_anon = (extr_refs.fork()
+        .filter_rows(lambda ref: ref.ref_name is None) .unique()
+        .sort()
+        .count('anonymous refs')
+        .save('refs_anon')
+    )
+
+    def refs__add_sourcetitle(**kwargs):
+        ref = kwargs['element']
+        if hasattr(ref, 'source_title') and ref.source_title:
+            return ref.source_title
+        output = None
+        if ref.ref_desc:
+            matches = re.match(re.compile(kwargs['pattern']), ref.ref_desc)
+            if matches:
+                text = matches.group(1)
+                links = wtp.parse(text).wikilinks
+                if links:
+                    output = links[0].title
+        return output
+
+    # TODO refs__add_sourcetitle > consider if including $ or not (include Deleted Scenes, etc.)
+    pattern__anon__begin_title_end = r'^<i>([^"]*)</i>$'
+    pattern__anon__begin_in_title_continue = r'^In <i>([^"]*)</i>'
+
+    # extracts valid anonymous refs, then adds source title
+    (extr_refs_anon
+        .filter_rows(lambda ref: re.match(pattern__anon__begin_title_end, ref.ref_desc))
+        .addattr('source_title', refs__add_sourcetitle, use_element=True, **{'pattern': pattern__anon__begin_title_end})
+        .extend(
+            extr_refs_anon.fork()
+            .filter_rows(lambda ref: re.match(pattern__anon__begin_in_title_continue, ref.ref_desc))
+            .addattr('source_title', refs__add_sourcetitle, use_element=True, **{'pattern': pattern__anon__begin_in_title_continue})
+        )
+        .count('anonymous valid refs')
+        .save('refs_anon_sourcetitle')
+    )
+
     count_found, count_notfound = 0, 0
+    count_updated_sources = 0
     count_tot = len(extr_refs_anon.get())
 
-    def add_source_anonrefs(**kwargs):
-        global count_found, count_notfound, count_tot
+    def anonrefs__add_source(**kwargs):
+        global count_found, count_notfound, count_updated_sources
         ref = kwargs['element']
         found = False
         output = None
@@ -262,46 +285,89 @@ if __name__ == "__main__":
         clarification = None
         clarification_found = re.findall(r'\(([^\)]+)\)', ref.source_title)
         title = ref.source_title
-        if clarification_found and not clarification_found[0] == "T.R.O.Y.":  # TODO add_source_anonrefs > workaround for Luke Cage 2.13 (find a better way)
+        if clarification_found and not clarification_found[0] == "T.R.O.Y.":  # TODO anonrefs__add_source > workaround for Luke Cage 2.13 (find a better way)
             clarification = clarification_found[0]
             title = re.sub(r'(\([^\)]+\))$', '', ref.source_title).strip()
-            print(f'[add_source_anonrefs] eid: {ref.eid} has clarification ({clarification}) in title: "{ref.source_title}"')
+            print(f'[anonrefs__add_source] eid: {ref.eid} has clarification ({clarification}) in title: "{ref.source_title}"')
 
-        for source in sources:
-            if (source['details']['title'].startswith(title)) and (not clarification or (clarification_matches(clarification, source))):
+        for index, source in enumerate(sources):
+            stitle = source['details']['title']
+            if (stitle.startswith(title)) and (not clarification or (clarification_matches(clarification, source))):
                 found = True
                 output = source['sid']
+                if stitle.strip() != ref.source_title.strip():
+                    sources[index]['details']['title'] = ref.source_title
+                    count_updated_sources += 1
+                break
  
         if found:
             count_found += 1
         else:
-            # TODO add_source_anonrefs > create missing source
+            # TODO anonrefs__add_source > create missing source
             count_notfound += 1
-            print(f'[add_source_anonrefs] eid: {ref.eid} refers to missing source: {title}')
+            # print(f'[anonrefs__add_source] eid: {ref.eid} refers to missing source: {title}')
     
         return output
 
     (extr_refs_anon
-        .addattr('source', add_source_anonrefs, use_element=True)
+        .addattr('source', anonrefs__add_source, use_element=True)
         # .filter_rows(lambda ref: not ref.source)
-        .save('refs_anon_valid_sources')
+        .save('refs_anon_sourcetitle_source')
     )
-    print(f'{count_found}/{count_tot} (not found: {count_notfound})')
+    print(f'[anonrefs__add_source]: sources added to [{count_found}/{count_tot}] anon refs (not found: {count_notfound})')
 
     print('='*100)
-
     # =============================
-    # NAMED REFS
+    # 2.2.1 Update sources
+    # =============================
+
+    print(f'updated sources: {count_updated_sources}')
+    extr_sources = Extractor(data=sources)
+    extr_sources.save('sources_updated')
+    updated_sources = extr_sources.get()
+
+    print('='*100)
+    # =============================
+    # 2.2 NAMED REFS
     # =============================
 
     # extract named refs
     extr_refs_named = (extr_refs.fork()
         .filter_rows(lambda ref: ref.ref_name is not None)
-        .unique()
         .sort()
         .count('named refs')
         .save('refs_named')
+        .unique()
+        .sort()
+        .count('unique named refs')
+        .save('refs_named_unique')
     )
+
+    count_found, count_notfound = 0, 0
+    count_tot = len(extr_refs_named.get())
+
+    def namedrefs__add_source(**kwargs):
+        global count_found, count_notfound
+        ref = kwargs['element']
+        found = False
+        output = None
+        for source in updated_sources:
+            pass
+        return output
+
+    pattern__named__begin_title_end = r'^<i>([^"]*)</i>$'
+    pattern__named__begin_in_title_continue = r'^In <i>([^"]*)</i>'
+
+    (extr_refs_named.fork()
+        .addattr('source_title', refs__add_sourcetitle, use_element=True, **{'pattern': pattern__named__begin_title_end})
+        .addattr('source_title', refs__add_sourcetitle, use_element=True, **{'pattern': pattern__named__begin_in_title_continue})
+        .filter_rows(lambda ref: ref.source_title is not None)
+        .count('unique named refs with sourcetitle')
+        .save('refs_named_unique_sourcetitle')
+    )
+
+    # TODO Extractor: extr_refs_named > add source attribute (check values against extr_sources, check if source or sub-source)
+    # TODO Structs: Ref > add refid
 
     # extract unique refnames
     refnames = (extr_refs_named.fork()
@@ -309,16 +375,9 @@ if __name__ == "__main__":
         .unique()
         .sort()
         .count('unique refnames')
-        .save('refnames')
+        .save('refnames)legend')
         .get()
     )
-
-    # TODO Extractor: extr_refs_named > add source attribute (check values against extr_sources, check if source or sub-source)
-    # TODO Structs: Ref > add refid
-
-
-
-
 
 
 
