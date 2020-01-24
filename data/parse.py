@@ -95,7 +95,7 @@ class Main(object):
             level = int(ev.level)
             if level == 1:
                 if sub_evs_encountered:
-                    print(f'[Grouping] {main_ev.id} with {[e.id for e in sub_evs]}')
+                    print(f'[Grouping] {main_ev.eid} with {[e.eid for e in sub_evs]}')
                     main_ev.join(sub_evs)
                     sub_evs = []
                     sub_evs_encountered = False

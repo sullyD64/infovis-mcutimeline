@@ -217,6 +217,7 @@ if __name__ == "__main__":
         .save('events')
         .consume_key('refs')
         .flatten()
+        .filter_cols(['rid', 'event__id', 'ref_name', 'ref_desc'])
         .count('refs')
         .save('refs')
     )
@@ -234,7 +235,7 @@ if __name__ == "__main__":
         .save('refs_anon')
     )
 
-    def refs__add_sourcetitle(**kwargs):
+    def refs__add_srctitle(**kwargs):
         ref = kwargs['element']
         if hasattr(ref, 'source_title') and ref.source_title:
             return ref.source_title
@@ -248,28 +249,28 @@ if __name__ == "__main__":
                     output = links[0].title
         return output
 
-    # TODO refs__add_sourcetitle > consider if including $ or not (include Deleted Scenes, etc.)
+    # TODO refs__add_srctitle > consider if including $ or not (include Deleted Scenes, etc.)
     pattern__anon__begin_title_end = r'^<i>([^"]*)</i>$'
     pattern__anon__begin_in_title_continue = r'^In <i>([^"]*)</i>'
 
     # extracts valid anonymous refs, then adds source title
     (extr_refs_anon
         .filter_rows(lambda ref: re.match(pattern__anon__begin_title_end, ref.ref_desc))
-        .addattr('source_title', refs__add_sourcetitle, use_element=True, **{'pattern': pattern__anon__begin_title_end})
+        .addattr('source_title', refs__add_srctitle, use_element=True, **{'pattern': pattern__anon__begin_title_end})
         .extend(
             extr_refs_anon.fork()
             .filter_rows(lambda ref: re.match(pattern__anon__begin_in_title_continue, ref.ref_desc))
-            .addattr('source_title', refs__add_sourcetitle, use_element=True, **{'pattern': pattern__anon__begin_in_title_continue})
+            .addattr('source_title', refs__add_srctitle, use_element=True, **{'pattern': pattern__anon__begin_in_title_continue})
         )
         .count('anonymous valid refs')
-        .save('refs_anon_sourcetitle')
+        .save('refs_anon_srctitle')
     )
 
     count_found, count_notfound = 0, 0
     count_updated_sources = 0
     count_tot = len(extr_refs_anon.get())
 
-    def anonrefs__add_source(**kwargs):
+    def anonrefs__add_srcid(**kwargs):
         global count_found, count_notfound, count_updated_sources
         ref = kwargs['element']
         found = False
@@ -285,10 +286,10 @@ if __name__ == "__main__":
         clarification = None
         clarification_found = re.findall(r'\(([^\)]+)\)', ref.source_title)
         title = ref.source_title
-        if clarification_found and not clarification_found[0] == "T.R.O.Y.":  # TODO anonrefs__add_source > workaround for Luke Cage 2.13 (find a better way)
+        if clarification_found and not clarification_found[0] == "T.R.O.Y.":  # TODO anonrefs__add_srcid > workaround for Luke Cage 2.13 (find a better way)
             clarification = clarification_found[0]
             title = re.sub(r'(\([^\)]+\))$', '', ref.source_title).strip()
-            print(f'[anonrefs__add_source] eid: {ref.eid} has clarification ({clarification}) in title: "{ref.source_title}"')
+            print(f'[anonrefs__add_srcid] rid: {ref.rid} has clarification ({clarification}) in title: "{ref.source_title}"')
 
         for index, source in enumerate(sources):
             stitle = source['details']['title']
@@ -303,18 +304,17 @@ if __name__ == "__main__":
         if found:
             count_found += 1
         else:
-            # TODO anonrefs__add_source > create missing source
+            # TODO anonrefs__add_srcid > create missing source
             count_notfound += 1
-            # print(f'[anonrefs__add_source] eid: {ref.eid} refers to missing source: {title}')
+            print(f'[anonrefs__add_srcid] rid: {ref.rid} refers to missing source: {title}')
     
         return output
 
     (extr_refs_anon
-        .addattr('source', anonrefs__add_source, use_element=True)
-        # .filter_rows(lambda ref: not ref.source)
-        .save('refs_anon_sourcetitle_source')
+        .addattr('source__id', anonrefs__add_srcid, use_element=True)
+        .save('refs_anon_srctitle_srcid')
     )
-    print(f'[anonrefs__add_source]: sources added to [{count_found}/{count_tot}] anon refs (not found: {count_notfound})')
+    print(f'[anonrefs__add_srcid]: sources added to [{count_found}/{count_tot}] anon refs (not found: {count_notfound})')
 
     print('='*100)
     # =============================
@@ -337,6 +337,8 @@ if __name__ == "__main__":
         .sort()
         .count('named refs')
         .save('refs_named')
+    )
+    extr_refs_named_unique = (extr_refs_named.fork()
         .unique()
         .sort()
         .count('unique named refs')
@@ -344,30 +346,58 @@ if __name__ == "__main__":
     )
 
     count_found, count_notfound = 0, 0
-    count_tot = len(extr_refs_named.get())
+    count_tot = len(extr_refs_named_unique.get())
 
-    def namedrefs__add_source(**kwargs):
+    def namedrefs__add_srcid(**kwargs):
         global count_found, count_notfound
         ref = kwargs['element']
+        refname, srctitle = ref.ref_name, ref.source_title
         found = False
         output = None
-        for source in updated_sources:
-            pass
+        matching_exact = list(filter(lambda src: src['sid'] == refname, sources))
+        if matching_exact:
+            output = matching_exact[0]['sid']
+            found = True
+        else:
+            if len(refname.split(' ')) == 1:
+                # TODO namedrefs__add_srcid > SINGLE TOKEN > determine if a source or not, then HANDLE_MISSING_SRCID or HANDLE_NOT_A_SOURCE
+                pass
+            else:
+                # TODO namedrefs__add_srcid > MULTIPLE TOKENS > determine if tokens contain a matching srcid. If so, HANDLE_SUB_REF, else HANDLE_NOT_A_SOURCE
+                pass
+        if found:
+            count_found += 1
+        else:
+            count_notfound += 1
+        return output
+
+    def namedrefs__add_missing_srctitle(**kwargs):
+        srcid = kwargs['element'].source__id
+        output = None
+        match = list(filter(lambda src: src['sid'] == srcid, sources))
+        if match:
+            output = match[0]['details']['title']
         return output
 
     pattern__named__begin_title_end = r'^<i>([^"]*)</i>$'
     pattern__named__begin_in_title_continue = r'^In <i>([^"]*)</i>'
 
-    (extr_refs_named.fork()
-        .addattr('source_title', refs__add_sourcetitle, use_element=True, **{'pattern': pattern__named__begin_title_end})
-        .addattr('source_title', refs__add_sourcetitle, use_element=True, **{'pattern': pattern__named__begin_in_title_continue})
-        .filter_rows(lambda ref: ref.source_title is not None)
+    (extr_refs_named_unique
+        .addattr('source_title', refs__add_srctitle, use_element=True, **{'pattern': pattern__named__begin_title_end})
+        .addattr('source_title', refs__add_srctitle, use_element=True, **{'pattern': pattern__named__begin_in_title_continue})
         .count('unique named refs with sourcetitle')
-        .save('refs_named_unique_sourcetitle')
+        .save('refs_named_unique_srctitle')
+        .addattr('source__id', namedrefs__add_srcid, use_element=True)
+        .addattr('source_title', namedrefs__add_missing_srctitle, use_element=True)
     )
 
-    # TODO Extractor: extr_refs_named > add source attribute (check values against extr_sources, check if source or sub-source)
-    # TODO Structs: Ref > add refid
+    print(f'[namedrefs__add_srcid]: sources added to [{count_found}/{count_tot}] named refs (not found: {count_notfound})')
+
+    (extr_refs_named_unique
+        .filter_rows(lambda ref: ref.source__id and ref.source_title)
+        .count('unique named refs with sourcetitle and sourceid')
+        .save('refs_named_unique_srctitle_srcid')
+    )
 
     # extract unique refnames
     refnames = (extr_refs_named.fork()
@@ -375,13 +405,11 @@ if __name__ == "__main__":
         .unique()
         .sort()
         .count('unique refnames')
-        .save('refnames)legend')
+        .save('refnames_legend')
         .get()
     )
-
-
-
-
+    
+    # TODO build source > ref dictionary
 
 
 
@@ -418,11 +446,11 @@ if __name__ == "__main__":
     #         if name not in reflegend.keys():
     #             reflegend[name] = {
     #                 'count': 1,
-    #                 # 'events': [ref.eid],
+    #                 # 'events': [ref.event__id],
     #             }
     #         else:
     #             reflegend[name]['count'] += 1
-    #             # reflegend[name]['events'].append(ref.eid)
+    #             # reflegend[name]['events'].append(ref.event__id)
 
     # with open(os.path.join(os.path.dirname(__file__), f'reflegend.json'), 'w') as outfile:
     #     outfile.write(json.dumps(reflegend, indent=2, ensure_ascii=False))

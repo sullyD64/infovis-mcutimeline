@@ -6,16 +6,20 @@ from utils import TextFormatter, MyHTMLParser
 
 
 class Ref(object):
+    rid = 0
+    
     def __init__(
         self, 
-        eid: int = None,
+        event__id: int = None,
         text: str = None, 
         empty: bool = False):
 
         if empty:
             return
 
-        self.eid = eid
+        Ref.rid += 1
+        self.rid = Ref.rid
+        self.event__id = event__id
         if text:
             self.ref_name = MyHTMLParser().extract_name(text)
             self.ref_desc = (TextFormatter()
@@ -51,7 +55,7 @@ class Ref(object):
 
     @classmethod
     def from_dict(self, **kwargs):
-        ref = Ref()
+        ref = Ref(empty=True)
         for k, v in kwargs.items():
             setattr(ref, k, v)
         return ref
@@ -69,7 +73,7 @@ class Ref(object):
 
     def __lt__(self, other):
         if isinstance(other, Ref):
-            return self.eid < other.eid
+            return self.event__id < other.event__id
         return NotImplemented
 
 
@@ -91,7 +95,7 @@ class Event(object):
             return
 
         Event.eid += 1
-        self.id = Event.eid
+        self.eid = Event.eid
         self.file = filename
         self.line = ln
         self.date = self.__get_date(day, month, year)
@@ -124,7 +128,7 @@ class Event(object):
         self.links = [str(x) for x in wtp.parse(text_norefs).wikilinks]
         parsed = wtp.parse(text)
         # self.templates = [str(x) for x in parsed.templates]
-        self.refs = [Ref(self.id, str(x)) for x in list(filter(self.__filter_tags, parsed.tags()))]  # only extract <ref> tags
+        self.refs = [Ref(self.eid, str(x)) for x in list(filter(self.__filter_tags, parsed.tags()))]  # only extract <ref> tags
         self.refs = list(filter(lambda x: any([x.ref_name, x.ref_desc]), self.refs))  # remove empty refs
 
     def join(self, sub_evs: list):
@@ -139,7 +143,7 @@ class Event(object):
         sub_evs_refs_unique = set(sub_evs_refs_flat)
 
         def change_eid(ref):
-            ref.eid = self.id
+            ref.event__id = self.eid
             return ref
         self.refs = list(map(change_eid, list(set(self.refs).union(sub_evs_refs_unique))))
 
