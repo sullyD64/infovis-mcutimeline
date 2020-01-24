@@ -21,8 +21,8 @@ class Ref(object):
         self.rid = Ref.rid
         self.event__id = event__id
         if text:
-            self.ref_name = MyHTMLParser().extract_name(text)
-            self.ref_desc = (TextFormatter()
+            self.name = MyHTMLParser().extract_name(text)
+            self.desc = (TextFormatter()
                              .text(text)
                              .strip_ref_html_tags()
                              .mark_double_quotes()
@@ -38,8 +38,8 @@ class Ref(object):
                              .get()
                              )
 
-            self.ref_desc = self.ref_desc if self.ref_desc else None  # replace empty string with none
-            self.ref_links = [str(x) for x in wtp.parse(
+            self.desc = self.desc if self.desc else None  # replace empty string with none
+            self.links = [str(x) for x in wtp.parse(
                 TextFormatter()
                 .text(text)
                 .convert_userbloglinks_to_html()
@@ -61,7 +61,7 @@ class Ref(object):
         return ref
 
     def key(self):
-        return (self.ref_name, self.ref_desc)
+        return (self.name, self.desc)
 
     def __hash__(self):
         return hash(self.key())
@@ -129,7 +129,7 @@ class Event(object):
         parsed = wtp.parse(text)
         # self.templates = [str(x) for x in parsed.templates]
         self.refs = [Ref(self.eid, str(x)) for x in list(filter(self.__filter_tags, parsed.tags()))]  # only extract <ref> tags
-        self.refs = list(filter(lambda x: any([x.ref_name, x.ref_desc]), self.refs))  # remove empty refs
+        self.refs = list(filter(lambda x: any([x.name, x.desc]), self.refs))  # remove empty refs
 
     def join(self, sub_evs: list):
         start_line = re.sub(r'([0-9]+)-[0-9]*', '\1', self.line)

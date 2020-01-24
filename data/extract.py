@@ -220,7 +220,7 @@ if __name__ == "__main__":
         .save('events')
         .consume_key('refs')
         .flatten()
-        .filter_cols(['rid', 'event__id', 'ref_name', 'ref_desc'])
+        .filter_cols(['rid', 'event__id', 'name', 'desc'])
         .count('refs')
         .save('refs')
     )
@@ -232,7 +232,7 @@ if __name__ == "__main__":
 
     # extract anonymous refs
     extr_refs_anon = (extr_refs.fork()
-        .filter_rows(lambda ref: ref.ref_name is None) .unique()
+        .filter_rows(lambda ref: ref.name is None) .unique()
         .sort()
         .count('anonymous refs')
         .save('refs_anon')
@@ -243,8 +243,8 @@ if __name__ == "__main__":
         if hasattr(ref, 'source__title') and ref.source__title:
             return ref.source__title
         output = None
-        if ref.ref_desc:
-            matches = re.match(re.compile(kwargs['pattern']), ref.ref_desc)
+        if ref.desc:
+            matches = re.match(re.compile(kwargs['pattern']), ref.desc)
             if matches:
                 text = matches.group(1)
                 links = wtp.parse(text).wikilinks
@@ -258,11 +258,11 @@ if __name__ == "__main__":
 
     # extracts valid anonymous refs, then adds source title
     (extr_refs_anon
-        .filter_rows(lambda ref: re.match(pattern__anon__begin_title_end, ref.ref_desc))
+        .filter_rows(lambda ref: re.match(pattern__anon__begin_title_end, ref.desc))
         .addattr('source__title', refs__add_srctitle, use_element=True, **{'pattern': pattern__anon__begin_title_end})
         .extend(
             extr_refs_anon.fork()
-            .filter_rows(lambda ref: re.match(pattern__anon__begin_in_title_continue, ref.ref_desc))
+            .filter_rows(lambda ref: re.match(pattern__anon__begin_in_title_continue, ref.desc))
             .addattr('source__title', refs__add_srctitle, use_element=True, **{'pattern': pattern__anon__begin_in_title_continue})
         )
         .count('anonymous valid refs')
@@ -336,7 +336,7 @@ if __name__ == "__main__":
 
     # extract named refs
     extr_refs_named = (extr_refs.fork()
-        .filter_rows(lambda ref: ref.ref_name is not None)
+        .filter_rows(lambda ref: ref.name is not None)
         .sort()
         .count('named refs')
         .save('refs_named')
@@ -354,7 +354,7 @@ if __name__ == "__main__":
     def namedrefs__add_srcid(**kwargs):
         global count_found, count_notfound
         ref = kwargs['element']
-        refname, srctitle = ref.ref_name, ref.source__title
+        refname, srctitle = ref.name, ref.source__title
         found = False
         output = None
         matching_exact = list(filter(lambda src: src['sid'] == refname, sources))
@@ -397,14 +397,13 @@ if __name__ == "__main__":
     print(f'[namedrefs__add_srcid]: sources added to [{count_found}/{count_tot}] named refs (not found: {count_notfound})')
 
     (extr_refs_named_unique
-        .filter_rows(lambda ref: ref.source__id and ref.source__title)
         .count('unique named refs with sourcetitle and sourceid')
         .save('refs_named_unique_srctitle_srcid')
     )
 
     # extract unique refnames
     refnames = (extr_refs_named.fork()
-        .consume_key('ref_name')
+        .consume_key('name')
         .unique()
         .sort()
         .count('unique refnames')
@@ -442,8 +441,8 @@ if __name__ == "__main__":
 
     # named_refs = extr_refs_named.get()
     # for ref in named_refs:
-    #     # name = ref.ref_name
-    #     name = get_root(ref.ref_name)
+    #     # name = ref.name
+    #     name = get_root(ref.name)
 
     #     if name:
     #         if name not in reflegend.keys():
