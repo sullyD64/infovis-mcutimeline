@@ -76,7 +76,7 @@ if __name__ == "__main__":
         .save('refs_anon')
     )
 
-    # TODO refs__add_srctitle > consider if including $ or not (include Deleted Scenes, etc.)
+    # TODO consider if including $ or not for anon refs (include Deleted Scenes, etc.)
     pattern__anon__begin_title_end = r'^<i>([^"]*)</i>$'
     pattern__anon__begin_in_title_continue = r'^In <i>([^"]*)</i>'
 
@@ -93,7 +93,10 @@ if __name__ == "__main__":
         .save('refs_anon_srctitle')
     )
 
-    actions.set_legends(**{'sources': extr_sources.get()})
+    actions.set_legends(**{
+        'sources': extr_sources.get(), 
+        'missing_sources': []
+    })
     actions.set_counters(*['count_found', 'count_notfound', 'count_updated_sources'])
     count_tot = len(extr_refs_anon.get())
 
@@ -107,18 +110,24 @@ if __name__ == "__main__":
 
     print('='*100)
 # =============================
-# 2.2.1 Update sources
+# 2.2 Update sources
 # =============================
     print(f'\nUPDATE SOURCES (after anonrefs__add_srcid, the title of some sources has been modified)')
 
+    missing_sources = actions.get_legend('missing_sources')
+    Extractor(data=missing_sources).save('sources_missing')
+
     updated_sources = actions.get_legend('sources')
     Extractor(data=updated_sources).save('sources_updated')
-    actions.set_legends(**{'sources': updated_sources})
+    actions.set_legends(**{
+        'sources': updated_sources, 
+        'missing_sources': missing_sources
+    })
     print(f'updated sources: {cntrs["count_updated_sources"]}')
 
     print('='*100)
 # =============================
-# 2.2 NAMED REFS
+# 2.3 NAMED REFS
 # =============================
     print(f'\nNAMED REFS')
 
@@ -167,6 +176,23 @@ if __name__ == "__main__":
         .save('refnames_legend')
         .get()
     )
+
+    print('='*100)
+# =============================
+# 2.4 Update sources
+# =============================
+    print(f'\nUPDATE SOURCES (after namedrefs__add_srcid, the sid of some MISSING sources has been modified)')
+
+    missing_sources = actions.get_legend('missing_sources')
+    Extractor(data=missing_sources).save('sources_missing')
+
+    # updated_sources = actions.get_legend('sources')
+    # Extractor(data=updated_sources).save('sources_updated')
+    # actions.set_legends(**{
+    #     'sources': updated_sources,
+    #     'missing_sources': missing_sources
+    # })
+    # print(f'updated sources: {cntrs["count_updated_sources"]}')
 
     # TODO build source > ref dictionary
 

@@ -215,6 +215,7 @@ class ExtractorActions():
 
     def anonrefs__add_srcid(self, **kwargs):
         sources = self.legends['sources']
+        missing_sources = self.legends['missing_sources']
         ref = kwargs['element']
         found = False
         output = None
@@ -247,25 +248,38 @@ class ExtractorActions():
         if found:
             self.counters['count_found'] += 1
         else:
-            # TODO anonrefs__add_srcid > create missing source
+            missing_sources.append({
+                'sid': None,
+                'title': r__title,
+                'type': 'other',
+                'details': {}
+            })
             self.counters['count_notfound'] += 1
             print(f'[anonrefs__add_srcid] rid: {ref.rid} refers to missing source: "{r__title}"')
         return output
 
     def namedrefs__add_srcid(self, **kwargs):
         sources = self.legends['sources']
+        missing_sources = self.legends['missing_sources']
         ref = kwargs['element']
-        refname, srctitle = ref.name, ref.source__title
         found = False
         output = None
-        matching_exact = list(filter(lambda src: src['sid'] == refname, sources))
+        matching_exact = list(filter(lambda src: src['sid'] == ref.name, sources))
         if matching_exact:
             output = matching_exact[0]['sid']
             found = True
         else:
-            if len(refname.split(' ')) == 1:
-                # TODO namedrefs__add_srcid > SINGLE TOKEN > determine if a source or not, then HANDLE_MISSING_SRCID or HANDLE_NOT_A_SOURCE
-                pass
+            if len(ref.name.split(' ')) == 1:
+                in_missing_sources = list(filter(lambda src: src['title'] == ref.source__title, missing_sources))
+                if in_missing_sources:
+                    in_missing_sources[0]['sid'] = ref.name
+                else:
+                    missing_sources.append({
+                        'sid': ref.name,
+                        'title': ref.source__title,
+                        'type': 'other',
+                        'details': {}
+                    })
             else:
                 # TODO namedrefs__add_srcid > MULTIPLE TOKENS > determine if tokens contain a matching srcid. If so, HANDLE_SUB_REF, else HANDLE_NOT_A_SOURCE
                 pass
