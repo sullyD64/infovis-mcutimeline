@@ -178,29 +178,32 @@ if __name__ == "__main__":
         if to_add == 'd':
             out = {}
             for k, v in source.items():
-                if k == 'refname':
+                if k in ['refname', 'title']:
                     continue
                 out[k] = v
             return out
         elif to_add == 's':
             return source['refname']
+        elif to_add == 't':
+            return source['title']
 
     # extract sources by combining movies and tv episodes
-    extr_episodes = (extr_episodes
-                     .addattr('details', add_source_attrs, use_element=True, **{'to_add': 'd'})
-                     .addattr('sid', add_source_attrs, use_element=True, **{'to_add': 's'})
-                     .addattr('type', 'episode')
-                     .filter_cols(['sid', 'type', 'details'])
-                     )
     extr_sources = (extr_movies.fork()
-                    .addattr('details', add_source_attrs, use_element=True, **{'to_add': 'd'})
-                    .addattr('sid', add_source_attrs, use_element=True, **{'to_add': 's'})
-                    .addattr('type', 'film')
-                    .filter_cols(['sid', 'type', 'details'])
-                    .extend(extr_episodes)
-                    .count('sources')
-                    .save('sources')
-                    )
+        .addattr('title', add_source_attrs, use_element=True, **{'to_add': 't'})
+        .addattr('details', add_source_attrs, use_element=True, **{'to_add': 'd'})
+        .addattr('sid', add_source_attrs, use_element=True, **{'to_add': 's'})
+        .addattr('type', 'film')
+        .filter_cols(['sid', 'title', 'type', 'details'])
+        .extend(extr_episodes
+            .addattr('title', add_source_attrs, use_element=True, **{'to_add': 't'})
+            .addattr('details', add_source_attrs, use_element=True, **{'to_add': 'd'})
+            .addattr('sid', add_source_attrs, use_element=True, **{'to_add': 's'})
+            .addattr('type', 'episode')
+            .filter_cols(['sid', 'title', 'type', 'details'])
+        )
+        .count('sources')
+        .save('sources')
+    )
     sources = extr_sources.get()
 
     print('='*100)
@@ -237,8 +240,8 @@ if __name__ == "__main__":
 
     def refs__add_srctitle(**kwargs):
         ref = kwargs['element']
-        if hasattr(ref, 'source_title') and ref.source_title:
-            return ref.source_title
+        if hasattr(ref, 'source__title') and ref.source__title:
+            return ref.source__title
         output = None
         if ref.ref_desc:
             matches = re.match(re.compile(kwargs['pattern']), ref.ref_desc)
@@ -256,11 +259,11 @@ if __name__ == "__main__":
     # extracts valid anonymous refs, then adds source title
     (extr_refs_anon
         .filter_rows(lambda ref: re.match(pattern__anon__begin_title_end, ref.ref_desc))
-        .addattr('source_title', refs__add_srctitle, use_element=True, **{'pattern': pattern__anon__begin_title_end})
+        .addattr('source__title', refs__add_srctitle, use_element=True, **{'pattern': pattern__anon__begin_title_end})
         .extend(
             extr_refs_anon.fork()
             .filter_rows(lambda ref: re.match(pattern__anon__begin_in_title_continue, ref.ref_desc))
-            .addattr('source_title', refs__add_srctitle, use_element=True, **{'pattern': pattern__anon__begin_in_title_continue})
+            .addattr('source__title', refs__add_srctitle, use_element=True, **{'pattern': pattern__anon__begin_in_title_continue})
         )
         .count('anonymous valid refs')
         .save('refs_anon_srctitle')
@@ -284,20 +287,20 @@ if __name__ == "__main__":
             return any([type_matches, series_matches])
 
         clarification = None
-        clarification_found = re.findall(r'\(([^\)]+)\)', ref.source_title)
-        title = ref.source_title
+        clarification_found = re.findall(r'\(([^\)]+)\)', ref.source__title)
+        title = ref.source__title
         if clarification_found and not clarification_found[0] == "T.R.O.Y.":  # TODO anonrefs__add_srcid > workaround for Luke Cage 2.13 (find a better way)
             clarification = clarification_found[0]
-            title = re.sub(r'(\([^\)]+\))$', '', ref.source_title).strip()
-            print(f'[anonrefs__add_srcid] rid: {ref.rid} has clarification ({clarification}) in title: "{ref.source_title}"')
+            title = re.sub(r'(\([^\)]+\))$', '', ref.source__title).strip()
+            print(f'[anonrefs__add_srcid] rid: {ref.rid} has clarification ({clarification}) in title: "{ref.source__title}"')
 
         for index, source in enumerate(sources):
-            stitle = source['details']['title']
+            stitle = source['title']
             if (stitle.startswith(title)) and (not clarification or (clarification_matches(clarification, source))):
                 found = True
                 output = source['sid']
-                if stitle.strip() != ref.source_title.strip():
-                    sources[index]['details']['title'] = ref.source_title
+                if stitle.strip() != ref.source__title.strip():
+                    sources[index]['title'] = ref.source__title
                     count_updated_sources += 1
                 break
  
@@ -351,7 +354,7 @@ if __name__ == "__main__":
     def namedrefs__add_srcid(**kwargs):
         global count_found, count_notfound
         ref = kwargs['element']
-        refname, srctitle = ref.ref_name, ref.source_title
+        refname, srctitle = ref.ref_name, ref.source__title
         found = False
         output = None
         matching_exact = list(filter(lambda src: src['sid'] == refname, sources))
@@ -376,25 +379,25 @@ if __name__ == "__main__":
         output = None
         match = list(filter(lambda src: src['sid'] == srcid, sources))
         if match:
-            output = match[0]['details']['title']
+            output = match[0]['title']
         return output
 
     pattern__named__begin_title_end = r'^<i>([^"]*)</i>$'
     pattern__named__begin_in_title_continue = r'^In <i>([^"]*)</i>'
 
     (extr_refs_named_unique
-        .addattr('source_title', refs__add_srctitle, use_element=True, **{'pattern': pattern__named__begin_title_end})
-        .addattr('source_title', refs__add_srctitle, use_element=True, **{'pattern': pattern__named__begin_in_title_continue})
+        .addattr('source__title', refs__add_srctitle, use_element=True, **{'pattern': pattern__named__begin_title_end})
+        .addattr('source__title', refs__add_srctitle, use_element=True, **{'pattern': pattern__named__begin_in_title_continue})
         .count('unique named refs with sourcetitle')
         .save('refs_named_unique_srctitle')
         .addattr('source__id', namedrefs__add_srcid, use_element=True)
-        .addattr('source_title', namedrefs__add_missing_srctitle, use_element=True)
+        .addattr('source__title', namedrefs__add_missing_srctitle, use_element=True)
     )
 
     print(f'[namedrefs__add_srcid]: sources added to [{count_found}/{count_tot}] named refs (not found: {count_notfound})')
 
     (extr_refs_named_unique
-        .filter_rows(lambda ref: ref.source__id and ref.source_title)
+        .filter_rows(lambda ref: ref.source__id and ref.source__title)
         .count('unique named refs with sourcetitle and sourceid')
         .save('refs_named_unique_srctitle_srcid')
     )
