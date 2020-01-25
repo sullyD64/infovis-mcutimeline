@@ -1,160 +1,160 @@
 [
     {
-        "refname": "IM",
+        "sid": "IM",
         "title": "Iron Man (film)",
         "series": "Iron Man",
         "year": 2008,
         "phase": 1
     },
     {
-        "refname": "TIH",
+        "sid": "TIH",
         "title": "The Incredible Hulk",
         "series": "Hulk",
         "year": 2008,
         "phase": 1
     },
     {
-        "refname": "IM2",
+        "sid": "IM2",
         "title": "Iron Man 2",
         "series": "Iron Man",
         "year": 2010,
         "phase": 1
     },
     {
-        "refname": "T",
+        "sid": "T",
         "title": "Thor (film)",
         "series": "Thor",
         "year": 2011,
         "phase": 1
     },
     {
-        "refname": "CATFA",
+        "sid": "CATFA",
         "title": "Captain America: The First Avenger",
         "series": "Captain America",
         "year": 2011,
         "phase": 1
     },
     {
-        "refname": "TA",
+        "sid": "TA",
         "title": "The Avengers",
         "series": "Avengers",
         "year": 2012,
         "phase": 2
     },
     {
-        "refname": "IM3",
+        "sid": "IM3",
         "title": "Iron Man 3",
         "series": "Iron Man",
         "year": 2013,
         "phase": 2
     },
     {
-        "refname": "TTDW",
+        "sid": "TTDW",
         "title": "Thor: The Dark World",
         "series": "Thor",
         "year": 2013,
         "phase": 2
     },
     {
-        "refname": "CATWS",
+        "sid": "CATWS",
         "title": "Captain America: The Winter Soldier",
         "series": "Captain America",
         "year": 2014,
         "phase": 2
     },
     {
-        "refname": "GotG",
+        "sid": "GotG",
         "title": "Guardians of the Galaxy (film)",
         "series": "Guardians of the Galaxy",
         "year": 2014,
         "phase": 2
     },
     {
-        "refname": "AAoU",
+        "sid": "AAoU",
         "title": "Avengers: Age of Ultron",
         "series": "Avengers",
         "year": 2015,
         "phase": 2
     },
     {
-        "refname": "AM",
+        "sid": "AM",
         "title": "Ant-Man (film)",
         "series": "Ant-Man",
         "year": 2015,
         "phase": 2
     },
     {
-        "refname": "CACW",
+        "sid": "CACW",
         "title": "Captain America: Civil War",
         "series": "Captain America",
         "year": 2016,
         "phase": 3
     },
     {
-        "refname": "DS",
+        "sid": "DS",
         "title": "Doctor Strange (film)",
         "series": "Doctor Strange",
         "year": 2016,
         "phase": 3
     },
     {
-        "refname": "GotGV2",
+        "sid": "GotGV2",
         "title": "Guardians of the Galaxy Vol. 2",
         "series": "Guardians of the Galaxy",
         "year": 2017,
         "phase": 3
     },
     {
-        "refname": "SMH",
+        "sid": "SMH",
         "title": "Spider-Man: Homecoming",
         "series": "Spider-Man",
         "year": 2017,
         "phase": 3
     },
     {
-        "refname": "TR",
+        "sid": "TR",
         "title": "Thor: Ragnarok",
         "series": "Thor",
         "year": 2017,
         "phase": 3
     },
     {
-        "refname": "BP",
+        "sid": "BP",
         "title": "Black Panther (film)",
         "series": "Black Panther",
         "year": 2018,
         "phase": 3
     },
     {
-        "refname": "AIW",
+        "sid": "AIW",
         "title": "Avengers: Infinity War",
         "series": "Avengers",
         "year": 2018,
         "phase": 3
     },
     {
-        "refname": "AMatW",
+        "sid": "AMatW",
         "title": "Ant-Man and the Wasp",
         "series": "Ant-Man",
         "year": 2018,
         "phase": 3
     },
     {
-        "refname": "CM",
+        "sid": "CM",
         "title": "Captain Marvel (film)",
         "series": "Captain Marvel",
         "year": 2019,
         "phase": 3
     },
     {
-        "refname": "AE",
+        "sid": "AE",
         "title": "Avengers: Endgame",
         "series": "Avengers",
         "year": 2019,
         "phase": 3
     },
     {
-        "refname": "SMFFH",
+        "sid": "SMFFH",
         "title": "Spider-Man: Far From Home",
         "series": "Spider-Man",
         "year": 2019,
