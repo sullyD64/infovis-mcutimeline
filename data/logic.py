@@ -185,17 +185,17 @@ class ExtractorActions():
 
     # ----------------------------
 
-    def add_source_attrs(self, **kwargs):
+    def source__add_attrs(self, **kwargs):
         to_add, source = kwargs['to_add'], kwargs['element']
         if to_add == 'd':
             out = {}
             for k, v in source.items():
-                if k in ['refname', 'title']:
+                if k in ['sid', 'title']:
                     continue
                 out[k] = v
             return out
         elif to_add == 's':
-            return source['refname']
+            return source['sid']
         elif to_add == 't':
             return source['title']
 
@@ -243,10 +243,10 @@ class ExtractorActions():
                 if s__title.strip() != ref.source__title.strip():
                     print(f'[anonrefs__add_srcid] sources: adding clarification to title "{s__title}" => "{ref.source__title}"')
                     sources[index]['title'] = ref.source__title
-                    self.counters['count_updated_sources'] += 1
+                    self.counters['cnt_updated_sources'] += 1
                 break
         if found:
-            self.counters['count_found'] += 1
+            self.counters['cnt_found'] += 1
         else:
             missing_sources.append({
                 'sid': None,
@@ -254,7 +254,7 @@ class ExtractorActions():
                 'type': 'other',
                 'details': {}
             })
-            self.counters['count_notfound'] += 1
+            self.counters['cnt_notfound'] += 1
             print(f'[anonrefs__add_srcid] rid: {ref.rid} refers to missing source: "{r__title}"')
         return output
 
@@ -262,14 +262,14 @@ class ExtractorActions():
         sources = self.legends['sources']
         missing_sources = self.legends['missing_sources']
         ref = kwargs['element']
-        found = False
         output = None
         matching_exact = list(filter(lambda src: src['sid'] == ref.name, sources))
         if matching_exact:
             output = matching_exact[0]['sid']
-            found = True
+            self.counters['cnt__matching_exact'] += 1
         else:
-            if len(ref.name.split(' ')) == 1:
+            tkns = ref.name.split(' ')
+            if len(tkns) == 1:
                 in_missing_sources = list(filter(lambda src: src['title'] == ref.source__title, missing_sources))
                 if in_missing_sources:
                     in_missing_sources[0]['sid'] = ref.name
@@ -280,13 +280,14 @@ class ExtractorActions():
                         'type': 'other',
                         'details': {}
                     })
+                self.counters['cnt__missing_sources_updated'] += 1
             else:
+                allsids = list(filter(lambda x: x is not None, [src['sid'] for src in [*sources, *missing_sources]]))
+                self.legends['allsids'] = allsids
+
                 # TODO namedrefs__add_srcid > MULTIPLE TOKENS > determine if tokens contain a matching srcid. If so, HANDLE_SUB_REF, else HANDLE_NOT_A_SOURCE
+                
                 pass
-        if found:
-            self.counters['count_found'] += 1
-        else:
-            self.counters['count_notfound'] += 1
         return output
 
     def namedrefs__add_missing_srctitle(self, **kwargs):

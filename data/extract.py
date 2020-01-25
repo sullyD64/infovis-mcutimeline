@@ -26,15 +26,15 @@ if __name__ == "__main__":
 
     # extract sources by combining movies and tv episodes
     extr_sources = (extr_movies.fork()
-        .addattr('title', actions.add_source_attrs, use_element=True, **{'to_add': 't'})
-        .addattr('details', actions.add_source_attrs, use_element=True, **{'to_add': 'd'})
-        .addattr('sid', actions.add_source_attrs, use_element=True, **{'to_add': 's'})
+        .addattr('title', actions.source__add_attrs, use_element=True, **{'to_add': 't'})
+        .addattr('details', actions.source__add_attrs, use_element=True, **{'to_add': 'd'})
+        .addattr('sid', actions.source__add_attrs, use_element=True, **{'to_add': 's'})
         .addattr('type', 'film')
         .filter_cols(['sid', 'title', 'type', 'details'])
         .extend(extr_episodes
-            .addattr('title', actions.add_source_attrs, use_element=True, **{'to_add': 't'})
-            .addattr('details', actions.add_source_attrs, use_element=True, **{'to_add': 'd'})
-            .addattr('sid', actions.add_source_attrs, use_element=True, **{'to_add': 's'})
+            .addattr('title', actions.source__add_attrs, use_element=True, **{'to_add': 't'})
+            .addattr('details', actions.source__add_attrs, use_element=True, **{'to_add': 'd'})
+            .addattr('sid', actions.source__add_attrs, use_element=True, **{'to_add': 's'})
             .addattr('type', 'episode')
             .filter_cols(['sid', 'title', 'type', 'details'])
         )
@@ -97,8 +97,8 @@ if __name__ == "__main__":
         'sources': extr_sources.get(), 
         'missing_sources': []
     })
-    actions.set_counters(*['count_found', 'count_notfound', 'count_updated_sources'])
-    count_tot = len(extr_refs_anon.get())
+    actions.set_counters(*['cnt_found', 'cnt_notfound', 'cnt_updated_sources'])
+    cnt_tot = len(extr_refs_anon.get())
 
     (extr_refs_anon
         .addattr('source__id', actions.anonrefs__add_srcid, use_element=True)
@@ -106,7 +106,7 @@ if __name__ == "__main__":
     )
 
     cntrs = actions.get_counters()
-    print(f'[anonrefs__add_srcid]: sources added to [{cntrs["count_found"]}/{count_tot}] anon refs (not found: {cntrs["count_notfound"]})')
+    print(f'[anonrefs__add_srcid]: sources added to [{cntrs["cnt_found"]}/{cnt_tot}] anon refs (not found: {cntrs["cnt_notfound"]})')
 
     print('='*100)
 # =============================
@@ -123,7 +123,7 @@ if __name__ == "__main__":
         'sources': updated_sources, 
         'missing_sources': missing_sources
     })
-    print(f'updated sources: {cntrs["count_updated_sources"]}')
+    print(f'updated sources: {cntrs["cnt_updated_sources"]}')
 
     print('='*100)
 # =============================
@@ -145,8 +145,8 @@ if __name__ == "__main__":
         .save('refs_named_unique')
     )
 
-    actions.set_counters(*['count_found', 'count_notfound'])
-    count_tot = len(extr_refs_named_unique.get())
+    actions.set_counters(*['cnt__matching_exact', 'cnt__missing_sources_updated', 'cnt__sub_ref_found', 'cnt__not_a_source'])
+    cnt_tot = len(extr_refs_named_unique.get())
 
     pattern__named__begin_title_end = r'^<i>([^"]*)</i>$'
     pattern__named__begin_in_title_continue = r'^In <i>([^"]*)</i>'
@@ -158,9 +158,19 @@ if __name__ == "__main__":
         .save('refs_named_unique_srctitle')
         .addattr('source__id', actions.namedrefs__add_srcid, use_element=True)
         .addattr('source__title', actions.namedrefs__add_missing_srctitle, use_element=True)
-)
+    )
+
+    allsids = actions.get_legend('allsids')
+    Extractor(data=allsids).save('allsids')
+
     cntrs = actions.get_counters()
-    print(f'[namedrefs__add_srcid]: sources added to [{cntrs["count_found"]}/{count_tot}] named refs (not found: {cntrs["count_notfound"]})')
+    print(
+        f'[namedrefs__add_srcid]: out of {cnt_tot} named refs:\n'
+        f'\t- {cntrs["cnt__matching_exact"]} refs have a name that matches exactly with an existing source id.\n'
+        f'\t- {cntrs["cnt__missing_sources_updated"]} refs have a valid name (one token) but not present existing sources, so we add a new source in missing_sources.\n'
+        f'\t- {cntrs["cnt__sub_ref_found"]} refs have a complex name (multiple tokens) but refer to a valid source, so they are sub_refs. \n'
+        f'\t- {cntrs["cnt__not_a_source"]} refs have a complex name (multiple tokens) which is invalid.\n'
+    )
 
     (extr_refs_named_unique
         .count('unique named refs with sourcetitle and sourceid')
@@ -181,7 +191,7 @@ if __name__ == "__main__":
 # =============================
 # 2.4 Update sources
 # =============================
-    print(f'\nUPDATE SOURCES (after namedrefs__add_srcid, the sid of some MISSING sources has been modified)')
+    print(f'\nUPDATE SOURCES (after namedrefs__add_srcid, some MISSING_SOURCES were added)')
 
     missing_sources = actions.get_legend('missing_sources')
     Extractor(data=missing_sources).save('sources_missing')
@@ -192,7 +202,7 @@ if __name__ == "__main__":
     #     'sources': updated_sources,
     #     'missing_sources': missing_sources
     # })
-    # print(f'updated sources: {cntrs["count_updated_sources"]}')
+    # print(f'updated sources: {cntrs["cnt_updated_sources"]}')
 
     # TODO build source > ref dictionary
 
