@@ -11,7 +11,6 @@ DIR = os.path.dirname(__file__)
 OUT_DIR = os.path.join(DIR, 'auto')
 
 
-
 class Extractor(object):
     """
     An Extractor maintains a list of elements, which can be subsequentially manipulated.
@@ -433,7 +432,7 @@ class ExtractorActions():
                 output = match[0]['title']
         return output
 
-    def mapto__namedrefs__convert_srcid_srctitle_to_sourcelist(self, ref):
+    def mapto__refs__convert_srcid_srctitle_to_sourcelist(self, ref):
         if len(ref.sources) == 0:
             ref.sources = [ref.source__id]
         return ref
