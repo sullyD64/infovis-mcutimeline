@@ -2,11 +2,14 @@ import json
 import os
 import re
 
-from structs import Event, Ref
 import wikitextparser as wtp
+
+from structs import Event, Ref
+from utils import TMP_MARKER_1, TMP_MARKER_2
 
 DIR = os.path.dirname(__file__)
 OUT_DIR = os.path.join(DIR, 'auto')
+
 
 
 class Extractor(object):
@@ -134,7 +137,7 @@ class Extractor(object):
 
     def count(self, what: str):
         """Prints the number of current elements"""
-        print(f'{len(self.data)} {what}')
+        print(f'COUNT: {what} ({len(self.data)})')
         return self
 
     def save(self, outfile=None):
@@ -200,8 +203,8 @@ class ExtractorActions():
         elif to_add == 't':
             return source['title']
 
-    def source__extend_series_season(self, src):
-        series_seasons = self.get_legend('series_seasons')
+    def mapto__source__extend_series_season(self, src):
+        series_seasons = self.legends['series_seasons']
 
         def get_season_title(title, number):
             switcher = {
@@ -215,17 +218,19 @@ class ExtractorActions():
             return f'{title}/Season {switcher[number]}'
 
         if src['type'] == 'episode':
-            details = src['details']
-            details.pop('episode')
+            src_season_details = {k: v for k,v in src['details'].items()}
+            src_season_details.pop('episode')
             src_season = {
-                'sid': details.pop('season_id'),
-                'title': get_season_title(details['series'], details.pop('season')),
+                'sid': src_season_details.pop('season_id'),
+                'title': get_season_title(src_season_details['series'], src_season_details['season']),
                 'type': 'season',
-                'details': details
+                'details': src_season_details
             }
+            src_series_details = {k: v for k, v in src_season_details.items()}
+            src_series_details.pop('season')
             src_series = {
-                'sid': details['series_id'],
-                'title': details['series'],
+                'sid': src_series_details['series_id'],
+                'title': src_series_details['series'],
                 'type': 'series',
                 'details': {},
             }
@@ -251,7 +256,7 @@ class ExtractorActions():
 
     def anonrefs__add_srcid(self, **kwargs):
         sources = self.legends['sources']
-        missing_sources = self.legends['missing_sources']
+        sources_missing = self.legends['sources_missing']
         ref = kwargs['element']
         found = False
         output = None
@@ -284,58 +289,151 @@ class ExtractorActions():
         if found:
             self.counters['cnt_found'] += 1
         else:
-            missing_sources.append({
+            sources_missing.append({
                 'sid': None,
                 'title': r__title,
                 'type': 'other',
                 'details': {}
             })
             self.counters['cnt_notfound'] += 1
-            print(f'[anonrefs__add_srcid] rid: {ref.rid} refers to missing source: "{r__title}"')
+            print(f'[anonrefs__add_srcid] rid: {ref.rid} refers to missing source: "{r__title}". Adding new source.')
         return output
 
     def namedrefs__add_srcid(self, **kwargs):
-        sources = self.legends['sources']
-        missing_sources = self.legends['missing_sources']
         ref = kwargs['element']
         output = None
-        matching_exact = list(filter(lambda src: src['sid'] == ref.name, sources))
+        matching_exact = list(filter(lambda src: src['sid'] == ref.name, self.legends['sources']))
         if matching_exact:
             output = matching_exact[0]['sid']
             self.counters['cnt__matching_exact'] += 1
         else:
             tkns = ref.name.split(' ')
             if len(tkns) == 1:
+                sources_missing = self.legends['sources_missing']
                 output = ref.name
-                in_missing_sources = list(filter(lambda src: src['title'] == ref.source__title, missing_sources))
-                if in_missing_sources:
-                    in_missing_sources[0]['sid'] = ref.name
+                in_sources_missing = []
+                if ref.source__title:
+                    in_sources_missing = list(filter(lambda src: src['title'] == ref.source__title, sources_missing))
+                if ref.source__title and in_sources_missing:
+                    in_sources_missing[0]['sid'] = ref.name
                 else:
-                    missing_sources.append({
+                    new_src = {
                         'sid': ref.name,
                         'title': ref.source__title,
                         'type': 'other',
                         'details': {}
-                    })
-                self.counters['cnt__missing_sources_updated'] += 1
+                    }
+                    sources_missing.append(new_src)
+
+                    # special cases
+                    # TODO namedrefs__add_srcid > workaround for special cases (WHiH, SE2010, TAPBWS, PT) (find a better way)
+                    if tkns[0].startswith('WHiH'): 
+                        new_src['type'] = 'web_series'
+                        new_src['details']['series'] = 'WHiH Newsfront (web series)'
+                        new_src['details']['series_id'] = 'WHiH'
+                        new_src_main = {
+                            'sid': 'WHiH',
+                            'title': 'WHiH Newsfront (web series)',
+                            'type': 'web_series',
+                            'details': {}
+                        }
+                        if new_src_main not in sources_missing:
+                            sources_missing.append(new_src_main)
+                    elif tkns[0].startswith('SE2010'):
+                        new_src['details']['series'] = 'Stark Expo/Promotional Campaign'
+                        new_src['details']['series_id'] = 'SE2010'
+                        new_src_main = {
+                            'sid': 'SE2010',
+                            'title': 'Stark Expo/Promotional Campaign',
+                            'type': 'other',
+                            'details': {}
+                        }
+                        if new_src_main not in sources_missing:
+                            sources_missing.append(new_src_main)
+                    elif tkns[0].startswith('TAPBWS'):
+                        new_src['details']['series'] = 'The Avengers Prelude: Black Widow Strikes'
+                        new_src['details']['series_id'] = 'TAPBWS'
+                        new_src_main = {
+                            'sid': 'TAPBWS',
+                            'title': 'The Avengers Prelude: Black Widow Strikes',
+                            'type': 'other',
+                            'details': {}
+                        }
+                        if new_src_main not in sources_missing:
+                            sources_missing.append(new_src_main)
+                    elif tkns[0].startswith('PT'):
+                        new_src['details']['series'] = 'Pym Technologies'
+                        new_src['details']['series_id'] = 'PT'
+                        new_src_main = {
+                            'sid': 'PT',
+                            'title': 'Pym Technologies',
+                            'type': 'other',
+                            'details': {}
+                        }
+                        if new_src_main not in sources_missing:
+                            sources_missing.append(new_src_main)
+                self.counters['cnt__sources_missing_updated'] += 1
             else:
                 # simply mark the refs with a complex refname to iterate again after.
-                marker = '\u03A0'
-                output = marker
-
-                # allsids = list(filter(lambda x: x is not None, [src['sid'] for src in [*sources, *missing_sources]]))
-                # allsources = [*sources, *missing_sources]
-
-                # self.legends['allsources'] = allsources
-                # TODO namedrefs__add_srcid > MULTIPLE TOKENS > determine if tokens contain a matching srcid. If so, HANDLE_SUB_REF, else HANDLE_NOT_A_SOURCE
-                pass
+                output = TMP_MARKER_1
         return output
+    
+    def mapto__namedrefs__add_srcid_multiple(self, ref):
+        allsources = self.legends['sources'] 
+        if ref.source__id == TMP_MARKER_1:
+            allsids = list(filter(lambda x: x is not None, [src['sid'] for src in allsources]))
+            found = False
+            prfx = ref.name.split(' ')[0]
+            if prfx in allsids:
+                found = True
+                ref.sources = [prfx]
+            elif any([sid.startswith(prfx) for sid in allsids]):
+                raise Exception(f"Found prfx in any startswith {ref.name}, should find none")
+            else:
+                if any(char in prfx for char in ['/', '-']):
+                    sources = []
+                    sub_prfxs_1 = prfx.split('/')
+                    found_multiple = False
+                    for sp in sub_prfxs_1:
+                        if '-' in sp:
+                            sub_prfxs_2 = sp.split('-')
+                            start_ep = sub_prfxs_2[0]
+                            if start_ep in allsids:
+                                start_ep_src = list(filter(lambda src: src['sid'] == start_ep, allsources))[0]
+                                episodes = list(filter(lambda src: 'season_id' in src['details'] and src['details']['season_id'] == start_ep_src['details']['season_id'], allsources))
+                                start = int(start_ep_src['details']['episode'])
+                                end = int(sub_prfxs_2[1])
+                                found_multiple = True
+                                sources = [*sources, *[ep['sid'] for ep in episodes[start-1:end]]]
+                        else:
+                            if sp in allsids:
+                                found_multiple = True
+                                sources.append(sp)
+                    if found_multiple:
+                        print(f"[mapto__namedrefs__add_srcid_multiple] multiple sources found based on the prefix: {ref.name}")
+                        found = True
+                        ref.sources = [*ref.sources, *sources]
+            if found:
+                self.counters['cnt__sub_ref_found'] += 1
+                ref.source__id = TMP_MARKER_2
+            else:
+                print(f'[mapto__namedrefs__add_srcid_multiple] not a source: {ref.name}')
+                self.counters['cnt__not_a_source'] += 1      
+        return ref
 
     def namedrefs__add_missing_srctitle(self, **kwargs):
-        sources = self.legends['sources']
-        srcid = kwargs['element'].source__id
+        allsources = self.legends['sources']
+        ref = kwargs['element']
         output = None
-        match = list(filter(lambda src: src['sid'] == srcid, sources))
-        if match:
-            output = match[0]['title']
+        if ref.source__title:
+            output = ref.source__title
+        else:
+            match = list(filter(lambda src: src['sid'] == ref.source__id, allsources))
+            if match:
+                output = match[0]['title']
         return output
+
+    def mapto__namedrefs__convert_srcid_srctitle_to_sourcelist(self, ref):
+        if len(ref.sources) == 0:
+            ref.sources = [ref.source__id]
+        return ref
