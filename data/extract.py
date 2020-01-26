@@ -24,6 +24,7 @@ if __name__ == "__main__":
     extr_movies = Extractor(f'{manual_dir}/movies.json')
     extr_episodes = Extractor(f'{manual_dir}/episodes.json')
 
+    actions.set_legends(**{'series_seasons':  []})
     # extract sources by combining movies and tv episodes
     extr_sources = (extr_movies.fork()
         .addattr('title', actions.source__add_attrs, use_element=True, **{'to_add': 't'})
@@ -37,6 +38,10 @@ if __name__ == "__main__":
             .addattr('sid', actions.source__add_attrs, use_element=True, **{'to_add': 's'})
             .addattr('type', 'episode')
             .filter_cols(['sid', 'title', 'type', 'details'])
+            .mapto(actions.source__extend_series_season)
+            .extend(
+                Extractor(data=actions.get_legend('series_seasons'))
+            )
         )
         .count('sources')
         .save('sources')
@@ -159,9 +164,6 @@ if __name__ == "__main__":
         .addattr('source__id', actions.namedrefs__add_srcid, use_element=True)
         .addattr('source__title', actions.namedrefs__add_missing_srctitle, use_element=True)
     )
-
-    allsids = actions.get_legend('allsids')
-    Extractor(data=allsids).save('allsids')
 
     cntrs = actions.get_counters()
     print(

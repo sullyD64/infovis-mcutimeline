@@ -8,6 +8,7 @@ import wikitextparser as wtp
 DIR = os.path.dirname(__file__)
 OUT_DIR = os.path.join(DIR, 'auto')
 
+
 class Extractor(object):
     """
     An Extractor maintains a list of elements, which can be subsequentially manipulated.
@@ -199,6 +200,41 @@ class ExtractorActions():
         elif to_add == 't':
             return source['title']
 
+    def source__extend_series_season(self, src):
+        series_seasons = self.get_legend('series_seasons')
+
+        def get_season_title(title, number):
+            switcher = {
+                1: 'One',
+                2: 'Two',
+                3: 'Three',
+                4: 'Four',
+                5: 'Five',
+                6: 'Six',
+            }
+            return f'{title}/Season {switcher[number]}'
+
+        if src['type'] == 'episode':
+            details = src['details']
+            details.pop('episode')
+            src_season = {
+                'sid': details.pop('season_id'),
+                'title': get_season_title(details['series'], details.pop('season')),
+                'type': 'season',
+                'details': details
+            }
+            src_series = {
+                'sid': details['series_id'],
+                'title': details['series'],
+                'type': 'series',
+                'details': {},
+            }
+            if src_season not in series_seasons:
+                series_seasons.append(src_season)
+            if src_series not in series_seasons:
+                series_seasons.append(src_series)
+        return src
+
     def refs__add_srctitle(self, **kwargs):
         ref = kwargs['element']
         if hasattr(ref, 'source__title') and ref.source__title:
@@ -270,6 +306,7 @@ class ExtractorActions():
         else:
             tkns = ref.name.split(' ')
             if len(tkns) == 1:
+                output = ref.name
                 in_missing_sources = list(filter(lambda src: src['title'] == ref.source__title, missing_sources))
                 if in_missing_sources:
                     in_missing_sources[0]['sid'] = ref.name
@@ -282,11 +319,15 @@ class ExtractorActions():
                     })
                 self.counters['cnt__missing_sources_updated'] += 1
             else:
-                allsids = list(filter(lambda x: x is not None, [src['sid'] for src in [*sources, *missing_sources]]))
-                self.legends['allsids'] = allsids
+                # simply mark the refs with a complex refname to iterate again after.
+                marker = '\u03A0'
+                output = marker
 
+                # allsids = list(filter(lambda x: x is not None, [src['sid'] for src in [*sources, *missing_sources]]))
+                # allsources = [*sources, *missing_sources]
+
+                # self.legends['allsources'] = allsources
                 # TODO namedrefs__add_srcid > MULTIPLE TOKENS > determine if tokens contain a matching srcid. If so, HANDLE_SUB_REF, else HANDLE_NOT_A_SOURCE
-                
                 pass
         return output
 
