@@ -3,6 +3,7 @@
         "sid": "IM",
         "title": "Iron Man (film)",
         "series": "Iron Man",
+        "series_id": "F_IM",
         "year": 2008,
         "phase": 1
     },
@@ -10,6 +11,7 @@
         "sid": "TIH",
         "title": "The Incredible Hulk",
         "series": "Hulk",
+        "series_id": "F_H",
         "year": 2008,
         "phase": 1
     },
@@ -17,6 +19,7 @@
         "sid": "IM2",
         "title": "Iron Man 2",
         "series": "Iron Man",
+        "series_id": "F_IM",
         "year": 2010,
         "phase": 1
     },
@@ -24,6 +27,7 @@
         "sid": "T",
         "title": "Thor (film)",
         "series": "Thor",
+        "series_id": "F_T",
         "year": 2011,
         "phase": 1
     },
@@ -31,6 +35,7 @@
         "sid": "CATFA",
         "title": "Captain America: The First Avenger",
         "series": "Captain America",
+        "series_id": "F_CA",
         "year": 2011,
         "phase": 1
     },
@@ -38,6 +43,7 @@
         "sid": "TA",
         "title": "The Avengers",
         "series": "Avengers",
+        "series_id": "F_A",
         "year": 2012,
         "phase": 2
     },
@@ -45,6 +51,7 @@
         "sid": "IM3",
         "title": "Iron Man 3",
         "series": "Iron Man",
+        "series_id": "F_IM",
         "year": 2013,
         "phase": 2
     },
@@ -52,6 +59,7 @@
         "sid": "TTDW",
         "title": "Thor: The Dark World",
         "series": "Thor",
+        "series_id": "F_T",
         "year": 2013,
         "phase": 2
     },
@@ -59,6 +67,7 @@
         "sid": "CATWS",
         "title": "Captain America: The Winter Soldier",
         "series": "Captain America",
+        "series_id": "F_CA",
         "year": 2014,
         "phase": 2
     },
@@ -66,6 +75,7 @@
         "sid": "GotG",
         "title": "Guardians of the Galaxy (film)",
         "series": "Guardians of the Galaxy",
+        "series_id": "F_GotG",
         "year": 2014,
         "phase": 2
     },
@@ -73,6 +83,7 @@
         "sid": "AAoU",
         "title": "Avengers: Age of Ultron",
         "series": "Avengers",
+        "series_id": "F_A",
         "year": 2015,
         "phase": 2
     },
@@ -80,6 +91,7 @@
         "sid": "AM",
         "title": "Ant-Man (film)",
         "series": "Ant-Man",
+        "series_id": "F_AM",
         "year": 2015,
         "phase": 2
     },
@@ -87,6 +99,7 @@
         "sid": "CACW",
         "title": "Captain America: Civil War",
         "series": "Captain America",
+        "series_id": "F_CA",
         "year": 2016,
         "phase": 3
     },
@@ -94,6 +107,7 @@
         "sid": "DS",
         "title": "Doctor Strange (film)",
         "series": "Doctor Strange",
+        "series_id": "F_DS",
         "year": 2016,
         "phase": 3
     },
@@ -101,6 +115,7 @@
         "sid": "GotGV2",
         "title": "Guardians of the Galaxy Vol. 2",
         "series": "Guardians of the Galaxy",
+        "series_id": "F_GotG",
         "year": 2017,
         "phase": 3
     },
@@ -108,6 +123,7 @@
         "sid": "SMH",
         "title": "Spider-Man: Homecoming",
         "series": "Spider-Man",
+        "series_id": "F_SM",
         "year": 2017,
         "phase": 3
     },
@@ -115,6 +131,7 @@
         "sid": "TR",
         "title": "Thor: Ragnarok",
         "series": "Thor",
+        "series_id": "F_T",
         "year": 2017,
         "phase": 3
     },
@@ -122,6 +139,7 @@
         "sid": "BP",
         "title": "Black Panther (film)",
         "series": "Black Panther",
+        "series_id": "F_BP",
         "year": 2018,
         "phase": 3
     },
@@ -129,6 +147,7 @@
         "sid": "AIW",
         "title": "Avengers: Infinity War",
         "series": "Avengers",
+        "series_id": "F_A",
         "year": 2018,
         "phase": 3
     },
@@ -136,6 +155,7 @@
         "sid": "AMatW",
         "title": "Ant-Man and the Wasp",
         "series": "Ant-Man",
+        "series_id": "F_AM",
         "year": 2018,
         "phase": 3
     },
@@ -143,6 +163,7 @@
         "sid": "CM",
         "title": "Captain Marvel (film)",
         "series": "Captain Marvel",
+        "series_id": "F_CM",
         "year": 2019,
         "phase": 3
     },
@@ -150,6 +171,7 @@
         "sid": "AE",
         "title": "Avengers: Endgame",
         "series": "Avengers",
+        "series_id": "F_A",
         "year": 2019,
         "phase": 3
     },
@@ -157,6 +179,7 @@
         "sid": "SMFFH",
         "title": "Spider-Man: Far From Home",
         "series": "Spider-Man",
+        "series_id": "F_SM",
         "year": 2019,
         "phase": 3
     }
