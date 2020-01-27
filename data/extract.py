@@ -4,7 +4,7 @@ import re
 
 from logic import Extractor, ExtractorActions
 from structs import Event
-from utils import TMP_MARKER_1, TMP_MARKER_2, TMP_MARKER_3
+from utils import TMP_MARKER_1, TMP_MARKER_2
 
 DIR = os.path.dirname(__file__)
 OUT_DIR = os.path.join(DIR, 'auto')
@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
     manual_dir = os.path.join(DIR, 'manual')
     actions.set_legends(**{'series_seasons': []})
-    
+
     # extract sources by combining films and tv episodes
     extr_sources = (Extractor(f'{manual_dir}/films.json')
         .addattr('title', actions.sources__add_attrs, use_element=True, **{'to_add': 't'})
@@ -60,7 +60,7 @@ if __name__ == "__main__":
         .count('events')
         .save('events')
     )
-    
+
     # extract all refs, flattened
     extr_refs = (extr_events.fork()
         .consume_key('refs')
@@ -104,7 +104,7 @@ if __name__ == "__main__":
     )
 
     actions.set_legends(**{
-        'sources': extr_sources.get(), 
+        'sources': extr_sources.get(),
         'sources_missing': []
     })
     actions.set_counters(*['cnt_found', 'cnt_notfound', 'cnt_sources_updated'])
@@ -158,7 +158,7 @@ if __name__ == "__main__":
         .count('refs_named')
         .save('refs_named')
     )
-    
+
     # extract unique named refs
     """
     Working on unique when coding the job is the same: unique means "with same name and desc".
@@ -237,7 +237,7 @@ if __name__ == "__main__":
     actions.set_legends(**{
         'sources': extr_sources.get()
     })
-    
+
     print(f'missing sources: added {cntrs["cnt__sources_missing_updated"]} new sources.')
     print(f'sources: combined sources with missing sources, now available as a single list of {len(extr_sources.get())} sources.')
 
@@ -309,17 +309,23 @@ if __name__ == "__main__":
     )
 
     # add ref ids and ref count in a list to each source
-    actions.set_legends(**{'refs': extr_refs.get()})
+    actions.set_legends(**{
+        'refs_primary': extr_refs.fork().filter_rows(lambda ref: not ref.is_secondary).get(),
+        'refs_secondary': extr_refs.fork().filter_rows(lambda ref: ref.is_secondary).get()
+    })
     (extr_sources
-        .addattr('refs', actions.sources__add_refs, use_element=True)
-        .addattr('refs_count', lambda **kwargs: len(kwargs['element']['refs']), use_element=True)
+        .addattr('refs_primary', actions.sources__add_refs, use_element=True, **{'type': 'primary'})
+        .addattr('refs_primary_count', lambda **kwargs: len(kwargs['element']['refs_primary']), use_element=True)
+        .addattr('refs_secondary', actions.sources__add_refs, use_element=True, **{'type': 'secondary'})
+        .addattr('refs_secondary_count', lambda **kwargs: len(kwargs['element']['refs_secondary']), use_element=True)
+        .addattr('refs_tot_count', lambda **kwargs: kwargs['element']['refs_primary_count'] + kwargs['element']['refs_secondary_count'], use_element=True)
         .count('sources_3_refs')
         .save('sources_3_refs')
     )
 
     # build source/ref hierarchy
     actions.set_legends(**{'hierarchy': []})
-    (extr_sources 
+    (extr_sources
         .addattr('sub_sources', [])
         .addattr('level', actions.sources__mark_level, use_element=True)
         .mapto(actions.mapto__sources__hierarchy_level0)
@@ -337,15 +343,31 @@ if __name__ == "__main__":
     )
 
     # hierarchy for tv shows
-    (extr_hierarchy.fork()
+    extr_tv = (extr_hierarchy.fork()
         .filter_rows(lambda root: root['type'] == 'tv_series')
         .count('hierarchy_tv')
         .save('hierarchy_tv')
     )
 
     # hierarchy for films
-    (extr_hierarchy.fork()
+    extr_films = (extr_hierarchy.fork()
         .filter_rows(lambda root: root['type'] == 'film_series')
         .count('hierarchy_film')
         .save('hierarchy_film')
     )
+
+    # ---------------------------------------------------------------------------------
+
+    count_film_refs = (extr_films
+        .consume_key('sub_sources')
+        .flatten()
+        .addattr('year', lambda **kwargs: kwargs['element']['details']['year'], use_element=True)
+        .filter_cols(['year', 'title', 'refs_primary_count', 'refs_secondary_count', 'refs_tot_count'])
+        .save('count_film_refs')
+        .get()
+    )
+
+    count_film_refs = [f'{d["year"]}, {d["title"]}, {d["refs_primary_count"]}, {d["refs_secondary_count"]}, {d["refs_tot_count"]}' for d in count_film_refs]
+    print()
+    for frc in count_film_refs:
+        print(frc)

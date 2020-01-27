@@ -448,7 +448,7 @@ class ExtractorActions():
 
     def sources__add_refs(self, **kwargs):
         src = kwargs['element']
-        refs = self.legends['refs']
+        refs = self.legends[f'refs_{kwargs["type"]}']
         output = []
         for ref in refs:
             if src['sid'] in ref.sources:
