@@ -26,14 +26,14 @@ if __name__ == "__main__":
     manual_dir = os.path.join(DIR, 'manual')
     actions.set_legends(**{'series_seasons': []})
     
-    # extract sources by combining movies and tv episodes
-    extr_sources = (Extractor(f'{manual_dir}/movies.json')
+    # extract sources by combining films and tv episodes
+    extr_sources = (Extractor(f'{manual_dir}/films.json')
         .addattr('title', actions.sources__add_attrs, use_element=True, **{'to_add': 't'})
         .addattr('details', actions.sources__add_attrs, use_element=True, **{'to_add': 'd'})
         .addattr('sid', actions.sources__add_attrs, use_element=True, **{'to_add': 's'})
         .addattr('type', 'film')
         .filter_cols(['sid', 'title', 'type', 'details'])
-        .extend(Extractor(f'{manual_dir}/episodes.json')
+        .extend(Extractor(f'{manual_dir}/tv_episodes.json')
             .addattr('title', actions.sources__add_attrs, use_element=True, **{'to_add': 't'})
             .addattr('details', actions.sources__add_attrs, use_element=True, **{'to_add': 'd'})
             .addattr('sid', actions.sources__add_attrs, use_element=True, **{'to_add': 's'})
@@ -330,7 +330,7 @@ if __name__ == "__main__":
     )
 
     # obtain final, non-flattened, 3-level file with all refs (referenced by ID),
-    # grouped by main source, subgrouped by (eventually) seasons and episodes or by movies.
+    # grouped by main source, subgrouped by (eventually) seasons and episodes or by films.
     extr_hierarchy = (Extractor(data=actions.get_legend('hierarchy'))
         .count('hierarchy')
         .save('hierarchy')
