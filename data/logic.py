@@ -451,7 +451,7 @@ class ExtractorActions():
         refs = self.legends[f'refs_{kwargs["type"]}']
         output = []
         for ref in refs:
-            if src['sid'] in ref.sources:
+            if src['sid'] and src['sid'] in ref.sources:
                 src_ref = ref.rid
                 output.append(src_ref)
         return output
