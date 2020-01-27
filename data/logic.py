@@ -13,6 +13,8 @@ OUT_DIR = os.path.join(DIR, 'auto')
 
 
 class Extractor(object):
+    step = 0
+
     """
     An Extractor maintains a list of elements, which can be subsequentially manipulated.
     """
@@ -156,8 +158,9 @@ class Extractor(object):
                 elem = [__dictify(x) for x in elem]
             return elem
 
+        Extractor.step += 1
         outfile = '' if not outfile else outfile
-        with open(f'{OUT_DIR}/extracted__{outfile}.json', 'w') as outfile:
+        with open(f'{OUT_DIR}/extracted__{Extractor.step:02d}__{outfile}.json', 'w') as outfile:
             dict_data = list(map(__dictify, self.data))
             outfile.write(json.dumps(dict_data, indent=2, ensure_ascii=False))
         return self
