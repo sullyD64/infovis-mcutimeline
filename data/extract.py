@@ -4,12 +4,13 @@ import re
 
 from logic import Extractor, ExtractorActions
 from structs import Event
-from utils import TMP_MARKER_1, TMP_MARKER_2
+from utils import TMP_MARKER_1, TMP_MARKER_2, TMP_MARKER_3
 
 DIR = os.path.dirname(__file__)
 OUT_DIR = os.path.join(DIR, 'auto')
 
 INCLUDE_ALL_NAMED_REFS = False
+INCLUDE_ALL_NAMED_REFS = True
 
 if __name__ == "__main__":
     for outfile in glob.glob(f'{OUT_DIR}/extracted__*'):
@@ -23,30 +24,28 @@ if __name__ == "__main__":
     print(f'\nSOURCES')
 
     manual_dir = os.path.join(DIR, 'manual')
-    extr_movies = Extractor(f'{manual_dir}/movies.json')
-    extr_episodes = Extractor(f'{manual_dir}/episodes.json')
-
-    actions.set_legends(**{'series_seasons':  []})
+    actions.set_legends(**{'series_seasons': []})
+    
     # extract sources by combining movies and tv episodes
-    extr_sources = (extr_movies.fork()
-        .addattr('title', actions.source__add_attrs, use_element=True, **{'to_add': 't'})
-        .addattr('details', actions.source__add_attrs, use_element=True, **{'to_add': 'd'})
-        .addattr('sid', actions.source__add_attrs, use_element=True, **{'to_add': 's'})
+    extr_sources = (Extractor(f'{manual_dir}/movies.json')
+        .addattr('title', actions.sources__add_attrs, use_element=True, **{'to_add': 't'})
+        .addattr('details', actions.sources__add_attrs, use_element=True, **{'to_add': 'd'})
+        .addattr('sid', actions.sources__add_attrs, use_element=True, **{'to_add': 's'})
         .addattr('type', 'film')
         .filter_cols(['sid', 'title', 'type', 'details'])
-        .extend(extr_episodes
-            .addattr('title', actions.source__add_attrs, use_element=True, **{'to_add': 't'})
-            .addattr('details', actions.source__add_attrs, use_element=True, **{'to_add': 'd'})
-            .addattr('sid', actions.source__add_attrs, use_element=True, **{'to_add': 's'})
-            .addattr('type', 'episode')
+        .extend(Extractor(f'{manual_dir}/episodes.json')
+            .addattr('title', actions.sources__add_attrs, use_element=True, **{'to_add': 't'})
+            .addattr('details', actions.sources__add_attrs, use_element=True, **{'to_add': 'd'})
+            .addattr('sid', actions.sources__add_attrs, use_element=True, **{'to_add': 's'})
+            .addattr('type', 'tv_episode')
             .filter_cols(['sid', 'title', 'type', 'details'])
-            .mapto(actions.mapto__source__extend_series_season)
+            .mapto(actions.mapto__sources__extend_episode_series_and_season)
             .extend(
                 Extractor(data=actions.get_legend('series_seasons'))
             )
         )
-        .count('sources')
-        .save('sources')
+        .count('sources_0')
+        .save('sources_0')
     )
 
     print('='*100)
@@ -56,12 +55,14 @@ if __name__ == "__main__":
     print(f'\nREFS')
 
     infile_parsed = os.path.join(DIR, f'{OUT_DIR}/parsed.json')
-    extr_refs = Extractor(infile_parsed)
-
-    # extract all refs, flattened
-    (extr_refs
+    extr_events = (Extractor(infile_parsed)
         .mapto(lambda ev: Event.from_dict(**ev))  # Parse raw data into Event and Ref objects.
+        .count('events')
         .save('events')
+    )
+    
+    # extract all refs, flattened
+    extr_refs = (extr_events.fork()
         .consume_key('refs')
         .flatten()
         .filter_cols(['rid', 'event__id', 'name', 'desc'])
@@ -106,7 +107,7 @@ if __name__ == "__main__":
         'sources': extr_sources.get(), 
         'sources_missing': []
     })
-    actions.set_counters(*['cnt_found', 'cnt_notfound', 'cnt_updated_sources'])
+    actions.set_counters(*['cnt_found', 'cnt_notfound', 'cnt_sources_updated'])
 
     # step 1: add source id using source title as reference
     (extr_refs_anon
@@ -133,17 +134,16 @@ if __name__ == "__main__":
 
     print(f'missing sources: added {cntrs["cnt_notfound"]} new sources.')
 
-    updated_sources = actions.get_legend('sources')
-    extr_updated_sources = (Extractor(data=updated_sources)
-        .count('sources_updated_1')
-        .save('sources_updated_1')
+    extr_sources = (Extractor(data=actions.get_legend('sources'))
+        .count('sources_1')
+        .save('sources_1')
     )
 
     actions.set_legends(**{
-        'sources': updated_sources, 
+        'sources': extr_sources.get(),
         'sources_missing': sources_missing
     })
-    print(f'sources: updated {cntrs["cnt_updated_sources"]} titles.')
+    print(f'sources: updated {cntrs["cnt_sources_updated"]} titles.')
 
     print('='*100)
 # =============================
@@ -224,22 +224,22 @@ if __name__ == "__main__":
     print(f'\nUPDATE SOURCES (after namedrefs__add_srcid, some missing sources were added)')
 
     # extend updated sources with updated missing sources
-    (extr_updated_sources
+    (extr_sources
         .extend(
             Extractor(data=actions.get_legend('sources_missing'))
             .count('sources_missing_2')
             .save('sources_missing_2')
         )
-        .count('sources_updated_2')
-        .save('sources_updated_2')
+        .count('sources_2')
+        .save('sources_2')
     )
 
     actions.set_legends(**{
-        'sources': extr_updated_sources.get()
+        'sources': extr_sources.get()
     })
     
     print(f'missing sources: added {cntrs["cnt__sources_missing_updated"]} new sources.')
-    print(f'sources: combined sources with missing sources, now available as a single list of {len(extr_updated_sources.get())} sources.')
+    print(f'sources: combined sources with missing sources, now available as a single list of {len(extr_sources.get())} sources.')
 
     print('='*100)
 # =============================
@@ -284,7 +284,7 @@ if __name__ == "__main__":
 # =============================
     print(f'\nREFS: ANON + NAMED')
 
-    extr_refs_new = (extr_refs_named.fork()
+    extr_refs = (extr_refs_named.fork()
         .extend(extr_refs_anon
             .addattr('sources', [])
             .addattr('is_secondary', False)
@@ -295,7 +295,57 @@ if __name__ == "__main__":
         .save('refs_all_final')
     )
 
-    # TODO build source > ref dictionary
-    # AKA: add a "refs" list containing all primary refs
-    #       then combine sources together to obtain root-level sources and non-root-level.
-    #       then add secondary refs to each non-root level.
+    print('='*100)
+# =============================
+# 2.6 HIERARCHY, final
+# =============================
+    print(f'\nHIERARCHY')
+
+    # add film series root sources
+    actions.set_legends(**{'series_films': []})
+    (extr_sources
+        .mapto(actions.mapto__sources__extend_film_series)
+        .extend(Extractor(data=actions.get_legend('series_films')))
+    )
+
+    # add ref ids and ref count in a list to each source
+    actions.set_legends(**{'refs': extr_refs.get()})
+    (extr_sources
+        .addattr('refs', actions.sources__add_refs, use_element=True)
+        .addattr('refs_count', lambda **kwargs: len(kwargs['element']['refs']), use_element=True)
+        .count('sources_3_refs')
+        .save('sources_3_refs')
+    )
+
+    # build source/ref hierarchy
+    actions.set_legends(**{'hierarchy': []})
+    (extr_sources 
+        .addattr('sub_sources', [])
+        .addattr('level', actions.sources__mark_level, use_element=True)
+        .mapto(actions.mapto__sources__hierarchy_level0)
+        .mapto(actions.mapto__sources__hierarchy_level1)
+        .mapto(actions.mapto__sources__hierarchy_level2)
+        .count('sources_4_level')
+        .save('sources_4_level')
+    )
+
+    # obtain final, non-flattened, 3-level file with all refs (referenced by ID),
+    # grouped by main source, subgrouped by (eventually) seasons and episodes or by movies.
+    extr_hierarchy = (Extractor(data=actions.get_legend('hierarchy'))
+        .count('hierarchy')
+        .save('hierarchy')
+    )
+
+    # hierarchy for tv shows
+    (extr_hierarchy.fork()
+        .filter_rows(lambda root: root['type'] == 'tv_series')
+        .count('hierarchy_tv')
+        .save('hierarchy_tv')
+    )
+
+    # hierarchy for films
+    (extr_hierarchy.fork()
+        .filter_rows(lambda root: root['type'] == 'film_series')
+        .count('hierarchy_film')
+        .save('hierarchy_film')
+    )

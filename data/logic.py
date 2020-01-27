@@ -1,3 +1,4 @@
+import copy
 import json
 import os
 import re
@@ -25,9 +26,9 @@ class Extractor(object):
 
     def fork(self):
         """
-        Returns a new copy of the Extractor, already initialized to the current state.
+        Returns a new Extractor containing a deep copy of its data.
         """
-        return Extractor(data=self.data)
+        return Extractor(data=copy.deepcopy(self.data))
 
     def extend(self, other):
         """
@@ -186,9 +187,9 @@ class ExtractorActions():
     def get_counters(self):
         return self.counters
 
-    # ----------------------------
+    # -----------------------------------
 
-    def source__add_attrs(self, **kwargs):
+    def sources__add_attrs(self, **kwargs):
         to_add, source = kwargs['to_add'], kwargs['element']
         if to_add == 'd':
             out = {}
@@ -202,7 +203,7 @@ class ExtractorActions():
         elif to_add == 't':
             return source['title']
 
-    def mapto__source__extend_series_season(self, src):
+    def mapto__sources__extend_episode_series_and_season(self, src):
         series_seasons = self.legends['series_seasons']
 
         def get_season_title(title, number):
@@ -216,13 +217,13 @@ class ExtractorActions():
             }
             return f'{title}/Season {switcher[number]}'
 
-        if src['type'] == 'episode':
+        if src['type'] == 'tv_episode':
             src_season_details = {k: v for k,v in src['details'].items()}
             src_season_details.pop('episode')
             src_season = {
                 'sid': src_season_details.pop('season_id'),
                 'title': get_season_title(src_season_details['series'], src_season_details['season']),
-                'type': 'season',
+                'type': 'tv_season',
                 'details': src_season_details
             }
             src_series_details = {k: v for k, v in src_season_details.items()}
@@ -230,7 +231,7 @@ class ExtractorActions():
             src_series = {
                 'sid': src_series_details['series_id'],
                 'title': src_series_details['series'],
-                'type': 'series',
+                'type': 'tv_series',
                 'details': {},
             }
             if src_season not in series_seasons:
@@ -238,6 +239,8 @@ class ExtractorActions():
             if src_series not in series_seasons:
                 series_seasons.append(src_series)
         return src
+
+    # -----------------------------------
 
     def refs__add_srctitle(self, **kwargs):
         ref = kwargs['element']
@@ -252,6 +255,8 @@ class ExtractorActions():
                 if links:
                     output = links[0].title
         return output
+
+    # -----------------------------------
 
     def anonrefs__add_srcid(self, **kwargs):
         sources = self.legends['sources']
@@ -283,7 +288,7 @@ class ExtractorActions():
                 if s__title.strip() != ref.source__title.strip():
                     print(f'[anonrefs__add_srcid] sources: adding clarification to title "{s__title}" => "{ref.source__title}"')
                     sources[index]['title'] = ref.source__title
-                    self.counters['cnt_updated_sources'] += 1
+                    self.counters['cnt_sources_updated'] += 1
                 break
         if found:
             self.counters['cnt_found'] += 1
@@ -298,6 +303,8 @@ class ExtractorActions():
             print(f'[anonrefs__add_srcid] rid: {ref.rid} refers to missing source: "{r__title}". Adding new source.')
         return output
 
+    # -----------------------------------
+
     def namedrefs__add_srcid(self, **kwargs):
         ref = kwargs['element']
         output = None
@@ -307,7 +314,7 @@ class ExtractorActions():
             self.counters['cnt__matching_exact'] += 1
         else:
             tkns = ref.name.split(' ')
-            if len(tkns) == 1:
+            if len(tkns) == 1 or tkns[0] == 'PT':  # special case
                 sources_missing = self.legends['sources_missing']
                 output = ref.name
                 in_sources_missing = []
@@ -344,7 +351,7 @@ class ExtractorActions():
                         new_src_main = {
                             'sid': 'SE2010',
                             'title': 'Stark Expo/Promotional Campaign',
-                            'type': 'other',
+                            'type': 'web_series',
                             'details': {}
                         }
                         if new_src_main not in sources_missing:
@@ -355,18 +362,18 @@ class ExtractorActions():
                         new_src_main = {
                             'sid': 'TAPBWS',
                             'title': 'The Avengers Prelude: Black Widow Strikes',
-                            'type': 'other',
+                            'type': 'comic_series',
                             'details': {}
                         }
                         if new_src_main not in sources_missing:
                             sources_missing.append(new_src_main)
-                    elif tkns[0].startswith('PT'):
+                    elif tkns[0] == 'PT':
                         new_src['details']['series'] = 'Pym Technologies'
                         new_src['details']['series_id'] = 'PT'
                         new_src_main = {
                             'sid': 'PT',
                             'title': 'Pym Technologies',
-                            'type': 'other',
+                            'type': 'web_series',
                             'details': {}
                         }
                         if new_src_main not in sources_missing:
@@ -436,3 +443,67 @@ class ExtractorActions():
         if len(ref.sources) == 0:
             ref.sources = [ref.source__id]
         return ref
+
+    # -----------------------------------
+
+    def sources__add_refs(self, **kwargs):
+        src = kwargs['element']
+        refs = self.legends['refs']
+        output = []
+        for ref in refs:
+            if src['sid'] in ref.sources:
+                src_ref = ref.rid
+                output.append(src_ref)
+        return output
+
+    def mapto__sources__extend_film_series(self, this_src):
+        series_films = self.legends['series_films']
+        if (this_src['type'] == 'film'):
+            src_film_series = {
+                'sid': this_src['details']['series_id'],
+                'title': this_src['details']['series'],
+                'type': 'film_series',
+                'details': {},
+            }
+            if not src_film_series in series_films:
+                series_films.append(src_film_series)
+        return this_src
+
+
+    def sources__mark_level(self, **kwargs):
+        src = kwargs['element']
+        output = 0
+
+        if src['details']:
+            if src['type'] == 'tv_episode':
+                output = 2
+            else:
+                output = 1
+        return output
+
+    def mapto__sources__hierarchy_level0(self, this_src):
+        hierarchy = self.legends['hierarchy']
+        if this_src['level'] == 0:
+            hierarchy.append(this_src.copy())
+        return this_src
+
+    def mapto__sources__hierarchy_level1(self, this_src):
+        hierarchy = self.legends['hierarchy']
+        if this_src['level'] == 1:
+            root_in_hierarchy = list(filter(lambda src: src['sid'] == this_src['details']['series_id'], hierarchy))
+            if root_in_hierarchy:
+                root_src = root_in_hierarchy[0]
+                root_src['sub_sources'] = [*root_src['sub_sources'], *[this_src.copy()]]
+        return this_src
+
+    def mapto__sources__hierarchy_level2(self, this_src):
+        hierarchy = self.legends['hierarchy']
+        if this_src['level'] == 2:
+            root_in_hierarchy = list(filter(lambda src: src['sid'] == this_src['details']['series_id'], hierarchy))
+            if root_in_hierarchy:
+                root_src = root_in_hierarchy[0]
+                subroot_in_hierarchy = list(filter(lambda src: src['sid'] == this_src['details']['season_id'], root_src['sub_sources']))
+                if subroot_in_hierarchy:
+                    subroot_src = subroot_in_hierarchy[0]
+                    subroot_src['sub_sources'] = [*subroot_src['sub_sources'], *[this_src.copy()]]
+        return this_src
