@@ -9,8 +9,8 @@ from utils import TMP_MARKER_1, TMP_MARKER_2
 DIR = os.path.dirname(__file__)
 OUT_DIR = os.path.join(DIR, 'auto')
 
-INCLUDE_ALL_NAMED_REFS = False
-INCLUDE_ALL_NAMED_REFS = True
+NAMEDREFS_INCLUDE_VOID = False
+NAMEDREFS_INCLUDE_VOID = True
 
 if __name__ == "__main__":
     for outfile in glob.glob(f'{OUT_DIR}/extracted__*'):
@@ -66,8 +66,8 @@ if __name__ == "__main__":
         .consume_key('refs')
         .flatten()
         .filter_cols(['rid', 'event__id', 'name', 'desc'])
-        .count('refs_all')
-        .save('refs_all')
+        .count('refs_all_0')
+        .save('refs_all_0')
     )
 
     print('='*100)
@@ -166,6 +166,7 @@ if __name__ == "__main__":
     but refs in a void html tag are just pointers to non-void ref tags, which are far more relevant.
     """
     extr_refs_named_unique = (extr_refs_named.fork()
+        .filter_rows(lambda ref: ref.desc is not None)
         .unique()
         .sort()
         .count('refs_named_unique')
@@ -174,7 +175,8 @@ if __name__ == "__main__":
 
     # ------------------------------------------------------
     # MODE SWITCHER between unique-only and all named refs
-    if not INCLUDE_ALL_NAMED_REFS:
+    if not NAMEDREFS_INCLUDE_VOID:
+        print("** WARNING: Using unique, non-void named refs **")
         extr_refs_named = extr_refs_named_unique
     # ------------------------------------------------------
 
@@ -247,7 +249,7 @@ if __name__ == "__main__":
 # =============================
     print(f'\nNAMED REFS')
 
-    actions.set_counters(*['cnt__sub_ref_found', 'cnt__not_a_source'])
+    actions.set_counters(*['cnt__secondary_ref_found', 'cnt__not_a_source'])
 
     # step 2: begin adding sources as lists, starting from "multiple" refnames
     (extr_refs_named
@@ -261,8 +263,8 @@ if __name__ == "__main__":
     cntrs = actions.get_counters()
     print(
         f'[mapto__namedrefs__add_srcid_multiple]: out of {cnt_tot} named refs:\n'
-        f'\t- {cnt_tot - cntrs["cnt__sub_ref_found"] - cntrs["cnt__not_a_source"]} refs were left unchanged.\n'
-        f'\t- {cntrs["cnt__sub_ref_found"]} refs have a complex name (multiple tokens) but refer to a valid source, so they are secondary refs.\n'
+        f'\t- {cnt_tot - cntrs["cnt__secondary_ref_found"] - cntrs["cnt__not_a_source"]} refs were left unchanged.\n'
+        f'\t- {cntrs["cnt__secondary_ref_found"]} refs have a complex name (multiple tokens) but refer to a valid source, so they are secondary refs.\n'
         f'\t\tThose are marked with {TMP_MARKER_2} and will have is_secondary=True\n'
         f'\t- {cntrs["cnt__not_a_source"]} refs have a complex name (multiple tokens) which is invalid (not a source)\n'
         f'\t\tThose are marked with {TMP_MARKER_1} and will be removed.'
@@ -284,6 +286,8 @@ if __name__ == "__main__":
 # =============================
     print(f'\nREFS: ANON + NAMED')
 
+    extr_refs_anon.count('refs_anon_src_1')
+    extr_refs_named.count('refs_named_src_3')
     extr_refs = (extr_refs_named.fork()
         .extend(extr_refs_anon
             .addattr('sources', [])
@@ -291,8 +295,67 @@ if __name__ == "__main__":
             .mapto(actions.mapto__refs__convert_srcid_srctitle_to_sourcelist)
             .filter_cols(['rid', 'event__id', 'name', 'is_secondary', 'sources', 'desc'])
         )
-        .count('refs_all_final')
-        .save('refs_all_final')
+        .count('refs_all_1')
+        .save('refs_all_1')
+    )
+
+    # step 0: separate void refs from non-void and transform event__id into a events list containing [event__id]
+    extr_refs_void = (extr_refs.fork()
+        .filter_rows(lambda ref: ref.desc is None)
+        .count('refs_all_void')
+        .save('refs_all_void')
+    )
+    extr_refs_nonvoid = (extr_refs.fork()
+        .filter_rows(lambda ref: ref.desc is not None)
+        .addattr('events', lambda **kwargs: [kwargs['element'].event__id], use_element=True)
+        .count('refs_all_nonvoid_0')
+        .save('refs_all_nonvoid_0')
+    )
+
+    # step 1: remove duplicate non-void refs by merging their event lists, the first encountered receives all the duplicates' event__ids.
+    """
+    The reason some non-void refs exist in multiple copies is because this:
+    When the same refname is used across multiple timeline pages, it is necessary to redefine it (copying the text), 
+    so there is at least one non-void ref for that refname in that page.
+    Duplicate non-void refs are unnecessary and it's safe to remove them by merging the event__ids. 
+    """
+    actions.set_counters(*['cnt_found_duplicate_nonvoid'])
+    actions.set_legends(**{
+        'refs_nonvoid_0': extr_refs_nonvoid.get(),
+        'refs_nonvoid_new_1': [],
+    })
+    (extr_refs_nonvoid
+        .mapto(actions.mapto__refs__remove_duplicates_1)
+    )
+    cntrs = actions.get_counters()
+    print(
+        f'[mapto__refs__remove_duplicates_1]: found ({cntrs["cnt_found_duplicate_nonvoid"]}) duplicate non-void refs in refs_all_nonvoid_0.\n'
+        f'\tTheir event__ids have been added to the events list of the first occurrence in order of rid.'
+    )
+    extr_refs_nonvoid = (Extractor(data=actions.get_legend('refs_nonvoid_new_1'))
+        .sort()
+        .filter_cols(['rid', 'name', 'is_secondary', 'events', 'sources', 'desc'])
+        .count('refs_all_nonvoid_1')
+        .save('refs_all_nonvoid_1')
+    )
+
+    # step 2: merge void refs into nonvoids by appending the void ref's event__id in the non-void one.
+    actions.set_counters(*['cnt_found_duplicate_void'])
+    actions.set_legends(**{
+        'refs_nonvoid_1': extr_refs_nonvoid.get(),
+    })
+    (extr_refs_void
+        .mapto(actions.mapto__refs__remove_duplicates_2)
+    )
+    cntrs = actions.get_counters()
+    print(
+        f'[mapto__refs__remove_duplicates_2]: found ({cntrs["cnt_found_duplicate_void"]}) duplicate void refs in refs_all_void.\n'
+        f'\tTheir event__ids have been added to the events list of the first occurrence in order of rid.'
+    )
+    extr_refs = (Extractor(data=actions.get_legend('refs_nonvoid_1'))
+        .sort()
+        .count('refs_all_2')
+        .save('refs_all_2')
     )
 
     print('='*100)
@@ -338,36 +401,38 @@ if __name__ == "__main__":
     # obtain final, non-flattened, 3-level file with all refs (referenced by ID),
     # grouped by main source, subgrouped by (eventually) seasons and episodes or by films.
     extr_hierarchy = (Extractor(data=actions.get_legend('hierarchy'))
-        .count('hierarchy')
-        .save('hierarchy')
+        .count('timeline_hierarchy')
+        .save('timeline_hierarchy')
     )
 
     # hierarchy for tv shows
     extr_tv = (extr_hierarchy.fork()
         .filter_rows(lambda root: root['type'] == 'tv_series')
-        .count('hierarchy_tv')
-        .save('hierarchy_tv')
+        .count('timeline_hierarchy_tv')
+        .save('timeline_hierarchy_tv')
     )
 
     # hierarchy for films
     extr_films = (extr_hierarchy.fork()
         .filter_rows(lambda root: root['type'] == 'film_series')
-        .count('hierarchy_film')
-        .save('hierarchy_film')
+        .count('timeline_hierarchy_film')
+        .save('timeline_hierarchy_film')
     )
 
     # ---------------------------------------------------------------------------------
 
-    count_film_refs = (extr_films
+    film_countrefs = (extr_films
         .consume_key('sub_sources')
         .flatten()
         .addattr('year', lambda **kwargs: kwargs['element']['details']['year'], use_element=True)
         .filter_cols(['year', 'title', 'refs_primary_count', 'refs_secondary_count', 'refs_tot_count'])
-        .save('count_film_refs')
+        .save('timeline_hierarchy_film_countrefs')
         .get()
     )
 
-    count_film_refs = [f'{d["year"]}, {d["title"]}, {d["refs_primary_count"]}, {d["refs_secondary_count"]}, {d["refs_tot_count"]}' for d in count_film_refs]
-    print()
-    for frc in count_film_refs:
-        print(frc)
+    film_countrefs = [f'{d["year"]}, {d["title"]}, {d["refs_primary_count"]}, {d["refs_secondary_count"]}, {d["refs_tot_count"]}' for d in film_countrefs]
+    # print()
+    # for frc in film_countrefs:
+    #     print(frc)
+
+    

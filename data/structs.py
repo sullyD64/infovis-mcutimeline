@@ -73,7 +73,7 @@ class Ref(object):
 
     def __lt__(self, other):
         if isinstance(other, Ref):
-            return self.event__id < other.event__id
+            return self.rid < other.rid
         return NotImplemented
 
 

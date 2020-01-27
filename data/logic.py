@@ -278,7 +278,7 @@ class ExtractorActions():
         if clarification_found and not clarification_found[0] == "T.R.O.Y.":  # TODO anonrefs__add_srcid > workaround for Luke Cage 2.13 (find a better way)
             clarification = clarification_found[0]
             r__title = re.sub(r'(\([^\)]+\))$', '', ref.source__title).strip()
-            print(f'[anonrefs__add_srcid] rid: {ref.rid} has clarification ({clarification}) in title: "{ref.source__title}"')
+            # print(f'[anonrefs__add_srcid] rid: {ref.rid} has clarification ({clarification}) in title: "{ref.source__title}"')
 
         for index, source in enumerate(sources):
             s__title = source['title']
@@ -286,7 +286,7 @@ class ExtractorActions():
                 found = True
                 output = source['sid']
                 if s__title.strip() != ref.source__title.strip():
-                    print(f'[anonrefs__add_srcid] sources: adding clarification to title "{s__title}" => "{ref.source__title}"')
+                    # print(f'[anonrefs__add_srcid] sources: adding clarification to title "{s__title}" => "{ref.source__title}"')
                     sources[index]['title'] = ref.source__title
                     self.counters['cnt_sources_updated'] += 1
                 break
@@ -300,7 +300,7 @@ class ExtractorActions():
                 'details': {}
             })
             self.counters['cnt_notfound'] += 1
-            print(f'[anonrefs__add_srcid] rid: {ref.rid} refers to missing source: "{r__title}". Adding new source.')
+            # print(f'[anonrefs__add_srcid] rid: {ref.rid} refers to missing source: "{r__title}". Adding new source.')
         return output
 
     # -----------------------------------
@@ -416,14 +416,14 @@ class ExtractorActions():
                                 found_multiple = True
                                 sources.append(sp)
                     if found_multiple:
-                        print(f"[mapto__namedrefs__add_srcid_multiple] multiple sources found based on the prefix: {ref.name}")
+                        # print(f"[mapto__namedrefs__add_srcid_multiple] multiple sources found based on the prefix: {ref.name}")
                         found = True
                         ref.sources = [*ref.sources, *sources]
             if found:
-                self.counters['cnt__sub_ref_found'] += 1
+                self.counters['cnt__secondary_ref_found'] += 1
                 ref.source__id = TMP_MARKER_2
             else:
-                print(f'[mapto__namedrefs__add_srcid_multiple] not a source: {ref.name}')
+                # print(f'[mapto__namedrefs__add_srcid_multiple] not a source: {ref.name}')
                 self.counters['cnt__not_a_source'] += 1      
         return ref
 
@@ -443,6 +443,38 @@ class ExtractorActions():
         if len(ref.sources) == 0:
             ref.sources = [ref.source__id]
         return ref
+
+    # -----------------------------------
+
+    def mapto__refs__remove_duplicates_1(self, this_ref):
+        refs_nonvoid = self.legends['refs_nonvoid_0']
+        refs_nonvoid_new = self.legends['refs_nonvoid_new_1']
+        duplicate_refs = list(filter(lambda ref: (
+            (ref == this_ref or 
+                (((not ref.name and this_ref.name) or (ref.name and not this_ref.name)) 
+                and ref.desc == this_ref.desc))
+            # ref == this_ref
+            and ref.rid != this_ref.rid
+            and ref not in refs_nonvoid_new), refs_nonvoid))
+        
+        if duplicate_refs:
+            for dref in duplicate_refs:
+                this_ref.events.append(dref.event__id)
+            # print(f'{this_ref.rid} found duplicates: {[ref.rid for ref in duplicate_refs]}')
+            # print(f'{this_ref.rid} events list: {this_ref.events}\n')
+            self.counters['cnt_found_duplicate_nonvoid'] += 1
+        if this_ref not in refs_nonvoid_new:
+            refs_nonvoid_new.append(this_ref)
+        return this_ref
+
+    def mapto__refs__remove_duplicates_2(self, this_ref):
+        refs_nonvoid = self.legends['refs_nonvoid_1']
+        match = list(filter(lambda ref: ref.name == this_ref.name, refs_nonvoid))
+        if match:
+            main_ref = match[0]
+            main_ref.events = sorted([*main_ref.events, *[this_ref.event__id]])
+            self.counters['cnt_found_duplicate_void'] += 1
+        return this_ref
 
     # -----------------------------------
 
@@ -468,7 +500,6 @@ class ExtractorActions():
             if not src_film_series in series_films:
                 series_films.append(src_film_series)
         return this_src
-
 
     def sources__mark_level(self, **kwargs):
         src = kwargs['element']
