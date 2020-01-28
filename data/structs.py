@@ -18,7 +18,7 @@ class Ref(object):
             return
 
         Ref.rid += 1
-        self.rid = Ref.rid
+        self.rid = f'R{Ref.rid:05d}'
         self.event__id = event__id
         if text:
             self.name = MyHTMLParser().extract_name(text)
@@ -95,7 +95,7 @@ class Event(object):
             return
 
         Event.eid += 1
-        self.eid = Event.eid
+        self.eid = f'E{Event.eid:05d}'
         self.file = filename
         self.line = ln
         self.date = self.__get_date(day, month, year)
