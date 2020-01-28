@@ -58,13 +58,13 @@ class Extractor(object):
             raise NotImplementedError
         return self
 
-    def filter_cols(self, col_names: list):
+    def select_cols(self, col_names: list):
         """
         Filters data by selecting the given attributes or keys for each element in data.\n
         Works with both objects and dicts.
         """
         if not self.data:
-            raise Exception("filter_cols: Empty list")
+            raise Exception("select_cols: Empty list")
         if isinstance(self.data[0], dict):
             self.data = [{col: d[col] for col in col_names} for d in self.data]
         elif isinstance(self.data[0], object):
@@ -74,6 +74,14 @@ class Extractor(object):
         else:
             raise NotImplementedError
         return self
+
+    def remove_cols(self, excluded_col_names: list):
+        """
+        Filters data by selecting all attributes or keys but the ones for each element in data.\n
+        Works with both objects and dicts.
+        """
+        col_names = [key for key in self.data[0].__dict__.keys() if key not in excluded_col_names]
+        return self.select_cols(col_names)
 
     def consume_key(self, key: str):
         """

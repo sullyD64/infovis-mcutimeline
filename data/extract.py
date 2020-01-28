@@ -32,13 +32,13 @@ if __name__ == "__main__":
         .addattr('details', actions.sources__add_attrs, use_element=True, **{'to_add': 'd'})
         .addattr('sid', actions.sources__add_attrs, use_element=True, **{'to_add': 's'})
         .addattr('type', 'film')
-        .filter_cols(['sid', 'title', 'type', 'details'])
+        .select_cols(['sid', 'title', 'type', 'details'])
         .extend(Extractor(f'{manual_dir}/tv_episodes.json')
             .addattr('title', actions.sources__add_attrs, use_element=True, **{'to_add': 't'})
             .addattr('details', actions.sources__add_attrs, use_element=True, **{'to_add': 'd'})
             .addattr('sid', actions.sources__add_attrs, use_element=True, **{'to_add': 's'})
             .addattr('type', 'tv_episode')
-            .filter_cols(['sid', 'title', 'type', 'details'])
+            .select_cols(['sid', 'title', 'type', 'details'])
             .mapto(actions.mapto__sources__extend_episode_series_and_season)
             .extend(
                 Extractor(data=actions.get_legend('series_seasons'))
@@ -65,7 +65,7 @@ if __name__ == "__main__":
     extr_refs = (extr_events.fork()
         .consume_key('refs')
         .flatten()
-        .filter_cols(['rid', 'event__id', 'name', 'desc'])
+        .remove_cols(['links'])
         .count('refs_all_0')
         .save('refs_all_0')
     )
@@ -275,7 +275,7 @@ if __name__ == "__main__":
         .addattr('is_secondary', lambda **kwargs: kwargs['element'].source__id == TMP_MARKER_2, use_element=True)
         .filter_rows(lambda ref: ref.source__id != TMP_MARKER_1)
         .mapto(actions.mapto__refs__convert_srcid_srctitle_to_sourcelist)
-        .filter_cols(['rid', 'event__id', 'name', 'is_secondary', 'sources', 'desc'])
+        .remove_cols(['source__title', 'source__id'])
         .count('refs_named_src_3')
         .save('refs_named_src_3')
     )
@@ -293,7 +293,7 @@ if __name__ == "__main__":
             .addattr('sources', [])
             .addattr('is_secondary', False)
             .mapto(actions.mapto__refs__convert_srcid_srctitle_to_sourcelist)
-            .filter_cols(['rid', 'event__id', 'name', 'is_secondary', 'sources', 'desc'])
+            .remove_cols(['source__title', 'source__id'])
         )
         .count('refs_all_1')
         .save('refs_all_1')
@@ -334,7 +334,7 @@ if __name__ == "__main__":
     )
     extr_refs_nonvoid = (Extractor(data=actions.get_legend('refs_nonvoid_new_1'))
         .sort()
-        .filter_cols(['rid', 'name', 'is_secondary', 'events', 'sources', 'desc'])
+        .select_cols(['rid', 'name', 'is_secondary', 'events', 'sources', 'desc'])
         .count('refs_all_nonvoid_1')
         .save('refs_all_nonvoid_1')
     )
@@ -425,7 +425,7 @@ if __name__ == "__main__":
         .consume_key('sub_sources')
         .flatten()
         .addattr('year', lambda **kwargs: kwargs['element']['details']['year'], use_element=True)
-        .filter_cols(['year', 'title', 'refs_primary_count', 'refs_secondary_count', 'refs_tot_count'])
+        .select_cols(['year', 'title', 'refs_primary_count', 'refs_secondary_count', 'refs_tot_count'])
         .save('timeline_hierarchy_film_countrefs')
         .get()
     )
@@ -435,4 +435,14 @@ if __name__ == "__main__":
     # for frc in film_countrefs:
     #     print(frc)
 
-    
+    print('='*100)
+# =============================
+# 2.7 EVENTS
+# =============================
+    print(f'\nEVENTS')
+
+    (extr_events
+        .addattr('refs', lambda **kwargs: [ref.rid for ref in kwargs['element'].refs], use_element=True)
+        .count('events_stripped')
+        .save('events_stripped')
+    )
