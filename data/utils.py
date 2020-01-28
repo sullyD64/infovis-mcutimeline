@@ -133,6 +133,10 @@ class TextFormatter(object):
 
     # --------------
 
+    def remove_templates(self):
+        self.t = re.sub(r'\{\{[^\}]*(\|[^\}\}\|]*)?\|([^\}\}]*)\}\}', r'\2', self.t)
+        return self
+
     def strip_small_html_tags(self):
         """"Removes starting and trailing <small> tags"""
         self.t = re.sub(r'<small>([^<>]*)</small>', r'\1', self.t)

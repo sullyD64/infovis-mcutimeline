@@ -11,7 +11,6 @@ from const import TMP_MARKERS, SRC_TYPES
 DIR = os.path.dirname(__file__)
 OUT_DIR = os.path.join(DIR, 'auto')
 
-
 class Extractor(object):
     step = 0
 
@@ -150,9 +149,9 @@ class Extractor(object):
         print(f'COUNT: {what} ({len(self.data)})')
         return self
 
-    def save(self, outfile=None):
+    def save(self, outfile=None, directory=None):
         """
-        Saves current data in outfile, serialized as JSON. Default file name is extracted__{outfile}.json. \n
+        Saves current data in outfile, serialized as JSON. Default file name is extracted__{step#}__{outfile}.json. \n
         Python objects anywhere in data are dictified. (see Event.to_dict() or Ref.to_dict())
         """
         def __dictify(elem):
@@ -165,10 +164,11 @@ class Extractor(object):
             elif isinstance(elem, list):
                 elem = [__dictify(x) for x in elem]
             return elem
-
+        
+        dirname = f'{directory}/' if directory else ''
         Extractor.step += 1
         outfile = '' if not outfile else outfile
-        with open(f'{OUT_DIR}/extracted__{Extractor.step:02d}__{outfile}.json', 'w') as outfile:
+        with open(f'{OUT_DIR}/{dirname}extracted__{Extractor.step:02d}__{outfile}.json', 'w') as outfile:
             dict_data = list(map(__dictify, self.data))
             outfile.write(json.dumps(dict_data, indent=2, ensure_ascii=False))
         return self

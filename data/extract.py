@@ -360,7 +360,7 @@ if __name__ == "__main__":
 
     print('='*100)
 # =============================
-# 2.6 HIERARCHY, final
+# 3 HIERARCHY, final
 # =============================
     print(f'\nHIERARCHY')
 
@@ -437,7 +437,7 @@ if __name__ == "__main__":
 
     print('='*100)
 # =============================
-# 2.7 EVENTS
+# 4 EVENTS
 # =============================
     print(f'\nEVENTS')
 

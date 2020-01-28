@@ -15,4 +15,5 @@ SRC_TYPES = {
     'comic_series': 'comic_series',
     'other': 'other',
 }
+BASE_URL = 'https://marvelcinematicuniverse.fandom.com/wiki/'
 MEDIA_TYPES_APPEARENCE = ['movie', 'oneshot', 'tv series', 'web series', 'game', 'comic']
