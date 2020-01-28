@@ -52,12 +52,14 @@ class Main(object):
                 else:
                     # remove_files_or_images:   done before processing text, because sometimes images are displayed on a single line.
                     # remove_empty_refs:        remove empty <ref> tags which were left over by the previous removal of links/images.
-                    # fix_incorrect_refs:       done before processing text, because those tags are incorrectly parsed by htmlparser and thus cause errors in detecting balanced tags.
+                    # fix_void_ref_nodes:       done before processing text, because those tags are incorrectly parsed by htmlparser and thus cause errors in detecting balanced tags.
+                    # fix_incorrect_wikipedia_wiki_links: done before processing text, so that the wikitextparser doesn't recognise those links as wikilinks.
                     line = (TextFormatter()
                         .text(line)
                         .remove_wiki_images_or_files()
                         .remove_empty_ref_nodes()
                         .fix_void_ref_nodes()
+                        .fix_incorrect_wikipedia_wiki_links()
                         .get()
                     )
 

@@ -32,6 +32,11 @@ class TextFormatter(object):
         self.t = re.sub(r'name=([^\'\"]*\'?[^\\\'\">]*)/>', r'name="\1" />', self.t)
         return self
 
+    def fix_incorrect_wikipedia_wiki_links(self):
+        """Converts wikilinks referring to wikipedia pages in wps templates."""
+        self.t = re.sub(r'\[\[wikipedia:(([^\|\]]*)\|)?([^\]\|]*)\]\]', r'{{WPS|\1\3}}', self.t)
+        return self
+
     # -------------- Event desc preprocessing
 
     def remove_ref_nodes(self):
@@ -43,7 +48,7 @@ class TextFormatter(object):
 
     def strip_wiki_links(self):
         """Remove wikilink wrap. If a label is present, use the label instead of the page title."""
-        self.t = re.sub(r'\[\[([^\|\]]*\|)?([^\]\|]*)\]\]', r'\2', self.t)
+        self.t = re.sub(r'\[\[wikipedia:(([^\|\]]*)\|)?([^\]\|]*)\]\]', r'\2', self.t)
         return self
 
     def strip_wps_templates(self):
