@@ -72,7 +72,8 @@ def parse_character(charid: str, chartemp: wtp.Template):
 
 def crawl_character(pagetitle: str):
     pagetitle = re.sub(' ', '_', pagetitle)
-    filename = f'{OUT_DIR}/char__{pagetitle}.json'
+    pagetitle_clean = re.sub(r"[\\\/]", "__", pagetitle)
+    filename = f'{OUT_DIR}/char__{pagetitle_clean}.json'
     logprfx = f'[crawl_character] "{pagetitle}":'
     print(f'\n{logprfx[:-1]}')
     try:
@@ -84,7 +85,6 @@ def crawl_character(pagetitle: str):
         try:
             text = search_page(pagetitle)
             text_head = []
-            # for i, line in enumerate(text, start=1):
             for line in text:
                 text_head.append(line)
                 if '{{' not in line and '}}' in line:
@@ -97,7 +97,7 @@ def crawl_character(pagetitle: str):
                 with open(filename, 'w') as outfile:
                     print(f'{logprfx} Character template found. Parsing...')
                     parsed_chartemp = parse_character(pagetitle, chartemp)
-                    print(f'{logprfx} Saving parsed template at {filename}.')
+                    print(f'{logprfx} [OK] Saving parsed template at {filename}.')
                     outfile.write(json.dumps(parsed_chartemp, indent=2, ensure_ascii=False))
                 return True
             else:
@@ -108,26 +108,52 @@ def crawl_character(pagetitle: str):
 
 
 if __name__ == "__main__":
-    for outfile in glob.glob(f'{OUT_DIR}/*'):
+    inpath = os.path.join(DIR, f'auto/extracted__29__events_stripped.json')
+
+    for outfile in glob.glob(f'{DIR}/auto/occurrences_*.json'):
         os.remove(outfile)
 
-    occurrences = {}
+    # for outfile in glob.glob(f'{OUT_DIR}/*'):
+    #     os.remove(outfile)
+    # testpages = ["Captain America", "Heimdall", "Infinity Stones", "notapage", "Groot", "Captain America", "Black Widow"]
+    
+    all_links = (Extractor(inpath)
+        .select_cols(['links'])
+        .consume_key('links')
+        .flatten()
+        .mapto(lambda text: wtp.parse(text).wikilinks[0].title)
+        .save('links')
+        .get()
+    )
 
-    testpages = ["Captain America", "Heimdall", "Infinity Stones", "notapage", "Groot", "Captain America", "Black Widow"]
-    for page in testpages:
-        if crawl_character(page):
-            if page in occurrences.keys():
-                occurrences[page] += 1
+    occ_chars = {}
+    occ_nonchars = {}
+    for i, page in enumerate(all_links, start=1):
+        if page in occ_nonchars.keys():
+            occ_nonchars[page] += 1  
+        elif crawl_character(page):
+            if page in occ_chars.keys():
+                occ_chars[page] += 1
             else:
-                occurrences[page] = 1
+                occ_chars[page] = 1
+        else:
+            occ_nonchars[page] = 1
 
-    print(f'\n{occurrences}')
+        
+        max_chars = max(occ_chars, key=lambda k: occ_chars[k]) if occ_chars else None
+        max_chars_count = occ_chars[max_chars] if max_chars else 0
+        max_nonchars = max(occ_nonchars, key=lambda k: occ_nonchars[k]) if occ_nonchars else None
+        max_nonchars_count = occ_nonchars[max_nonchars] if max_nonchars else 0
+        print(
+            f'\nPROGRESS: {i}/{len(all_links)} (remaining: {len(all_links)-i})\n'
+            f'unique characters: {len(occ_chars)}\n'
+            f'unique noncharacters: {len(occ_nonchars)}\n'
+            f'most frequent character: {max_chars} ({max_chars_count})\n'
+            f'most frequent noncharacter: {max_nonchars} ({max_nonchars_count})'
+        )
 
-    # infile_parsed = os.path.join(DIR, f'auto/extracted__29__events_stripped.json')
-    # extr_events = (Extractor(infile_parsed)
-    #     .select_cols(['links'])
-    #     .consume_key('links')
-    #     .flatten()
-    #     .mapto(lambda text: wtp.parse(text).wikilinks[0].title)
-    #     .save('test', 'characters')
-    # )
+    outpath_chars = os.path.join(DIR, 'auto/occurrences_chars.json')
+    outpath_nonchars = os.path.join(DIR, 'auto/occurrences_nonchars.json')
+    with open(outpath_chars, 'w') as outfile_chars, open(outpath_nonchars, 'w') as outfile_nonchars:
+        outfile_chars.write(json.dumps(occ_chars, indent=2, ensure_ascii=False))
+        outfile_nonchars.write(json.dumps(occ_nonchars, indent=2, ensure_ascii=False))

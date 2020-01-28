@@ -431,9 +431,9 @@ if __name__ == "__main__":
     )
 
     film_countrefs = [f'{d["year"]}, {d["title"]}, {d["refs_primary_count"]}, {d["refs_secondary_count"]}, {d["refs_tot_count"]}' for d in film_countrefs]
-    # print()
-    # for frc in film_countrefs:
-    #     print(frc)
+    print()
+    for frc in film_countrefs:
+        print(frc)
 
     print('='*100)
 # =============================
