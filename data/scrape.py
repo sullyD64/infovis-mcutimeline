@@ -6,11 +6,10 @@ import requests
 import wikitextparser as wtp
 
 from utils import TextFormatter
+from const import MEDIA_TYPES_APPEARENCE
 
 BASE_URL = 'https://marvelcinematicuniverse.fandom.com/wiki/'
 OUT_DIR = os.path.join(os.path.dirname(__file__), 'auto/characters')
-
-MEDIA = ['movie', 'oneshot', 'tv series', 'web series', 'game', 'comic']
 
 class WikipageNotExistingError(Exception):
     def __init__(self, page):
@@ -45,7 +44,7 @@ def get_character_details(page: str):
             appearences = {}
 
             tf = TextFormatter()
-            for media in MEDIA:
+            for media in MEDIA_TYPES_APPEARENCE:
                 m_apps = list(filter(lambda arg: media in arg.name, chartemp.arguments))
                 m_apps = m_apps[0].value if m_apps else None
 

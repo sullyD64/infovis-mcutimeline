@@ -6,7 +6,7 @@ import re
 import wikitextparser as wtp
 
 from structs import Event, Ref
-from utils import TMP_MARKER_1, TMP_MARKER_2
+from const import TMP_MARKERS, SRC_TYPES
 
 DIR = os.path.dirname(__file__)
 OUT_DIR = os.path.join(DIR, 'auto')
@@ -228,13 +228,13 @@ class ExtractorActions():
             }
             return f'{title}/Season {switcher[number]}'
 
-        if src['type'] == 'tv_episode':
+        if src['type'] == SRC_TYPES['tv_episode']:
             src_season_details = {k: v for k,v in src['details'].items()}
             src_season_details.pop('episode')
             src_season = {
                 'sid': src_season_details.pop('season_id'),
                 'title': get_season_title(src_season_details['series'], src_season_details['season']),
-                'type': 'tv_season',
+                'type': SRC_TYPES['tv_season'],
                 'details': src_season_details
             }
             src_series_details = {k: v for k, v in src_season_details.items()}
@@ -242,7 +242,7 @@ class ExtractorActions():
             src_series = {
                 'sid': src_series_details['series_id'],
                 'title': src_series_details['series'],
-                'type': 'tv_series',
+                'type': SRC_TYPES['tv_series'],
                 'details': {},
             }
             if src_season not in series_seasons:
@@ -307,7 +307,7 @@ class ExtractorActions():
             sources_missing.append({
                 'sid': None,
                 'title': r__title,
-                'type': 'other',
+                'type': SRC_TYPES['other'],
                 'details': {}
             })
             self.counters['cnt_notfound'] += 1
@@ -337,7 +337,7 @@ class ExtractorActions():
                     new_src = {
                         'sid': ref.name,
                         'title': ref.source__title,
-                        'type': 'other',
+                        'type': SRC_TYPES['other'],
                         'details': {}
                     }
                     sources_missing.append(new_src)
@@ -345,13 +345,13 @@ class ExtractorActions():
                     # special cases
                     # TODO namedrefs__add_srcid > workaround for special cases (WHiH, SE2010, TAPBWS, PT) (find a better way)
                     if tkns[0].startswith('WHiH'): 
-                        new_src['type'] = 'web_series'
+                        new_src['type'] = SRC_TYPES['web_series']
                         new_src['details']['series'] = 'WHiH Newsfront (web series)'
                         new_src['details']['series_id'] = 'WHiH'
                         new_src_main = {
                             'sid': 'WHiH',
                             'title': 'WHiH Newsfront (web series)',
-                            'type': 'web_series',
+                            'type': SRC_TYPES['web_series'],
                             'details': {}
                         }
                         if new_src_main not in sources_missing:
@@ -362,7 +362,7 @@ class ExtractorActions():
                         new_src_main = {
                             'sid': 'SE2010',
                             'title': 'Stark Expo/Promotional Campaign',
-                            'type': 'web_series',
+                            'type': SRC_TYPES['web_series'],
                             'details': {}
                         }
                         if new_src_main not in sources_missing:
@@ -373,7 +373,7 @@ class ExtractorActions():
                         new_src_main = {
                             'sid': 'TAPBWS',
                             'title': 'The Avengers Prelude: Black Widow Strikes',
-                            'type': 'comic_series',
+                            'type': SRC_TYPES['comic_series'],
                             'details': {}
                         }
                         if new_src_main not in sources_missing:
@@ -384,7 +384,7 @@ class ExtractorActions():
                         new_src_main = {
                             'sid': 'PT',
                             'title': 'Pym Technologies',
-                            'type': 'web_series',
+                            'type': SRC_TYPES['web_series'],
                             'details': {}
                         }
                         if new_src_main not in sources_missing:
@@ -392,12 +392,12 @@ class ExtractorActions():
                 self.counters['cnt__sources_missing_updated'] += 1
             else:
                 # simply mark the refs with a complex refname to iterate again after.
-                output = TMP_MARKER_1
+                output = TMP_MARKERS[1]
         return output
     
     def mapto__namedrefs__add_srcid_multiple(self, ref):
         allsources = self.legends['sources'] 
-        if ref.source__id == TMP_MARKER_1:
+        if ref.source__id == TMP_MARKERS[1]:
             allsids = list(filter(lambda x: x is not None, [src['sid'] for src in allsources]))
             found = False
             prfx = ref.name.split(' ')[0]
@@ -432,7 +432,7 @@ class ExtractorActions():
                         ref.sources = [*ref.sources, *sources]
             if found:
                 self.counters['cnt__secondary_ref_found'] += 1
-                ref.source__id = TMP_MARKER_2
+                ref.source__id = TMP_MARKERS[2]
             else:
                 # print(f'[mapto__namedrefs__add_srcid_multiple] not a source: {ref.name}')
                 self.counters['cnt__not_a_source'] += 1      
@@ -501,11 +501,11 @@ class ExtractorActions():
 
     def mapto__sources__extend_film_series(self, this_src):
         series_films = self.legends['series_films']
-        if (this_src['type'] == 'film'):
+        if (this_src['type'] == SRC_TYPES['film']):
             src_film_series = {
                 'sid': this_src['details']['series_id'],
                 'title': this_src['details']['series'],
-                'type': 'film_series',
+                'type': SRC_TYPES['film_series'],
                 'details': {},
             }
             if not src_film_series in series_films:
@@ -517,7 +517,7 @@ class ExtractorActions():
         output = 0
 
         if src['details']:
-            if src['type'] == 'tv_episode':
+            if src['type'] == SRC_TYPES['tv_episode']:
                 output = 2
             else:
                 output = 1

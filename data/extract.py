@@ -4,7 +4,7 @@ import re
 
 from logic import Extractor, ExtractorActions
 from structs import Event
-from utils import TMP_MARKER_1, TMP_MARKER_2
+from const import TMP_MARKERS, SRC_TYPES
 
 DIR = os.path.dirname(__file__)
 OUT_DIR = os.path.join(DIR, 'auto')
@@ -31,13 +31,13 @@ if __name__ == "__main__":
         .addattr('title', actions.sources__add_attrs, use_element=True, **{'to_add': 't'})
         .addattr('details', actions.sources__add_attrs, use_element=True, **{'to_add': 'd'})
         .addattr('sid', actions.sources__add_attrs, use_element=True, **{'to_add': 's'})
-        .addattr('type', 'film')
+        .addattr('type', SRC_TYPES['film'])
         .select_cols(['sid', 'title', 'type', 'details'])
         .extend(Extractor(f'{manual_dir}/tv_episodes.json')
             .addattr('title', actions.sources__add_attrs, use_element=True, **{'to_add': 't'})
             .addattr('details', actions.sources__add_attrs, use_element=True, **{'to_add': 'd'})
             .addattr('sid', actions.sources__add_attrs, use_element=True, **{'to_add': 's'})
-            .addattr('type', 'tv_episode')
+            .addattr('type', SRC_TYPES['tv_episode'])
             .select_cols(['sid', 'title', 'type', 'details'])
             .mapto(actions.mapto__sources__extend_episode_series_and_season)
             .extend(
@@ -265,15 +265,15 @@ if __name__ == "__main__":
         f'[mapto__namedrefs__add_srcid_multiple]: out of {cnt_tot} named refs:\n'
         f'\t- {cnt_tot - cntrs["cnt__secondary_ref_found"] - cntrs["cnt__not_a_source"]} refs were left unchanged.\n'
         f'\t- {cntrs["cnt__secondary_ref_found"]} refs have a complex name (multiple tokens) but refer to a valid source, so they are secondary refs.\n'
-        f'\t\tThose are marked with {TMP_MARKER_2} and will have is_secondary=True\n'
+        f'\t\tThose are marked with {TMP_MARKERS[2]} and will have is_secondary=True\n'
         f'\t- {cntrs["cnt__not_a_source"]} refs have a complex name (multiple tokens) which is invalid (not a source)\n'
-        f'\t\tThose are marked with {TMP_MARKER_1} and will be removed.'
+        f'\t\tThose are marked with {TMP_MARKERS[1]} and will be removed.'
     )
 
     # step 3: finish converting source ids into lists and cleanup
     (extr_refs_named
-        .addattr('is_secondary', lambda **kwargs: kwargs['element'].source__id == TMP_MARKER_2, use_element=True)
-        .filter_rows(lambda ref: ref.source__id != TMP_MARKER_1)
+        .addattr('is_secondary', lambda **kwargs: kwargs['element'].source__id == TMP_MARKERS[2], use_element=True)
+        .filter_rows(lambda ref: ref.source__id != TMP_MARKERS[1])
         .mapto(actions.mapto__refs__convert_srcid_srctitle_to_sourcelist)
         .remove_cols(['source__title', 'source__id'])
         .count('refs_named_src_3')
@@ -407,14 +407,14 @@ if __name__ == "__main__":
 
     # hierarchy for tv shows
     extr_tv = (extr_hierarchy.fork()
-        .filter_rows(lambda root: root['type'] == 'tv_series')
+        .filter_rows(lambda root: root['type'] == SRC_TYPES['tv_series'])
         .count('timeline_hierarchy_tv')
         .save('timeline_hierarchy_tv')
     )
 
     # hierarchy for films
     extr_films = (extr_hierarchy.fork()
-        .filter_rows(lambda root: root['type'] == 'film_series')
+        .filter_rows(lambda root: root['type'] == SRC_TYPES['film_series'])
         .count('timeline_hierarchy_film')
         .save('timeline_hierarchy_film')
     )

@@ -1,11 +1,6 @@
 import re
 from html.parser import HTMLParser
-
-TMP_MARKER_1 = '\u03A0'  # Π
-TMP_MARKER_2 = '\u03A3'  # Σ
-TMP_MARKER_3 = '\u03A8'  # Ψ
-TMP_MARKER_4 = '\u03A9'  # Ω
-TMP_MARKER_5 = '\u03A6'  # Φ
+from const import TMP_MARKERS
 
 class WikitagsNotBalancedError(Exception):
     def __init__(self, method, string):
@@ -67,11 +62,11 @@ class TextFormatter(object):
         if len(re.split(r"'{3}", self.t)) % 2 == 0:
             raise WikitagsNotBalancedError(self.convert_bolds_to_html.__name__, self.t)
         
-        marded_text = re.sub(r"'{3}", TMP_MARKER_3, self.t)
+        marded_text = re.sub(r"'{3}", TMP_MARKERS[3], self.t)
         tkns = []
         balanced = True
         for c in marded_text:
-            if c == TMP_MARKER_3:
+            if c == TMP_MARKERS[3]:
                 if balanced:
                     tkns.append('<b>')
                 else:
@@ -88,11 +83,11 @@ class TextFormatter(object):
         if len(re.split(r"'{2}", self.t)) % 2 == 0:
             raise WikitagsNotBalancedError(self.convert_italics_to_html.__name__, self.t)
 
-        marded_text = re.sub(r"'{2}", TMP_MARKER_4, self.t)
+        marded_text = re.sub(r"'{2}", TMP_MARKERS[4], self.t)
         tkns = []
         balanced = True
         for c in marded_text:
-            if c == TMP_MARKER_4:
+            if c == TMP_MARKERS[4]:
                 if balanced:
                     tkns.append('<i>')
                 else:
@@ -117,12 +112,12 @@ class TextFormatter(object):
 
     def mark_double_quotes(self):
         """Converts all double quotes to a special character, to avoid collision in html attributes."""
-        self.t = re.sub(r'\"', TMP_MARKER_5, self.t)
+        self.t = re.sub(r'\"', TMP_MARKERS[5], self.t)
         return self
 
     def restore_double_quotes(self):
         """Restores all "escaped" double quotes."""
-        self.t = re.sub(TMP_MARKER_5, '"', self.t)
+        self.t = re.sub(TMP_MARKERS[5], '"', self.t)
         return self
 
     def convert_userbloglinks_to_html(self):
