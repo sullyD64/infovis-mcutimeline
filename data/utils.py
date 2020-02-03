@@ -48,7 +48,7 @@ class TextFormatter(object):
 
     def strip_wiki_links(self):
         """Remove wikilink wrap. If a label is present, use the label instead of the page title."""
-        self.t = re.sub(r'\[\[wikipedia:(([^\|\]]*)\|)?([^\]\|]*)\]\]', r'\2', self.t)
+        self.t = re.sub(r'\[\[([^\|\]]*\|)?([^\]\|]*)\]\]', r'\2', self.t)
         return self
 
     def strip_wps_templates(self):

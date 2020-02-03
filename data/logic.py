@@ -12,12 +12,18 @@ DIR = os.path.dirname(__file__)
 OUT_DIR = os.path.join(DIR, 'auto')
 
 class Extractor(object):
-    step = 0
+    try:
+        step = int(open(f'{DIR}/_extractor_logid', 'r').read().strip())
+    except FileNotFoundError:
+        step = 0
+
+    @classmethod
+    def get_curr_step(self):
+        return Extractor.step
 
     """
     An Extractor maintains a list of elements, which can be subsequentially manipulated.
     """
-
     def __init__(self, infile: str = None, data: list = None):
         if not infile:
             self.data = data
@@ -79,7 +85,10 @@ class Extractor(object):
         Filters data by selecting all attributes or keys but the ones for each element in data.\n
         Works with both objects and dicts.
         """
-        col_names = [key for key in self.data[0].__dict__.keys() if key not in excluded_col_names]
+        if isinstance(self.data[0], dict):
+            col_names = [key for key in self.data[0].keys() if key not in excluded_col_names]
+        elif isinstance(self.data[0], object):
+            col_names = [key for key in self.data[0].__dict__.keys() if key not in excluded_col_names]
         return self.select_cols(col_names)
 
     def consume_key(self, key: str):
@@ -137,8 +146,8 @@ class Extractor(object):
         return self
 
     def unique(self):
-        """If elements are hashable (aka they aren't dicts), removes duplicate elements."""
-        if not isinstance(self.data[0], dict):
+        """If elements are hashable (aka they aren't dicts or lists), removes duplicate elements."""
+        if not isinstance(self.data[0], (dict, list)):
             self.data = list(set(self.data))
         else:
             raise NotImplementedError
@@ -167,6 +176,8 @@ class Extractor(object):
         
         dirname = f'{directory}/' if directory else ''
         Extractor.step += 1
+        with open(f'{DIR}/_extractor_logid', 'w') as logfile:
+            logfile.write(str(Extractor.step))
         outfile = '' if not outfile else outfile
         with open(f'{OUT_DIR}/{dirname}extracted__{Extractor.step:02d}__{outfile}.json', 'w') as outfile:
             dict_data = list(map(__dictify, self.data))
