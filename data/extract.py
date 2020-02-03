@@ -441,8 +441,10 @@ if __name__ == "__main__":
 # =============================
     print(f'\nEVENTS')
 
+    # remove original refids from events, since they were de-duplicated and they are now unaligned.
     (extr_events
-        .addattr('refs', lambda **kwargs: [ref.rid for ref in kwargs['element'].refs], use_element=True)
+        # .addattr('refs', lambda **kwargs: [ref.rid for ref in kwargs['element'].refs], use_element=True)
+        .remove_cols(['refs'])
         .count('events_stripped')
         .save('events_stripped')
     )
