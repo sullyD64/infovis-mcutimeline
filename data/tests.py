@@ -1,6 +1,9 @@
+# tests.py
 import unittest
 
-from utils import TextFormatter, WikitagsNotBalancedError
+from py_logic.formatter import TextFormatter
+from py_utils.errors import WikitagsNotBalancedError
+
 
 class TextFormatterTest(unittest.TestCase):
 
