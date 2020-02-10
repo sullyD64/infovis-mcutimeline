@@ -1,17 +1,21 @@
-import json
+# py_model/structs.py
 import re
+
 import wikitextparser as wtp
 
-from utils import TextFormatter, MyHTMLParser
+from py_logic.formatter import TextFormatter
+from py_logic.parser import MyHTMLParser
+from py_utils.constants import SRC_FILM, SRC_TV_EPISODE, SRC_ONESHOT
+from py_utils.helpers import jdumps
 
 
 class Ref(object):
     rid = 0
-    
+
     def __init__(
-        self, 
+        self,
         event__id: int = None,
-        text: str = None, 
+        text: str = None,
         empty: bool = False):
 
         if empty:
@@ -23,26 +27,30 @@ class Ref(object):
         if text:
             self.name = MyHTMLParser().extract_name(text)
             self.desc = (TextFormatter()
-                             .text(text)
-                             .strip_ref_html_tags()
-                             .mark_double_quotes()
-                             .convert_ext_links_to_html()
-                             .convert_userbloglinks_to_html()
-                             .convert_bolds_to_html()
-                             .convert_italics_to_html()
-                            #  .strip_wiki_links()
-                             .strip_wps_templates()
-                             .remove_quote_templates()
-                             .remove_nowiki_html_tags()
-                             .restore_double_quotes()
-                             .get()
-                             )
+                .text(text)
+                .strip_ref_html_tags()
+                .mark_double_quotes()
+                .convert_ext_links_to_html()
+                .convert_userbloglinks_to_html()
+                .convert_bolds_to_html()
+                .convert_italics_to_html()
+                # .strip_wiki_links()
+                .strip_wiki_links_files()
+                .remove_displayed_wiki_images_or_files_everywhere()
+                .strip_wps_templates()
+                .remove_quote_templates()
+                .remove_nowiki_html_tags()
+                .restore_double_quotes()
+                .get()
+            )
 
             self.desc = self.desc if self.desc else None  # replace empty string with none
             self.links = [str(x) for x in wtp.parse(
                 TextFormatter()
                 .text(text)
                 .convert_userbloglinks_to_html()
+                .strip_wiki_links_files()
+                .remove_displayed_wiki_images_or_files_everywhere()
                 .strip_wps_templates()
                 .remove_quote_templates()
                 .get()
@@ -104,23 +112,26 @@ class Event(object):
 
         tf = TextFormatter()
         text_norefs = (tf
-                       .text(text)
-                       .remove_ref_nodes()
-                       .get()
-                       )
+            .text(text)
+            .remove_ref_nodes()
+            .remove_displayed_wiki_images_or_files_everywhere()
+            .get()
+        )
 
         self.desc = (tf
-                     .text(text_norefs)
-                     .mark_double_quotes()
-                     .convert_ext_links_to_html()
-                     .convert_bolds_to_html()
-                     .convert_italics_to_html()
-                     .strip_wiki_links()
-                     .strip_wps_templates()
-                     .remove_nowiki_html_tags()
-                     .restore_double_quotes()
-                     .get()
-                     )
+            .text(text_norefs)
+            .mark_double_quotes()
+            .convert_ext_links_to_html()
+            .convert_bolds_to_html()
+            .convert_italics_to_html()
+            .strip_wiki_links()
+            .strip_wiki_links_files()
+            .remove_displayed_wiki_images_or_files_everywhere()
+            .strip_wps_templates()
+            .remove_nowiki_html_tags()
+            .restore_double_quotes()
+            .get()
+        )
 
         self.level = self.__get_heading_level(self.desc)
         self.multiple = False
@@ -201,13 +212,116 @@ class Event(object):
         return jdict
 
     def __str__(self):
-        return json.dumps(self.to_dict(), indent=2, ensure_ascii=False)
+        return jdumps(self.to_dict())
 
 
-class EventList(object):
-    def __init__(self):
-        self.events = []
+class Source(object):
+    def __init__(
+        self,
+        sid: str = None,
+        title: str = None,
+        stype: str = None,
+        details: dict = None,
+        empty: bool = False):
+
+        if empty:
+            return
+
+        self.sid = sid
+        self.set_title(title)
+        self.type = stype
+        self.details = details
+
+    def set_title(self, title: str):
+        self.clarification = None
+        if title:
+            clarif = next(iter(re.findall(r'(\([^\)]+\))$', title)), None)
+            # TODO workaround for Luke Cage 2.13: T.R.O.Y.
+            if clarif and clarif != "(T.R.O.Y.)":
+                self.clarification = clarif
+        self.title = title
+
+    def plaintitle(self):
+        if self.clarification:
+            return self.title[:-len(self.clarification)].strip()
+        return self.title
+
+    @classmethod
+    def split_titlestr(self, titlestr: str):
+        clarif = next(iter(re.findall(r'(\([^\)]+\))$', titlestr)), None)
+        clarif = clarif if clarif != "(T.R.O.Y.)" else None
+        newtitlestr = titlestr[:-len(clarif)].strip() if clarif else titlestr
+        return (newtitlestr, clarif)
+
+    def is_updatable_with_new_clarification(self, clarif: str):
+        if (self.clarification
+            or not self.details
+            or not self.type in [SRC_FILM, SRC_TV_EPISODE, SRC_ONESHOT]
+        ):
+            return False
+        clarif = clarif[1:-1] # remove parenthesis
+        type_matches = clarif in self.type
+        # TODO workaround for "episode" clarifications
+        if clarif == 'episode':
+            type_matches = True
+
+        series_matches = False
+        if 'series' in self.details.keys():
+            series_matches = clarif in self.details['series']
+        return any([type_matches, series_matches])
+
+    @classmethod
+    def from_dict(self, **kwargs):
+        src = Source(empty=True)
+        for k, v in kwargs.items():
+            if k == 'sub_sources':
+                src.sub_sources = [Source.from_dict(**x) for x in v]
+            else:
+                setattr(src, k, v)
+        return src
+
+    def to_dict(self, **kwargs):
+        jdict = {}
+        for k, v in self.__dict__.items():
+            if v and isinstance(v, list) and all(isinstance(x, Source) for x in v) and (not kwargs or not kwargs['ignore_nested']):
+                v = [src.to_dict() for src in v]
+            jdict[k] = v
+        return jdict
 
     def __str__(self):
-        dictlist = [ev.to_dict() for ev in self.events]
-        return json.dumps(dictlist, indent=2, ensure_ascii=False)
+        return jdumps(self.to_dict())
+
+    def key(self):
+        return (self.sid, self.title, self.type, self.details)
+
+    def __hash__(self):
+        return hash(self.key())
+
+    def __eq__(self, other):
+        if isinstance(other, Source):
+            return self.key() == other.key()
+        return NotImplemented
+
+
+class SourceBuilder(object):
+    def __init__(self):
+        self.src = Source()
+
+    def sid(self, sid: str):
+        self.src.sid = sid
+        return self
+
+    def title(self, title: str):
+        self.src.set_title(title)
+        return self
+
+    def stype(self, stype: str):
+        self.src.type = stype
+        return self
+
+    def details(self, details: dict):
+        self.src.details = details
+        return self
+
+    def build(self):
+        return self.src
