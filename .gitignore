@@ -2,5 +2,5 @@ docs
 node_modules
 .vscode
 __pycache__
-data/auto
-_*
+data/input/crawled/
+data/output/

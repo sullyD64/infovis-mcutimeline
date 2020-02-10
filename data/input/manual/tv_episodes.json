@@ -1326,7 +1326,7 @@
     "series": "Inhumans (TV series)",
     "season": 1,
     "episode": 1,
-    "title": "Behold... The Inhumans",
+    "title": "Behold…The Inhumans!",
     "sid": "I101",
     "season_id": "I1",
     "series_id": "I"
@@ -1344,7 +1344,7 @@
     "series": "Inhumans (TV series)",
     "season": 1,
     "episode": 3,
-    "title": "Divide and Conquer",
+    "title": "Divide -- And Conquer",
     "sid": "I103",
     "season_id": "I1",
     "series_id": "I"
@@ -1353,7 +1353,7 @@
     "series": "Inhumans (TV series)",
     "season": 1,
     "episode": 4,
-    "title": "Make Way for... Medusa",
+    "title": "Make Way For... Medusa",
     "sid": "I104",
     "season_id": "I1",
     "series_id": "I"
@@ -1605,7 +1605,7 @@
     "series": "Daredevil (TV series)",
     "season": 2,
     "episode": 11,
-    "title": "380",
+    "title": ".380",
     "sid": "DD211",
     "season_id": "DD2",
     "series_id": "DD"
@@ -3319,5 +3319,95 @@
     "sid": "C&D210",
     "season_id": "C&D2",
     "series_id": "C&D"
+  },
+  {
+    "series": "WHiH Newsfront",
+    "season": 1,
+    "episode": 1,
+    "title": "WHIH Newsfront Promo",
+    "sid": "WHiHAMC1",
+    "season_id": "WHiHAMC",
+    "series_id": "WHiH"
+  },
+  {
+    "series": "WHiH Newsfront",
+    "season": 1,
+    "episode": 2,
+    "title": "WHIH Newsfront Top Stories",
+    "sid": "WHiHAMC2",
+    "season_id": "WHiHAMC",
+    "series_id": "WHiH"
+  },
+  {
+    "series": "WHiH Newsfront",
+    "season": 1,
+    "episode": 3,
+    "title": "WHIH EXCLUSIVE: 2012 VistaCorp break-in security footage involving cyber-criminal Scott Lang",
+    "sid": "WHiHAMC3",
+    "season_id": "WHiHAMC",
+    "series_id": "WHiH"
+  },
+  {
+    "series": "WHiH Newsfront",
+    "season": 1,
+    "episode": 4,
+    "title": "WIRED Insider Interviews Darren Cross, CEO of Pym Technologies",
+    "sid": "WHiHAMC4",
+    "season_id": "WHiHAMC",
+    "series_id": "WHiH"
+  },
+  {
+    "series": "WHiH Newsfront",
+    "season": 1,
+    "episode": 5,
+    "title": "WHIH EXCLUSIVE: Scott Lang Interview",
+    "sid": "WHiHAMC5",
+    "season_id": "WHiHAMC",
+    "series_id": "WHiH"
+  },
+  {
+    "series": "WHiH Newsfront",
+    "season": 2,
+    "episode": 1,
+    "title": "AVENGERS IMPACT: A WHIH Newsfront Special Report",
+    "sid": "WHiHCACWC1",
+    "season_id": "WHiHCACWC",
+    "series_id": "WHiH"
+  },
+  {
+    "series": "WHiH Newsfront",
+    "season": 2,
+    "episode": 2,
+    "title": "WHIH Newsfront: The Cost of Saving the World",
+    "sid": "WHiHCACWC2",
+    "season_id": "WHiHCACWC",
+    "series_id": "WHiH"
+  },
+  {
+    "series": "WHiH Newsfront",
+    "season": 2,
+    "episode": 3,
+    "title": "WHIH Newsfront: The Avengers and The White House",
+    "sid": "WHiHCACWC3",
+    "season_id": "WHiHCACWC",
+    "series_id": "WHiH"
+  },
+  {
+    "series": "WHiH Newsfront",
+    "season": 2,
+    "episode": 4,
+    "title": "WHIH Newsfront Exclusive: President Ellis Discusses the Avengers",
+    "sid": "WHiHCACWC4",
+    "season_id": "WHiHCACWC",
+    "series_id": "WHiH"
+  },
+  {
+    "series": "WHiH Newsfront",
+    "season": 2,
+    "episode": 5,
+    "title": "WHIH Breaking News: Attack in Lagos",
+    "sid": "WHiHCACWC5",
+    "season_id": "WHiHCACWC",
+    "series_id": "WHiH"
   }
 ]
