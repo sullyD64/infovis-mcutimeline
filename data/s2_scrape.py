@@ -13,10 +13,12 @@ CODE = 's2'
 CHARS_DIR = INPUT_CRAWLED / 'characters'
 TEMPS_DIR = INPUT_CRAWLED / 'wikitemplates'
 
+### NUCLEAR SWITCHES
 # clean_temps = True
 # clean_chars = True
 # clean_output = True
 # clean_occ = True
+quick = True
 
 def main():
     log.getLogger().setLevel(log.INFO)
@@ -89,7 +91,8 @@ def main():
             'scraper': scraper,
             'templates': templates,
             'CHARS_DIR': CHARS_DIR,
-            'tot': len(extr_links.get())
+            'tot': len(extr_links.get()),
+            'quick': quick
         })
     )
 

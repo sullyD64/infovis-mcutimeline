@@ -66,15 +66,20 @@ class Actions():
     def s2__mapto__links__count_occurrences(self, link: str, **kwargs):
         oc = self.legends['occ_chars']
         onc = self.legends['occ_nonchars']
+
+        scraper = kwargs['scraper']
+        CHARS_DIR = kwargs['CHARS_DIR']
+        quick = kwargs['quick']
+
         if link in onc.keys():
-            onc[link] = (onc[link][0], onc[link][1] + 1)
-        elif kwargs['scraper'].crawl_character(kwargs['CHARS_DIR'], link, kwargs['templates']):
-            if link in oc.keys():
-                oc[link] = (oc[link][0], oc[link][1] + 1)
-            else:
-                oc[link] = (0, 1)
+            onc[link] = (onc[link][0], onc[link][1] + 1) 
+        elif (scraper.is_cached(CHARS_DIR, link) or (not quick and scraper.crawl_character(CHARS_DIR, link, kwargs['templates']))):
+            oc[link] = (oc[link][0], oc[link][1] + 1) if link in oc.keys() else (0, 1)
+        elif (not scraper.is_cached(CHARS_DIR, link) and (quick or not scraper.crawl_character(CHARS_DIR, link, kwargs['templates']))):
+            onc[link] = (0,1) 
         else:
-            onc[link] = (0,1)
+            raise Exception(f'FATAL: dead end {link}')
+
         max_chars = max(oc, key=lambda k: oc[k][1]) if oc else None
         max_chars_count = oc[max_chars][1] if max_chars else 0
         max_nonchars = max(onc, key=lambda k: onc[k][1]) if onc else None

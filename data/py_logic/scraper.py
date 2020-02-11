@@ -65,13 +65,13 @@ class Scraper(object):
                 raise Exception(f'FATAL {e}')
         return result
 
-    def crawl_character(self, savepath: pathlib.Path, charid: str, legend_templates: dict = None, ):
+    def crawl_character(self, savepath: pathlib.Path, charid: str, legend_templates: dict = None):
         logprfx = f'"{charid}":'
         log.debug(f'{logprfx[:-1]}')
         result = None
         try:
             pagetitle = re.sub(' ', '_', charid)
-            pagetitle_clean = re.sub(r"[\\\/]", "__", pagetitle)
+            pagetitle_clean = self.get_clean_pagetitle(pagetitle)
             extr_char = Extractor(next(savepath.glob(f'*__{pagetitle_clean}.json')))
             result = extr_char.get()
             log.debug(f'{logprfx} [OK] found in cache.')
@@ -98,3 +98,17 @@ class Scraper(object):
             except WikipageNotExistingError as e:
                 log.debug(f'{logprfx} [NO] {e}')
         return result
+
+    def is_cached(self, savepath: pathlib.Path, charid: str):
+        if charid == "Ego":
+            print(True)
+        logprfx = f'"{charid}":'
+        result = False
+        clean_pagetitle = self.get_clean_pagetitle(charid)
+        if next(savepath.glob(f'*__c__{clean_pagetitle}.json'), None):
+            log.debug(f'{logprfx} [OK] found in cache.')
+            result = True
+        return result
+
+    def get_clean_pagetitle(self, pagetitle: str):
+        return re.sub(r"[\\\/]", "__", re.sub(' ', '_', pagetitle))
