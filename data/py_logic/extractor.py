@@ -1,4 +1,5 @@
 import copy
+import itertools
 import logging as log
 import os
 import pathlib
@@ -6,6 +7,7 @@ import pathlib
 from py_model.structs import Event, Ref, Source
 from py_utils.errors import ExtractorOutdirMissingError
 from py_utils.helpers import jdumps, jloads
+
 
 class Extractor(object):
     """
@@ -132,6 +134,28 @@ class Extractor(object):
             raise KeyError(key)
         return self
 
+    def groupby(self, key_or_attr: str):
+        """
+        WARNING: data must be sorted first.
+        If `key_or_attr` is a valid key or attribute name, replaces data with a list of dictionaries.\n
+        Each dict is in the following format: {`key_or_attr`: grouping_key, 'elements': [grouped_elements]}.
+        """
+        sample_el = self.data[0]
+        keyfunc = lambda elem: (
+            elem[key_or_attr] if isinstance(sample_el, dict)
+            else (getattr(elem, key_or_attr) if isinstance(sample_el, object)
+            else elem)
+        )
+        newdata = []
+        for keyval, grouped_elements in itertools.groupby(self.data, keyfunc):
+            newdata.append({
+                key_or_attr: keyval,
+                'elements': list(grouped_elements) 
+            })
+        self.data = newdata
+        return self
+
+
     def mapto(self, func, **kwargs):
         """
         Calls func for each element in data.\n
@@ -177,9 +201,18 @@ class Extractor(object):
         self.data = [x for sublist in self.data for x in sublist]
         return self
 
-    def sort(self):
+    def sort(self, key_or_attr=None, reverse=False):
         """Sorts data."""
-        self.data = sorted(self.data)
+        if key_or_attr:
+            sample_el = self.data[0]  
+            keyfunc = lambda elem: (
+                elem[key_or_attr] if isinstance(sample_el, dict) 
+                else (getattr(elem, key_or_attr) if isinstance(sample_el, object)
+                else elem)
+            )
+            self.data = sorted(self.data, key=keyfunc, reverse=reverse)
+        else:
+            self.data = sorted(self.data, reverse=reverse)
         return self
 
     def unique(self):
