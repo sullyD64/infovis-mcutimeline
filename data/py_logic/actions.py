@@ -492,6 +492,7 @@ class Actions():
         main_ref = next(iter(list(filter(lambda ref: ref.name == this_ref.name, refs_nonvoid))), None)
         if main_ref:
             main_ref.events = sorted([*main_ref.events, *[this_ref.event__id]])
+            main_ref.is_secondary = any([main_ref.is_secondary, this_ref.is_secondary])
             self.counters['cnt_found_duplicate_void'] += 1
         return this_ref
 

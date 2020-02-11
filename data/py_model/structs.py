@@ -136,7 +136,7 @@ class Event(object):
         self.level = self.__get_heading_level(self.desc)
         self.multiple = False
 
-        self.links = [str(x) for x in wtp.parse(text_norefs).wikilinks]
+        self.links = list(set([str(x) for x in wtp.parse(text_norefs).wikilinks]))
         parsed = wtp.parse(text)
         # self.templates = [str(x) for x in parsed.templates]
         self.refs = [Ref(self.eid, str(x)) for x in list(filter(self.__filter_tags, parsed.tags()))]  # only extract <ref> tags
