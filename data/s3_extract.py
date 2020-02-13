@@ -3,7 +3,6 @@ import logging as log
 
 from py_logic.actions import Actions
 from py_logic.extractor import Extractor
-# from py_model.structs import Event
 from py_utils.constants import TMP_MARKERS, SRC_FILM_SERIES, SRC_TV_SERIES
 from py_utils.errors import RequiredInputMissingError
 from settings import INPUT_MANUAL, OUTPUT
@@ -13,7 +12,7 @@ clean = True
 NAMEDREFS_INCLUDE_VOID = True
 
 def main():
-    # log.getLogger().setLevel(log.INFO)
+    log.getLogger().setLevel(log.INFO)
     log.info('### Begin ###')
     actions = Actions()
     Extractor.code(CODE)
@@ -86,7 +85,7 @@ def main():
     # --------------------------------------------------------------------
 
     # 2.0 load raw events into Events including Refs
-    extr_events = (Extractor(infile=next(OUTPUT.glob('*__events.json'), None))
+    extr_events = (Extractor(infile=next(OUTPUT.glob('*__events_characters.json'), None))
         .mapto(actions.s3__mapto__events__parse_raw)
     )
     # 2.1 fork flattened list of refs
@@ -304,7 +303,7 @@ def main():
         .addattr('sources', [])
         .mapto(actions.s3__mapto__namedrefs__add_srcid_multiple)
         .addattr('source__title', actions.s3__addattr__namedrefs__remaining_srctitle, use_element=True)
-        .save('refs_named_src_2')
+        .save('refs_named_sources_1')
     )
     cnt_tot = len(extr_refs_named.get())
     cntrs = actions.get_counters()
@@ -319,10 +318,27 @@ def main():
     # >>> add is_secondary to the refs w/ multiple tokens but referring to a valid source.
     (extr_refs_named
         .addattr('is_secondary', actions.s3__addattr__namedrefs__is_secondary, use_element=True)
+    )
+
+    ##############################################
+    #   TODO don't delete refs with complex names which aren't sources, we need them
+    #   for identifying invalid events.
+    ##############################################
+
+    (extr_refs_named
+        .fork()
+        .filter_rows(lambda ref: ref.source__id == TMP_MARKERS[1])
+        .consume_key('name')
+        .unique()
+        .sort()
+        .save('ref_invalide', nostep=True)
+    )
+    
+    (extr_refs_named
         .filter_rows(lambda ref: ref.source__id != TMP_MARKERS[1])
         .mapto(actions.s3__mapto__refs__convert_srcid_srctitle_to_sourcelist)
         .remove_cols(['source__title', 'source__id'])
-        .save('refs_named_src_3')
+        .save('refs_named_sources_2')
     )
 
     # --------------------------------------------------------------------
@@ -416,7 +432,7 @@ def main():
         .addattr('refs_secondary', actions.s3__addattr__sources__refids, use_element=True, **{'type': 'secondary'})
         .addattr('refs_secondary_count', lambda src: len(src.refs_secondary), use_element=True)
         .addattr('refs_tot_count', lambda src: src.refs_primary_count + src.refs_secondary_count, use_element=True)
-        .save('sources_3_refs')
+        .save('sources_refs')
     )
 
     # 10.1 build source/ref hierarchy by adding sub_sources recursive list.
@@ -427,7 +443,7 @@ def main():
         .mapto(actions.s3__mapto__sources__hierarchy_level0)
         .mapto(actions.s3__mapto__sources__hierarchy_level1)
         .mapto(actions.s3__mapto__sources__hierarchy_level2)
-        .save('sources_4_level')
+        .save('sources_level')
     )
 
     # 10.2 obtain final, non-flattened, 3-level file with all refs (referenced by ID),
