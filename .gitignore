@@ -2,5 +2,6 @@ docs
 node_modules
 .vscode
 __pycache__
-data/input/crawled/
-data/output/
+/data/input/crawled/*/*
+/data/output/*
+!**/.gitkeep
