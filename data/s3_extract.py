@@ -277,7 +277,7 @@ def main():
     log.info(f'### 7. SOURCES (update 3) ###')
     # --------------------------------------------------------------------
 
-    # 6 merge sources after update and discover
+    # 7.0 merge sources after update and discover
     (extr_sources
         .count('sources before update')
         .extend(
@@ -291,10 +291,32 @@ def main():
         .save('sources_6')
     )
 
+    # 7.1 filter sources for which there hasn't been found a sourceid (at this point, we don't need that sources)
+    (extr_sources.fork()
+        .filter_rows(lambda src: not src.sid)
+        .save('sources_6_invalid')
+    )
+    (extr_sources
+        .filter_rows(lambda src: src.sid)
+        .save('sources_7')
+    )
+
+    # 7.2 group comic sources where there is a "main" source and a "volume" source
+    actions.set_legends(**{'updated_sources_mapping': {}})
+    (extr_sources
+        .iterate(actions.s3__iterate__sources__group_comic_duplicates)
+        .save('sources_7_grouped')
+    )
+
     # --------------------------------------------------------------------
     log.info('')
     log.info(f'### 8. NAMED REFS (again) ###')
     # --------------------------------------------------------------------
+
+    # 8.0 update refs previously referring to grouped sources to new main source
+    (extr_refs_named
+        .mapto(actions.s3__mapto__namedrefs__update_srcid_grouped)
+    )
 
     # 8.1 begin adding sources as lists, starting from "multiple" refnames
     actions.set_legends(**{'sources': extr_sources.get()})
@@ -312,30 +334,12 @@ def main():
     log.info(f'\t-- {cntrs["cnt__secondary_ref_found"]} refs have a complex name (multiple tokens) but refer to a valid source, so they are secondary refs.')
     log.info(f'\t\tThose are marked with {TMP_MARKERS[2]} and will have is_secondary=True')
     log.info(f'\t-- {cntrs["cnt__not_a_source"]} refs have a complex name (multiple tokens) which is invalid (not a source)')
-    log.info(f'\t\tThose are marked with {TMP_MARKERS[1]} and will be removed.')
+    log.info(f'\t\tThose are marked with {TMP_MARKERS[1]}. Those refs (and the corresponding events) will be later deleted.')
 
     # 8.2 finish converting source ids into lists and cleanup
-    # >>> add is_secondary to the refs w/ multiple tokens but referring to a valid source.
+    # >>> add is_secondary to the refs with multiple tokens but referring to a valid source.
     (extr_refs_named
         .addattr('is_secondary', actions.s3__addattr__namedrefs__is_secondary, use_element=True)
-    )
-
-    ##############################################
-    #   TODO don't delete refs with complex names which aren't sources, we need them
-    #   for identifying invalid events.
-    ##############################################
-
-    (extr_refs_named
-        .fork()
-        .filter_rows(lambda ref: ref.source__id == TMP_MARKERS[1])
-        .consume_key('name')
-        .unique()
-        .sort()
-        .save('ref_invalide', nostep=True)
-    )
-    
-    (extr_refs_named
-        .filter_rows(lambda ref: ref.source__id != TMP_MARKERS[1])
         .mapto(actions.s3__mapto__refs__convert_srcid_srctitle_to_sourcelist)
         .remove_cols(['source__title', 'source__id'])
         .save('refs_named_sources_2')
@@ -410,22 +414,77 @@ def main():
     log.info(f'-- Found ({cntrs["cnt_found_duplicate_void"]}) duplicate void refs in refs_all_void.')
     log.info(f'-- Their event__ids have been added to the events list of the first occurrence in order of rid.')
     
-    # 9.4 update ref extractor
+    # 9.4 update ref extractor (copy the content of refs_nonvoid_1)
     extr_refs = (Extractor(data=actions.get_legend('refs_nonvoid_1'))
         .sort()
         .save('refs_all_2')
     )
 
+    # 9.5 filter out invalid refs, which then will be used for filtering invalid events
+    extr_refs_invalid = (extr_refs
+        .fork()
+        .filter_rows(lambda ref: TMP_MARKERS[1] in ref.sources)
+        .save('refs_all_2_invalid')
+    )
+
+    # 9.6 finally, merge primary refs which have the same source and same description
+    (extr_refs
+        .filter_rows(lambda ref: not TMP_MARKERS[1] in ref.sources)
+        .iterate(actions.s3__iterate__refs__merge__remove_duplicates_3)
+        .save('refs_all_3')
+    )
+
     # --------------------------------------------------------------------
     log.info('')
-    log.info(f'### 10. SOURCE HIERARCHY ###')
+    log.info(f'### 10. EVENTS (again) ###')
     # --------------------------------------------------------------------
 
-    # 10.0 add refids and ref count in a list to each source
+    # 10.0 remove original refids from events, since duplicate refs were removed but non from here.
+    (extr_events
+        # .addattr('refs', lambda event: [ref.rid for ref in event.refs], use_element=True)
+        .remove_cols(['refs'])
+        .save('events_final_1_norefs')
+    )
+
+    # 10.1 filter invalid events
+    invalid_eids = (extr_refs_invalid
+        .fork()
+        .consume_key('events')
+        .flatten()
+        .sort()
+        .unique()
+        .get()
+    )
+    (extr_events
+        .fork()
+        .filter_rows(lambda ev: ev.eid in invalid_eids)
+        .save('events_final_1_invalid')
+    )
+    (extr_events
+        .filter_rows(lambda ev: not ev.eid in invalid_eids)
+        .save('events_final_2')
+    )
+
+    # --------------------------------------------------------------------
+    log.info('')
+    log.info(f'### 11. SOURCE HIERARCHY ###')
+    # --------------------------------------------------------------------
+
+    # 11.0 split refs in two: primary and secondary
+    extr_refs_primary = (extr_refs.fork()
+        .filter_rows(lambda ref: not ref.is_secondary)
+        .save('refs_all_3_primary')
+    )
+    extr_refs_secondary = (extr_refs.fork()
+        .filter_rows(lambda ref: ref.is_secondary)
+        .save('refs_all_3_secondary')
+    )
     actions.set_legends(**{
-        'refs_primary': extr_refs.fork().filter_rows(lambda ref: not ref.is_secondary).get(),
-        'refs_secondary': extr_refs.fork().filter_rows(lambda ref: ref.is_secondary).get()
+        'refs_primary': extr_refs_primary.get(),
+        'refs_secondary': extr_refs_secondary.get()
     })
+
+    # 11.1 add refids and ref count in a list to each source
     (extr_sources
         .addattr('refs_primary', actions.s3__addattr__sources__refids, use_element=True, **{'type': 'primary'})
         .addattr('refs_primary_count', lambda src: len(src.refs_primary), use_element=True)
@@ -435,7 +494,7 @@ def main():
         .save('sources_refs')
     )
 
-    # 10.1 build source/ref hierarchy by adding sub_sources recursive list.
+    # 11.2 build source/ref hierarchy by adding sub_sources recursive list.
     actions.set_legends(**{'hierarchy': []})
     (extr_sources
         .addattr('sub_sources', [])
@@ -446,7 +505,7 @@ def main():
         .save('sources_level')
     )
 
-    # 10.2 obtain final, non-flattened, 3-level file with all refs (referenced by ID),
+    # 11.3 obtain final, non-flattened, 3-level file with all refs (referenced by ID),
     # grouped by main source, subgrouped by (eventually) seasons and episodes or by films.
     extr_hierarchy = (Extractor(data=actions.get_legend('hierarchy'))
         .save('timeline_hierarchy')
@@ -454,19 +513,16 @@ def main():
 
     # ---------------------------------------------------------------------------------
 
-    # 10.3A hierarchy for tv shows
-    extr_tv = (extr_hierarchy.fork()
+    # 11.3A hierarchy for tv shows
+    (extr_hierarchy.fork()
         .filter_rows(lambda rootsrc: rootsrc.type == SRC_TV_SERIES)
         .save('timeline_hierarchy_tv')
     )
 
-    # 10.3B hierarchy for films
-    extr_films = (extr_hierarchy.fork()
+    # 11.3B hierarchy for films
+    film_countrefs=(extr_hierarchy.fork()
         .filter_rows(lambda rootsrc: rootsrc.type == SRC_FILM_SERIES)
         .save('timeline_hierarchy_film')
-    )
-
-    film_countrefs = (extr_films
         .consume_key('sub_sources')
         .flatten()
         .addattr('year', lambda src: src.details['year'], use_element=True)
@@ -474,23 +530,21 @@ def main():
         .save('timeline_hierarchy_film_countrefs')
         .get()
     )
-    log.info('')
-    log.info('-- Unique ref count: ')
-    for src in sorted(film_countrefs, key=lambda src: src.year):
-        log.info(f'{src.year}, {src.title}, primary: {src.refs_primary_count}, secondary: {src.refs_secondary_count}, tot: {src.refs_tot_count}')
+    # log.info('')
+    # log.info('-- Unique ref count: ')
+    # for src in sorted(film_countrefs, key=lambda src: src.year):
+    #     log.info(f'{src.year}, {src.title}, primary: {src.refs_primary_count}, secondary: {src.refs_secondary_count}, tot: {src.refs_tot_count}')
+
 
     # --------------------------------------------------------------------
     log.info('')
-    log.info(f'### 11. EVENTS ###')
+    log.info(f'### 12. FINALIZE ###')
     # --------------------------------------------------------------------
 
-    # 11.0 remove original refids from events, since duplicate refs were removed but non from here.
-    (extr_events
-        # .addattr('refs', lambda event: [ref.rid for ref in event.refs], use_element=True)
-        .remove_cols(['refs'])
-        .count('events_stripped')
-        .save('events_stripped')
-    )
+    log.info('Finalizing output without step number:')
+    (extr_sources.save('final_sources', nostep=True))
+    (extr_refs.save('final_refs', nostep=True))
+    (extr_events.save('final_events', nostep=True))
 
     log.info(f'### End ###')
 

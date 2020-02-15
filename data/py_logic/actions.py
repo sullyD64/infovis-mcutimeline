@@ -6,9 +6,9 @@ import re
 import wikitextparser as wtp
 
 from py_model.structs import Event, Ref, Source, SourceBuilder
-from py_utils.constants import (SRC_FILM, SRC_FILM_SERIES, SRC_OTHER,
-                                SRC_TV_EPISODE, SRC_TV_SEASON, SRC_TV_SERIES,
-                                SRC_WEB_SERIES, TMP_MARKERS)
+from py_utils.constants import (SRC_COMIC, SRC_FILM, SRC_FILM_SERIES,
+                                SRC_OTHER, SRC_TV_EPISODE, SRC_TV_SEASON,
+                                SRC_TV_SERIES, SRC_WEB_SERIES, TMP_MARKERS)
 
 
 class Actions():
@@ -272,15 +272,14 @@ class Actions():
                     newattr = links[0].title
                     self.counters['cnt_existing'] += 1
 
-                # simplify refname for named refs which have been matched with pattern 3
-                if (ref.name
-                    and re.match(re.compile(kwargs['patterns'][-1]), ref.desc)
-                    and ref.name[-1].isdigit()
-                ):
-                    refname_before = ref.name
-                    ref.name = re.sub(r'[0-9]', '', ref.name)
-                    self.counters['cnt_updated'] += 1
-                    log.debug(f'{ref.rid} Updating name {refname_before} => {ref.name}')
+                # special handling for named refs 
+                if ref.name:
+                    # simplify refname for named refs which have been matched with pattern 2
+                    if re.match(re.compile(kwargs['patterns'][2]), ref.desc) and ref.name[-1].isdigit():
+                        refname_before = ref.name
+                        ref.name = re.sub(r'[0-9]', '', ref.name)
+                        self.counters['cnt_updated'] += 1
+                        log.debug(f'{ref.rid} Updating name {refname_before} => {ref.name}')
         return newattr
 
     def s3__addattr__anonrefs__sourceid(self, ref: Ref):
@@ -335,6 +334,7 @@ class Actions():
                 if (not src.sid
                     and src.title == ref.source__title
                     and src in sources
+                    and not len(ref.name.split(' ')) > 1
                 ):
                     log.debug(f' ⮡  {ref.rid} Updating source "{src.title}", adding sid "{ref.name}"')
                     sources.remove(src)
@@ -392,6 +392,36 @@ class Actions():
                     log.debug(f' ⮡  {ref.rid} complex refname, marked {TMP_MARKERS[1]}')
         return newattr
 
+    def s3__iterate__sources__group_comic_duplicates(self, sources: list):
+        updated_sources_mapping = self.legends['updated_sources_mapping']
+        output = []
+
+        for this_src in sources:
+            if not output or this_src.type not in [SRC_COMIC, SRC_OTHER]:
+                output.append(this_src)
+            else:
+                main_src = next(iter(list(filter(lambda that_src: (
+                    this_src.type == SRC_OTHER
+                    and that_src.type == SRC_COMIC
+                    and (this_src.sid[-1].isdigit() and this_src.sid[:-1] == that_src.sid)
+                ), output))), None)
+
+                if main_src:
+                    log.debug(f'Found main source: {this_src.sid} => {main_src.sid}')
+                    updated_sources_mapping[this_src.sid] = main_src.sid
+                elif this_src not in output:
+                    output.append(this_src)
+        return output
+
+    def s3__mapto__namedrefs__update_srcid_grouped(self, ref: Ref):
+        updated_sources_mapping = self.legends['updated_sources_mapping']
+        if ref.source__id and ref.source__id in updated_sources_mapping.keys():
+            sourceid_before = ref.source__id
+            ref.source__id = updated_sources_mapping[ref.source__id]
+            ref.name = ref.source__id
+            log.debug(f'{ref.rid} Updating refname and source__id {sourceid_before} => {ref.source__id}')
+        return ref
+
     def s3__mapto__namedrefs__add_srcid_multiple(self, ref: Ref):
         sources = self.legends['sources']
         if ref.source__id == TMP_MARKERS[1]:
@@ -406,7 +436,7 @@ class Actions():
                 # TODO special case (PT)
                 skip = True
                 if prfx != 'PT':
-                    raise Exception(f"Found prfx in any startswith {ref.name}, should find none")
+                    raise Exception(f"{ref.rid} Found prfx in any startswith {ref.name}, should find none")
 
             if not found and not skip:
                 if any(char in prfx for char in ['/', '-']):
@@ -433,14 +463,14 @@ class Actions():
                                 found_multiple = True
                                 sourcesfound.append(sp)
                     if found_multiple:
-                        log.debug(f"multiple sources found based on the prefix: {ref.name}")
+                        log.debug(f"{ref.rid} Multiple sources found based on the prefix: {ref.name}")
                         found = True
                         ref.sources = [*ref.sources, *sourcesfound]
             if found:
                 self.counters['cnt__secondary_ref_found'] += 1
                 ref.source__id = TMP_MARKERS[2]
             else:
-                log.debug(f'not a source: {ref.name}')
+                log.debug(f'{ref.rid} Not a source: {ref.name}')
                 self.counters['cnt__not_a_source'] += 1
         return ref
 
@@ -456,7 +486,17 @@ class Actions():
         return newattr
 
     def s3__addattr__namedrefs__is_secondary(self, ref: Ref):
-        return ref.source__id == TMP_MARKERS[2]
+        """
+        The predicate after the 'or' is uses because before, when adding a source__title using matching patterns,
+            (especially the pattern "In [source wikilink]...")
+        some refs with complex names (which are secondary) also received a source__id and then, when identifying
+        if they were complex or not, they weren't marked as such (because they already had a source__id) and thus 
+        at this point they don't have the TMP_MARKERS[2] as source__id. 
+        The predicate after the 'or' checks this particular case and fixes it.
+        """
+        return (ref.source__id == TMP_MARKERS[2] 
+            or ref.source__id != TMP_MARKERS[1] and ref.name and len(ref.name.split(' ')) > 1
+        )
 
     def s3__mapto__refs__convert_srcid_srctitle_to_sourcelist(self, ref: Ref):
         if len(ref.sources) == 0:
@@ -492,9 +532,27 @@ class Actions():
         main_ref = next(iter(list(filter(lambda ref: ref.name == this_ref.name, refs_nonvoid))), None)
         if main_ref:
             main_ref.events = sorted([*main_ref.events, *[this_ref.event__id]])
+            # propagate secondariety from duplicate to main ref
             main_ref.is_secondary = any([main_ref.is_secondary, this_ref.is_secondary])
             self.counters['cnt_found_duplicate_void'] += 1
         return this_ref
+
+    def s3__iterate__refs__merge__remove_duplicates_3(self, refs: list):
+        output = []
+        for this_ref in refs:
+            if not output:
+                output.append(this_ref)
+            
+            existing_ref = next(iter(list(filter(lambda that_ref: (
+                next(iter(this_ref.sources)) == next(iter(that_ref.sources))
+                and this_ref.desc == that_ref.desc
+            ), output))), None)
+            
+            if existing_ref:
+                existing_ref.events = sorted([*existing_ref.events, *this_ref.events])
+            elif not this_ref in output:
+                output.append(this_ref)
+        return output
 
     def s3__addattr__sources__refids(self, src: Source, **kwargs):
         refs = self.legends[f'refs_{kwargs["type"]}']

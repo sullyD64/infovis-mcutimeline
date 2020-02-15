@@ -140,6 +140,10 @@ Data ingestion:
     
 
 
+Fixes:
+  - Rimuovere gli eventi non necessari.
+  - CIÒ NON VUOL DIRE CHE VANNO RIMOSSE LE REF "INVALIDE". Rivedere s3
+
 
 
 Drawing:
