@@ -44,7 +44,7 @@ def main():
         .count('events before grouping')
         .iterate(Actions().s1__iterate__events__group_nested)
         .count('events after grouping')
-        .save('events')
+        .save('events', nostep=True)
     )
     log.info('### End ###')
 

@@ -98,15 +98,20 @@ def main():
 
     # 3. group characters when only the cid is different, and group their occurrence count too.
     Extractor.cd(OUTPUT)
-    extr_allchars = Extractor()
-    for char_path in CHARS_DIR.glob('*__c__*'):
-        extr_allchars.extend(Extractor(infile=char_path))
-    (extr_allchars
-        .count('allchars before grouping')
-        .iterate(actions.s2__iterate__characters__group_alteregos)
-        .count('allchars after grouping')
-        .save('allchars')
-    )
+    allchars_path = next(OUTPUT.glob('*__allchars.json'), None)
+    if not quick and not allchars_path:
+        extr_allchars = Extractor()
+        for char_path in CHARS_DIR.glob('*__c__*'):
+            extr_allchars.extend(Extractor(infile=char_path))
+            (extr_allchars
+                .count('allchars before grouping')
+                .iterate(actions.s2__iterate__characters__group_alteregos)
+                .count('allchars after grouping')
+                .save('allchars')
+            )
+    else:
+        extr_allchars = Extractor(infile=allchars_path)
+    
     (Extractor(data=[actions.get_legend('occ_chars')])
         .mapto(actions.s2__mapto__linkoccurrences__finalize)
         .save('occ_chars', nostep=True)
@@ -141,7 +146,12 @@ def main():
         .mapto(actions.s2__mapto__characters__get_unique_sources)
     )
     ordered_sources_chars = {k: v for (k,v) in sorted(actions.get_legend('sources_chars').items())}
-    Extractor(data=[ordered_sources_chars]).save('sources_chars')
+    
+    sources_chars_path = next(OUTPUT.glob('*__sources_chars.json'), None)
+    if not sources_chars_path:
+        (Extractor(data=[ordered_sources_chars])
+            .save('sources_chars')
+        )
 
     log.info('### End ###')
 

@@ -17,6 +17,7 @@ SRC_TYPES = {
     'tvse': 'tv season',
     'tvs': 'tv series',
     'ws': 'web series',
+    'c': 'comic',
     'cs': 'comic series',
     'os': 'oneshot',
     'o': 'other',
@@ -27,6 +28,7 @@ SRC_TV_EPISODE = SRC_TYPES['tve']
 SRC_TV_SEASON = SRC_TYPES['tvse']
 SRC_TV_SERIES = SRC_TYPES['tvs']
 SRC_WEB_SERIES = SRC_TYPES['ws']
+SRC_COMIC = SRC_TYPES['c']
 SRC_COMIC_SERIES = SRC_TYPES['cs']
 SRC_ONESHOT = SRC_TYPES['os']
 SRC_OTHER = SRC_TYPES['o']
