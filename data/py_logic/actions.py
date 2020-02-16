@@ -549,7 +549,7 @@ class Actions():
             ), output))), None)
             
             if existing_ref:
-                existing_ref.events = sorted([*existing_ref.events, *this_ref.events])
+                existing_ref.events = sorted(list(set([*existing_ref.events, *this_ref.events])))
             elif not this_ref in output:
                 output.append(this_ref)
         return output
