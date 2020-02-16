@@ -441,12 +441,12 @@ def main():
 
     # 10.0 remove original refids from events, since duplicate refs were removed but non from here.
     (extr_events
-        # .addattr('refs', lambda event: [ref.rid for ref in event.refs], use_element=True)
         .remove_cols(['refs'])
         .save('events_final_1_norefs')
     )
 
-    # 10.1 filter invalid events
+    # 10.1 filter invalid events if their eid appears in one of the invalid refs' events list
+    # among the refs filtered out at 9.5
     invalid_eids = (extr_refs_invalid
         .fork()
         .consume_key('events')
@@ -463,6 +463,24 @@ def main():
     (extr_events
         .filter_rows(lambda ev: not ev.eid in invalid_eids)
         .save('events_final_2')
+    )
+
+    # 10.2 restore the other direction of the relationship between events and refs
+    # >>> events whose eid doesn't appear in any ref's event list are filtered out.
+    actions.set_legends(**{
+        'event2ref_map': {},
+        'events_deleted': []
+    })
+    (extr_refs.fork()
+        .mapto(actions.s3__mapto__refs__get__event2ref_map)
+    )
+    (extr_events
+        .addattr('refs', actions.s3__addattr__events__restore_ref_links, use_element=True)
+        .filter_rows(lambda ev: ev not in actions.get_legend('events_deleted'))
+        .save('events_final_3_remapped')
+    )
+    (Extractor(data=actions.get_legend('events_deleted'))
+        .save('events_final_2_deleted')
     )
 
     # --------------------------------------------------------------------

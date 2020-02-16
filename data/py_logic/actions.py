@@ -1,4 +1,5 @@
 # py_logic/actions.py
+import bisect
 import copy
 import logging as log
 import re
@@ -553,6 +554,25 @@ class Actions():
             elif not this_ref in output:
                 output.append(this_ref)
         return output
+
+    def s3__mapto__refs__get__event2ref_map(self, ref: Ref):
+        e2rm = self.legends['event2ref_map']
+        for eid in ref.events:
+            if eid in e2rm.keys() and e2rm[eid]:
+                bisect.insort(e2rm[eid], ref.rid)
+            else:
+                e2rm[eid] = [ref.rid]
+        return ref
+
+    def s3__addattr__events__restore_ref_links(self, event: Event):
+        e2rm = self.legends['event2ref_map']
+        events_deleted = self.legends['events_deleted']
+        newattr = None
+        if event.eid in e2rm.keys():
+            newattr = e2rm[event.eid]
+        else:
+            events_deleted.append(event)
+        return newattr
 
     def s3__addattr__sources__refids(self, src: Source, **kwargs):
         refs = self.legends[f'refs_{kwargs["type"]}']
