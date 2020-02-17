@@ -12,4 +12,6 @@
     "code-runner.executorMap": {
         "python": "$pythonPath -u $fullFileName"
     },
+    "code-runner.runInTerminal": true,
+    "code-runner.customCommand": ". $workspaceRoot/venv/bin/activate; python manage.py livereload &>/dev/null & python manage.py runserver"
 }
