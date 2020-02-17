@@ -193,7 +193,7 @@ class Event(object):
     def from_dict(self, **kwargs):
         ev = Event(empty=True)
         for k, v in kwargs.items():
-            if v and isinstance(v, list) and all(isinstance(x, Ref) for x in v) and (not kwargs or not kwargs['ignore_nested']):
+            if k == 'refs' and isinstance(v, list) and all(isinstance(x, dict) for x in v):
                 ev.refs = [Ref.from_dict(**x) for x in v]
             else:
                 setattr(ev, k, v)

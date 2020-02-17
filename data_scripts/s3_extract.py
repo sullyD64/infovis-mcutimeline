@@ -436,6 +436,39 @@ def main():
         .save('refs_all_3')
     )
 
+    """
+    PROBLEM
+    The structure we're going for is the following:
+        Event(*)--(*)Ref(*)--(*)Source
+    Which gets complex when navigating from Sources to Events (since Sources will be the primary lookup index).
+    
+    - By observing the N-N relationship between Ref and Source we see only 6 Refs to mention more than one Source, those
+    are the multi-source refs found at [s3__mapto__namedrefs__add_srcid_multiple].
+    - Those 6 Refs are linked to 1296 events, but only 1 of those events is linked to *only* this special Ref.
+
+    To simplify the structure, we need to transform the N-N in a N-1 (each Ref only refers to a Source).
+    - If we remove the multi-source refs, only 1 Event gets deleted (but we may lose information about placements and such)
+    - Another option is to create a "special" source that aggregates the sources mentioned by the multi-source events, so
+    we will add 6 new sources; but then, how do we access this information?
+    - Third option is to remove the multi-source refs and mark the referred events with a special attribute, which will then be used
+    to navigate to a "more info on the timeline placement"-style link, which is reasonable mainly because the six multi-source refs
+    all have a very long description.
+    So, option 3 suits the best.
+    """
+
+    # 9.7 filter out multi-source refs and restore a single "source" attribute for single-source refs
+    extr_refs_multisource = (extr_refs.fork()
+        .filter_rows(lambda ref: len(ref.sources) > 1)
+        .save('refs_all_3_multisource')
+    )
+    (extr_refs
+        .filter_rows(lambda ref: len(ref.sources) == 1)
+        .addattr('source', lambda ref: next(iter(ref.sources)))
+        .remove_cols(['sources'])
+        .save('refs_all_4')
+    )
+
+
     # --------------------------------------------------------------------
     log.info('')
     log.info(f'### 10. EVENTS (again) ###')
@@ -565,6 +598,8 @@ def main():
     (extr_sources.save('final_sources', nostep=True))
     (extr_refs.save('final_refs', nostep=True))
     (extr_events.save('final_events', nostep=True))
+    
+    (extr_refs_multisource.save('extra_refs_multisource', nostep=True))
 
     log.info(f'### End ###')
 

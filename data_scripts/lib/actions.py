@@ -580,7 +580,7 @@ class Actions():
         refs = self.legends[f'refs_{kwargs["type"]}']
         newattr = []
         for ref in refs:
-            if src.sid and src.sid in ref.sources:
+            if src.sid and src.sid == ref.source:
                 src_ref = ref.rid
                 newattr.append(src_ref)
         return newattr
