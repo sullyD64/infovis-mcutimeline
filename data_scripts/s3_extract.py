@@ -1,11 +1,13 @@
-# s3_extract.py
+# data_scripts/s3_extract.py
+
 import logging as log
 
-from py_logic.actions import Actions
-from py_logic.extractor import Extractor
-from py_utils.constants import TMP_MARKERS, SRC_FILM_SERIES, SRC_TV_SERIES
-from py_utils.errors import RequiredInputMissingError
-from settings import INPUT_MANUAL, OUTPUT
+from data_scripts.lib.actions import Actions
+from data_scripts.lib.constants import (INPUT_MANUAL, OUTPUT, SRC_FILM_SERIES,
+                                        SRC_TV_SERIES, TMP_MARKERS)
+from data_scripts.lib.errors import RequiredInputMissingError
+from data_scripts.lib.extractor import Extractor
+from data_scripts.logconfig import config
 
 CODE = 's3'
 clean = True
@@ -567,4 +569,5 @@ def main():
     log.info(f'### End ###')
 
 if __name__ == "__main__":
+    config()
     main()

@@ -1,12 +1,13 @@
-# py_model/structs.py
+# data_scripts/lib/structs.py
+
 import re
 
 import wikitextparser as wtp
 
-from py_logic.formatter import TextFormatter
-from py_logic.parser import MyHTMLParser
-from py_utils.constants import SRC_FILM, SRC_TV_EPISODE, SRC_ONESHOT
-from py_utils.helpers import jdumps
+from data_scripts.lib.constants import SRC_FILM, SRC_ONESHOT, SRC_TV_EPISODE
+from data_scripts.lib.formatter import TextFormatter
+from data_scripts.lib.utils import jdumps
+from data_scripts.lib.parser import MyHTMLParser
 
 
 class Ref(object):
@@ -192,7 +193,7 @@ class Event(object):
     def from_dict(self, **kwargs):
         ev = Event(empty=True)
         for k, v in kwargs.items():
-            if k == 'refs':
+            if v and isinstance(v, list) and all(isinstance(x, Ref) for x in v) and (not kwargs or not kwargs['ignore_nested']):
                 ev.refs = [Ref.from_dict(**x) for x in v]
             else:
                 setattr(ev, k, v)

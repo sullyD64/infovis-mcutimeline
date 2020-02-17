@@ -1,12 +1,14 @@
+# data_scripts/lib/extractor.py
+
 import copy
 import itertools
 import logging as log
 import os
 import pathlib
 
-from py_model.structs import Event, Ref, Source
-from py_utils.errors import ExtractorOutdirMissingError
-from py_utils.helpers import jdumps, jloads
+from data_scripts.lib.errors import ExtractorOutdirMissingError
+from data_scripts.lib.utils import jdumps, jloads
+from data_scripts.lib.structs import Event, Ref, Source
 
 
 class Extractor(object):

@@ -8,4 +8,8 @@
     ],
     "python.pythonPath": "venv/bin/python",
     "python.linting.pylintArgs": ["--disable=R,C,W0201,W0223,W0621,cell-var-from-loop,global-statement, pointless-string-statement", "--logging-format-style=fstr"],
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
 }

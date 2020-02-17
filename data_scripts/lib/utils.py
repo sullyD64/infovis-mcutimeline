@@ -1,4 +1,5 @@
-# py_utils/helpers.py
+# data_scripts/lib/utils.py
+
 import json
 
 def jloads(rawfile):
@@ -6,4 +7,3 @@ def jloads(rawfile):
 
 def jdumps(obj):
     return json.dumps(obj, indent=2, ensure_ascii=False)
-

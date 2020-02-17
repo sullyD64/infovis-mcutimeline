@@ -1,12 +1,13 @@
-# s1_parse.py
+# data_scripts/s1_parse.py
+
 import logging as log
 
-from py_logic.actions import Actions
-from py_logic.extractor import Extractor
-from py_logic.parser import Parser
-from py_utils.constants import TIMELINE_PAGES
-from py_utils.errors import RequiredInputMissingError
-from settings import INPUT_RAW, OUTPUT
+from data_scripts.lib.actions import Actions
+from data_scripts.lib.constants import INPUT_RAW, OUTPUT, TIMELINE_PAGES
+from data_scripts.lib.errors import RequiredInputMissingError
+from data_scripts.lib.extractor import Extractor
+from data_scripts.lib.parser import Parser
+from data_scripts.logconfig import config
 
 CODE = 's1'
 clean = True
@@ -49,4 +50,5 @@ def main():
     log.info('### End ###')
 
 if __name__ == "__main__":
+    config()
     main()

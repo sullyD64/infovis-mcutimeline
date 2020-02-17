@@ -1,6 +1,9 @@
 docs
+sketches
 node_modules
 venv
+*.egg-info
+__pycache__
 *.py[oc]
 *.sqlite3
 .vscode/launch.json

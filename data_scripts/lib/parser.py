@@ -1,17 +1,18 @@
-# py_logic/parser.py
+# data_scripts/lib/parser.py
+
 import logging as log
 import re
 from html.parser import HTMLParser
 
 import wikitextparser as wtp
 
-from py_logic.formatter import TextFormatter
-from py_utils.constants import MEDIA_TYPES_APPEARENCE
+from data_scripts.lib.constants import MEDIA_TYPES_APPEARENCE
+from data_scripts.lib.formatter import TextFormatter
 
 
 class Parser(object):
     def parse_timeline(self, file: list, filename: str):
-        from py_model.structs import Event
+        from data_scripts.lib.structs import Event
 
         parsed_events = []
         htmlparser = MyHTMLParser()

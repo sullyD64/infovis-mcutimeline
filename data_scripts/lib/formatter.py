@@ -1,8 +1,9 @@
-# py_logic/textformatter.py
+# data_scripts/lib/formatter.py
+
 import re
 
-from py_utils.constants import TMP_MARKERS
-from py_utils.errors import WikitagsNotBalancedError
+from data_scripts.lib.constants import TMP_MARKERS
+from data_scripts.lib.errors import WikitagsNotBalancedError
 
 
 class TextFormatter(object):

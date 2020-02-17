@@ -1,5 +1,4 @@
-# s0_crawl_timeline.py
-# from scraping import Scraper
+# data_scripts/s0_crawl_timeline.py
 
 if __name__ == "__main__":
     pass

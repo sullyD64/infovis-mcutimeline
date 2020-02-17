@@ -1,4 +1,4 @@
-# errors.py
+# data_scripts/lib/errors.py
 
 class WikitagsNotBalancedError(Exception):
     def __init__(self, method, string):

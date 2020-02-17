@@ -1,4 +1,5 @@
-# py_logic/scraper.py
+# data_scripts/lib/scraper.py
+
 import logging as log
 import pathlib
 import re
@@ -7,11 +8,11 @@ import requests
 import wikitextparser as wtp
 from bs4 import BeautifulSoup
 
-from py_logic.extractor import Extractor
-from py_logic.formatter import TextFormatter
-from py_logic.parser import Parser
-from py_utils.constants import BASE_WIKI_URL
-from py_utils.errors import WikipageNotExistingError
+from data_scripts.lib.constants import BASE_WIKI_URL
+from data_scripts.lib.errors import WikipageNotExistingError
+from data_scripts.lib.extractor import Extractor
+from data_scripts.lib.formatter import TextFormatter
+from data_scripts.lib.parser import Parser
 
 
 class Scraper(object):

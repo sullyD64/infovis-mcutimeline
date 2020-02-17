@@ -1,4 +1,5 @@
-# py_logic/actions.py
+# data_scripts/lib/actions.py
+
 import bisect
 import copy
 import logging as log
@@ -6,10 +7,11 @@ import re
 
 import wikitextparser as wtp
 
-from py_model.structs import Event, Ref, Source, SourceBuilder
-from py_utils.constants import (SRC_COMIC, SRC_FILM, SRC_FILM_SERIES,
-                                SRC_OTHER, SRC_TV_EPISODE, SRC_TV_SEASON,
-                                SRC_TV_SERIES, SRC_WEB_SERIES, TMP_MARKERS)
+from data_scripts.lib.constants import (SRC_COMIC, SRC_FILM, SRC_FILM_SERIES,
+                                        SRC_OTHER, SRC_TV_EPISODE,
+                                        SRC_TV_SEASON, SRC_TV_SERIES,
+                                        SRC_WEB_SERIES, TMP_MARKERS)
+from data_scripts.lib.structs import Event, Ref, Source, SourceBuilder
 
 
 class Actions():

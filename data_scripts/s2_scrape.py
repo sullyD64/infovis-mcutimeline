@@ -1,13 +1,15 @@
-# s2_scrape.py
+# data_scripts/s2_scrape.py
+
 import logging as log
 
 import wikitextparser as wtp
 
-from py_logic.actions import Actions
-from py_logic.extractor import Extractor
-from py_logic.scraper import Scraper
-from py_utils.errors import RequiredInputMissingError
-from settings import INPUT_CRAWLED, OUTPUT
+from data_scripts.lib.actions import Actions
+from data_scripts.lib.constants import INPUT_CRAWLED, OUTPUT
+from data_scripts.lib.errors import RequiredInputMissingError
+from data_scripts.lib.extractor import Extractor
+from data_scripts.lib.scraper import Scraper
+from data_scripts.logconfig import config
 
 CODE = 's2'
 CHARS_DIR = INPUT_CRAWLED / 'characters'
@@ -134,8 +136,10 @@ def main():
         .addattr('non_characters', actions.s2__addattr__events__split_wikilinks, use_element=True, **{'valid': occ_nonchars})
         .addattr('non_characters_count', lambda elem: len(elem['non_characters']), use_element=True)
         .remove_cols(['links'])
-        .save('events_characters')
     )
+    events_characters_path = next(OUTPUT.glob('*__events_characters.json'), None)
+    if not events_characters_path:
+        extr_events.save('events_characters')
 
     # 4. extract all the sources mentioned in the extracted characters
     actions.set_legends(**{'sources_chars': {}})
@@ -156,4 +160,5 @@ def main():
     log.info('### End ###')
 
 if __name__ == "__main__":
+    config()
     main()
