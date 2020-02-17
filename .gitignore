@@ -1,7 +1,9 @@
 docs
 node_modules
-.vscode
-__pycache__
+venv
+*.py[oc]
+*.sqlite3
+.vscode/launch.json
 /data/input/crawled/*/*
 /data/output/*
 !**/.gitkeep

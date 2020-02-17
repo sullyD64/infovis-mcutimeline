@@ -1,0 +1,11 @@
+{
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/mcu_app/static/css"
+        }
+    ],
+    "python.pythonPath": "venv/bin/python",
+    "python.linting.pylintArgs": ["--disable=R,C,W0201,W0223,W0621,cell-var-from-loop,global-statement, pointless-string-statement", "--logging-format-style=fstr"],
+}
