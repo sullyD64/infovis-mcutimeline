@@ -121,7 +121,7 @@ def main():
     # 3.3 filters invalid refs, for which it hasn't been found a proper sourcetitle and thus would be impossible to add a sourceid later on.
     actions.set_counters(*['cnt_existing', 'cnt_updated'])
     (extr_refs_anon
-        .addattr('source__title', actions.s3__addattr__refs__sourcetitle, use_element=True, **{'patterns': patterns})
+        .addattr('source__title', actions.s3__addattr__refs__sourcetitle, **{'patterns': patterns})
         .filter_rows(lambda ref: ref.source__title)
         .save('refs_anon_plus_sourcetitle')
     )
@@ -138,7 +138,7 @@ def main():
     })
     actions.set_counters(*['cnt_existing', 'cnt_discovered', 'cnt_updated'])
     (extr_refs_anon
-        .addattr('source__id', actions.s3__addattr__anonrefs__sourceid, use_element=True)
+        .addattr('source__id', actions.s3__addattr__anonrefs__sourceid)
         .save('refs_anon_plus_sourcetitle_sourceid')
     )
     cntrs = actions.get_counters()
@@ -201,7 +201,7 @@ def main():
     # 5.2 infer sourcetitle from ref desc
     actions.set_counters(*['cnt_existing', 'cnt_updated'])
     (extr_refs_named
-        .addattr('source__title', actions.s3__addattr__refs__sourcetitle, use_element=True, **{'patterns': patterns})
+        .addattr('source__title', actions.s3__addattr__refs__sourcetitle, **{'patterns': patterns})
         .save('refs_named_plus_sourcetitle')
     )
     cntrs = actions.get_counters()
@@ -222,7 +222,7 @@ def main():
     })
     actions.set_counters(*['cnt_existing', 'cnt_discovered', 'cnt_updated', 'cnt_ref_marked'])
     (extr_refs_named
-        .addattr('source__id', actions.s3__addattr__namedrefs__sourceid_1, use_element=True)
+        .addattr('source__id', actions.s3__addattr__namedrefs__sourceid_1)
         .save('refs_named_plus_sourcetitle_sourceid_1')
     )
     cntrs = actions.get_counters()
@@ -257,7 +257,7 @@ def main():
         'sources_additional': [],
     })
     (extr_refs_named
-        .addattr('source__id', actions.s3__addattr__namedrefs__sourceid_2, use_element=True)
+        .addattr('source__id', actions.s3__addattr__namedrefs__sourceid_2)
         .save('refs_named_plus_sourcetitle_sourceid_2')
     )
     cntrs = actions.get_counters()
@@ -326,7 +326,7 @@ def main():
     (extr_refs_named
         .addattr('sources', [])
         .mapto(actions.s3__mapto__namedrefs__add_srcid_multiple)
-        .addattr('source__title', actions.s3__addattr__namedrefs__remaining_srctitle, use_element=True)
+        .addattr('source__title', actions.s3__addattr__namedrefs__remaining_srctitle)
         .save('refs_named_sources_1')
     )
     cnt_tot = len(extr_refs_named.get())
@@ -341,7 +341,7 @@ def main():
     # 8.2 finish converting source ids into lists and cleanup
     # >>> add is_secondary to the refs with multiple tokens but referring to a valid source.
     (extr_refs_named
-        .addattr('is_secondary', actions.s3__addattr__namedrefs__is_secondary, use_element=True)
+        .addattr('is_secondary', actions.s3__addattr__namedrefs__is_secondary)
         .mapto(actions.s3__mapto__refs__convert_srcid_srctitle_to_sourcelist)
         .remove_cols(['source__title', 'source__id'])
         .save('refs_named_sources_2')
@@ -375,7 +375,7 @@ def main():
     )
     extr_refs_nonvoid = (extr_refs.fork()
         .filter_rows(lambda ref: ref.desc is not None)
-        .addattr('events', actions.s3__addattr__refs__create_events_list, use_element=True)
+        .addattr('events', actions.s3__addattr__refs__create_events_list)
         .save('refs_all_nonvoid_0')
     )
 
@@ -477,7 +477,7 @@ def main():
         .mapto(actions.s3__mapto__refs__get__event2ref_map)
     )
     (extr_events
-        .addattr('refs', actions.s3__addattr__events__restore_ref_links, use_element=True)
+        .addattr('refs', actions.s3__addattr__events__restore_ref_links)
         .filter_rows(lambda ev: ev not in actions.get_legend('events_deleted'))
         .save('events_final_3_remapped')
     )
@@ -506,11 +506,11 @@ def main():
 
     # 11.1 add refids and ref count in a list to each source
     (extr_sources
-        .addattr('refs_primary', actions.s3__addattr__sources__refids, use_element=True, **{'type': 'primary'})
-        .addattr('refs_primary_count', lambda src: len(src.refs_primary), use_element=True)
-        .addattr('refs_secondary', actions.s3__addattr__sources__refids, use_element=True, **{'type': 'secondary'})
-        .addattr('refs_secondary_count', lambda src: len(src.refs_secondary), use_element=True)
-        .addattr('refs_tot_count', lambda src: src.refs_primary_count + src.refs_secondary_count, use_element=True)
+        .addattr('refs_primary', actions.s3__addattr__sources__refids, **{'type': 'primary'})
+        .addattr('refs_primary_count', lambda src: len(src.refs_primary))
+        .addattr('refs_secondary', actions.s3__addattr__sources__refids, **{'type': 'secondary'})
+        .addattr('refs_secondary_count', lambda src: len(src.refs_secondary))
+        .addattr('refs_tot_count', lambda src: src.refs_primary_count + src.refs_secondary_count)
         .save('sources_refs')
     )
 
@@ -518,7 +518,7 @@ def main():
     actions.set_legends(**{'hierarchy': []})
     (extr_sources
         .addattr('sub_sources', [])
-        .addattr('level', actions.s3__addattr__sources__level, use_element=True)
+        .addattr('level', actions.s3__addattr__sources__level)
         .mapto(actions.s3__mapto__sources__hierarchy_level0)
         .mapto(actions.s3__mapto__sources__hierarchy_level1)
         .mapto(actions.s3__mapto__sources__hierarchy_level2)
@@ -545,7 +545,7 @@ def main():
         .save('timeline_hierarchy_film')
         .consume_key('sub_sources')
         .flatten()
-        .addattr('year', lambda src: src.details['year'], use_element=True)
+        .addattr('year', lambda src: src.details['year'])
         .select_cols(['year', 'title', 'refs_primary_count', 'refs_secondary_count', 'refs_tot_count'])
         .save('timeline_hierarchy_film_countrefs')
         .get()

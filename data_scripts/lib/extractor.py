@@ -176,20 +176,17 @@ class Extractor(object):
         self.data = func(self.data, **kwargs)
         return self
 
-    def addattr(self, attr, value_or_func, use_element=False, **kwargs):
+    def addattr(self, attr, value_or_func, **kwargs):
         """
         Updates all elements, setting a new attribute `attr`.\n
         If elements are dicts, adds new key `attr` instead.\n
         If `value_or_func` is callable, it is called with kwargs as parameter.\n
-        If `use_element` is True, the element is passed as the first positional argument to the function.
+        A reference to the current element is always passed as the first positional argument to the function.
         Use kwargs to include optional variables and data structures.\n
         """
         for elem in self.data:
             if callable(value_or_func):
-                if use_element:
-                    value = value_or_func(elem, **kwargs)
-                else:
-                    value = value_or_func(**kwargs)
+                value = value_or_func(elem, **kwargs)
             else:
                 value = value_or_func
             if isinstance(elem, dict):
