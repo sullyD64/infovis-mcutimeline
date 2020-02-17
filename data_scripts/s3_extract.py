@@ -437,7 +437,7 @@ def main():
     )
 
     """
-    PROBLEM
+    COMPLEXITY PROBLEM #1
     The structure we're going for is the following:
         Event(*)--(*)Ref(*)--(*)Source
     Which gets complex when navigating from Sources to Events (since Sources will be the primary lookup index).
@@ -456,7 +456,7 @@ def main():
     So, option 3 suits the best.
     """
 
-    # 9.7 filter out multi-source refs and restore a single "source" attribute for single-source refs
+    # 9.7 filter out multi-source refs and restore a single "source" attribute for single-source refs (see COMPLEXITY PROBLEM #1)
     extr_refs_multisource = (extr_refs.fork()
         .filter_rows(lambda ref: len(ref.sources) > 1)
         .save('refs_all_3_multisource')
@@ -507,15 +507,28 @@ def main():
         'events_deleted': []
     })
     (extr_refs.fork()
-        .mapto(actions.s3__mapto__refs__get__event2ref_map)
+        .mapto(actions.s3__mapto__refs__get_event2ref_map, **{'name': 'event2ref_map'})
     )
     (extr_events
-        .addattr('refs', actions.s3__addattr__events__restore_ref_links)
+        .addattr('refs', actions.s3__addattr__events__restore_ref_links, **{'name': 'event2ref_map'})
         .filter_rows(lambda ev: ev not in actions.get_legend('events_deleted'))
-        .save('events_final_3_remapped')
+        .save('events_final_3')
     )
     (Extractor(data=actions.get_legend('events_deleted'))
         .save('events_final_2_deleted')
+    )
+
+    # 10.3 add a special ref attribute to events which where linked to removed multi-source refs (see COMPLEXITY PROBLEM #1).
+    # >>> the attribute contains the multi-source ref ID.
+    actions.set_legends(**{
+        'event2multisrcref_map': {},
+    })
+    (extr_refs_multisource.fork()
+        .mapto(actions.s3__mapto__refs__get_event2ref_map, **{'name': 'event2multisrcref_map'})
+    )
+    (extr_events
+        .addattr('ref_special', actions.s3__addattr__events__special_multisource_ref_id, **{'name': 'event2multisrcref_map'})
+        .save('events_final_4')
     )
 
     # --------------------------------------------------------------------

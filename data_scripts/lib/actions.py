@@ -557,23 +557,30 @@ class Actions():
                 output.append(this_ref)
         return output
 
-    def s3__mapto__refs__get__event2ref_map(self, ref: Ref):
-        e2rm = self.legends['event2ref_map']
+    def s3__mapto__refs__get_event2ref_map(self, ref: Ref, **kwargs):
+        e2rm = self.legends[kwargs['name']]
         for eid in ref.events:
             if eid in e2rm.keys() and e2rm[eid]:
-                bisect.insort(e2rm[eid], ref.rid)
+                e2rm[eid] = sorted(list(set([*e2rm[eid], *[ref.rid]])))
             else:
                 e2rm[eid] = [ref.rid]
         return ref
 
-    def s3__addattr__events__restore_ref_links(self, event: Event):
-        e2rm = self.legends['event2ref_map']
+    def s3__addattr__events__restore_ref_links(self, event: Event, **kwargs):
+        e2rm = self.legends[kwargs['name']]
         events_deleted = self.legends['events_deleted']
         newattr = None
         if event.eid in e2rm.keys():
             newattr = e2rm[event.eid]
         else:
             events_deleted.append(event)
+        return newattr
+
+    def s3__addattr__events__special_multisource_ref_id(self, event: Event, **kwargs):
+        e2msr = self.legends[kwargs['name']]
+        newattr = None
+        if event.eid in e2msr.keys():
+            newattr = next(iter(e2msr[event.eid]))
         return newattr
 
     def s3__addattr__sources__refids(self, src: Source, **kwargs):
