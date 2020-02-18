@@ -11,7 +11,7 @@ from data_scripts.lib.constants import (SRC_COMIC, SRC_FILM, SRC_FILM_SERIES,
                                         SRC_OTHER, SRC_TV_EPISODE,
                                         SRC_TV_SEASON, SRC_TV_SERIES,
                                         SRC_WEB_SERIES, TMP_MARKERS)
-from data_scripts.lib.structs import Event, Ref, Source, SourceBuilder
+from data_scripts.lib.structs import Event, Ref, Source, SourceBuilder, Reflink
 
 
 class Actions():
@@ -470,7 +470,7 @@ class Actions():
                         found = True
                         ref.sources = [*ref.sources, *sourcesfound]
             if found:
-                self.counters['cnt__secondary_ref_found'] += 1
+                self.counters['cnt__complex_ref_found'] += 1
                 ref.source__id = TMP_MARKERS[2]
             else:
                 log.debug(f'{ref.rid} Not a source: {ref.name}')
@@ -488,11 +488,11 @@ class Actions():
                 newattr = matching_src.title
         return newattr
 
-    def s3__addattr__namedrefs__is_secondary(self, ref: Ref):
+    def s3__addattr__namedrefs__complex(self, ref: Ref):
         """
         The predicate after the 'or' is uses because before, when adding a source__title using matching patterns,
             (especially the pattern "In [source wikilink]...")
-        some refs with complex names (which are secondary) also received a source__id and then, when identifying
+        some refs with complex names also received a source__id and then, when identifying
         if they were complex or not, they weren't marked as such (because they already had a source__id) and thus 
         at this point they don't have the TMP_MARKERS[2] as source__id. 
         The predicate after the 'or' checks this particular case and fixes it.
@@ -535,8 +535,8 @@ class Actions():
         main_ref = next(iter(list(filter(lambda ref: ref.name == this_ref.name, refs_nonvoid))), None)
         if main_ref:
             main_ref.events = sorted([*main_ref.events, *[this_ref.event__id]])
-            # propagate secondariety from duplicate to main ref
-            main_ref.is_secondary = any([main_ref.is_secondary, this_ref.is_secondary])
+            # propagate complex from duplicate to main ref
+            main_ref.complex = any([main_ref.complex, this_ref.complex])
             self.counters['cnt_found_duplicate_void'] += 1
         return this_ref
 
@@ -547,8 +547,8 @@ class Actions():
                 output.append(this_ref)
             
             existing_ref = next(iter(list(filter(lambda that_ref: (
-                next(iter(this_ref.sources)) == next(iter(that_ref.sources))
-                and this_ref.desc == that_ref.desc
+                this_ref.source == that_ref.source
+                and all([this_ref.noinfo, that_ref.noinfo])
             ), output))), None)
             
             if existing_ref:
@@ -556,6 +556,11 @@ class Actions():
             elif not this_ref in output:
                 output.append(this_ref)
         return output
+
+    def s3__addattr__refs__noinfo(self, ref: Ref, **kwargs):
+        matches = re.match(re.compile(f'({"|".join(kwargs["patterns"])})'), ref.desc)
+        newattr = True if (matches and not ref.complex) else False
+        return newattr
 
     def s3__mapto__refs__get_event2ref_map(self, ref: Ref, **kwargs):
         e2rm = self.legends[kwargs['name']]
@@ -588,8 +593,7 @@ class Actions():
         newattr = []
         for ref in refs:
             if src.sid and src.sid == ref.source:
-                src_ref = ref.rid
-                newattr.append(src_ref)
+                newattr.append(ref.rid)
         return newattr
 
     def s3__addattr__sources__level(self, src: Source):

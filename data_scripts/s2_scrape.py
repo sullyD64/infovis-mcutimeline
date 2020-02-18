@@ -62,7 +62,7 @@ def main():
             .consume_key('links')
             .flatten()
             .mapto(lambda text: wtp.parse(text).wikilinks[0].title)
-            .save('events_links')
+            .save('events_links', nostep=True)
         )
     # extr_links = Extractor(data=["Captain America", "Heimdall", "Infinity Stones", "notapage", "Groot", "Captain America", "Jasper Sitwell", "Black Widow"]) # for testing only
 
@@ -109,7 +109,7 @@ def main():
                 .count('allchars before grouping')
                 .iterate(actions.s2__iterate__characters__group_alteregos)
                 .count('allchars after grouping')
-                .save('allchars')
+                .save('allchars', nostep=True)
             )
     else:
         extr_allchars = Extractor(infile=allchars_path)
@@ -136,10 +136,8 @@ def main():
         .addattr('non_characters', actions.s2__addattr__events__split_wikilinks, **{'valid': occ_nonchars})
         .addattr('non_characters_count', lambda elem: len(elem['non_characters']))
         .remove_cols(['links'])
+        .save('events_characters', nostep=True)
     )
-    events_characters_path = next(OUTPUT.glob('*__events_characters.json'), None)
-    if not events_characters_path:
-        extr_events.save('events_characters')
 
     # 4. extract all the sources mentioned in the extracted characters
     actions.set_legends(**{'sources_chars': {}})
@@ -154,7 +152,7 @@ def main():
     sources_chars_path = next(OUTPUT.glob('*__sources_chars.json'), None)
     if not sources_chars_path:
         (Extractor(data=[ordered_sources_chars])
-            .save('sources_chars')
+            .save('sources_chars', nostep=True)
         )
 
     log.info('### End ###')

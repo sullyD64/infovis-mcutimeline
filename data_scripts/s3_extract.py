@@ -211,7 +211,7 @@ def main():
     # 5.3 link ref to sources based on inferred sourcetitle, refname and the source's title and id
     # >>> if sourcetitle matches with existing source but it has no id, the source is updated with the new id based on the refname.
     # >>> if no source is found either using sourcetitle or refname, a new source is discovered and added.
-    # IMPORTANT: two passes are necessary, because of the intrinsic asymmetricality:
+    # IMPORTANT: two passes are necessary, because of the intrinsic asymmetricality
 
     # 5.3.1 first pass (perform positive matches and updates)
     log.info(f'** first pass **')
@@ -322,7 +322,7 @@ def main():
 
     # 8.1 begin adding sources as lists, starting from "multiple" refnames
     actions.set_legends(**{'sources': extr_sources.get()})
-    actions.set_counters(*['cnt__secondary_ref_found', 'cnt__not_a_source'])
+    actions.set_counters(*['cnt__complex_ref_found', 'cnt__not_a_source'])
     (extr_refs_named
         .addattr('sources', [])
         .mapto(actions.s3__mapto__namedrefs__add_srcid_multiple)
@@ -332,16 +332,16 @@ def main():
     cnt_tot = len(extr_refs_named.get())
     cntrs = actions.get_counters()
     log.info(f'-- Out of {cnt_tot} named refs:')
-    log.info(f'\t-- {cnt_tot - cntrs["cnt__secondary_ref_found"] - cntrs["cnt__not_a_source"]} refs were left unchanged.')
-    log.info(f'\t-- {cntrs["cnt__secondary_ref_found"]} refs have a complex name (multiple tokens) but refer to a valid source, so they are secondary refs.')
-    log.info(f'\t\tThose are marked with {TMP_MARKERS[2]} and will have is_secondary=True')
+    log.info(f'\t-- {cnt_tot - cntrs["cnt__complex_ref_found"] - cntrs["cnt__not_a_source"]} refs were left unchanged.')
+    log.info(f'\t-- {cntrs["cnt__complex_ref_found"]} refs have a complex name (multiple tokens) but refer to a valid source, so they are complex refs.')
+    log.info(f'\t\tThose are marked with {TMP_MARKERS[2]} and will have complex=True')
     log.info(f'\t-- {cntrs["cnt__not_a_source"]} refs have a complex name (multiple tokens) which is invalid (not a source)')
     log.info(f'\t\tThose are marked with {TMP_MARKERS[1]}. Those refs (and the corresponding events) will be later deleted.')
 
     # 8.2 finish converting source ids into lists and cleanup
-    # >>> add is_secondary to the refs with multiple tokens but referring to a valid source.
+    # >>> add complex=True to the refs with multiple tokens but referring to a valid source.
     (extr_refs_named
-        .addattr('is_secondary', actions.s3__addattr__namedrefs__is_secondary)
+        .addattr('complex', actions.s3__addattr__namedrefs__complex)
         .mapto(actions.s3__mapto__refs__convert_srcid_srctitle_to_sourcelist)
         .remove_cols(['source__title', 'source__id'])
         .save('refs_named_sources_2')
@@ -359,7 +359,7 @@ def main():
     extr_refs = (extr_refs_named.fork()
         .extend(extr_refs_anon
             .addattr('sources', [])
-            .addattr('is_secondary', False)
+            .addattr('complex', False)
             .mapto(actions.s3__mapto__refs__convert_srcid_srctitle_to_sourcelist)
             .remove_cols(['source__title', 'source__id'])
         )
@@ -400,7 +400,7 @@ def main():
     log.info(f'-- Their event__ids have been added to the events list of the first occurrence in order of rid.')
     extr_refs_nonvoid = (Extractor(data=actions.get_legend('refs_nonvoid_new_1'))
         .sort()
-        .select_cols(['rid', 'name', 'is_secondary', 'events', 'sources', 'desc'])
+        .select_cols(['rid', 'name', 'complex', 'events', 'sources', 'desc'])
         .save('refs_all_nonvoid_1')
     )
 
@@ -428,35 +428,32 @@ def main():
         .filter_rows(lambda ref: TMP_MARKERS[1] in ref.sources)
         .save('refs_all_2_invalid')
     )
-
-    # 9.6 finally, merge primary refs which have the same source and same description
     (extr_refs
         .filter_rows(lambda ref: not TMP_MARKERS[1] in ref.sources)
-        .iterate(actions.s3__iterate__refs__merge__remove_duplicates_3)
         .save('refs_all_3')
     )
 
     """
     COMPLEXITY PROBLEM #1
-    The structure we're going for is the following:
-        Event(*)--(*)Ref(*)--(*)Source
-    Which gets complex when navigating from Sources to Events (since Sources will be the primary lookup index).
-    
-    - By observing the N-N relationship between Ref and Source we see only 6 Refs to mention more than one Source, those
-    are the multi-source refs found at [s3__mapto__namedrefs__add_srcid_multiple].
-    - Those 6 Refs are linked to 1296 events, but only 1 of those events is linked to *only* this special Ref.
+        The structure we're going for is the following:
+            Event(*)--(*)Ref(*)--(*)Source
+        Which gets complex when navigating from Sources to Events (since Sources will be the main lookup index).
+        
+        - By observing the N-N relationship between Ref and Source we see only 6 Refs to mention more than one Source, those
+        are the multi-source refs found at [s3__mapto__namedrefs__add_srcid_multiple].
+        - Those 6 Refs are linked to 1296 events, but only 1 of those events is linked to *only* this special Ref.
 
-    To simplify the structure, we need to transform the N-N in a N-1 (each Ref only refers to a Source).
-    - If we remove the multi-source refs, only 1 Event gets deleted (but we may lose information about placements and such)
-    - Another option is to create a "special" source that aggregates the sources mentioned by the multi-source events, so
-    we will add 6 new sources; but then, how do we access this information?
-    - Third option is to remove the multi-source refs and mark the referred events with a special attribute, which will then be used
-    to navigate to a "more info on the timeline placement"-style link, which is reasonable mainly because the six multi-source refs
-    all have a very long description.
-    So, option 3 suits the best.
+        To simplify the structure, we need to transform the N-N in a N-1 (each Ref only refers to a Source).
+        - If we remove the multi-source refs, only 1 Event gets deleted (but we may lose information about placements and such)
+        - Another option is to create a "special" source that aggregates the sources mentioned by the multi-source events, so
+        we will add 6 new sources; but then, how do we access this information?
+        - Third option is to remove the multi-source refs and mark the referred events with a special attribute, which will then be used
+        to navigate to a "more info on the timeline placement"-style link, which is reasonable mainly because the six multi-source refs
+        all have a very long description.
+        So, option 3 suits the best.
     """
 
-    # 9.7 filter out multi-source refs and restore a single "source" attribute for single-source refs (see COMPLEXITY PROBLEM #1)
+    # 9.6 filter out multi-source refs and restore a single "source" attribute for single-source refs (see COMPLEXITY PROBLEM #1)
     extr_refs_multisource = (extr_refs.fork()
         .filter_rows(lambda ref: len(ref.sources) > 1)
         .save('refs_all_3_multisource')
@@ -467,6 +464,57 @@ def main():
         .remove_cols(['sources'])
         .save('refs_all_4')
     )
+
+    """
+    COMPLEXITY PROBLEM #2
+        At this point we have the following structure:
+            Event(*)--(*)Ref(*)--(1)Source
+        Let us reconsider what is a Ref: a text linked to one or more Events in the timeline.
+        Based on the Refs' names and descriptions, we were able to group Refs together by linking each Ref to (ONE) source.
+        For this reason, a Ref is a link between an Event and a Source. 
+        The problem is the following: an Event can be connected to the same Source by two or more Refs. Seen from the other side,
+        A Source can reach an Event multiple times without knowing "how".
+        
+        At this point there are, conceptually, two types of Refs: 
+        - A) Refs that add information to the link between Events and Sources
+            Refs of type A are _usually_ complex refs (having a multi-token source name, like "GotGV2 Celestials").
+        - B) Refs that add NO information to the link (e.g. have no description).
+            Refs of type B are _usually_ non-complex refs (having a single-token source name, like "GotGV2").
+
+        The proposal here is to simplify the link between Events and Sources making it such that there is only one path between
+        every Source and Event.
+        - In the domain of the visualization, there is no point in accessing Refs in an aggregate way.
+        - There is also no point in having to keep refs which have no description. Refs of type B _usually_ have no description.
+        
+        We then introduce a new type of object straddling the N-N relationship between Refs and Events:
+        - We promote type-B refs with description to type-A refs, this we can guarantee only one type-B ref exists for each source. To do so, we add a "noinfo" attribute. If noinfo=True, the ref is of type B.
+        - For each type-B ref:
+            - Add an entry on a dictionary with the following format:
+                {sid: [events]}
+        - For each type-A ref:
+            - If there is no entry on this dictionary, add it
+            - Create then a new object of type RefLink with the following attributes: eid, sid and rid.
+
+        - For each source:
+    """
+
+
+    # 9.7 mark the type of ref based on the value of complex and the ref description.
+    # >>> noinfo=True if ref is not complex AND ref.desc matches with patterns 1 or 3
+    (extr_refs
+        .addattr('noinfo', actions.s3__addattr__refs__noinfo, **{'patterns': [patterns[0], patterns[2]]})
+        .save('refs_all_4_noinfo')
+    )
+
+    # 9.8 merge non-complex refs which have the same source and same description
+    (extr_refs
+        .iterate(actions.s3__iterate__refs__merge__remove_duplicates_3)
+        .save('refs_all_5')
+    )
+
+    # 9.9 
+
+
 
 
     # --------------------------------------------------------------------
@@ -538,11 +586,11 @@ def main():
 
     # 11.0 split refs in two: primary and secondary
     extr_refs_primary = (extr_refs.fork()
-        .filter_rows(lambda ref: not ref.is_secondary)
+        .filter_rows(lambda ref: ref.noinfo)
         .save('refs_all_3_primary')
     )
     extr_refs_secondary = (extr_refs.fork()
-        .filter_rows(lambda ref: ref.is_secondary)
+        .filter_rows(lambda ref: not ref.noinfo)
         .save('refs_all_3_secondary')
     )
     actions.set_legends(**{
@@ -553,10 +601,8 @@ def main():
     # 11.1 add refids and ref count in a list to each source
     (extr_sources
         .addattr('refs_primary', actions.s3__addattr__sources__refids, **{'type': 'primary'})
-        .addattr('refs_primary_count', lambda src: len(src.refs_primary))
         .addattr('refs_secondary', actions.s3__addattr__sources__refids, **{'type': 'secondary'})
         .addattr('refs_secondary_count', lambda src: len(src.refs_secondary))
-        .addattr('refs_tot_count', lambda src: src.refs_primary_count + src.refs_secondary_count)
         .save('sources_refs')
     )
 
@@ -592,7 +638,6 @@ def main():
         .consume_key('sub_sources')
         .flatten()
         .addattr('year', lambda src: src.details['year'])
-        .select_cols(['year', 'title', 'refs_primary_count', 'refs_secondary_count', 'refs_tot_count'])
         .save('timeline_hierarchy_film_countrefs')
         .get()
     )
