@@ -75,9 +75,10 @@ class Extractor(object):
         """
         Returns the first element in data.
         """
-        if self.data:
-            return self.data[0]
-        raise NotImplementedError
+        if not self.data:
+            log.error("Empty list")
+            return None
+        return self.data[0]
 
     def filter_rows(self, pred):
         """
@@ -95,7 +96,9 @@ class Extractor(object):
         Works with both objects and dicts.
         """
         if not self.data:
-            raise Exception("select_cols: Empty list")
+            log.error("Empty list")
+            return self
+
         if isinstance(self.data[0], dict):
             self.data = [{col: d[col] for col in col_names} for d in self.data]
         elif isinstance(self.data[0], object):
@@ -111,6 +114,10 @@ class Extractor(object):
         Filters data by selecting all attributes or keys but the ones for each element in data.\n
         Works with both objects and dicts.
         """
+        if not self.data:
+            log.error("Empty list")
+            return self
+
         if isinstance(self.data[0], dict):
             col_names = [key for key in self.data[0].keys() if key not in excluded_col_names]
         elif isinstance(self.data[0], object):
@@ -124,7 +131,8 @@ class Extractor(object):
         Replaces elements with the key's corresponding values.
         """
         if not self.data:
-            raise Exception("consume_key: Empty list")
+            log.error("Empty list")
+            return self
 
         if not isinstance(self.data[0], dict):
             self.data = [d.to_dict(**{'ignore_nested': True}) for d in self.data]
@@ -142,6 +150,10 @@ class Extractor(object):
         If `key_or_attr` is a valid key or attribute name, replaces data with a list of dictionaries.\n
         Each dict is in the following format: {`key_or_attr`: grouping_key, 'elements': [grouped_elements]}.
         """
+        if not self.data:
+            log.error("Empty list")
+            return self
+
         sample_el = self.data[0]
         keyfunc = lambda elem: (
             elem[key_or_attr] if isinstance(sample_el, dict)
@@ -202,6 +214,10 @@ class Extractor(object):
 
     def sort(self, key_or_attr=None, reverse=False):
         """Sorts data."""
+        if not self.data:
+            log.error("Empty list")
+            return self
+    
         if key_or_attr:
             sample_el = self.data[0]  
             keyfunc = lambda elem: (
@@ -216,6 +232,10 @@ class Extractor(object):
 
     def unique(self):
         """If elements are hashable (aka they aren't dicts or lists), removes duplicate elements."""
+        if not self.data:
+            log.error("Empty list")
+            return self
+        
         if not isinstance(self.data[0], (dict, list)):
             self.data = list(set(self.data))
         else:
