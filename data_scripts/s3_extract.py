@@ -551,7 +551,7 @@ def main():
 
     # 10.9 merge non-complex refs which have the same source and same description
     (extr_refs
-        .iterate(actions.s3__iterate__refs__merge__remove_duplicates_3)
+        .iterate(actions.s3__iterate__refs__merge_remove_duplicates_3)
         .save('refs_all_6')
     )
     
@@ -571,9 +571,7 @@ def main():
     invalid_eids = (extr_refs_invalid
         .fork()
         .consume_key('events')
-        .flatten()
-        .sort()
-        .unique()
+        .flatten().sort().unique()
         .get()
     )
     (extr_events
@@ -616,7 +614,6 @@ def main():
         .filter_rows(lambda ev: ev.eid in actions.get_legend('event2ref_map').keys())
     )
 
-
     # 11.4 iterate refs and build the m2m and reflink lists
     actions.set_legends(**{
         'sources2events_m2m': [],
@@ -624,7 +621,7 @@ def main():
     })
     (extr_refs
         .mapto(actions.s3__mapto__refs__get_sources2events_m2m)
-     )
+    )
     extr_m2m = (Extractor(data=actions.get_legend('sources2events_m2m'))
         .sort()
         .save('m2m', nostep=True)
@@ -633,19 +630,24 @@ def main():
         .save('reflinks', nostep=True)
     )
 
-    # 11.5 link Events with Sources and Reflinks
+    # 11.5 link Events with Sources and Reflinks (see COMPLEXITY PROBLEM #2).
+    reflinks_by_evt = (extr_reflinks.fork()
+        .sort('evt').groupby('evt')
+        .get()
+    )
     actions.set_legends(**{
         'sources2events_m2m': extr_m2m.get(),
-        # 'reflinks_by_evt': extr_reflinks.sort('evt').groupby('evt').get(),
-        # 'reflinks_by_src': extr_reflinks.sort('src').groupby('src').get(), # NON USARE ORA
+        'reflinks_by_evt': reflinks_by_evt
     })
+    actions.set_counters(*['cnt_existing'])
     (extr_events
         .addattr('sources', actions.s3__addattr__events__sources_list)
-        # TODO QUI
-        # .addattr('reflinks', actions.s3__addattr__events__reflinks_list)
+        .addattr('reflinks', actions.s3__addattr__events__reflinks_list)
     )
+    cntrs = actions.get_counters()
+    log.info(f'-- Linked {cntrs["cnt_existing"]}/{len(extr_events.get())} events to reflinks.')
 
-    # 11.6 add a special ref attribute to events which where linked to removed multi-source refs (see COMPLEXITY PROBLEM #1).
+    # 11.6 add a ref_special attribute to events which where linked to removed multi-source refs (see COMPLEXITY PROBLEM #1).
     # >>> the attribute contains the multi-source ref ID.
     actions.set_legends(**{
         'event2multisrcref_map': {},
@@ -663,24 +665,56 @@ def main():
     log.info(f'### 12. SOURCES ###')
     # --------------------------------------------------------------------
 
-    # 12.0 split refs in two: primary and secondary
-    extr_refs_primary = (extr_refs.fork()
+    # 12.0 at this point, we can filter refs which have noinfo=True, since they won't be used for linking anymore
+    (extr_refs
+        .fork()
         .filter_rows(lambda ref: ref.noinfo)
+        .save('refs_all_7_noinfo')
     )
-    extr_refs_secondary = (extr_refs.fork()
+    (extr_refs
         .filter_rows(lambda ref: not ref.noinfo)
+        .save('refs_all_8')
+    )
+
+    # 12.1 add ref ids to sources
+    # >>> only refs with noinfo=False are added
+    actions.set_legends(**{
+        'refs': extr_refs.get(),
+    })
+    (extr_sources
+        .addattr('refs', actions.s3__addattr__sources__refids)  
+    )
+
+    # 12.2 link Sources with Events and Reflinks (see COMPLEXITY PROBLEM #2).
+    """
+    We maintain both ends of the relationship to support both import scenarios (we don't know which to use yet)
+    """
+    reflinks_by_src = (extr_reflinks.fork()
+        .sort('src').groupby('src')
+        .get()
     )
     actions.set_legends(**{
-        'refs_primary': extr_refs_primary.get(),
-        'refs_secondary': extr_refs_secondary.get()
+        'sources2events_m2m': extr_m2m.get(),
+        'reflinks_by_src': reflinks_by_src
     })
-
-    # 12.1 add refids and ref count in a list to each source
+    actions.set_counters(*['cnt_existing_in_m2m', 'cnt_existing_in_reflinks'])
     (extr_sources
-        .addattr('refs_primary', actions.s3__addattr__sources__refids, **{'type': 'primary'})
-        .addattr('refs_secondary', actions.s3__addattr__sources__refids, **{'type': 'secondary'})
-        .addattr('refs_secondary_count', lambda src: len(src.refs_secondary))
-        .save('sources_refs')
+        .addattr('events', actions.s3__addattr__sources__events_list)
+        .addattr('reflinks', actions.s3__addattr__sources__reflinks_list)
+        .save('sources_8')
+    )
+    cntrs = actions.get_counters()
+    log.info(f'-- Linked {cntrs["cnt_existing_in_m2m"]}/{len(extr_sources.get())} sources to events.')
+    log.info(f'\t\t Out of these sources, {cntrs["cnt_existing_in_reflinks"]} go through reflinks.')
+
+    # 12.3 remove duplicate Sources 
+    """
+    It's perfectly OK to have duplicate sources and to handle them now, since they are exact copies 
+    (having the same sid) with the exception of one having the title and one not having it.
+    """
+    (extr_sources
+        .iterate(actions.s3__iterate__sources__merge_remove_duplicates)
+        .save('sources_9')
     )
 
     # --------------------------------------------------------------------
@@ -723,11 +757,6 @@ def main():
         .save('timeline_hierarchy_film_countrefs')
         .get()
     )
-    # log.info('')
-    # log.info('-- Unique ref count: ')
-    # for src in sorted(film_countrefs, key=lambda src: src.year):
-    #     log.info(f'{src.year}, {src.title}, primary: {src.refs_primary_count}, secondary: {src.refs_secondary_count}, tot: {src.refs_tot_count}')
-
 
     # --------------------------------------------------------------------
     log.info('')

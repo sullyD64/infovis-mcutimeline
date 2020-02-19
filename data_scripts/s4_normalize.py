@@ -98,7 +98,7 @@ def main():
         .fork()
         .remove_cols(['events'])
         # .filter_rows(lambda ref: ref.num_events in range(1,5))
-        .sort('num_events', reverse=True)
+        .sort('num_events', reverse=True) 
         .save('refs_ranked')
     )
 
@@ -106,13 +106,13 @@ def main():
         .fork()
         .remove_cols(['events'])
         .filter_rows(lambda ref: not ref.complex)
-        .save('refs_primary')
+        .save('refs_simple')
     ) 
     (extr_refs_shortdesc
         .fork()
         .remove_cols(['events'])
         .filter_rows(lambda ref: ref.complex)
-        .save('refs_secondary')
+        .save('refs_complex')
     )
 
     # NOT NEEDED (there are no sources with multiple primary refs)
@@ -224,9 +224,17 @@ def main():
     
     (extr_events
         .fork()
-        .filter_rows(lambda ev: len(ev.sources) >= 3)
-        .select_cols(['eid', 'desc', 'sources'])
-        .save('events_morethan2sources')
+        .filter_rows(lambda ev: len(ev.reflinks) >= 2)
+        .select_cols(['eid', 'desc', 'reflinks'])
+        .save('events_morethan2reflinks')
+    )
+
+    (extr_sources
+        .fork()
+        # .select_cols(['sid', 'title'])
+        .groupby('sid')
+        .filter_rows(lambda group: len(group['elements']) > 1)
+        .save('sources_bysid')
     )
 
 

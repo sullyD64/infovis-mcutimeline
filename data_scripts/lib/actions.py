@@ -544,7 +544,7 @@ class Actions():
             self.counters['cnt_found_duplicate_void'] += 1
         return this_ref
 
-    def s3__iterate__refs__merge__remove_duplicates_3(self, refs: list):
+    def s3__iterate__refs__merge_remove_duplicates_3(self, refs: list):
         output = []
         for this_ref in refs:
             if not output:
@@ -607,26 +607,28 @@ class Actions():
     def s3__addattr__events__sources_list(self, event: Event):
         m2m = self.legends['sources2events_m2m']
         newattr = []
-        log.debug(len(m2m))
-
         for pair in m2m:
             src, evt = pair[0], pair[1]
             if evt == event.eid:
                 newattr.append(src)
                 log.debug(f'{event.eid} adding source {src}')
-
         if not newattr:
-            raise Exception
+            raise Exception('all events should have a source')
         log.debug(f'{event.eid} {newattr}')
         return newattr
 
-    # def s3__addattr__events__reflinks_list(self, event: Event):
-    #     reflinks_by_evt = self.legends['reflinks_by_evt']
-    #     newattr = None
+    def s3__addattr__events__reflinks_list(self, event: Event):
+        reflinks_by_evt = self.legends['reflinks_by_evt']
+        newattr = []
+        this_event_reflinks = next(iter(list(filter(lambda group: (
+            group['evt'] == event.eid
+        ), reflinks_by_evt))), None)
 
-    #     return newattr
-
-
+        if this_event_reflinks:
+            newattr = [rl.lid for rl in this_event_reflinks['elements']]
+            self.counters['cnt_existing'] += 1
+            log.debug(f'{event.eid} binding to {newattr}')
+        return newattr
 
     def s3__addattr__events__special_multisource_ref_id(self, event: Event, **kwargs):
         e2msr = self.legends[kwargs['name']]
@@ -635,15 +637,59 @@ class Actions():
             newattr = next(iter(e2msr[event.eid]))
         return newattr
 
-
-
-    def s3__addattr__sources__refids(self, src: Source, **kwargs):
-        refs = self.legends[f'refs_{kwargs["type"]}']
+    def s3__addattr__sources__refids(self, src: Source):
+        refs = self.legends['refs']
         newattr = []
         for ref in refs:
             if src.sid and src.sid == ref.source:
                 newattr.append(ref.rid)
         return newattr
+
+    def s3__addattr__sources__events_list(self, source: Source):
+        m2m = self.legends['sources2events_m2m']
+        newattr = []
+        found = False
+        for pair in m2m:
+            src, evt = pair[0], pair[1]
+            if src == source.sid:
+                found = True
+                newattr.append(evt)
+                log.debug(f'{source.sid} adding event {evt}')
+
+        if found:
+            self.counters['cnt_existing_in_m2m'] += 1
+            log.debug(f'{source.sid} binding to {newattr}')
+        log.debug(f'{source.sid} {newattr}')
+        return newattr
+
+    def s3__addattr__sources__reflinks_list(self, source: Source):
+        reflinks_by_src = self.legends['reflinks_by_src']
+        newattr = []
+        this_source_reflinks = next(iter(list(filter(lambda group: (
+            group['src'] == source.sid
+        ), reflinks_by_src))), None)
+
+        if this_source_reflinks:
+            newattr = [rl.lid for rl in this_source_reflinks['elements']]
+            self.counters['cnt_existing_in_reflinks'] += 1
+            log.debug(f'{source.sid} binding to {newattr}')
+        return newattr
+
+    def s3__iterate__sources__merge_remove_duplicates(self, sources: list):
+        output = []
+        for this_src in sources:
+            if not output:
+                output.append(this_src)
+
+            existing_src = next(iter(list(filter(lambda that_src: (
+                this_src.sid == that_src.sid
+            ), output))), None)
+
+            if existing_src:
+                existing_src.title = next((x for x in [existing_src.title, this_src.title] if x is not None))
+            elif not this_src in output:
+                output.append(this_src)
+        return output
 
     def s3__addattr__sources__level(self, src: Source):
         newattr = 0
