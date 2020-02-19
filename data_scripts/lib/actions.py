@@ -1,6 +1,5 @@
 # data_scripts/lib/actions.py
 
-import bisect
 import copy
 import logging as log
 import re
@@ -11,7 +10,7 @@ from data_scripts.lib.constants import (SRC_COMIC, SRC_FILM, SRC_FILM_SERIES,
                                         SRC_OTHER, SRC_TV_EPISODE,
                                         SRC_TV_SEASON, SRC_TV_SERIES,
                                         SRC_WEB_SERIES, TMP_MARKERS)
-from data_scripts.lib.structs import Event, Ref, Source, SourceBuilder, Reflink
+from data_scripts.lib.structs import Event, Ref, Source, SourceBuilder, RefLink
 
 
 class Actions():
@@ -292,6 +291,11 @@ class Actions():
         found = False
         newattr = None
 
+        if hasattr(ref, 'source__id') and ref.source__id:
+            newattr = ref.source__id
+            self.counters['cnt_existing'] += 1
+            return newattr
+
         fulltitle = ref.source__title
         plaintitle, clarif = Source.split_titlestr(fulltitle)
 
@@ -534,7 +538,7 @@ class Actions():
         refs_nonvoid = self.legends['refs_nonvoid_1']
         main_ref = next(iter(list(filter(lambda ref: ref.name == this_ref.name, refs_nonvoid))), None)
         if main_ref:
-            main_ref.events = sorted([*main_ref.events, *[this_ref.event__id]])
+            main_ref.events = sorted(list(set([*main_ref.events, *[this_ref.event__id]])))
             # propagate complex from duplicate to main ref
             main_ref.complex = any([main_ref.complex, this_ref.complex])
             self.counters['cnt_found_duplicate_void'] += 1
@@ -562,6 +566,35 @@ class Actions():
         newattr = True if (matches and not ref.complex) else False
         return newattr
 
+    def s3__mapto__refs__get_sources2events_m2m(self, ref: Ref):
+        m2m = self.legends['sources2events_m2m']
+        reflinks = self.legends['reflinks']
+
+        for pair in [(ref.source, eid) for eid in ref.events]:
+            if pair not in m2m:
+                m2m.append(pair)
+
+        if not ref.noinfo:
+            for eid in ref.events:
+                rl = RefLink(eid, ref.rid, ref.source)
+                if rl not in reflinks:
+                    reflinks.append(rl)
+        return ref
+
+    def s3__mapto__refs__clean_deleted_eids(self, ref: Ref):
+        invalid_eids = self.legends['invalid_eids'] 
+        new_events = []
+        updated = False
+        for eid in ref.events:
+            if eid not in invalid_eids:
+                new_events.append(eid)
+                log.debug(f'{ref.rid} removing {eid}')
+                updated = True
+        if updated:
+            self.counters['cnt_updated'] += 1
+        ref.events = new_events
+        return ref
+
     def s3__mapto__refs__get_event2ref_map(self, ref: Ref, **kwargs):
         e2rm = self.legends[kwargs['name']]
         for eid in ref.events:
@@ -571,15 +604,29 @@ class Actions():
                 e2rm[eid] = [ref.rid]
         return ref
 
-    def s3__addattr__events__restore_ref_links(self, event: Event, **kwargs):
-        e2rm = self.legends[kwargs['name']]
-        events_deleted = self.legends['events_deleted']
-        newattr = None
-        if event.eid in e2rm.keys():
-            newattr = e2rm[event.eid]
-        else:
-            events_deleted.append(event)
+    def s3__addattr__events__sources_list(self, event: Event):
+        m2m = self.legends['sources2events_m2m']
+        newattr = []
+        log.debug(len(m2m))
+
+        for pair in m2m:
+            src, evt = pair[0], pair[1]
+            if evt == event.eid:
+                newattr.append(src)
+                log.debug(f'{event.eid} adding source {src}')
+
+        if not newattr:
+            raise Exception
+        log.debug(f'{event.eid} {newattr}')
         return newattr
+
+    # def s3__addattr__events__reflinks_list(self, event: Event):
+    #     reflinks_by_evt = self.legends['reflinks_by_evt']
+    #     newattr = None
+
+    #     return newattr
+
+
 
     def s3__addattr__events__special_multisource_ref_id(self, event: Event, **kwargs):
         e2msr = self.legends[kwargs['name']]
@@ -587,6 +634,8 @@ class Actions():
         if event.eid in e2msr.keys():
             newattr = next(iter(e2msr[event.eid]))
         return newattr
+
+
 
     def s3__addattr__sources__refids(self, src: Source, **kwargs):
         refs = self.legends[f'refs_{kwargs["type"]}']

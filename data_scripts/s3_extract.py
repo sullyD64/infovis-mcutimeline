@@ -349,10 +349,32 @@ def main():
 
     # --------------------------------------------------------------------
     log.info('')
-    log.info(f'### 9. REFS (union named and non-named) ###')
+    log.info(f'### 9. ANON REFS (again) ###')
     # --------------------------------------------------------------------
 
-    # 9.0 join processed anon and named refs and create sourcelist containing source__ids
+    # 9.0 do a second pass on anon refs to link some more refs to newfound sources. 
+    # NOTE:  that no more sources can be discovered, or updated
+    actions.set_legends(**{
+        'sources': extr_sources.get(),
+        'sources_updated': [],
+        'sources_additional': []
+    })
+    actions.set_counters(*['cnt_existing', 'cnt_discovered', 'cnt_updated'])
+    (extr_refs_anon
+        .addattr('source__id', actions.s3__addattr__anonrefs__sourceid)
+        .save('refs_anon_plus_sourcetitle_sourceid')
+    )
+    cntrs = actions.get_counters()
+    log.info(f'-- Linked {cntrs["cnt_existing"]}/{len(extr_refs_anon.get())} anonrefs to existing sources.')
+    log.info(f'-- Updated sources: {cntrs["cnt_updated"]}')         # should be 0
+    # log.info(f'-- Discovered sources: {cntrs["cnt_discovered"]}') # doesn't matter
+
+    # --------------------------------------------------------------------
+    log.info('')
+    log.info(f'### 10. REFS (union named and non-named) ###')
+    # --------------------------------------------------------------------
+
+    # 10.0 join processed anon and named refs and create sourcelist containing source__ids
     # NOTE: at this point, source__title is no more needed for refs.
     extr_refs_anon.count('ANON REFS (refs_anon_src_1)')
     extr_refs_named.count('NAMED REFS (refs_named_src_3)')
@@ -366,7 +388,7 @@ def main():
         .save('refs_all_1')
     )
 
-    # 9.1 identify void refs and separate them from non-void refs
+    # 10.1 identify void refs and separate them from non-void refs
     # a ref is void if it has no description.
     # >>> also transform event__id into a events list containing [event__id]
     extr_refs_void = (extr_refs.fork()
@@ -379,7 +401,7 @@ def main():
         .save('refs_all_nonvoid_0')
     )
 
-    # 9.2 remove duplicate non-void refs by merging their event lists, 
+    # 10.2 remove duplicate non-void refs by merging their event lists,
     # >>> the first encountered receives all the duplicates' event__ids in its events list.
     """
     Why do some non-void refs exist in multiple copies:
@@ -404,7 +426,7 @@ def main():
         .save('refs_all_nonvoid_1')
     )
 
-    # 9.3 merge void refs into nonvoids by appending the void ref's event__id in the non-void one.
+    # 10.3 merge void refs into nonvoids by appending the void ref's event__id in the non-void one.
     actions.set_counters(*['cnt_found_duplicate_void'])
     actions.set_legends(**{
         'refs_nonvoid_1': extr_refs_nonvoid.get(),
@@ -416,13 +438,13 @@ def main():
     log.info(f'-- Found ({cntrs["cnt_found_duplicate_void"]}) duplicate void refs in refs_all_void.')
     log.info(f'-- Their event__ids have been added to the events list of the first occurrence in order of rid.')
     
-    # 9.4 update ref extractor (copy the content of refs_nonvoid_1)
+    # 10.4 update ref extractor (copy the content of refs_nonvoid_1)
     extr_refs = (Extractor(data=actions.get_legend('refs_nonvoid_1'))
         .sort()
         .save('refs_all_2')
     )
 
-    # 9.5 filter out invalid refs, which then will be used for filtering invalid events
+    # 10.5 filter out invalid refs, which then will be used for filtering invalid events
     extr_refs_invalid = (extr_refs
         .fork()
         .filter_rows(lambda ref: TMP_MARKERS[1] in ref.sources)
@@ -453,7 +475,7 @@ def main():
         So, option 3 suits the best.
     """
 
-    # 9.6 filter out multi-source refs and restore a single "source" attribute for single-source refs (see COMPLEXITY PROBLEM #1)
+    # 10.6 filter out multi-source refs and restore a single "source" attribute for single-source refs (see COMPLEXITY PROBLEM #1)
     extr_refs_multisource = (extr_refs.fork()
         .filter_rows(lambda ref: len(ref.sources) > 1)
         .save('refs_all_3_multisource')
@@ -489,46 +511,62 @@ def main():
         We then introduce a new type of object straddling the N-N relationship between Refs and Events:
         - We promote type-B refs with description to type-A refs, this we can guarantee only one type-B ref exists for each source. To do so, we add a "noinfo" attribute. If noinfo=True, the ref is of type B.
         - For each type-B ref:
-            - Add an entry on a dictionary with the following format:
-                {sid: [events]}
+            - Add an entry on a m2m list with the following format:
+                (sid, eid)
         - For each type-A ref:
-            - If there is no entry on this dictionary, add it
+            - If there is no entry on this list, add it
             - Create then a new object of type RefLink with the following attributes: eid, sid and rid.
+        
+        After this, update Sources, Events and Refs:
+            - Link Events and Sources together
+            - Links Events, Sources and Refs together using RefLinks (when needed)
 
-        - For each source:
+        The final structure is the following:
+                        Ref
+                        (1)
+                         ↑
+                        (*)
+        Event(1) → (*)Reflink(*) → (1)Source
+            (*)                        (*)
+             |                          | 
+             ----------------------------
     """
 
+    # 10.7 remove refs which have no sources linked
+    (extr_refs
+        .fork()
+        .filter_rows(lambda ref: not ref.source)
+        .save('refs_all_4_nosource')
+     )
+    (extr_refs
+        .filter_rows(lambda ref: ref.source)
+    )
 
-    # 9.7 mark the type of ref based on the value of complex and the ref description.
+    # 10.8 mark the type of ref based on the value of complex and the ref description.
     # >>> noinfo=True if ref is not complex AND ref.desc matches with patterns 1 or 3
     (extr_refs
         .addattr('noinfo', actions.s3__addattr__refs__noinfo, **{'patterns': [patterns[0], patterns[2]]})
-        .save('refs_all_4_noinfo')
-    )
-
-    # 9.8 merge non-complex refs which have the same source and same description
-    (extr_refs
-        .iterate(actions.s3__iterate__refs__merge__remove_duplicates_3)
         .save('refs_all_5')
     )
 
-    # 9.9 
-
-
-
-
+    # 10.9 merge non-complex refs which have the same source and same description
+    (extr_refs
+        .iterate(actions.s3__iterate__refs__merge__remove_duplicates_3)
+        .save('refs_all_6')
+    )
+    
     # --------------------------------------------------------------------
     log.info('')
-    log.info(f'### 10. EVENTS (again) ###')
+    log.info(f'### 11. EVENTS (again) ###')
     # --------------------------------------------------------------------
 
-    # 10.0 remove original refids from events, since duplicate refs were removed but non from here.
+    # 11.0 remove original refids from events, since duplicate refs were removed but non from here.
     (extr_events
         .remove_cols(['refs'])
-        .save('events_final_1_norefs')
+        .save('events_1_refs_removed')
     )
 
-    # 10.1 filter invalid events if their eid appears in one of the invalid refs' events list
+    # 11.1 filter invalid events if their eid appears in one of the invalid refs' events list
     # among the refs filtered out at 9.5
     invalid_eids = (extr_refs_invalid
         .fork()
@@ -541,32 +579,73 @@ def main():
     (extr_events
         .fork()
         .filter_rows(lambda ev: ev.eid in invalid_eids)
-        .save('events_final_1_invalid')
+        .save('events_1_invalid_1')
     )
     (extr_events
         .filter_rows(lambda ev: not ev.eid in invalid_eids)
-        .save('events_final_2')
+        .save('events_2')
     )
 
-    # 10.2 restore the other direction of the relationship between events and refs
-    # >>> events whose eid doesn't appear in any ref's event list are filtered out.
+    # 11.2 update refs removing references to deleted events
+    actions.set_legends(**{
+        'invalid_eids': invalid_eids
+    })
+    actions.set_counters(*['cnt_updated'])
+    (extr_refs
+        .mapto(actions.s3__mapto__refs__clean_deleted_eids)
+        .save('refs_all_7')
+    )
+    cntrs = actions.get_counters()
+    log.info(f'-- Updated refs: {cntrs["cnt_updated"]}')
+
+
+    # 11.3 filter orphan events if their id doesn't appear in any ref's events list
     actions.set_legends(**{
         'event2ref_map': {},
-        'events_deleted': []
     })
-    (extr_refs.fork()
+    (extr_refs
+        .fork()
         .mapto(actions.s3__mapto__refs__get_event2ref_map, **{'name': 'event2ref_map'})
     )
     (extr_events
-        .addattr('refs', actions.s3__addattr__events__restore_ref_links, **{'name': 'event2ref_map'})
-        .filter_rows(lambda ev: ev not in actions.get_legend('events_deleted'))
-        .save('events_final_3')
+        .fork()
+        .filter_rows(lambda ev: ev.eid not in actions.get_legend('event2ref_map').keys())
+        .save('events_2_invalid_2')
     )
-    (Extractor(data=actions.get_legend('events_deleted'))
-        .save('events_final_2_deleted')
+    (extr_events
+        .filter_rows(lambda ev: ev.eid in actions.get_legend('event2ref_map').keys())
     )
 
-    # 10.3 add a special ref attribute to events which where linked to removed multi-source refs (see COMPLEXITY PROBLEM #1).
+
+    # 11.4 iterate refs and build the m2m and reflink lists
+    actions.set_legends(**{
+        'sources2events_m2m': [],
+        'reflinks': [],
+    })
+    (extr_refs
+        .mapto(actions.s3__mapto__refs__get_sources2events_m2m)
+     )
+    extr_m2m = (Extractor(data=actions.get_legend('sources2events_m2m'))
+        .sort()
+        .save('m2m', nostep=True)
+    )
+    extr_reflinks = (Extractor(data=actions.get_legend('reflinks'))
+        .save('reflinks', nostep=True)
+    )
+
+    # 11.5 link Events with Sources and Reflinks
+    actions.set_legends(**{
+        'sources2events_m2m': extr_m2m.get(),
+        # 'reflinks_by_evt': extr_reflinks.sort('evt').groupby('evt').get(),
+        # 'reflinks_by_src': extr_reflinks.sort('src').groupby('src').get(), # NON USARE ORA
+    })
+    (extr_events
+        .addattr('sources', actions.s3__addattr__events__sources_list)
+        # TODO QUI
+        # .addattr('reflinks', actions.s3__addattr__events__reflinks_list)
+    )
+
+    # 11.6 add a special ref attribute to events which where linked to removed multi-source refs (see COMPLEXITY PROBLEM #1).
     # >>> the attribute contains the multi-source ref ID.
     actions.set_legends(**{
         'event2multisrcref_map': {},
@@ -576,29 +655,27 @@ def main():
     )
     (extr_events
         .addattr('ref_special', actions.s3__addattr__events__special_multisource_ref_id, **{'name': 'event2multisrcref_map'})
-        .save('events_final_4')
+        .save('events_3')
     )
 
     # --------------------------------------------------------------------
     log.info('')
-    log.info(f'### 11. SOURCE HIERARCHY ###')
+    log.info(f'### 12. SOURCES ###')
     # --------------------------------------------------------------------
 
-    # 11.0 split refs in two: primary and secondary
+    # 12.0 split refs in two: primary and secondary
     extr_refs_primary = (extr_refs.fork()
         .filter_rows(lambda ref: ref.noinfo)
-        .save('refs_all_3_primary')
     )
     extr_refs_secondary = (extr_refs.fork()
         .filter_rows(lambda ref: not ref.noinfo)
-        .save('refs_all_3_secondary')
     )
     actions.set_legends(**{
         'refs_primary': extr_refs_primary.get(),
         'refs_secondary': extr_refs_secondary.get()
     })
 
-    # 11.1 add refids and ref count in a list to each source
+    # 12.1 add refids and ref count in a list to each source
     (extr_sources
         .addattr('refs_primary', actions.s3__addattr__sources__refids, **{'type': 'primary'})
         .addattr('refs_secondary', actions.s3__addattr__sources__refids, **{'type': 'secondary'})
@@ -606,7 +683,12 @@ def main():
         .save('sources_refs')
     )
 
-    # 11.2 build source/ref hierarchy by adding sub_sources recursive list.
+    # --------------------------------------------------------------------
+    log.info('')
+    log.info(f'### 13. SOURCE HIERARCHY ###')
+    # --------------------------------------------------------------------
+
+    # 13.1 build source/ref hierarchy by adding sub_sources recursive list.
     actions.set_legends(**{'hierarchy': []})
     (extr_sources
         .addattr('sub_sources', [])
@@ -617,7 +699,7 @@ def main():
         .save('sources_level')
     )
 
-    # 11.3 obtain final, non-flattened, 3-level file with all refs (referenced by ID),
+    # 13.2 obtain non-flattened 3-level file with all refs (referenced by ID),
     # grouped by main source, subgrouped by (eventually) seasons and episodes or by films.
     extr_hierarchy = (Extractor(data=actions.get_legend('hierarchy'))
         .save('timeline_hierarchy')
@@ -625,13 +707,13 @@ def main():
 
     # ---------------------------------------------------------------------------------
 
-    # 11.3A hierarchy for tv shows
+    # 13.3A hierarchy for tv shows
     (extr_hierarchy.fork()
         .filter_rows(lambda rootsrc: rootsrc.type == SRC_TV_SERIES)
         .save('timeline_hierarchy_tv')
     )
 
-    # 11.3B hierarchy for films
+    # 13.3B hierarchy for films
     film_countrefs=(extr_hierarchy.fork()
         .filter_rows(lambda rootsrc: rootsrc.type == SRC_FILM_SERIES)
         .save('timeline_hierarchy_film')
@@ -649,7 +731,7 @@ def main():
 
     # --------------------------------------------------------------------
     log.info('')
-    log.info(f'### 12. FINALIZE ###')
+    log.info(f'### 14. FINALIZE ###')
     # --------------------------------------------------------------------
 
     log.info('Finalizing output without step number:')

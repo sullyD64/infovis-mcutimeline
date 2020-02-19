@@ -10,7 +10,11 @@ from data_scripts.lib.utils import jdumps
 from data_scripts.lib.parser import MyHTMLParser
 
 
-class Ref(object):
+class Struct(object):
+    pass
+
+
+class Ref(Struct):
     rid = 0
 
     def __init__(
@@ -86,7 +90,7 @@ class Ref(object):
         return NotImplemented
 
 
-class Event(object):
+class Event(Struct):
     eid = 0
 
     def __init__(
@@ -216,7 +220,7 @@ class Event(object):
         return jdumps(self.to_dict())
 
 
-class Source(object):
+class Source(Struct):
     def __init__(
         self,
         sid: str = None,
@@ -326,3 +330,49 @@ class SourceBuilder(object):
 
     def build(self):
         return self.src
+
+
+class RefLink(Struct):
+    lid = 0
+
+    def __init__(
+        self,
+        eid: str = None,
+        rid: str = None,
+        sid: str = None,
+        empty: bool = False):
+
+        if empty:
+            return
+
+        RefLink.lid += 1
+        self.lid = f'L{RefLink.lid:05d}'
+        self.evt = eid
+        self.src = sid
+        self.ref = rid
+
+    @classmethod
+    def from_dict(self, **kwargs):
+        rl = RefLink(empty=True)
+        for k, v in kwargs.items():
+            setattr(rl, k, v)
+        return rl
+
+    def to_dict(self, **kwargs):
+        if kwargs:
+            pass  # do nothing
+        return self.__dict__
+
+    def __str__(self):
+        return jdumps(self.to_dict())
+
+    def key(self):
+        return (self.lid)
+
+    def __hash__(self):
+        return hash(self.key())
+
+    def __eq__(self, other):
+        if isinstance(other, Source):
+            return self.key() == other.key()
+        return NotImplemented

@@ -8,7 +8,7 @@ import pathlib
 
 from data_scripts.lib.errors import ExtractorOutdirMissingError
 from data_scripts.lib.utils import jdumps, jloads
-from data_scripts.lib.structs import Event, Ref, Source
+from data_scripts.lib.structs import Struct
 
 
 class Extractor(object):
@@ -244,7 +244,7 @@ class Extractor(object):
 
     def count(self, what: str):
         """Prints the number of the extractor's elements"""
-        log.info(f'[{len(self.data)}] {what}')
+        log.info(f'{len(self.data):<5} {what}')
         return self
 
     def save(self, outfile: str = '', nostep=False):
@@ -255,7 +255,7 @@ class Extractor(object):
         """
         def __dictify(elem):
             """Readies data before dumping."""
-            if isinstance(elem, (Event, Ref, Source)):
+            if isinstance(elem, Struct):
                 return elem.to_dict()
             elif isinstance(elem, dict):
                 for k, v in elem.items():

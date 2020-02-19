@@ -199,36 +199,35 @@ def main():
     +-----+-----------------------------+-----------------------------+-----------+
     """
 
-    def s4__mapto__events_add_ref_details(event: Event):
-        for ref in extr_refs_shortdesc.get():
-            if event.eid in ref.events:
-                detailed_ref = Ref(empty=True)
-                detailed_ref.rid = ref.rid
-                detailed_ref.name = ref.name
-                detailed_ref.source = ref.source
-                detailed_ref.complex = ref.complex
-                setattr(detailed_ref, 'matches', ref.matches)
-                detailed_ref.desc = ref.desc
-                index = event.refs.index(ref.rid)
-                event.refs[index] = detailed_ref
-        return event
+    # NOT NEEDED (we removed Refs from Events)
+    # def s4__mapto__events_add_ref_details(event: Event):
+    #     for ref in extr_refs_shortdesc.get():
+    #         if event.eid in ref.events:
+    #             detailed_ref = Ref(empty=True)
+    #             detailed_ref.rid = ref.rid
+    #             detailed_ref.name = ref.name
+    #             detailed_ref.source = ref.source
+    #             detailed_ref.complex = ref.complex
+    #             setattr(detailed_ref, 'matches', ref.matches)
+    #             detailed_ref.desc = ref.desc
+    #             index = event.refs.index(ref.rid)
+    #             event.refs[index] = detailed_ref
+    #     return event
 
-    (extr_events
-        .mapto(s4__mapto__events_add_ref_details)
-        .save('events_refdetails')
-        .fork()
-        .filter_rows(lambda ev: not ev.characters and not ev.non_characters)
-        .save("events_nolinks")
-    )
+    # (extr_events
+    #     .mapto(s4__mapto__events_add_ref_details)
+    #     .save('events_refdetails')
+    #     .fork()
+    #     .filter_rows(lambda ev: not ev.characters and not ev.non_characters)
+    #     .save("events_nolinks")
+    # )
     
     (extr_events
         .fork()
-        .filter_rows(lambda ev: len(ev.refs) >= 3)
-        .save('events_morethan2refs')
+        .filter_rows(lambda ev: len(ev.sources) >= 3)
+        .select_cols(['eid', 'desc', 'sources'])
+        .save('events_morethan2sources')
     )
-
-
-   
 
 
 if __name__ == "__main__":
