@@ -6,7 +6,7 @@ import logging as log
 import os
 import pathlib
 
-from data_scripts.lib.errors import ExtractorOutdirMissingError
+from data_scripts.lib.errors import ExtractorOutdirMissingError, InvalidClassError
 from data_scripts.lib.utils import jdumps, jloads
 from data_scripts.lib.structs import Struct
 
@@ -80,6 +80,21 @@ class Extractor(object):
             return None
         return self.data[0]
 
+    def parse_raw(self, clazz):
+        """
+        Parses raw data into given Struct object if clazz is a subclass of Struct.
+        """
+        if not self.data:
+            log.error("Empty list")
+            return self
+
+        if issubclass(clazz, Struct):
+            self.data = [clazz.from_dict(**d) for d in self.data]
+            log.info(f'Parsing into objects of type {clazz}')
+        else: 
+            raise InvalidClassError(clazz)
+        return self
+
     def filter_rows(self, pred):
         """
         Filters data by selecting elements matching pred.
@@ -101,7 +116,7 @@ class Extractor(object):
 
         if isinstance(self.data[0], dict):
             self.data = [{col: d[col] for col in col_names} for d in self.data]
-        elif isinstance(self.data[0], object):
+        elif isinstance(self.data[0], Struct):
             clazz = self.data[0].__class__
             self.data = [d.to_dict() for d in self.data]
             self.data = [clazz.from_dict(**{col: d[col] for col in col_names}) for d in self.data]
@@ -120,7 +135,7 @@ class Extractor(object):
 
         if isinstance(self.data[0], dict):
             col_names = [key for key in self.data[0].keys() if key not in excluded_col_names]
-        elif isinstance(self.data[0], object):
+        elif isinstance(self.data[0], Struct):
             col_names = [key for key in self.data[0].__dict__.keys() if key not in excluded_col_names]
         return self.select_cols(col_names)
 
@@ -250,7 +265,7 @@ class Extractor(object):
     def save(self, outfile: str = '', nostep=False):
         """
         Saves current data in outfile, serialized as JSON. File name is extracted__{code}__{step#}__{outfile}.json. \n
-        Python objects anywhere in data are dictified. (see Event.to_dict() or Ref.to_dict()). \n
+        Python objects anywhere in data are dictified. \n
         Save always calls count.
         """
         def __dictify(elem):

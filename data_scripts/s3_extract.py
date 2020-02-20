@@ -2,6 +2,7 @@
 
 import logging as log
 
+from data_scripts.lib import structs
 from data_scripts.lib.actions import Actions
 from data_scripts.lib.constants import (INPUT_MANUAL, OUTPUT, SRC_FILM_SERIES,
                                         SRC_TV_SERIES, TMP_MARKERS)
@@ -39,7 +40,7 @@ def main():
     actions.set_legends(**{'root_sources': []})
     extr_sources = (Extractor(infile=next(INPUT_MANUAL.glob('films.json')))
         .extend(Extractor(infile=next(INPUT_MANUAL.glob('tv_episodes.json'))))
-        .iterate(actions.s3__iterate__sources__parse_raw)
+        .iterate(actions.s3__iterate__sources__build)
         .save('sources_0')
         .mapto(actions.s3__mapto__sources__extract_film_root_sources)
         .mapto(actions.s3__mapto__sources__extract_tv_root_sources)
@@ -88,7 +89,7 @@ def main():
 
     # 2.0 load raw events into Events including Refs
     extr_events = (Extractor(infile=next(OUTPUT.glob('*__events_characters.json'), None))
-        .mapto(actions.s3__mapto__events__parse_raw)
+        .parse_raw(structs.Event)
     )
     # 2.1 fork flattened list of refs
     extr_refs = (extr_events.fork()
@@ -557,7 +558,7 @@ def main():
     
     # --------------------------------------------------------------------
     log.info('')
-    log.info(f'### 11. EVENTS (again) ###')
+    log.info(f'### 11. EVENTS, REFS and SOURCES ###')
     # --------------------------------------------------------------------
 
     # 11.0 remove original refids from events, since duplicate refs were removed but non from here.
@@ -660,12 +661,7 @@ def main():
         .save('events_3')
     )
 
-    # --------------------------------------------------------------------
-    log.info('')
-    log.info(f'### 12. SOURCES ###')
-    # --------------------------------------------------------------------
-
-    # 12.0 at this point, we can filter refs which have noinfo=True, since they won't be used for linking anymore
+    # 11.7 at this point, we can filter refs which have noinfo=True, since they won't be used for linking anymore
     (extr_refs
         .fork()
         .filter_rows(lambda ref: ref.noinfo)
@@ -676,7 +672,7 @@ def main():
         .save('refs_all_8')
     )
 
-    # 12.1 add ref ids to sources
+    # 11.8 add ref ids to sources
     # >>> only refs with noinfo=False are added
     actions.set_legends(**{
         'refs': extr_refs.get(),
@@ -685,7 +681,7 @@ def main():
         .addattr('refs', actions.s3__addattr__sources__refids)  
     )
 
-    # 12.2 link Sources with Events and Reflinks (see COMPLEXITY PROBLEM #2).
+    # 11.9 link Sources with Events and Reflinks (see COMPLEXITY PROBLEM #2).
     """
     We maintain both ends of the relationship to support both import scenarios (we don't know which to use yet)
     """
@@ -707,7 +703,7 @@ def main():
     log.info(f'-- Linked {cntrs["cnt_existing_in_m2m"]}/{len(extr_sources.get())} sources to events.')
     log.info(f'\t\t Out of these sources, {cntrs["cnt_existing_in_reflinks"]} go through reflinks.')
 
-    # 12.3 remove duplicate Sources 
+    # 11.10 remove duplicate Sources 
     """
     It's perfectly OK to have duplicate sources and to handle them now, since they are exact copies 
     (having the same sid) with the exception of one having the title and one not having it.

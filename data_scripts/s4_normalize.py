@@ -3,10 +3,10 @@
 import logging as log
 import re
 
+from data_scripts.lib import structs
 from data_scripts.lib.actions import Actions
 from data_scripts.lib.constants import OUTPUT
 from data_scripts.lib.extractor import Extractor
-from data_scripts.lib.structs import Event, Ref, Source
 from data_scripts.logconfig import config
 
 CODE = 's4'
@@ -23,7 +23,7 @@ def main():
 
 
     extr_events = (Extractor(infile = next(OUTPUT.glob('*__final_events.json')))
-        .mapto(lambda raw_event: Event.from_dict(**raw_event))
+        .parse_raw(structs.Event)
         .count('events')
     )
 
@@ -34,14 +34,14 @@ def main():
 ]
 
     extr_refs = (Extractor(infile = next(OUTPUT.glob('*__final_refs.json')))
-        .mapto(lambda raw_ref: Ref.from_dict(**raw_ref))
+        .parse_raw(structs.Ref)
         .addattr('num_events', lambda ref: len(ref.events))
         .addattr('matches', lambda ref: bool(re.match(re.compile(f'({"|".join(patterns)})'), ref.desc)))
         .count('refs')
     )
 
     extr_sources = (Extractor(infile = next(OUTPUT.glob('*__final_sources.json')))
-        .mapto(lambda raw_src: Source.from_dict(**raw_src))
+        .parse_raw(structs.Source)
         .count('sources')
     )
 

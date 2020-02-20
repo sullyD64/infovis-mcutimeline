@@ -18,3 +18,8 @@ class ExtractorOutdirMissingError(Exception):
 class RequiredInputMissingError(Exception):
     def __init__(self, code):
         super().__init__(f'Missing required input file(s) for script [{code}]')
+
+
+class InvalidClassError(Exception):
+    def __init__(self, clazz):
+        super().__init__(f'Invalid class: {clazz}')

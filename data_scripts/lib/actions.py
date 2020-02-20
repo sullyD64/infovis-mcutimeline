@@ -145,10 +145,7 @@ class Actions():
 
     # -----------------------------------
 
-    def s3__mapto__events__parse_raw(self, raw_event: dict):
-        return Event.from_dict(**raw_event)
-
-    def s3__iterate__sources__parse_raw(self, manual_sources: list):
+    def s3__iterate__sources__build(self, manual_sources: list):
         log.debug('Converting manual sources...')
         output = []
         for msrc in manual_sources:
