@@ -1,15 +1,11 @@
-# data_scripts/lib/actions.py
-
+# data_scripts/lib/pipeline.py
 import copy
 import logging as log
 import re
 
 import wikitextparser as wtp
 
-from data_scripts.lib.constants import (SRC_COMIC, SRC_FILM, SRC_FILM_SERIES,
-                                        SRC_OTHER, SRC_TV_EPISODE,
-                                        SRC_TV_SEASON, SRC_TV_SERIES,
-                                        SRC_WEB_SERIES, TMP_MARKERS)
+from data_scripts.lib import constants
 from data_scripts.lib.structs import Event, Ref, Source, SourceBuilder, RefLink
 
 
@@ -152,7 +148,7 @@ class Actions():
             src = (SourceBuilder()
                 .sid(msrc.pop('sid'))
                 .title(msrc.pop('title'))
-                .stype(SRC_FILM if msrc['series_id'].startswith('F_') else SRC_TV_EPISODE)
+                .stype(constants.SRC_FILM if msrc['series_id'].startswith('F_') else constants.SRC_TV_EPISODE)
                 .details(msrc)
                 .build()
             )
@@ -161,11 +157,11 @@ class Actions():
 
     def s3__mapto__sources__extract_film_root_sources(self, src: Source):
         root_sources = self.legends['root_sources']
-        if src.type == SRC_FILM:
+        if src.type == constants.SRC_FILM:
             rootsrc = (SourceBuilder()
                 .sid(src.details['series_id'])
                 .title(f'{src.details["series"]} (Film series)')
-                .stype(SRC_FILM_SERIES)
+                .stype(constants.SRC_FILM_SERIES)
                 .build()
             )
             if not rootsrc in root_sources:
@@ -175,7 +171,7 @@ class Actions():
 
     def s3__mapto__sources__extract_tv_root_sources(self, src: Source):
         root_sources = self.legends['root_sources']
-        if src.type == SRC_TV_EPISODE:
+        if src.type == constants.SRC_TV_EPISODE:
 
             def get_season_title(title, number):
                 switcher = {
@@ -193,7 +189,7 @@ class Actions():
             rootsrc_season = (SourceBuilder()
                 .sid(src_season_details['season_id'])
                 .title(get_season_title(src_season_details['series'], src_season_details['season']))
-                .stype(SRC_TV_SEASON)
+                .stype(constants.SRC_TV_SEASON)
                 .details(src_season_details)
                 .build()
             )
@@ -202,13 +198,13 @@ class Actions():
             rootsrc_series = (SourceBuilder()
                 .sid(src_series_details['series_id'])
                 .title(src_series_details['series'])
-                .stype(SRC_TV_SERIES)
+                .stype(constants.SRC_TV_SERIES)
                 .build()
             )
             if src.sid.startswith('WHiH'):  # TODO workaround for WHiH
-                src.type = SRC_WEB_SERIES
-                rootsrc_season.type = SRC_WEB_SERIES
-                rootsrc_series.type = SRC_WEB_SERIES
+                src.type = constants.SRC_WEB_SERIES
+                rootsrc_season.type = constants.SRC_WEB_SERIES
+                rootsrc_series.type = constants.SRC_WEB_SERIES
             if rootsrc_series not in root_sources:
                 root_sources.append(rootsrc_series)
                 log.debug(f'Found new tv root source: {rootsrc_series.title}')
@@ -315,7 +311,7 @@ class Actions():
         else:
             newsrc = (SourceBuilder()
                 .title(fulltitle)
-                .stype(SRC_OTHER)
+                .stype(constants.SRC_OTHER)
                 .build()
             )
             sources_additional.append(newsrc)
@@ -373,7 +369,7 @@ class Actions():
                     newsrc = (SourceBuilder()
                         .sid(ref.name)
                         .title(ref.source__title)
-                        .stype(SRC_OTHER)
+                        .stype(constants.SRC_OTHER)
                         .build()
                     )
                     if tkns[0].startswith('SE2010'): # TODO special case (SE2010)
@@ -382,7 +378,7 @@ class Actions():
                         log.debug(f' ⮡  {ref.rid} Updating name {refname_before} => {ref.name}')
                         newsrc.sid = ref.name
                         newsrc.title = "Stark Expo/Promotional Campaign"
-                        newsrc.type = SRC_WEB_SERIES
+                        newsrc.type = constants.SRC_WEB_SERIES
 
                     newattr = ref.name
                     if not newsrc in sources_additional:
@@ -391,9 +387,9 @@ class Actions():
                         log.debug(f' ⮡  {ref.rid} simple refname, discovered new source with title "{newsrc.title}"')
                 else:
                     # simply mark the refs with a complex refname to iterate again after.
-                    newattr = TMP_MARKERS[1]
+                    newattr = constants.TMP_MARKERS[1]
                     self.counters['cnt_ref_marked'] += 1
-                    log.debug(f' ⮡  {ref.rid} complex refname, marked {TMP_MARKERS[1]}')
+                    log.debug(f' ⮡  {ref.rid} complex refname, marked {constants.TMP_MARKERS[1]}')
         return newattr
 
     def s3__iterate__sources__group_comic_duplicates(self, sources: list):
@@ -401,12 +397,12 @@ class Actions():
         output = []
 
         for this_src in sources:
-            if not output or this_src.type not in [SRC_COMIC, SRC_OTHER]:
+            if not output or this_src.type not in [constants.SRC_COMIC, constants.SRC_OTHER]:
                 output.append(this_src)
             else:
                 main_src = next(iter(list(filter(lambda that_src: (
-                    this_src.type == SRC_OTHER
-                    and that_src.type == SRC_COMIC
+                    this_src.type == constants.SRC_OTHER
+                    and that_src.type == constants.SRC_COMIC
                     and (this_src.sid[-1].isdigit() and this_src.sid[:-1] == that_src.sid)
                 ), output))), None)
 
@@ -428,7 +424,7 @@ class Actions():
 
     def s3__mapto__namedrefs__add_srcid_multiple(self, ref: Ref):
         sources = self.legends['sources']
-        if ref.source__id == TMP_MARKERS[1]:
+        if ref.source__id == constants.TMP_MARKERS[1]:
             allsids = list(filter(lambda x: x is not None, [src.sid for src in sources]))
             found = False
             skip = False
@@ -472,7 +468,7 @@ class Actions():
                         ref.sources = [*ref.sources, *sourcesfound]
             if found:
                 self.counters['cnt__complex_ref_found'] += 1
-                ref.source__id = TMP_MARKERS[2]
+                ref.source__id = constants.TMP_MARKERS[2]
             else:
                 log.debug(f'{ref.rid} Not a source: {ref.name}')
                 self.counters['cnt__not_a_source'] += 1
@@ -495,11 +491,11 @@ class Actions():
             (especially the pattern "In [source wikilink]...")
         some refs with complex names also received a source__id and then, when identifying
         if they were complex or not, they weren't marked as such (because they already had a source__id) and thus 
-        at this point they don't have the TMP_MARKERS[2] as source__id. 
+        at this point they don't have the constants.TMP_MARKERS[2] as source__id. 
         The predicate after the 'or' checks this particular case and fixes it.
         """
-        return (ref.source__id == TMP_MARKERS[2] 
-            or ref.source__id != TMP_MARKERS[1] and ref.name and len(ref.name.split(' ')) > 1
+        return (ref.source__id == constants.TMP_MARKERS[2] 
+            or ref.source__id != constants.TMP_MARKERS[1] and ref.name and len(ref.name.split(' ')) > 1
         )
 
     def s3__mapto__refs__convert_srcid_srctitle_to_sourcelist(self, ref: Ref):
@@ -691,7 +687,7 @@ class Actions():
     def s3__addattr__sources__level(self, src: Source):
         newattr = 0
         if src.details:
-            if src.type == SRC_TV_EPISODE:
+            if src.type == constants.SRC_TV_EPISODE:
                 newattr = 2
             else:
                 newattr = 1

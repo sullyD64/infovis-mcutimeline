@@ -1,16 +1,15 @@
 # data_scripts/s3_extract.py
-
 import logging as log
 
-from data_scripts.lib import structs
-from data_scripts.lib.actions import Actions
-from data_scripts.lib.constants import (INPUT_MANUAL, OUTPUT, SRC_FILM_SERIES,
-                                        SRC_TV_SERIES, TMP_MARKERS)
-from data_scripts.lib.errors import RequiredInputMissingError
-from data_scripts.lib.extractor import Extractor
-from data_scripts.logconfig import config
+from data_scripts import logconfig
+from data_scripts.lib import constants, errors, structs
+from data_scripts.lib.logic import Extractor
+from data_scripts.lib.pipeline import Actions
 
 CODE = 's3'
+INPUT_MANUAL = constants.PATH_INPUT_MANUAL
+OUTPUT = constants.PATH_OUTPUT
+
 clean = True
 NAMEDREFS_INCLUDE_VOID = True
 
@@ -24,7 +23,7 @@ def main():
     infiles_manual = next(INPUT_MANUAL.glob('*'), None)
     infiles_s1s2 = next(OUTPUT.glob('*__s*'), None)
     if not (infiles_manual or infiles_s1s2):
-        raise RequiredInputMissingError(CODE)
+        raise errors.RequiredInputMissingError(CODE)
 
     if 'clean' in globals():
         Extractor.clean_output()
@@ -335,9 +334,9 @@ def main():
     log.info(f'-- Out of {cnt_tot} named refs:')
     log.info(f'\t-- {cnt_tot - cntrs["cnt__complex_ref_found"] - cntrs["cnt__not_a_source"]} refs were left unchanged.')
     log.info(f'\t-- {cntrs["cnt__complex_ref_found"]} refs have a complex name (multiple tokens) but refer to a valid source, so they are complex refs.')
-    log.info(f'\t\tThose are marked with {TMP_MARKERS[2]} and will have complex=True')
+    log.info(f'\t\tThose are marked with {constants.TMP_MARKERS[2]} and will have complex=True')
     log.info(f'\t-- {cntrs["cnt__not_a_source"]} refs have a complex name (multiple tokens) which is invalid (not a source)')
-    log.info(f'\t\tThose are marked with {TMP_MARKERS[1]}. Those refs (and the corresponding events) will be later deleted.')
+    log.info(f'\t\tThose are marked with {constants.TMP_MARKERS[1]}. Those refs (and the corresponding events) will be later deleted.')
 
     # 8.2 finish converting source ids into lists and cleanup
     # >>> add complex=True to the refs with multiple tokens but referring to a valid source.
@@ -448,11 +447,11 @@ def main():
     # 10.5 filter out invalid refs, which then will be used for filtering invalid events
     extr_refs_invalid = (extr_refs
         .fork()
-        .filter_rows(lambda ref: TMP_MARKERS[1] in ref.sources)
+        .filter_rows(lambda ref: constants.TMP_MARKERS[1] in ref.sources)
         .save('refs_all_2_invalid')
     )
     (extr_refs
-        .filter_rows(lambda ref: not TMP_MARKERS[1] in ref.sources)
+        .filter_rows(lambda ref: not constants.TMP_MARKERS[1] in ref.sources)
         .save('refs_all_3')
     )
 
@@ -739,13 +738,13 @@ def main():
 
     # 13.3A hierarchy for tv shows
     (extr_hierarchy.fork()
-        .filter_rows(lambda rootsrc: rootsrc.type == SRC_TV_SERIES)
+        .filter_rows(lambda rootsrc: rootsrc.type == constants.SRC_TV_SERIES)
         .save('timeline_hierarchy_tv')
     )
 
     # 13.3B hierarchy for films
     film_countrefs=(extr_hierarchy.fork()
-        .filter_rows(lambda rootsrc: rootsrc.type == SRC_FILM_SERIES)
+        .filter_rows(lambda rootsrc: rootsrc.type == constants.SRC_FILM_SERIES)
         .save('timeline_hierarchy_film')
         .consume_key('sub_sources')
         .flatten()
@@ -769,5 +768,5 @@ def main():
     log.info(f'### End ###')
 
 if __name__ == "__main__":
-    config()
+    logconfig.config()
     main()

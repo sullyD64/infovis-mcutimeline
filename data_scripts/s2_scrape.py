@@ -1,19 +1,17 @@
 # data_scripts/s2_scrape.py
-
 import logging as log
 
 import wikitextparser as wtp
 
-from data_scripts.lib.actions import Actions
-from data_scripts.lib.constants import INPUT_CRAWLED, OUTPUT
-from data_scripts.lib.errors import RequiredInputMissingError
-from data_scripts.lib.extractor import Extractor
-from data_scripts.lib.scraper import Scraper
-from data_scripts.logconfig import config
+from data_scripts import logconfig
+from data_scripts.lib import constants, errors
+from data_scripts.lib.logic import Extractor, Scraper
+from data_scripts.lib.pipeline import Actions
 
 CODE = 's2'
-CHARS_DIR = INPUT_CRAWLED / 'characters'
-TEMPS_DIR = INPUT_CRAWLED / 'wikitemplates'
+CHARS_DIR = constants.PATH_INPUT_CRAWLED / 'characters'
+TEMPS_DIR = constants.PATH_INPUT_CRAWLED / 'wikitemplates'
+OUTPUT = constants.PATH_OUTPUT
 
 ### NUCLEAR SWITCHES
 # clean_temps = True
@@ -30,7 +28,7 @@ def main():
 
     infile = next(OUTPUT.glob('*__events.json'), None)
     if not infile:
-        raise RequiredInputMissingError(CODE)
+        raise errors.RequiredInputMissingError(CODE)
     extr_events = Extractor(infile).count('infile')
     scraper = Scraper(CODE)
     
@@ -158,5 +156,5 @@ def main():
     log.info('### End ###')
 
 if __name__ == "__main__":
-    config()
+    logconfig.config()
     main()

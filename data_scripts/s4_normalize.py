@@ -1,22 +1,20 @@
 # data_scripts/s4_normalize.py
-
 import logging as log
 import re
 
-from data_scripts.lib import structs
-from data_scripts.lib.actions import Actions
-from data_scripts.lib.constants import OUTPUT
-from data_scripts.lib.extractor import Extractor
-from data_scripts.logconfig import config
+from data_scripts import logconfig
+from data_scripts.lib import constants, structs
+from data_scripts.lib.logic import Extractor
 
 CODE = 's4'
+OUTPUT = constants.PATH_OUTPUT
+
 clean = True
 
 def main():
     log.getLogger().setLevel(log.INFO)
     Extractor.code(CODE)
     Extractor.cd(OUTPUT)
-    actions = Actions()
 
     if 'clean' in globals():
         Extractor.clean_output()
@@ -239,5 +237,5 @@ def main():
 
 
 if __name__ == "__main__":
-    config()
+    logconfig.config()
     main()

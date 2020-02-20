@@ -1,10 +1,8 @@
 # data_scripts/tests.py
-
 import unittest
 
-from data_scripts.lib.formatter import TextFormatter
-from data_scripts.lib.errors import WikitagsNotBalancedError
-
+from data_scripts.lib import errors
+from data_scripts.lib.utils import TextFormatter
 
 class TextFormatterTest(unittest.TestCase):
 
@@ -37,7 +35,7 @@ class TextFormatterTest(unittest.TestCase):
 
     def test_convert_bolds_to_html__exception(self):
         self.cut.text("'''shouldraise''WikitagsNotBalancedError''")
-        self.assertRaises(WikitagsNotBalancedError, self.cut.convert_bolds_to_html)
+        self.assertRaises(errors.WikitagsNotBalancedError, self.cut.convert_bolds_to_html)
 
     # strings = [
     #     "'''simple'''",  # 1

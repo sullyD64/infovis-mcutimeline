@@ -4,10 +4,7 @@ import re
 
 import wikitextparser as wtp
 
-from data_scripts.lib.constants import SRC_FILM, SRC_ONESHOT, SRC_TV_EPISODE
-from data_scripts.lib.formatter import TextFormatter
-from data_scripts.lib.utils import jdumps
-from data_scripts.lib.parser import MyHTMLParser
+from data_scripts.lib import constants, utils
 
 
 class Struct(object):
@@ -30,8 +27,8 @@ class Ref(Struct):
         self.rid = f'R{Ref.rid:05d}'
         self.event__id = event__id
         if text:
-            self.name = MyHTMLParser().extract_name(text)
-            self.desc = (TextFormatter()
+            self.name = utils.MyHTMLParser().extract_name(text)
+            self.desc = (utils.TextFormatter()
                 .text(text)
                 .strip_ref_html_tags()
                 .mark_double_quotes()
@@ -51,7 +48,7 @@ class Ref(Struct):
 
             self.desc = self.desc if self.desc else None  # replace empty string with none
             self.links = [str(x) for x in wtp.parse(
-                TextFormatter()
+                utils.TextFormatter()
                 .text(text)
                 .convert_userbloglinks_to_html()
                 .strip_wiki_links_files()
@@ -115,7 +112,7 @@ class Event(Struct):
         self.reality = reality
         self.title = self.__get_title(text)
 
-        tf = TextFormatter()
+        tf = utils.TextFormatter()
         text_norefs = (tf
             .text(text)
             .remove_ref_nodes()
@@ -217,7 +214,7 @@ class Event(Struct):
         return jdict
 
     def __str__(self):
-        return jdumps(self.to_dict())
+        return utils.jdumps(self.to_dict())
 
 
 class Source(Struct):
@@ -261,7 +258,7 @@ class Source(Struct):
     def is_updatable_with_new_clarification(self, clarif: str):
         if (self.clarification
             or not self.details
-            or not self.type in [SRC_FILM, SRC_TV_EPISODE, SRC_ONESHOT]
+            or not self.type in [constants.SRC_FILM, constants.SRC_TV_EPISODE, constants.SRC_ONESHOT]
         ):
             return False
         clarif = clarif[1:-1] # remove parenthesis
@@ -294,7 +291,7 @@ class Source(Struct):
         return jdict
 
     def __str__(self):
-        return jdumps(self.to_dict())
+        return utils.jdumps(self.to_dict())
 
     def key(self):
         return (self.sid, self.title, self.type, self.details)
@@ -364,7 +361,7 @@ class RefLink(Struct):
         return self.__dict__
 
     def __str__(self):
-        return jdumps(self.to_dict())
+        return utils.jdumps(self.to_dict())
 
     def key(self):
         return (self.lid)
