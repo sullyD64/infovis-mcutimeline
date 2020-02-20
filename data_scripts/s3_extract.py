@@ -627,7 +627,7 @@ def main():
         .save('m2m', nostep=True)
     )
     extr_reflinks = (Extractor(data=actions.get_legend('reflinks'))
-        .save('reflinks', nostep=True)
+        .save('final_reflinks', nostep=True)
     )
 
     # 11.5 link Events with Sources and Reflinks (see COMPLEXITY PROBLEM #2).
@@ -720,6 +720,7 @@ def main():
     # 13.1 build source/ref hierarchy by adding sub_sources recursive list.
     actions.set_legends(**{'hierarchy': []})
     (extr_sources
+        .fork()
         .addattr('sub_sources', [])
         .addattr('level', actions.s3__addattr__sources__level)
         .mapto(actions.s3__mapto__sources__hierarchy_level0)

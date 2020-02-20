@@ -16,6 +16,7 @@ INSTALLED_APPS = [
     'livereload',
     'django.contrib.staticfiles',
     'mcu_app',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
