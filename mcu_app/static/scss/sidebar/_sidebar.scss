@@ -1,0 +1,50 @@
+.sidebar {
+    position: fixed;
+    height: 100vh;
+    width: 25%;
+    top: 0;
+    left: -25%;
+    z-index: 999;
+    color: $white;
+    transition: all 0.3s;
+    overflow-y: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.sidebar > .sidebar__header {
+    width: 100%;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+// .sidebar > .sidebar__content {
+// }
+
+// --------------------------------------------
+
+#sidebarToggle {
+    width: 40px;
+    height: 40px;
+}
+
+// #sidebarToggle span {
+//     width: 80%;
+//     height: 2px;
+//     margin: 5px auto;
+//     display: block;
+//     background: $white;
+// }
+
+#sidebarDismiss {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    float: left;
+}
+
+// --------------------------------------------
+
