@@ -36,7 +36,7 @@ class Event(models.Model):
     desc = models.TextField()
     multiple = models.BooleanField(default=False)
 
-    sources = models.ManyToManyField(Source)
+    sources = models.ManyToManyField(Source, related_name='events')
    
     # characters = models.TextField(blank=True) # TODO characters
     # non_characters = models.TextField()
@@ -51,7 +51,7 @@ class Ref(models.Model):
     name = models.CharField(max_length=30, null=True)
     desc = models.TextField()
 
-    source = models.ForeignKey(Source, on_delete=models.CASCADE)
+    source = models.ForeignKey(Source, on_delete=models.CASCADE, related_name='refs')
 
     def __str__(self):
         return self.rid
@@ -59,9 +59,9 @@ class Ref(models.Model):
 
 class Reflink(models.Model):
     lid = models.CharField(max_length=8, primary_key=True)
-    evt = models.ForeignKey(Event, on_delete=models.CASCADE)
-    src = models.ForeignKey(Source, on_delete=models.CASCADE)
-    ref = models.ForeignKey(Ref, on_delete=models.CASCADE)
+    evt = models.ForeignKey(Event, on_delete=models.CASCADE, related_name='reflinks')
+    src = models.ForeignKey(Source, on_delete=models.CASCADE, related_name='reflinks')
+    ref = models.ForeignKey(Ref, on_delete=models.CASCADE, related_name='reflinks')
 
     def __str__(self):
         return f'{self.lid} ({self.evt} - {self.src} - {self.ref})'

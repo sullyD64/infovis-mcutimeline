@@ -5,7 +5,7 @@ from mcu_app.models import Source, Event, Ref, Reflink
 
 class SourceAdmin(admin.ModelAdmin):
     def events_count(self, obj):
-        return obj.event_set.count()
+        return obj.events.count()
     fieldsets = [
         (None, {'fields': ['sid', 'title', 'type']}),
         ('Details', {'fields': ['details_formatted']}),
@@ -18,7 +18,7 @@ class EventAdmin(admin.ModelAdmin):
     def sources_count(self, obj):
         return obj.sources.count()
     def reflinks_count(self, obj):
-        return obj.reflink_set.count()
+        return obj.reflinks.count()
     list_display = ('eid', 'filename', 'date', 'reality', 'title', 'desc', 'sources_count', 'reflinks_count')
     
 
