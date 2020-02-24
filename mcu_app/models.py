@@ -26,6 +26,32 @@ class Source(models.Model):
         return self.sid
 
 
+class Character(models.Model):
+    cid = models.CharField(max_length=30, primary_key=True)
+    cid_redirects = models.CharField(max_length=100, null=True)
+    real_name = models.CharField(max_length=100, null=True)
+    alias = models.TextField(null=True)
+    species = models.CharField(max_length=100, null=True)
+    gender = models.CharField(max_length=100, null=True)
+    DOB = models.CharField(max_length=100, null=True)
+    DOD = models.CharField(max_length=100, null=True)
+    citizenship = models.TextField(null=True)
+    affiliation = models.TextField(null=True)
+    status = models.CharField(max_length=100, null=True)
+    title = models.CharField(max_length=100, null=True)
+    actor = models.CharField(max_length=100, null=True)
+    voice_actor = models.CharField(max_length=100, null=True)
+
+    # TODO AGGIUNGERE UNA COLONNA PER CIASCUN VALORE TRA QUELLI UNIVOCI ESTRATTI CON JOB GET ALL KEYS
+
+    # RELAZIONI (è necessario aggiungerle?)
+    # character (*) --> (*) sources
+    # character (1) --> (*) events
+
+    def __str__(self):
+        return self.cid
+
+
 class Event(models.Model):
     eid = models.CharField(max_length=8, primary_key=True)
     filename = models.CharField(max_length=30)
