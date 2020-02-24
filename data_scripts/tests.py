@@ -1,8 +1,12 @@
 # data_scripts/tests.py
 import unittest
 
-from data_scripts.lib import errors
+from data_scripts import logconfig
+from data_scripts.lib import constants, errors
+from data_scripts.lib.logic import Scraper, Extractor
 from data_scripts.lib.utils import TextFormatter
+
+CODE = 'test'
 
 class TextFormatterTest(unittest.TestCase):
 
@@ -67,5 +71,28 @@ class TextFormatterTest(unittest.TestCase):
     #         else:
     #             raise Exception
 
+
+
+class ParserTest(unittest.TestCase):
+
+    def setUp(self):
+        self.cut = Scraper(CODE)
+        TEMPS_DIR = constants.PATH_INPUT_CRAWLED / 'wikitemplates'
+        Extractor.code(CODE).cd(TEMPS_DIR)
+        templates = {}
+        temp_aff_path = next(TEMPS_DIR.glob('*__affiliation.json'), None)
+        templates['affiliation'] = Extractor(infile=temp_aff_path).get_first()
+        temp_cit_path = next(TEMPS_DIR.glob('*__citizenship.json'), None)
+        templates['citizenship'] = Extractor(infile=temp_cit_path).get_first()
+        
+        Extractor.cd(constants.PATH_ROOT)
+        Extractor.clean_output()
+        self.templates = templates
+
+    def test_crawl_character(self):
+        self.cut.crawl_character(constants.PATH_ROOT, 'Catherine Wilder', self.templates)
+
+
 if __name__ == "__main__":
+    logconfig.config()
     unittest.main()

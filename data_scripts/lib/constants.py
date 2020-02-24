@@ -11,6 +11,9 @@ PATH_OUTPUT = PATH_ROOT / 'output'
 
 TIMELINE_PAGES = ['before-20th', '1900s', '1910s', '1920s', '1930s', '1940s', '1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010', '2011',
                   '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2023', '2024', '2091', 'framework', 'lighthouse', 'dark-dimension', 'time-heist', ]
+
+REALITY_MAIN = 'Main'
+
 TMP_MARKERS = {
     1: '\u03A0',  # Π
     2: '\u03A3',  # Σ
@@ -42,7 +45,8 @@ SRC_COMIC_SERIES = SRC_TYPES['cs']
 SRC_ONESHOT = SRC_TYPES['os']
 SRC_OTHER = SRC_TYPES['o']
 
-
 BASE_WIKI_URL = 'https://marvelcinematicuniverse.fandom.com/wiki/'
-MEDIA_TYPES_APPEARENCE = ['movie', 'oneshot', 'tv series', 'web series', 'comic']
-# MEDIA_TYPES_APPEARENCE = ['movie', 'oneshot', 'tv series', 'web series', 'game', 'comic']
+
+CHAR_SELECTED_ARGS = ['real name', 'alias', 'species', 'citizenship', 'gender', 'age', 'DOB', 'DOD', 'status', 'title', 'affiliation', 'actor', 'voice actor']
+CHAR_APPEARENCE_MEDIA_TYPES_ALLOWED = ['movie', 'oneshot', 'tv series', 'web series', 'comic']
+CHAR_APPEARENCE_SKIP_WORDS = ['mentioned', 'drawing', 'footage', 'picture', 'photo']

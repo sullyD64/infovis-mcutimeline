@@ -12,6 +12,10 @@ def jdumps(obj):
     return json.dumps(obj, indent=2, ensure_ascii=False)
 
 
+def get_clarification(input_str: str):
+    return next(iter(re.findall(r'(\([^\)]+\))$', input_str)), None)
+
+
 class MyHTMLParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
         if tag == 'ref':
@@ -186,6 +190,21 @@ class TextFormatter(object):
         return self
 
     def strip_small_html_tags(self):
-        """"Removes starting and trailing <small> tags"""
+        """"Removes starting and trailing <small> tags."""
         self.t = re.sub(r'<small>([^<>]*)</small>', r'\1', self.t)
+        return self
+
+    def uniformate_br_html_tags(self):
+        """Converts all <br/> tags in <br>."""
+        self.t = re.sub(r'<br/>', '<br>', self.t)
+        return self
+
+    def strip_clarification(self):
+        """Removes (clarification) from end of string."""
+        self.t = re.sub(r"(\([^\)]+\))$", '', self.t)
+        return self
+
+    def strip_html_comments(self):
+        """Removes html comments"""
+        self.t = re.sub(r"<!--.*?-->", '', self.t)
         return self

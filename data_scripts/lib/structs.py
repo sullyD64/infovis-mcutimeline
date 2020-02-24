@@ -237,7 +237,7 @@ class Source(Struct):
     def set_title(self, title: str):
         self.clarification = None
         if title:
-            clarif = next(iter(re.findall(r'(\([^\)]+\))$', title)), None)
+            clarif = utils.get_clarification(title)
             # TODO workaround for Luke Cage 2.13: T.R.O.Y.
             if clarif and clarif != "(T.R.O.Y.)":
                 self.clarification = clarif
@@ -250,7 +250,7 @@ class Source(Struct):
 
     @classmethod
     def split_titlestr(self, titlestr: str):
-        clarif = next(iter(re.findall(r'(\([^\)]+\))$', titlestr)), None)
+        clarif = utils.get_clarification(titlestr)
         clarif = clarif if clarif != "(T.R.O.Y.)" else None
         newtitlestr = titlestr[:-len(clarif)].strip() if clarif else titlestr
         return (newtitlestr, clarif)

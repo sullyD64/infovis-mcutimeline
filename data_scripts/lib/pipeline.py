@@ -1,13 +1,13 @@
 # data_scripts/lib/pipeline.py
 import copy
 import logging as log
+import json
 import re
 
 import wikitextparser as wtp
 
-from data_scripts.lib import constants
+from data_scripts.lib import constants, utils
 from data_scripts.lib.structs import Event, Ref, Source, SourceBuilder, RefLink
-
 
 class Actions():
     def __init__(self):
@@ -99,18 +99,21 @@ class Actions():
         for c1 in chars:
             out = c1
             for c2 in chars:
-                c1_plain = {k: v for (k,v) in copy.deepcopy(c1).items() if not isinstance(v, (list, dict))}
-                c2_plain = {k: v for (k,v) in copy.deepcopy(c2).items() if not isinstance(v, (list, dict))}
                 cid1, cid2 = c1['cid'], c2['cid']
+                def get_plain(char):
+                    return json.dumps({k: v for (k, v) in copy.deepcopy(char).items() if k not in ['cid', 'cid_redirects']})
+                c1_plain = get_plain(c1)
+                c2_plain = get_plain(c2)
                 if (
-                    {k for k, _ in c1_plain.items() ^ c2_plain.items()} == {'cid'}
+                    c1_plain == c2_plain
+                    # {k for k, _ in c1_plain.items() ^ c2_plain.items()} == {'cid'}
                     and cid1 != cid2
                 ):
                     log.info(f'Grouping {cid1} ({oc[cid1][1]}) with {cid2} ({oc[cid2][1]})')
                     chars.remove(c2)
                     c1['cid_redirects'] = [cid2]
                     out = {**{
-                        'cid': c1_plain.pop('cid'),
+                        'cid': cid1,
                         'cid_redirects': [cid2]
                         }, **c1
                     }
@@ -719,3 +722,95 @@ class Actions():
                     subroot_src = subroot_in_hierarchy[0]
                     subroot_src.sub_sources = [*subroot_src.sub_sources, *[copy.deepcopy(this_src)]]
         return this_src
+
+
+
+    def s3__mapto__chars__normalize_missing_attributes(self, char: dict):
+        for key in constants.CHAR_SELECTED_ARGS:
+            if key not in char.keys():
+                char[key] = []
+        char['real_name'] = char.pop('real name')
+        return char
+
+    def s3__addattr__sources__characters(self, src: Source, **kwargs):
+        newattr = []
+        for char in kwargs['allchars']:
+            for app in char['appearences']:
+                if (app['source__title'] == src.title
+                    and (not 'notes' in app.keys()
+                        or (app['notes']
+                            and not any(substring in app['notes'] for substring in constants.CHAR_APPEARENCE_SKIP_WORDS)))
+                ):
+                    newattr.append({k: char[k] for k in ('cid', 'cid_redirects', 'real_name', 'num_occurrences')})
+        log.info(f'{src.sid} added {len(newattr)} characters')
+        return newattr
+
+    def s3__addattr__events__discover_characters(self, event: Event, **kwargs):
+        newattr = []
+        if len(event.characters) > 0:
+            newattr = event.characters
+            return newattr
+        else:
+            event_sources = list(filter(lambda src: src.sid in event.sources, kwargs['sources']))
+            chars_duplicates = [char for src in event_sources for char in src.characters]
+            chars_noduplicates = [i for n, i in enumerate(chars_duplicates) if i not in chars_duplicates[n + 1:]]
+            chars = sorted(chars_noduplicates, key=lambda char: char['num_occurrences'], reverse=True)
+            desc_toread = event.desc
+
+            for char in chars:
+                tf = utils.TextFormatter()
+                cid_clean = (tf.text(char['cid'])
+                    .strip_clarification()
+                    .strip_html_comments()
+                    .get()
+                    .strip()
+                )
+                cid_redirects_clean = [tf.text(cr)
+                    .strip_clarification()
+                    .strip_html_comments()
+                    .get()
+                    .strip()
+                    for cr in char['cid_redirects']]
+                real_names_clean = [tf.text(rn)
+                    .remove_ref_nodes()
+                    .strip_clarification()
+                    .strip_html_comments()
+                    .get()
+                    .strip() 
+                    for rn in char['real_name']]
+                patterns = [
+                    cid_clean,
+                    cid_clean.split(' ')[-1],
+                    *cid_redirects_clean,
+                    *[cid.split(' ')[-1] for cid in cid_redirects_clean],
+                    *real_names_clean,
+                    *[rn.split(' ')[-1] for rn in real_names_clean],
+                ]
+                patterns = list(filter(lambda pattern: not pattern in ['Man', 'Woman', 'Boy', 'Girl'], patterns))
+                matches = [pattern in desc_toread for pattern in patterns]
+                if any(matches):
+                    matching_index = matches.index(True)
+                    log.info(f'{event.eid} match "{patterns[matching_index]}"')
+                    for pattern in patterns:
+                        print(desc_toread)
+                        desc_toread = desc_toread.replace(pattern, '')
+                    if char['cid'] not in event.characters:
+                        newattr.append(char['cid'])
+
+        if len(newattr) > 0:
+            self.counters['cnt_updated'] +=1
+            log.info(f'[x] {event.eid} adding {len(newattr)} {newattr}')
+        else:
+            log.info(f'[_] {event.eid} no characters found')
+        return newattr
+
+    def s3__iterate__events__merge_consecutive_similar_events(self, events: list):
+        output = []
+        # TODO group se: eventi consecutivi (stessa data), con stessa source e AL PIÙ gli stessi character.
+        output = events
+
+        for ev in events:
+            pass
+
+
+        return output

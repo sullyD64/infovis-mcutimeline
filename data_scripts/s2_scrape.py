@@ -99,16 +99,17 @@ def main():
     # 3. group characters when only the cid is different, and group their occurrence count too.
     Extractor.cd(OUTPUT)
     allchars_path = next(OUTPUT.glob('*__allchars.json'), None)
-    if not quick and not allchars_path:
+    if not quick or not allchars_path:
         extr_allchars = Extractor()
         for char_path in CHARS_DIR.glob('*__c__*'):
             extr_allchars.extend(Extractor(infile=char_path))
-            (extr_allchars
-                .count('allchars before grouping')
-                .iterate(actions.s2__iterate__characters__group_alteregos)
-                .count('allchars after grouping')
-                .save('allchars', nostep=True)
-            )
+        (extr_allchars
+            .count('allchars before grouping')
+            .addattr('cid_redirects', [])
+            .iterate(actions.s2__iterate__characters__group_alteregos)
+            .count('allchars after grouping')
+            .save('allchars', nostep=True)
+        )
     else:
         extr_allchars = Extractor(infile=allchars_path)
     

@@ -314,7 +314,7 @@ class Parser(object):
         curr_day = None
         curr_month = None
         curr_year = None
-        curr_reality = 'Main'   # current timeline or reality
+        curr_reality = constants.REALITY_MAIN   # current timeline or reality
         is_intro = True
         is_text_balanced = True
 
@@ -333,7 +333,7 @@ class Parser(object):
                     heading = line.replace('=', '')
                     if re.match(r'^=====', line):
                         if heading == 'Real World':
-                            heading = 'Main'
+                            heading = constants.REALITY_MAIN
                         curr_reality = heading
                     elif re.match(r'^====', line):
                         curr_day = heading
@@ -353,13 +353,13 @@ class Parser(object):
                     fix_incorrect_wikipedia_wiki_links: done before processing text, so that the wikitextparser doesn't recognise those links as wikilinks.
                     """
                     line = (utils.TextFormatter()
-                            .text(line)
-                            .remove_displayed_wiki_images_or_files_at_beginning()
-                            .remove_empty_ref_nodes()
-                            .fix_void_ref_nodes()
-                            .fix_incorrect_wikipedia_wiki_links()
-                            .get()
-                            )
+                        .text(line)
+                        .remove_displayed_wiki_images_or_files_at_beginning()
+                        .remove_empty_ref_nodes()
+                        .fix_void_ref_nodes()
+                        .fix_incorrect_wikipedia_wiki_links()
+                        .get()
+                    )
 
                     curr_text += line
                     if is_text_balanced:
@@ -386,23 +386,27 @@ class Parser(object):
     def parse_character(self, charid: str, chartemp: wtp.Template, templates: dict = None):
         tf = utils.TextFormatter()
         output = {}
-        args_toselect = ['real name', 'alias', 'species', 'citizenship', 'gender', 'age', 'DOB', 'DOD', 'status', 'title', 'affiliation', 'actor', 'voice actor']
-        selected = list(filter(lambda arg: arg.name.strip() in args_toselect, chartemp.arguments))
+        selected = list(filter(lambda arg: arg.name.strip() in constants.CHAR_SELECTED_ARGS, chartemp.arguments))
 
         output['cid'] = charid
 
         for arg in selected:
-            clean_text = (tf.text(arg.value.strip()).remove_templates().strip_wiki_links().strip_small_html_tags().get()).split('<br>')
-            if len(clean_text) == 1:
-                clean_text = clean_text[0]
-            output[arg.name.strip()] = clean_text
+            clean_text = (tf
+                .text(arg.value.strip())
+                .remove_templates()
+                .strip_wiki_links()
+                .strip_small_html_tags()
+                .uniformate_br_html_tags()
+                .get()
+            ).split('<br>')
+            output[arg.name.strip()] = list(filter(lambda line: line, clean_text))
 
-        not_selected = list(filter(lambda arg: arg.name.strip() not in [*args_toselect, *constants.MEDIA_TYPES_APPEARENCE], chartemp.arguments))
+        not_selected = list(filter(lambda arg: arg.name.strip() not in [*constants.CHAR_SELECTED_ARGS, *constants.CHAR_APPEARENCE_MEDIA_TYPES_ALLOWED], chartemp.arguments))
         for nsarg in not_selected:
             log.debug(f'Skipping arg "{nsarg.name.strip()}" : {nsarg.value.strip()}')
 
         appearences = []
-        for media_arg in list(filter(lambda arg: arg.name.strip() in constants.MEDIA_TYPES_APPEARENCE, chartemp.arguments)):
+        for media_arg in list(filter(lambda arg: arg.name.strip() in constants.CHAR_APPEARENCE_MEDIA_TYPES_ALLOWED, chartemp.arguments)):
             if media_arg:
                 for app in media_arg.value.split('<br>'):
                     app_parsed = wtp.parse(app)
@@ -411,17 +415,25 @@ class Parser(object):
                             'source__title': app_parsed.wikilinks[0].title,
                             'source__type': media_arg.name.strip(),
                         }
-                        notes = tf.text(str(app_parsed.tags()[0])).strip_small_html_tags().strip_wiki_links().get() if app_parsed.tags() else None
+                        notes = None
+                        if app_parsed.tags():
+                            notes = (tf
+                                .text(str(app_parsed.tags()[0]))
+                                .strip_small_html_tags()
+                                .strip_wiki_links()
+                                .strip_ref_html_tags()
+                                .convert_ext_links_to_html()
+                                .get())
+                        
                         if notes:
-                            app['notes'] = notes[1:-1]
+                            notes = notes[1:-1] if notes.startswith('(') else notes
+                            app['notes'] = notes
                         appearences.append(app)
         output['appearences'] = appearences
-
+    
         def resolve_template(tname: str):
             if tname in output.keys():
                 updated = []
-                if not isinstance(output[tname], list):
-                    output[tname] = [output[tname]]
                 for el in output[tname]:
                     if el.split(' ')[0] in templates[tname].keys():
                         updated.append(f"{templates[tname][el.split(' ')[0]]} {''.join(el.split(' ')[1:])}".strip())
@@ -474,10 +486,11 @@ class Scraper(object):
                     line = line[2:]
                     tkns = line.split(' = ')
                     parsed_temp[tkns[0]] = (utils.TextFormatter().text(tkns[1])
-                                            .remove_displayed_wiki_images_or_files_at_beginning()
-                                            .strip_wps_templates().strip_wiki_links()
-                                            .get()
-                                            ).strip()
+                        .remove_displayed_wiki_images_or_files_at_beginning()
+                        .strip_wps_templates()
+                        .strip_wiki_links()
+                        .get()
+                    ).strip()
 
                 log.debug(f'{logprfx} [OK] Saved parsed template {pagetitle}.')
                 extr_temp = Extractor(data=[parsed_temp]).save(f't__{pagetitle}', nostep=True)
@@ -521,8 +534,6 @@ class Scraper(object):
         return result
 
     def is_cached(self, savepath: pathlib.Path, charid: str):
-        if charid == "Ego":
-            print(True)
         logprfx = f'"{charid}":'
         result = False
         clean_pagetitle = self.get_clean_pagetitle(charid)

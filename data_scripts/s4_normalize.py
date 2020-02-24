@@ -5,6 +5,7 @@ import re
 from data_scripts import logconfig
 from data_scripts.lib import constants, structs
 from data_scripts.lib.logic import Extractor
+from data_scripts.lib.pipeline import Actions
 
 CODE = 's4'
 OUTPUT = constants.PATH_OUTPUT
@@ -15,6 +16,7 @@ def main():
     log.getLogger().setLevel(log.INFO)
     Extractor.code(CODE)
     Extractor.cd(OUTPUT)
+    actions = Actions()
 
     if 'clean' in globals():
         Extractor.clean_output()
@@ -96,7 +98,7 @@ def main():
         .fork()
         .remove_cols(['events'])
         # .filter_rows(lambda ref: ref.num_events in range(1,5))
-        .sort('num_events', reverse=True) 
+        .sort('num_events', reverse=True)
         .save('refs_ranked')
     )
 
@@ -105,7 +107,7 @@ def main():
         .remove_cols(['events'])
         .filter_rows(lambda ref: not ref.complex)
         .save('refs_simple')
-    ) 
+    )
     (extr_refs_shortdesc
         .fork()
         .remove_cols(['events'])
@@ -196,7 +198,6 @@ def main():
     | tot |             353             |             701             |    1054   |
     +-----+-----------------------------+-----------------------------+-----------+
     """
-
     # NOT NEEDED (we removed Refs from Events)
     # def s4__mapto__events_add_ref_details(event: Event):
     #     for ref in extr_refs_shortdesc.get():
@@ -211,7 +212,6 @@ def main():
     #             index = event.refs.index(ref.rid)
     #             event.refs[index] = detailed_ref
     #     return event
-
     # (extr_events
     #     .mapto(s4__mapto__events_add_ref_details)
     #     .save('events_refdetails')
@@ -219,7 +219,7 @@ def main():
     #     .filter_rows(lambda ev: not ev.characters and not ev.non_characters)
     #     .save("events_nolinks")
     # )
-    
+
     (extr_events
         .fork()
         .filter_rows(lambda ev: len(ev.reflinks) >= 2)
@@ -227,14 +227,76 @@ def main():
         .save('events_morethan2reflinks')
     )
 
-    (extr_sources
+    # NOT NEEDED (we removed duplicate Sources with same sid)
+    # (extr_sources
+    #     .fork()
+    #     .groupby('sid')
+    #     .filter_rows(lambda group: len(group['elements']) > 1)
+    #     .save('sources_bysid')
+    # )
+
+    (extr_events
         .fork()
-        # .select_cols(['sid', 'title'])
-        .groupby('sid')
-        .filter_rows(lambda group: len(group['elements']) > 1)
-        .save('sources_bysid')
+        .filter_rows(lambda ev: not ev.reality == constants.REALITY_MAIN)
+        .save('events_altrealities')
+    )
+    (extr_events
+        .filter_rows(lambda ev: ev.reality == constants.REALITY_MAIN)
+        .save('events_mainreality')
     )
 
+    (extr_events
+        .fork()
+        .consume_key('date')
+        .unique()
+        .sort()
+        .save('legend__events_dates')
+    )
+    (extr_events
+        .fork()
+        .select_cols(['eid', 'date', 'reality', 'sources', 'desc', 'characters'])
+        .filter_rows(lambda ev: any([ev.date.endswith(year) for year in ['2017', '2018']]))
+        .sort('date')
+        .groupby('date')
+        .addattr('num_events', lambda group: len(group['elements']))
+        .addattr('elements', lambda group: Extractor(data=group['elements']).sort('sources').groupby('sources').get())
+        .filter_rows(lambda group: group['num_events'] > 10)
+        .save('events_bydate')
+    )
+ 
+    # -----------------------------------------------
+
+    # TODO move to S3
+
+    extr_allchars = (Extractor(infile=next(OUTPUT.glob('*__allchars.json'))))
+    oc = Extractor(infile=next(OUTPUT.glob('*__occ_chars.json'))).get_first()
+    
+    # normalize characters, adding missing keys with empty values and including the number of occurrences
+    (extr_allchars
+        .mapto(actions.s3__mapto__chars__normalize_missing_attributes)
+        .addattr('num_occurrences', lambda char: oc[char['cid']])
+        .save('allchars_normalized')
+    )
+
+    # add characters to sources based on the 'appearence' key
+    (extr_sources
+        .addattr('characters', actions.s3__addattr__sources__characters, **{'allchars': extr_allchars.get()})
+        .save('sources_characters')
+    )
+
+    # discover new characters in event descriptions using character ids and names
+    actions.set_counters(*['cnt_updated'])
+    (extr_events
+        .fork()
+        .addattr('characters', actions.s3__addattr__events__discover_characters, **{'sources': extr_sources.get()})
+        .save('events_witchars_additional')
+    )
+    cntrs = actions.get_counters()
+    log.info(f'-- Updated events: {cntrs["cnt_updated"]}')
+
+    (extr_events
+        .iterate(actions.s3__iterate__events__merge_consecutive_similar_events)
+    )
 
 if __name__ == "__main__":
     logconfig.config()
