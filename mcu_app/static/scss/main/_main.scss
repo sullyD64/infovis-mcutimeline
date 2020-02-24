@@ -9,6 +9,13 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+header {
+  z-index: 997;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .sitecontainer {
   height: 100%;
   margin: 0;
@@ -35,12 +42,12 @@ body {
     opacity: 1;
 }
 
-a {
+.link {
   color: $purple;
   text-decoration: underline dotted;
 }
 
-a:hover {
+.link:hover {
   color: $fuchsia;
   text-decoration: underline dotted
 }
