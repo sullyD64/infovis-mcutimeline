@@ -60,7 +60,7 @@ def main():
         'sources_additional': [],
     })
     actions.set_counters(*['cnt_discovered', 'cnt_updated'])
-    (Extractor(infile=next(OUTPUT.glob('*__sources_chars.json')))
+    (Extractor(infile=next(OUTPUT.glob('*__sourcetitles_chars.json')))
         .mapto(actions.s3__mapto__sources__extract_additional_sources)
     )
     cntrs = actions.get_counters()

@@ -705,24 +705,31 @@ class Actions():
     def s3__mapto__sources__hierarchy_level1(self, this_src: Source):
         hierarchy = self.legends['hierarchy']
         if this_src.level == 1:
-            root_in_hierarchy = list(filter(lambda src: src.sid == this_src.details['series_id'], hierarchy))
-            if root_in_hierarchy:
-                root_src = root_in_hierarchy[0]
+            root_src = next(iter(list(filter(lambda src: src.sid == this_src.details['series_id'], hierarchy))), None)
+            if root_src:
                 root_src.sub_sources = [*root_src.sub_sources, *[copy.deepcopy(this_src)]]
         return this_src
 
     def s3__mapto__sources__hierarchy_level2(self, this_src: Source):
         hierarchy = self.legends['hierarchy']
         if this_src.level == 2:
-            root_in_hierarchy = list(filter(lambda src: src.sid == this_src.details['series_id'], hierarchy))
-            if root_in_hierarchy:
-                root_src = root_in_hierarchy[0]
-                subroot_in_hierarchy = list(filter(lambda src: src.sid == this_src.details['season_id'], root_src.sub_sources))
-                if subroot_in_hierarchy:
-                    subroot_src = subroot_in_hierarchy[0]
+            root_src = next(iter(list(filter(lambda src: src.sid == this_src.details['series_id'], hierarchy))), None)
+            if root_src:
+                subroot_src = next(iter(list(filter(lambda src: src.sid == this_src.details['season_id'], root_src.sub_sources))), None)
+                if subroot_src:
                     subroot_src.sub_sources = [*subroot_src.sub_sources, *[copy.deepcopy(this_src)]]
         return this_src
 
+    
+    def s3__addattr__sources__parent_source(self, src: Source):
+        """Bottom-up hierarchy with links to parent source (faster)"""
+        newattr = None
+        if src.details:
+            if 'season_id' in src.details:
+                newattr = src.details['season_id']
+            elif 'series_id' in src.details:
+                newattr = src.details['series_id']
+        return newattr
 
 
     def s3__mapto__chars__normalize_missing_attributes(self, char: dict):
@@ -742,66 +749,71 @@ class Actions():
                             and not any(substring in app['notes'] for substring in constants.CHAR_APPEARENCE_SKIP_WORDS)))
                 ):
                     newattr.append({k: char[k] for k in ('cid', 'cid_redirects', 'real_name', 'num_occurrences')})
-        log.info(f'{src.sid} added {len(newattr)} characters')
+        log.debug(f'{src.sid} added {len(newattr)} characters')
         return newattr
 
     def s3__addattr__events__discover_characters(self, event: Event, **kwargs):
         newattr = []
+        found = False
         if len(event.characters) > 0:
             newattr = event.characters
-            return newattr
-        else:
-            event_sources = list(filter(lambda src: src.sid in event.sources, kwargs['sources']))
-            chars_duplicates = [char for src in event_sources for char in src.characters]
-            chars_noduplicates = [i for n, i in enumerate(chars_duplicates) if i not in chars_duplicates[n + 1:]]
-            chars = sorted(chars_noduplicates, key=lambda char: char['num_occurrences'], reverse=True)
-            desc_toread = event.desc
+        
+        tf = utils.TextFormatter()
+        event_sources = list(filter(lambda src: src.sid in event.sources, kwargs['sources']))
 
-            for char in chars:
-                tf = utils.TextFormatter()
-                cid_clean = (tf.text(char['cid'])
-                    .strip_clarification()
-                    .strip_html_comments()
-                    .get()
-                    .strip()
-                )
-                cid_redirects_clean = [tf.text(cr)
-                    .strip_clarification()
-                    .strip_html_comments()
-                    .get()
-                    .strip()
-                    for cr in char['cid_redirects']]
-                real_names_clean = [tf.text(rn)
-                    .remove_ref_nodes()
-                    .strip_clarification()
-                    .strip_html_comments()
-                    .get()
-                    .strip() 
-                    for rn in char['real_name']]
-                patterns = [
-                    cid_clean,
-                    cid_clean.split(' ')[-1],
-                    *cid_redirects_clean,
-                    *[cid.split(' ')[-1] for cid in cid_redirects_clean],
-                    *real_names_clean,
-                    *[rn.split(' ')[-1] for rn in real_names_clean],
-                ]
-                patterns = list(filter(lambda pattern: not pattern in ['Man', 'Woman', 'Boy', 'Girl'], patterns))
-                matches = [pattern in desc_toread for pattern in patterns]
-                if any(matches):
-                    matching_index = matches.index(True)
-                    log.info(f'{event.eid} match "{patterns[matching_index]}"')
-                    for pattern in patterns:
-                        print(desc_toread)
-                        desc_toread = desc_toread.replace(pattern, '')
-                    if char['cid'] not in event.characters:
-                        newattr.append(char['cid'])
+        # TODO usare index per includere character di tutte le parent source
+        chars_duplicates = [char for src in event_sources for char in src.characters]
+        chars_noduplicates = [i for n, i in enumerate(chars_duplicates) if i not in chars_duplicates[n + 1:]]
+        chars = sorted(chars_noduplicates, key=lambda char: char['num_occurrences'], reverse=True)
+        
+        desc_toread = tf.text(event.desc).remove_wikilinks().get()
 
-        if len(newattr) > 0:
+        for char in chars:
+            cid_clean = (tf.text(char['cid'])
+                .strip_clarification()
+                .strip_html_comments()
+                .get()
+                .strip()
+            )
+            cid_redirects_clean = [tf.text(cr)
+                .strip_clarification()
+                .strip_html_comments()
+                .get()
+                .strip()
+                for cr in char['cid_redirects']]
+            real_names_clean = [tf.text(rn)
+                .remove_ref_nodes()
+                .strip_clarification()
+                .strip_html_comments()
+                .get()
+                .strip() 
+                for rn in char['real_name']]
+            patterns = [
+                cid_clean,
+                cid_clean.split(' ')[-1],
+                *cid_redirects_clean,
+                *[cid.split(' ')[-1] for cid in cid_redirects_clean],
+                *real_names_clean,
+                *[rn.split(' ')[-1] for rn in real_names_clean],
+            ]
+            patterns = list(filter(lambda pattern: not pattern in ['Man', 'Woman', 'Boy', 'Girl'], patterns))
+            matches = [pattern in desc_toread for pattern in patterns]
+            if any(matches):
+                matching_index = matches.index(True)
+                log.debug(f'{event.eid} match "{patterns[matching_index]}"')
+                for pattern in patterns:
+                    # print(desc_toread) 
+                    desc_toread = desc_toread.replace(pattern, '')
+                if char['cid'] not in event.characters:
+                    found = True
+                    newattr.append(char['cid'])
+
+        if found:
             self.counters['cnt_updated'] +=1
-            log.info(f'[x] {event.eid} adding {len(newattr)} {newattr}')
+            # log.info(f'[x] {event.eid} adding {len(newattr)} {newattr}')
+            log.debug(f'[x] {event.eid} adding {len(newattr)} {newattr}')
         else:
-            log.info(f'[_] {event.eid} no characters found')
+            log.debug(f'[_] {event.eid} no characters found')
         return newattr
 
     def s3__iterate__events__merge_consecutive_similar_events(self, events: list):

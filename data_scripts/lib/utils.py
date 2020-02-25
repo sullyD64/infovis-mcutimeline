@@ -80,6 +80,11 @@ class TextFormatter(object):
         self.t = re.sub(r'(?s)(<ref([^>]*[^\/])?>(.*?)<\/ref>|<ref[^>]*\/>)', '', self.t)
         return self
 
+    def remove_wikilinks(self):
+        """Removes wikilinks and all the text they contain. Use it to isolate description text."""
+        self.t = re.sub(r'\[\[[:]?File:([^\|\]]*\|)?([^\]\|]*)\]\]', '', self.t)
+        return self
+
     # -------------- Event/Ref desc processing
 
     def remove_displayed_wiki_images_or_files_everywhere(self):

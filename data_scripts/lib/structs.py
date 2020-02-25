@@ -64,7 +64,7 @@ class Ref(Struct):
         return self.__dict__
 
     @classmethod
-    def from_dict(self, **kwargs):
+    def from_dict(cls, **kwargs):
         ref = Ref(empty=True)
         for k, v in kwargs.items():
             setattr(ref, k, v)
@@ -126,7 +126,7 @@ class Event(Struct):
             .convert_ext_links_to_html()
             .convert_bolds_to_html()
             .convert_italics_to_html()
-            .strip_wiki_links()
+            # .strip_wiki_links()
             .strip_wiki_links_files()
             .remove_displayed_wiki_images_or_files_everywhere()
             .strip_wps_templates()
@@ -191,7 +191,7 @@ class Event(Struct):
         return not any([str(tag).startswith(it) for it in ignored_tags])
 
     @classmethod
-    def from_dict(self, **kwargs):
+    def from_dict(cls, **kwargs):
         ev = Event(empty=True)
         for k, v in kwargs.items():
             if k == 'refs' and isinstance(v, list) and all(isinstance(x, dict) for x in v):
@@ -249,7 +249,7 @@ class Source(Struct):
         return self.title
 
     @classmethod
-    def split_titlestr(self, titlestr: str):
+    def split_titlestr(cls, titlestr: str):
         clarif = utils.get_clarification(titlestr)
         clarif = clarif if clarif != "(T.R.O.Y.)" else None
         newtitlestr = titlestr[:-len(clarif)].strip() if clarif else titlestr
@@ -273,7 +273,7 @@ class Source(Struct):
         return any([type_matches, series_matches])
 
     @classmethod
-    def from_dict(self, **kwargs):
+    def from_dict(cls, **kwargs):
         src = Source(empty=True)
         for k, v in kwargs.items():
             if k == 'sub_sources':
@@ -349,7 +349,7 @@ class RefLink(Struct):
         self.ref = rid
 
     @classmethod
-    def from_dict(self, **kwargs):
+    def from_dict(cls, **kwargs):
         rl = RefLink(empty=True)
         for k, v in kwargs.items():
             setattr(rl, k, v)

@@ -139,19 +139,19 @@ def main():
     )
 
     # 4. extract all the sources mentioned in the extracted characters
-    actions.set_legends(**{'sources_chars': {}})
+    actions.set_legends(**{'sourcetitles_chars': {}})
     (extr_allchars
         .consume_key('appearences')
         .flatten()
         .select_cols(['source__type', 'source__title'])
         .mapto(actions.s2__mapto__characters__get_unique_sources)
     )
-    ordered_sources_chars = {k: v for (k,v) in sorted(actions.get_legend('sources_chars').items())}
+    ordered_sourcetitles_chars = {k: v for (k,v) in sorted(actions.get_legend('sourcetitles_chars').items())}
     
-    sources_chars_path = next(OUTPUT.glob('*__sources_chars.json'), None)
-    if not sources_chars_path:
-        (Extractor(data=[ordered_sources_chars])
-            .save('sources_chars', nostep=True)
+    sourcetitles_chars_path = next(OUTPUT.glob('*__sourcetitles_chars.json'), None)
+    if not sourcetitles_chars_path:
+        (Extractor(data=[ordered_sourcetitles_chars])
+            .save('sourcetitles_chars', nostep=True)
         )
 
     log.info('### End ###')

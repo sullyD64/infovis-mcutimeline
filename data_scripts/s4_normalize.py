@@ -278,17 +278,23 @@ def main():
         .save('allchars_normalized')
     )
 
+    # add link to parent source
     # add characters to sources based on the 'appearence' key
+    # TODO copiare i characters di tutte le sub-source nella source root
     (extr_sources
+        .addattr('parent', actions.s3__addattr__sources__parent_source)
         .addattr('characters', actions.s3__addattr__sources__characters, **{'allchars': extr_allchars.get()})
         .save('sources_characters')
     )
-
+    
     # discover new characters in event descriptions using character ids and names
     actions.set_counters(*['cnt_updated'])
     (extr_events
         .fork()
-        .addattr('characters', actions.s3__addattr__events__discover_characters, **{'sources': extr_sources.get()})
+        .addattr('characters', actions.s3__addattr__events__discover_characters, **{
+            'sources': extr_sources.get(),
+            'sources_index': extr_sources.get_index('sid'),
+        })
         .save('events_witchars_additional')
     )
     cntrs = actions.get_counters()
