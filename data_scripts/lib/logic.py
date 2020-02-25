@@ -83,6 +83,21 @@ class Extractor(object):
             return None
         return self.data[0]
 
+    def get_index(self, key_or_attr: str):
+        """
+        Returns an index of the extractor's data using `key_or_attr` as key.
+        WARNING: to work properly, `key_or_attr` should not have duplicate values. 
+        """
+        if not self.data:
+            log.error("Empty list")
+            return self
+        index = {}
+        if isinstance(self.data[0], dict):
+            index = {d[key_or_attr]: self.data.index(d) for d in self.data}    
+        elif isinstance(self.data[0], Struct):
+            index = {getattr(d, key_or_attr): self.data.index(d) for d in self.data}    
+        return index        
+
     def parse_raw(self, clazz):
         """
         Parses raw data into given Struct object if clazz is a subclass of Struct.
