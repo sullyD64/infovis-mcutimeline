@@ -209,7 +209,7 @@ class TextFormatter(object):
         self.t = re.sub(r"(\([^\)]+\))$", '', self.t)
         return self
 
-    def strip_html_comments(self):
+    def remove_html_comments(self):
         """Removes html comments"""
         self.t = re.sub(r"<!--.*?-->", '', self.t)
         return self

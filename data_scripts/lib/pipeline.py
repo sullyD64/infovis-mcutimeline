@@ -137,9 +137,9 @@ class Actions():
         return output
 
     def s2__mapto__characters__get_unique_sources(self, char_src: dict):
-        sources_chars = self.legends['sources_chars']
-        if char_src['source__title'] not in sources_chars.keys():
-            sources_chars[char_src['source__title']] = char_src['source__type']
+        sourcetitles_chars = self.legends['sourcetitles_chars']
+        if char_src['source__title'] not in sourcetitles_chars.keys():
+            sourcetitles_chars[char_src['source__title']] = char_src['source__type']
         return char_src
 
     # -----------------------------------
@@ -190,7 +190,7 @@ class Actions():
             src_season_details = {k: v for k, v in src.details.items()}
             src_season_details.pop('episode')
             rootsrc_season = (SourceBuilder()
-                .sid(src_season_details['season_id'])
+                .sid(src_season_details.pop('season_id'))
                 .title(get_season_title(src_season_details['series'], src_season_details['season']))
                 .stype(constants.SRC_TV_SEASON)
                 .details(src_season_details)
@@ -753,38 +753,42 @@ class Actions():
         return newattr
 
     def s3__addattr__events__discover_characters(self, event: Event, **kwargs):
+        sources = kwargs['sources']
+        sources_index = kwargs['sources_index']
         newattr = []
         found = False
-        if len(event.characters) > 0:
-            newattr = event.characters
-        
-        tf = utils.TextFormatter()
-        event_sources = list(filter(lambda src: src.sid in event.sources, kwargs['sources']))
 
-        # TODO usare index per includere character di tutte le parent source
-        chars_duplicates = [char for src in event_sources for char in src.characters]
-        chars_noduplicates = [i for n, i in enumerate(chars_duplicates) if i not in chars_duplicates[n + 1:]]
+        chars_event_sources = []
+        event_sources = [sources[sources_index[sid]] for sid in event.sources]
+        for event_src in event_sources:
+            while event_src:
+                chars_event_sources.extend(event_src.characters)
+                try:
+                    event_src = sources[sources_index[event_src.parent]]
+                except KeyError:
+                    break
+        chars_noduplicates = [i for n, i in enumerate(chars_event_sources) if i not in chars_event_sources[n + 1:]]
         chars = sorted(chars_noduplicates, key=lambda char: char['num_occurrences'], reverse=True)
         
-        desc_toread = tf.text(event.desc).remove_wikilinks().get()
-
+        tf = utils.TextFormatter()
+        desc_toread = tf.text(event.desc).remove_wikilinks().remove_html_comments().get()
         for char in chars:
             cid_clean = (tf.text(char['cid'])
                 .strip_clarification()
-                .strip_html_comments()
+                .remove_html_comments()
                 .get()
                 .strip()
             )
             cid_redirects_clean = [tf.text(cr)
                 .strip_clarification()
-                .strip_html_comments()
+                .remove_html_comments()
                 .get()
                 .strip()
                 for cr in char['cid_redirects']]
             real_names_clean = [tf.text(rn)
                 .remove_ref_nodes()
                 .strip_clarification()
-                .strip_html_comments()
+                .remove_html_comments()
                 .get()
                 .strip() 
                 for rn in char['real_name']]
@@ -796,25 +800,38 @@ class Actions():
                 *real_names_clean,
                 *[rn.split(' ')[-1] for rn in real_names_clean],
             ]
-            patterns = list(filter(lambda pattern: not pattern in ['Man', 'Woman', 'Boy', 'Girl'], patterns))
+            patterns = list(filter(lambda pattern: not pattern in constants.CHAR_NAME_SKIP_WORDS, patterns))
             matches = [pattern in desc_toread for pattern in patterns]
             if any(matches):
                 matching_index = matches.index(True)
                 log.debug(f'{event.eid} match "{patterns[matching_index]}"')
-                for pattern in patterns:
-                    # print(desc_toread) 
+                for pattern in patterns: 
                     desc_toread = desc_toread.replace(pattern, '')
                 if char['cid'] not in event.characters:
                     found = True
-                    newattr.append(char['cid'])
+                    newattr.append(char)
 
         if found:
             self.counters['cnt_updated'] +=1
-            # log.info(f'[x] {event.eid} adding {len(newattr)} {newattr}')
-            log.debug(f'[x] {event.eid} adding {len(newattr)} {newattr}')
+            log.debug(f'[x] {event.eid} adding {len(newattr)} {[char["cid"] for char in newattr]}')
         else:
             log.debug(f'[_] {event.eid} no characters found')
+
+        if len(event.characters) > 0:
+            existing_characters = event.characters
+            for newchar in newattr:
+                if not any(cid in existing_characters for cid in [newchar['cid'], *newchar['cid_redirects']]):
+                    existing_characters.append(newchar['cid'])
+            newattr = existing_characters
+        else:
+            newattr = [char['cid'] for char in newattr]
         return newattr
+
+    def s3__mapto__events__normalize_character_cids(self, event: Event):
+        # TODO uniform all cids in events from using redirects to always using primary cid.
+        return event
+
+
 
     def s3__iterate__events__merge_consecutive_similar_events(self, events: list):
         output = []

@@ -50,3 +50,4 @@ BASE_WIKI_URL = 'https://marvelcinematicuniverse.fandom.com/wiki/'
 CHAR_SELECTED_ARGS = ['real name', 'alias', 'species', 'citizenship', 'gender', 'age', 'DOB', 'DOD', 'status', 'title', 'affiliation', 'actor', 'voice actor']
 CHAR_APPEARENCE_MEDIA_TYPES_ALLOWED = ['movie', 'oneshot', 'tv series', 'web series', 'comic']
 CHAR_APPEARENCE_SKIP_WORDS = ['mentioned', 'drawing', 'footage', 'picture', 'photo']
+CHAR_NAME_SKIP_WORDS = ['Man', 'Woman', 'Boy', 'Girl']

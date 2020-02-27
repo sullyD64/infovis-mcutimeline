@@ -280,13 +280,14 @@ def main():
 
     # add link to parent source
     # add characters to sources based on the 'appearence' key
-    # TODO copiare i characters di tutte le sub-source nella source root
     (extr_sources
         .addattr('parent', actions.s3__addattr__sources__parent_source)
         .addattr('characters', actions.s3__addattr__sources__characters, **{'allchars': extr_allchars.get()})
         .save('sources_characters')
     )
     
+    # (Extractor(data=[extr_sources.get_index('sid')]).save('sources_index', nostep=True))
+
     # discover new characters in event descriptions using character ids and names
     actions.set_counters(*['cnt_updated'])
     (extr_events

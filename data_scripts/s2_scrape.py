@@ -131,9 +131,7 @@ def main():
     occ_nonchars = Extractor(infile=next(OUTPUT.glob('*__occ_nonchars.json'))).get_first()
     (extr_events
         .addattr('characters', actions.s2__addattr__events__split_wikilinks, **{'valid': occ_chars})
-        # .addattr('characters_count', lambda elem: len(elem['characters']))
         .addattr('non_characters', actions.s2__addattr__events__split_wikilinks, **{'valid': occ_nonchars})
-        # .addattr('non_characters_count', lambda elem: len(elem['non_characters']))
         .remove_cols(['links'])
         .save('events_characters', nostep=True)
     )
