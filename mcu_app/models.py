@@ -14,6 +14,8 @@ class Source(models.Model):
     type = models.CharField(max_length=30)
     details = models.TextField()
 
+    parent = models.ForeignKey('self', on_delete=models.CASCADE, related_name='sub_sources')
+
     def details_formatted(self):
         json_obj = json.loads(self.details)
         data = json.dumps(json_obj, indent=2)
