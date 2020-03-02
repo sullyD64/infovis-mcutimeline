@@ -627,7 +627,7 @@ def main():
         .save('m2m', nostep=True)
     )
     extr_reflinks = (Extractor(data=actions.get_legend('reflinks'))
-        .save('final_reflinks', nostep=True)
+        .save('reflinks', nostep=True)
     )
 
     # 11.5 link Events with Sources and Reflinks (see COMPLEXITY PROBLEM #2).
@@ -754,10 +754,79 @@ def main():
 
     # --------------------------------------------------------------------
     log.info('')
-    log.info(f'### 14. CHARACTERS ###')
+    log.info(f'### 14. EVENTS/CHARACTERS ###')
     # --------------------------------------------------------------------
 
-    # TODO move from S4
+    extr_allchars = (Extractor(infile=next(OUTPUT.glob('*__allchars.json'))))
+    occ_chars = Extractor(infile=next(OUTPUT.glob('*__occ_chars.json'))).get_first()
+
+    """
+    WIP: for now we only include events from main reality.
+    All further transformations are applied to those events only.
+    """
+    # TODO include events from alternate realities
+    (extr_events
+        .fork()
+        .filter_rows(lambda ev: not ev.reality == constants.REALITY_MAIN)
+        .save('extra_events_altrealities', nostep=True)
+    )
+    (extr_events
+        .filter_rows(lambda ev: ev.reality == constants.REALITY_MAIN)
+    )
+
+    # 14.1 normalize characters, adding missing keys with empty values and including the number of occurrences
+    (extr_allchars
+        .mapto(actions.s3__mapto__chars__normalize_missing_attributes)
+        .addattr('num_occurrences', lambda char: occ_chars[char['cid']])
+        .save('allchars_1')
+    )
+
+    # 14.2 add link to parent source
+    # 14.3 add characters to sources based on the 'appearence' key
+    (extr_sources
+        .addattr('parent', actions.s3__addattr__sources__parent_source)
+        .addattr('characters', actions.s3__addattr__sources__characters, **{'allchars': extr_allchars.get()})
+        .save('sources_10')
+    )
+
+    # 14.4 discover new characters in event descriptions using character ids and names
+    actions.set_counters(*['cnt_updated'])
+    sources_index = extr_sources.get_index('sid')
+    allchars_index = extr_allchars.get_index('cid')
+    (extr_events
+        .fork()
+        .addattr('characters', actions.s3__addattr__events__discover_characters, **{
+            'sources': extr_sources.get(),
+            'sources_index': sources_index,
+        })
+        .addattr('characters', actions.s3__addattr__events__normalize_character_cids, **{
+            'allchars': extr_allchars.get(),
+            'allchars_index': allchars_index,
+        })
+        .save('events_4_additional_chars')
+    )
+    cntrs = actions.get_counters()
+    log.info(f'-- Updated events: {cntrs["cnt_updated"]}')
+
+    # 14.5 merge consecutive similar events they share the same date, sources and the characters of any subsequent event are at most equal to the characters of the first event
+    actions.set_legends(**{
+        'events_newid': {}
+    })
+    (extr_events
+        .iterate(actions.s3__iterate__events__merge_consecutive_similar_events)
+        .save('events_5')
+    )
+
+    # 14.6 update old event ids in Sources and Reflinks
+    log.info('Updating sources and reflinks eids for merged events')
+    (extr_sources
+        .mapto(actions.s3__mapto__sources__update_eids)
+        .save('sources_11')
+    )
+    (extr_reflinks
+        .mapto(actions.s3__mapto__reflinks__update_eids)
+        .save('final_reflinks', nostep=True)
+    )
 
     # --------------------------------------------------------------------
     log.info('')

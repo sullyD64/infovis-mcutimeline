@@ -841,6 +841,7 @@ class Actions():
         return newattr
 
     def s3__iterate__events__merge_consecutive_similar_events(self, events: list):
+        log.info('Grouping consecutive similar events...')
         events_newid = self.legends['events_newid']
         output = []
         sub_evs = []
@@ -850,6 +851,7 @@ class Actions():
             if (
                 main_ev.date == ev.date and
                 main_ev.sources == ev.sources and
+                main_ev.reality == ev.reality and
                 any(char in ev.characters for char in main_ev.characters)
             ):
                 events_newid[ev.eid] = main_ev.eid
