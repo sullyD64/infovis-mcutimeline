@@ -817,7 +817,7 @@ class Actions():
         newattr = []
         if len(discovered_chars) > 0:
             self.counters['cnt_updated'] +=1
-            log.info(f'[x] {event.eid} existing {len(event.characters)}, adding {len(discovered_chars)} {discovered_chars}')
+            log.debug(f'[x] {event.eid} existing {len(event.characters)}, adding {len(discovered_chars)} {discovered_chars}')
             newattr = [*event.characters, *discovered_chars]
         else:
             log.debug(f'[_] {event.eid} no characters found')
@@ -837,7 +837,7 @@ class Actions():
                     log.error(f'{event.eid} not found {cid}')
                     raise Exception
                 newattr.append(matching_char['cid'])
-                log.info(f'{event.eid} replacing {cid} => {matching_char["cid"]}')
+                log.debug(f'{event.eid} replacing {cid} => {matching_char["cid"]}')
         return newattr
 
     def s3__iterate__events__merge_consecutive_similar_events(self, events: list):

@@ -1,7 +1,7 @@
 # mcu_app/admin.py
 from django.contrib import admin
 
-from mcu_app.models import Source, Event, Ref, Reflink
+from mcu_app.models import Source, Character, Event, Ref, Reflink
 
 class SourceAdmin(admin.ModelAdmin):
     def events_count(self, obj):
@@ -10,8 +10,14 @@ class SourceAdmin(admin.ModelAdmin):
         (None, {'fields': ['sid', 'title', 'type']}),
         ('Details', {'fields': ['details_formatted']}),
     ]
-    list_display = ('sid', 'title', 'type', 'details', 'events_count')
+    list_display = ('sid', 'parent', 'title', 'type', 'details', 'events_count')
     readonly_fields = ('details', 'details_formatted')
+
+
+class CharacterAdmin(admin.ModelAdmin):
+    def events_count(self, obj):
+        return obj.events.count()
+    list_display = ('cid', 'cid_redirects', 'real_name', 'events_count')
 
 
 class EventAdmin(admin.ModelAdmin):
@@ -30,6 +36,7 @@ class ReflinkAdmin(admin.ModelAdmin):
     list_display = ('lid', 'evt', 'src', 'ref')
 
 admin.site.register(Source, SourceAdmin)
+admin.site.register(Character, CharacterAdmin)
 admin.site.register(Event, EventAdmin)
 admin.site.register(Ref, RefAdmin)
 admin.site.register(Reflink, ReflinkAdmin)

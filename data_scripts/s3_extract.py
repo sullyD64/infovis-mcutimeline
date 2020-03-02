@@ -760,25 +760,10 @@ def main():
     extr_allchars = (Extractor(infile=next(OUTPUT.glob('*__allchars.json'))))
     occ_chars = Extractor(infile=next(OUTPUT.glob('*__occ_chars.json'))).get_first()
 
-    """
-    WIP: for now we only include events from main reality.
-    All further transformations are applied to those events only.
-    """
-    # TODO include events from alternate realities
-    (extr_events
-        .fork()
-        .filter_rows(lambda ev: not ev.reality == constants.REALITY_MAIN)
-        .save('extra_events_altrealities', nostep=True)
-    )
-    (extr_events
-        .filter_rows(lambda ev: ev.reality == constants.REALITY_MAIN)
-    )
-
     # 14.1 normalize characters, adding missing keys with empty values and including the number of occurrences
     (extr_allchars
         .mapto(actions.s3__mapto__chars__normalize_missing_attributes)
         .addattr('num_occurrences', lambda char: occ_chars[char['cid']])
-        .save('allchars_1')
     )
 
     # 14.2 add link to parent source
@@ -786,7 +771,7 @@ def main():
     (extr_sources
         .addattr('parent', actions.s3__addattr__sources__parent_source)
         .addattr('characters', actions.s3__addattr__sources__characters, **{'allchars': extr_allchars.get()})
-        .save('sources_10')
+        .save('sources_9_parent_characters')
     )
 
     # 14.4 discover new characters in event descriptions using character ids and names
@@ -808,12 +793,28 @@ def main():
     cntrs = actions.get_counters()
     log.info(f'-- Updated events: {cntrs["cnt_updated"]}')
 
-    # 14.5 merge consecutive similar events they share the same date, sources and the characters of any subsequent event are at most equal to the characters of the first event
+    """
+    Events from alternate realities are moved last in the event list.
+    """
+    extr_events_altrealities = (extr_events
+        .fork()
+        .filter_rows(lambda ev: not ev.reality == constants.REALITY_MAIN)
+    )
+    (extr_events
+        .filter_rows(lambda ev: ev.reality == constants.REALITY_MAIN)
+        .extend(extr_events_altrealities)
+        .save('events_4_reordered')
+    )
+
+    # 14.5 merge consecutive similar events if they share dates, sources, reality
+    # >>> and the characters of any subsequent event are at most equal to the characters of the first event.
     actions.set_legends(**{
         'events_newid': {}
     })
     (extr_events
+        .count('events before grouping')
         .iterate(actions.s3__iterate__events__merge_consecutive_similar_events)
+        .count('events after grouping')
         .save('events_5')
     )
 
@@ -827,6 +828,11 @@ def main():
         .mapto(actions.s3__mapto__reflinks__update_eids)
         .save('final_reflinks', nostep=True)
     )
+    
+    # 14.7 remove characters from sources
+    (extr_sources
+        .remove_cols(['characters'])
+    )
 
     # --------------------------------------------------------------------
     log.info('')
@@ -837,6 +843,7 @@ def main():
     (extr_sources.save('final_sources', nostep=True))
     (extr_refs.save('final_refs', nostep=True))
     (extr_events.save('final_events', nostep=True))
+    (extr_allchars.save('final_allchars', nostep=True))
     
     (extr_refs_multisource.save('extra_refs_multisource', nostep=True))
 

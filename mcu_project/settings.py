@@ -90,3 +90,26 @@ STATIC_URL = '/static/'
 #         'rest_framework.renderers.JSONRenderer',
 #     )
 # }
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'custom': {
+            'format': '%(asctime)-8s | %(levelname)-7s | %(filename)-17s | %(funcName)-15s | %(message)s',
+            'datefmt': '%H:%M:%S'
+        },
+    },
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'custom'
+        },
+    },
+    'loggers': {
+        '': {
+            'handlers': ['console'],
+            'level': 'INFO',
+        },
+    },
+}
