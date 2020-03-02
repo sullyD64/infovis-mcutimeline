@@ -1,0 +1,51 @@
+[
+  {
+    "cid": "Talos",
+    "real name": [
+      "Talos"
+    ],
+    "alias": [
+      "Soh-Larr",
+      "Keller",
+      "Mom",
+      "Boss",
+      "Nick Fury"
+    ],
+    "species": [
+      "Skrull"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "General",
+      "Director of S.H.I.E.L.D. (formerly; undercover)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly;undercover)",
+      "Nick Fury's Crew (formerly)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Ben Mendelsohn (original form and disguised)",
+      "Chuku Modu (disguised)",
+      "Emily Ozrey (disguised)",
+      "Abigaille Ozrey (disguised)",
+      "Duane Henry (disguised)",
+      "Samuel L. Jackson (disguised)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

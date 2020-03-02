@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Mouse (Styler)",
+    "real name": [],
+    "alias": [
+      "Mouse"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Jamaican"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Stylers"
+    ],
+    "actor": [
+      "Stefan Holdbrook"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Wig Out",
+        "source__type": "tv series",
+        "notes": "<br/>"
+      }
+    ]
+  }
+]

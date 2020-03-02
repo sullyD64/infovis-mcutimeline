@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "G.H.",
+    "real name": [],
+    "alias": [
+      "G.H.",
+      "Guest Host"
+    ],
+    "species": [
+      "Kree"
+    ],
+    "citizenship": [
+      "Kree Imperial"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Brandon Kolpack"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Frances",
+    "real name": [
+      "Frances"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Church of Gibborim"
+    ],
+    "actor": [
+      "Heather Olt",
+      "Alexa Marie Anderson (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      }
+    ]
+  }
+]

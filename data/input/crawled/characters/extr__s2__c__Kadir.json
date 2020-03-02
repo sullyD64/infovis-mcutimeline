@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Kadir",
+    "real name": [
+      "Kadir"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American",
+      "Turkish"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Umit Celebi"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Worst Behavior",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

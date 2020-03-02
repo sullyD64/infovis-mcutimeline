@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Grigori Veznikov",
+    "real name": [
+      "Grigori Veznikov"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "affiliation": [
+      "Hand"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Stan Demidoff"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Immortal Emerges from Cave",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

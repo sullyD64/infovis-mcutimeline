@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "King",
+    "alias": [
+      "King"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [],
+    "affiliation": [
+      "Hand"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Sala Baker"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Under Leaf Pluck Lotus",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Immortal Emerges from Cave",
+        "source__type": "tv series",
+        "notes": "head"
+      },
+      {
+        "source__title": "Felling Tree with Roots",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

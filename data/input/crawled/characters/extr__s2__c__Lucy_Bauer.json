@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Lucy Bauer",
+    "real name": [
+      "Lucy Bauer"
+    ],
+    "alias": [
+      "The Peanuts Gang (with Hugo and Vincent)"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Momentum Labs"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "actor": [
+      "Lilli Birdsell"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      " April 2017"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Soh-Larr",
+    "real name": [
+      "Soh-Larr"
+    ],
+    "species": [
+      "Kree"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "Kree Imperial"
+    ],
+    "actor": [
+      "Chuku Modu"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie",
+        "notes": "picture"
+      }
+    ]
+  }
+]

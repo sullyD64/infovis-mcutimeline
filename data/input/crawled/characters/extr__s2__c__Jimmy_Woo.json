@@ -1,0 +1,55 @@
+[
+  {
+    "cid": "Jimmy Woo",
+    "real name": [
+      "James Woo"
+    ],
+    "alias": [
+      "Jimmy Woo",
+      "Johnny Ask-A-Lot"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)",
+      "FBI"
+    ],
+    "title": [
+      "FBI Agent",
+      "Agent of S.H.I.E.L.D. (formerly)"
+    ],
+    "actor": [
+      "Randall Park"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Face My Enemy",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "WandaVision",
+        "source__type": "tv series",
+        "notes": "unreleased"
+      }
+    ]
+  }
+]

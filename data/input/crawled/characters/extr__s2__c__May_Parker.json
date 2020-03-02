@@ -1,0 +1,60 @@
+[
+  {
+    "cid": "May Parker",
+    "real name": [
+      "May Parker"
+    ],
+    "alias": [
+      "Unusually Attractive Aunt",
+      "Aunt Hottie",
+      "Spider-Man's Aunt"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Salvation Army"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "actor": [
+      "Marisa Tomei"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

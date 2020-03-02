@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Hamid Madani",
+    "real name": [
+      "Hamid Madani"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Iranian",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "actor": [
+      "Houshang Touzie"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

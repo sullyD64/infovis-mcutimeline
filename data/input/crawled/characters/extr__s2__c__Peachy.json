@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Peachy",
+    "alias": [
+      "Peachy",
+      "Peach"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Robert Crayton"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man - Scott Lang: Small Time",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

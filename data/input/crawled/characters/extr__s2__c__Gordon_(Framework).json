@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Gordon (Framework)",
+    "real name": [
+      "Gordon"
+    ],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "World's End",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Tye",
+    "real name": [
+      "Tye"
+    ],
+    "alias": [
+      "Coach"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Lighthouse"
+    ],
+    "affiliation": [
+      "Kasius"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Max E. Williams"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Life Spent",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Life Earned",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Past Life (Agents of S.H.I.E.L.D.)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

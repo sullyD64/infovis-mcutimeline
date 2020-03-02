@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Paxton Page",
+    "real name": [
+      "Paxton Page"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "''Penny's Place'' (formerly)"
+    ],
+    "actor": [
+      "Lee Tergesen"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Meltzer",
+    "real name": [
+      "Meltzer"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Los Angeles County Coroner"
+    ],
+    "actor": [
+      "Bruce Katzman"
+    ],
+    "DOD": [
+      "July 11, 1947"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Lady in the Lake",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

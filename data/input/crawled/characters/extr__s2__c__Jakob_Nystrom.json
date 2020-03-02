@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Jakob Nystrom",
+    "real name": [
+      "Jakob Nystrom"
+    ],
+    "alias": [
+      "Sid"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Norwegian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "30"
+    ],
+    "affiliation": [
+      "Norse Paganists"
+    ],
+    "actor": [
+      "Michael Graziadei"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Well",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

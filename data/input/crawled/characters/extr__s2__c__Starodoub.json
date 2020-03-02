@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Starodoub",
+    "real name": [
+      "Starodoub"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "General (formerly)"
+    ],
+    "affiliation": [
+      "Russian Armed Forces (formerly)"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Avengers Prelude: Black Widow Strikes",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

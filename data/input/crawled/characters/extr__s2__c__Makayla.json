@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Makayla",
+    "real name": [
+      "Makayla"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Cece King"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Freak Accident",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

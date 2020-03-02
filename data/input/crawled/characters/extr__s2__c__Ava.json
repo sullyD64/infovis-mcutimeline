@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Ava",
+    "real name": [
+      "Ava"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Lighthouse"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [],
+    "affiliation": [
+      "Kasius (formerly)"
+    ],
+    "actor": [
+      "Tunisha Hubbard"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      }
+    ]
+  }
+]

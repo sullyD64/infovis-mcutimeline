@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Richard Madison",
+    "real name": [
+      "Richard Madison<ref>[https://comicbook.com/marvel/2019/02/06/chris-odowd-forgot-he-was-in-thor/ Chris O'Dowd Forgot He Was in a 'Thor' Movie, But Has Good Feeling His Character Survived 'Avengers: Infinity War']</ref>"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Chris O'Dowd"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: The Dark World",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

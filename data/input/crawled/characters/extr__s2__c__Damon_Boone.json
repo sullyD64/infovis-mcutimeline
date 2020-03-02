@@ -1,0 +1,45 @@
+[
+  {
+    "cid": "Damon Boone",
+    "real name": [
+      "Damon Boone"
+    ],
+    "alias": [
+      "Dr. Boone",
+      "Pretty Boy Stanford Carpetbagger",
+      "Diet Obama"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Councilman"
+    ],
+    "affiliation": [
+      "Stanford University (formerly)",
+      "New York City Council"
+    ],
+    "actor": [
+      "Clark Jackson"
+    ],
+    "DOD": [
+      "December 2nd, 2015"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

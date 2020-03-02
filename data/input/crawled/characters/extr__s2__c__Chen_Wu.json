@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Chen Wu",
+    "real name": [
+      "Chen Wu"
+    ],
+    "alias": [
+      "One-Eyed Sycophant"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Chinese"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Late 2017"
+    ],
+    "affiliation": [
+      "Golden Tigers (formerly)"
+    ],
+    "actor": [
+      "Funan Chien"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

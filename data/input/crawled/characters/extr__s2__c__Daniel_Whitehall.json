@@ -1,0 +1,56 @@
+[
+  {
+    "cid": "Daniel Whitehall",
+    "real name": [
+      "Werner Reinhardt"
+    ],
+    "alias": [
+      "Daniel Whitehall",
+      "63635",
+      "Old Man",
+      "Nazi Bastard"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Nazi German (formerly)",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "110"
+    ],
+    "DOB": [
+      "October 9, 1904"
+    ],
+    "DOD": [
+      "March 2015"
+    ],
+    "title": [
+      "Doctor",
+      "Obergruppenführer (formerly)"
+    ],
+    "affiliation": [
+      "Schutzstaffel (formerly)",
+      "HYDRA",
+      "*HYDRA Preparatory Academy",
+      "*Project Destroyer of Worlds"
+    ],
+    "actor": [
+      "Reed Diamond"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "9 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Oscar Arocho",
+    "real name": [
+      "Oscar Arocho"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "J.R. Ramirez"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "11 episodes"
+      }
+    ]
+  }
+]

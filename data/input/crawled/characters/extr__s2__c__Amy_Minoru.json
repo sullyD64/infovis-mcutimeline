@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Amy Minoru",
+    "real name": [
+      "Amy Minoru"
+    ],
+    "species": [
+      "Human"
+    ],
+    "alias": [
+      "SUPERAMY164"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOB": [
+      "1998-1999"
+    ],
+    "DOD": [
+      "Late 2015"
+    ],
+    "actor": [
+      "Amanda Suk",
+      "Chandler Shen (young)"
+    ],
+    "affiliation": [
+      "Atlas Academy"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

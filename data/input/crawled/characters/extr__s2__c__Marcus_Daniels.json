@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Marcus Daniels",
+    "real name": [
+      "Marcus Daniels"
+    ],
+    "alias": [
+      "Blackout",
+      "Monster"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "October 11, 1972"
+    ],
+    "DOD": [
+      "Early 2014"
+    ],
+    "actor": [
+      "Patrick Brennan"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Providence (episode)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Only Light in the Darkness",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

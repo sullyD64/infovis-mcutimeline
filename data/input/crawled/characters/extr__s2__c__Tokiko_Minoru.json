@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Tokiko Minoru",
+    "real name": [
+      "Tokiko Minoru"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [],
+    "affiliation": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Enter The Dreamland",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

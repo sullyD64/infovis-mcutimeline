@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Stakar Ogord",
+    "real name": [
+      "Stakar Ogord"
+    ],
+    "species": [
+      "<!-- Stakar Ogord is not an Arcturan in the comics -->"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "RVG*SRC*SOT"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "title": [
+      "Captain"
+    ],
+    "actor": [
+      "Sylvester Stallone"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "James Lucas",
+    "real name": [
+      "James Lucas"
+    ],
+    "alias": [
+      "The Preacher",
+      "Rev",
+      "Ogre",
+      "Reverend Nunya"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Baptist Church"
+    ],
+    "title": [
+      "Reverend"
+    ],
+    "actor": [
+      "Reg E. Cathey"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

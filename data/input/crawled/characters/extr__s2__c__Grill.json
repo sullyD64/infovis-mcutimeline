@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Grill",
+    "real name": [
+      "Grill"
+    ],
+    "alias": [
+      "Avuncular Fellow",
+      "Junkyard King",
+      "Boss"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Lighthouse"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2091"
+    ],
+    "actor": [
+      "Pruitt Taylor Vince"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

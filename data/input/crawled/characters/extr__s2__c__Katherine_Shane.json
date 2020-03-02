@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Katherine Shane",
+    "real name": [
+      "Katherine Shane"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOB": [
+      "July 1968"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "actor": [],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Bridge",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

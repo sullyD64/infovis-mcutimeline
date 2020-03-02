@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Gary Clark Jr.",
+    "real name": [
+      "Gary Lee Clark Jr."
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Himself"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Straighten It Out",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

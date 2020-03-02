@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Jackson Norriss",
+    "real name": [
+      "Jackson Norriss"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Ten Rings"
+    ],
+    "actor": [
+      "Scoot McNairy"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Marvel One-Shot: All Hail the King",
+        "source__type": "oneshot"
+      }
+    ]
+  }
+]

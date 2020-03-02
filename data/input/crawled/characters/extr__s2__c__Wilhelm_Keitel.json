@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Wilhelm Keitel",
+    "real name": [
+      "Wilhelm Bodewin Johann Gustav Keitel"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Nazi German"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Generalfeldmarschall"
+    ],
+    "affiliation": [
+      "Wehrmacht"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "video footage"
+      },
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Blitzkrieg Button",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

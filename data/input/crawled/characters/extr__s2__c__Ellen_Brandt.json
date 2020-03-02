@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Ellen Brandt",
+    "real name": [
+      "Ellen Brandt"
+    ],
+    "alias": [
+      "Hot Wings"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "December 23, 2012"
+    ],
+    "affiliation": [
+      "United States Army",
+      "A.I.M."
+    ],
+    "actor": [
+      "Stephanie Szostak"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 3",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

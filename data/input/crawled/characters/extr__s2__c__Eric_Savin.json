@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "Eric Savin",
+    "actor": [
+      "James Badge Dale"
+    ],
+    "real name": [
+      "Eric Savin"
+    ],
+    "alias": [
+      "Iron Patriot",
+      "Colonel Rhodes",
+      "Shifty Character",
+      "Westworld"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "December 24, 2012"
+    ],
+    "title": [
+      "Lieutenant Colonel (formerly)"
+    ],
+    "affiliation": [
+      "United States Army (formerly)",
+      "A.I.M."
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 3",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

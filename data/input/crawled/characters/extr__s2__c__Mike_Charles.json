@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Mike Charles",
+    "real name": [
+      "Mike Charles"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "The Rearview"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man: Limited Edition",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

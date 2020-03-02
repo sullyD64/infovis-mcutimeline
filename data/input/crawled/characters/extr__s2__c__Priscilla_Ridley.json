@@ -1,0 +1,45 @@
+[
+  {
+    "cid": "Priscilla Ridley",
+    "real name": [
+      "Priscilla Ridley"
+    ],
+    "alias": [
+      "Inspector Gadget"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Inspector (formerly)",
+      "Deputy Chief"
+    ],
+    "affiliation": [
+      "NYPD"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Karen Pittman"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "12 episodes"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

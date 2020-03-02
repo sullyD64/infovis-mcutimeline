@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "James Rondell",
+    "real name": [
+      "James Rondell"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "''WIRED Insider''"
+    ],
+    "actor": [
+      "Himself"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series"
+      },
+      {
+        "source__title": "WIRED Insider Interviews Darren Cross, CEO of Pym Technologies",
+        "source__type": "web series"
+      }
+    ]
+  }
+]

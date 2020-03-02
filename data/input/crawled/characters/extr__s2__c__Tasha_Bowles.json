@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Tasha Bowles",
+    "real name": [
+      "Tasha Bowles"
+    ],
+    "alias": [
+      "Tash"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "DeWitt Clinton High School (formerly)"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Main Ingredient",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

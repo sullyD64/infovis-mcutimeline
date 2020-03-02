@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Wyatt",
+    "real name": [
+      "Wyatt"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [],
+    "actor": [
+      "Evan Hall"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA I Want Your Cray Cray",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

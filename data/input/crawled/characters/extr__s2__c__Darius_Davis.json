@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Darius Davis",
+    "real name": [
+      "Darius Davis"
+    ],
+    "alias": [
+      "D"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "January 2018"
+    ],
+    "affiliation": [
+      "Crips"
+    ],
+    "actor": [
+      "DeVaughn Nixon"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "9 episodes"
+      }
+    ]
+  }
+]

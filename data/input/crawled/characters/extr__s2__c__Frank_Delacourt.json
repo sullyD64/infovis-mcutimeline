@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Frank Delacourt",
+    "real name": [
+      "Frank Delacourt"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Technician"
+    ],
+    "DOD": [
+      "2013"
+    ],
+    "affiliation": [
+      "StatiCorp"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Repairs",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

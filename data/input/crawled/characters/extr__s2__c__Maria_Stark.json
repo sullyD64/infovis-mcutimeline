@@ -1,0 +1,80 @@
+[
+  {
+    "cid": "Maria Stark",
+    "real name": [
+      "Maria Collins Carbonell Stark"
+    ],
+    "alias": [
+      "Mom"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "December 16, 1991"
+    ],
+    "actor": [
+      "Hope Davis"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie",
+        "notes": "newspaper"
+      },
+      {
+        "source__title": "Iron Man 2",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie",
+        "notes": "hologram and flashback"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Man: I Am Iron Man!",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Man 2: Public Identity",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers: The Avengers Initiative",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming Prelude",
+        "source__type": "comic",
+        "notes": "hologram"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "video footage"
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "John McGinnis",
+    "real name": [
+      "John McGinnis"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Brigadier General (formerly)"
+    ],
+    "affiliation": [
+      "United States Army (formerly)"
+    ],
+    "DOD": [
+      "1946"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Blitzkrieg Button",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Iron Ceiling",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Valediction",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

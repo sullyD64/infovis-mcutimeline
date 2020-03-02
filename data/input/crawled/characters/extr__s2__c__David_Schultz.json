@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "David Schultz",
+    "real name": [
+      "David Schultz"
+    ],
+    "alias": [
+      "Posterboy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "United States Congress"
+    ],
+    "title": [
+      "Senator"
+    ],
+    "actor": [
+      "Todd Alan Crain"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "cid": "Vulture",
+    "real name": [
+      "Adrian Toomes"
+    ],
+    "alias": [
+      "Vulture",
+      "Chief",
+      "Flying Monster Guy",
+      "Flying Vulture Guy",
+      "Old Man",
+      "Guy with the Wings",
+      "Big Bird",
+      "Boss",
+      "Sir",
+      "Psychopath Dressed Like A Demon",
+      "Flying Winged Guy",
+      "Guy With Wings"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Bestman Salvage (formerly)",
+      "Adrian Toomes' Crew"
+    ],
+    "actor": [
+      "Michael Keaton"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Daily Bugle/Promotional Campaign",
+        "source__type": "web series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,383 @@
+[
+  {
+    "cid": "Iron Man",
+    "real name": [
+      "Anthony Edward Stark"
+    ],
+    "alias": [
+      "Tony Stark",
+      "Iron Man",
+      "The New Kid",
+      "Visionary",
+      "Genius",
+      "American Patriot",
+      "The Prodigal Son",
+      "Real Patriot",
+      "Boss",
+      "Wonder Boy",
+      "The Most Famous Mass-Murderer in the History of America",
+      "The Great Tony Stark",
+      "The Golden Goose",
+      "The Mysterious Bodyguard",
+      "The Starkster",
+      "Da Vinci of Our Time",
+      "The Merchant of Death",
+      "Iron Monger",
+      "Little Prick",
+      "The Consultant",
+      "Robotic Wunderkind",
+      "Howardson",
+      "Metal Man",
+      "Shellhead",
+      "Big Man in a Suit of Armor",
+      "Billionaire",
+      "Playboy",
+      "Philanthropist",
+      "The Mechanic",
+      "Billionaire in a Flying Metal Suit",
+      "The Legionnaire",
+      "The Man That Killed the Avengers",
+      "The Homeless Person On The Couch",
+      "The Futurist",
+      "Tin Can",
+      "Tony Stank",
+      "Douchebag",
+      "Chattering Animal",
+      "Earth's Greatest Defender",
+      "Howard Potts",
+      "Almonzo",
+      "The Jester King",
+      "Boozy Man Child",
+      "The World's Greatest Hero"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "May 29, 1970"
+    ],
+    "DOD": [
+      "October 2023"
+    ],
+    "title": [
+      "CEO of Stark Industries (formerly)",
+      "Consultant (formerly)"
+    ],
+    "affiliation": [
+      "MIT (formerly)",
+      "Stark Industries",
+      "S.H.I.E.L.D. (formerly)",
+      "*Project Insight (formerly)",
+      "Avengers",
+      "Damage Control"
+    ],
+    "actor": [
+      "Robert Downey, Jr.",
+      "Davin Ransom (young)"
+    ],
+    "voice actor": [
+      "Ari Ross",
+      "Stephen Stanton",
+      "Eric Loomis",
+      "Adrian Pasdar"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Incredible Hulk",
+        "source__type": "movie",
+        "notes": "pre-credits scene"
+      },
+      {
+        "source__title": "Iron Man 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Thor (film)",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Iron Man 3",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie",
+        "notes": "mentioned; deleted scene"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Black Widow (film)",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Marvel One-Shot: The Consultant",
+        "source__type": "oneshot",
+        "notes": "archive footage"
+      },
+      {
+        "source__title": "Marvel One-Shot: All Hail the King",
+        "source__type": "oneshot",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Peter's To-Do List",
+        "source__type": "oneshot",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "figure"
+      },
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "footage"
+      },
+      {
+        "source__title": "Team Thor",
+        "source__type": "web series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Team Thor: Part 2",
+        "source__type": "web series",
+        "notes": "drawing"
+      },
+      {
+        "source__title": "Iron Man: Fast Friends",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man: Security Measures",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man: I Am Iron Man!",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man: The Price of Doing Business",
+        "source__type": "comic",
+        "notes": "non-canon"
+      },
+      {
+        "source__title": "Iron Man 2: Security Breach",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man: Will Online Evils Prevail?",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Nick Fury: Director of S.H.I.E.L.D.",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Public Identity",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Phil Coulson: Agent of S.H.I.E.L.D.",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Man: Limited Edition",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Black Widow: Agent of S.H.I.E.L.D.",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man Royal Purple Custom Comic",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Fist of Iron",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Prelude: Fury's Big Week",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers: Iron Man Mark VII",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Prelude: Black Widow Strikes",
+        "source__type": "comic",
+        "notes": "footage"
+      },
+      {
+        "source__title": "The Avengers: The Avengers Initiative",
+        "source__type": "comic",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Iron Man 2 Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 3 Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor Adaptation",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Man: The Coming of the Melter",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor: The Dark World Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron Prelude - This Scepter'd Isle",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Operation HYDRA",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron Episode 0",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers: Cutting Edge",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Doctor Strange: Episode 0",
+        "source__type": "comic",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Road to War",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Black Panther Prelude",
+        "source__type": "comic",
+        "notes": "footage"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain Marvel Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Black Widow Prelude",
+        "source__type": "comic",
+        "notes": "flashbacks"
+      }
+    ]
+  }
+]

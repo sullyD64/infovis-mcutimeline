@@ -1,0 +1,27 @@
+[
+  {
+    "cid": "Mike Peterson (Illusion)",
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "Fear Dimension"
+    ],
+    "actor": [
+      "J. August Richards"
+    ],
+    "status": [
+      "Destroyed"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Real Deal",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

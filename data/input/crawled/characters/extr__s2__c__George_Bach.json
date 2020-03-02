@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "George Bach",
+    "real name": [
+      "George Bach"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Metro-General Hospital (formerly)"
+    ],
+    "actor": [
+      "Ryan Woodle"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Penny and Dime",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Man in the Box",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Receptionist",
+    "real name": [],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Isodyne Energy"
+    ],
+    "actor": [
+      "Angela Cristantello"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Lady in the Lake",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A View in the Dark",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

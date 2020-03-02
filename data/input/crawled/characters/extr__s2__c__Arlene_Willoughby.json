@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Arlene Willoughby",
+    "real name": [
+      "Arlene Willoughby"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "2013"
+    ],
+    "title": [
+      "Technician"
+    ],
+    "affiliation": [
+      "StatiCorp"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Repairs",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

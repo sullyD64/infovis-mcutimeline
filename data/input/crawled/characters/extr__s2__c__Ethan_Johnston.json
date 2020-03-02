@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Ethan Johnston",
+    "real name": [
+      "Ethan Johnston"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "1989"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "age": [
+      "26"
+    ],
+    "actor": [
+      "Kris Lemche"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Melinda",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Frenemy of My Enemy",
+        "source__type": "tv series",
+        "notes": "corpse"
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Thembi Wallace",
+    "real name": [
+      "Thembi Wallace"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "affiliation": [
+      "WJBP-TV"
+    ],
+    "actor": [
+      "Tijuana Ricks"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Iron Fist (1948)",
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "K'un-Lunan"
+    ],
+    "affiliation": [
+      "Order of the Crane Mother"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "The Immortal Iron Fist"
+    ],
+    "actor": [
+      "Michael Lehr"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Black Tiger Steals Heart",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Target: Iron Fist",
+        "source__type": "tv series",
+        "notes": "corpse"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

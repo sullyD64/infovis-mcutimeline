@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Vando",
+    "alias": [
+      "Vando"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [],
+    "affiliation": [
+      "Hand"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Felling Tree with Roots",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

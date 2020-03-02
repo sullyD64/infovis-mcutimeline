@@ -1,0 +1,88 @@
+[
+  {
+    "cid": "Brock Rumlow",
+    "real name": [
+      "Brock Rumlow"
+    ],
+    "alias": [
+      "Crossbones"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "May 3, 2016"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D. (formerly)",
+      "STRIKE Commander (formerly)"
+    ],
+    "affiliation": [
+      "HYDRA (formerly)",
+      "*Project Insight (formerly)",
+      "S.H.I.E.L.D. (formerly,undercover)",
+      "*STR (formerly, undercover)"
+    ],
+    "actor": [
+      "Frank Grillo"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "footage"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier Infinite Comic",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Homecoming",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron Prelude - This Scepter'd Isle",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude Infinite Comic",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Black Widow Prelude",
+        "source__type": "comic",
+        "notes": "flashbacks"
+      }
+    ]
+  }
+]

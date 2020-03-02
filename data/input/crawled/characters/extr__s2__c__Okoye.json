@@ -1,0 +1,56 @@
+[
+  {
+    "cid": "Okoye",
+    "real name": [
+      "Okoye"
+    ],
+    "alias": [
+      "Chickadee"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Wakandan"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "General"
+    ],
+    "affiliation": [
+      "Border Tribe",
+      "Dora Milaje",
+      "Avengers (formerly)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Danai Gurira"
+    ],
+    "appearences": [
+      {
+        "source__title": "Black Panther (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Black Panther Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Hayley",
+    "real name": [
+      "Hayley"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Sabrina Reitman"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Memento Mori",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Nakazat",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

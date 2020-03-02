@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Eva Belyakov",
+    "real name": [
+      "Eva Belyakov"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "age": [
+      "35"
+    ],
+    "DOB": [
+      "1973"
+    ],
+    "DOD": [
+      "2008"
+    ],
+    "actor": [
+      "Winter Ave Zoli"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Repairs",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Melinda",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Scars",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

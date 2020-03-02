@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Davis (Agent)",
+    "real name": [
+      "Davis"
+    ],
+    "alias": [
+      "Agent Red",
+      "Big Dumb Baby",
+      "Reliable Witness",
+      "Big Guy",
+      "Puff Head",
+      "Junky",
+      "Buddy",
+      "Whiny Bitch",
+      "Big Baby",
+      "Hotshot"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2019"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D.",
+      "*STR2"
+    ],
+    "actor": [
+      "Max Osinski"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "26 episodes"
+      }
+    ]
+  }
+]

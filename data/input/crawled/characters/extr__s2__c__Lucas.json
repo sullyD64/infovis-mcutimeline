@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Lucas",
+    "real name": [
+      "Lucas"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Lieutenant"
+    ],
+    "affiliation": [
+      "United States Air Force"
+    ],
+    "DOD": [
+      "November 2017"
+    ],
+    "actor": [
+      "Joe Layton"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Rewind (Agents of S.H.I.E.L.D.)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

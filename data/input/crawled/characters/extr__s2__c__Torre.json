@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Torre",
+    "real name": [
+      "Torre"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Camrus Johnson"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Code of the Streets",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Main Ingredient",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Charles Healey",
+    "real name": [
+      "Charles Healey"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "CEO of AccuTech"
+    ],
+    "affiliation": [
+      "AccuTech"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Stark Expo/Promotional Campaign",
+        "source__type": "web series"
+      }
+    ]
+  }
+]

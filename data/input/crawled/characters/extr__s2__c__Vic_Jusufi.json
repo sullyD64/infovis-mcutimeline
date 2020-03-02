@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Vic Jusufi",
+    "real name": [
+      "Vic Jusufi"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Albanian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Albanian Syndicate"
+    ],
+    "actor": [
+      "James Biberi"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Blindsided",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

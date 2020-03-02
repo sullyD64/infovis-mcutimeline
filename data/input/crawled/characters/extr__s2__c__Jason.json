@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Jason",
+    "real name": [
+      "Jason"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "January 2018<ref>''Runaways: 1.07: Refraction''</ref><ref>''Runaways: 1.09: Doomsday''</ref><ref>''Runaways: 2.07: Last Rites''</ref>"
+    ],
+    "actor": [
+      "Nathan People"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Bury Another",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

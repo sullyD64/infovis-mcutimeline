@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Roger Perez",
+    "real name": [
+      "Roger Perez"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "title": [
+      "Councilman"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Los Angeles City Council"
+    ],
+    "DOD": [
+      "March 7, 2017"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Ghost",
+        "source__type": "tv series",
+        "notes": "news"
+      }
+    ]
+  }
+]

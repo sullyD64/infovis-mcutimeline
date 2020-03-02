@@ -1,0 +1,59 @@
+[
+  {
+    "cid": "Jeffrey Mace",
+    "real name": [
+      "Jeffrey Mace"
+    ],
+    "alias": [
+      "Patriot",
+      "Jeff",
+      "Monster",
+      "Hero of Vienna",
+      "The Next Captain America",
+      "Head Coach",
+      "Quarterback",
+      "Team Mascot",
+      "Blocker",
+      "Terrorist",
+      "Thug"
+    ],
+    "species": [
+      "HumanInhuman (Framework)"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "''International Affairs'' (formerly)",
+      "S.H.I.E.L.D.",
+      "S.H.I.E.L.D. (Framework)"
+    ],
+    "title": [
+      "Director of S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Jason O'Mara"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      "May 2017"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "14 episodes"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: Slingshot",
+        "source__type": "web series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

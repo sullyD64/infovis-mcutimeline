@@ -1,0 +1,66 @@
+[
+  {
+    "cid": "Hela",
+    "real name": [
+      "Hela Odinsdottir"
+    ],
+    "alias": [
+      "Goddess of Death",
+      "Odin's Firstborn",
+      "Evil Demoness",
+      "Murderous Hag",
+      "The Rightful Heir",
+      "Savior of Asgard",
+      "Powerful Being",
+      "Evil Being"
+    ],
+    "species": [
+      "Asgardian"
+    ],
+    "citizenship": [
+      "Asgardian"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Asgardian Royal Family (formerly)",
+      "Berserkers"
+    ],
+    "title": [
+      "Goddess of Death",
+      "Princess of Asgard (formerly)",
+      "Chief of the Legion of Asgard (formerly)",
+      "Executioner of Asgard (formerly)",
+      "Queen of Asgard (formerly)"
+    ],
+    "DOD": [
+      "Late 2017"
+    ],
+    "actor": [
+      "Cate Blanchett"
+    ],
+    "voice actor": [
+      "Jessie Seely"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

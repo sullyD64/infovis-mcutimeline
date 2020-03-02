@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Earl Scarfe",
+    "real name": [
+      "Earl Scarfe"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Suckas Need Bodyguards",
+        "source__type": "tv series",
+        "notes": "picture"
+      },
+      {
+        "source__title": "All Souled Out",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "If It Ain't Rough, It Ain't Right",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Kevin Singleton",
+    "real name": [
+      "Kevin Singleton"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "DOD": [
+      "2016"
+    ],
+    "affiliation": [],
+    "actor": [
+      "Ramon Fernandez"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

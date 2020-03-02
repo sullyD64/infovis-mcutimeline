@@ -1,0 +1,27 @@
+[
+  {
+    "cid": "Billy (Patient)",
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Shadow Hawk Takes Flight",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

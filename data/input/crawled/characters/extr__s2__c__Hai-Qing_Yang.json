@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Hai-Qing Yang",
+    "real name": [
+      "海清扬 (Hai-Qing Yang)"
+    ],
+    "alias": [
+      "Some Chinese Dude",
+      "Oldboy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Chinese"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "DOD": [
+      "Late 2017"
+    ],
+    "affiliation": [
+      "Yangsi Gonshi"
+    ],
+    "actor": [
+      "Henry Yuk"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Lily Ellison",
+    "real name": [
+      "Lily Ellison"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "''Proxy Magazine''"
+    ],
+    "actor": [
+      "Meredith Salenger"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Daredevil (episode)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "No Good Deed",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Devil You Know",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

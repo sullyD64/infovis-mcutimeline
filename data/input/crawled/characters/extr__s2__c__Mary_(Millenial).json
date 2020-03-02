@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Mary (Millenial)",
+    "real name": [
+      "Emma"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [],
+    "actor": [
+      "Brie Carter"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Past Life (Runaways)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Earth Angel",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

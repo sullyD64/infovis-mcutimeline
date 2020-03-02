@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Lockjaw",
+    "real name": [
+      "Lockjaw"
+    ],
+    "alias": [
+      "Stupid Dog",
+      "Giant Cow-Dog",
+      "Teleporting Hound",
+      "Alien Dog"
+    ],
+    "species": [
+      "Inhuman Dog"
+    ],
+    "citizenship": [
+      "Attilan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Inhuman Royal Family"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      }
+    ]
+  }
+]

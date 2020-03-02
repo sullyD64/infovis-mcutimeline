@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Delmar",
+    "real name": [
+      "Delmar"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "affiliation": [
+      "''Delmar's Deli-Grocery'' (formerly)",
+      "''Delmar's Deli & Grill''"
+    ],
+    "actor": [
+      "Hemky Madera"
+    ],
+    "appearences": [
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie",
+        "notes": "deleted scenes"
+      },
+      {
+        "source__title": "Peter's To-Do List",
+        "source__type": "oneshot"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

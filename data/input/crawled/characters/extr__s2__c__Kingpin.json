@@ -1,0 +1,85 @@
+[
+  {
+    "cid": "Kingpin",
+    "real name": [
+      "Wilson Grant Fisk"
+    ],
+    "alias": [
+      "Kingpin",
+      "The King",
+      "The King of Diamonds",
+      "Big White Guy",
+      "Baldy",
+      "King Kong",
+      "Willie Fisk",
+      "Fatty",
+      "Little Bastard",
+      "The Devil",
+      "The Second Coming",
+      "The Ill Intent",
+      "Fatboy",
+      "Inmate 55467",
+      "The Boogeyman of Crime",
+      "The Man who Cast a Shadow in the Dark",
+      "Fat Man",
+      "Fat Dude",
+      "Snitch",
+      "Convict",
+      "Shitbag",
+      "Cop Killer",
+      "New York's Scapegoat",
+      "Killer",
+      "Son of a Bitch",
+      "The Animal",
+      "The Biggest Mob Boss in the City",
+      "Bald Asshole",
+      "You-Know-Who",
+      "Malignant Tumor"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "1960s"
+    ],
+    "age": [
+      "50s"
+    ],
+    "affiliation": [
+      "Union Allied (formerly)",
+      "Confederated Global Investments (formerly)",
+      "Vancorp (formerly)",
+      "Red Lion National Bank (formerly)"
+    ],
+    "actor": [
+      "Vincent D'Onofrio",
+      "Cole Jensen (young)"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "27 episodes"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "cid": "Michael Gorani",
+    "real name": [
+      "Michael Gorani"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "CEO of Gorani Insurance"
+    ],
+    "affiliation": [
+      "Gorani Insurance"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 2: Fist of Iron",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

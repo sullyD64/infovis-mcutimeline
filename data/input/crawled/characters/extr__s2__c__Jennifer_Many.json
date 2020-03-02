@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Jennifer Many",
+    "real name": [
+      "Jennifer Many"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "''NYB''"
+    ],
+    "actor": [
+      "Russell Arden Koplin"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Eight Diagram Dragon Palm",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

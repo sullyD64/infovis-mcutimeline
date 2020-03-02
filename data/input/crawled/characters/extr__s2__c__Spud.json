@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Spud",
+    "alias": [
+      "Spud",
+      "Joker",
+      "Psychopath",
+      "Murderous Thief"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "HYDRA"
+    ],
+    "actor": [
+      "Daniel Feuerriegel"
+    ],
+    "DOD": [
+      "December 1, 2015"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Wanted (Inhu)man",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Devils You Know",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

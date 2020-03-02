@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Scut",
+    "real name": [
+      "Scut"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Ben Rezendes"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "3 AM",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

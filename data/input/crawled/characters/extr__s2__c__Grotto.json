@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Grotto",
+    "real name": [
+      "Elliot Grote"
+    ],
+    "alias": [
+      "Grotto",
+      "Steve Schaffer",
+      "Charlie Brown",
+      "Shit Brick"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Kitchen Irish"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "actor": [
+      "McCaleb Burnett"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

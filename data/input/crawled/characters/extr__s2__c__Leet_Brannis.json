@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Leet Brannis",
+    "real name": [
+      "Leet Brannis"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Soviet"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "April 18, 1946"
+    ],
+    "title": [
+      "Junior Sergeant (formerly)"
+    ],
+    "affiliation": [
+      "Soviet Armed Forces (formerly)",
+      "Leviathan (formerly)"
+    ],
+    "actor": [
+      "James Frain"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Basha",
+    "real name": [
+      "Basha"
+    ],
+    "species": [],
+    "citizenship": [],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Rya Kihlstedt"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Life Spent",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Life Earned",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

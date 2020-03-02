@@ -1,0 +1,28 @@
+[
+  {
+    "cid": "Gary Hendricks",
+    "real name": [
+      "Gary Hendricks"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: Evil Lurks Everywhere",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

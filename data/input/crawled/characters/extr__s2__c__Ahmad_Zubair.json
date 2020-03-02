@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Ahmad Zubair",
+    "real name": [
+      "Ahmad Zubair"
+    ],
+    "alias": [
+      "Dead Afghan",
+      "Some Guy in an Unmarked Grave"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Afghan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "25px Afghan National Police"
+    ],
+    "actor": [
+      "Shezi Sardar"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

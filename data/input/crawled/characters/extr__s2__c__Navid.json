@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Navid",
+    "real name": [
+      "Navid"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Obada Alassadi"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: The Dark World",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

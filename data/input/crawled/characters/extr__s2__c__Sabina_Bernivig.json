@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Sabina Bernivig",
+    "real name": [
+      "Sabina Bernivig"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "affiliation": [],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Alessia Sushko"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Under Leaf Pluck Lotus",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Immortal Emerges from Cave",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Kamaria",
+    "real name": [
+      "Kamaria"
+    ],
+    "species": [],
+    "gender": [
+      "Female"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

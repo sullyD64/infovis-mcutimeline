@@ -1,0 +1,69 @@
+[
+  {
+    "cid": "Elena Rodriguez",
+    "real name": [
+      "Elena Rodriguez"
+    ],
+    "alias": [
+      "Yo-Yo",
+      "The Good",
+      "Niña",
+      "Sweeney Todd",
+      "Speedy Gonzales Girl",
+      "Sofia Perez",
+      "Master Thief",
+      "New Girl",
+      "Escobar",
+      "Seer",
+      "Pacquiao",
+      "The Invincible Three (with Leo Fitz and Jemma Simmons)",
+      "Cutthroat",
+      "Speedy",
+      "Slingshot",
+      "Fast Friend",
+      "Fast Lady",
+      "Girl with the Mechanical Arms",
+      "Sweetheart"
+    ],
+    "species": [
+      "Inhuman (Cyborg)"
+    ],
+    "citizenship": [
+      "Colombian"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D.",
+      "Unit Commander"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D.",
+      "*SCW (formerly)",
+      "*STR2"
+    ],
+    "DOD": [
+      "2091 (alternate timeline)"
+    ],
+    "actor": [
+      "Natalia Cordova-Buckley"
+    ],
+    "status": [
+      "Alive",
+      "Deceased (older alternate timeline version)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "61 episodes"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: Slingshot",
+        "source__type": "web series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

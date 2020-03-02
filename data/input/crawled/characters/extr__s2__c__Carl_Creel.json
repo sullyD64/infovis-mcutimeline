@@ -1,0 +1,56 @@
+[
+  {
+    "cid": "Carl Creel",
+    "real name": [
+      "Carl Creel"
+    ],
+    "alias": [
+      "The Crusher",
+      "Crusher Creel",
+      "Absorbing Man",
+      "Third Party",
+      "The Bulletproof Assassin",
+      "Michelin Man",
+      "Inside Man",
+      "Government's Hired Gun",
+      "Messenger Boy",
+      "Guinea Pig",
+      "Son",
+      "Soldier"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "HYDRA (formerly)",
+      "ATCU (formerly)"
+    ],
+    "DOD": [
+      "Spring 2018"
+    ],
+    "actor": [
+      "Brian Patrick Wade"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "9 episodes"
+      },
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

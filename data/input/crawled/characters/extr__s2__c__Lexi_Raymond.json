@@ -1,0 +1,29 @@
+[
+  {
+    "cid": "Lexi Raymond",
+    "real name": [
+      "Lexi Raymond"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Chloe Levine"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

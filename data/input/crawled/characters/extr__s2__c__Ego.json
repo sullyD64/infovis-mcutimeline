@@ -1,0 +1,68 @@
+[
+  {
+    "cid": "Ego",
+    "real name": [
+      "Ego"
+    ],
+    "alias": [
+      "The Living Planet",
+      "Angel",
+      "Jackass",
+      "Spaceman",
+      "Little Man",
+      "Little One Inch Man",
+      "David Hasselhoff",
+      "The Alien",
+      "The Sailors (with Peter Quill)",
+      "The Sea",
+      "Weird Dumb Planet",
+      "Ego's Planet"
+    ],
+    "species": [
+      "Celestial"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "Millions of years"
+    ],
+    "DOD": [
+      "October 2014"
+    ],
+    "actor": [
+      "Kurt Russell",
+      "Aaron Schwartz (younger self; body double)",
+      "David Hasselhoff (alternative form)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

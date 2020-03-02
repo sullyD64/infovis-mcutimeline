@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Janice Robbins",
+    "real name": [
+      "Rebecca Stevens"
+    ],
+    "alias": [
+      "Janice Robbins"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)"
+    ],
+    "actor": [
+      "Monique Gabriela Curnen"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Writing on the Wall",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

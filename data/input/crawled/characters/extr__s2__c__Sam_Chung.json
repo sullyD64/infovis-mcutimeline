@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Sam Chung",
+    "real name": [
+      "Sam Chung"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [
+      "Bayard Community Center"
+    ],
+    "actor": [
+      "James Chen"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

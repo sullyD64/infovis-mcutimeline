@@ -1,0 +1,61 @@
+[
+  {
+    "cid": "Bobbi Morse",
+    "real name": [
+      "Barbara Morse"
+    ],
+    "alias": [
+      "Bobbi Morse",
+      "Mockingbird",
+      "Demonic Hell-Beast",
+      "Barbie",
+      "Bob",
+      "Amazon Woman",
+      "Detective",
+      "Katelin Frayer",
+      "Agent Phillips",
+      "Bird",
+      "Rosetta Stone",
+      "Barb",
+      "Blonde"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)",
+      "HYDRA (formerly,undercover)"
+    ],
+    "actor": [
+      "Adrianne Palicki"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "30 episodes"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: Slingshot",
+        "source__type": "web series"
+      },
+      {
+        "source__title": "Reunion (Agents of S.H.I.E.L.D.: Slingshot)",
+        "source__type": "web series",
+        "notes": "indirectly mentioned"
+      }
+    ]
+  }
+]

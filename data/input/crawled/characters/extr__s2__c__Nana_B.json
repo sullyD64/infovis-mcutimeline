@@ -1,0 +1,31 @@
+[
+  {
+    "cid": "Nana B",
+    "real name": [],
+    "alias": [
+      "Nana B"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Elayn J. Taylor"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

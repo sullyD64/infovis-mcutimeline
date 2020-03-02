@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "Richard Lumley",
+    "real name": [
+      "Richard Lumley"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)"
+    ],
+    "actor": [
+      "Boyd Kestner"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Seeds",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Hen in the Wolf House",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Who You Really Are",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

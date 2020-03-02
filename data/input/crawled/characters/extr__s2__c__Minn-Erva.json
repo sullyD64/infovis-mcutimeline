@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Minn-Erva",
+    "real name": [
+      "Minn-Erva"
+    ],
+    "alias": [],
+    "species": [
+      "Kree"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "citizenship": [
+      "Kree Imperial"
+    ],
+    "affiliation": [
+      "Starforce"
+    ],
+    "DOD": [
+      "June 1995"
+    ],
+    "actor": [
+      "Gemma Chan"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

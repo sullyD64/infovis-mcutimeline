@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Green Suit",
+    "real name": [
+      "Sasha Demidov"
+    ],
+    "alias": [
+      "The Man in the Green Suit",
+      "Prince Charming",
+      "Alfred Lean",
+      "Orson Hawks",
+      "Federico Rosellini"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Soviet"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Junior Sergeant (formerly)"
+    ],
+    "affiliation": [
+      "Soviet Armed Forces (formerly)",
+      "Leviathan"
+    ],
+    "actor": [
+      "James Hebert"
+    ],
+    "DOD": [
+      "April 18, 1946"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

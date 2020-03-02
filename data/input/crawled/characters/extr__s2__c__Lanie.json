@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Lanie",
+    "real name": [
+      "Lanie"
+    ],
+    "alias": [
+      "Merchandise"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "''Tipsy Tilly's Bar''"
+    ],
+    "actor": [
+      "Flora Wildes"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Flustercluck",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

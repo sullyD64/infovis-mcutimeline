@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Paulie",
+    "real name": [
+      "Paulie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "November 9, 2016"
+    ],
+    "actor": [
+      "Tyler Elliot Burke"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "3 AM",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

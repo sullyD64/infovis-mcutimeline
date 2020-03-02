@@ -1,0 +1,62 @@
+[
+  {
+    "cid": "Shuri",
+    "real name": [
+      "Shuri"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Wakandan"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Princess of Wakanda",
+      "Head of the Science and Information Exchange"
+    ],
+    "affiliation": [
+      "Golden Tribe",
+      "Wakandan Design Group",
+      "Wakandan International Outreach Centre"
+    ],
+    "actor": [
+      "Letitia Wright"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Black Panther (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Black Panther II",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

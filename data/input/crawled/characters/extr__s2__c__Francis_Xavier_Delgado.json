@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Francis Xavier Delgado",
+    "real name": [
+      "Francis Xavier Delgado"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Father"
+    ],
+    "affiliation": [
+      "St. Sebastian's Preparatory School (formerly)"
+    ],
+    "actor": [
+      "Jaime Zevallos"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

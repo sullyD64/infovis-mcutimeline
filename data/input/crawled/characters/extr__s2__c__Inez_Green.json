@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Inez Green",
+    "real name": [
+      "Inez Green"
+    ],
+    "alias": [
+      "Mean-ez Mean",
+      "Trashy Little Skank"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Nurse (formerly)"
+    ],
+    "affiliation": [
+      "IGH (formerly)"
+    ],
+    "actor": [
+      "Leah Gibson"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

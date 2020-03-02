@@ -1,0 +1,53 @@
+[
+  {
+    "cid": "Wendell Rand",
+    "real name": [
+      "Wendell Rand"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "CEO of Rand Enterprises"
+    ],
+    "affiliation": [
+      "Columbia University (formerly)",
+      "Rand Enterprises"
+    ],
+    "DOB": [
+      "December 19, 1965<ref name=\"IFBtS\">[http://www.zacharyzirlin.com/iron-fist/hl14k2gwamr2adw3bpekpmvm6cejfn Wendell's Date of Birth]</ref>"
+    ],
+    "DOD": [
+      "Late 2001<ref name=\"IF Explanation\">''Iron Fist Air Crash Accident Explanation''</ref>"
+    ],
+    "actor": [
+      "David Furr"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

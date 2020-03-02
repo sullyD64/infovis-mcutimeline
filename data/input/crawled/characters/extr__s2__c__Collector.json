@@ -1,0 +1,63 @@
+[
+  {
+    "cid": "Collector",
+    "real name": [
+      "Taneleer Tivan"
+    ],
+    "alias": [
+      "The Collector",
+      "Fancy Man",
+      "Whitey",
+      "Charlatan"
+    ],
+    "species": [
+      "<!-- DO NOT ADD \"Elder of the Universe\", that's not even a species in the comics -->"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Tivan Group"
+    ],
+    "actor": [
+      "Benicio del Toro"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: The Dark World",
+        "source__type": "movie",
+        "notes": "mid-credits scene"
+      },
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie",
+        "notes": "illusion"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prequel Infinite Comic",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic",
+        "notes": "illusion"
+      }
+    ]
+  }
+]

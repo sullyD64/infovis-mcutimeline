@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "Radovan Bernivig",
+    "real name": [
+      "Radovan Bernivig"
+    ],
+    "alias": [
+      "The Chemist",
+      "The Source",
+      "Einstein",
+      "John Doe"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "affiliation": [
+      "Hand (unwillingly)"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Olek Krupa"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Under Leaf Pluck Lotus",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Immortal Emerges from Cave",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Felling Tree with Roots",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

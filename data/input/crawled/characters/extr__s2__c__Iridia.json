@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Iridia",
+    "alias": [
+      "Flyer"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Attilan"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Andra Nechita"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Behold…The Inhumans!",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Those Who Would Destroy Us",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "...And Finally: Black Bolt",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

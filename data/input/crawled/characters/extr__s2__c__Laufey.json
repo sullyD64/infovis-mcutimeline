@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Laufey",
+    "real name": [
+      "Laufey"
+    ],
+    "species": [
+      "Frost Giant"
+    ],
+    "citizenship": [
+      "Jotun"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "King of Jotunheim"
+    ],
+    "age": [
+      "3000+"
+    ],
+    "DOD": [
+      "June 2, 2010<ref>''The Art of the Avengers'' timeline</ref><ref>''The Avengers Prelude: Fury's Big Week''</ref><ref>Tony Stark's file from a deleted scene from ''The Avengers''</ref>"
+    ],
+    "actor": [
+      "Colm Feore"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie",
+        "notes": "fresco"
+      },
+      {
+        "source__title": "Thor Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor: The Dark World Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Topaz",
+    "real name": [
+      "Topaz"
+    ],
+    "citizenship": [
+      "Sakaaran"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "Late 2017<ref name=\"TR\"/><ref>''Agents of S.H.I.E.L.D.: 5.11: All the Comforts of Home''</ref>"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "affiliation": [
+      "Sakaaran Guards"
+    ],
+    "actor": [
+      "Rachel House"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Team Darryl",
+        "source__type": "web series",
+        "notes": "photograph"
+      }
+    ]
+  }
+]

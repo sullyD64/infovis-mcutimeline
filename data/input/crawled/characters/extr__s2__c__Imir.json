@@ -1,0 +1,26 @@
+[
+  {
+    "cid": "Imir",
+    "real name": [
+      "Imir"
+    ],
+    "species": [
+      "Asgardian"
+    ],
+    "citizenship": [
+      "Asgardian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Avengers: The Avengers Initiative",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

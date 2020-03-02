@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Skurge",
+    "real name": [
+      "Skurge"
+    ],
+    "alias": [
+      "Janitor",
+      "Smart Boy",
+      "Executioner"
+    ],
+    "species": [
+      "Asgardian"
+    ],
+    "citizenship": [
+      "Asgardian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Late 2017"
+    ],
+    "title": [
+      "Guardian of the Bifrost Bridge (formerly)",
+      "Executioner of Asgard (formerly)"
+    ],
+    "actor": [
+      "Karl Urban"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "affiliation": [
+      "Einherjar (formerly)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

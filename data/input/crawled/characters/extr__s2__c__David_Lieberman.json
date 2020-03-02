@@ -1,0 +1,57 @@
+[
+  {
+    "cid": "David Lieberman",
+    "real name": [
+      "David Linus Lieberman"
+    ],
+    "alias": [
+      "Micro",
+      "Crime-Scene Junkie",
+      "Dad",
+      "Spook",
+      "Ghost",
+      "Dead Man",
+      "Asshole",
+      "Couple of Smart Guys (with Frank Castle",
+      "Anonymous Source",
+      "Guidance System",
+      "Geek Friend"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Rising Tide (formerly)",
+      "NSA (formerly)"
+    ],
+    "actor": [
+      "Ebon Moss-Bachrach"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "12 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Miriam Sharpe",
+    "real name": [
+      "Miriam Sharpe"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "United States Department of State"
+    ],
+    "actor": [
+      "Alfre Woodard"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

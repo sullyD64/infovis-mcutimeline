@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Selwyn",
+    "real name": [
+      "Selwyn"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)"
+    ],
+    "actor": [
+      "Landall Goolsby"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Love in the Time of HYDRA",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "S.O.S. Part One",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

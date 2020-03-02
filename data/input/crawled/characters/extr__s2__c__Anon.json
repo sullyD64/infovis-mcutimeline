@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Anon",
+    "real name": [
+      "Anon"
+    ],
+    "alias": [],
+    "species": [
+      "Human (Cyborg)"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Holden Radcliffe (formerly)",
+      "Transhumanists"
+    ],
+    "actor": [
+      "Camille De Pazzis"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Singularity",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

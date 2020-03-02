@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Kenneth Turgeon",
+    "real name": [
+      "Kenneth Turgeon"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "HYDRA"
+    ],
+    "actor": [
+      "Adam Kulbersh"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Making Friends and Influencing People",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Hen in the Wolf House",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

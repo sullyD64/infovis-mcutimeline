@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Dave Griffith",
+    "real name": [
+      "Dave Griffith"
+    ],
+    "alias": [
+      "DVD Kid",
+      "D.W.",
+      "D-Dub",
+      "Howard Bingham"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Pop's Barber Shop"
+    ],
+    "actor": [
+      "Jeremiah Richard Craft"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "12 episodes"
+      }
+    ]
+  }
+]

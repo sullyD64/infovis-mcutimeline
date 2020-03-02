@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Jamel Shabazz",
+    "real name": [
+      "Jamel Shabazz"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Cedric Benjamin"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Code of the Streets",
+        "source__type": "tv series",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Mindy Peterson",
+    "real name": [
+      "Mindy Peterson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Nicole J. Butler"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

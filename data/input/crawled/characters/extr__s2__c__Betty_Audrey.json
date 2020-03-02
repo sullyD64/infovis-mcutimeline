@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Betty Audrey",
+    "real name": [
+      "Betty Audrey"
+    ],
+    "alias": [
+      "Captain"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Captain"
+    ],
+    "affiliation": [
+      "NYPD"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Sonja Sohn"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

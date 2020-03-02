@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Jimmy Quinto",
+    "real name": [
+      "Jimmy Quinto"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Step in the Arena",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

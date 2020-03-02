@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Bron-Char",
+    "real name": [
+      "Bron-Char"
+    ],
+    "alias": [],
+    "species": [
+      "Kree"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "citizenship": [
+      "Kree Imperial"
+    ],
+    "affiliation": [
+      "Starforce"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "actor": [
+      "Rune Temte"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

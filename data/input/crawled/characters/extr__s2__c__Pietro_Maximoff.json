@@ -1,0 +1,73 @@
+[
+  {
+    "cid": "Pietro Maximoff",
+    "real name": [
+      "Pietro Maximoff"
+    ],
+    "alias": [
+      "Quicksilver",
+      "Quick Little Bastard",
+      "The Enhanced  (with Wanda Maximoff)",
+      "The Twins (with Wanda Maximoff)",
+      "Something Too Fast To See",
+      "Strucker's Prized Pupils (with Scarlet Witch)"
+    ],
+    "citizenship": [
+      "Sokovian"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "May 2015"
+    ],
+    "affiliation": [
+      "HYDRA (formerly)",
+      "Avengers"
+    ],
+    "actor": [
+      "Aaron Taylor-Johnson"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "mid-credits scene"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron Prelude - This Scepter'd Isle",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Road to War",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

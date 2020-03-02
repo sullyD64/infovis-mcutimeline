@@ -1,0 +1,80 @@
+[
+  {
+    "cid": "Ned Leeds",
+    "real name": [
+      "Edward Leeds"
+    ],
+    "alias": [
+      "Ned Leeds",
+      "Guy in the Chair",
+      "Big Guy",
+      "Babe"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "22-23 (biologically 16-18)"
+    ],
+    "DOB": [
+      "November 10, 2001"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "affiliation": [
+      "Midtown School of Science and Technology"
+    ],
+    "actor": [
+      "Jacob Batalon"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man 3",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Peter's To-Do List",
+        "source__type": "oneshot"
+      },
+      {
+        "source__title": "The Daily Bugle/Promotional Campaign",
+        "source__type": "web series"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming: School of Shock",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

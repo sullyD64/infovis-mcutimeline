@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Gunner Henderson",
+    "real name": [
+      "Gunner Henderson"
+    ],
+    "alias": [
+      "Bible Guy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "November 20, 2016"
+    ],
+    "affiliation": [
+      "United States Marine Corps (formerly)",
+      "Cerberus Squad (formerly)"
+    ],
+    "actor": [
+      "Jeb Kreager"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

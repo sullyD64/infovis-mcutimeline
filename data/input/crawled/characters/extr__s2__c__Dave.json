@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Dave",
+    "real name": [
+      "Dave"
+    ],
+    "alias": [
+      "A Getaway Guy",
+      " Three Wombats (with Luis and Kurt)"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "X-Con Security Consultants"
+    ],
+    "actor": [
+      "T.I."
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

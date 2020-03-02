@@ -1,0 +1,53 @@
+[
+  {
+    "cid": "Anton Ivanov",
+    "real name": [
+      "Anton Ivanov"
+    ],
+    "alias": [
+      "Superior",
+      "The Superior Man",
+      "Redshirt",
+      "Bro",
+      "The Top Watchdog",
+      "The Russian",
+      "Russki",
+      "Conspiracy Theorist ",
+      "Terminator",
+      "Tin Cans",
+      "Ivan Drago",
+      "Man Who Can't Die"
+    ],
+    "species": [
+      "Human (Cyborg)"
+    ],
+    "citizenship": [
+      "Soviet (formerly)",
+      "Russian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2018"
+    ],
+    "affiliation": [
+      "SVR (formerly)",
+      "Watchdogs",
+      "HYDRA (undercoercion)"
+    ],
+    "actor": [
+      "Zach McGowan"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "9 episodes"
+      }
+    ]
+  }
+]

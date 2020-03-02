@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Jack Rogers",
+    "real name": [
+      "Jack Rogers"
+    ],
+    "alias": [
+      "Divine Pairing (with Bobo Smith)"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Fall 1918<ref name=\"C&D110\">''Cloak & Dagger: 1.10: Colony Collapse''</ref>"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "actor": [
+      "Joshua Allen"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Ghost Stories",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Colony Collapse",
+        "source__type": "tv series",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

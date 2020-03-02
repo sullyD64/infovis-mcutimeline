@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Jim Cramer",
+    "real name": [
+      "James J. Cramer"
+    ],
+    "alias": [
+      "Jim Cramer"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "MSNBC",
+      "*''Mad Money''"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Himself"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

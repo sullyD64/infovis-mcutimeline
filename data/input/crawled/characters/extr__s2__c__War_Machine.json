@@ -1,0 +1,183 @@
+[
+  {
+    "cid": "War Machine",
+    "real name": [
+      "James Rupert Rhodes"
+    ],
+    "alias": [
+      "Rhodey",
+      "War Machine",
+      "Iron Patriot",
+      "Platypus",
+      "Sourpatch",
+      "Sidekick",
+      "Little Brother",
+      "Buddy",
+      "Partner",
+      "The Big Gun",
+      "Badass",
+      "Boss",
+      "Captain America",
+      "Iron Dreidel",
+      "Red, White and Blue Attack Dog",
+      "Richard",
+      "Dick",
+      "The Patriot"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "October 6, 1968"
+    ],
+    "age": [
+      "55"
+    ],
+    "title": [
+      "Colonel",
+      "Lieutenant Colonel (formerly)",
+      "USAF Weapons Procurement Liaison (formerly)"
+    ],
+    "affiliation": [
+      "MIT (formerly)",
+      "United States Air Force",
+      "Stark Industries (liaison)",
+      "Avengers (formerly)"
+    ],
+    "actor": [
+      "Terrence Howard",
+      "Don Cheadle"
+    ],
+    "voice actor": [
+      "Ty Jones",
+      "Phil LaMarr (additional dialogue)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Iron Man 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Iron Man 3",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie",
+        "notes": "footage"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie",
+        "notes": "mid-credits scene"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Iron Man: Fast Friends",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man: Security Measures",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Man: I Am Iron Man!",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Public Identity",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Prelude: Fury's Big Week",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers: Iron Man Mark VII",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2 Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 3 Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man: The Coming of the Melter",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Road to War",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Black Panther Prelude",
+        "source__type": "comic",
+        "notes": "footage"
+      },
+      {
+        "source__title": "Captain Marvel Prelude",
+        "source__type": "comic",
+        "notes": "footage"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Black Widow Prelude",
+        "source__type": "comic",
+        "notes": "flashbacks"
+      }
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "cid": "Vers",
+    "real name": [
+      "Carol Danvers"
+    ],
+    "alias": [
+      "Captain Marvel",
+      "Avenger",
+      "Vers",
+      "Auntie Carol",
+      "Ace",
+      "Janis Joplin",
+      "Blockbuster Girl",
+      "Starforce Lady",
+      "Twinkle Fists",
+      "Disaffected Niece",
+      "Freak",
+      "Space Soldier Wearing a Rubber Suit",
+      "Raw Soldier",
+      "One Woman Security Force",
+      "New Blood",
+      "New Girl",
+      "Mohawk Lady",
+      "The New Avenger"
+    ],
+    "species": [
+      "Human/Kree Hybrid"
+    ],
+    "citizenship": [
+      "American",
+      "Kree Imperial (formerly)"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Captain (formerly)"
+    ],
+    "affiliation": [
+      "Sparrows (formerly)",
+      "United States Air Force (formerly)",
+      "Starforce (formerly)",
+      "Avengers (formerly)"
+    ],
+    "actor": [
+      "Brie Larson",
+      "Mckenna Grace (young)",
+      "London Fuller (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain Marvel 2",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Captain Marvel Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

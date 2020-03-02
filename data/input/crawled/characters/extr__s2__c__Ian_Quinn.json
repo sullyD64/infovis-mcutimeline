@@ -1,0 +1,54 @@
+[
+  {
+    "cid": "Ian Quinn",
+    "real name": [
+      "Ian Quinn"
+    ],
+    "alias": [
+      "Big Shot Billionaire",
+      "Rich, Entitled Dirtbag",
+      "Genius"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American",
+      "Maltese"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Cambridge University (formerly)",
+      "Quinn Worldwide",
+      "HYDRA (formerly)",
+      "*Centipede Project (formerly)",
+      "Cybertek"
+    ],
+    "DOD": [
+      "Early 2014"
+    ],
+    "actor": [
+      "David Conrad"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "title": [
+      "CEO of Quinn Worldwide"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: The Chase",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "cid": "Jessica Jones",
+    "real name": [
+      "Jessica Campbell Jones"
+    ],
+    "alias": [
+      "Jess",
+      "Jessie",
+      "Karen Accord",
+      "Sherlock",
+      "J. Pannuccio",
+      "Paragon of Mental Health",
+      "The Sandwich",
+      "Jewel",
+      "Harpy",
+      "Freakish Thug",
+      "Cougar",
+      "Wannabe Gumshoe",
+      "Patient Zero",
+      "Katya Bell-Hortense",
+      "P.I. Lady",
+      "Rebound Chick",
+      "Smart-Ass Detective",
+      "Anna Asher",
+      "Super Joan Jett",
+      "Unyielding Woman",
+      "The Fire",
+      "Vigilante Hero",
+      "Boss",
+      "Vigilante Superhero",
+      "Ticking Time-Bomb",
+      "Freak",
+      "Top-Shelf Pervert",
+      "Super Lady",
+      "Freak Show",
+      "Aberration",
+      "Anne",
+      "Marie",
+      "Elizabeth",
+      "Ginger",
+      "Jackie Charles",
+      "JJ",
+      "Thrid-Rate Joan Jett Wannabe",
+      "Powered Chick",
+      "Mallory",
+      "Lucia",
+      "Spleenless",
+      "Arrogant Alcoholic",
+      "Female Vigilante",
+      "Feminist Vindicator",
+      "Bona Fide Hero"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "age": [
+      "<!--February 1985-April 13, 1986-->33-34"
+    ],
+    "DOB": [
+      "1985-1986"
+    ],
+    "DOD": [
+      "Spring 2000 (revived)"
+    ],
+    "affiliation": [
+      "Alias Investigations",
+      "Defenders (formerly)"
+    ],
+    "actor": [
+      "Krysten Ritter",
+      "Elizabeth Cappuccino (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "39 episodes"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      },
+      {
+        "source__title": "Jessica Jones (comic)",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "cid": "Cassie Lang",
+    "real name": [
+      "Cassandra Lang"
+    ],
+    "alias": [
+      "Cassie Lang",
+      "Peanut"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Brookemont Elementary School (formerly)"
+    ],
+    "age": [
+      "16-17"
+    ],
+    "DOB": [
+      "July 20, 2007"
+    ],
+    "actor": [
+      "Abby Ryder Fortson (child)",
+      "Emma Fuhrmann (teenager)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "indirectly mentioned"
+      },
+      {
+        "source__title": "Ant-Man - Scott Lang: Small Time",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Thomas (Director)",
+    "real name": [
+      "Thomas"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Museum of Great Britain"
+    ],
+    "title": [
+      "Director"
+    ],
+    "actor": [
+      "Francesca Faridany"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      "Mid-2016"
+    ],
+    "appearences": [
+      {
+        "source__title": "Black Panther (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Burrows (Framework)",
+    "real name": [
+      "Burrows"
+    ],
+    "alias": [
+      "B"
+    ],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Patrick Cavanaugh"
+    ],
+    "status": [
+      "Deleted"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

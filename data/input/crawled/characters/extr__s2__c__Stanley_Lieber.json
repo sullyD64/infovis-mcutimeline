@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Stanley Lieber",
+    "real name": [
+      "Stanley Lieber"
+    ],
+    "alias": [
+      "Stan"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "''Stanley's Pizza''"
+    ],
+    "actor": [
+      "Paul Soles"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Incredible Hulk",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

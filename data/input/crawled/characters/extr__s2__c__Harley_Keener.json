@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Harley Keener",
+    "real name": [
+      "Harley Keener"
+    ],
+    "alias": [
+      "Kid"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Ty Simpkins"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 3",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

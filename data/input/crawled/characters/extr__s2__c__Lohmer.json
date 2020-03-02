@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Lohmer",
+    "real name": [
+      "Lohmer"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Nazi German"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Colonel"
+    ],
+    "affiliation": [
+      "Schutzstaffel",
+      "HYDRA"
+    ],
+    "DOD": [
+      "October, 1943"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: First Vengeance",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

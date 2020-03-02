@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Felix Blake (Framework)",
+    "real name": [
+      "Felix Blake"
+    ],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Humans First Movement"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "status": [
+      "Deleted"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "What If...",
+        "source__type": "tv series",
+        "notes": "mentioned in a newspaper"
+      }
+    ]
+  }
+]

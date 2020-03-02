@@ -1,0 +1,94 @@
+[
+  {
+    "cid": "Groot",
+    "real name": [
+      "Groot"
+    ],
+    "alias": [
+      "Baby Groot",
+      "The Giving Tree",
+      "Rocket's Personal Houseplant/Muscle",
+      "The Biggest Idiots in the Galaxy (with Star-Lord, Rocket and Drax)",
+      "Angry Little Tree",
+      "Dumb Tree",
+      "Twig",
+      "Infantilized Sequoia",
+      "Little Plant",
+      "Mascot",
+      "Dumber Smaller Groot",
+      "Tree",
+      "Little Tree"
+    ],
+    "species": [
+      "''Flora colossus''"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Guardians of the Galaxy"
+    ],
+    "DOB": [
+      "2014 (offspring)"
+    ],
+    "DOD": [
+      "August 2014 (original)",
+      "Spring 2018 (offspring; resurrected by Hulk in 2023)"
+    ],
+    "actor": [
+      "Krystian Godlewski (motion capture)",
+      "James Gunn (motion capture)",
+      "Sean Gunn (motion capture)<ref>[http://www.artofthetitle.com/title/guardians-of-the-galaxy-vol-2/ The Art of Movie - Guardians of the Galaxy Vol. 2]</ref>",
+      "Terry Notary (motion capture)"
+    ],
+    "voice actor": [
+      "Vin Diesel"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 3",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prequel Infinite Comic",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy: Galaxy's Most Wanted",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

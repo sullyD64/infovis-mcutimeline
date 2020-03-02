@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Eitri",
+    "real name": [
+      "Eitri"
+    ],
+    "species": [
+      "Dwarf"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "King of Nidavellir"
+    ],
+    "actor": [
+      "Peter Dinklage"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Thor: The Dark World Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

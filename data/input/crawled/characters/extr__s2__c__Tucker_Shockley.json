@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Tucker Shockley",
+    "real name": [
+      "Tucker Shockley"
+    ],
+    "alias": [
+      "Cattle-Prod Man"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Watchdogs"
+    ],
+    "actor": [
+      "John Pyper-Ferguson"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Broken Promises",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Hot Potato Soup",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "BOOM",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

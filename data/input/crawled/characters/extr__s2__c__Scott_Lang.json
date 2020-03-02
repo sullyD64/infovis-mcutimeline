@@ -1,0 +1,136 @@
+[
+  {
+    "cid": "Scott Lang",
+    "real name": [
+      "Scott Edward Harris Lang"
+    ],
+    "alias": [
+      "Ant-Man",
+      "Chang",
+      "SFPD 56210",
+      "Prisoner 121758584",
+      "Scotty",
+      "Cyber-Criminal",
+      "Self-Proclaimed Whistleblower",
+      "The Mastermind Vistacorp Cyber-Thief",
+      "Jack",
+      "Cat Burglar",
+      "Pussy",
+      "Hot Shot",
+      "Princess",
+      "The Breach",
+      "Little Guy",
+      "The Martyr",
+      "Guy That Shrinks",
+      "Tic Tac",
+      "Tiny Dude",
+      "Buddy",
+      "World's Greatest Grandma",
+      "Giant-Man",
+      "Humie",
+      "Tiny",
+      "The Guy Who Got Really Big",
+      "Idiot",
+      "Regular Size-Man",
+      "Puppy",
+      "Little Buddy",
+      "Thumbelina",
+      "Stuart Little",
+      "Piss-Ant"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Vistacorp (formerly)",
+      "Baskin-Robbins (formerly)",
+      "X-Con Security Consultants",
+      "Avengers (formerly)"
+    ],
+    "actor": [
+      "Paul Rudd",
+      "Jackson Dunn (young)",
+      "Lee Moore (old)",
+      "Bazlo LeClair (baby)",
+      "Loen LeClair (baby)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie",
+        "notes": "video footage"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Ant-Man 3",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "2 episodes"
+      },
+      {
+        "source__title": "Ant-Man - Scott Lang: Small Time",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain Marvel Prelude",
+        "source__type": "comic",
+        "notes": "computer screen"
+      },
+      {
+        "source__title": "Black Widow Prelude",
+        "source__type": "comic",
+        "notes": "flashbacks"
+      }
+    ]
+  }
+]

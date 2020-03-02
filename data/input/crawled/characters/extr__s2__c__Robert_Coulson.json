@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Robert Coulson",
+    "real name": [
+      "Robert Coulson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "July 8, 1973-July 7, 1974<ref name=\"AoS213\"/>"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "alias": [
+      "Coul"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

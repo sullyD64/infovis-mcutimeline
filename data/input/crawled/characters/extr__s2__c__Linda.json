@@ -1,0 +1,29 @@
+[
+  {
+    "cid": "Linda",
+    "real name": [
+      "Linda"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "July 2016<ref name=\"BP\"/>"
+    ],
+    "actor": [
+      "Nabiyah Be"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Black Panther (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

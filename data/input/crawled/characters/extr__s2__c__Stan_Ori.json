@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Stan Ori",
+    "real name": [
+      "Stan Ori"
+    ],
+    "alias": [
+      "The Gun Control Guy",
+      "Anti-Gun Senator",
+      "Craven Political Animal"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "United States Congress"
+    ],
+    "title": [
+      "Senator"
+    ],
+    "actor": [
+      "Rick Holmes"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Front Toward Enemy",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Virtue of the Vicious",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

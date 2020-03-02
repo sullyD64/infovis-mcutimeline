@@ -1,0 +1,45 @@
+[
+  {
+    "cid": "Amos",
+    "real name": [],
+    "alias": [
+      "Amos"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Stokes Crime Family"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "R. Marcos Taylor"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Moment of Truth",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Just to Get a Rep",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Blowin' Up the Spot",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Felix Manning",
+    "real name": [
+      "Felix Manning"
+    ],
+    "alias": [
+      "Fixer",
+      "Old English Dude",
+      "Fisk's Aide"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Red Lion National Bank"
+    ],
+    "actor": [
+      "Joe Jones"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

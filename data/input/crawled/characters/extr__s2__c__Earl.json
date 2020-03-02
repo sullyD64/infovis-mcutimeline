@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Earl",
+    "real name": [
+      "Earl"
+    ],
+    "alias": [
+      "Mothra Guy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [
+      "Wizard (formerly)"
+    ],
+    "actor": [
+      "Jorge Diaz"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Metamorphosis",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Split Up",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "cid": "Maggie Lang",
+    "real name": [
+      "Margaret Lang"
+    ],
+    "alias": [
+      "Maggie Lang"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Judy Greer"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series"
+      },
+      {
+        "source__title": "WHIH EXCLUSIVE: Scott Lang Interview",
+        "source__type": "web series",
+        "notes": "indirectly mentioned"
+      },
+      {
+        "source__title": "Ant-Man - Scott Lang: Small Time",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

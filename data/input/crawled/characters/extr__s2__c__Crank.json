@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Crank",
+    "real name": [],
+    "alias": [
+      "Crank"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [
+      "Ryhno's Gang"
+    ],
+    "actor": [
+      "Sky Lakota-Lynch"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Heart of the Dragon",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Citadel on the Edge of Vengeance",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "War Without End",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

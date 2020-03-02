@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Mortimer Hayes",
+    "real name": [
+      "Mortimer Hayes"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Council of Nine"
+    ],
+    "actor": [
+      "John Kerry"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Life of the Party",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

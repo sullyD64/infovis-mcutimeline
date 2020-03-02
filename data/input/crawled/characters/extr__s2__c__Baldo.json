@@ -1,0 +1,25 @@
+[
+  {
+    "cid": "Baldo",
+    "real name": [],
+    "alias": [
+      "Baldo"
+    ],
+    "species": [
+      "Krylorian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy: Galaxy's Most Wanted",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

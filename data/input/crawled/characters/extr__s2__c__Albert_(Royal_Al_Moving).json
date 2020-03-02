@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "Albert (Royal Al Moving)",
+    "real name": [
+      "Albert"
+    ],
+    "alias": [
+      "Andrew"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [
+      "Royal Al Moving"
+    ],
+    "actor": [
+      "James Hiroyuki Liao"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Fury of Iron Fist",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The City's Not for Burning",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Citadel on the Edge of Vengeance",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

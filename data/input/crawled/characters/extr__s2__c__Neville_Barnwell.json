@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Neville Barnwell",
+    "real name": [
+      "Neville Barnwell"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Jamaican"
+    ],
+    "affiliation": [
+      "Yardies"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Khalil Maasi"
+    ],
+    "DOD": [
+      "December 1, 2015"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "DWYCK",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Soul Brother 1",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

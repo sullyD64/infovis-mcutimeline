@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Doris Urich",
+    "real name": [
+      "Doris Urich"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Adriane Lenox"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

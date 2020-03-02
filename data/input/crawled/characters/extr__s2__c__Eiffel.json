@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Eiffel",
+    "real name": [
+      "Eiffel"
+    ],
+    "alias": [
+      "Hateful Bitch"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Atlas Academy"
+    ],
+    "actor": [
+      "Danielle Campbell"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

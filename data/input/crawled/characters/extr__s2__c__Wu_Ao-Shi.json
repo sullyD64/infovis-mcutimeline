@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Wu Ao-Shi",
+    "real name": [
+      "Wu Ao-Shi"
+    ],
+    "alias": [
+      "The Pirate Queen of Pinghai Bay"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "K'un-Lunan"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Order of the Crane Mother"
+    ],
+    "title": [
+      "The Immortal Iron Fist"
+    ],
+    "actor": [],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "War Without End",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "A Duel of Iron",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "cid": "Thomas Nash",
+    "real name": [
+      "Thomas Nash"
+    ],
+    "alias": [
+      "Clairvoyant",
+      "Vegetable",
+      "Freak"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Canadian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Early 2014"
+    ],
+    "affiliation": [
+      "Department H (formerly)"
+    ],
+    "actor": [
+      "Brad Dourif"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "End of the Beginning",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Turn, Turn, Turn",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Nothing Personal",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

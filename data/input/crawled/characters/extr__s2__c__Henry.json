@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Henry",
+    "real name": [
+      "Henry"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Agent of SSR"
+    ],
+    "affiliation": [
+      "SSR"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Blitzkrieg Button",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

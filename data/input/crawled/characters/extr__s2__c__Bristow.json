@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Bristow",
+    "real name": [
+      "Bristow"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Officer"
+    ],
+    "affiliation": [
+      "NYPD"
+    ],
+    "actor": [
+      "Tuwaine Barrett"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie",
+        "notes": "deleted scene"
+      },
+      {
+        "source__title": "Peter's To-Do List",
+        "source__type": "oneshot"
+      }
+    ]
+  }
+]

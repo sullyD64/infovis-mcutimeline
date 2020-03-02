@@ -1,0 +1,74 @@
+[
+  {
+    "cid": "Jim Morita",
+    "real name": [
+      "James Morita"
+    ],
+    "alias": [
+      "Jim Morita"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "October 20, 1919<ref>S.H.I.E.L.D. Files</ref>"
+    ],
+    "title": [
+      "Private"
+    ],
+    "affiliation": [
+      "United States Army (formerly)",
+      "Howling Commandos"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "actor": [
+      "Kenneth Choi"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The First Avenger",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Shadows",
+        "source__type": "tv series",
+        "notes": "flashbacks"
+      },
+      {
+        "source__title": "Aftershocks",
+        "source__type": "tv series",
+        "notes": "pictures"
+      },
+      {
+        "source__title": "Captain America: First Vengeance",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: The First Avenger Adaptation",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

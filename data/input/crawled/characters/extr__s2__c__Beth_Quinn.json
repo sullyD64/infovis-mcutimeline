@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Beth Quinn",
+    "real name": [
+      "Beth Quinn"
+    ],
+    "alias": [
+      "Skank"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "''Lola's Roadhouse''"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Alexa Davalos"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

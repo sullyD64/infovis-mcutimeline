@@ -1,0 +1,54 @@
+[
+  {
+    "cid": "Janet van Dyne",
+    "real name": [
+      "Janet van Dyne"
+    ],
+    "alias": [
+      "Wasp",
+      "Honey"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)"
+    ],
+    "actor": [
+      "Michelle Pfeiffer",
+      "Hayley Lovitt (young)",
+      "Paul Rudd (while possessing Scott Lang)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

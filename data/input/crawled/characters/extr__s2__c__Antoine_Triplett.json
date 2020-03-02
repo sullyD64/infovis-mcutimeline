@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Antoine Triplett",
+    "real name": [
+      "Antoine Triplett"
+    ],
+    "alias": [
+      "Trip",
+      "General Jones"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "SHD2*SHDG (formerly)*SHDC (formerly)"
+    ],
+    "actor": [
+      "B.J. Britt"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "18 episodes"
+      }
+    ]
+  }
+]

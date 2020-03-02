@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Mary Walker",
+    "real name": [
+      "Mary Walker"
+    ],
+    "alias": [
+      "Mary",
+      "Walker"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Sergeant first class (formerly)"
+    ],
+    "affiliation": [
+      "United States Army (formerly)"
+    ],
+    "actor": [
+      "Alice Eve"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "10 episodes"
+      }
+    ]
+  }
+]

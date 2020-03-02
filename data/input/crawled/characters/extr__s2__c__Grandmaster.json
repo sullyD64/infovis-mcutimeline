@@ -1,0 +1,55 @@
+[
+  {
+    "cid": "Grandmaster",
+    "real name": [],
+    "alias": [
+      "Grandmaster",
+      "The Original",
+      "The Creator of Sakaar",
+      "Father of the Contest of Champions",
+      "First Lost",
+      "First Found",
+      "Lunatic"
+    ],
+    "species": [
+      "<!-- DO NOT ADD \"Elder of the Universe\", that's not even a species in the comics. -->"
+    ],
+    "citizenship": [
+      "Sakaaran"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Jeff Goldblum"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie",
+        "notes": "credits"
+      },
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Team Darryl",
+        "source__type": "web series"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

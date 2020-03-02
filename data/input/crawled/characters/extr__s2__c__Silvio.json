@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Silvio",
+    "real name": [
+      "Silvio"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Jack O'Connell"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Rabbit in a Snowstorm (episode)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Ones We Leave Behind",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Daredevil (episode)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

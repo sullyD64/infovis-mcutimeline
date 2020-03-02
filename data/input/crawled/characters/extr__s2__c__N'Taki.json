@@ -1,0 +1,29 @@
+[
+  {
+    "cid": "N'Taki",
+    "real name": [
+      "N'Taki"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Wakandan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Border Tribe"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Black Panther Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

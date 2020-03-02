@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Aloysius Samberly",
+    "real name": [
+      "Aloysius Herbert Samberly"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "SSR"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "actor": [
+      "Matt Braunger"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

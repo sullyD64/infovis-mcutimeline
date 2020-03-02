@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Rick Cotton",
+    "real name": [
+      "Rick Cotton"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "23"
+    ],
+    "DOB": [
+      "September 25, 1994"
+    ],
+    "actor": [
+      "Michael Vincent Donovan"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

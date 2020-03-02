@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Samuel Voss",
+    "real name": [
+      "Samuel Voss"
+    ],
+    "alias": [
+      "Sam Voss"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Lighthouse (formerly)"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "True Believers"
+    ],
+    "actor": [
+      "Michael McGrady"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Together or Not at All",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Last Day",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Best Laid Plans",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "All the Comforts of Home",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

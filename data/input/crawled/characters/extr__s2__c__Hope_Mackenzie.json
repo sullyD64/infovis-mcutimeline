@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Hope Mackenzie",
+    "real name": [
+      "Hope Mackenzie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "age": [
+      "4 Days"
+    ],
+    "DOB": [
+      "April 18, 2006"
+    ],
+    "DOD": [
+      "April 22, 2006"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

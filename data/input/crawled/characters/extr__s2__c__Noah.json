@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Noah",
+    "real name": [
+      "Noah"
+    ],
+    "species": [
+      "Chronicom"
+    ],
+    "gender": [
+      "None (masculine appearance & voice)"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "title": [
+      "Anthropologist"
+    ],
+    "actor": [
+      "Joel David Moore"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "All the Comforts of Home",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Real Deal",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

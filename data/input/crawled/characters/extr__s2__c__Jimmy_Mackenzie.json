@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Jimmy Mackenzie",
+    "real name": [
+      "James Mackenzie"
+    ],
+    "alias": [
+      "Jimmy Mackenzie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Early 2014"
+    ],
+    "actor": [
+      "Rob Belushi"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "T.A.H.I.T.I.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Yes Men",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

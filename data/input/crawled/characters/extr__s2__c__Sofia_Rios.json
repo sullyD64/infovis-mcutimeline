@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Sofia Rios",
+    "real name": [
+      "Sofia Rios"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Rosa Arredondo"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

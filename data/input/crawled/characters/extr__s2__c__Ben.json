@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Ben",
+    "real name": [
+      "Ben"
+    ],
+    "alias": [
+      "The Telepath",
+      "Mind-Reader"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "Lighthouse"
+    ],
+    "DOD": [
+      "2091"
+    ],
+    "actor": [
+      "Myko Olivier"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Life Earned",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Fun & Games",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

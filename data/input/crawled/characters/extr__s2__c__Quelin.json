@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Quelin",
+    "real name": [
+      "Quelin"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Attilan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

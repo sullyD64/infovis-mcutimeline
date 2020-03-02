@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Frank Castle, Jr.",
+    "real name": [
+      "Francis David Castle Jr."
+    ],
+    "alias": [
+      "Frank Castle, Jr.",
+      "Frankie",
+      "Little Frank",
+      "Bud"
+    ],
+    "DOD": [
+      "April 4, 2015"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Aidan Pierce Brennan"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "picture"
+      },
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

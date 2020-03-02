@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Ho Yinsen",
+    "real name": [
+      "Ho Yinsen"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Afghan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "Cambridge University (formerly)"
+    ],
+    "DOD": [
+      "May 2009<ref>''The Art of the Avengers'' timeline</ref><ref name=\"IM\"/>"
+    ],
+    "actor": [
+      "Shaun Toub"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Iron Man 3",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Iron Man: I Am Iron Man!",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

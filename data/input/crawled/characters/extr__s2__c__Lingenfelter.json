@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Lingenfelter",
+    "real name": [
+      "Lingenfelter"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "HYDRA"
+    ],
+    "actor": [
+      "Dale Waddington"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Hen in the Wolf House",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

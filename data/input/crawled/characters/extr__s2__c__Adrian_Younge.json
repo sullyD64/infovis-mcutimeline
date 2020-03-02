@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Adrian Younge",
+    "real name": [
+      "Adrian Younge"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [],
+    "actor": [
+      "Himself"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "All Souled Out",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "They Reminisce Over You (T.R.O.Y.)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

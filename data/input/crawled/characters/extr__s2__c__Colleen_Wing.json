@@ -1,0 +1,63 @@
+[
+  {
+    "cid": "Colleen Wing",
+    "real name": [
+      "Colleen Wing"
+    ],
+    "alias": [
+      "Master",
+      "Sensei",
+      "Daughter of the Dragon",
+      "Honey",
+      "The Little Lady",
+      "Miss Thang",
+      "Chick with the Sword",
+      " Hand Whore",
+      "A Disciple of the Hand",
+      "Iron Fist"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American",
+      "Japanese"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Sensei",
+      "The Immortal Iron Fist",
+      "Master of the Chikara Dojo (formerly)"
+    ],
+    "affiliation": [
+      "Hand (formerly)",
+      "Chikara Dojo",
+      "Bayard Community Center"
+    ],
+    "actor": [
+      "Jessica Henwick"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "23 episodes"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

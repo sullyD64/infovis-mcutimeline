@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Georges Batroc",
+    "real name": [
+      "Georges Batroc"
+    ],
+    "alias": [
+      "French Pirate"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "French",
+      "Algerian"
+    ],
+    "DOB": [
+      "May 19, 1981"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "French Foreign Legion (formerly)",
+      "DGSE (formerly)"
+    ],
+    "title": [
+      "''Adjudant'' (formerly)"
+    ],
+    "actor": [
+      "Georges St-Pierre"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Black Widow Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

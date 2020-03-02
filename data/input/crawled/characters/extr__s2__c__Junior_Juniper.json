@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Junior Juniper",
+    "real name": [
+      "Jonathan Juniper"
+    ],
+    "alias": [
+      "Junior Juniper"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Howling Commandos"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "April 26, 1946"
+    ],
+    "actor": [
+      "James Austin Kerr"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Iron Ceiling",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "cid": "Jasper Sitwell",
+    "real name": [
+      "Jasper Sitwell"
+    ],
+    "alias": [
+      "Top Brass",
+      "Patsy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "40"
+    ],
+    "DOB": [
+      "December 8, 1973"
+    ],
+    "DOD": [
+      "Early 2014"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (undercover)",
+      "HYDRA",
+      "*HYDRA Preparatory Academy (formerly)"
+    ],
+    "actor": [
+      "Maximiliano Hernández",
+      "Adam Faison (young)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Marvel One-Shot: The Consultant",
+        "source__type": "oneshot"
+      },
+      {
+        "source__title": "Marvel One-Shot: Item 47",
+        "source__type": "oneshot"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      },
+      {
+        "source__title": "Iron Man: I Am Iron Man!",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Prelude: Fury's Big Week",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

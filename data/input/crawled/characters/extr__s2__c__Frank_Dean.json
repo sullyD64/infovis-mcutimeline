@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Frank Dean",
+    "real name": [
+      "Frank Dean"
+    ],
+    "alias": [
+      "That Guy from that Church",
+      "Leslie's Beard",
+      "The Real Apostate",
+      "The Light and the Truth"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "PRIDE (formerly)",
+      "Church of Gibborim (formerly)"
+    ],
+    "actor": [
+      "Kip Pardue"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "19 episodes"
+      }
+    ]
+  }
+]

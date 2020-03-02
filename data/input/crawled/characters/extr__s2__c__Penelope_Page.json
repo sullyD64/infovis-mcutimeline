@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Penelope Page",
+    "real name": [
+      "Penelope Page"
+    ],
+    "alias": [
+      "Penny"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Seven Minutes in Heaven",
+        "source__type": "tv series",
+        "notes": "newspaper"
+      },
+      {
+        "source__title": "Karen (episode)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

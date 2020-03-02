@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Aura",
+    "real name": [
+      "Aura"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Church of Gibborim"
+    ],
+    "actor": [
+      "Pat Lentz",
+      "Sarah Ann Vail (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      }
+    ]
+  }
+]

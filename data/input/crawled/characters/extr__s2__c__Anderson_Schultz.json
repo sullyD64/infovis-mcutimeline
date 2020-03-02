@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Anderson Schultz",
+    "real name": [
+      "Anderson Schultz"
+    ],
+    "alias": [
+      "Dad",
+      "Billionaire Asshole"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Testament Industries"
+    ],
+    "DOD": [
+      "May 2018"
+    ],
+    "actor": [
+      "Corbin Bernsen"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

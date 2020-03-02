@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Andrea Morales",
+    "real name": [
+      "Andrea Morales"
+    ],
+    "alias": [
+      "Andy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Francis Benhamou"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Upstairs/Downstairs",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Revelations",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

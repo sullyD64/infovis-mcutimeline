@@ -1,0 +1,31 @@
+[
+  {
+    "cid": "Tashi",
+    "real name": [
+      "Tashi"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "K'un-Lunan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Order of the Crane Mother"
+    ],
+    "actor": [],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

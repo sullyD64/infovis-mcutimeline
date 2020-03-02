@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Nathanson",
+    "real name": [
+      "Nathanson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "DOD": [
+      "April 12, 2017<ref name=\"AoS408\"/>"
+    ],
+    "actor": [
+      "Blaise Miller"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

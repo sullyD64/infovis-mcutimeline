@@ -1,0 +1,55 @@
+[
+  {
+    "cid": "Harold Meachum",
+    "real name": [
+      "Harold Meachum"
+    ],
+    "alias": [
+      "Mr. M",
+      "Frank N. Stein",
+      "Good and Faithful Servant",
+      "Frank Stein",
+      "Monster",
+      "Uncle Harold"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "CEO of Rand Enterprises (formerly)"
+    ],
+    "age": [
+      "52-54 (biologically 41)"
+    ],
+    "DOB": [
+      "1962-1963"
+    ],
+    "DOD": [
+      "2004 (later resurrected)",
+      "2016 (twice; resurrected first time)"
+    ],
+    "affiliation": [
+      "Rand Enterprises",
+      "Hand (formerly)"
+    ],
+    "actor": [
+      "David Wenham"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "10 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Debbie (The Tides)",
+    "real name": [
+      "Debbie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Tides Motel"
+    ],
+    "actor": [
+      "Ashley August"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Fight or Flight",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

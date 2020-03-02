@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Monica Rambeau",
+    "real name": [
+      "Monica Rambeau"
+    ],
+    "alias": [
+      "Lieutenant Trouble",
+      "Amelia Earhart"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOB": [
+      "June 1983-June 1984"
+    ],
+    "affiliation": [
+      "S.W.O.R.D."
+    ],
+    "actor": [
+      "Teyonah Parris (adult)",
+      "Akira Akbar (age 11)",
+      "Azari Akbar (age 5)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "WandaVision",
+        "source__type": "tv series",
+        "notes": "unreleased"
+      }
+    ]
+  }
+]

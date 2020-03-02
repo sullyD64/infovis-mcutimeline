@@ -1,0 +1,60 @@
+[
+  {
+    "cid": "Zev",
+    "real name": [
+      "Zev"
+    ],
+    "alias": [
+      "Big Guy",
+      "Roach Food"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Lighthouse"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Lieutenant"
+    ],
+    "DOD": [
+      "2091"
+    ],
+    "affiliation": [
+      "Grill (formerly)"
+    ],
+    "actor": [
+      "Kaleti Williams"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Orientation Part Two",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Life Spent",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Life Earned",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Fun & Games",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

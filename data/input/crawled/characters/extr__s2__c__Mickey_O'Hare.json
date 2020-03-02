@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Mickey O'Hare",
+    "real name": [
+      "Mickey O'Hare"
+    ],
+    "alias": [
+      "Dirty Bastard"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Irish",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Kitchen Irish"
+    ],
+    "actor": [
+      "Jon David Casey"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      " April 2016"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "3 AM",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

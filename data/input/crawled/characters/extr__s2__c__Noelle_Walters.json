@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Noelle Walters",
+    "real name": [
+      "Noelle Walters"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Melanie Cruz"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Fractured House",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Simon Williams",
+    "real name": [
+      "Simon Williams"
+    ],
+    "alias": [
+      "Tony Stark",
+      "Arkon",
+      "Toxic Janitor"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Nathan Fillion"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie",
+        "notes": "posters; deleted scene"
+      }
+    ]
+  }
+]

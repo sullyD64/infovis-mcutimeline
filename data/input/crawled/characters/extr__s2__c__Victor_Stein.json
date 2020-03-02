@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "Victor Stein",
+    "real name": [
+      "Victor Stein"
+    ],
+    "alias": [
+      "Bad Boy of High Tech",
+      "First-Class, Grade-A, Platinum-Card-Carrying Asshole",
+      "Coolest Guy in the World",
+      "Wired's Visionary",
+      "Abusive Megalomaniac",
+      "Mad Scientist",
+      "Lunatic"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Culver University (formerly)",
+      "Nemo",
+      "PRIDE",
+      "Alien Abductee Anonymous"
+    ],
+    "title": [
+      "CEO of Nemo"
+    ],
+    "actor": [
+      "James Marsters",
+      "Tim Pocock (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "29 episodes"
+      }
+    ]
+  }
+]

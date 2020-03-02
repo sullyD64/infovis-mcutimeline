@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Morty Bennett",
+    "real name": [
+      "Morty Bennett"
+    ],
+    "alias": [
+      "Little Bald Asshole"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Colonel"
+    ],
+    "affiliation": [
+      "United States Army",
+      "*Cerberus Squad (formerly)"
+    ],
+    "DOD": [
+      "2016"
+    ],
+    "actor": [
+      "Andrew Polk"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

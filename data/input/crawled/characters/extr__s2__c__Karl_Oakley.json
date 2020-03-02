@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Karl Oakley",
+    "real name": [
+      "Karl Oakley"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Australian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Managing Director of Cordco"
+    ],
+    "affiliation": [
+      "Cordco",
+      "Stark Industries"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Stark Expo/Promotional Campaign",
+        "source__type": "web series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Burnell",
+    "real name": [
+      "Burnell"
+    ],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "affiliation": [
+      "Alexander Pierce High School"
+    ],
+    "actor": [
+      "Taj Speights"
+    ],
+    "status": [
+      "Deleted"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Self Control",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "What If...",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "No Regrets",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

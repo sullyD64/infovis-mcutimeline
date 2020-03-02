@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Oscar (Watchdog)",
+    "alias": [
+      "Oscar"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Watchdogs"
+    ],
+    "actor": [
+      "Jonathan Camp"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Watchdogs (episode)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

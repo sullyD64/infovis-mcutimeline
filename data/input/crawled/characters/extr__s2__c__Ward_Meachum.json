@@ -1,0 +1,62 @@
+[
+  {
+    "cid": "Ward Meachum",
+    "real name": [
+      "Ward Meachum"
+    ],
+    "alias": [
+      "Dad",
+      "Punching Bag",
+      "Smart-Ass Suit",
+      "Suit",
+      "Daddy Killer"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "September 19, 1986"
+    ],
+    "age": [
+      "32"
+    ],
+    "title": [
+      "Chief Counsel (formerly)",
+      "Co-CEO of Rand Enterprises"
+    ],
+    "affiliation": [
+      "Wharton School (formerly)",
+      "Domani Architecture (formerly)",
+      "Rand Enterprises"
+    ],
+    "actor": [
+      "Tom Pelphrey",
+      "Ilan Eskenazi (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "21 episodes"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "New York Bulletin/Promotional Campaign",
+        "source__type": "web series"
+      }
+    ]
+  }
+]

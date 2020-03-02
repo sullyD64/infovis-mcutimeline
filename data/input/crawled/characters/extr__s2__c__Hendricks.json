@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Hendricks",
+    "real name": [
+      "Hendricks"
+    ],
+    "alias": [
+      "Agent Hendricks"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "Stanford University (formerly)",
+      "S.H.I.E.L.D."
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 2: Phil Coulson: Agent of S.H.I.E.L.D.",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

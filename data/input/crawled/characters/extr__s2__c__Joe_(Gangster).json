@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Joe (Gangster)",
+    "real name": [
+      "Joe"
+    ],
+    "alias": [
+      "Dead Man in a Wheel Barrel"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Resupply",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

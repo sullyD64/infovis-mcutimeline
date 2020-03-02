@@ -1,0 +1,27 @@
+[
+  {
+    "cid": "Adam Warlock",
+    "real name": [
+      "Adam"
+    ],
+    "alias": [
+      "Adam Warlock"
+    ],
+    "species": [
+      "Sovereign"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Unborn"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie",
+        "notes": "mid-credits scene"
+      }
+    ]
+  }
+]

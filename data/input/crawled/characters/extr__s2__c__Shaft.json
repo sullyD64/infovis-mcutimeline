@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Shaft",
+    "alias": [
+      "Shaft",
+      "The Man Who Died in the Sewer",
+      "The Guy Who Died in Cambodia"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Chaste"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "actor": [
+      "Marko Zaror"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The H Word",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Mean Right Hook",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

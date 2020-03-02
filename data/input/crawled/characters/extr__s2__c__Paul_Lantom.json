@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Paul Lantom",
+    "real name": [
+      "Paul Lantom"
+    ],
+    "alias": [
+      "Grandpa",
+      "Priest"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Late 2017"
+    ],
+    "affiliation": [
+      "Catholic Church"
+    ],
+    "title": [
+      "Father"
+    ],
+    "actor": [
+      "Peter McRobbie"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "10 episodes"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

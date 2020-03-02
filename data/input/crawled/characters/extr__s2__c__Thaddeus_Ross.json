@@ -1,0 +1,120 @@
+[
+  {
+    "cid": "Thaddeus Ross",
+    "real name": [
+      "Thaddeus E. Ross"
+    ],
+    "alias": [
+      "Thunderbolt",
+      "T",
+      "General",
+      "Mr. Secretary"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "title": [
+      "Secretary of State",
+      "Lieutenant General (formerly)"
+    ],
+    "affiliation": [
+      "United States Army (formerly)",
+      "*Bio-Tech Force Enhancement Project (formerly)",
+      "*Strategic Operations Command Center (formerly)",
+      "United States Department of State"
+    ],
+    "actor": [
+      "William Hurt"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Incredible Hulk",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie",
+        "notes": "hologram"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Black Widow (film)",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Marvel One-Shot: The Consultant",
+        "source__type": "oneshot",
+        "notes": "archive footage"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "footage"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: Slingshot",
+        "source__type": "web series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Incredible Hulk: The Fury Files",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Incredible Hulk: The Big Picture",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Public Identity",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Prelude: Fury's Big Week",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor: Ragnarok Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain Marvel Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic",
+        "notes": "hologram"
+      },
+      {
+        "source__title": "Black Widow Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Shou-Lao",
+    "real name": [
+      "Shou-Lao"
+    ],
+    "alias": [
+      "Shou-Lao The Undying",
+      "Pete's Dragon"
+    ],
+    "species": [
+      "Dragon"
+    ],
+    "citizenship": [
+      "K'un-Lunan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Order of the Crane Mother"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

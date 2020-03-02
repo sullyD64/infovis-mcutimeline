@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Alejandro Castillo",
+    "real name": [
+      "Alejandro Castillo"
+    ],
+    "alias": [
+      "El Dogo"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Early 2014"
+    ],
+    "citizenship": [
+      "Colombian"
+    ],
+    "affiliation": [
+      "HYDRA"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Ragtag",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

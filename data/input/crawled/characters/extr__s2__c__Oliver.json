@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Oliver",
+    "real name": [
+      "Oliver"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Mark Allan Stewart"
+    ],
+    "DOD": [
+      "May 2015"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

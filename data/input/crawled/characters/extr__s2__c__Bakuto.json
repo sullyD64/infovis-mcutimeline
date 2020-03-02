@@ -1,0 +1,56 @@
+[
+  {
+    "cid": "Bakuto",
+    "real name": [
+      "Bakuto"
+    ],
+    "species": [
+      "Human"
+    ],
+    "alias": [
+      "Mystery Man",
+      "Piece of Garbage",
+      "Reinforcement from South America"
+    ],
+    "citizenship": [
+      "K'un-Lunan (formerly)"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2016 (twice; resurrected first time)"
+    ],
+    "title": [
+      "Sensei",
+      "Master"
+    ],
+    "affiliation": [
+      "Order of the Crane Mother (formerly)",
+      "Hand"
+    ],
+    "actor": [
+      "Ramón Rodríguez"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

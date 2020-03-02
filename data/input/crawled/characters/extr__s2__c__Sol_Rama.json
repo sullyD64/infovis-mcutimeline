@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Sol Rama",
+    "real name": [
+      "Sol Rama"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Early 2017<ref>[https://www.empireonline.com/movies/news/empire-podcast-doctor-strange-spoiler-special-scott-derrickson/ Empire Podcast: ''Doctor Strange'' Spoiler Special with Scott Derrickson]</ref><ref name=\"DS\"/><ref>''Avengers: Endgame''</ref>"
+    ],
+    "title": [
+      "Master of the London Sanctum (formerly)"
+    ],
+    "affiliation": [
+      "Masters of the Mystic Arts"
+    ],
+    "actor": [
+      "Umit Ulgen"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "appearences": [
+      {
+        "source__title": "Doctor Strange (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

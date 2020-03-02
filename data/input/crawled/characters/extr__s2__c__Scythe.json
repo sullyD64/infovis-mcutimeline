@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Scythe",
+    "alias": [
+      "Scythe"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Japanese"
+    ],
+    "affiliation": [
+      "Hand"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "David Sakurai"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Immortal Emerges from Cave",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

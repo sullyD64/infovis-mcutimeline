@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Quinton the Great",
+    "real name": [
+      "Quinton"
+    ],
+    "alias": [
+      "Quinton the Great",
+      "The Great Quinton",
+      "Amy Minoru"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [],
+    "actor": [
+      "John Ales",
+      "Amanda Suk (disguised)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

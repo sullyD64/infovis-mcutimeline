@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Felipe",
+    "real name": [
+      "Felipe"
+    ],
+    "species": [
+      "Dog"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Start at the Beginning",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

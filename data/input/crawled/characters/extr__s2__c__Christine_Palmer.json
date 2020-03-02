@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Christine Palmer",
+    "real name": [
+      "Christine Palmer"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "Metro-General Hospital"
+    ],
+    "actor": [
+      "Rachel McAdams"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Doctor Strange (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Doctor Strange: Mystic Apprentice",
+        "source__type": "comic",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Doctor Strange: Episode 0",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

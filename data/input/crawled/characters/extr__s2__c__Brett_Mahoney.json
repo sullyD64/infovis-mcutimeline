@@ -1,0 +1,54 @@
+[
+  {
+    "cid": "Brett Mahoney",
+    "real name": [
+      "Brett Mahoney"
+    ],
+    "alias": [
+      "Buddy",
+      "Sarge",
+      "NYPD Dick",
+      "Pain in the Ass",
+      "Honest Cop"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Detective Sergeant",
+      "Sergeant (formerly)"
+    ],
+    "affiliation": [
+      "NYPD"
+    ],
+    "actor": [
+      "Royce Johnson"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "17 episodes"
+      },
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      },
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "9 episodes"
+      }
+    ]
+  }
+]

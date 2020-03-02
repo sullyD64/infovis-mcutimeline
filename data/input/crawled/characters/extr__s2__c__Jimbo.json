@@ -1,0 +1,45 @@
+[
+  {
+    "cid": "Jimbo",
+    "real name": [
+      "Jimbo"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "United States Army (formerly)"
+    ],
+    "actor": [
+      "Manny Urena"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "One-Eyed Jacks",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Nakazat",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "One Bad Day",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

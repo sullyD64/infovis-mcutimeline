@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Candice Lee",
+    "real name": [
+      "Candice Lee"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "HYDRA"
+    ],
+    "actor": [
+      "Shontae Saldana"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

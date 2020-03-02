@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Winn",
+    "real name": [
+      "Winn"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Late 2017<ref>''Daredevil: 3.11: Reunion''</ref><ref>''Daredevil: 3.12: One Last Shot''</ref>"
+    ],
+    "title": [
+      "Supervisory Special Agent"
+    ],
+    "affiliation": [
+      "FBI",
+      "Office of Professional Responsibility"
+    ],
+    "actor": [
+      "Andrew Sensenig"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

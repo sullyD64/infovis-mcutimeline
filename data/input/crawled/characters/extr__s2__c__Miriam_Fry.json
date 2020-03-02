@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Miriam Fry",
+    "real name": [
+      "Miriam Fry"
+    ],
+    "alias": [
+      "Mother Hen"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Meagen Fay"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

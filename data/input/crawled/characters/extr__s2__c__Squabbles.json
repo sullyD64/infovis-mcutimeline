@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Squabbles",
+    "real name": [
+      "Reggie"
+    ],
+    "alias": [
+      "Squabbles",
+      "Squabs",
+      "Golden Glove Champ"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      "2013"
+    ],
+    "actor": [
+      "Craig Mums Grant"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Step in the Arena",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

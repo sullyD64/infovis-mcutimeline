@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Joseph Getty",
+    "real name": [
+      "Joseph Getty"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "Cybertek (formerly)",
+      "HYDRA (formerly,undercoercion)"
+    ],
+    "actor": [
+      "Mark Fite"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Principia (episode)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

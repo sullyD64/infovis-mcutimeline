@@ -1,0 +1,83 @@
+[
+  {
+    "cid": "Obadiah Stane",
+    "real name": [
+      "Obadiah Stane"
+    ],
+    "alias": [
+      "Iron Monger",
+      "Obie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "November 24, 2009<ref>''The Art of the Avengers'' timeline</ref><ref name=\"IM\"/>"
+    ],
+    "affiliation": [
+      "Stark Industries"
+    ],
+    "actor": [
+      "Jeff Bridges"
+    ],
+    "voice actor": [
+      "Fred Tatasciore"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Iron Man 2",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Iron Man 3",
+        "source__type": "movie",
+        "notes": "credits"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Iron Man: Fast Friends",
+        "source__type": "comic",
+        "notes": "archive footage"
+      },
+      {
+        "source__title": "Iron Man: Security Measures",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man: I Am Iron Man!",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Public Identity",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers: Iron Man Mark VII",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

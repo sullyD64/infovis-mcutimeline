@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Evita Fusilier",
+    "real name": [
+      "Evita Fusilier"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "St. Sebastian's Preparatory School (formerly)",
+      "Damballah Voodoo Tours & Shop"
+    ],
+    "actor": [
+      "Noëlle Renée Bercy"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "14 episodes"
+      }
+    ]
+  }
+]

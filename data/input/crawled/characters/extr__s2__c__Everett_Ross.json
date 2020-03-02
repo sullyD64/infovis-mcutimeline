@@ -1,0 +1,57 @@
+[
+  {
+    "cid": "Everett Ross",
+    "real name": [
+      "Everett Kenneth Ross"
+    ],
+    "alias": [
+      "Another Broken White Boy",
+      "Colonizer",
+      "Genius"
+    ],
+    "title": [
+      "CIA Agent",
+      "Deputy Task Force Commander (formerly)",
+      "Joint Counter Terrorism Task Force Liaison (formerly)"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "United States Air Force (formerly)",
+      "CIA",
+      "*Joint Counter Terrorist Centre (formerly)"
+    ],
+    "actor": [
+      "Martin Freeman"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Black Panther (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Black Panther II",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

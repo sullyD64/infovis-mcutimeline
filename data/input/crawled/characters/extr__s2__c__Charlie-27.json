@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Charlie-27",
+    "real name": [
+      "Charlie-27"
+    ],
+    "species": [
+      "Jovian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "RVG*CRC*SOT"
+    ],
+    "title": [
+      "Captain"
+    ],
+    "actor": [
+      "Ving Rhames"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

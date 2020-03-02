@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Oscar Gonzalez",
+    "real name": [
+      "Oscar Gonzalez"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "January 2018<ref>''Runaways: 1.07: Refraction''</ref><ref>''Runaways: 1.09: Doomsday''</ref><ref name=\"R207\">''Runaways: 2.07: Last Rites''</ref>"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "actor": [
+      "Damien Diaz"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Last Rites",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Past Life (Runaways)",
+        "source__type": "tv series",
+        "notes": "corpse"
+      }
+    ]
+  }
+]

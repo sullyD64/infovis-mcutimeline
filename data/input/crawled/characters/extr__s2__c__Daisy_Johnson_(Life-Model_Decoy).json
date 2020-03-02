@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Daisy Johnson (Life-Model Decoy)",
+    "real name": [],
+    "alias": [
+      "Daisy Fleet",
+      "Daisy-Bot",
+      "One of Anton Ivanov's Tin Cans"
+    ],
+    "species": [
+      "Life-Model Decoys"
+    ],
+    "gender": [
+      "Female (feminine programming & voice)"
+    ],
+    "affiliation": [
+      "Holden Radcliffe",
+      "Aida"
+    ],
+    "status": [
+      "Destroyed"
+    ],
+    "actor": [
+      "Chloe Bennet"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Self Control",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "World's End",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

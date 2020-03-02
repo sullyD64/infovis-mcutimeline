@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Sam Koenig",
+    "real name": [
+      "Sam Koenig"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)",
+      "*Theta Protocol (formerly)",
+      "*Life-Model Decoy Program (formerly)"
+    ],
+    "actor": [
+      "Patton Oswalt"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "4 Episodes"
+      }
+    ]
+  }
+]

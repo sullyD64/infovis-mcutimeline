@@ -1,0 +1,45 @@
+[
+  {
+    "cid": "Taserface",
+    "real name": [
+      "Taserface"
+    ],
+    "alias": [
+      "Tay",
+      "Scrotumhat",
+      "Moronic Shitbag"
+    ],
+    "species": [
+      "Stark"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "October 2014"
+    ],
+    "affiliation": [
+      "Ravagers (exiled)*YRC"
+    ],
+    "actor": [
+      "Chris Sullivan"
+    ],
+    "title": [
+      "Captain"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "What If...?",
+        "source__type": "tv series",
+        "notes": "unreleased"
+      }
+    ]
+  }
+]

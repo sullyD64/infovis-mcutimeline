@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Marion James",
+    "real name": [
+      "Marion James"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "CIA"
+    ],
+    "title": [
+      "Deputy Director of the CIA"
+    ],
+    "actor": [
+      "Mary Elizabeth Mastrantonio"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

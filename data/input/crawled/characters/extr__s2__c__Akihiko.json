@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Akihiko",
+    "real name": [
+      "Akihiko"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Japanese"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Fall 2023"
+    ],
+    "affiliation": [
+      "Yakuza"
+    ],
+    "actor": [
+      "Hiroyuki Sanada"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

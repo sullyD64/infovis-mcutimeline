@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Xavin",
+    "real name": [
+      "Xavin"
+    ],
+    "alias": [
+      "The Stowaway",
+      "X",
+      "Noble Warrior"
+    ],
+    "species": [
+      "Xartan"
+    ],
+    "gender": [
+      "Female (default form while disguised; prefers she/her pronouns)"
+    ],
+    "age": [],
+    "actor": [
+      "Clarissa Thibeaux (default form while disguised)",
+      "Sara Van Horn (disguised)",
+      "Ariela Barer (disguised)",
+      "Lyrica Okano (disguised)",
+      "Virginia Gardner (disguised)",
+      "Ryan Dorsey (disguised)",
+      "Brittany Ishibashi (disguised)",
+      "James Marsters (disguised)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

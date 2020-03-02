@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Sherry Yang",
+    "real name": [
+      "Sherry Yang"
+    ],
+    "alias": [
+      "The Big Fish"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [],
+    "affiliation": [
+      "Bayard Community Center",
+      "Yangsi Gonshi"
+    ],
+    "actor": [
+      "Christine Toy Johnson"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

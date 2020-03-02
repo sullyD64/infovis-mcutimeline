@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Rhomann Dey",
+    "real name": [
+      "Rhomann Dey"
+    ],
+    "species": [
+      "Xandarian"
+    ],
+    "citizenship": [
+      "Nova Imperial"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Nova Corps"
+    ],
+    "title": [
+      "Denarian",
+      "Corpsman (formerly)"
+    ],
+    "actor": [
+      "John C. Reilly"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

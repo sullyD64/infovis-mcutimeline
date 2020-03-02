@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Johnny Blaze",
+    "real name": [
+      "Johnathon Blaze"
+    ],
+    "alias": [
+      "Johnny Blaze",
+      "Ghost Rider",
+      "The Devil",
+      "The Good Samaritan"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Tom McComas"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

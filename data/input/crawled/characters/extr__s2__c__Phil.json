@@ -1,0 +1,31 @@
+[
+  {
+    "cid": "Phil",
+    "real name": [
+      "Phil"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Larry Miller"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

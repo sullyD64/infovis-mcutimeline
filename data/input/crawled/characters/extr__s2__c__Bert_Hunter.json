@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Bert Hunter",
+    "real name": [
+      "Bert Hunter"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Stephen Hill"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Code of the Streets",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Just to Get a Rep",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Theo Nelson",
+    "real name": [
+      "Theo Nelson"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Nelson's Meats"
+    ],
+    "actor": [
+      "Peter Halpin"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

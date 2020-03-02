@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Winslow (Framework)",
+    "real name": [
+      "Calvin L. Johnson"
+    ],
+    "alias": [
+      "Doctor Winslow"
+    ],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "affiliation": [],
+    "title": [
+      "Doctor"
+    ],
+    "status": [
+      "Deleted"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "What If...",
+        "source__type": "tv series",
+        "notes": "mentioned in a newspaper"
+      }
+    ]
+  }
+]

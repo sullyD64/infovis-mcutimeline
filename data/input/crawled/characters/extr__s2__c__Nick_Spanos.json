@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Nick Spanos",
+    "real name": [
+      "Nicholas Spanos"
+    ],
+    "alias": [
+      "Nick Spanos",
+      "Bud"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Mid-2017<ref>''Jessica Jones: 2.01: AKA Start at the Beginning''</ref><ref name=\"JJ204\">''Jessica Jones: 2.04: AKA God Help the Hobo''</ref>"
+    ],
+    "title": [],
+    "affiliation": [
+      "United States Marine Corps (formerly)"
+    ],
+    "actor": [
+      "Maceo Oliver"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA God Help the Hobo",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

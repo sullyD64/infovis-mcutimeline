@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Jackie Albini",
+    "real name": [
+      "Jackie Albini"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Officer"
+    ],
+    "affiliation": [
+      "NYPD"
+    ],
+    "actor": [
+      "Gene Harrison"
+    ],
+    "DOD": [
+      "December 2, 2015<ref name=\"LC109\">''Luke Cage: 1.09: DWYCK''</ref><ref>''DWYCK'' shows that the date is December 1st, and his death is the following day.</ref>"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Take It Personal",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

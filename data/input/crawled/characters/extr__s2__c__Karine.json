@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Karine",
+    "real name": [
+      "Karine"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "French Polynesian"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Samantha Cutaran"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Pilot",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "FZZT",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Well",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Magical Place",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Sophie",
+    "real name": [
+      "Sophie"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Marja Harmon"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA The Octopus",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

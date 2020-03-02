@@ -1,0 +1,100 @@
+[
+  {
+    "cid": "Star-Lord",
+    "real name": [
+      "Peter Jason Quill"
+    ],
+    "alias": [
+      "Star-Lord",
+      "Pete",
+      "Star-Prince",
+      "Space-Lord",
+      "Legendary Outlaw",
+      "Honorless Thief",
+      "Man Who Has Lain With An A'askavariian",
+      "Humie with a Death Wish",
+      "The Biggest Idiots in the Galaxy (with Rocket Raccoon, Groot and Drax)",
+      "Companion",
+      "The Greatest Pilot in The Universe",
+      "Thief",
+      "Star-Munch",
+      "Orphan Boy",
+      "Morons (with Gamora, Drax the Destroyer and Mantis)",
+      "Titan Killing Long-Term Booty Call",
+      "Dipshit",
+      "Mr. Lord",
+      "Flash Gordon",
+      "Quail"
+    ],
+    "species": [
+      "Human/Celestial Hybrid"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "43 (biologically 38)"
+    ],
+    "DOB": [
+      "Late 1980"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "actor": [
+      "Chris Pratt",
+      "Wyatt Oleff (young)"
+    ],
+    "affiliation": [
+      "Ravagers (formerly)",
+      "*YRC (formerly)",
+      "Guardians of the Galaxy"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 3",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prequel Infinite Comic",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Drea Powell",
+    "real name": [
+      "Drea Powell"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [],
+    "affiliation": [],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Michelle Beck"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Straighten It Out",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "All Souled Out",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

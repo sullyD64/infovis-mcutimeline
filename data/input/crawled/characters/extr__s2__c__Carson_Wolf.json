@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Carson Wolf",
+    "real name": [
+      "Carson Wolf"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Special Agent in Charge"
+    ],
+    "affiliation": [
+      "Guantanamo Bay (formerly)",
+      "DHS",
+      "Cerberus Squad (formerly)"
+    ],
+    "DOD": [
+      "November 2016"
+    ],
+    "actor": [
+      "C. Thomas Howell"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "cid": "Scarlet Witch",
+    "real name": [
+      "Wanda Maximoff"
+    ],
+    "alias": [
+      "Scarlet Witch",
+      "The Twins (with Quicksilver)",
+      "Little Witch",
+      "The Enhanced (with Quicksilver)",
+      "Strucker's Prized Pupils (with Quicksilver)",
+      "Weapon of Mass Destruction",
+      "Child"
+    ],
+    "citizenship": [
+      "Sokovian"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "affiliation": [
+      "HYDRA (formerly)",
+      "Avengers (formerly)"
+    ],
+    "actor": [
+      "Elizabeth Olsen"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "mid-credits scene"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Doctor Strange in the Multiverse of Madness",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "WandaVision",
+        "source__type": "tv series",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "footage"
+      },
+      {
+        "source__title": "Team Thor",
+        "source__type": "web series",
+        "notes": "drawing"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron Prelude - This Scepter'd Isle",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Road to War",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain Marvel Prelude",
+        "source__type": "comic",
+        "notes": "computer screen"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Black Widow Prelude",
+        "source__type": "comic",
+        "notes": "flashbacks"
+      }
+    ]
+  }
+]

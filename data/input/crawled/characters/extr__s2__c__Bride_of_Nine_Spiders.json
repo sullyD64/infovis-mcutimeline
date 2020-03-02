@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Bride of Nine Spiders",
+    "real name": [
+      "Alessa Geomi"
+    ],
+    "alias": [
+      "The Bride of Nine Spiders"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "South Korean"
+    ],
+    "affiliation": [
+      "Hand"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Jane Kim"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Immortal Emerges from Cave",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

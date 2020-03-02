@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Lewis Wilson",
+    "real name": [
+      "Lewis Wilson"
+    ],
+    "alias": [
+      "Kid",
+      "Buddy",
+      "The Bomber",
+      "Little Bastard",
+      "Coward",
+      "Big Man",
+      "Crazed Terrorist"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "26"
+    ],
+    "DOB": [
+      "May 30, 1991"
+    ],
+    "DOD": [
+      "December 12, 2016"
+    ],
+    "affiliation": [
+      "United States Army (formerly)",
+      "*1st Infantry Division (formerly)"
+    ],
+    "actor": [
+      "Daniel Webber"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

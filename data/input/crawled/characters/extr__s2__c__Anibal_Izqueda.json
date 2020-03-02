@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Anibal Izqueda",
+    "real name": [
+      "Anibal Izqueda"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Puerto Rican"
+    ],
+    "affiliation": [
+      "Puerto Rican Mob"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Louie Gasparro"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Can't Front on Me",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "They Reminisce Over You (T.R.O.Y.)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

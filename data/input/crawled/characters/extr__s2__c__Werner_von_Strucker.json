@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Werner von Strucker",
+    "real name": [
+      "Werner von Strucker"
+    ],
+    "alias": [
+      "Alexander Braun",
+      "The Kid",
+      "Alex",
+      "Néstor de la Cruz"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "German",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Spring 2018"
+    ],
+    "affiliation": [
+      "Culver University (undercover,formerly)",
+      "HYDRA"
+    ],
+    "actor": [
+      "Spencer Treat Clark"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      }
+    ]
+  }
+]

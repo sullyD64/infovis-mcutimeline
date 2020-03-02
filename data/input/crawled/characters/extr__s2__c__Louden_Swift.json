@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Louden Swift",
+    "real name": [
+      "Louden Swift"
+    ],
+    "species": [
+      "Human (Cyborg)"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "United States Navy (formerly)",
+      "Roxxon Corporation"
+    ],
+    "actor": [
+      "Zachary Perez-Rukavina"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Princeton Offense",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Tracy Farnum",
+    "real name": [
+      "Tracy Farnum"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [],
+    "affiliation": [],
+    "actor": [
+      "Elise Kibler"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Into the Ring",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

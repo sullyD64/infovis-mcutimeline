@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Miek",
+    "real name": [
+      "Miek"
+    ],
+    "species": [
+      "Sakaaran"
+    ],
+    "citizenship": [
+      "Sakaaran (formely)",
+      "Asgardian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Sakaaran Rebellion"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Stephen Murdoch (on-set actor; ''Thor: Ragnarok'')",
+      " Unknown (''Avengers: Endgame'')"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

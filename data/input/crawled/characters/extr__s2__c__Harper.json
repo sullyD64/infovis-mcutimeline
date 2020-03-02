@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Harper",
+    "real name": [
+      "Harper"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "SSR"
+    ],
+    "title": [
+      "Agent of SSR"
+    ],
+    "actor": [],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Hollywood Ending",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

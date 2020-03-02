@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Shantel",
+    "real name": [
+      "Shantel"
+    ],
+    "alias": [
+      "Shan"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Fiona's Crew (formerly)"
+    ],
+    "actor": [
+      "Jordyn DiNatale"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Scar Tissue",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Flustercluck",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

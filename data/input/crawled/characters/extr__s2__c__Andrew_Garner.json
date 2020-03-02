@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Andrew Garner",
+    "real name": [
+      "Andrew Garner"
+    ],
+    "alias": [
+      "Lash",
+      "Random Civilian Number 14",
+      "Drew",
+      "Great White Shark",
+      "Pitbull",
+      "Rasta Hulk",
+      "Gandhi",
+      "The Ugly"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "DOD": [
+      "June 2016"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "Brown University (formerly)",
+      "S.H.I.E.L.D. (formerly)",
+      "Culver University"
+    ],
+    "actor": [
+      "Blair Underwood (Andrew Garner)",
+      "Matthew Willig (Lash)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "11 episodes"
+      }
+    ]
+  }
+]

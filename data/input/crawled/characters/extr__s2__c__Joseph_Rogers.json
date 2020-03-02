@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "Joseph Rogers",
+    "real name": [
+      "Joseph Rogers"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "May 8, 1918<ref>S.H.I.E.L.D. Files</ref>"
+    ],
+    "affiliation": [
+      "United States Army",
+      "*107"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The First Avenger",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: First Vengeance",
+        "source__type": "comic",
+        "notes": "picture"
+      }
+    ]
+  }
+]

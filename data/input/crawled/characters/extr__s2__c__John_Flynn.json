@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "John Flynn",
+    "real name": [
+      "John Flynn"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Captain",
+      "Agent of SSR"
+    ],
+    "affiliation": [
+      "SSR"
+    ],
+    "actor": [
+      "Bradley Whitford"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Marvel One-Shot: Agent Carter",
+        "source__type": "oneshot"
+      }
+    ]
+  }
+]

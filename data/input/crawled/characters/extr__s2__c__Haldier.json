@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Haldier",
+    "real name": [
+      "Haldier"
+    ],
+    "alias": [
+      "Haldier the Blacksmith"
+    ],
+    "species": [
+      "Asgardian"
+    ],
+    "citizenship": [
+      "Asgardian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "Over one thousand years"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor, The Mighty Avenger",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

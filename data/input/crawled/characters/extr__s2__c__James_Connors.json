@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "James Connors",
+    "real name": [
+      "James Connors"
+    ],
+    "alias": [
+      "Agent M"
+    ],
+    "title": [
+      "Detective (formerly)"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "November 1, 2017"
+    ],
+    "affiliation": [
+      "NOPD (formerly)"
+    ],
+    "actor": [
+      "J.D. Evermore"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "14 episodes"
+      }
+    ]
+  }
+]

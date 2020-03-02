@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Zach Bynum",
+    "real name": [
+      "Zach Bynum"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [],
+    "actor": [
+      "Bryan Keith"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Broken Promises",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "BOOM",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

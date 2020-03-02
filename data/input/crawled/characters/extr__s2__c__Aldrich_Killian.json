@@ -1,0 +1,59 @@
+[
+  {
+    "cid": "Aldrich Killian",
+    "real name": [
+      "Aldrich Killian"
+    ],
+    "alias": [
+      "Mandarin",
+      "Blonde With a Big Rack",
+      "The Pathology of the Serial Killer",
+      "The Manipulation of Western Iconography",
+      "Maniac",
+      "Visionary"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor",
+      "CEO of Advanced Idea Mechanics"
+    ],
+    "affiliation": [
+      "A.I.M."
+    ],
+    "DOD": [
+      "December 25, 2012"
+    ],
+    "actor": [
+      "Guy Pearce"
+    ],
+    "voice actor": [
+      "Nick Sullivan (as M.O.D.O.K.)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 3",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Marvel One-Shot: All Hail the King",
+        "source__type": "oneshot",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

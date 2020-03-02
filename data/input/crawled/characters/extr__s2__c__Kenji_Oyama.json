@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Kenji Oyama",
+    "real name": [
+      "Kenji Oyama"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Japanese"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "actor": [
+      "Glenn Kubota"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A New Napkin",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

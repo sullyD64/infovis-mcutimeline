@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Bruce Ogden",
+    "real name": [
+      "Bruce Ogden"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Donald Webber, Jr."
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Trouble the Water",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

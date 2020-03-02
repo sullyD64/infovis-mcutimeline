@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Elena Cardenas",
+    "real name": [
+      "Elena Cardenas"
+    ],
+    "alias": [
+      "Mrs. C"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Guatemalan"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "actor": [
+      "Judith Delgado"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

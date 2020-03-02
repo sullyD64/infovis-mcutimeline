@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Ant-thony",
+    "real name": [
+      "Ant-thony<ref name=\"Collider\">[http://cdn.collider.com/wp-content/uploads/2015/11/marvel-phase-2-blu-ray-box-set-35.jpg Marvel Phase Two Blu-ray Box Set]</ref>"
+    ],
+    "alias": [
+      "<nowiki>#247</nowiki>"
+    ],
+    "species": [
+      "Carpenter Ant"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "August 2015"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

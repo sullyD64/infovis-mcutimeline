@@ -1,0 +1,147 @@
+[
+  {
+    "cid": "Peggy Carter",
+    "real name": [
+      "Margaret Elizabeth Carter"
+    ],
+    "alias": [
+      "Peggy Carter",
+      "Peg",
+      "Agent 13",
+      "Eva",
+      "Queen Victoria",
+      "Your Majesty",
+      "Captain America's Old Flame",
+      "English",
+      "England",
+      "Ruth Barton",
+      "Marge",
+      "Miss Union Jack",
+      "Rocky Graziano",
+      "The Lone Ranger",
+      "Miss Wendy",
+      "Wanda",
+      "Doctor Katherine Wexford",
+      "Moe",
+      "Captain America's Liaison"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOB": [
+      "April 9, 1921"
+    ],
+    "DOD": [
+      "June 18, 2016"
+    ],
+    "age": [
+      "95"
+    ],
+    "affiliation": [
+      "Special Operations Executive (formerly)",
+      "British Armed Forces (formerly)",
+      "MI5 (formerly)",
+      "SSR (formerly)",
+      "*Project Rebirth (formerly)",
+      "S.H.I.E.L.D. (formerly)"
+    ],
+    "title": [
+      "Agent of SSR (formerly)",
+      "Agent of S.H.I.E.L.D. (formerly)",
+      "Director of S.H.I.E.L.D. (formerly)",
+      "Founder of S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Hayley Atwell",
+      "Gabriella Graves (young)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The First Avenger",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie",
+        "notes": "file"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie",
+        "notes": "illusion"
+      },
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: First Vengeance",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: The First Avenger Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Adaptation",
+        "source__type": "comic",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Ant-Man Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Marvel One-Shot: Agent Carter",
+        "source__type": "oneshot"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      },
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "18 episodes"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: Slingshot",
+        "source__type": "web series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

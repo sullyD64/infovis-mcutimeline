@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Lim",
+    "real name": [
+      "J. Lim"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Agent"
+    ],
+    "affiliation": [
+      "FBI"
+    ],
+    "actor": [
+      "Scotty Crowe"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

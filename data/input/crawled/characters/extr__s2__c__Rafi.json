@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Rafi",
+    "real name": [
+      "Rafi"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Slice City (formerly)"
+    ],
+    "actor": [
+      "Shayan Shojaee"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Start at the Beginning",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

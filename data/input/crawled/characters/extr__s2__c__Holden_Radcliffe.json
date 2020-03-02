@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Holden Radcliffe",
+    "real name": [
+      "Holden Radcliffe"
+    ],
+    "alias": [
+      "Worm",
+      "Gollum",
+      "Nightmare Ex",
+      "The Demon"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "citizenship": [
+      "British",
+      "Scottish"
+    ],
+    "affiliation": [
+      "GT Agrochemical (formerly)",
+      "Transhumanists (formerly)",
+      "S.H.I.E.L.D. (formerly)"
+    ],
+    "title": [
+      "Consultant (formerly)"
+    ],
+    "actor": [
+      "John Hannah"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "22 episodes"
+      }
+    ]
+  }
+]

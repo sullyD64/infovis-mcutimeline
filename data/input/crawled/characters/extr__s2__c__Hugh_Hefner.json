@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Hugh Hefner",
+    "real name": [
+      "Hugh Marston Hefner"
+    ],
+    "alias": [
+      "Hef"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Man 2: Public Identity",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

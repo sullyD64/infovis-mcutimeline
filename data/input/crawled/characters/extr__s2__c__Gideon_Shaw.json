@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Gideon Shaw",
+    "real name": [
+      "Gideon Shaw"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Jamaican"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Stylers"
+    ],
+    "actor": [
+      "R.A. Guirand"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "I Get Physical",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "All Souled Out",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Katya Belyakov",
+    "real name": [
+      "Katya Belyakov"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOB": [],
+    "DOD": [
+      "2008"
+    ],
+    "actor": [
+      "Ava Acres"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Melinda",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

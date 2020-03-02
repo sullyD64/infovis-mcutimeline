@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Kenneth",
+    "real name": [
+      "Kenneth"
+    ],
+    "alias": [
+      "Ken"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "July 16, 1947"
+    ],
+    "actor": [
+      "Randy Sklar"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A View in the Dark",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Better Angels",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Smoke & Mirrors",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

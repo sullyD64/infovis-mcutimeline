@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Bobby (Jigsaw's Crew)",
+    "real name": [
+      "Bobby"
+    ],
+    "alias": [
+      "Judas"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "May 2018"
+    ],
+    "affiliation": [
+      "United States Army (formerly)",
+      "ReadyQuick Check Cashing",
+      "Jigsaw's Crew"
+    ],
+    "actor": [
+      "Charles Brice"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

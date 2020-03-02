@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "Dana Stryker",
+    "real name": [
+      "Dana Stryker"
+    ],
+    "alias": [
+      "Heffa"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Baptist Church"
+    ],
+    "title": [],
+    "status": [
+      "Deceased"
+    ],
+    "actor": [
+      "Natalie Paul"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Blowin' Up the Spot",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Take It Personal",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "On and On",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

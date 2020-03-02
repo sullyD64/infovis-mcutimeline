@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Vasily Karpov",
+    "real name": [
+      "Vasily Karpov"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Soviet (formerly)",
+      "Russian",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "June 19, 2016"
+    ],
+    "title": [
+      "Colonel (formerly)"
+    ],
+    "affiliation": [
+      "HYDRA (formerly)",
+      "*Winter Soldier Program (formerly)",
+      "Soviet Armed Forces (formerly)",
+      "Russian Armed Forces (formerly)"
+    ],
+    "actor": [
+      "Gene Farber"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

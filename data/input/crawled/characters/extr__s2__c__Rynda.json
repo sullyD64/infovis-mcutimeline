@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Rynda",
+    "real name": [
+      "Rynda"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Attilan"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Queen of the Inhumans"
+    ],
+    "affiliation": [
+      "Inhuman Royal Family"
+    ],
+    "actor": [
+      "Tanya Clarke"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      "1997"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Tess",
+    "real name": [
+      "Tess"
+    ],
+    "alias": [
+      "Trash Girl"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Lighthouse"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "2091 (resurrected by the Kree Watch)"
+    ],
+    "actor": [
+      "Eve Harlow"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

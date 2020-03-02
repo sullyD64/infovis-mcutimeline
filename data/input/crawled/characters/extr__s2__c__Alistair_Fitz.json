@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Alistair Fitz",
+    "real name": [
+      "Alistair Fitz"
+    ],
+    "alias": [
+      "Pathetic Drunk"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "Scottish"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [],
+    "actor": [],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Hot Potato Soup",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "All the Madame's Men",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Return",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

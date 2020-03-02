@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Leland Owlsley",
+    "real name": [
+      "Leland Owlsley"
+    ],
+    "alias": [
+      "Doddering Pencil Pusher",
+      "Old Man"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Silver & Brent"
+    ],
+    "actor": [
+      "Bob Gunton"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOB": [
+      "1941-1942"
+    ],
+    "DOD": [
+      "Early 2015"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "9 episodes"
+      }
+    ]
+  }
+]

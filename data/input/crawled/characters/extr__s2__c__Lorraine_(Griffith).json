@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Lorraine (Griffith)",
+    "real name": [
+      "Lorraine"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Sarah Schreiber"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Blitzkrieg Button",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

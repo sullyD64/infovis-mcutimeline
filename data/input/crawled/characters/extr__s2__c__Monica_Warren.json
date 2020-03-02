@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Monica Warren",
+    "real name": [
+      "Monica Warren"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Teacher"
+    ],
+    "affiliation": [
+      "Midtown School of Science and Technology"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Selenis Leyva"
+    ],
+    "appearences": [
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming: School of Shock",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

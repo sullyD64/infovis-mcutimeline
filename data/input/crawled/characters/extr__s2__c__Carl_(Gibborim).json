@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Carl (Gibborim)",
+    "real name": [
+      "Carl"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Church of Gibborim"
+    ],
+    "actor": [
+      "Jeff Witzke"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Doomsday",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Last Rites",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

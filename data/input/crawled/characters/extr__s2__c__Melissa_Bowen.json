@@ -1,0 +1,31 @@
+[
+  {
+    "cid": "Melissa Bowen",
+    "real name": [
+      "Melissa Bowen"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Andrea Roth"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "14 episodes"
+      }
+    ]
+  }
+]

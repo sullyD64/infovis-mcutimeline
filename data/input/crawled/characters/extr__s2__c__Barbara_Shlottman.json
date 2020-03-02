@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Barbara Shlottman",
+    "real name": [
+      "Barbara Shlottman"
+    ],
+    "alias": [
+      "Barb Shlottman"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Deborah Hedwall"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

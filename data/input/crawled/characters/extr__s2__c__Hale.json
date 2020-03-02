@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "Hale",
+    "real name": [
+      "Hale"
+    ],
+    "alias": [
+      "Teacher's Pet",
+      "Backseat Pilot",
+      "Filthy Calamari Mata Hari",
+      "Kraken"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "2018"
+    ],
+    "title": [
+      "Brigadier General"
+    ],
+    "affiliation": [
+      "United States Air Force",
+      "HYDRA",
+      "*HYDRA Preparatory Academy",
+      "Confederacy (formerly)"
+    ],
+    "actor": [
+      "Catherine Dent",
+      "Alyssa Jirrels (young)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "10 episodes"
+      }
+    ]
+  }
+]

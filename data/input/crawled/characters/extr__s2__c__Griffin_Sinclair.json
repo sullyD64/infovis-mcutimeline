@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Griffin Sinclair",
+    "real name": [
+      "Griffin Sinclair"
+    ],
+    "alias": [
+      "Babe",
+      "Award-Winning Journalist"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Journalist"
+    ],
+    "affiliation": [
+      "ZCN"
+    ],
+    "actor": [
+      "Hal Ozsan"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

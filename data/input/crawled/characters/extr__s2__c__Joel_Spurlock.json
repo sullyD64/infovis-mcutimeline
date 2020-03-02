@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Joel Spurlock",
+    "real name": [
+      "Joel Spurlock"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Sedly Bloomfield"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episode"
+      }
+    ]
+  }
+]

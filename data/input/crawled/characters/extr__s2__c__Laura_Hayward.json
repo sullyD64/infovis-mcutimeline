@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Laura Hayward",
+    "real name": [
+      "Laura Hayward"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Ohio University"
+    ],
+    "actor": [
+      "Molly McCook"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Bridge",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

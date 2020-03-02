@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Camilla Reyes",
+    "real name": [
+      "Camilla Reyes"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Peruvian"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Comandante"
+    ],
+    "affiliation": [
+      "Peruvian Armed Forces",
+      "Policia Militar del Perú"
+    ],
+    "actor": [
+      "Leonor Varela"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "0-8-4 (episode)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

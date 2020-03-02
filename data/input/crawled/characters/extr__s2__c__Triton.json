@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Triton",
+    "real name": [
+      "Triton<!-- His name has NEVER been \"Triton Mander-Azur\". Adding that will lead to an instant block -->"
+    ],
+    "alias": [
+      "The Operative",
+      "Fish Guy"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Attilan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [
+      "Inhuman Royal Family"
+    ],
+    "actor": [
+      "Mike Moh"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

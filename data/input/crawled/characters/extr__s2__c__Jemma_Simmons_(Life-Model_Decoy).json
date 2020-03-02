@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Jemma Simmons (Life-Model Decoy)",
+    "real name": [
+      "Jemma Simmons"
+    ],
+    "species": [
+      "Life-Model Decoy"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Female (feminine programming & voice)"
+    ],
+    "age": [
+      "1 day"
+    ],
+    "DOB": [
+      "May, 2017"
+    ],
+    "DOD": [
+      "May, 2017"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Elizabeth Henstridge"
+    ],
+    "status": [
+      "Destroyed"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "World's End",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Topher",
+    "real name": [
+      "Topher Vasquez"
+    ],
+    "alias": [
+      "Mysterious Stranger"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Goodman University (formerly)"
+    ],
+    "title": [],
+    "actor": [
+      "Jan Luis Castellanos"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Maria Castle",
+    "real name": [
+      "Maria Elizabeth Castle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "DOD": [
+      "April 4, 2015"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Lauren Gray Weinerth",
+      "Kelli Barrett"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "picture"
+      },
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

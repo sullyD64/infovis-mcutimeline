@@ -1,0 +1,63 @@
+[
+  {
+    "cid": "Yondu Udonta",
+    "real name": [
+      "Yondu Udonta"
+    ],
+    "alias": [
+      "Pirate",
+      "Cap",
+      "Old Man",
+      "Drama Queen",
+      "Old Doofus",
+      "Blue Idiot",
+      "Mary Poppins",
+      "David Hasselhoff",
+      "Daddy"
+    ],
+    "species": [
+      "Centaurian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "October 2014"
+    ],
+    "title": [
+      "Captain"
+    ],
+    "affiliation": [
+      "Ravagers (formerly)*SOT(formerly)*YRC(formerly)GOTG"
+    ],
+    "actor": [
+      "Michael Rooker"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prequel Infinite Comic",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "What If...?",
+        "source__type": "tv series",
+        "notes": "unreleased"
+      }
+    ]
+  }
+]

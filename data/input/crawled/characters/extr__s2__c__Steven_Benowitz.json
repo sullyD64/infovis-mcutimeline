@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Steven Benowitz",
+    "real name": [
+      "Steven Benowitz"
+    ],
+    "alias": [
+      "Hot-to-Trot"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Senior Partner"
+    ],
+    "affiliation": [
+      "Hogarth, Chao and Benowitz"
+    ],
+    "actor": [
+      "Maury Ginsberg"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

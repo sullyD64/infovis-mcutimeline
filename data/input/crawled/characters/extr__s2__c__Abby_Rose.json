@@ -1,0 +1,31 @@
+[
+  {
+    "cid": "Abby Rose",
+    "real name": [
+      "Abby Rose"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "German"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [],
+    "affiliation": [
+      "Stark Industries Racing Team"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man Royal Purple Custom Comic",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

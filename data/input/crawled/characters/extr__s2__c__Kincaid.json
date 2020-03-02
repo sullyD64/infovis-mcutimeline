@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Kincaid",
+    "real name": [
+      "Kincaid"
+    ],
+    "alias": [
+      "Gold Leader"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [
+      "Wizard"
+    ],
+    "actor": [
+      "Devan Chandler Long"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Fifteen",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Metamorphosis",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Tsunami",
+        "source__type": "tv series",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

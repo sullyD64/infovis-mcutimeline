@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Jackson (Victim)",
+    "real name": [
+      "Jackson"
+    ],
+    "alias": [
+      "Trendy Guy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Kilgrave Victim Support Group"
+    ],
+    "actor": [
+      "Ryan Farrell"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

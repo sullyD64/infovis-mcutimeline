@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Priya",
+    "real name": [
+      "Priya"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "K'un-Lunan"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [],
+    "affiliation": [
+      "Order of the Crane Mother"
+    ],
+    "actor": [
+      "Gita Reddy"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The City's Not for Burning",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Heart of the Dragon",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

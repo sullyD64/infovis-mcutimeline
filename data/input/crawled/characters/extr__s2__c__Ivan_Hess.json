@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Ivan Hess",
+    "real name": [
+      "Ivan Hess"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "S.E. Fluid Dynamics"
+    ],
+    "affiliation": [
+      "Roxxon Corporation (formerly)"
+    ],
+    "actor": [
+      "Tim Kang"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

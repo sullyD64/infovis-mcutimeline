@@ -1,0 +1,55 @@
+[
+  {
+    "cid": "Valkyrie",
+    "real name": [
+      "Brunnhilde"
+    ],
+    "alias": [
+      "Valkyrie",
+      "Scrapper 142",
+      "Trash",
+      "Booze Hag",
+      "Big Girl",
+      "Angry Girl",
+      "Your Majesty"
+    ],
+    "species": [
+      "Asgardian"
+    ],
+    "citizenship": [
+      "Asgardian",
+      "Sakaaran (formerly)"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Valkyries (formerly)",
+      "Revengers (formerly)"
+    ],
+    "title": [
+      "King of New Asgard"
+    ],
+    "actor": [
+      "Tessa Thompson"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Thor: Love and Thunder",
+        "source__type": "movie",
+        "notes": "unreleased"
+      }
+    ]
+  }
+]

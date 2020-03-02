@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Buri",
+    "real name": [
+      "Buri"
+    ],
+    "species": [
+      "Asgardian"
+    ],
+    "citizenship": [
+      "Asgardian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Asgardian Royal Family"
+    ],
+    "title": [
+      "King of Asgard (formerly)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor (film)",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Thor: The Dark World Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

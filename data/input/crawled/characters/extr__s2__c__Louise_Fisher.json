@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Louise Fisher",
+    "real name": [
+      "Louise Fisher"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Callisto Aerospace"
+    ],
+    "actor": [
+      "Ellen Woglom"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

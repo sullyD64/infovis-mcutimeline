@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Callie Hannigan",
+    "real name": [
+      "Callie Hannigan"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "alias": [],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "S.H.I.E.L.D. Cadet"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. Academy of Science and Technology"
+    ],
+    "actor": [
+      "Maiara Walsh"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Seeds",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Gina",
+    "real name": [
+      "Gina"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Nedra McClyde"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Ladies Night",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Crush Syndrome",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

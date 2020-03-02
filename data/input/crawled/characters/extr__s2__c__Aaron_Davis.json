@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Aaron Davis",
+    "real name": [
+      "Aaron Davis"
+    ],
+    "alias": [
+      "Prowler",
+      "Brian Pinchelli",
+      "Mr. Criminal"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "April 15, 1984"
+    ],
+    "age": [
+      "39"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "actor": [
+      "Donald Glover"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

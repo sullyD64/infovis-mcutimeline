@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Ingrid Mackintosh",
+    "real name": [
+      "Ingrid Mackintosh"
+    ],
+    "alias": [
+      "Tater Tot's Wife"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Jamaican"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Gwen's"
+    ],
+    "actor": [
+      "Heather Alicia Simms",
+      "Melissa Vassell (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

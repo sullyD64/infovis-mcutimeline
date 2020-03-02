@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Brubaker",
+    "real name": [
+      "Brubaker"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "NASA",
+      "Project Distant Star Return"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "4,722 Hours",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Paradise Lost",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

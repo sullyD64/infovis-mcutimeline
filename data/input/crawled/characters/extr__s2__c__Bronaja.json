@@ -1,0 +1,31 @@
+[
+  {
+    "cid": "Bronaja",
+    "real name": [
+      "Bronaja"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Attilan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [],
+    "actor": [
+      "Ari Dalbert"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

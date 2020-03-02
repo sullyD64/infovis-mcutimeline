@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Francisco Rodriguez",
+    "real name": [
+      "Francisco Rodriguez"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Colombian"
+    ],
+    "age": [
+      "26"
+    ],
+    "DOB": [
+      "March 23, 1990"
+    ],
+    "DOD": [
+      "March 9, 2016"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Paul Lincoln Alayo"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: Slingshot",
+        "source__type": "web series",
+        "notes": "mentioned and photographs"
+      }
+    ]
+  }
+]

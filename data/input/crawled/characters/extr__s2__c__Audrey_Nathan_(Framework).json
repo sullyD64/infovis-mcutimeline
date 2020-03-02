@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Audrey Nathan (Framework)",
+    "real name": [
+      "Audrey Nathan"
+    ],
+    "alias": [],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "affiliation": [],
+    "status": [
+      "Deleted"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "What If...",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

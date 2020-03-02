@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Broker",
+    "real name": [],
+    "alias": [
+      "Broker"
+    ],
+    "species": [],
+    "citizenship": [
+      "Nova Imperial"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Christopher Fairbank"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

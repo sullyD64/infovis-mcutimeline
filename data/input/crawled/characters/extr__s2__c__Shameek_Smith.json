@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Shameek Smith",
+    "real name": [
+      "Shameek Smith"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "20s"
+    ],
+    "actor": [
+      "Jermel Howard"
+    ],
+    "DOD": [
+      "November 2015"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Moment of Truth",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Code of the Streets",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

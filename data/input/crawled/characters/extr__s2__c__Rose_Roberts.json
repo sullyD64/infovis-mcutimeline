@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Rose Roberts",
+    "real name": [
+      "Rose Roberts"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "SSR",
+      "*New York Bell Company",
+      "*Auerbach Theatrical Agency"
+    ],
+    "actor": [
+      "Lesley Boone"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "9 episodes"
+      }
+    ]
+  }
+]

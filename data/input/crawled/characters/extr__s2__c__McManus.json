@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "McManus",
+    "real name": [
+      "McManus"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "April 13, 2015"
+    ],
+    "affiliation": [
+      "IGH"
+    ],
+    "actor": [
+      "P.J. Griffith"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA I've Got the Blues",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

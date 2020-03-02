@@ -1,0 +1,45 @@
+[
+  {
+    "cid": "Goodman",
+    "real name": [
+      "Goodman"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Imelda Corcoran"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Magical Place",
+        "source__type": "tv series",
+        "notes": "flashbacks"
+      },
+      {
+        "source__title": "The Writing on the Wall",
+        "source__type": "tv series",
+        "notes": "flashbacks"
+      }
+    ]
+  }
+]

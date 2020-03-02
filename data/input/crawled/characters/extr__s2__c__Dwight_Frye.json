@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Dwight Frye",
+    "real name": [
+      "Dwight Frye"
+    ],
+    "alias": [],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "March 21, 1977"
+    ],
+    "DOD": [
+      "December 2015"
+    ],
+    "age": [
+      "38"
+    ],
+    "actor": [
+      "Chad Lindberg"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Devils You Know",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Among Us Hide...",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

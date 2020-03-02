@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Ayo",
+    "real name": [
+      "Ayo"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Wakandan"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Dora Milaje"
+    ],
+    "actor": [
+      "Florence Kasumba"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Black Panther (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Ronald Garcia",
+    "real name": [
+      "Ronald Garcia"
+    ],
+    "alias": [
+      "Ron"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "ZCN"
+    ],
+    "actor": [
+      "Alfredo Narciso"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Shark in the Bathtub, Monster in the Bed",
+        "source__type": "tv series",
+        "notes": "voice only"
+      },
+      {
+        "source__title": "AKA Pork Chop",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

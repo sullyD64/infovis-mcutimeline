@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Roland Duplantier",
+    "real name": [
+      "Roland Duplantier"
+    ],
+    "alias": [
+      "Big Chief"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Wild Red Hawks"
+    ],
+    "actor": [
+      "Luray Cooper"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Call/Response",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Ghost Stories",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Colony Collapse",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

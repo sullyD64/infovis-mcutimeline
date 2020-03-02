@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Stoltz",
+    "real name": [
+      "Stoltz"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Spring 2018"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "FBI"
+    ],
+    "title": [
+      "Agent"
+    ],
+    "actor": [
+      "Sean Thompson Kleier"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

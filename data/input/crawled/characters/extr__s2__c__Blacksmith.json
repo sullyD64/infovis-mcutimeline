@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "Blacksmith",
+    "real name": [
+      "Ray Schoonover"
+    ],
+    "alias": [
+      "Blacksmith",
+      "Dirty Bastard"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Colonel",
+      "Major (formerly)"
+    ],
+    "affiliation": [
+      "United States Marine Corps",
+      "*Cerberus Squad (formerly)"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "actor": [
+      "Clancy Brown"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      },
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

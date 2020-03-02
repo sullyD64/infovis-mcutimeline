@@ -1,0 +1,76 @@
+[
+  {
+    "cid": "Adolf Hitler",
+    "real name": [
+      "Adolf Hitler"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Austrian",
+      "Nazi German"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Führer",
+      "Reichskanzler"
+    ],
+    "affiliation": [
+      "Nazi Party",
+      "Sturmabteilung",
+      "Schutzstaffel",
+      "Wehrmacht"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie",
+        "notes": "newspaper"
+      },
+      {
+        "source__title": "Iron Man 2",
+        "source__type": "movie",
+        "notes": "newspaper"
+      },
+      {
+        "source__title": "Captain America: The First Avenger",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie",
+        "notes": "footage; deleted scene"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "footage"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Inside Man",
+        "source__type": "tv series",
+        "notes": "footage"
+      },
+      {
+        "source__title": "Captain America: First Vengeance",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: The First Avenger Adaptation",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

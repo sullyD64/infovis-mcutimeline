@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Lian May",
+    "real name": [
+      "Lian May"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Tsai Chin"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

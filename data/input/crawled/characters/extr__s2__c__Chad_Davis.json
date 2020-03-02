@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Chad Davis",
+    "real name": [
+      "Chad Davis"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      " Early 2012<ref name=\"IM3\"/>"
+    ],
+    "title": [
+      "Sergeant"
+    ],
+    "affiliation": [
+      "United States Army"
+    ],
+    "actor": [
+      "James Rackley"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 3",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

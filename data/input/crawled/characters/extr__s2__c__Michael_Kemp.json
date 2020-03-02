@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Michael Kemp",
+    "real name": [
+      "Michael Kemp"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Luke Robertson"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Blindsided",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

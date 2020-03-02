@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Luther Banks",
+    "real name": [
+      "Luther Banks"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Early 2016"
+    ],
+    "title": [
+      "ATCU Agent"
+    ],
+    "affiliation": [
+      "United States Marine Corps (formerly)",
+      "NASA (formerly)",
+      "ATCU"
+    ],
+    "actor": [
+      "Andrew Howard"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

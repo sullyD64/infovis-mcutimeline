@@ -1,0 +1,45 @@
+[
+  {
+    "cid": "Brigid O'Reilly",
+    "real name": [
+      "Brigid O'Reilly"
+    ],
+    "alias": [
+      "New York"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Detective"
+    ],
+    "affiliation": [
+      "NYPD (formerly)",
+      "NOPD"
+    ],
+    "actor": [
+      "Emma Lahana"
+    ],
+    "status": [
+      "Alive (merged with Mayhem)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "15 episodes"
+      }
+    ]
+  }
+]

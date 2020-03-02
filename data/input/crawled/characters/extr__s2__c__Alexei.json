@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Alexei",
+    "real name": [
+      "Alexei"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2007"
+    ],
+    "actor": [
+      "Ray DeFeis"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "In the Blood",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

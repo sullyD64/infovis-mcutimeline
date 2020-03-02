@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Yuri Krupin",
+    "real name": [
+      "Yuri Krupin"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Attaché of Prime Minister of Russia"
+    ],
+    "affiliation": [
+      "Government of Russia"
+    ],
+    "actor": [],
+    "DOD": [
+      "March 2016"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Parting Shot",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

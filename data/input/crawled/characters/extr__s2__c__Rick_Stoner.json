@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Rick Stoner",
+    "real name": [
+      "Rick Stoner"
+    ],
+    "alias": [
+      "Mad Genius"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "title": [
+      "General"
+    ],
+    "affiliation": [
+      "United States Army",
+      "SHD1*Project Reclamation"
+    ],
+    "actor": [
+      "Patrick Warburton"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "All the Comforts of Home",
+        "source__type": "tv series",
+        "notes": "video recording"
+      },
+      {
+        "source__title": "Option Two",
+        "source__type": "tv series",
+        "notes": "video recording"
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Nigel Garrison",
+    "real name": [
+      "Nigel Garrison"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Jamaican"
+    ],
+    "affiliation": [
+      "Yardies"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "August 2017"
+    ],
+    "actor": [
+      "Macc H. Plaise",
+      "Alex Allen (young)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

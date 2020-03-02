@@ -1,0 +1,86 @@
+[
+  {
+    "cid": "Gamora",
+    "real name": [
+      "Gamora"
+    ],
+    "alias": [
+      "Little One",
+      "Deadliest Woman in the Galaxy",
+      "Living Weapon",
+      "Galaxy-Class Killer",
+      "Green Whore",
+      "The Hero",
+      "Murderess",
+      "Murderer",
+      "Sweetheart",
+      "Morons (with Star-Lord, Drax the Destroyer and Mantis)",
+      "The Fiercest Woman in the Galaxy",
+      "Daughter of Thanos"
+    ],
+    "species": [
+      "Zehoberei (Cyborg)"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Guardians of the Galaxy (originalself)"
+    ],
+    "DOD": [
+      "Spring 2018<ref name=\"AIW\"/>"
+    ],
+    "actor": [
+      "Zoe Saldana",
+      "Ariana Greenblatt (young)"
+    ],
+    "status": [
+      "Deceased (original self)",
+      "Alive (alternate self from 2014)<ref name=\"2014 Gamora's Fate\">[https://comicbook.com/marvel/2019/07/20/avengers-endgame-gamoras-fate-revealed/ Avengers: Endgame Writers Reveal Gamora's Post-Endgame Fate]</ref>"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 3",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prequel Infinite Comic",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

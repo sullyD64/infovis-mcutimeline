@@ -1,0 +1,57 @@
+[
+  {
+    "cid": "Geoff Zorick",
+    "real name": [
+      "Geoff Zorick"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "CEO of Vistacorp"
+    ],
+    "affiliation": [
+      "Vistacorp"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series"
+      },
+      {
+        "source__title": "WHIH EXCLUSIVE: 2012 VistaCorp break-in security footage involving cyber-criminal Scott Lang",
+        "source__type": "web series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "WHIH EXCLUSIVE: Scott Lang Interview",
+        "source__type": "web series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Ant-Man - Scott Lang: Small Time",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

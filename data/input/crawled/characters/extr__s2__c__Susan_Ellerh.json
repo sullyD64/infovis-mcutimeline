@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Susan Ellerh",
+    "real name": [
+      "Susan Ellerh"
+    ],
+    "alias": [
+      "S4E2R"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Church of Gibborim"
+    ],
+    "actor": [
+      "Kathleen Quinlan"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

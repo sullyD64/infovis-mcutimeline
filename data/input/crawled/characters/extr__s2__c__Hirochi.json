@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Hirochi",
+    "real name": [
+      "Hirochi"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Japanese"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "November 2015"
+    ],
+    "affiliation": [
+      "Hand",
+      "Roxxon Corporation",
+      "*Asano Robotics"
+    ],
+    "actor": [
+      "Ron Nakahara"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

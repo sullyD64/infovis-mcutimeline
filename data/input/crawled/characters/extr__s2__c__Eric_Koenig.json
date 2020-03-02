@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Eric Koenig",
+    "real name": [
+      "Eric Koenig"
+    ],
+    "alias": [
+      "Lightning Foot",
+      "Steve Rogers"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Early 2014"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D.",
+      "*Life-Model Decoy Program"
+    ],
+    "actor": [
+      "Patton Oswalt"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

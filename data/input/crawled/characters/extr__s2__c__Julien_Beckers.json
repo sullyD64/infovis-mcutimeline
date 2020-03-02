@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Julien Beckers",
+    "real name": [
+      "Julien Beckers"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Belgian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Minister of Foreign Affairs"
+    ],
+    "affiliation": [
+      "Belgian Ministry of Foreign Affairs",
+      "HYDRA"
+    ],
+    "actor": [
+      "Michael Enright"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Fractured House",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

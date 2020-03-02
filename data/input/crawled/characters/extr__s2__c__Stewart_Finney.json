@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Stewart Finney",
+    "real name": [
+      "Stewart Finney"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Korey Jackson"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Seven Minutes in Heaven",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

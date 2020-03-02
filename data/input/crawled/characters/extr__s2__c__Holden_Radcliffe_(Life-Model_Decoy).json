@@ -1,0 +1,51 @@
+[
+  {
+    "cid": "Holden Radcliffe (Life-Model Decoy)",
+    "real name": [],
+    "alias": [
+      "Holden Radcliffe",
+      "Rad-Bot",
+      "Tin Man"
+    ],
+    "species": [
+      "Life-Model Decoy"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Male (masculine programming & voice)"
+    ],
+    "age": [
+      "7 Days"
+    ],
+    "DOB": [
+      "2017"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "affiliation": [
+      "Holden Radcliffe, Aida"
+    ],
+    "actor": [
+      "John Hannah"
+    ],
+    "voice actor": [],
+    "status": [
+      "Destroyed"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Wake Up",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Hot Potato Soup",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

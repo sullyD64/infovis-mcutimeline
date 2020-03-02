@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Kazan",
+    "real name": [
+      "Kazan"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "affiliation": [
+      "Russian Mafia"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Spring 2018<ref>''The Punisher: 2.07: One Bad Day''</ref>"
+    ],
+    "actor": [
+      "Ilia Volok"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "One-Eyed Jacks",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Nakazat",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

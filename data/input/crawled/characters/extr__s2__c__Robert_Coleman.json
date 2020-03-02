@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Robert Coleman",
+    "real name": [
+      "Robert Coleman"
+    ],
+    "alias": [
+      "Whizzer",
+      "Whiz"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Mid-2017"
+    ],
+    "actor": [
+      "Jay Klaitz"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Start at the Beginning",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Freak Accident",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

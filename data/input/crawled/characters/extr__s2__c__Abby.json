@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Abby",
+    "real name": [
+      "Abby"
+    ],
+    "alias": [],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Lighthouse (formerly)"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Ciara Bravo"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Life Spent",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

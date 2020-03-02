@@ -1,0 +1,54 @@
+[
+  {
+    "cid": "Korath",
+    "real name": [
+      "Korath"
+    ],
+    "alias": [
+      "Korath the Pursuer",
+      "Machine-Headed Freak"
+    ],
+    "species": [
+      "Kree (Cyborg)"
+    ],
+    "citizenship": [
+      "Kree Imperial"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "August 2014"
+    ],
+    "title": [
+      "The Pursuer"
+    ],
+    "affiliation": [
+      "Starforce (formerly)"
+    ],
+    "actor": [
+      "Djimon Hounsou"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

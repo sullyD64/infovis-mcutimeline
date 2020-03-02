@@ -1,0 +1,31 @@
+[
+  {
+    "cid": "Jimmy (Patient)",
+    "real name": [
+      "Jimmy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Shadow Hawk Takes Flight",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

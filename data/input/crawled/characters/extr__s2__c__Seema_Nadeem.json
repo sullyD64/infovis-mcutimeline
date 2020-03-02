@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Seema Nadeem",
+    "real name": [
+      "Seema Nadeem"
+    ],
+    "alias": [
+      "Seems"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American",
+      "Indian"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Sunita Deshpande"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "9 episodes"
+      }
+    ]
+  }
+]

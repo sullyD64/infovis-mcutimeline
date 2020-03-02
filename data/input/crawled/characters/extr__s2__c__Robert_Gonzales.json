@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Robert Gonzales",
+    "real name": [
+      "Robert Gonzales"
+    ],
+    "alias": [
+      "The Love Boat Captain",
+      "Captain Ahab"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "May 8, 2015"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D.",
+      "Commander"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Edward James Olmos"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": " (5 episodes)"
+      }
+    ]
+  }
+]

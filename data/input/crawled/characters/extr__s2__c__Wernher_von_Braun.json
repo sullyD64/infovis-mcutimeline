@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Wernher von Braun",
+    "real name": [
+      "Wernher Magnus Maximilian, Freiherr von Braun"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Nazi German (formerly)",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [
+      "Schutzstaffel (formerly)",
+      "NASA"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 3",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "video footage"
+      }
+    ]
+  }
+]

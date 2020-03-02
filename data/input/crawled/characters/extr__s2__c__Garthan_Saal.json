@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Garthan Saal",
+    "real name": [
+      "Garthan Saal"
+    ],
+    "species": [
+      "Xandarian"
+    ],
+    "citizenship": [
+      "Nova Imperial"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "August 2014<ref name=\"Real Time\">The ''Marvel Cinematic Universe'' follows a general real time policy in most of Phase Two - set when the media is released when suitable.</ref>"
+    ],
+    "affiliation": [
+      "Nova Corps"
+    ],
+    "title": [
+      "Denarian"
+    ],
+    "actor": [
+      "Peter Serafinowicz"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

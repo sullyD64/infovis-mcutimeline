@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "Rosalind Price",
+    "real name": [
+      "Rosalind Price"
+    ],
+    "alias": [
+      "Roz",
+      "Margaret Campbell",
+      "Jane Thompson",
+      "Samantha Potter",
+      "Sarah Russell",
+      "Mrs. Kinley",
+      "Ms. McBride",
+      "Dragon Lady"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "Early 2016"
+    ],
+    "title": [],
+    "affiliation": [
+      "CIA (formerly)",
+      "NASA (formerly)",
+      "MI6 (formerly)",
+      "ATCU"
+    ],
+    "actor": [
+      "Constance Zimmer"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": " (7 episodes) "
+      }
+    ]
+  }
+]

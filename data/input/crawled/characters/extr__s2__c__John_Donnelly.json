@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "John Donnelly",
+    "real name": [
+      "John Donnelly"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Daniel Roebuck"
+    ],
+    "DOD": [
+      "Late 2015"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Wanted (Inhu)man",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

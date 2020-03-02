@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Kelly Scott",
+    "real name": [
+      "Kelly Scott"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Actress"
+    ],
+    "actor": [
+      "Haley Murphy"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Freak Accident",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA God Help the Hobo",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

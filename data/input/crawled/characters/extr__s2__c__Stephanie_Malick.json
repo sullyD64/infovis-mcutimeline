@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Stephanie Malick",
+    "real name": [
+      "Stephanie Malick"
+    ],
+    "alias": [
+      "Sweetie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [],
+    "affiliation": [
+      "HYDRA"
+    ],
+    "DOD": [
+      "April 25, 2016"
+    ],
+    "actor": [
+      "Bethany Joy Lenz"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Parting Shot",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Paradise Lost",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Team",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

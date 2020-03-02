@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Azzuri",
+    "real name": [
+      "Azzuri"
+    ],
+    "DOD": [],
+    "alias": [
+      "Black Panther"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Wakandan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Golden Tribe"
+    ],
+    "title": [
+      "King of Wakanda (formerly)",
+      "Black Panther (formerly)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Black Panther (film)",
+        "source__type": "movie",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Roger",
+    "real name": [
+      "Roger"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Josh Clark"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Repairs",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

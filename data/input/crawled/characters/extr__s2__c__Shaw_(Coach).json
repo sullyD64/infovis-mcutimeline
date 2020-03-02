@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Shaw (Coach)",
+    "real name": [
+      "Shaw"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "title": [
+      "Coach"
+    ],
+    "affiliation": [
+      "DeWitt Clinton High School"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "If It Ain't Rough, It Ain't Right",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Main Ingredient",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

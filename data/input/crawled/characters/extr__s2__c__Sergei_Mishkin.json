@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Sergei Mishkin",
+    "real name": [
+      "Sergei Mishkin"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Joris Jarsky"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "World's End",
+        "source__type": "tv series",
+        "notes": "pictured"
+      }
+    ]
+  }
+]

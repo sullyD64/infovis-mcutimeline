@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Sergei Mishkin (Life-Model Decoy)",
+    "real name": [
+      "Sergei Mishkin"
+    ],
+    "species": [
+      "Life-Model Decoys"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Male (masculine programming and voice)"
+    ],
+    "affiliation": [
+      "Aida",
+      "Watchdogs"
+    ],
+    "actor": [
+      "Joris Jarsky"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "World's End",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

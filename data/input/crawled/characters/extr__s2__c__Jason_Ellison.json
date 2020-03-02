@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Jason Ellison",
+    "real name": [
+      "Jason Ellison"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Chris Carfizzi"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "<br >"
+      }
+    ]
+  }
+]

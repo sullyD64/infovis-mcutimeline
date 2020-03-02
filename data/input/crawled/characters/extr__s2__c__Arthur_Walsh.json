@@ -1,0 +1,54 @@
+[
+  {
+    "cid": "Arthur Walsh",
+    "real name": [
+      "Arthur Walsh"
+    ],
+    "alias": [
+      "Good Samaritan",
+      "Old Man",
+      "Stickball Guy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Spring 2018"
+    ],
+    "affiliation": [
+      "Ray of Hope (formerly)"
+    ],
+    "actor": [
+      "Thomas G. Waites"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Cold Steel",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Scar Tissue",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "One-Eyed Jacks",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

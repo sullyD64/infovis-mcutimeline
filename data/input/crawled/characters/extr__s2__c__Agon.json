@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Agon",
+    "real name": [
+      "Agon"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Attilan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "King of the Inhumans"
+    ],
+    "affiliation": [
+      "Inhuman Royal Family"
+    ],
+    "actor": [
+      "Michael Buie"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      "1997"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

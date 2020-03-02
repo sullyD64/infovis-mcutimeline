@@ -1,0 +1,27 @@
+[
+  {
+    "cid": "Miles Morales",
+    "real name": [
+      "Miles Morales"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

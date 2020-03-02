@@ -1,0 +1,26 @@
+[
+  {
+    "cid": "Cordo Gaines",
+    "real name": [
+      "Cordo Gaines"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Ten Rings"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man: Will Online Evils Prevail?",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

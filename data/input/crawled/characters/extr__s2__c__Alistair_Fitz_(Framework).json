@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Alistair Fitz (Framework)",
+    "real name": [
+      "Alistair Fitz"
+    ],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "citizenship": [
+      "British",
+      "Scottish"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "title": [],
+    "affiliation": [
+      "HYDRA"
+    ],
+    "actor": [
+      "David O'Hara"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

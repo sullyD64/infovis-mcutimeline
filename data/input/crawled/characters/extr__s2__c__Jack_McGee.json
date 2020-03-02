@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Jack McGee",
+    "real name": [
+      "Jack McGee"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Culver University",
+      "*''Culver University Press''"
+    ],
+    "actor": [
+      "Nicholas Rose"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Incredible Hulk",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

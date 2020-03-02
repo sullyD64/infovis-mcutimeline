@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Finn Cooley",
+    "real name": [
+      "Finn Cooley"
+    ],
+    "alias": [
+      "Asshole"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Irish"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Kitchen Irish"
+    ],
+    "actor": [
+      "Tony Curran"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      "November 1, 2015"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Bang",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Penny and Dime",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Guilty as Sin",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

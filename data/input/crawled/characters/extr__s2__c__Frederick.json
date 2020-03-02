@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Frederick",
+    "real name": [
+      "Frederick"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Momentum Labs"
+    ],
+    "actor": [
+      "Dan Donohue"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Meet the New Boss",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Good Samaritan",
+        "source__type": "tv series",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

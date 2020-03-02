@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Cassandra Knight",
+    "real name": [
+      "Cassandra Knight"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [],
+    "DOD": [
+      "July 23, 1995"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "DWYCK",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

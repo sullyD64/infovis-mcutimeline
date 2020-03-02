@@ -1,0 +1,54 @@
+[
+  {
+    "cid": "Ivchenko",
+    "real name": [
+      "Johann Fennhoff"
+    ],
+    "alias": [
+      "Viktor Ivchenko",
+      "Head Doctor",
+      "Doc",
+      "Fool",
+      "Russian Guy",
+      "Star Witness",
+      "Evil Enemy Scientist",
+      "Killer",
+      "The Doctor",
+      "Son of a Bitch",
+      "Russian Jerk",
+      "Herr Doktor"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Soviet"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "November 27, 1882"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "Soviet Armed Forces (formerly)",
+      "Leviathan"
+    ],
+    "actor": [
+      "Ralph Brown"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

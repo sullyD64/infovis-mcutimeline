@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Chen",
+    "real name": [
+      "Chen"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Chinese"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Chinatown Crew"
+    ],
+    "actor": [
+      "Jen Kuo Sung"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

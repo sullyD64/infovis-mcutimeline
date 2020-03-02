@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Livvie",
+    "real name": [
+      "Livvie"
+    ],
+    "alias": [
+      "Liv",
+      "Auntie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOB": [
+      "December 8th"
+    ],
+    "affiliation": [],
+    "actor": [
+      "Ajiona Alexus"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

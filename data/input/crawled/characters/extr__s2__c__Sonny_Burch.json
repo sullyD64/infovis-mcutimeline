@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Sonny Burch",
+    "real name": [
+      "Sonny Burch"
+    ],
+    "alias": [
+      "Little Weasel",
+      "Southern Gentleman"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Walton Goggins"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

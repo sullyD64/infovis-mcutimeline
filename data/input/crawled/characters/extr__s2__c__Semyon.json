@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "Semyon",
+    "real name": [
+      "Semyon"
+    ],
+    "alias": [
+      "Detective Foster"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Russian Mafia"
+    ],
+    "actor": [
+      "Alex Falberg"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Cut Man",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "In the Blood",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Condemned",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

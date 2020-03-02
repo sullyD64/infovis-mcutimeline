@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Grant Ward (Framework)",
+    "real name": [
+      "Grant Douglas Ward"
+    ],
+    "alias": [
+      "Lincoln Campbell",
+      "Psycho Stalker",
+      "HYDRA Double Agent",
+      "Hive"
+    ],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D.",
+      "Agent of HYDRA (formerly; undercover)"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "affiliation": [
+      "HYDRA (formerly;undercover)",
+      "S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Brett Dalton"
+    ],
+    "status": [
+      "Deleted"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

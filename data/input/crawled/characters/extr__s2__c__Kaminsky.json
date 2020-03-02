@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "Kaminsky",
+    "real name": [
+      "Kaminsky"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D. (Formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (Formerly)",
+      "HYDRA",
+      "Centipede Project"
+    ],
+    "actor": [
+      "Jeffrey Muller"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Providence (episode)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Ragtag",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Beginning of the End",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

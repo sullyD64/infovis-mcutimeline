@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Geoffrey Canada",
+    "real name": [
+      "Geoffrey Canada"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [],
+    "actor": [
+      "Himself"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Suckas Need Bodyguards",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Wig Out",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

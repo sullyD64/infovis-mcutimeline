@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Gaius Ponarian",
+    "real name": [
+      "Gaius Ponarian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Senator"
+    ],
+    "actor": [
+      "Patrick Fabian"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Fun & Games",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

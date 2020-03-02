@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Ruben",
+    "real name": [
+      "Ruben"
+    ],
+    "alias": [
+      "Pooh Bear",
+      "Milquetoast Little Man-Boy",
+      "Baby Faced Boy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "February-March"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "actor": [
+      "Kieran Mulcare"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "4 Episodes"
+      }
+    ]
+  }
+]

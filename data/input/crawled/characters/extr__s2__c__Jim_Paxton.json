@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Jim Paxton",
+    "real name": [
+      "James Paxton"
+    ],
+    "alias": [
+      "Jim Paxton"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Officer"
+    ],
+    "affiliation": [
+      "SFPD"
+    ],
+    "actor": [
+      "Bobby Cannavale"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

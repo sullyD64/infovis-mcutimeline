@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Sheldon",
+    "real name": [
+      "Sheldon"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Jamaican"
+    ],
+    "affiliation": [
+      "Stylers"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Kevin Mambo",
+      "Antwayne Eccleston (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "9 episodes"
+      }
+    ]
+  }
+]

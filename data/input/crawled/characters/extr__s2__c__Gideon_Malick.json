@@ -1,0 +1,58 @@
+[
+  {
+    "cid": "Gideon Malick",
+    "real name": [
+      "Gideon Malick"
+    ],
+    "alias": [
+      "Old Man",
+      "Last Head of HYDRA"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "April 26, 2016"
+    ],
+    "title": [
+      "CEO of Gothite Industries",
+      "Councilman (formerly)"
+    ],
+    "affiliation": [
+      "HYDRA",
+      "*DSR (formerly)",
+      "Gothite Industries",
+      "World Security Council (formerly)",
+      "ATCU (formerly)",
+      "Transia Corporation"
+    ],
+    "actor": [
+      "Powers Boothe",
+      "Cameron Palatas (young)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "11 episodes"
+      },
+      {
+        "source__title": "The Avengers Adaptation",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

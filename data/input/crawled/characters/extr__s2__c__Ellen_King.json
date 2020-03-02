@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Ellen King",
+    "real name": [
+      "Ellen King"
+    ],
+    "alias": [
+      "Down Under"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Australian"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Government of Australia",
+      "*Australian Threat Unit"
+    ],
+    "actor": [
+      "Melissa Bickerton"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Inside Man",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

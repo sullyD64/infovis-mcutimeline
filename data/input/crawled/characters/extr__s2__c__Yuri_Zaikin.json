@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "Yuri Zaikin",
+    "real name": [
+      "Yuri Zaikin"
+    ],
+    "alias": [
+      "Lee Harvey Whatever",
+      "Pushkin",
+      "The Russki"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Soviet (formerly)",
+      "Russian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "KGB (formerly)",
+      "SVR (formerly)",
+      "HYDRA (formerly)",
+      "Watchdogs"
+    ],
+    "actor": [
+      "Troy Caylak"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Patriot",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Hot Potato Soup",
+        "source__type": "tv series",
+        "notes": "photo"
+      }
+    ]
+  }
+]

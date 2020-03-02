@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Christopher Roth",
+    "real name": [
+      "Christopher Roth"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [],
+    "actor": [
+      "Neil Grayston"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Regrets Only",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

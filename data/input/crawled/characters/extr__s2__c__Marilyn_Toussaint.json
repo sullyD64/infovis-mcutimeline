@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Marilyn Toussaint",
+    "real name": [
+      "Marilyn Toussaint"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [],
+    "affiliation": [
+      "New York City Department of Correction"
+    ],
+    "actor": [
+      "Jennifer Fouché"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "title": [
+      "Officer"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Pork Chop",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Three Lives and Counting",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

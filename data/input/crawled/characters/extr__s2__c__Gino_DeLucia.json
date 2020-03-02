@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Gino DeLucia",
+    "real name": [
+      "Gino DeLucia"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "April 18, 1946"
+    ],
+    "actor": [
+      "Joseph Wilson"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Bridge and Tunnel",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Elizabeth Albee",
+    "real name": [
+      "Elizabeth Albee"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Let Me Stand Next to Your Fire",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

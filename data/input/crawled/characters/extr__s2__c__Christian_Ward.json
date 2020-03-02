@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Christian Ward",
+    "real name": [
+      "Christian Ward"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "title": [
+      "Senator"
+    ],
+    "affiliation": [
+      "United States Congress"
+    ],
+    "actor": [
+      "Tim DeKay",
+      "Alex Neustaedter (Young)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

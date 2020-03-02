@@ -1,0 +1,216 @@
+[
+  {
+    "cid": "Nick Fury",
+    "real name": [
+      "Nicholas Joseph Fury"
+    ],
+    "alias": [
+      "Nick Fury",
+      "The Spy",
+      "America's Top Spy",
+      "Foxtrot",
+      "100% Red-Blooded Earth Man",
+      "One-Eyed Man",
+      "Jacob Veech",
+      "Pickpocket Director",
+      "Slick Rick",
+      "The Most Paranoid and Dangerous Man on the Planet"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "DOB": [
+      "July 4, 1950"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "title": [
+      "Colonel (formerly)",
+      "CIA Agent (formerly)",
+      "Agent of S.H.I.E.L.D. (formerly)",
+      "Director of S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "United States Army (formerly)",
+      "CIA (formerly)",
+      "S.H.I.E.L.D. (formerly)",
+      "Nick Fury's Crew"
+    ],
+    "actor": [
+      "Samuel L. Jackson"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie",
+        "notes": "post-credits scene"
+      },
+      {
+        "source__title": "The Incredible Hulk",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Man 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Thor (film)",
+        "source__type": "movie",
+        "notes": "post-credits scene"
+      },
+      {
+        "source__title": "Captain America: The First Avenger",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie",
+        "notes": "post-credits scene"
+      },
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie",
+        "notes": "post-credits scene"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      },
+      {
+        "source__title": "Team Thor",
+        "source__type": "web series",
+        "notes": "drawing"
+      },
+      {
+        "source__title": "Iron Man: Security Measures",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Incredible Hulk: The Fury Files",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Nick Fury: Spies Like Us",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man: I Am Iron Man!",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Nick Fury: Director of S.H.I.E.L.D.",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Public Identity",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Phil Coulson: Agent of S.H.I.E.L.D.",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Black Widow: Agent of S.H.I.E.L.D.",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Prelude: Fury's Big Week",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Prelude: Black Widow Strikes",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers: The Avengers Initiative",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2 Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor Adaptation",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Thor: The Dark World Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: The First Avenger Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Homecoming",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Avengers Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron Prelude - This Scepter'd Isle",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Road to War",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Thor: Ragnarok Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain Marvel Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Black Widow Prelude",
+        "source__type": "comic",
+        "notes": "flashbacks"
+      }
+    ]
+  }
+]

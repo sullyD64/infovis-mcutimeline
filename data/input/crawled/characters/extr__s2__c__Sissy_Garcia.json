@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Sissy Garcia",
+    "real name": [
+      "Sissy Garcia"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "actor": [
+      "Charleigh E. Parker"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA The Sandwich Saved Me",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA You're a Winner!",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

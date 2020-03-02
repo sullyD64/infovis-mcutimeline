@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Lawrence Wilkins",
+    "real name": [
+      "Lawrence Wilkins"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "DOD": [
+      "2016"
+    ],
+    "affiliation": [
+      "Rand Enterprises"
+    ],
+    "actor": [
+      "Clifton Davis"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

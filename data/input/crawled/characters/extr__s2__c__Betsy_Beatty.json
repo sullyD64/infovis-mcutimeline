@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Betsy Beatty",
+    "real name": [
+      "Betsy Beatty"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "New York State Division of Parole"
+    ],
+    "actor": [
+      "Karina Casiano"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

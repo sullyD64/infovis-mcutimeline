@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Tony (Bartender)",
+    "real name": [
+      "Tony"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "''Tipsy Tilly's Bar''"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Jeremie Carlson"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Flustercluck",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

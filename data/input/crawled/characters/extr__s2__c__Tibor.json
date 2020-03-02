@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Tibor",
+    "real name": [
+      "Tibor"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Attilan"
+    ],
+    "alias": [
+      "T"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Head of the Genetic Council"
+    ],
+    "affiliation": [
+      "Genetic Council (formerly)"
+    ],
+    "actor": [
+      "Ptolemy Slocum"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      "2016"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

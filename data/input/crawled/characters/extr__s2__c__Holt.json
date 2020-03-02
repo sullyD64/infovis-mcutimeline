@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Holt",
+    "real name": [
+      "Holt"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Lighthouse"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2091"
+    ],
+    "actor": [
+      "James Babson"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Orientation Part Two",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Life Spent",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

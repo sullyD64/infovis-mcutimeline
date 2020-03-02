@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Mainframe",
+    "real name": [
+      "Mainframe"
+    ],
+    "gender": [
+      "Female (feminine voice and programming)"
+    ],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "title": [
+      "Captain"
+    ],
+    "affiliation": [
+      "RVG*Mainframe Ravager Clan*SOT"
+    ],
+    "voice actor": [
+      "Miley Cyrus"
+    ],
+    "status": [
+      "Active"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

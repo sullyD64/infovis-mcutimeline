@@ -1,0 +1,57 @@
+[
+  {
+    "cid": "Christine Everhart",
+    "real name": [
+      "Christine Everhart"
+    ],
+    "alias": [
+      "Miss Brown",
+      "Honey",
+      "Carrie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Brown University (formerly)",
+      "Vanity Fair (formerly)",
+      "WHiH World News",
+      "*''WHiH Newsfront''"
+    ],
+    "actor": [
+      "Leslie Bibb"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Iron Man 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "8 episodes"
+      },
+      {
+        "source__title": "Iron Man: I Am Iron Man!",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2 Adaptation",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

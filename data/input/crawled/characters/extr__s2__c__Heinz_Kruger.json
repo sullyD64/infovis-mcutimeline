@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Heinz Kruger",
+    "real name": [
+      "Heinz Kruger"
+    ],
+    "alias": [
+      "Fred Clemson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Nazi German"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "June 22, 1943"
+    ],
+    "affiliation": [
+      "HYDRA"
+    ],
+    "actor": [
+      "Richard Armitage"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The First Avenger",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: The First Avenger Adaptation",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

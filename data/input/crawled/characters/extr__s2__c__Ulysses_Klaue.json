@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Ulysses Klaue",
+    "real name": [
+      "Ulysses Klaue"
+    ],
+    "alias": [
+      "Ahab",
+      "The Dealer",
+      "Bro",
+      "Ungumbuali<ref>Translated from Xhosa: Murderer</ref>",
+      "Murderer"
+    ],
+    "species": [
+      "Human (Cyborg)"
+    ],
+    "citizenship": [
+      "Belgian",
+      "South African"
+    ],
+    "affiliation": [
+      "Intelligencia (formerly)"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "July 2016"
+    ],
+    "actor": [
+      "Andy Serkis"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Black Panther Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Black Panther (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

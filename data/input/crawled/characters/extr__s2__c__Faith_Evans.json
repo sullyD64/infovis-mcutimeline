@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Faith Evans",
+    "real name": [
+      "Faith Renée Jordan",
+      "Faith Renée Evans (nubile name)"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Herself"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Code of the Streets",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Main Ingredient",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

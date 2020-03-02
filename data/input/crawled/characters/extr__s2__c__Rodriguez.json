@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Rodriguez",
+    "real name": [
+      "Rodriguez"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Vice President of the United States (formerly)"
+    ],
+    "affiliation": [
+      "United States Government (formerly)"
+    ],
+    "actor": [
+      "Miguel Ferrer"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 3",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

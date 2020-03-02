@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "David Kurata",
+    "real name": [
+      "David Kurata"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Metro-General Hospital (formerly)"
+    ],
+    "title": [
+      "Surgeon"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "actor": [
+      "Thom Sesma"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Crush Syndrome",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA It's Called Whiskey",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "AKA 99 Friends",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

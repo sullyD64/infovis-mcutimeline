@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Clyde Farnum",
+    "real name": [
+      "Clyde Farnum"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Officer"
+    ],
+    "affiliation": [
+      "NYPD"
+    ],
+    "actor": [
+      "J. Tucker Smith"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Into the Ring",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Rabbit in a Snowstorm (episode)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "In the Blood",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

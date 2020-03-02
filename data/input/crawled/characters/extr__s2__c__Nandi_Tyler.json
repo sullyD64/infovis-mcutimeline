@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Nandi Tyler",
+    "real name": [
+      "Nandi Tyler"
+    ],
+    "alias": [
+      "Yellow Gal"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Detective (formerly)"
+    ],
+    "affiliation": [
+      "DeWitt Clinton High School (formerly)",
+      "NYPD (formerly)"
+    ],
+    "actor": [
+      "Antonique Smith"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

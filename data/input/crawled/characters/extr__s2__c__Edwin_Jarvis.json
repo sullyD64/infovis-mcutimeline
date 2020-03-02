@@ -1,0 +1,51 @@
+[
+  {
+    "cid": "Edwin Jarvis",
+    "real name": [
+      "Edwin Jarvis"
+    ],
+    "alias": [
+      "Mr. Fancy",
+      "Jeeves",
+      "Larry"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "British Armed Forces (formerly)",
+      "Stark Industries"
+    ],
+    "DOB": [
+      "April 1913-April 1914"
+    ],
+    "actor": [
+      "James D'Arcy"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "18 episodes"
+      },
+      {
+        "source__title": "Iron Man 2: Public Identity",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

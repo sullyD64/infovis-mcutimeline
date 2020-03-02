@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Maximus",
+    "real name": [
+      "Maximus Boltagon"
+    ],
+    "alias": [
+      "The Revolutionary",
+      "Max",
+      "The False King of Attilan"
+    ],
+    "species": [
+      "Human (formerly Inhuman)"
+    ],
+    "citizenship": [
+      "Attilan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Prince of Attilan",
+      "King of Attilan (formerly)"
+    ],
+    "affiliation": [
+      "Inhuman Royal Family (formerly)"
+    ],
+    "actor": [
+      "Iwan Rheon",
+      "Aidan Fiske (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      }
+    ]
+  }
+]

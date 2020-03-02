@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "Agamotto",
+    "real name": [
+      "Agamotto"
+    ],
+    "alias": [
+      "The Father of the Mystic Arts",
+      "The Mighty Agamotto"
+    ],
+    "species": [],
+    "citizenship": [],
+    "affiliation": [
+      "Masters of the Mystic Arts"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Master",
+      "Sorcerer Supreme"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "actor": [],
+    "appearences": [
+      {
+        "source__title": "Doctor Strange (film)",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Doctor Strange: Mystic Apprentice",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Katie (Assistant)",
+    "real name": [
+      "Katie"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Wharton School (formerly)",
+      "Rand Enterprises"
+    ],
+    "actor": [
+      "Maren Lord"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

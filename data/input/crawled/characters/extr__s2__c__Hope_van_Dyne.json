@@ -1,0 +1,60 @@
+[
+  {
+    "cid": "Hope van Dyne",
+    "real name": [
+      "Hope van Dyne"
+    ],
+    "alias": [
+      "Wasp",
+      "Jellybean",
+      "Mean Pretty Lady",
+      "Susan"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOB": [
+      "1979-1980"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "affiliation": [
+      "Pym Technologies (formerly)"
+    ],
+    "title": [
+      "Chairwoman of Pym Technologies (formerly)"
+    ],
+    "actor": [
+      "Evangeline Lilly",
+      "Madeleine McGraw (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

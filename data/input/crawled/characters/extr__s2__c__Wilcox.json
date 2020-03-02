@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Wilcox",
+    "real name": [
+      "Wilcox"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [],
+    "actor": [
+      "Alessandro Accornero"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Resupply",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

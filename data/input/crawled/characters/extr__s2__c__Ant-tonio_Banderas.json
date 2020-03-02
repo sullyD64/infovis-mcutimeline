@@ -1,0 +1,29 @@
+[
+  {
+    "cid": "Ant-tonio Banderas",
+    "alias": [
+      "Ant-tonio Banderas"
+    ],
+    "species": [
+      "Ant"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Early 2018"
+    ],
+    "affiliation": [
+      "Scott Lang"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

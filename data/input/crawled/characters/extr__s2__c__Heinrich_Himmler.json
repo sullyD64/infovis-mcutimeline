@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Heinrich Himmler",
+    "real name": [
+      "Heinrich Lutipold Himmler"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Nazi German"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Reichsführer"
+    ],
+    "affiliation": [
+      "Schutzstaffel"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: First Vengeance",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

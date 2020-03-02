@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Eddy Costa",
+    "real name": [
+      "Eddy Costa"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Detective"
+    ],
+    "affiliation": [
+      "NYPD"
+    ],
+    "actor": [
+      "John Ventimiglia"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "15 episodes"
+      }
+    ]
+  }
+]

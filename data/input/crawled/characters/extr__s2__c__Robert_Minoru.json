@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Robert Minoru",
+    "real name": [
+      "Robert Minoru"
+    ],
+    "alias": [
+      "Bob"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "American",
+      "Japanese"
+    ],
+    "affiliation": [
+      "Wizard",
+      "PRIDE"
+    ],
+    "actor": [
+      "James Yaegashi"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "28 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Maston-Dar",
+    "real name": [
+      "Maston-Dar"
+    ],
+    "alias": [
+      "Maston",
+      "Mr. Boba Fett",
+      "The Best Warrior"
+    ],
+    "species": [
+      "Kree"
+    ],
+    "citizenship": [
+      "Kree Imperial"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "House of Kasius"
+    ],
+    "DOD": [
+      "2091"
+    ],
+    "actor": [
+      "Remington Hoffman"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Fun & Games",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Together or Not at All",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

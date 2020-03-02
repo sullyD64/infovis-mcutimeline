@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Becca Yoo",
+    "real name": [
+      "Becca Yoo"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Chikara Dojo",
+      "Hand",
+      "Metro-General Hospital"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Samantha Herrera"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Eight Diagram Dragon Palm",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Lead Horse Back to Stable",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Leonard Samson",
+    "real name": [
+      "Leonard Samson"
+    ],
+    "alias": [
+      "Head Shrink"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "actor": [
+      "Ty Burrell"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "affiliation": [
+      "Culver University"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Incredible Hulk",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Thor: Ragnarok Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "cid": "Sofia (Assassin)",
+    "alias": [
+      "Sofia"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      " Early 2012"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Avengers Prelude: Black Widow Strikes",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "cid": "Abomination",
+    "real name": [
+      "Emil Blonsky"
+    ],
+    "alias": [
+      "Abomination",
+      "Ace",
+      "Monster",
+      "Something Big",
+      "Hulk",
+      "The Other One"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian",
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "March 1, 1971"
+    ],
+    "affiliation": [
+      "British Armed Forces (formerly)",
+      "*RM (formerly)",
+      "Strategic Operations Command Center (formerly)"
+    ],
+    "title": [
+      "Captain (formerly)"
+    ],
+    "actor": [
+      "Tim Roth"
+    ],
+    "voice actor": [
+      "J.B. Blanc",
+      "J.D. Hall",
+      "Fred Tatasciore",
+      "Jonathan Lipow",
+      "Jon Curry",
+      "Jeffrey Parker (vocal effects)"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Incredible Hulk",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Marvel One-Shot: The Consultant",
+        "source__type": "oneshot",
+        "notes": "archive footage"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "picture"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "picture"
+      },
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "picture"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "picture"
+      },
+      {
+        "source__title": "The Incredible Hulk: The Big Picture",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Prelude: Fury's Big Week",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor: Ragnarok Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Irani Rael",
+    "real name": [
+      "Irani Rael"
+    ],
+    "species": [
+      "Xandarian"
+    ],
+    "citizenship": [
+      "Nova Imperial"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Nova Prime"
+    ],
+    "affiliation": [
+      "Nova Corps"
+    ],
+    "actor": [
+      "Glenn Close"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

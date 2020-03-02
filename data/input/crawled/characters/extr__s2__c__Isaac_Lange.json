@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Isaac Lange",
+    "real name": [
+      "Isaac Lange"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "December 2016"
+    ],
+    "affiliation": [
+      "United States Army (formerly)",
+      "Anvil"
+    ],
+    "actor": [
+      "Jordan Mahome"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

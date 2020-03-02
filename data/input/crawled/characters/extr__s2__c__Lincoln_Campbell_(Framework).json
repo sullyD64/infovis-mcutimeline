@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "Lincoln Campbell (Framework)",
+    "real name": [
+      "Lincoln Campbell"
+    ],
+    "alias": [],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2017 (Real World)"
+    ],
+    "affiliation": [],
+    "actor": [
+      "Luke Mitchell"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "What If...",
+        "source__type": "tv series",
+        "notes": "photograph"
+      },
+      {
+        "source__title": "No Regrets",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "World's End",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Hugo",
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Momentum Labs"
+    ],
+    "actor": [
+      "Ward Roberts"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Meet the New Boss",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Lockup",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Good Samaritan",
+        "source__type": "tv series",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

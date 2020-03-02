@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Piper",
+    "real name": [
+      "Piper"
+    ],
+    "alias": [
+      "Sidekick",
+      "Love"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D.",
+      "*STR2"
+    ],
+    "actor": [
+      "Briana Venskus"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "20 episodes"
+      }
+    ]
+  }
+]

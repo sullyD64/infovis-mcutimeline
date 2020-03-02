@@ -1,0 +1,31 @@
+[
+  {
+    "cid": "Mrs. Shaw",
+    "real name": [
+      "Shaw"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Lighthouse"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "True Believers"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "actor": [],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

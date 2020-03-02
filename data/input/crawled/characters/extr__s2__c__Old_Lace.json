@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Old Lace",
+    "real name": [
+      "Old Lace"
+    ],
+    "alias": [
+      "Monster",
+      "Prehistoric Guard Dog",
+      "Bigfoot",
+      "Bloodthirsty Dinosaur",
+      "Hedgehog",
+      "Girl",
+      "Lace",
+      "Abbott",
+      "Harpo",
+      "Emotional Support Dinosaur",
+      "Godzilla",
+      "Pet Dinosaur",
+      "Guard-Dino",
+      "Lacey-Wacey",
+      "Guard Dog",
+      "Oversized Iguana",
+      "Lacey",
+      "Deadly Weapon"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "species": [
+      "Deinonychus"
+    ],
+    "affiliation": [
+      "Runaways"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "28 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Lucky",
+    "real name": [],
+    "alias": [
+      "Lucky"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "United States Army (formerly)",
+      "Makapu'u Surfers"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Divide -- And Conquer",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Make Way For... Medusa",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

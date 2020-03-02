@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Ian",
+    "real name": [
+      "Ian"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "WNEX New York"
+    ],
+    "actor": [
+      "Anthony Grasso"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Start at the Beginning",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Pray for My Patsy",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

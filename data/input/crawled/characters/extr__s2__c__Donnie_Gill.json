@@ -1,0 +1,56 @@
+[
+  {
+    "cid": "Donnie Gill",
+    "real name": [
+      "Donald Gill"
+    ],
+    "alias": [
+      "Donnie Gill",
+      "Blizzard"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. Academy of Science and Technology (formerly)",
+      "HYDRA (formerly)"
+    ],
+    "title": [
+      "S.H.I.E.L.D. Cadet (formerly)"
+    ],
+    "age": [
+      "20"
+    ],
+    "actor": [
+      "Dylan Minnette"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Seeds",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Making Friends and Influencing People",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Aftershocks",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

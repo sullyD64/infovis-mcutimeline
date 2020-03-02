@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Aleta Ogord",
+    "real name": [
+      "Aleta Ogord"
+    ],
+    "species": [
+      "Arcturan"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "RVG*ARC*SOT"
+    ],
+    "title": [
+      "Captain"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Michelle Yeoh"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

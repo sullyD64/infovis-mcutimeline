@@ -1,0 +1,111 @@
+[
+  {
+    "cid": "Rocket Raccoon",
+    "real name": [
+      "89P13"
+    ],
+    "alias": [
+      "Rocket",
+      "Rat",
+      "Dog",
+      "Creepy Little Beast",
+      "The Biggest Idiots in the Galaxy (with Star-Lord, Groot and Drax)",
+      "Rodent",
+      "Ranger Rick",
+      "Vermin",
+      "Hamster",
+      "The Greatest Pilot in The Universe",
+      "Dick",
+      "Trash Panda",
+      "Triangle-faced Monkey",
+      "Puppy",
+      "Fox",
+      "Little Rat",
+      "Professional Asshole",
+      "Crabby Puppy",
+      "The Baddest of Baddests",
+      "Stupid Fox",
+      "Rabboon",
+      "Raccoon",
+      "''Procyon Lotor''",
+      "Scruffy Dog",
+      "Talking Woodland Beast",
+      "Rabbit",
+      "Sweet Rabbit",
+      "Captain",
+      "Dad",
+      "Build-A-Bear",
+      "Fur-Face",
+      "Little Rascal",
+      "Ratchet"
+    ],
+    "species": [
+      "Halfworlder"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Guardians of the Galaxy",
+      "Avengers (formerly)"
+    ],
+    "actor": [
+      "Sean Gunn (on-set actor)",
+      "Oreo (movement and behavior)"
+    ],
+    "voice actor": [
+      "Bradley Cooper"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 3",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prequel Infinite Comic",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy: Galaxy's Most Wanted",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

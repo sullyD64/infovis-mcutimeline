@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Yvonne Taylor",
+    "real name": [
+      "Yvonne Taylor"
+    ],
+    "alias": [
+      "Runaways"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Mexican"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOB": [
+      "Late 1997-Late 1998<ref name=\"R104\">''Runaways: 1.04: Fifteen''</ref>"
+    ],
+    "DOD": [
+      "Late 2015<ref name=\"R104\"/>"
+    ],
+    "affiliation": [
+      "Church of Gibborim"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Fifteen",
+        "source__type": "tv series",
+        "notes": "photograph"
+      }
+    ]
+  }
+]

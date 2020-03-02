@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Eldrac",
+    "real name": [
+      "Eldrac"
+    ],
+    "alias": [],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Attilan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Moses Goods"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Those Who Would Destroy Us",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Gentleman's Name is Gorgon",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "...And Finally: Black Bolt",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

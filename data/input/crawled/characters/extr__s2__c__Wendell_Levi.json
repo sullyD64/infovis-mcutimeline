@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Wendell Levi",
+    "real name": [
+      "Wendell Levi"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Slicing Talons"
+    ],
+    "actor": [
+      "Ric Sarabia"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "One of Us",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

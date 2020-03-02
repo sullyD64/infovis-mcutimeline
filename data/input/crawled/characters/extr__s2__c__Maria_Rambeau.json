@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Maria Rambeau",
+    "real name": [
+      "Maria Rambeau"
+    ],
+    "alias": [
+      "Photon",
+      "Young Lady"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Captain (formerly)"
+    ],
+    "affiliation": [
+      "United States Air Force (formerly)",
+      "*Project P.E.G.A.S.U.S. (formerly)"
+    ],
+    "actor": [
+      "Lashana Lynch"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

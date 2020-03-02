@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Tilda Johnson",
+    "real name": [
+      "Matilda Maybelline Dillard"
+    ],
+    "alias": [
+      "Tilda Dillard",
+      "Tilda Johnson",
+      "Tilda Stokes",
+      "T",
+      "Glorious Itty-Bitty Chocolate Drop",
+      "Harlem's Patty Hearst"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "''Mother's Touch''"
+    ],
+    "actor": [
+      "Gabrielle Dennis"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "10 episodes"
+      }
+    ]
+  }
+]

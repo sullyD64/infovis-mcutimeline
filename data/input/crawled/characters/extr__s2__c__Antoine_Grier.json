@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Antoine Grier",
+    "real name": [
+      "Antoine Grier"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Dante E. Clark"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA You're a Winner!",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

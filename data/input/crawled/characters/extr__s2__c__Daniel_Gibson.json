@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Daniel Gibson",
+    "real name": [
+      "Daniel Gibson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "November 2015"
+    ],
+    "affiliation": [
+      "Hand"
+    ],
+    "actor": [
+      "Lucas Elliot Eberl"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Seven Minutes in Heaven",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Man in the Box",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": ".380",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

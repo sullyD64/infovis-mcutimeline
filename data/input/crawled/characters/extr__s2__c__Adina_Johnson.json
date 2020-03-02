@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Adina Johnson",
+    "real name": [
+      "Adina Johnson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Roxxon Corporation"
+    ],
+    "actor": [
+      "Gloria Reuben"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "17 episodes"
+      }
+    ]
+  }
+]

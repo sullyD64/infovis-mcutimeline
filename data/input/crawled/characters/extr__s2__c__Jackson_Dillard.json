@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Jackson Dillard",
+    "real name": [
+      "Jackson Dillard"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

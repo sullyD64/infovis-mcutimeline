@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Rostam Kazemi",
+    "real name": [
+      "Rostam Kazemi"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Chris Colombo"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Resurrection",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Please",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "No Good Deed",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

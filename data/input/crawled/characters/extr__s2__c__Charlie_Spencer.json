@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Charlie Spencer",
+    "gender": [
+      "Male"
+    ],
+    "real name": [
+      "Charles Spencer"
+    ],
+    "alias": [
+      "Charlie Spencer"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "DOD": [
+      "May 6, 2015"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "actor": [],
+    "appearences": [
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie",
+        "notes": "mentioned and photo"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

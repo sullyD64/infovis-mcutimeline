@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Gregory Spheeris",
+    "real name": [
+      "Gregory Spheeris"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Juri Henley-Cohn"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Ladies Night",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA 99 Friends",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

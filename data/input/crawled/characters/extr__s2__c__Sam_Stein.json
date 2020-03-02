@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Sam Stein",
+    "real name": [
+      "Samuel Stein"
+    ],
+    "alias": [
+      "Sam Stein",
+      "Junior"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "DHS"
+    ],
+    "title": [
+      "Agent"
+    ],
+    "DOD": [
+      "November 29, 2016"
+    ],
+    "actor": [
+      "Michael Nathanson"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "cid": "Tobias Ford",
+    "real name": [
+      "Tobias Ford"
+    ],
+    "alias": [
+      "Ghost",
+      "Non-Corporeal Madman"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "StatiCorp (formerly)"
+    ],
+    "actor": [
+      "Robert Baker"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Repairs",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Meet the New Boss",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

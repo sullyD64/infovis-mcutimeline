@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Eir",
+    "real name": [
+      "Eir"
+    ],
+    "species": [
+      "Asgardian"
+    ],
+    "citizenship": [
+      "Asgardian"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Alice Krige"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: The Dark World",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Thor: The Dark World Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Thor: Ragnarok Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

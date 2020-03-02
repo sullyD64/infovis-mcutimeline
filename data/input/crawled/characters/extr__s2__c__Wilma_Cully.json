@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Wilma Cully",
+    "real name": [
+      "Wilma Cully"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Samaire Armstrong"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Smoke & Mirrors",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

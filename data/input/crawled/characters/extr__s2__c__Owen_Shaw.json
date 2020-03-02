@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Owen Shaw",
+    "real name": [
+      "Owen Shaw"
+    ],
+    "alias": [
+      "Some Belligerent Space Goon",
+      "A Real Man"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Lighthouse (formerly)"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

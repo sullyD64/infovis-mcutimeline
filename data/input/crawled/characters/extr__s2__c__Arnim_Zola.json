@@ -1,0 +1,84 @@
+[
+  {
+    "cid": "Arnim Zola",
+    "real name": [
+      "Arnim Zola"
+    ],
+    "species": [
+      "Human (formerly)"
+    ],
+    "citizenship": [
+      "Nazi German (formerly)",
+      "Swiss",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "1972 (organic form)",
+      "Early 2014 (A.I form)"
+    ],
+    "affiliation": [
+      "Sturmabteilung (formerly)",
+      "Schutzstaffel (formerly)",
+      "HYDRA",
+      "*Winter Soldier Program",
+      "*Project Insight",
+      "S.H.I.E.L.D. (formerly,undercover)"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "actor": [
+      "Toby Jones"
+    ],
+    "voice actor": [
+      "André Sogliuzzo"
+    ],
+    "status": [
+      "Deceased (organic form)",
+      "Destroyed (A.I form)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The First Avenger",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Valediction",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Captain America: First Vengeance",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: The First Avenger Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "footage"
+      }
+    ]
+  }
+]

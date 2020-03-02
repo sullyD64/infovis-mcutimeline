@@ -1,0 +1,60 @@
+[
+  {
+    "cid": "Glenn Talbot",
+    "real name": [
+      "Glenn Talbot"
+    ],
+    "alias": [
+      "The Real Deal",
+      "The Inside Man",
+      "The Odd Couple (with Phil Coulson)",
+      "One Who Can Save Us All",
+      "Earth's Mightiest Hero",
+      "The Shield",
+      "Earth's Last Hope",
+      "Earth's True Protector",
+      "Charlatan",
+      "Most Powerful Being in the Universe",
+      "Destroyer of Worlds"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Spring 2018"
+    ],
+    "title": [
+      "Colonel (formerly)",
+      "Brigadier General (formerly)",
+      "Head of the ATCU (formerly)"
+    ],
+    "affiliation": [
+      "United States Air Force (formerly)",
+      "ATCU (formerly)",
+      "HYDRA (formerly,brainwashed)",
+      "Confederacy"
+    ],
+    "actor": [
+      "Adrian Pasdar"
+    ],
+    "voice actor": [
+      "Michael Gannon"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "24 episodes"
+      }
+    ]
+  }
+]

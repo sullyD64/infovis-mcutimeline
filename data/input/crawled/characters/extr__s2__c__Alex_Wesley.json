@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Alex Wesley",
+    "real name": [
+      "Alex Wesley"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "September 2017"
+    ],
+    "affiliation": [
+      "Stokes Crime Family"
+    ],
+    "actor": [
+      "John Clarence Stewart"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "13 episodes"
+      }
+    ]
+  }
+]

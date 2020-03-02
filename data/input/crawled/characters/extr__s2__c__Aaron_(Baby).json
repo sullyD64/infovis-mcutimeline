@@ -1,0 +1,31 @@
+[
+  {
+    "cid": "Aaron (Baby)",
+    "real name": [
+      "Aaron"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA The Octopus",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

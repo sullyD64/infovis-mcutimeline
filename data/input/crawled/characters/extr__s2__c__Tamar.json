@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Tamar",
+    "real name": [
+      "Tamar"
+    ],
+    "alias": [
+      "Tam",
+      "Queen"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Ozioma Akagha"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "12 episodes"
+      }
+    ]
+  }
+]

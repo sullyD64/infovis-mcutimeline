@@ -1,0 +1,80 @@
+[
+  {
+    "cid": "Ronan the Accuser",
+    "real name": [
+      "Ronan"
+    ],
+    "alias": [
+      "Ronan the Accuser",
+      "Kree Fanatic",
+      "Terrorist",
+      "Radical",
+      "Zealot",
+      "Boy",
+      "Whack Job",
+      "Big Turd Blossom"
+    ],
+    "species": [
+      "Kree"
+    ],
+    "citizenship": [
+      "Kree Imperial"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "August 2014"
+    ],
+    "title": [
+      "The Accuser"
+    ],
+    "affiliation": [
+      "Accusers (formerly)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "actor": [
+      "Lee Pace"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie",
+        "notes": "mentioned; deleted scene"
+      },
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prequel Infinite Comic",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

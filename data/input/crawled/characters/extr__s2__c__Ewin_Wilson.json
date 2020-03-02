@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Ewin Wilson",
+    "real name": [
+      "Ewin Wilson"
+    ],
+    "alias": [
+      "Divine Pairing (with Leland Wilson)"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Jason Dowies"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Stained Glass",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Colony Collapse",
+        "source__type": "tv series",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

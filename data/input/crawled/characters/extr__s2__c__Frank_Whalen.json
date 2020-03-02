@@ -1,0 +1,45 @@
+[
+  {
+    "cid": "Frank Whalen",
+    "real name": [
+      "Frank Whalen"
+    ],
+    "alias": [
+      "Frankie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2013"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "title": [
+      "Volunteer Firefighter"
+    ],
+    "affiliation": [
+      "Wrigley Fire Department"
+    ],
+    "actor": [
+      "Tom Crisp"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "FZZT",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

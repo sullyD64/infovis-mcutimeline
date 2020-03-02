@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Hank Thompson",
+    "real name": [
+      "Cameron Klein"
+    ],
+    "alias": [
+      "Hank Thompson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)",
+      "Thompson Welding & Electric"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Joel Gretsch"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Writing on the Wall",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

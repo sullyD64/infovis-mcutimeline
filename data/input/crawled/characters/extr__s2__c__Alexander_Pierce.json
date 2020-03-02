@@ -1,0 +1,79 @@
+[
+  {
+    "cid": "Alexander Pierce",
+    "real name": [
+      "Alexander Goodwin Pierce"
+    ],
+    "alias": [
+      "Mr. Secretary",
+      "Smug Son of a Bitch"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "August 18, 1936"
+    ],
+    "DOD": [
+      "Early 2014"
+    ],
+    "title": [
+      "World Security Council Secretary",
+      "Undersecretary (formerly)"
+    ],
+    "affiliation": [
+      "United States Government (formerly)",
+      "S.H.I.E.L.D. (formerly)",
+      "HYDRA",
+      "*Winter Soldier Program",
+      "*Project Insight",
+      "World Security Council (formerly)"
+    ],
+    "actor": [
+      "Robert Redford"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude Infinite Comic",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Black Widow Prelude",
+        "source__type": "comic",
+        "notes": "flashbacks"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

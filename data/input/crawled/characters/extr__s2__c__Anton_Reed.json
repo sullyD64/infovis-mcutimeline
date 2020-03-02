@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Anton Reed",
+    "real name": [
+      "Anton Reed"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "May 2018"
+    ],
+    "affiliation": [
+      "ReadyQuick Check Cashing",
+      "Jigsaw's Crew"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "actor": [
+      "Brett Diggs"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "One Bad Day",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "My Brother's Keeper",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Santino Noguera",
+    "real name": [
+      "Santino Noguera"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Mexican"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Fifth Street Locos"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "actor": [
+      "Rolando Molina"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Lockup",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Good Samaritan",
+        "source__type": "tv series",
+        "notes": "pictured"
+      },
+      {
+        "source__title": "The Laws of Inferno Dynamics",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

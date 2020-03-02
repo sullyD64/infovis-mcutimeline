@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Anatoly Ranskahov",
+    "real name": [
+      "Anatoly Ranskahov"
+    ],
+    "alias": [
+      "The Smiley Twins (with Vladimir Ranskahov)"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "affiliation": [
+      "Russian Mafia",
+      "Veles Taxi"
+    ],
+    "actor": [
+      "Gideon Emery"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

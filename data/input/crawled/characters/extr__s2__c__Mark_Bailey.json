@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Mark Bailey",
+    "real name": [
+      "Mark Bailey"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "NYPD"
+    ],
+    "title": [
+      "Detective"
+    ],
+    "actor": [
+      "Justin Swain"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "17 episodes"
+      }
+    ]
+  }
+]

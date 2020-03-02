@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Kurt",
+    "real name": [
+      "Kurt"
+    ],
+    "alias": [
+      "Three Wombats (with Luis and Dave)"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "X-Con Security Consultants"
+    ],
+    "actor": [
+      "David Dastmalchian"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

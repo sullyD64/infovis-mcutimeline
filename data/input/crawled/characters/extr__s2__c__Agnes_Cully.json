@@ -1,0 +1,53 @@
+[
+  {
+    "cid": "Agnes Cully",
+    "real name": [
+      "Agnes Cully"
+    ],
+    "alias": [
+      "Whitney Frost",
+      "Aggie",
+      "Pretty Blonde Monster",
+      "Angel-Face"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOB": [
+      "May 9, 1911<ref name=\"AC203\">''Agent Carter: 2.03: Better Angels''</ref>"
+    ],
+    "affiliation": [
+      "Anvil Studios (formerly)",
+      "Council of Nine"
+    ],
+    "actor": [
+      "Wynn Everett",
+      "Ivy George (young)",
+      "Olivia Welch (teenager)"
+    ],
+    "voice actor": [
+      "Courtenay Taylor"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "10 episodes"
+      },
+      {
+        "source__title": "Iron Man: The Price of Doing Business",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

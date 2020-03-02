@@ -1,0 +1,29 @@
+[
+  {
+    "cid": "Mikhail Fjodorov",
+    "real name": [
+      "Mikhail Fjodorov"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Early 2012"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Avengers Prelude: Black Widow Strikes",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

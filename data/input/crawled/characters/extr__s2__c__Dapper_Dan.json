@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Dapper Dan",
+    "real name": [
+      "Daniel Day"
+    ],
+    "alias": [
+      "Dapper Dan",
+      "Dap"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Himself"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Just to Get a Rep",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "On and On",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Can't Front on Me",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Scott",
+    "species": [
+      "Human"
+    ],
+    "real name": [
+      "M. Scott"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      "March 2017"
+    ],
+    "actor": [
+      "Ian Hutton"
+    ],
+    "affiliation": [
+      "Aryan Brotherhood"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Ghost",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

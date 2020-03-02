@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Mack",
+    "real name": [
+      "Mack"
+    ],
+    "alias": [
+      "Big Boy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Bodie Newcomb"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Asset",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

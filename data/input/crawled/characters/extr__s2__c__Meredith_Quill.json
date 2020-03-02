@@ -1,0 +1,61 @@
+[
+  {
+    "cid": "Meredith Quill",
+    "real name": [
+      "Meredith Quill"
+    ],
+    "alias": [
+      "Mer",
+      "Brandy",
+      "River Lily"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOB": [
+      "1961-1962<ref>[http://waltdisneystudiosawards.com/media/scripts/GotG2.pdf ''Guardians of the Galaxy Vol. 2'' script]</ref>"
+    ],
+    "DOD": [
+      "1988<ref name=\"GotG\"/>"
+    ],
+    "age": [
+      "25-27"
+    ],
+    "actor": [
+      "Laura Haddock"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

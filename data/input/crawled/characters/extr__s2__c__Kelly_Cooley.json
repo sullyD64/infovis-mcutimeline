@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "Kelly Cooley",
+    "real name": [
+      "Kelly Cooley"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Irish"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "October 28, 2015"
+    ],
+    "affiliation": [
+      "Kitchen Irish"
+    ],
+    "actor": [
+      "Paul Drechsler-Martell"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Bang",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Penny and Dime",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Guilty as Sin",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

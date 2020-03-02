@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Reese (Lighthouse)",
+    "real name": [
+      "Reese"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "Lighthouse"
+    ],
+    "DOD": [
+      "2091"
+    ],
+    "affiliation": [
+      "Kasius"
+    ],
+    "actor": [
+      "Paul Duna"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Orientation Part Two",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Life Earned",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

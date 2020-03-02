@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Hellfire",
+    "real name": [
+      "JT James"
+    ],
+    "alias": [
+      "Hellfire",
+      "Mr. Personality",
+      "Inferno",
+      "Firestarter",
+      "Burning Man",
+      "Blowhard",
+      "Scorch",
+      "Dundee",
+      "Little Baby Bird",
+      "The Amazing Bomb Boy",
+      "Fire Dude"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Australian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "36"
+    ],
+    "DOB": [
+      "1982"
+    ],
+    "affiliation": [
+      "Watchdogs"
+    ],
+    "actor": [
+      "Axle Whitehead"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "cid": "Ancient One",
+    "alias": [
+      "Ancient One",
+      "Sorceress Supreme"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Sorcerer Supreme"
+    ],
+    "age": [
+      "700"
+    ],
+    "DOB": [
+      "1316-1317"
+    ],
+    "DOD": [
+      "Early 2017"
+    ],
+    "affiliation": [
+      "Masters of the Mystic Arts"
+    ],
+    "actor": [
+      "Tilda Swinton"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Doctor Strange (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Doctor Strange Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Doctor Strange Prelude - The Zealot",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Doctor Strange: Episode 0",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

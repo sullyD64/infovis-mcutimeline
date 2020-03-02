@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "David Ellerh",
+    "real name": [
+      "David Ellerh"
+    ],
+    "alias": [
+      "Brother David"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "1998"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Church of Gibborim"
+    ],
+    "actor": [
+      "Lee Fraley",
+      "Nathan Sutton (young)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

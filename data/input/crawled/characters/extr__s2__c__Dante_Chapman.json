@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Dante Chapman",
+    "real name": [
+      "Dante Chapman"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "male"
+    ],
+    "affiliation": [
+      "Harlem's Paradise"
+    ],
+    "actor": [
+      "Hugues Faustin"
+    ],
+    "DOD": [
+      "November 14, 2015"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "age": [
+      "20's"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Moment of Truth",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Code of the Streets",
+        "source__type": "tv series",
+        "notes": "corpse"
+      }
+    ]
+  }
+]

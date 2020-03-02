@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Rowan Hamilton",
+    "real name": [
+      "Rowan Hamilton"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Transia Corporation"
+    ],
+    "actor": [
+      "Markus Flanagan"
+    ],
+    "DOD": [
+      "April 2016"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Spacetime",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

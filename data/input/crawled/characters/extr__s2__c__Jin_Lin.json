@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Jin Lin",
+    "real name": [
+      "Jin Lin"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Chinese",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Genghis Connie's"
+    ],
+    "actor": [
+      "Clem Cheung"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Moment of Truth",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Step in the Arena",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "You Know My Steez",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

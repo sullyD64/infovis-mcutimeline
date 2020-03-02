@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Yon-Rogg",
+    "real name": [
+      "Yon-Rogg"
+    ],
+    "alias": [],
+    "species": [
+      "Kree"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Commander"
+    ],
+    "affiliation": [
+      "Starforce"
+    ],
+    "citizenship": [
+      "Kree Imperial"
+    ],
+    "actor": [
+      "Jude Law"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

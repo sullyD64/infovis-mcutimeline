@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Aaron James",
+    "real name": [
+      "Aaron James"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Gabe White"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The H Word",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

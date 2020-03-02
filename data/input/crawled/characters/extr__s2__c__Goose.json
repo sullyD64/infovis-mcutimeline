@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Goose",
+    "real name": [
+      "Goose"
+    ],
+    "alias": [
+      "Cutest Little Thing",
+      "Cool Cat",
+      "Stowaway",
+      "Flerken Kitty",
+      "Hannibal Lecter",
+      "Adorable Cat",
+      "Goosey",
+      "Mother Flerken"
+    ],
+    "species": [
+      "Flerken"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Gonzo",
+      "Rizzo",
+      "Archie",
+      "Reggie<ref>[https://www.forbes.com/sites/rpaige/2019/01/08/heres-what-you-need-know-about-goose-the-cat-captain-marvel/#5a76ba13ca0d Here's What You Need to Know About Goose The Cat, The Cutest Character In 'Captain Marvel']</ref>"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "indirectly mentioned"
+      },
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

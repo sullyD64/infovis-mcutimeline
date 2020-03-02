@@ -1,0 +1,54 @@
+[
+  {
+    "cid": "Michelle Jones",
+    "real name": [
+      "Michelle Jones"
+    ],
+    "alias": [
+      "MJ"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "DOB": [
+      "June 10, 2001"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "affiliation": [
+      "Midtown School of Science and Technology"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Zendaya"
+    ],
+    "appearences": [
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man 3",
+        "source__type": "movie",
+        "notes": "<a href=\"https://www.hollywoodreporter.com/lists/thr-100-hollywood-reporters-powerful-people-entertainment-1246527/item/thr-100-2019-zendaya-1246511?utm_source=twitter&utm_medium=social\">The Hollywood Reporter 100: The Most Powerful People in Entertainment 2019</a>"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

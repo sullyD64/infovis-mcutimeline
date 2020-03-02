@@ -1,0 +1,55 @@
+[
+  {
+    "cid": "Androvich",
+    "real name": [
+      "Androvich"
+    ],
+    "alias": [
+      "General Inhuman",
+      "Shadow Muppet"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Soviet (formerly)",
+      "Russian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "March 2016"
+    ],
+    "title": [
+      "Colonel General",
+      "Minister of Defence"
+    ],
+    "affiliation": [
+      "KGB (formerly)",
+      "Russian Armed Forces",
+      "Minister of Defence"
+    ],
+    "actor": [
+      "Kristof Konrad"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Parting Shot",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Hot Potato Soup",
+        "source__type": "tv series",
+        "notes": "indirectly mentioned"
+      }
+    ]
+  }
+]

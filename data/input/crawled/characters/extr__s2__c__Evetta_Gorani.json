@@ -1,0 +1,26 @@
+[
+  {
+    "cid": "Evetta Gorani",
+    "real name": [
+      "Evetta Gorani"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Gorani Insurance"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 2: Fist of Iron",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

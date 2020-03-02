@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Audrey Eastman",
+    "real name": [
+      "Audrey Eastman"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Matt Bernson"
+    ],
+    "actor": [
+      "Jessica Hecht"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

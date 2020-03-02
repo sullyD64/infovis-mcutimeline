@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Domingo Colon",
+    "real name": [
+      "Domingo Colon"
+    ],
+    "alias": [
+      "Chico",
+      "Two-Bit Drug Dealer"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Puerto Rican",
+      "American"
+    ],
+    "affiliation": [
+      "Colon Crime Family"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "actor": [
+      "Jacob Vargas"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

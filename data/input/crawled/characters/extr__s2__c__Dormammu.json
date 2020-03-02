@@ -1,0 +1,51 @@
+[
+  {
+    "cid": "Dormammu",
+    "real name": [
+      "Dormammu"
+    ],
+    "alias": [
+      "The One",
+      "The Cosmic Conqueror",
+      "The Intent of All Evolution",
+      "The Why of All Existence",
+      "The Destroyer of Worlds",
+      "The Savior of Worlds",
+      "Astral World's Worst Killer"
+    ],
+    "species": [
+      "Faltine<!-- Per wiki policy. Removal of this tag will grant an instant block. -->"
+    ],
+    "citizenship": [
+      "Dark Dimension"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Zealots (formerly)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Benedict Cumberbatch"
+    ],
+    "appearences": [
+      {
+        "source__title": "Doctor Strange (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Doctor Strange Prelude - The Zealot",
+        "source__type": "comic",
+        "notes": "glyph"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

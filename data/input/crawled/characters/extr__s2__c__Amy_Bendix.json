@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Amy Bendix",
+    "real name": [
+      "Amy Bendix"
+    ],
+    "alias": [
+      "Rachel",
+      "Peggy",
+      "Susan",
+      "Stephanie",
+      "Kid",
+      "Charmer",
+      "Ashley",
+      "Agent Dinah Madani",
+      "Most Valuable Thing",
+      "Mary Morrison",
+      "New Little Helper"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Fiona's Crew (formerly)"
+    ],
+    "actor": [
+      "Giorgia Whigham"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "11 episodes"
+      }
+    ]
+  }
+]

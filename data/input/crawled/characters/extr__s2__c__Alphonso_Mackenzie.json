@@ -1,0 +1,68 @@
+[
+  {
+    "cid": "Alphonso Mackenzie",
+    "real name": [
+      "Alphonso Mackenzie"
+    ],
+    "alias": [
+      "Mack",
+      "The Saint",
+      "The Guy Who Kills Gordon",
+      "Soft Little Fluffy Little Teddy Bear",
+      "Jonah Katz",
+      "Alfie",
+      "Nerd Herd (with Leo Fitz)",
+      "Turtleman",
+      "Mini Tank",
+      "Black Kojak",
+      "Big Man",
+      "Ghost Rider",
+      "The Protector",
+      "Tiny",
+      "Agitator",
+      "Pretty Boy",
+      "Beast",
+      "Monster Mack",
+      "Rebel Peacemaker Mack",
+      "Mack Hammer",
+      "Cowboy",
+      "Star Commander"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Director of S.H.I.E.L.D.",
+      "Agent of S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D.",
+      "S.H.I.E.L.D. (Framework;formerly)",
+      "Deke Shaw's Company (shareholder)"
+    ],
+    "actor": [
+      "Henry Simmons"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "109 episodes"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: Slingshot",
+        "source__type": "web series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

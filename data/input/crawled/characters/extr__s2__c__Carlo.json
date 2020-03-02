@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Carlo",
+    "real name": [
+      "Carlo"
+    ],
+    "alias": [
+      "Cuz"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Late 2017<ref name=\"TR\"/><ref>''Agents of S.H.I.E.L.D.: 5.11: All the Comforts of Home''</ref>"
+    ],
+    "citizenship": [
+      "Sakaaran"
+    ],
+    "actor": [
+      "Steven Oliver"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

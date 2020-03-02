@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Sofia (Cybertek)",
+    "real name": [
+      "Sofia"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Italian"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Cybertek"
+    ],
+    "DOD": [
+      "2014"
+    ],
+    "actor": [
+      "Emily Baldoni"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "T.R.A.C.K.S.",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "cid": "Ghost",
+    "real name": [
+      "Ava Starr"
+    ],
+    "alias": [
+      "Ghost",
+      "Crazy Creepy Ghost Who Walks Through Walls",
+      "Baba Yaga",
+      "Freak",
+      "Boogeyman",
+      "Quantum Anomaly",
+      "Stealth Operative",
+      "Thief"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "age": [],
+    "title": [
+      "Agent of S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)"
+    ],
+    "actor": [
+      "Hannah John-Kamen",
+      "RaeLynn Bratten (young)"
+    ],
+    "voice actor": [
+      "Steven Blum"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Avengers: Cutting Edge",
+        "source__type": "comic",
+        "notes": "non-canon"
+      }
+    ]
+  }
+]

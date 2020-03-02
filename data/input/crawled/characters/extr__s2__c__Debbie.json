@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Debbie",
+    "real name": [
+      "Debbie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "2013"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "HYDRA",
+      "*Centipede Project"
+    ],
+    "actor": [
+      "Shannon Lucio"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Pilot",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Girl in the Flower Dress",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Bridge",
+        "source__type": "tv series",
+        "notes": "photograph"
+      }
+    ]
+  }
+]

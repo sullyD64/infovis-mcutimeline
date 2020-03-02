@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Gary (Supervisor)",
+    "real name": [
+      "Gary"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Bob Stephenson"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Pilot",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

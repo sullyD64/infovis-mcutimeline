@@ -1,0 +1,58 @@
+[
+  {
+    "cid": "Jeri Hogarth",
+    "real name": [
+      "Jeryn Hogarth"
+    ],
+    "alias": [
+      "Jeri Hogarth",
+      "J. Money",
+      "Prada-Wearing Python"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Senior Partner (formerly)"
+    ],
+    "affiliation": [
+      "Rand Enterprises (formerly)",
+      "Hogarth, Chao and Benowitz (formerly)",
+      "Hogarth and Associates"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Carrie-Anne Moss"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      },
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "34 episodes"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

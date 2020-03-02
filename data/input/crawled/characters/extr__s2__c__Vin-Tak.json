@@ -1,0 +1,56 @@
+[
+  {
+    "cid": "Vin-Tak",
+    "real name": [
+      "Vin-Tak"
+    ],
+    "alias": [
+      "Blue Man Group",
+      "Big Blue Source"
+    ],
+    "species": [
+      "Kree"
+    ],
+    "citizenship": [
+      "Kree Imperial"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Eddie McClintock"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Who You Really Are",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Afterlife (episode)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Failed Experiments",
+        "source__type": "tv series",
+        "notes": "indirectly mentioned"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: Double Agent",
+        "source__type": "web series"
+      },
+      {
+        "source__title": "Infiltrating the Set",
+        "source__type": "web series",
+        "notes": "photograph"
+      }
+    ]
+  }
+]

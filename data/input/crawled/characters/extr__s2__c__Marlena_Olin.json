@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Marlena Olin",
+    "real name": [
+      "Marlena Olin"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "Spring 2018"
+    ],
+    "affiliation": [
+      "United States Army (formerly)",
+      "Marlena Olin's Crew"
+    ],
+    "actor": [
+      "Teri Reeves"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Roadhouse Blues",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Fight or Flight",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Trouble the Water",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

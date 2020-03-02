@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Todd Chesterfield",
+    "real name": [
+      "Todd Chesterfield"
+    ],
+    "alias": [
+      "Cowboy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Scott Subiono"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Asset",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Aisha Axton",
+    "real name": [
+      "Aisha Axton"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Ninja Devoe"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Just to Get a Rep",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "You Know My Steez",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Can't Front on Me",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

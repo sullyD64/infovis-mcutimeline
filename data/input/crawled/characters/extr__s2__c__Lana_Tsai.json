@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Lana Tsai",
+    "real name": [
+      "Lana Tsai"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Vivi Howard"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Fury of Iron Fist",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

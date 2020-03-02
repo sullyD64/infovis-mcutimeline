@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Flint",
+    "real name": [
+      "Flint"
+    ],
+    "alias": [
+      "Junior",
+      "Pebbles",
+      "Bright Kid",
+      "Hot Shot",
+      "Kid Without Hair"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Lighthouse"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "2074"
+    ],
+    "actor": [
+      "Coy Stewart"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

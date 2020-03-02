@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Korg",
+    "real name": [
+      "Korg"
+    ],
+    "alias": [
+      "Pile of Rocks",
+      "Dickhead"
+    ],
+    "species": [
+      "Kronan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "Asgardian",
+      "Sakaaran (formerly)"
+    ],
+    "affiliation": [
+      "Sakaaran Rebellion"
+    ],
+    "actor": [
+      "Taika Waititi"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Thor: Love and Thunder",
+        "source__type": "movie",
+        "notes": "unreleased"
+      }
+    ]
+  }
+]

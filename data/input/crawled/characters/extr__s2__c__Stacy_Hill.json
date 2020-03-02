@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Stacy Hill",
+    "real name": [
+      "Stacy Hill"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Nurse"
+    ],
+    "affiliation": [
+      "Birch Psychiatric Hospital"
+    ],
+    "actor": [
+      "Aimé Donna Kelly"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Bar the Big Boss",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

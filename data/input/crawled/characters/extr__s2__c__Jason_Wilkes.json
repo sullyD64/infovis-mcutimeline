@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Jason Wilkes",
+    "real name": [
+      "Jason Wilkes"
+    ],
+    "alias": [
+      "Mr. Wilson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "United States Navy (formerly)",
+      "Isodyne Energy (formerly)",
+      "Stark Industries"
+    ],
+    "actor": [
+      "Reggie Austin"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "10 episodes"
+      }
+    ]
+  }
+]

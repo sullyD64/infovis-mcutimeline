@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Nikolai Poloznev",
+    "real name": [
+      "Nikolai Poloznev"
+    ],
+    "alias": [
+      "Creature of Habit"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "species": [
+      "Human"
+    ],
+    "affiliation": [
+      "Police of Russia (formerly)"
+    ],
+    "DOD": [
+      "May 2018"
+    ],
+    "actor": [
+      "Dikran Tulaine"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "One-Eyed Jacks",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Nakazat",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Whirlwind",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

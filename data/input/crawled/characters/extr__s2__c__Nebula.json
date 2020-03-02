@@ -1,0 +1,74 @@
+[
+  {
+    "cid": "Nebula",
+    "real name": [
+      "Nebula"
+    ],
+    "alias": [
+      "Daughter of Thanos",
+      "Evil Step-Sister",
+      "Evil Supervillain",
+      "Baldy",
+      "Psychopath",
+      "Biggest Sadist in the Galaxy",
+      "Smurfette",
+      "Blue Meanie",
+      "Blue"
+    ],
+    "species": [
+      "Luphomoid (Cyborg)"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "2023 (time-traveled self from 2014)"
+    ],
+    "affiliation": [
+      "Guardians of the Galaxy",
+      "Avengers (formerly)"
+    ],
+    "actor": [
+      "Karen Gillan"
+    ],
+    "status": [
+      "Alive (original self)",
+      "Deceased (time-traveled self from 2014)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 3",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Lillian (Manager)",
+    "real name": [
+      "Lillian"
+    ],
+    "alias": [
+      "Crazy Old Bitch",
+      "Crazy Old Bird"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Manager"
+    ],
+    "affiliation": [
+      "ReadyQuick Check Cashing"
+    ],
+    "actor": [
+      "Cecelia Antoinette"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "One Bad Day",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Delia",
+    "real name": [
+      "Delia"
+    ],
+    "alias": [
+      "Resting Basic Face"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Tulane University"
+    ],
+    "actor": [
+      "Chelle Ramos "
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Suicide Sprints",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

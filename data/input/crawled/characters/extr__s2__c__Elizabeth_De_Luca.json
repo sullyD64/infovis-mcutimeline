@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Elizabeth De Luca",
+    "real name": [
+      "Elizabeth De Luca"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "affiliation": [],
+    "actor": [
+      "Kathleen Doyle"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA WWJD?",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Sin Bin",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

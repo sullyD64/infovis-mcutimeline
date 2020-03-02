@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Krista Dumont",
+    "real name": [
+      "Krista Dumont"
+    ],
+    "alias": [
+      "Doc",
+      "Claire Russell"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "Overton University (formerly)",
+      "Sacred Saints Hospital (formerly)"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "actor": [
+      "Floriana Lima",
+      "Reagan Grella (young)"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "12 episodes"
+      }
+    ]
+  }
+]

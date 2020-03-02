@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Howard the Duck",
+    "real name": [
+      "Howard"
+    ],
+    "alias": [
+      "Howard the Duck"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "voice actor": [
+      "Seth Green"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

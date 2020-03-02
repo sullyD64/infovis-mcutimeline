@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Bill Fisk",
+    "real name": [
+      "William Fisk"
+    ],
+    "alias": [
+      "Bill Fisk"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "1970s<ref name=\"D111\">''Daredevil: 1.11: The Path of the Righteous''</ref><ref name=\"Quote\">\"[Fisk] was 12, 40 some years ago.\"</ref><ref name=\"Before AoU\">[https://twitter.com/stevendeknight/status/585913122084401152 Daredevil is before Age of Ultron]</ref>"
+    ],
+    "actor": [
+      "Domenick Lombardozzi"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Zach Lieberman",
+    "real name": [
+      "Zach Lieberman"
+    ],
+    "alias": [
+      "Buddy",
+      "Tough Guy",
+      "Douche",
+      "Wall-to-Wall Asshole",
+      "Little Baby",
+      "Son"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "2005"
+    ],
+    "actor": [
+      "Kobi Frumer"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "9 episodes"
+      }
+    ]
+  }
+]

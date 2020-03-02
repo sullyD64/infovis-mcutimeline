@@ -1,0 +1,74 @@
+[
+  {
+    "cid": "Justin Hammer",
+    "real name": [
+      "Justin Hammer"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "DOD Primary Systems Contractor (formerly)",
+      "CEO of Hammer Industries (formerly)"
+    ],
+    "affiliation": [
+      "United States Department of Defense (formerly)",
+      "Hammer Industries (formerly)"
+    ],
+    "actor": [
+      "Sam Rockwell"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Marvel One-Shot: All Hail the King",
+        "source__type": "oneshot"
+      },
+      {
+        "source__title": "Iron Man 2: Public Identity",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Prelude: Fury's Big Week",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Avengers Prelude: Black Widow Strikes",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Man 2 Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 3 Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Man: The Coming of the Melter",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

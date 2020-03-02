@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Jack Denton",
+    "real name": [
+      "Jack Denton"
+    ],
+    "alias": [
+      "Jackie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Metro-General Hospital (formerly)"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "actor": [
+      "Ben Kahre"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Crush Syndrome",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

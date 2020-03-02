@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Frankie",
+    "real name": [
+      "Frankie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Shakina Nayfack"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Pray for My Patsy",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

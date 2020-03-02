@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Brian Jones",
+    "real name": [
+      "Brian Jones"
+    ],
+    "alias": [
+      "PopPop"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "46<ref name=\"JJ202\">''Jessica Jones: 2.02: AKA Freak Accident''</ref>"
+    ],
+    "DOB": [
+      "1954<ref name=\"JJ202\"/>"
+    ],
+    "DOD": [
+      "April 2000<ref>''Jessica Jones: 1.12: AKA Take a Bloody Number''</ref><ref>''Jessica Jones: 2.01: AKA Start at the Beginning''</ref><ref name=\"JJ202\"/>"
+    ],
+    "actor": [
+      "James Colby"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

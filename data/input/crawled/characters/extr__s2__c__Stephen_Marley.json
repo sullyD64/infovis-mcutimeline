@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Stephen Marley",
+    "real name": [
+      "Stephen Robert Nesta Marley"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Jamaican",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Himself"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "On and On",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

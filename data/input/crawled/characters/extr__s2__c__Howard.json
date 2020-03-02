@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Howard",
+    "real name": [
+      "Howard"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Geoffrey Wilder Construction Inc."
+    ],
+    "actor": [
+      "Greg Collins "
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Rewind (Runaways)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

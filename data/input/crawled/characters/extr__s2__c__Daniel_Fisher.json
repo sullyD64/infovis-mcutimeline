@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Daniel Fisher",
+    "real name": [
+      "Daniel Fisher"
+    ],
+    "alias": [
+      "Danny Fisher"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [
+      "Union Allied"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

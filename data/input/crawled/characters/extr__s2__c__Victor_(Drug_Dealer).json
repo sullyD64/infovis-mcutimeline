@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Victor (Drug Dealer)",
+    "real name": [
+      "Victor"
+    ],
+    "alias": [
+      "Antoine Grier"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Puerto Rican",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Ari Stachel"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA You're a Winner!",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Hamir",
+    "real name": [
+      "Hamir"
+    ],
+    "alias": [
+      "Ancient One"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [],
+    "affiliation": [
+      "Masters of the Mystic Arts"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Master"
+    ],
+    "actor": [
+      "Topo Wresniwiro"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Doctor Strange (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

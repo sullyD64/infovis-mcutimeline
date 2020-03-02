@@ -1,0 +1,95 @@
+[
+  {
+    "cid": "Heimdall",
+    "real name": [
+      "Heimdall"
+    ],
+    "alias": [
+      "Gatekeeper",
+      "The Watcher of Worlds",
+      "The Protector"
+    ],
+    "species": [
+      "Asgardian"
+    ],
+    "citizenship": [
+      "Asgardian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "Thousands of years"
+    ],
+    "DOD": [
+      "Spring 2018"
+    ],
+    "title": [
+      "Gatekeeper of Asgard (formerly)",
+      "Guardian of the Bifrost Bridge (formerly)"
+    ],
+    "actor": [
+      "Idris Elba"
+    ],
+    "voice actor": [
+      "Phil LaMarr",
+      "Dennis Carnegie"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Thor: The Dark World",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie",
+        "notes": "illusion"
+      },
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America & Thor: Avengers!",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor: The Dark World Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor: Crown of Fools",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Thor: Ragnarok Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "cid": "Fire Dragon",
+    "real name": [],
+    "species": [
+      "Dragon"
+    ],
+    "citizenship": [
+      "Muspelheim"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "2017<ref>[https://www.cnet.com/news/comic-con-2017-new-thor-ragnarok-trailer-and-panel-marvel-hulk/ ''Thor: Ragnarok'' is 2 years after ''Avengers: Age of Ultron'', 4 years after ''Thor: The Dark World''.]</ref>"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

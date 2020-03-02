@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Surtur",
+    "real name": [
+      "Surtur"
+    ],
+    "alias": [
+      "Destroyer of Asgard",
+      "Son of a Bitch",
+      "Asgard's Doom",
+      "Big Monster"
+    ],
+    "species": [
+      "Fire Demon"
+    ],
+    "citizenship": [
+      "Muspelheim"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Late 2017"
+    ],
+    "actor": [
+      "Taika Waititi"
+    ],
+    "voice actor": [
+      "Clancy Brown",
+      "Rick D. Wasserman"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

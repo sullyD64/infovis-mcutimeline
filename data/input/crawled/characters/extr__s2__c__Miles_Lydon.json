@@ -1,0 +1,54 @@
+[
+  {
+    "cid": "Miles Lydon",
+    "real name": [
+      "Miles Lydon"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "\"Hacktivist\""
+    ],
+    "affiliation": [
+      "Rising Tide"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Austin Nichols"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Girl in the Flower Dress",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "FZZT",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Bridge",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Fear and Loathing on the Planet of Kitson",
+        "source__type": "tv series",
+        "notes": "indirectly mentioned"
+      }
+    ]
+  }
+]

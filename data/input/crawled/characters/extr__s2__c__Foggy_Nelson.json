@@ -1,0 +1,78 @@
+[
+  {
+    "cid": "Foggy Nelson",
+    "real name": [
+      "Franklin Percy Nelson"
+    ],
+    "alias": [
+      "Foggy Nelson",
+      "Frank",
+      "Fogg",
+      "Foggy Bear",
+      "Señor Foggy",
+      "Guapo Abogado<ref>Translates from Spanish to: \"Handsome Lawyer\"</ref>",
+      "Kick-Ass Attorney",
+      "Heckle and Jeckle (with Matt Murdock)",
+      "The Dick",
+      "Harvard",
+      "Einstein",
+      "Jazz Hands",
+      "Porkchop",
+      "Cowboy",
+      "Mr. Uptown",
+      "Counselor",
+      "The Big-Time Lawyer"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "38"
+    ],
+    "DOB": [
+      "July 10, 1980"
+    ],
+    "affiliation": [
+      "Nelson's Meats (formerly)",
+      "Columbia University (formerly)",
+      "Landman and Zack (formerly)",
+      "Nelson and Murdock (formerly)",
+      "Hogarth, Chao and Benowitz (formerly)",
+      "Nelson, Murdock and Page"
+    ],
+    "actor": [
+      "Elden Henson"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "38 episodes"
+      },
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

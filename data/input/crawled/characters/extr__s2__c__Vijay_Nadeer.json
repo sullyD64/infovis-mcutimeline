@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Vijay Nadeer",
+    "real name": [
+      "Vijay Nadeer"
+    ],
+    "alias": [
+      "The Subject"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Indian",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [],
+    "actor": [
+      "Manish Dayal"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "DOB": [
+      "May 7, 1983"
+    ],
+    "age": [
+      "34"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

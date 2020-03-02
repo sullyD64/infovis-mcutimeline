@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "O'Connor",
+    "real name": [
+      "O'Connor"
+    ],
+    "alias": [
+      "Daddy",
+      "Liar",
+      "Fraud",
+      "Dead Guy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "United States Army (formerly)"
+    ],
+    "DOD": [
+      "2016"
+    ],
+    "actor": [
+      "Delaney Williams"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

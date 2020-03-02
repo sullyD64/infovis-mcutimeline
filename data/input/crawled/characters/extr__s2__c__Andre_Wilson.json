@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Andre Wilson",
+    "real name": [
+      "Andre Wilson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Coach"
+    ],
+    "DOB": [
+      "1981-1983"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "affiliation": [
+      "Midtown School of Science and Technology"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Hannibal Buress"
+    ],
+    "appearences": [
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Daily Bugle/Promotional Campaign",
+        "source__type": "web series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

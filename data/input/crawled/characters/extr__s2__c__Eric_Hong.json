@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Eric Hong",
+    "real name": [
+      "Eric Hong"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "South Korean"
+    ],
+    "affiliation": [
+      "Korean Mob"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "September 2017"
+    ],
+    "actor": [
+      "Marcus Choi"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Can't Front on Me",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "They Reminisce Over You (T.R.O.Y.)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "George Ashland",
+    "real name": [
+      "George Ashland"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Callisto Aerospace"
+    ],
+    "actor": [
+      "Tom Wright"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Behold…The Inhumans!",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Those Who Would Destroy Us",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "...And Finally: Black Bolt",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

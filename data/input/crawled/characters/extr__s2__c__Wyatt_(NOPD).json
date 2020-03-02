@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Wyatt (NOPD)",
+    "real name": [
+      "Wyatt"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Officer"
+    ],
+    "affiliation": [
+      "NOPD"
+    ],
+    "actor": [
+      "Breon Pugh"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Shadow Selves",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

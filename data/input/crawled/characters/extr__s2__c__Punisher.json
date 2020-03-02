@@ -1,0 +1,103 @@
+[
+  {
+    "cid": "Punisher",
+    "real name": [
+      "Francis David Castle Sr."
+    ],
+    "alias": [
+      "Frank Castle",
+      "The Punisher",
+      "Brother",
+      "Killdozer",
+      "Dumbass with a Gun",
+      "War Hero",
+      "The Big Bad Punisher",
+      "Franky Boy",
+      "Boss",
+      "Bloody Shooter",
+      "Dirty Bastard",
+      "Pete Castiglione",
+      "The Gimp",
+      "Retard",
+      "Window Licker",
+      "Cool Hand Luke",
+      "Secret Badass",
+      "Captain Batshit",
+      "Hipster",
+      "The Dead Man",
+      "Bad Santa",
+      "The War Whisperer",
+      "Santana",
+      "Raven",
+      "Revenant",
+      "Charles Bronson",
+      "Real Prick Asshole",
+      "Frankie",
+      "One Man Wild Bunch",
+      "Psychopathic Terrorist",
+      "The Most Wanted Man in New York",
+      "Grim Reaper",
+      "Cold Blooded Psychopath",
+      "Couple of Assholes (with Jigsaw)",
+      "Rough Road",
+      "Shitbird",
+      "The Man at the Bar",
+      "Dog Let off the Leash",
+      "Some Strange Man",
+      "Jarhead",
+      "The Devil",
+      "Death",
+      "Marine",
+      "The Third Man at the Carousel",
+      "The Guy With the Skull on his Vest",
+      "Jake Nelson",
+      "A-hole",
+      "O'Rourke",
+      "The Whirlwind",
+      "Murdering Bastard"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "November 15, 1978"
+    ],
+    "title": [
+      "Lieutenant (formerly)",
+      "Scout Sniper (formerly)"
+    ],
+    "affiliation": [
+      "United States Marine Corps (formerly)",
+      "*Cerberus Squad (formerly)"
+    ],
+    "actor": [
+      "Jon Bernthal"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "12 episodes"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "26 episodes"
+      }
+    ]
+  }
+]

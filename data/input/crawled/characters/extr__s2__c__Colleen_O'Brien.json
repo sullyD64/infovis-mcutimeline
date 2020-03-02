@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Colleen O'Brien",
+    "real name": [
+      "Colleen Deirdre O'Brien"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "age": [
+      "23"
+    ],
+    "DOB": [
+      "May 23, 1922"
+    ],
+    "DOD": [
+      "April 15, 1946"
+    ],
+    "actor": [
+      "Ashley Hinshaw"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Now is Not the End",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Bridge and Tunnel",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

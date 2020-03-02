@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Steve Danvers",
+    "real name": [
+      "Steven Danvers"
+    ],
+    "alias": [
+      "Steve Danvers"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "actor": [
+      "Colin Ford"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie",
+        "notes": "flashbacks"
+      }
+    ]
+  }
+]

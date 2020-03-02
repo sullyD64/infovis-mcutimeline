@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Haverland",
+    "real name": [
+      "Haverland"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "All Souled Out",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

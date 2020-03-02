@@ -1,0 +1,56 @@
+[
+  {
+    "cid": "Barack Obama",
+    "real name": [
+      "Barack Hussein Obama II"
+    ],
+    "alias": [
+      "Barack Obama"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "President of the United States (formerly)"
+    ],
+    "affiliation": [
+      "United States Government (formerly)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie",
+        "notes": "picture; deleted scenes"
+      },
+      {
+        "source__title": "Peter's To-Do List",
+        "source__type": "oneshot",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

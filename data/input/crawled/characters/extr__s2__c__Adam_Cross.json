@@ -1,0 +1,45 @@
+[
+  {
+    "cid": "Adam Cross",
+    "real name": [
+      "Adam Cross"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Physical Education Teacher",
+      "Varsity Football Coach",
+      "Boy Scout Troop Leader",
+      "Volunteer Firefighter"
+    ],
+    "affiliation": [
+      "Wrigley Fire Department"
+    ],
+    "actor": [
+      "Rick Gifford"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      "2013"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "FZZT",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

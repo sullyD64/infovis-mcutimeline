@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Yusef Hadad",
+    "real name": [
+      "Yusef Hadad"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Moroccan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Ido Mor"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Laws of Nature",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

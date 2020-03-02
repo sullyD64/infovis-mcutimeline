@@ -1,0 +1,45 @@
+[
+  {
+    "cid": "Leland Wilson",
+    "real name": [
+      "Leland Wilson"
+    ],
+    "alias": [
+      "Divine Pairing (with Ewin Wilson)"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "1793<ref>''Cloak & Dagger: 1.03: Stained Glass''</ref>"
+    ],
+    "actor": [
+      "Michael A. Cook"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Stained Glass",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Colony Collapse",
+        "source__type": "tv series",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

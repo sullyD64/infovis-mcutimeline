@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Hank (Bodyguard)",
+    "real name": [
+      "Hank"
+    ],
+    "alias": [
+      "Walking Steroid"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "actor": [
+      "Mazin Akar"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA WWJD?",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

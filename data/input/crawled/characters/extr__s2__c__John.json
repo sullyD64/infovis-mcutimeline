@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "John",
+    "real name": [
+      "John"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Ramone Morgan"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: The Dark World",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

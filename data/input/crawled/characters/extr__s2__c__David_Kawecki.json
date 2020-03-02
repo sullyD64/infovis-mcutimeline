@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "David Kawecki",
+    "real name": [
+      "David Kawecki"
+    ],
+    "alias": [
+      "Davie",
+      "Dave"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "IGH (formerly)"
+    ],
+    "actor": [
+      "Daniel Everidge"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA The Octopus",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

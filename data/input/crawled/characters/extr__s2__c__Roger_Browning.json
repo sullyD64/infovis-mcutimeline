@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Roger Browning",
+    "real name": [
+      "Roger Browning"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "50"
+    ],
+    "DOB": [
+      "August 19, 1963<ref name=\"ID Card\">''Roger Browning S.H.I.E.L.D. ID Card''</ref>"
+    ],
+    "DOD": [
+      "2014"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)"
+    ],
+    "actor": [
+      "Matthew Glave"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Shadows",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

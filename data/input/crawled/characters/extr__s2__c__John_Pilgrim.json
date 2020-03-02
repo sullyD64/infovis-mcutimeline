@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "John Pilgrim",
+    "real name": [
+      "Robert"
+    ],
+    "alias": [
+      "John Pilgrim",
+      "Out-of-Town Asshole",
+      "God-Fearing Man",
+      "The One With the Vest and the Old-Timey Preacher Shirt",
+      "The Man in Black",
+      "Maniac",
+      "The Man With the Five Million",
+      "Ghost",
+      "Robbie",
+      "Loudest, Most Garrulous Mofo",
+      "Hell on Wheels",
+      "True Believer",
+      "Preacher-Looking Guy",
+      "Unknown Assailant"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Aryan Brotherhood (formerly)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Josh Stewart"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "10 episodes"
+      }
+    ]
+  }
+]

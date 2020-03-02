@@ -1,0 +1,60 @@
+[
+  {
+    "cid": "Lincoln Campbell",
+    "real name": [
+      "Lincoln Campbell"
+    ],
+    "alias": [
+      "Linc",
+      "Sparkplug",
+      "Grandpa",
+      "The Hulk",
+      "Shake 'n Bake (with Daisy Johnson)",
+      "Sparky",
+      "Blondie",
+      "Stinkin' Lincoln",
+      "Electro Boy",
+      "Hothead",
+      "Sparks",
+      "The Bad",
+      "Electric Company",
+      "Pretty Boy",
+      "Boyfriend of the Year"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "April 17, 1985"
+    ],
+    "DOD": [
+      "June 2016"
+    ],
+    "affiliation": [
+      "SHD2*SCW (formerly)"
+    ],
+    "title": [
+      "Doctor",
+      "Agent of S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Luke Mitchell"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "25 episodes"
+      }
+    ]
+  }
+]

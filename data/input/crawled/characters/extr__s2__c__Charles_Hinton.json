@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Charles Hinton",
+    "real name": [
+      "Charles Hinton"
+    ],
+    "alias": [
+      "Charlie Hinton",
+      "Homeless Man"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Bjørn Johnson"
+    ],
+    "DOD": [
+      "April 24, 2016"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

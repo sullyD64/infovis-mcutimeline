@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Donnie Chang",
+    "real name": [
+      "Donnie Chang"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Detective"
+    ],
+    "affiliation": [
+      "NYPD",
+      "Golden Tigers (undercover)"
+    ],
+    "actor": [
+      "Andrew Pang"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episodes"
+      }
+    ]
+  }
+]

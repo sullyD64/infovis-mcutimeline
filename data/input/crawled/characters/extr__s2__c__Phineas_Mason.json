@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Phineas Mason",
+    "real name": [
+      "Phineas Mason"
+    ],
+    "alias": [
+      "Tinkerer"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Adrian Toomes' Crew"
+    ],
+    "actor": [
+      "Michael Chernus"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

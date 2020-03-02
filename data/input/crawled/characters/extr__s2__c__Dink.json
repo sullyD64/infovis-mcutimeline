@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Dink",
+    "real name": [
+      "Dink"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Michael Maize"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Shadow Hawk Takes Flight",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

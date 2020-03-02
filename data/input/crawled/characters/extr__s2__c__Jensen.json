@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Jensen",
+    "real name": [
+      "Jensen"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "HYDRA"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Avengers: Operation HYDRA",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

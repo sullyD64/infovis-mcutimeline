@@ -1,0 +1,29 @@
+[
+  {
+    "cid": "Grem",
+    "real name": [
+      "Grem"
+    ],
+    "alias": [
+      "Master Grem"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Masters of the Mystic Arts"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Doctor Strange: Mystic Apprentice",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

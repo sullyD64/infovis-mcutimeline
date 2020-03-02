@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Peter Scarborough",
+    "real name": [
+      "Peter Scarborough"
+    ],
+    "alias": [
+      "Mystery Man",
+      "Honey"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Head of Roxxon Corporation Gulf Division"
+    ],
+    "affiliation": [
+      "Roxxon Corporation"
+    ],
+    "actor": [
+      "Wayne Pére"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

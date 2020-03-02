@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "The Other",
+    "alias": [
+      "The Other"
+    ],
+    "species": [],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "August 2014<ref name=\"Real Time\">The ''Marvel Cinematic Universe'' follows a general real-time policy in most of Phase Two - set when the media is released when suitable.</ref>"
+    ],
+    "actor": [
+      "Alexis Denisof"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Avengers Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor: The Dark World Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

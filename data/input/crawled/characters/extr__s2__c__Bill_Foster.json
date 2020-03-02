@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Bill Foster",
+    "real name": [
+      "William Barrett Foster"
+    ],
+    "alias": [
+      "Bill Foster"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)",
+      "*Project G.O.L.I.A.T.H. (formerly)",
+      "Berkeley University"
+    ],
+    "actor": [
+      "Laurence Fishburne",
+      "Langston Fishburne (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

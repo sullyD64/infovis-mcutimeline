@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Otis Johnson",
+    "real name": [
+      "Otis Johnson"
+    ],
+    "alias": [
+      "Spy Boy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Wild Red Hawks"
+    ],
+    "actor": [
+      "Miles Mussenden"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "13 episodes"
+      }
+    ]
+  }
+]

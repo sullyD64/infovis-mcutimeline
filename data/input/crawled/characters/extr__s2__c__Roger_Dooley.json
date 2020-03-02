@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Roger Dooley",
+    "real name": [
+      "Roger Dooley"
+    ],
+    "alias": [
+      "Rog"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "May 7, 1946"
+    ],
+    "title": [
+      "Chief of SSR"
+    ],
+    "affiliation": [
+      "United States Army (formerly)",
+      "SSR"
+    ],
+    "actor": [
+      "Shea Whigham"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

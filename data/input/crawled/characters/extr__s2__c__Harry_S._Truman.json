@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Harry S. Truman",
+    "real name": [
+      "Harrison S. Truman"
+    ],
+    "alias": [
+      "Harry Truman"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "United States Army"
+    ],
+    "title": [
+      "Major (formerly)",
+      "President of the United States (formerly)"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Now is Not the End",
+        "source__type": "tv series",
+        "notes": "pictured"
+      },
+      {
+        "source__title": "Valediction",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "A Little Song and Dance",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

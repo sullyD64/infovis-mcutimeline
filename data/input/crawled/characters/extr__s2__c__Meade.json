@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Meade",
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Major General"
+    ],
+    "affiliation": [
+      "United States Air Force"
+    ],
+    "actor": [
+      "Eric L. Haney"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 2",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

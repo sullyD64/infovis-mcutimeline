@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Luca Russo",
+    "real name": [
+      "Luca Russo"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Italian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "March 16, 2014"
+    ],
+    "actor": [
+      "Carlo Rota"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "T.R.A.C.K.S.",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

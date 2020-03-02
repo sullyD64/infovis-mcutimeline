@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Billy Koenig (Framework)",
+    "real name": [
+      "William Koenig"
+    ],
+    "alias": [
+      "Billy Koenig"
+    ],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2017 (Real World)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Identity and Change",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

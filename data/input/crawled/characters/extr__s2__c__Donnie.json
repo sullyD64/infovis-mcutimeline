@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Donnie",
+    "real name": [
+      "Donnie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Stokes Crime Family"
+    ],
+    "actor": [
+      "Ephraim Sykes"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Manifest",
+        "source__type": "tv series",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

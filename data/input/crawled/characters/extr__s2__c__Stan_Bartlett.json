@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Stan Bartlett",
+    "real name": [
+      "Stan Bartlett"
+    ],
+    "alias": [
+      "The Suit Who Lurks"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Roxxon Corporation"
+    ],
+    "actor": [
+      "Preston Vanderslice"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Funhouse Mirrors",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

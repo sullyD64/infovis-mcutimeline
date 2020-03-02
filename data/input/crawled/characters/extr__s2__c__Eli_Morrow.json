@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Eli Morrow",
+    "real name": [
+      "Elias Morrow"
+    ],
+    "alias": [
+      "Eli Morrow",
+      "Tío",
+      "Petty Thief"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Momentum Labs (formerly)",
+      "Chinatown Crew"
+    ],
+    "actor": [
+      "José Zúñiga"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

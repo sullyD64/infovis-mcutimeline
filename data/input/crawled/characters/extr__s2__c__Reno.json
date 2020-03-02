@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Reno",
+    "real name": [
+      "Reno"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2016"
+    ],
+    "actor": [
+      "Michael Trotter"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Divide -- And Conquer",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Make Way For... Medusa",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Something Inhuman This Way Comes...",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

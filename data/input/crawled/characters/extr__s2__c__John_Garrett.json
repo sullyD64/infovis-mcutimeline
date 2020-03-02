@@ -1,0 +1,59 @@
+[
+  {
+    "cid": "John Garrett",
+    "real name": [
+      "Jonathan Garrett"
+    ],
+    "alias": [
+      "John Garrett",
+      "Clairvoyant",
+      "Deathlok",
+      "The Money",
+      "Santa Claus",
+      "Sick Son of a Bitch",
+      "Patient Zero",
+      "Powerful Father Figure",
+      "HYDRA Dude"
+    ],
+    "species": [
+      "Human (Cyborg)"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Early 2014"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D.",
+      "*Specialist"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)",
+      "*SHDG (formerly)",
+      "HYDRA",
+      "*Project Deathlok",
+      "*Centipede Project"
+    ],
+    "actor": [
+      "Bill Paxton"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: The Chase",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

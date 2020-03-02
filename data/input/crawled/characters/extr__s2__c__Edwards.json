@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Edwards",
+    "real name": [
+      "Edwards"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Christopher Grove"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Smoke & Mirrors",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

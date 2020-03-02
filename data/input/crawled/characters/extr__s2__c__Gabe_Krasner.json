@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Gabe Krasner",
+    "real name": [
+      "Gabe Krasner"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "NYPD (formerly)"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "John Scurti"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "DWYCK",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Basement",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

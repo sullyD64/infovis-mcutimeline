@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Morita",
+    "real name": [
+      "Morita"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Principal"
+    ],
+    "affiliation": [
+      "Midtown School of Science and Technology"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Kenneth Choi"
+    ],
+    "appearences": [
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

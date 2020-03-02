@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Jerome Zandow",
+    "real name": [
+      "Jerome Zandow"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "April 20, 1946"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "actor": [
+      "Rob Mars"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Now is Not the End",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Time and Tide",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Ruth Sunday",
+    "real name": [
+      "Ruth Sunday"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "Mid-2017<ref>''Jessica Jones: 2.01: AKA Start at the Beginning''</ref><ref>''Jessica Jones: 2.04: AKA God Help the Hobo''</ref>"
+    ],
+    "title": [
+      "Detective"
+    ],
+    "affiliation": [
+      "NYPD"
+    ],
+    "actor": [
+      "Lisa Tharps"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

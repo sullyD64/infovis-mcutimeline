@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Evans",
+    "real name": [
+      "Evans"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Lieutenant"
+    ],
+    "affiliation": [
+      "United States Air Force"
+    ],
+    "actor": [
+      "Zibby Allen"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      "November 2017"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "World's End",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Rewind (Agents of S.H.I.E.L.D.)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

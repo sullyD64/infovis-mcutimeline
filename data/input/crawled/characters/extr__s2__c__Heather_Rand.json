@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Heather Rand",
+    "real name": [
+      "Heather Rand"
+    ],
+    "species": [
+      "Human"
+    ],
+    "DOB": [
+      "March 8, 1968<ref name=\"IFBtS\">[http://www.zacharyzirlin.com/iron-fist/hl14k2gwamr2adw3bpekpmvm6cejfn Heather Rand's Date of Birth]</ref>"
+    ],
+    "DOD": [
+      "Late 2001<ref name=\"Explanation\">''Iron Fist Air Crash Explanation''</ref>"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "actor": [
+      "Victoria Haynes"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

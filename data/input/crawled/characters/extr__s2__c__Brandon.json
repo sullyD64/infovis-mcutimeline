@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Brandon",
+    "real name": [
+      "Brandon"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Atlas Academy"
+    ],
+    "actor": [
+      "Zayne Emory"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Reunion (Runaways)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Fifteen",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Doomsday",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

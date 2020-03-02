@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Noah Burstein",
+    "real name": [
+      "Noah Burstein"
+    ],
+    "alias": [
+      "The White Dude",
+      "Shady-Ass Prison Doctor",
+      "Doc"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "actor": [
+      "Michael Kostroff"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "affiliation": [
+      "Seagate Penitentiary (formerly)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Amanda Garmon",
+    "real name": [
+      "Amanda Garmon"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Joy Lynn Jacobs"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "title": [
+      "Judge"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "They Reminisce Over You (T.R.O.Y.)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

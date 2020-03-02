@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Louise Thompson",
+    "real name": [
+      "Louise Thompson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "alias": [
+      "Betty"
+    ],
+    "affiliation": [
+      "University of Manchester (formerly)",
+      "Kilgrave Victim Support Group"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "April 11, 2015"
+    ],
+    "actor": [
+      "Lisa Emery"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

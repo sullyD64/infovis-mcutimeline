@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Tom Ridenhour",
+    "real name": [
+      "Thomas Ridenhour"
+    ],
+    "alias": [
+      "Tom Ridenhour",
+      "Tommy",
+      "Sideways Cop"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "August 29, 2017"
+    ],
+    "title": [
+      "Captain"
+    ],
+    "affiliation": [
+      "NYPD"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "actor": [
+      "Peter Jay Fernandez"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      }
+    ]
+  }
+]

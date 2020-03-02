@@ -1,0 +1,59 @@
+[
+  {
+    "cid": "Deathlok",
+    "real name": [
+      "Michael Peterson"
+    ],
+    "alias": [
+      "Mike Peterson",
+      "Mikey",
+      "The Hooded Hero",
+      "Deathlok",
+      "Ticking Time Bomb",
+      "Backup",
+      "Raging Homicidal Maniac",
+      "The Clairvoyant's Super-Soldier Bodyguard",
+      "Cyber-Soldier",
+      "Bogotá Assassin",
+      "The Guy with the Parts",
+      "Monster",
+      "Cyborg with Rockets in his Arm",
+      "S.H.I.E.L.D. Agent with Rockets in His Arm",
+      "Perfect Killing Machine"
+    ],
+    "species": [
+      "Human (Cyborg)"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "39"
+    ],
+    "DOB": [
+      "August 28, 1979"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "HYDRA (formerly,undercoercion)*CentipedeProject(formerly,undercoercion)SHD3(formerly)"
+    ],
+    "actor": [
+      "J. August Richards"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "12 episodes"
+      }
+    ]
+  }
+]

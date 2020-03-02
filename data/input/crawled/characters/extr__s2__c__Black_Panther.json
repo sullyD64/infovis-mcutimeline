@@ -1,0 +1,107 @@
+[
+  {
+    "cid": "Black Panther",
+    "real name": [
+      "T'Challa"
+    ],
+    "alias": [
+      "Black Panther",
+      "His Highness",
+      "Your Highness",
+      "The Other Guy",
+      "New Guy",
+      "Son of T'Chaka",
+      "Cat Lover",
+      "Kumkani<ref>Translated from Xhosa: ''King''</ref>",
+      "Son of a Murderer",
+      "Clown"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Wakandan"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Golden Tribe",
+      "Tribal Council"
+    ],
+    "title": [
+      "Prince of Wakanda (formerly)",
+      "Black Panther",
+      "King of Wakanda"
+    ],
+    "actor": [
+      "Chadwick Boseman",
+      "Ashton Tyler (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie",
+        "notes": "footage"
+      },
+      {
+        "source__title": "Black Panther (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Black Panther II",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Black Panther Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain Marvel Prelude",
+        "source__type": "comic",
+        "notes": "computer screen"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Black Widow Prelude",
+        "source__type": "comic",
+        "notes": "flashbacks"
+      }
+    ]
+  }
+]

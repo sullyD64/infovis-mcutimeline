@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Albert Thompson",
+    "real name": [
+      "Albert Thompson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "affiliation": [
+      "University of Manchester (formerly)"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "April 15, 2015"
+    ],
+    "actor": [
+      "Michael Siberry"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": " (5 episodes)"
+      }
+    ]
+  }
+]

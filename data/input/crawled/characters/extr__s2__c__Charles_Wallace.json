@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Charles Wallace",
+    "real name": [
+      "Charles Wallace"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "1962-1963<ref name=\"JJ103\">''Jessica Jones: 1.02: AKA Crush Syndrome''</ref>"
+    ],
+    "affiliation": [
+      "MTA Regional Bus Operations"
+    ],
+    "actor": [
+      "Sean Weil"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Crush Syndrome",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "AKA You're a Winner!",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

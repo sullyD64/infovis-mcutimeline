@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Lead HYDRA Agent",
+    "real name": [],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)",
+      "HYDRA"
+    ],
+    "actor": [
+      "Rick Otto"
+    ],
+    "DOD": [
+      "2014"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "One Door Closes",
+        "source__type": "tv series",
+        "notes": "flashbacks"
+      }
+    ]
+  }
+]

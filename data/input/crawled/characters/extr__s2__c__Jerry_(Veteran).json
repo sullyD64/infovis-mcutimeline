@@ -1,0 +1,54 @@
+[
+  {
+    "cid": "Jerry (Veteran)",
+    "real name": [
+      "Jerry"
+    ],
+    "alias": [],
+    "title": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "November 21, 2015"
+    ],
+    "affiliation": [
+      "United States Marine Corps (formerly)"
+    ],
+    "actor": [
+      "Ray Iannicelli"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "New York's Finest",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Cold Day in Hell's Kitchen",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Defenders (episode)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

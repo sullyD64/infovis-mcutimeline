@@ -1,0 +1,27 @@
+[
+  {
+    "cid": "Lina",
+    "real name": [
+      "Lina"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 2: Security Breach",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Reese",
+    "real name": [
+      "Reese"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Agent of SSR"
+    ],
+    "affiliation": [
+      "SSR"
+    ],
+    "actor": [
+      "Mike Massa"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Sin to Err",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

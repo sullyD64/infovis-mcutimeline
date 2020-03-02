@@ -1,0 +1,51 @@
+[
+  {
+    "cid": "Elliot Randolph",
+    "real name": [],
+    "species": [
+      "Asgardian"
+    ],
+    "citizenship": [
+      "Asgardian (formerly)",
+      "American"
+    ],
+    "alias": [
+      "Elliot Randolph",
+      "The Warrior Who Stayed"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Professor"
+    ],
+    "age": [
+      "Approximately 3000"
+    ],
+    "affiliation": [
+      "Berserker Army (formerly)",
+      "University of Seville",
+      "S.H.I.E.L.D. (formerly)"
+    ],
+    "actor": [
+      "Peter MacNicol"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Well",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Purpose in the Machine",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

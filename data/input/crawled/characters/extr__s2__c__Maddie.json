@@ -1,0 +1,30 @@
+[
+  {
+    "cid": "Maddie",
+    "real name": [
+      "Maddie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Imaan Chentouf"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: The Dark World",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

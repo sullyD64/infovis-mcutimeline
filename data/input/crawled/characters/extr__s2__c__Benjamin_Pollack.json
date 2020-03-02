@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Benjamin Pollack",
+    "real name": [
+      "Benjamin Pollack"
+    ],
+    "alias": [
+      "Benny"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Scientist of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Jesse Bradford"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Marvel One-Shot: Item 47",
+        "source__type": "oneshot"
+      }
+    ]
+  }
+]

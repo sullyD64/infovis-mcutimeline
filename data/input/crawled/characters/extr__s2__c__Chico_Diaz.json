@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Chico Diaz",
+    "real name": [
+      "Wilfredo Diaz Jr."
+    ],
+    "alias": [
+      "Chico Diaz",
+      "Baby Face Chico",
+      "The Last Man Standing",
+      "Little Puerto Rican Kid",
+      "Chic",
+      "Rico"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "November 2015"
+    ],
+    "affiliation": [
+      "Pop's Barber Shop"
+    ],
+    "actor": [
+      "Brian 'Sene' Marc"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

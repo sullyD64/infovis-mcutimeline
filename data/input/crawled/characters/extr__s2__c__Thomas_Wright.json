@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Thomas Wright",
+    "real name": [
+      "Thomas Wright"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Ghost",
+        "source__type": "tv series",
+        "notes": "news, mentioned"
+      }
+    ]
+  }
+]

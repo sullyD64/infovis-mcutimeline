@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Lucio",
+    "real name": [
+      "Lucio"
+    ],
+    "alias": [
+      "Medusa-Eyes"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Colombian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "April 2016"
+    ],
+    "age": [
+      "36"
+    ],
+    "affiliation": [
+      "National Police of Colombia",
+      "HYDRA"
+    ],
+    "actor": [
+      "Gabriel Salvador"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOB": [
+      "1980"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

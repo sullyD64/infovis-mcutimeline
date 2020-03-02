@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "AWOL",
+    "real name": [
+      "Anthony Wall"
+    ],
+    "alias": [
+      "AWOL",
+      "Curry Goat Guy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "LAPD (formerly)"
+    ],
+    "actor": [
+      "Myles Bullock"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

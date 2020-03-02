@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Pop",
+    "real name": [
+      "Henry Hunter"
+    ],
+    "alias": [
+      "Pop",
+      "The Cat in the Hat"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Stokes Crime Family (formerly)",
+      "Pop's Barber Shop"
+    ],
+    "actor": [
+      "Frankie Faison",
+      "Edwin Freeman (younger)"
+    ],
+    "DOD": [
+      "November 16, 2015<ref name=\"LC109\">''Luke Cage: 1.09: DWYCK''</ref><ref name=\"DD213\">''Daredevil: 2.13: A Cold Day in Hell's Kitchen''</ref>"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

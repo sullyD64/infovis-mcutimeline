@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Hope Mackenzie (Framework)",
+    "real name": [
+      "Hope Mackenzie"
+    ],
+    "alias": [
+      "Sparkplug"
+    ],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOB": [
+      "2007 (Framework)",
+      "2017 (Real World)"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "actor": [
+      "Jordan Rivera"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

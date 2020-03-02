@@ -1,0 +1,51 @@
+[
+  {
+    "cid": "Dale Holiday",
+    "real name": [
+      "Dale Holiday"
+    ],
+    "alias": [
+      "Evil Prick",
+      "Twisted Sadistic Shithead"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Mid-2017<ref>''Jessica Jones: 2.01: AKA Start at the Beginning''</ref><ref>''Jessica Jones: 2.04: AKA God Help the Hobo''</ref>"
+    ],
+    "title": [
+      "Officer",
+      "Head of Security"
+    ],
+    "affiliation": [
+      "New York City Department of Correction"
+    ],
+    "actor": [
+      "Brian Hutchison"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Pork Chop",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Three Lives and Counting",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "cid": "Bradford",
+    "real name": [
+      "Bradford"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "July 9, 2017<ref name=\"C&D203\">''Cloak & Dagger: 2.03: Shadow Selves''</ref>"
+    ],
+    "title": [
+      "Officer (formerly)"
+    ],
+    "affiliation": [
+      "NOPD (formerly)"
+    ],
+    "actor": [
+      "Tim Bell"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "First Light",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Shadow Selves",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Vikingtown Sound",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

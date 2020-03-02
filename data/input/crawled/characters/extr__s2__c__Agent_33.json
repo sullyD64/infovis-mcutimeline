@@ -1,0 +1,58 @@
+[
+  {
+    "cid": "Agent 33",
+    "real name": [
+      "Kara Palamas"
+    ],
+    "alias": [
+      "Agent 33",
+      "33",
+      "Melinda May",
+      "May's Evil Twin",
+      "Skye",
+      "Carla Talbot",
+      "Meredith Tredwyck",
+      "Brookton"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "May 9, 2015"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)",
+      "HYDRA (formerly,brainwashed)"
+    ],
+    "actor": [
+      "Maya Stojan",
+      "Ming-Na Wen (disguised)",
+      "Landall Goolsby (disguised)",
+      "Chloe Bennet (disguised)",
+      "Raquel Gardner (disguised)",
+      "Anna Campbell (disguised)",
+      "Shannon McClung (disguised)",
+      "Murielle Telio (disguised)",
+      "Raquel Pomplun (disguised)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "10 episodes"
+      }
+    ]
+  }
+]

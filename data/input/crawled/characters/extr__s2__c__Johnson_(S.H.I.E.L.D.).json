@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Johnson (S.H.I.E.L.D.)",
+    "real name": [
+      "Johnson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Incredible Hulk: The Fury Files",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

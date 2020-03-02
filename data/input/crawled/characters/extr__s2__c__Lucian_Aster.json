@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Lucian Aster",
+    "real name": [
+      "Lucian Aster"
+    ],
+    "alias": [
+      "Strong Zealot"
+    ],
+    "species": [
+      "Human"
+    ],
+    "affiliation": [
+      "Masters of the Mystic Arts (formerly)",
+      "Zealots"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Apprentice"
+    ],
+    "actor": [
+      "Scott Adkins"
+    ],
+    "DOD": [
+      "Early 2017"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Doctor Strange (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Doctor Strange Prelude - The Zealot",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

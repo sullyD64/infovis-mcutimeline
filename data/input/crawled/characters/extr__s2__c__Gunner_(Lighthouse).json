@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Gunner (Lighthouse)",
+    "real name": [
+      "Gunner"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Lighthouse"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "James Harvey Ward"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Life Earned",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Best Laid Plans",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

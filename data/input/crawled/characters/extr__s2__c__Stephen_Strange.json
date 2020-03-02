@@ -1,0 +1,98 @@
+[
+  {
+    "cid": "Stephen Strange",
+    "real name": [
+      "Stephen Vincent Strange"
+    ],
+    "alias": [
+      "Doctor Strange",
+      "Mr. Doctor",
+      "Doc",
+      "Stonekeeper",
+      "Wizard",
+      "Time Stone Guy",
+      "Bleecker Street Magician"
+    ],
+    "species": [
+      "Human"
+    ],
+    "DOD": [
+      "Early 2017 (multiple times by Dormammu; deaths undone by the Time Stone)",
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor",
+      "Master of the New York Sanctum"
+    ],
+    "affiliation": [
+      "Metro-General Hospital (formerly)",
+      "Masters of the Mystic Arts"
+    ],
+    "actor": [
+      "Benedict Cumberbatch"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Doctor Strange (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Doctor Strange in the Multiverse of Madness",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Doctor Strange: Mystic Apprentice",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Doctor Strange: Episode 0",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

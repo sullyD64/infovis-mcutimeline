@@ -1,0 +1,51 @@
+[
+  {
+    "cid": "Luis",
+    "real name": [
+      "Luis"
+    ],
+    "alias": [
+      "Daddy",
+      " Three Wombats (with Dave and Kurt)",
+      "Boss",
+      "Human Jukebox"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "X-Con Security Consultants"
+    ],
+    "actor": [
+      "Michael Peña"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man - Scott Lang: Small Time",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

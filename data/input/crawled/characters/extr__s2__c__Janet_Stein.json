@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Janet Stein",
+    "real name": [
+      "Janet Stein"
+    ],
+    "species": [
+      "Artificial Intelligence (formerly human)"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Culver University (formerly)",
+      "Nemo",
+      "PRIDE"
+    ],
+    "actor": [
+      "Ever Carradine",
+      "Sorel Carradine (young)"
+    ],
+    "status": [
+      "Deceased (physical body)",
+      "Active (as a Artificial Intelligence; mind uploaded into Healing Algorithm)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "30 episodes"
+      }
+    ]
+  }
+]

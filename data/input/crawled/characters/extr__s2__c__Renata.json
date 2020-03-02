@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Renata",
+    "real name": [
+      "Renata"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "Early 2014"
+    ],
+    "actor": [
+      "Branka Katic"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

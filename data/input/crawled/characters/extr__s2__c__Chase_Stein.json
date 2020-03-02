@@ -1,0 +1,53 @@
+[
+  {
+    "cid": "Chase Stein",
+    "real name": [
+      "Chase Stein"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "alias": [
+      "Some Roided-Out Jockstrap",
+      "Doc Brown",
+      "Jock Jams",
+      "Dumb Jock",
+      "Lindo",
+      "One Direction",
+      "Boss' Kid",
+      "Chambelane",
+      "The Pretty Boy",
+      "The Benedict Arnold of the Group",
+      "Lacrosse Boy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "Early 2001"
+    ],
+    "affiliation": [
+      "Atlas Academy (formerly)",
+      "Runaways",
+      "PRIDE (formerly)"
+    ],
+    "actor": [
+      "Gregg Sulkin",
+      "Connor Falk (young)"
+    ],
+    "status": [
+      "Alive",
+      "Deceased (alternate self from 2028)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "33 episodes"
+      }
+    ]
+  }
+]

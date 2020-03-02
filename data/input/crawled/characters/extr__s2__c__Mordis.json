@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Mordis",
+    "real name": [
+      "Mordis"
+    ],
+    "alias": [
+      "Death",
+      "The Face of Death"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "Attilan"
+    ],
+    "actor": [
+      "Bridger Zadina"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

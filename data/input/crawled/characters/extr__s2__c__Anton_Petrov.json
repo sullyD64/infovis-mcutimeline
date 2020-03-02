@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Anton Petrov",
+    "real name": [
+      "Anton Petrov"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Government of Russia"
+    ],
+    "actor": [
+      "Ravil Isyanov"
+    ],
+    "DOD": [
+      "March 2016"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Inside Man",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Parting Shot",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

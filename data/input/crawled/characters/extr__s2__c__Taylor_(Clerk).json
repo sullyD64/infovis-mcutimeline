@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Taylor (Clerk)",
+    "real name": [
+      "Taylor"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Roxxon Corporation"
+    ],
+    "actor": [
+      "Christopher Gehrman"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Repairs",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

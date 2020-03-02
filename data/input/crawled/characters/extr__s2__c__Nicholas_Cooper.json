@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Nicholas Cooper",
+    "real name": [
+      "Nicholas Cooper"
+    ],
+    "alias": [
+      "Coop"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2014"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Avengers: Age of Ultron Prelude - This Scepter'd Isle",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

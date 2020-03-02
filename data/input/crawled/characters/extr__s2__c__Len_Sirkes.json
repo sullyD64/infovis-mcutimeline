@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Len Sirkes",
+    "real name": [
+      "Len Sirkes"
+    ],
+    "alias": [
+      "Loan Shark",
+      "Shark",
+      "Asshole",
+      "Carl Icahn"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Brett Azar"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA You're a Winner!",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

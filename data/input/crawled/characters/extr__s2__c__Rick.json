@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Rick",
+    "real name": [
+      "Rick"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Spring 2018<ref>''The Punisher: 2.07: One Bad Day''</ref>"
+    ],
+    "actor": [
+      "Johnny Pozzi"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Scar Tissue",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

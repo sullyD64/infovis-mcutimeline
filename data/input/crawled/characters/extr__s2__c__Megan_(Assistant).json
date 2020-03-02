@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Megan (Assistant)",
+    "real name": [
+      "Megan"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Rand Enterprises"
+    ],
+    "actor": [
+      "Barrett Doss"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "cid": "Leo Fitz",
+    "real name": [
+      "Leopold James Fitz"
+    ],
+    "alias": [
+      "Leo Fitz",
+      "FitzSimmons (with Jemma Simmons)",
+      "Doctor Fitzy",
+      "Mishka",
+      "Little Bear",
+      "Little Monkey",
+      "The Gadget Guy",
+      "Turbo",
+      "Cartoon Puppy Dog",
+      "Nerd Herd (with Alphonso Mackenzie)",
+      "Andaz",
+      "Backseat Science Department",
+      "Slide Rule",
+      "Coach",
+      "The Doctor",
+      "Dr. Watson",
+      "The Big Bad Brain of S.H.I.E.L.D.",
+      "Jimmy Futterman",
+      "Lochner",
+      "Boshtok the Marauder",
+      "Mr. Simmons-Fitz",
+      "Grandpa",
+      "Grandpappy",
+      "The Invincible Three (with Jemma Simmons and Yo-Yo Rodriguez)",
+      "Bobo",
+      "Gramps",
+      "Bestie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "Scottish"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "August 19, 1987"
+    ],
+    "DOD": [
+      "Spring 2018 (alternate universe version)"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D.",
+      "Doctor"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D.",
+      "*SHDA (formerly)",
+      "*SHDC (formerly)HYDF (Framework; formerly)",
+      "Izel's Crew (formerly)"
+    ],
+    "actor": [
+      "Iain De Caestecker",
+      "Patrick John Hurley (disguise)"
+    ],
+    "status": [
+      "Alive",
+      "Deceased (alternate universe)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "132 episodes"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: Slingshot",
+        "source__type": "web series",
+        "notes": "1 episode"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: The Chase",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

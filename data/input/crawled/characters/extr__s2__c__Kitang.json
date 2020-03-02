@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Kitang",
+    "real name": [
+      "Kitang"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "Attilan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Head of the Genetic Council"
+    ],
+    "affiliation": [
+      "Genetic Council"
+    ],
+    "actor": [
+      "Marco Rodríguez"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      "2016"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Behold…The Inhumans!",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Divide -- And Conquer",
+        "source__type": "tv series",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "...And Finally: Black Bolt",
+        "source__type": "tv series",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

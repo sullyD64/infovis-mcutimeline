@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Danny",
+    "real name": [
+      "Danny"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Aryan Brotherhood"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "May 2018<ref>''The Punisher: 2.07: One Bad Day''</ref>"
+    ],
+    "actor": [
+      "Derek Goh"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Flustercluck",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Dark Hearts of Men",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

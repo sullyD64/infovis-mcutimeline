@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Jack Thompson",
+    "real name": [
+      "Jack Thompson"
+    ],
+    "alias": [
+      "Jackie",
+      "Sir Isaac Newton"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Lieutenant (formerly)",
+      "Chief of SSR (formerly)",
+      "Agent of SSR (formerly)"
+    ],
+    "affiliation": [
+      "Cornell University (formerly)",
+      "United States Army (formerly)",
+      "SSR"
+    ],
+    "actor": [
+      "Chad Michael Murray"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "13 episodes"
+      }
+    ]
+  }
+]

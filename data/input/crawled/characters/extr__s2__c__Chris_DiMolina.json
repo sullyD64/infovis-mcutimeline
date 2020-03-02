@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Chris DiMolina",
+    "real name": [
+      "Chris DiMolina"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Commissioner"
+    ],
+    "affiliation": [
+      "NYPD"
+    ],
+    "actor": [
+      "Antoni Corone"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Please",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Morgan Stark",
+    "real name": [
+      "Morgan H. Stark"
+    ],
+    "alias": [
+      "Madame Secretary",
+      "Alpha Female",
+      "Maguna",
+      "Little Miss",
+      "Second Chance",
+      "Squirt"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOB": [
+      "2018-2019"
+    ],
+    "actor": [
+      "Lexi Rabe",
+      "Katherine Langford (teenager; deleted scene)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie",
+        "notes": "indirectly mentioned"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "cid": "Tentacled Creature",
+    "alias": [
+      "Monster Plant"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "4,722 Hours",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

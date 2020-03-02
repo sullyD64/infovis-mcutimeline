@@ -1,0 +1,56 @@
+[
+  {
+    "cid": "Anton Vanko",
+    "real name": [
+      "Anton Vanko"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Soviet",
+      "Russian",
+      "American (formerly)"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "Moscow State University (formerly)",
+      "Stark Industries (formerly)"
+    ],
+    "DOD": [
+      "November 25, 2009<ref>''The Art of the Avengers'' timeline</ref><ref name=\"IM\">''Iron Man''</ref>"
+    ],
+    "actor": [
+      "Eugene Lazarev",
+      "Costa Ronin (young)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      },
+      {
+        "source__title": "Iron Man 2: Public Identity",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2 Adaptation",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

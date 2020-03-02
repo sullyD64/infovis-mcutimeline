@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Mike Jones",
+    "real name": [
+      "Mike Jones"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [],
+    "actor": [],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "DWYCK",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

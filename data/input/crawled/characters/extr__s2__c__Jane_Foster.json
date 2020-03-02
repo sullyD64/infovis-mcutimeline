@@ -1,0 +1,108 @@
+[
+  {
+    "cid": "Jane Foster",
+    "real name": [
+      "Jane Foster"
+    ],
+    "alias": [
+      "The Mortal",
+      "The World's Most Foremost Astronomer",
+      "Pretty Pants"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "affiliation": [
+      "Culver University",
+      "University of London"
+    ],
+    "actor": [
+      "Natalie Portman",
+      "Elsa Pataky<ref>In the final post-credits scene for ''Thor: The Dark World'', Chris Hemsworth's wife, Elsa Pataky, stood in as Foster for the last kiss of the film.</ref>"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Thor: The Dark World",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Thor: Love and Thunder",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Team Thor",
+        "source__type": "web series",
+        "notes": "drawing"
+      },
+      {
+        "source__title": "Thor Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Prelude: Fury's Big Week",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor: The Dark World Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Operation HYDRA",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor: Ragnarok Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

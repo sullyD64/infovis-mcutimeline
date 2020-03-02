@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "Ruby Hale",
+    "real name": [
+      "Ruby Hale"
+    ],
+    "alias": [
+      "Cross-fit Tinker Bell",
+      "Ninja Daughter",
+      "Destroyer of Worlds",
+      "Crazy HYDRA Girl"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "HYDRA",
+      "*HYDRA Preparatory Academy"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "age": [
+      "17-18<!--Born December 3, 1999-December 2, 2000-->"
+    ],
+    "DOB": [
+      "December 1999-December 2000"
+    ],
+    "DOD": [
+      "Spring 2018"
+    ],
+    "actor": [
+      "Dove Cameron"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

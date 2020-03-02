@@ -1,0 +1,45 @@
+[
+  {
+    "cid": "Melinda May (Life-Model Decoy)",
+    "real name": [],
+    "alias": [
+      "Melinda May",
+      "The May LMD",
+      "May Life-Model Decoy",
+      "Killer Androids (with the other LMDs)",
+      "Robot May"
+    ],
+    "species": [
+      "Life-Model Decoy"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Female (feminine programming & voice)"
+    ],
+    "age": [
+      "18 Days"
+    ],
+    "DOB": [
+      "April 12, 2017"
+    ],
+    "DOD": [
+      "April 30, 2017"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Ming-Na Wen"
+    ],
+    "status": [
+      "Destroyed"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

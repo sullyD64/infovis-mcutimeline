@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Kevin Kennedy",
+    "real name": [
+      "Kevin Kennedy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2016"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Rolling Thunder Cannon Punch",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

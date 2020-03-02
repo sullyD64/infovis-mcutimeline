@@ -1,0 +1,29 @@
+[
+  {
+    "cid": "Michelle Raymond",
+    "real name": [
+      "Michelle Raymond"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Michelle Federer"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

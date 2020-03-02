@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "D.K.",
+    "real name": [
+      "D.K."
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [],
+    "affiliation": [
+      "Crane Sisters"
+    ],
+    "actor": [
+      "Lauren Mary Kim"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Target: Iron Fist",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Dragon Dies at Dawn",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "War Without End",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

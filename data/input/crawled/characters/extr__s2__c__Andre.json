@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Andre",
+    "real name": [
+      "Andre"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Neimah Djourabchi"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Crush Syndrome",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

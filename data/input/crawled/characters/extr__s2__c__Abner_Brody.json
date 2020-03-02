@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Abner Brody",
+    "real name": [
+      "Abner Brody"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Better Angels",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

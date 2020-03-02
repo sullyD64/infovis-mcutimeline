@@ -1,0 +1,111 @@
+[
+  {
+    "cid": "Erik Selvig",
+    "real name": [
+      "Erik Selvig"
+    ],
+    "alias": [
+      "Doc",
+      "Seemingly Harmless Rambler"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Norwegian",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor",
+      "Professor",
+      "Consultant for S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "Culver University (formerly)",
+      "S.H.I.E.L.D. (formerly)",
+      "University of London (formerly)"
+    ],
+    "DOD": [
+      "2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "actor": [
+      "Stellan Skarsgård"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Thor: The Dark World",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Yes Men",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Avengers Prelude: Fury's Big Week",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor: The Dark World Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron Prelude - This Scepter'd Isle",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor: Ragnarok Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Captain Marvel Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

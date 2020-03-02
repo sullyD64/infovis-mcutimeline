@@ -1,0 +1,84 @@
+[
+  {
+    "cid": "Dum Dum Dugan",
+    "real name": [
+      "Timothy Aloysius Cadwallader Dugan"
+    ],
+    "alias": [
+      "Dum Dum Dugan"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "April 11, 1912"
+    ],
+    "affiliation": [
+      "United States Army",
+      "*69th Infantry Regiment (formerly)",
+      "Howling Commandos (formerly)"
+    ],
+    "title": [
+      "Sergeant"
+    ],
+    "actor": [
+      "Neal McDonough"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The First Avenger",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Marvel One-Shot: Agent Carter",
+        "source__type": "oneshot"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      },
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      },
+      {
+        "source__title": "Nick Fury: Spies Like Us",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: First Vengeance",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: The First Avenger Adaptation",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

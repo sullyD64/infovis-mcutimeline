@@ -1,0 +1,54 @@
+[
+  {
+    "cid": "Nathaniel Malick",
+    "real name": [
+      "Nathaniel Malick"
+    ],
+    "alias": [
+      "Nate"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "February 19, 1970"
+    ],
+    "affiliation": [
+      "Malick Family",
+      "HYDRA"
+    ],
+    "actor": [
+      "Joel Dabney Courtney"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Paradise Lost",
+        "source__type": "tv series",
+        "notes": "flashbacks"
+      },
+      {
+        "source__title": "The Team",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Absolution",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

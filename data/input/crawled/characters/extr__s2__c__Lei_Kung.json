@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Lei Kung",
+    "real name": [
+      "Lei Kung"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "K'un-Lunan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "alias": [
+      "The Thunderer",
+      "Champion of K'un-Lun"
+    ],
+    "affiliation": [
+      "Order of the Crane Mother"
+    ],
+    "actor": [
+      "Hoon Lee"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episode"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Sally",
+    "real name": [
+      "Sally"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Barbara Kingsley"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA God Help the Hobo",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Helen Cho",
+    "real name": [
+      "조헬렌 (Helen Cho)"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "South Korean"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "U-GIN"
+    ],
+    "actor": [
+      "Claudia Kim"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

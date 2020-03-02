@@ -1,0 +1,28 @@
+[
+  {
+    "cid": "Aiden Julius",
+    "real name": [
+      "Aiden Julius"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Ten Rings"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man Royal Purple Custom Comic",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

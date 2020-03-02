@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "River Tribe Elder",
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Wakandan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Elder of the River Tribe"
+    ],
+    "affiliation": [
+      "River Tribe",
+      "Tribal Council"
+    ],
+    "actor": [
+      "Isaach De Bankolé"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Black Panther (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

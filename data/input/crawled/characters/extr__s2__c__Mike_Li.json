@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Mike Li",
+    "real name": [],
+    "alias": [
+      "Mike Li"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Agent of SSR"
+    ],
+    "affiliation": [
+      "SSR"
+    ],
+    "actor": [
+      "Eddie Shin"
+    ],
+    "DOD": [
+      "April 26, 1946"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Iron Ceiling",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

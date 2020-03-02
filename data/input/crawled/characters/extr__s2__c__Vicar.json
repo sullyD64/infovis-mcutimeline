@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Vicar",
+    "real name": [],
+    "alias": [
+      "The Vicar"
+    ],
+    "species": [
+      "Kree"
+    ],
+    "citizenship": [
+      "Kree Imperial",
+      "Lighthouse"
+    ],
+    "DOD": [
+      "2091"
+    ],
+    "title": [
+      "Vicar"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Kree Watch"
+    ],
+    "actor": [
+      "Isaac C. Singleton Jr."
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Fun & Games",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Together or Not at All",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

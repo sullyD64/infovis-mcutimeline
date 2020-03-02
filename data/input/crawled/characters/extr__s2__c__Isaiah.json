@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Isaiah",
+    "real name": [
+      "Isaiah"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "United States Army",
+      "IGH"
+    ],
+    "actor": [
+      "Joseph Castillo-Midyett"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Freak Accident",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

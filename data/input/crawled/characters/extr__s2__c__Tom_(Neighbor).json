@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Tom (Neighbor)",
+    "real name": [
+      "Tom"
+    ],
+    "alias": [
+      "Talos"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Richard Zeringue"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

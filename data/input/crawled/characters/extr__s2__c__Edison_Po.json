@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Edison Po",
+    "real name": [
+      "Edison Po"
+    ],
+    "alias": [
+      "The Specialist",
+      "Walking Mugshot",
+      "Number One Draft Pick"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2013"
+    ],
+    "affiliation": [
+      "United States Marine Corps (formerly)",
+      "HYDRA",
+      "*Centipede Project"
+    ],
+    "actor": [
+      "Cullen Douglas"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

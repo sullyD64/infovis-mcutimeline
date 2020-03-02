@@ -1,0 +1,52 @@
+[
+  {
+    "cid": "Method Man",
+    "real name": [
+      "Clifford M. Smith Jr."
+    ],
+    "alias": [
+      "Method Man",
+      "Meth",
+      "Cliff Smith",
+      "John Blaze"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Wu-Tang Clan (formerly)"
+    ],
+    "actor": [
+      "Himself"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Manifest",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Soliloquy of Chaos",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "All Souled Out",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

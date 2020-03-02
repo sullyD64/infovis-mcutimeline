@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Rooster",
+    "real name": [
+      "Duane"
+    ],
+    "alias": [
+      "Rooster"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Road Captain"
+    ],
+    "affiliation": [
+      "Dogs of Hell"
+    ],
+    "actor": [
+      "Dylan Bruno"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Yes Men",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

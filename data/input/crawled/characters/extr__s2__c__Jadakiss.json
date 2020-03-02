@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Jadakiss",
+    "real name": [
+      "Jason Terrance Phillips"
+    ],
+    "alias": [
+      "Jadakiss"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Himself"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Main Ingredient",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

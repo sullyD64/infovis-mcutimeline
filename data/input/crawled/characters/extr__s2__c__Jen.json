@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Jen",
+    "real name": [
+      "Jen"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Jamie Gray Hyder"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Divide -- And Conquer",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Make Way For... Medusa",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Something Inhuman This Way Comes...",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

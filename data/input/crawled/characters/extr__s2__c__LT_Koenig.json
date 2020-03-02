@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "LT Koenig",
+    "real name": [
+      "LT Koenig"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Artemis Pebdani"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Hot Potato Soup",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

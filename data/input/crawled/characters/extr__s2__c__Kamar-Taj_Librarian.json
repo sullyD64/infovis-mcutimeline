@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Kamar-Taj Librarian",
+    "real name": [],
+    "alias": [
+      "Kamar-Taj Librarian"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Fall 2015<ref>[https://www.empireonline.com/movies/news/empire-podcast-doctor-strange-spoiler-special-scott-derrickson/ Empire Podcast: ''Doctor Strange'' Spoiler Special with Scott Derrickson]</ref><ref name=\"DS\"/>"
+    ],
+    "title": [
+      "Librarian of Kamar-Taj"
+    ],
+    "affiliation": [
+      "Masters of the Mystic Arts"
+    ],
+    "actor": [
+      "Ezra Khan"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Doctor Strange (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Doctor Strange Prelude - The Zealot",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

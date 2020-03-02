@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Donny Chavez",
+    "real name": [
+      "Donald Chavez"
+    ],
+    "alias": [
+      "Donny Chavez"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "June 6, 1995"
+    ],
+    "actor": [
+      "Lucca De Oliveira"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "3 AM",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

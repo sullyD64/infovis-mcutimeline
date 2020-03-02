@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Petra Larsen",
+    "real name": [
+      "Petra Larsen"
+    ],
+    "alias": [
+      "Nancy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Norwegian"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Norse Paganists"
+    ],
+    "actor": [
+      "Erin Way"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Well",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

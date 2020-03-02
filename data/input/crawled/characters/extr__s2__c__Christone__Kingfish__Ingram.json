@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Christone \"Kingfish\" Ingram",
+    "real name": [
+      "Christone Ingram"
+    ],
+    "alias": [
+      "Kingfish"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Himself"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "I Get Physical",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

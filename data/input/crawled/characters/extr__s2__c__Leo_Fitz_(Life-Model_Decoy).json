@@ -1,0 +1,54 @@
+[
+  {
+    "cid": "Leo Fitz (Life-Model Decoy)",
+    "alias": [
+      "Leo Fitz",
+      "Killer Androids (with the other LMDs)"
+    ],
+    "species": [
+      "Life-Model Decoy"
+    ],
+    "gender": [
+      "Male (masculine programming and voice)"
+    ],
+    "age": [
+      "1 Day"
+    ],
+    "DOB": [
+      "April 2017"
+    ],
+    "DOD": [
+      "April 2017"
+    ],
+    "affiliation": [
+      "Holden Radcliffe",
+      "Aida",
+      "S.H.I.E.L.D. (undercover)"
+    ],
+    "actor": [
+      "Iain De Caestecker"
+    ],
+    "status": [
+      "Destroyed"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Man Behind the Shield",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Self Control",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Identity and Change",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

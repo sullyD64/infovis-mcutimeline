@@ -1,0 +1,29 @@
+[
+  {
+    "cid": "Orson Randall",
+    "real name": [
+      "Orson Randall"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Duel of Iron",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

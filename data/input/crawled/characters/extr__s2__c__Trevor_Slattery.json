@@ -1,0 +1,66 @@
+[
+  {
+    "cid": "Trevor Slattery",
+    "real name": [
+      "Trevor Slattery"
+    ],
+    "alias": [
+      "Mandarin",
+      "The Master",
+      "Mandy",
+      "King Lear",
+      "Serial Killer",
+      "The Western Iconography",
+      "Sir Laurence Oblivier",
+      "Ringo",
+      "Trev"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "A.I.M. (formerly)"
+    ],
+    "actor": [
+      "Ben Kingsley"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 3",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Marvel One-Shot: All Hail the King",
+        "source__type": "oneshot"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series"
+      },
+      {
+        "source__title": "WHIH Newsfront: The Cost of Saving the World",
+        "source__type": "web series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "WHIH Newsfront Exclusive: President Ellis Discusses the Avengers",
+        "source__type": "web series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

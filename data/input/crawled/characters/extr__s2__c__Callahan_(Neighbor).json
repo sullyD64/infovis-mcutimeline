@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Callahan (Neighbor)",
+    "real name": [
+      "Callahan"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Venida Evans"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Perfect Game",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Straighten It Out",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

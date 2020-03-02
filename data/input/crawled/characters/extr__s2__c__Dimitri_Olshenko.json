@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Dimitri Olshenko",
+    "real name": [
+      "Dimitri Olshenko"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Prime Minister of Russia"
+    ],
+    "affiliation": [
+      "Government of Russia"
+    ],
+    "actor": [
+      "Endre Hules"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Parting Shot",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Hot Potato Soup",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

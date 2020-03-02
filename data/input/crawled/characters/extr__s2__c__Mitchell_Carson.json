@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Mitchell Carson",
+    "real name": [
+      "Mitchell Carson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Head of Defense (formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly,undercover)",
+      "HYDRA"
+    ],
+    "actor": [
+      "Martin Donovan"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

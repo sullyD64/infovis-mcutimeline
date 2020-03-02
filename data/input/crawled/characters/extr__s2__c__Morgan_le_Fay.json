@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Morgan le Fay",
+    "real name": [
+      "Morgan le Fay"
+    ],
+    "alias": [
+      "Evil Beyoncé"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Elizabeth Hurley"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "title": [
+      "High Priestess",
+      "CEO of Wizard (formerly)"
+    ],
+    "affiliation": [
+      "Coven",
+      "Wizard (formerly)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      }
+    ]
+  }
+]

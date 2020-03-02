@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Tony Diaz",
+    "real name": [
+      "Tony Diaz"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Wrigley Fire Department"
+    ],
+    "DOD": [
+      "2013"
+    ],
+    "actor": [
+      "Vincent Laresca"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "FZZT",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "cid": "Lady of the Lake Killer",
+    "alias": [
+      "The Lady of the Lake Killer"
+    ],
+    "species": [
+      "Human"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Lady in the Lake",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

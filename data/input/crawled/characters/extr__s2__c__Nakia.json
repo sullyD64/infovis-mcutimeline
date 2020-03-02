@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Nakia",
+    "real name": [
+      "Nakia"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Wakandan"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Head of the Social Outreach Department"
+    ],
+    "affiliation": [
+      "River Tribe",
+      "War Dogs",
+      "Wakandan International Outreach Centre"
+    ],
+    "actor": [
+      "Lupita Nyong'o",
+      "Lidya Jewett (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Black Panther (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Ray Ray",
+    "real name": [
+      "Andre Jackson"
+    ],
+    "alias": [
+      "Ray Ray",
+      "Double Ray"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "August 2017<ref>''Luke Cage: 2.11: The Creator''</ref><ref>[https://www.bustle.com/p/why-infinity-war-hasnt-changed-any-marvel-netflix-shows-yet-according-to-jeph-loeb-9555046 Why ''Infinity War'' Hasn't Changed Any Marvel Netflix Shows - Yet - According to Jeph Loeb]</ref>"
+    ],
+    "affiliation": [
+      "Stokes Crime Family"
+    ],
+    "actor": [
+      "Los Jones"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "I Get Physical",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "All Souled Out",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

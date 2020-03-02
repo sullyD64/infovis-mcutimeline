@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Raza",
+    "real name": [
+      "Raza Hamidmi Al-Wazar"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Afghan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Ten Rings"
+    ],
+    "DOD": [
+      "November 2009<ref>''The Art of the Avengers'' timeline</ref><ref name=\"IM\"/>"
+    ],
+    "actor": [
+      "Faran Tahir"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Marvel One-Shot: All Hail the King",
+        "source__type": "oneshot",
+        "notes": "photograph"
+      },
+      {
+        "source__title": "Iron Man: I Am Iron Man!",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Calvin Chadwick",
+    "real name": [
+      "Calvin Chadwick"
+    ],
+    "alias": [
+      "Cal"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "July 21, 1947"
+    ],
+    "affiliation": [
+      "Isodyne Energy",
+      "Council of Nine"
+    ],
+    "actor": [
+      "Currie Graham"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

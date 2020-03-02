@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Zip",
+    "real name": [],
+    "alias": [
+      "Zip"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Stokes Crime Family"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Jaiden Kaine"
+    ],
+    "DOD": [
+      "December 3, 2015"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "9 episodes"
+      }
+    ]
+  }
+]

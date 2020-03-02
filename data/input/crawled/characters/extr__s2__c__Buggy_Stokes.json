@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Buggy Stokes",
+    "real name": [
+      "Samuel Stokes"
+    ],
+    "alias": [
+      "Buggy Stokes",
+      "Devil"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Harlem's Paradise",
+      "Stokes Crime Family"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

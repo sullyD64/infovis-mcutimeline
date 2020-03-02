@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Phil Coulson (Life-Model Decoy)",
+    "real name": [],
+    "alias": [
+      "Phil Coulson",
+      "Killer Androids (with the other LMDs)"
+    ],
+    "species": [
+      "Life-Model Decoy"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Male (masculine programming & voice)"
+    ],
+    "age": [
+      "1 Day"
+    ],
+    "DOB": [
+      "April 2017"
+    ],
+    "DOD": [
+      "April 2017"
+    ],
+    "affiliation": [
+      "Holden Radcliffe",
+      "Aida",
+      "S.H.I.E.L.D. (undercover)"
+    ],
+    "actor": [
+      "Clark Gregg"
+    ],
+    "status": [
+      "Destroyed"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

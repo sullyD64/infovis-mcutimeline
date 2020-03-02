@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Edgar Brass",
+    "real name": [
+      "Edgar Brass"
+    ],
+    "alias": [
+      "Drug Dealing Butcher"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Dogs to a Gunfight",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

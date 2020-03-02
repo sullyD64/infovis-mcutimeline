@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Rusty Peltzer",
+    "real name": [
+      "Rusty Peltzer"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Rusty's Construction & Repair"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Rewind (Agents of S.H.I.E.L.D.)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Callahan (NYPD)",
+    "real name": [
+      "Callahan"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [],
+    "title": [],
+    "affiliation": [
+      "NYPD"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "If It Ain't Rough, It Ain't Right",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

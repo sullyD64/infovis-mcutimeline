@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Brian Geparhart",
+    "real name": [
+      "Brian Geparhart"
+    ],
+    "alias": [
+      "Runaway"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "Late 1999-Late 2000<ref name=\"R104\">''Runaways: 1.04: Fifteen''</ref>"
+    ],
+    "DOD": [
+      "Late 2016<ref name=\"R104\"/>"
+    ],
+    "affiliation": [
+      "Church of Gibborim"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Fifteen",
+        "source__type": "tv series",
+        "notes": "photograph"
+      }
+    ]
+  }
+]

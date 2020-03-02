@@ -1,0 +1,92 @@
+[
+  {
+    "cid": "Abraham Erskine",
+    "real name": [
+      "Abraham Erskine"
+    ],
+    "alias": [
+      "Josef Reinstein<ref name=\"TIH\">''The Incredible Hulk''</ref>"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Nazi German (formerly)",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "September 14, 1869"
+    ],
+    "DOD": [
+      "June 22, 1943"
+    ],
+    "age": [
+      "73"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "SSR",
+      "*Project Rebirth"
+    ],
+    "actor": [
+      "Stanley Tucci"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Incredible Hulk",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: The First Avenger",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie",
+        "notes": "mural painting"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: First Vengeance",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: The First Avenger Adaptation",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Billy Koenig",
+    "real name": [
+      "William Koenig"
+    ],
+    "alias": [
+      "Billy Koenig",
+      "Bill Koenig"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)*Life-ModelDecoyProgram(formerly)"
+    ],
+    "actor": [
+      "Patton Oswalt"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

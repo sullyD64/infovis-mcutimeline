@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Gordon",
+    "real name": [
+      "Gordon"
+    ],
+    "alias": [
+      "Gordo",
+      "The Teleporter",
+      "No Eyes",
+      "No-Eyed Boot Licker"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "May 2015"
+    ],
+    "actor": [
+      "Jamie Harris",
+      "Philip Labes (young)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "11 episodes"
+      }
+    ]
+  }
+]

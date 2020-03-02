@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Jazuat",
+    "real name": [
+      "Jazuat"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Sarayu Rao"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "T.A.H.I.T.I.",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

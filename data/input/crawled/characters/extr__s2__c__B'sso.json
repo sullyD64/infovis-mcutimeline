@@ -1,0 +1,29 @@
+[
+  {
+    "cid": "B'sso",
+    "real name": [
+      "B'sso"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Master"
+    ],
+    "affiliation": [
+      "Masters of the Mystic Arts"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Doctor Strange: Mystic Apprentice",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

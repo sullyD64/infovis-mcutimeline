@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Samantha Reyes",
+    "real name": [
+      "Samantha Reyes"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "title": [
+      "United States Attorney for the Southern District of New York"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Fordham University (formerly)"
+    ],
+    "DOD": [
+      "November 2015"
+    ],
+    "actor": [
+      "Michelle Hurd"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      },
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Fischer",
+    "real name": [
+      "Fischer"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "April 2016<ref name=\"AoS515\"/>"
+    ],
+    "title": [
+      "General"
+    ],
+    "affiliation": [
+      "United States Air Force",
+      "HYDRA"
+    ],
+    "actor": [
+      "Rocky McMurray"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Rise and Shine",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

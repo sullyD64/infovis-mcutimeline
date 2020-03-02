@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Will Adams",
+    "status": [
+      "Alive"
+    ],
+    "real name": [
+      "Will Adams"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "WHiH World News"
+    ],
+    "actor": [
+      "Al Madrigal"
+    ],
+    "appearences": [
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

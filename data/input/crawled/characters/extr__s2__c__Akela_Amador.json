@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Akela Amador",
+    "real name": [
+      "Akela Amador"
+    ],
+    "alias": [
+      "The Camera"
+    ],
+    "species": [
+      "Human (Cyborg)"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "age": [
+      "34"
+    ],
+    "DOB": [
+      "June 14, 1983"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)",
+      "HYDRA (undercoercion,formerly)"
+    ],
+    "actor": [
+      "Pascale Armand"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

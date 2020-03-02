@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Duval",
+    "real name": [
+      "Duval"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Inspector"
+    ],
+    "affiliation": [
+      "Interpol"
+    ],
+    "actor": [
+      "Ivo Nandi"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Parting Shot",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

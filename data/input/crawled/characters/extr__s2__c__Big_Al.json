@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Big Al",
+    "alias": [
+      "Big Al"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2016"
+    ],
+    "actor": [
+      "Craig Walker"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Moment of Truth",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Snow Gives Way",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

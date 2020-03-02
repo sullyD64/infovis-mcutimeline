@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Kyle (Husband)",
+    "real name": [
+      "Kyle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Metro-General Hospital"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Jim Ferris"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Start at the Beginning",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

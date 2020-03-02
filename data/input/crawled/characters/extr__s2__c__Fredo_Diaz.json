@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Fredo Diaz",
+    "real name": [
+      "Wilfredo Diaz Sr."
+    ],
+    "alias": [
+      "Fredo Diaz",
+      "Thing Two",
+      "Craziest Little Puerto Rican"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Puerto Rican",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Stokes Crime Family"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Moment of Truth",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Code of the Streets",
+        "source__type": "tv series",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Zuly Almeida",
+    "real name": [
+      "Zuly Almeida"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Bang",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

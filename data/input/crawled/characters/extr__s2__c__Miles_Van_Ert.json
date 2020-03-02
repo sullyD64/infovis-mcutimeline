@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Miles Van Ert",
+    "real name": [
+      "Miles Van Ert"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [
+      "Roxxon Corporation"
+    ],
+    "actor": [
+      "James Urbaniak"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Now is Not the End",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Bridge and Tunnel",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Schneider (Schutzstaffel)",
+    "real name": [
+      "Schneider"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Nazi German"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "1943"
+    ],
+    "title": [
+      "Obergruppenführer"
+    ],
+    "affiliation": [
+      "Schutzstaffel"
+    ],
+    "actor": [
+      "Erich Redman"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The First Avenger",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

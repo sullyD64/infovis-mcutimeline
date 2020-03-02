@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Rosalie Carbone",
+    "real name": [
+      "Rosalie Carbone"
+    ],
+    "alias": [
+      "Wop Bitch"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Carbone Crime Family"
+    ],
+    "actor": [
+      "Annabella Sciorra"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

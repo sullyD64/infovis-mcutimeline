@@ -1,0 +1,58 @@
+[
+  {
+    "cid": "Franklin D. Roosevelt",
+    "real name": [
+      "Franklin Delano Roosevelt"
+    ],
+    "alias": [
+      "FDR"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "President of the United States (formerly)"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie",
+        "notes": "newspaper"
+      },
+      {
+        "source__title": "Captain America: The First Avenger",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "footage"
+      },
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Now is Not the End",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: First Vengeance",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

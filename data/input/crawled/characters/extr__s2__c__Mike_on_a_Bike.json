@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Mike on a Bike",
+    "real name": [
+      "Mike"
+    ],
+    "alias": [
+      "Mike on a Bike"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [],
+    "title": [],
+    "actor": [
+      "Ryan Dorsey"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

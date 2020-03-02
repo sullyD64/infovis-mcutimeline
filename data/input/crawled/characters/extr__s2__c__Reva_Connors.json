@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Reva Connors",
+    "real name": [
+      "Reva Connors"
+    ],
+    "alias": [
+      "Doc Connors"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "DOD": [
+      "January 20, 2014<ref name=\"JJ102\"/>"
+    ],
+    "actor": [
+      "Parisa Fitz-Henley"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "affiliation": [
+      "Seagate Penitentiary (formerly)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

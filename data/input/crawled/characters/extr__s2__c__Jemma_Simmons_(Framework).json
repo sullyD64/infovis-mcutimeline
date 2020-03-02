@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Jemma Simmons (Framework)",
+    "real name": [
+      "Jemma Anne Simmons"
+    ],
+    "alias": [],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "2017 (Real World)"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. Academy",
+      "S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Elizabeth Henstridge"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "What If...",
+        "source__type": "tv series",
+        "notes": "photograph"
+      }
+    ]
+  }
+]

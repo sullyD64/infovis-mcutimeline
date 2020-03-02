@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Anne Marie Hoag",
+    "real name": [
+      "Anne Marie Hoag"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Damage Control"
+    ],
+    "title": [
+      "Director"
+    ],
+    "actor": [
+      "Tyne Daly"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

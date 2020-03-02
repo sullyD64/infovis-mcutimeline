@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Stacey Yorkes",
+    "real name": [
+      "Stacey Yorkes"
+    ],
+    "alias": [
+      "Mama Bear",
+      "Stace",
+      "Ditzy Red-Headed Dame"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Co-Leader of Synnergy"
+    ],
+    "affiliation": [
+      "Synnergy",
+      "PRIDE",
+      "Alien Abductee Anonymous"
+    ],
+    "actor": [
+      "Brigid Brannagh"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "31 episodes"
+      }
+    ]
+  }
+]

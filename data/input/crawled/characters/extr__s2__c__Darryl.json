@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Darryl",
+    "real name": [
+      "Darryl"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Chikara Dojo",
+      "Hand"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Marquis Rodriguez"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

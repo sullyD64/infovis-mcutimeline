@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Patricia Wilson",
+    "real name": [
+      "Patricia Wilson"
+    ],
+    "alias": [
+      "Patty",
+      "Counselor"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [],
+    "actor": [
+      "Cassandra Freeman"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

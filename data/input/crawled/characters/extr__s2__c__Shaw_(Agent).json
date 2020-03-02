@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Shaw (Agent)",
+    "real name": [
+      "Shaw"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "alias": [
+      "The Interrogator"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Charles Halford"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Hub",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Turn, Turn, Turn",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

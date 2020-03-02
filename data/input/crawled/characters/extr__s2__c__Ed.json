@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Ed",
+    "real name": [
+      "Ed"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Cut Man",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "In the Blood",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "World on Fire",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

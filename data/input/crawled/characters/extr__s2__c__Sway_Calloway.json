@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Sway Calloway",
+    "real name": [
+      "Sway Calloway"
+    ],
+    "alias": [
+      "Sway"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "''Sway's Universe''"
+    ],
+    "actor": [
+      "Himself"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Soliloquy of Chaos",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Can't Front on Me",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

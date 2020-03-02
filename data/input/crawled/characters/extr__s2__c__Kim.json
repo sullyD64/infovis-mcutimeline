@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Kim",
+    "real name": [
+      "Kim"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Japanese"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D."
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Spring 2018<ref>''Agents of S.H.I.E.L.D.: 5.08: The Last Day''</ref><ref>[https://www.youtube.com/watch?v=9UqrlizXWIM&t=2015s ''Cloak & Dagger'' SDCC 2018 Panel]</ref><ref>''Spider-Man: Far From Home''</ref>"
+    ],
+    "actor": [
+      "Chen Tang"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Option Two",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Force of Gravity",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

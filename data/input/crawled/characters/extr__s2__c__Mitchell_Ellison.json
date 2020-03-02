@@ -1,0 +1,57 @@
+[
+  {
+    "cid": "Mitchell Ellison",
+    "real name": [
+      "Mitchell Ellison"
+    ],
+    "alias": [
+      "Peacock",
+      "Whore",
+      "Boss"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "''NYB''"
+    ],
+    "title": [
+      "Reporter (formerly)",
+      "Editor-in-chief"
+    ],
+    "actor": [
+      "Geoffrey Cantor"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "16 episodes"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

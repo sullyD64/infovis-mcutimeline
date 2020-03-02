@@ -1,0 +1,201 @@
+[
+  {
+    "cid": "Phil Coulson",
+    "real name": [
+      "Phillip J. Coulson"
+    ],
+    "alias": [
+      "Phil Coulson",
+      "Rookie",
+      "New Guy",
+      "Rook",
+      "Son of Coul",
+      "A.C.",
+      "Boss",
+      "Charm School",
+      "Zombie Robot",
+      "Theo Tittle",
+      "Pablo Jiménez",
+      "Avenger",
+      "Charles Martin",
+      "O Captain! My Captain!",
+      "Man With The Plan",
+      "Robot Hand",
+      "Head of S.H.I.E.L.D.",
+      "Cowboy",
+      "Sean Lundwall",
+      "Eric Greene",
+      "The Odd Couple (with Glenn Talbot)",
+      "Lancelot",
+      "Jamie Flugelman (Framework)",
+      "Ghost Rider",
+      "Inspector Gadget",
+      "Wingnut",
+      "Sherlock",
+      "Real Deal",
+      "Humanity's Shield",
+      "One of Earth's Mightiest Heroes",
+      "Fallen Hero",
+      "Wingman",
+      "Hot Lips",
+      "Former Boss",
+      "Dedicated Agent",
+      "Old Friend Coulson",
+      "Impostor",
+      "Synth",
+      "Shapeshifter",
+      "Dream",
+      "Dead Coulson Guy",
+      "Coulson Guy",
+      "The Best"
+    ],
+    "species": [
+      "Human (Cyborg)"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "July 8, 1964"
+    ],
+    "DOD": [
+      "May 4, 2012 (later resurrected)",
+      "Mid-2018"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D. (formerly)",
+      "Director of S.H.I.E.L.D. (formerly)",
+      "Agent of S.H.I.E.L.D. (Framework; formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)",
+      "*Project T.A.H.I.T.I. (formerly)",
+      "*Coulson's Team (formerly)",
+      "*Theta Protocol (formerly)",
+      "ATCU (formerly)",
+      "Framework",
+      "*Alexander Pierce High School (formerly)",
+      "*SHDF (formerly)"
+    ],
+    "actor": [
+      "Clark Gregg"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Iron Man 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Thor (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie",
+        "notes": "indirectly mentioned"
+      },
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Marvel One-Shot: The Consultant",
+        "source__type": "oneshot"
+      },
+      {
+        "source__title": "Marvel One-Shot: A Funny Thing Happened on the Way to Thor's Hammer",
+        "source__type": "oneshot"
+      },
+      {
+        "source__title": "Marvel One-Shot: Item 47",
+        "source__type": "oneshot",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "123 episodes"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: Slingshot",
+        "source__type": "web series",
+        "notes": "1 episode"
+      },
+      {
+        "source__title": "Iron Man: Fast Friends",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man: Security Measures",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Incredible Hulk: The Fury Files",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man: I Am Iron Man!",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Public Identity",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Phil Coulson: Agent of S.H.I.E.L.D.",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Black Widow: Agent of S.H.I.E.L.D.",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Prelude: Fury's Big Week",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Prelude: Black Widow Strikes",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 3 Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor: The Dark World Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: The Chase",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain Marvel Prelude",
+        "source__type": "comic",
+        "notes": "indirectly mentioned"
+      }
+    ]
+  }
+]

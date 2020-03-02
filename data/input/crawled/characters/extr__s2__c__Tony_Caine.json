@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "Tony Caine",
+    "real name": [
+      "Anthony Caine"
+    ],
+    "alias": [
+      "Tony Caine",
+      "The Candy Man",
+      "The Sinner",
+      "Lewis Casalino",
+      "Murray Jacobson",
+      "William Pratt",
+      "Gene Klein",
+      "Marion Cobretti"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. Academy of Science and Engineering (formerly)"
+    ],
+    "actor": [
+      "Jake Busey"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Principia (episode)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Option Two",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

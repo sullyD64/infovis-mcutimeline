@@ -1,0 +1,45 @@
+[
+  {
+    "cid": "Benny",
+    "real name": [
+      "Benny"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "St. Sebastian's Preparatory School"
+    ],
+    "actor": [
+      "Dalton E. Gray"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Suicide Sprints",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Princeton Offense",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Back Breaker",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

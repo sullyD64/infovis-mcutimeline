@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Jack Benson",
+    "real name": [
+      "Jack Benson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Technician"
+    ],
+    "affiliation": [
+      "StatiCorp"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      "2013"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Repairs",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

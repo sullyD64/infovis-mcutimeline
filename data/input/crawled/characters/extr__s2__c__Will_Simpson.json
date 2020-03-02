@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Will Simpson",
+    "real name": [
+      "Will Simpson"
+    ],
+    "alias": [
+      "Sarge",
+      "Rambo",
+      "G.I. Joe",
+      "Godzilla",
+      "Nut-Bag Traitor"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Sergeant (formerly)"
+    ],
+    "affiliation": [
+      "United States Army (formerly)",
+      "NYPD (formerly)",
+      "IGH"
+    ],
+    "DOD": [
+      "Mid-2017"
+    ],
+    "actor": [
+      "Wil Traval"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "10 episodes"
+      }
+    ]
+  }
+]

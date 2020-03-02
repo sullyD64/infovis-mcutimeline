@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Gwen McIver",
+    "real name": [
+      "Gwen McIver"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Jamaican"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [],
+    "actor": [
+      "Shannon Harris"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

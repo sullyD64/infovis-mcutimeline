@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Kyle (Assistant)",
+    "real name": [
+      "Kyle"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Alex Wyse"
+    ],
+    "DOD": [
+      "2016"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

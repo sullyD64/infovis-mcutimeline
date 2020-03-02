@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Sinara",
+    "real name": [
+      "Sinara"
+    ],
+    "alias": [
+      "Smurfette",
+      "Freaky Blue Bitch",
+      "Mrs. Boba Fett",
+      "Blue Lady"
+    ],
+    "species": [
+      "Kree"
+    ],
+    "citizenship": [
+      "Kree Imperial",
+      "Lighthouse"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Kree Watch"
+    ],
+    "actor": [
+      "Florence Faivre"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      "2091"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "Tony Gnucci",
+    "real name": [
+      "Tony Gnucci"
+    ],
+    "alias": [
+      "Greaseball",
+      "Gnucci-Shit-Bag"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Gnucci Crime Family"
+    ],
+    "DOD": [
+      "2016"
+    ],
+    "actor": [
+      "James J. Lorenzo"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "3 AM",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Two Dead Men",
+        "source__type": "tv series",
+        "notes": "indirectly mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Connie Lin",
+    "real name": [
+      "Connie Lin"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Genghis Connie's",
+      "Genghis Connie's Too"
+    ],
+    "actor": [
+      "Jade Wu"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

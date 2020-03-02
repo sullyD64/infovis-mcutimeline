@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Darryl Jacobson",
+    "real name": [
+      "Darryl Jacobson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Australian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Daley Pearson"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Team Thor",
+        "source__type": "web series"
+      },
+      {
+        "source__title": "Team Thor: Part 2",
+        "source__type": "web series"
+      },
+      {
+        "source__title": "Team Darryl",
+        "source__type": "web series"
+      }
+    ]
+  }
+]

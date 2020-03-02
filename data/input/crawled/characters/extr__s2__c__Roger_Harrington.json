@@ -1,0 +1,55 @@
+[
+  {
+    "cid": "Roger Harrington",
+    "real name": [
+      "Roger Harrington"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "1986-1987"
+    ],
+    "title": [
+      "Teacher"
+    ],
+    "affiliation": [
+      "Culver University (formerly)",
+      "Midtown School of Science and Technology"
+    ],
+    "actor": [
+      "Martin Starr"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Incredible Hulk",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Daily Bugle/Promotional Campaign",
+        "source__type": "web series"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

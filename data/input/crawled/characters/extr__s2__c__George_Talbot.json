@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "George Talbot",
+    "real name": [
+      "George Talbot"
+    ],
+    "alias": [
+      "Little Germ Factory<br />Partner"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Jack Fisher"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

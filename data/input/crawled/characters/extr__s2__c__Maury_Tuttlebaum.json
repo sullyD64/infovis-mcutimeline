@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Maury Tuttlebaum",
+    "real name": [
+      "Maury Tuttlebaum"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Riverbank Medical Center"
+    ],
+    "actor": [
+      "Daniel Marcus"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

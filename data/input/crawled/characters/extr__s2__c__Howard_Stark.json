@@ -1,0 +1,192 @@
+[
+  {
+    "cid": "Howard Stark",
+    "real name": [
+      "Howard Anthony Walter Stark"
+    ],
+    "alias": [
+      "The Army's Number One Weapons Contractor",
+      "America's Mustachioed Casanova",
+      "Public Enemy Number One",
+      "Cecil B. Demille",
+      "Fatty Arbuckle",
+      "Legendary Weapons Developer",
+      "Icon of America's Strength",
+      "Titan"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "August 15, 1917"
+    ],
+    "DOD": [
+      "December 16, 1991"
+    ],
+    "affiliation": [
+      "Stark Industries",
+      "SSR (formerly)",
+      "*Project Rebirth (formerly)",
+      "Stark Pictures",
+      "S.H.I.E.L.D.",
+      "*Project P.E.G.A.S.U.S."
+    ],
+    "title": [
+      "CEO of Stark Industries",
+      "Founder of S.H.I.E.L.D."
+    ],
+    "actor": [
+      "Gerard Sanders",
+      "John Slattery",
+      "Dominic Cooper"
+    ],
+    "voice actor": [
+      "Liam O'Brien"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Iron Man 2",
+        "source__type": "movie",
+        "notes": "footage"
+      },
+      {
+        "source__title": "Captain America: The First Avenger",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Marvel One-Shot: Agent Carter",
+        "source__type": "oneshot"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      },
+      {
+        "source__title": "Stark Expo/Promotional Campaign",
+        "source__type": "web series",
+        "notes": "2 videos"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Man: Security Measures",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man: I Am Iron Man!",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Man 2: Public Identity",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: First Vengeance",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Prelude: Fury's Big Week",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Avengers: Iron Man Mark VII",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Man 2 Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: The First Avenger Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Ant-Man Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming Prelude",
+        "source__type": "comic",
+        "notes": "hologram"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

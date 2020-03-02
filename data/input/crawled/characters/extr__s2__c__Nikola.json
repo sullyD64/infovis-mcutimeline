@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Nikola",
+    "real name": [
+      "Nikola"
+    ],
+    "alias": [
+      "Mad Scientist"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Soviet",
+      "Ukranian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "April 26, 1946"
+    ],
+    "actor": [
+      "Alex Veadov"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Iron Ceiling",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

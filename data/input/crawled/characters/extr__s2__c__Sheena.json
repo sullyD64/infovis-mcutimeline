@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Sheena",
+    "real name": [
+      "Sheena"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Adaku Ononogbo"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Freak Accident",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

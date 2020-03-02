@@ -1,0 +1,107 @@
+[
+  {
+    "cid": "Vision",
+    "real name": [
+      "Vision"
+    ],
+    "alias": [
+      "Vision of Hope",
+      "Superbot",
+      "Machine"
+    ],
+    "species": [
+      "Android"
+    ],
+    "gender": [
+      "Male (masculine programming & voice)"
+    ],
+    "age": [
+      "2-3"
+    ],
+    "DOB": [
+      "May 2015<!--Do not specify the date. We only know it is on May 2015.-->"
+    ],
+    "DOD": [
+      "Spring 2018<!--Do not specify the date, it is unknown, only theorized.--> (revived by the Time Stone and destroyed again)"
+    ],
+    "affiliation": [
+      "Avengers"
+    ],
+    "actor": [
+      "Paul Bettany"
+    ],
+    "status": [
+      "Destroyed"
+    ],
+    "appearences": [
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie",
+        "notes": "indirectly mentioned"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie",
+        "notes": "picture"
+      },
+      {
+        "source__title": "WandaVision",
+        "source__type": "tv series",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Captain America: Road to War",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain Marvel Prelude",
+        "source__type": "comic",
+        "notes": "computer screen and mentioned"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Black Widow Prelude",
+        "source__type": "comic",
+        "notes": "flashbacks"
+      },
+      {
+        "source__title": "Team Thor",
+        "source__type": "web series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Team Thor: Part 2",
+        "source__type": "web series",
+        "notes": "drawing"
+      }
+    ]
+  }
+]

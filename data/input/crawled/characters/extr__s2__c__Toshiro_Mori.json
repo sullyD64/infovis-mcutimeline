@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Toshiro Mori",
+    "real name": [
+      "Toshiro Mori"
+    ],
+    "alias": [
+      "Toshi"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Japanese"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "affiliation": [
+      "HYDRA"
+    ],
+    "actor": [
+      "Brian Tee"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Fractured House",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

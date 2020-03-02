@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Mac Gargan",
+    "real name": [
+      "MacDonald Gargan"
+    ],
+    "alias": [
+      "Mac Gargan",
+      "Crazy Dude"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "actor": [
+      "Michael Mando"
+    ],
+    "appearences": [
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

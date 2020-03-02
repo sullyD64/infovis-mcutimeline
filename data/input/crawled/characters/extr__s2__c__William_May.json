@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "William May",
+    "real name": [
+      "William May"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [],
+    "actor": [
+      "James Hong"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Purpose in the Machine",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

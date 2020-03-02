@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Audrey",
+    "real name": [
+      "Audrey"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Liv Hewson"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Make Way For... Medusa",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Something Inhuman This Way Comes...",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Gentleman's Name is Gorgon",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

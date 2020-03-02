@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "John Raymond",
+    "real name": [
+      "John Raymond"
+    ],
+    "alias": [
+      "The Architect"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "MIT (formerly)",
+      "Duncan + Dotter Design"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2016"
+    ],
+    "actor": [
+      "Alex Moggridge"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

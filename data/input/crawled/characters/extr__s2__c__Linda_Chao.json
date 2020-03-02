@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Linda Chao",
+    "real name": [
+      "Linda Chao"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Senior Partner"
+    ],
+    "affiliation": [
+      "Hogarth, Chao and Benowitz"
+    ],
+    "actor": [
+      "Angel Desai"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Skye (Framework)",
+    "real name": [
+      "Daisy Johnson"
+    ],
+    "alias": [
+      "Skye"
+    ],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOB": [
+      "April 4, 1990 (Framework)",
+      "2017 (Real World)"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "title": [
+      "Agent"
+    ],
+    "affiliation": [
+      "HYDRA"
+    ],
+    "actor": [
+      "Chloe Bennet"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

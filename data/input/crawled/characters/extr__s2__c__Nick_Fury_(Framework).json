@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Nick Fury (Framework)",
+    "real name": [
+      "Nicholas Joseph Fury"
+    ],
+    "alias": [
+      "Nick Fury"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D."
+    ],
+    "status": [
+      "Deleted"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "All the Madame's Men",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

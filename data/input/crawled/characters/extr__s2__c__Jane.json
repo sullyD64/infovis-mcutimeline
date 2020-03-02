@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Jane",
+    "real name": [
+      "Jane"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Nicola Peltz"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Behold…The Inhumans!",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

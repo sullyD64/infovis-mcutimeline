@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Ghostface Killah",
+    "real name": [
+      "Dennis Coles"
+    ],
+    "alias": [
+      "Ghostface Killah"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Himself"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie",
+        "notes": "deleted scene"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "All Souled Out",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Basement",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

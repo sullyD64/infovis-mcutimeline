@@ -1,0 +1,55 @@
+[
+  {
+    "cid": "Nathaniel Barton",
+    "real name": [
+      "Nathaniel Pietro Barton"
+    ],
+    "alias": [
+      "Nate",
+      "Natasha",
+      "Traitor",
+      "Kiddo"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "May 2015"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "actor": [
+      "Jaiden Stafford",
+      "Cade Woodward"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

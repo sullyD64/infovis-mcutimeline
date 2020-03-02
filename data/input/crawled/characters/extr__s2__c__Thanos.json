@@ -1,0 +1,127 @@
+[
+  {
+    "cid": "Thanos",
+    "real name": [
+      "Thanos"
+    ],
+    "alias": [
+      "Dark Lord",
+      "Mad Titan",
+      "Great Titan",
+      "Dad",
+      "Daddy",
+      "The Most Powerful Being in the Universe",
+      "Almighty Thanos",
+      "Son of A'Lars",
+      "Genocidal Maniac",
+      "Perpendicular Grape in Need of Chapstick and a Heart",
+      "Madman",
+      "Prophet",
+      "Survivor",
+      "Grimace",
+      "Big Guy",
+      "Sire",
+      "Crapsack",
+      "Son of a Bitch"
+    ],
+    "species": [
+      "Titan"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Black Order"
+    ],
+    "title": [
+      "Lord (formerly)"
+    ],
+    "age": [
+      "1000-1004 (original self)",
+      "996-1000 (time-traveled self from 2014)"
+    ],
+    "DOB": [
+      "1013-1018"
+    ],
+    "DOD": [
+      "Mid-2018 (original self)",
+      "October 2023 (time-traveled self from 2014)"
+    ],
+    "actor": [
+      "Damion Poitier",
+      "Josh Brolin",
+      "Joe Russo"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie",
+        "notes": "mid-credits scene"
+      },
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie",
+        "notes": "mid-credits scene"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Team Thor",
+        "source__type": "web series",
+        "notes": "drawing"
+      },
+      {
+        "source__title": "Thor: The Dark World Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prequel Infinite Comic",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

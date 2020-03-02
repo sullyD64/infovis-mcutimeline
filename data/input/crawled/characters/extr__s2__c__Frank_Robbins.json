@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Frank Robbins",
+    "real name": [
+      "Frank Robbins"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Rand Enterprises"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Mistress of All Agonies",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

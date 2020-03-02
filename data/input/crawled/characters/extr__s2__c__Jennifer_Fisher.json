@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Jennifer Fisher",
+    "real name": [
+      "Jennifer Fisher"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [],
+    "affiliation": [],
+    "actor": [
+      "Wendy Moniz"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Rabbit in a Snowstorm (episode)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

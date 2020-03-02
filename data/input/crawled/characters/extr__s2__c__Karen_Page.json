@@ -1,0 +1,70 @@
+[
+  {
+    "cid": "Karen Page",
+    "real name": [
+      "Karen Page"
+    ],
+    "alias": [
+      "K",
+      "New Girl on the Block",
+      "Isabelle Schaffer",
+      "The Pretty Blonde with the Big Blue Eyes",
+      "The Bulletin Reporter",
+      "The Suspect"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "''Penny's Place'' (formerly)",
+      "Union Allied (formerly)",
+      "Nelson and Murdock (formerly)",
+      "New York Bulletin (formerly)",
+      "Nelson, Murdock and Page"
+    ],
+    "actor": [
+      "Deborah Ann Woll"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "39 episodes"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      },
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      },
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

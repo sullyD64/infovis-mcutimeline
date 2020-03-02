@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Leo (Robber)",
+    "real name": [
+      "Leo"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "November 9, 2016"
+    ],
+    "actor": [
+      "Jason Hite"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "3 AM",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

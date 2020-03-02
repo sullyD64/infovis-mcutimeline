@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Ben Donovan",
+    "real name": [
+      "Benjamin Donovan"
+    ],
+    "alias": [
+      "Ben Donovan",
+      "Top Ranking Lawyer",
+      "Snake",
+      "Mariah's Favorite Lawyer",
+      "Big Ben"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Stokes Crime Family (formerly)",
+      "Donovan and Partners"
+    ],
+    "actor": [
+      "Danny Johnson",
+      "Chaundre Hall-Broomfield (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      }
+    ]
+  }
+]

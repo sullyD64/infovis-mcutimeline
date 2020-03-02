@@ -1,0 +1,73 @@
+[
+  {
+    "cid": "Melinda May",
+    "real name": [
+      "Melinda Qiaolian May"
+    ],
+    "alias": [
+      "Mellie",
+      "Rambo",
+      "The Cavalry",
+      "The Beautiful Warrior with the Heart of Ice",
+      "Warm and Fuzzy (with Grant Ward)",
+      "Doctor Roum",
+      "The Ice Queen",
+      "Heidi Martin",
+      "Gina",
+      "Tiny Little Asian Woman",
+      "Shu Wong",
+      "The Warrior",
+      "Ancient Has-Been",
+      "Lady Cakes",
+      "Smiles"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "March 2017 (later revived)",
+      "July 2019 (one-dimensional, later revived)"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D.",
+      "Agent of S.H.I.E.L.D. (Framework; formerly)",
+      "Agent of HYDRA (Framework; formerly)"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D.",
+      "*SHDC (formerly)",
+      "*STR2Framework",
+      "*SHDF (formerly)",
+      "*HYDF (formerly)"
+    ],
+    "actor": [
+      "Ming-Na Wen",
+      "Riley Go (young)"
+    ],
+    "status": [
+      "Alive (in stasis)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "133 episodes"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: Slingshot",
+        "source__type": "web series",
+        "notes": "2 episodes"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: The Chase",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

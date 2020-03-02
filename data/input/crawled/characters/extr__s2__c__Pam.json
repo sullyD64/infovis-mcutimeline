@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Pam",
+    "real name": [
+      "Pamela"
+    ],
+    "alias": [
+      "Pam",
+      "Pammy",
+      "Lowly Secretary",
+      "Unabashed Verve"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Hogarth, Chao and Benowitz (formerly)"
+    ],
+    "actor": [
+      "Susie Abromeit"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      }
+    ]
+  }
+]

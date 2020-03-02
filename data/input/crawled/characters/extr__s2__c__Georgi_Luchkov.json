@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Georgi Luchkov",
+    "real name": [
+      "Georgi Luchkov"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Soviet (formerly)",
+      "Russian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Colonel General"
+    ],
+    "affiliation": [
+      "Soviet Armed Forces (formerly)",
+      "Russian Armed Forces"
+    ],
+    "actor": [
+      "Jerzy Skolimowski"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Avengers Adaptation",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

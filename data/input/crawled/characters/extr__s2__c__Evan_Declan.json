@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Evan Declan",
+    "real name": [
+      "Evan Declan"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "DOD": [
+      "2016"
+    ],
+    "affiliation": [
+      "Declan Research"
+    ],
+    "actor": [
+      "Henry Ian Cusick"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

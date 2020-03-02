@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "Alexandra Reid",
+    "real name": [],
+    "alias": [
+      "Alexandra Reid",
+      "Angelica Fletcher",
+      "Alberta Davis",
+      "Abigail King",
+      "Audrey Thompson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American",
+      "K'un-Lunan (formerly)"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "Spring 2016"
+    ],
+    "affiliation": [
+      "Order of the Crane Mother (formerly)",
+      "Hand",
+      "Midland Circle Financial"
+    ],
+    "actor": [
+      "Sigourney Weaver"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

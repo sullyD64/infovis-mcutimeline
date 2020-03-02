@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "Perez (Lieutenant)",
+    "real name": [
+      "Perez"
+    ],
+    "alias": [
+      "LT"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Lieutenant"
+    ],
+    "affiliation": [
+      "NYPD"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "actor": [
+      "Manny Pérez"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Step in the Arena",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Just to Get a Rep",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Suckas Need Bodyguards",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

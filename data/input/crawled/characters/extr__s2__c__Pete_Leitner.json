@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Pete Leitner",
+    "real name": [
+      "Peter Leitner"
+    ],
+    "alias": [
+      "Pete Leitner"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "United States Navy"
+    ],
+    "actor": [
+      "Jamal Kazak"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Hen in the Wolf House",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

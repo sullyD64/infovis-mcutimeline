@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Salvador Colon",
+    "real name": [
+      "Salvador Colon"
+    ],
+    "alias": [
+      "Sal"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Puerto Rican",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Colon Crime Family"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Moment of Truth",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Manifest",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

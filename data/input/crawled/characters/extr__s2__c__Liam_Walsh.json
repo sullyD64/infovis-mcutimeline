@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Liam Walsh",
+    "real name": [
+      "Liam Walsh"
+    ],
+    "alias": [
+      "Harrison Westen"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Carl Lundstedt"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

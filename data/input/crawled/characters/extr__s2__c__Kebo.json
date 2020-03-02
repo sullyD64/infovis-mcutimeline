@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Kebo",
+    "real name": [
+      "Kebo"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "December 2015"
+    ],
+    "title": [],
+    "affiliation": [
+      "HYDRA"
+    ],
+    "actor": [
+      "Daz Crawford"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

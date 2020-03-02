@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Michael Smith",
+    "real name": [
+      "Michael Anthony Smith II"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "ESPN"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Himself"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Straighten It Out",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

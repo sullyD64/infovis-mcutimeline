@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "Blake Tower",
+    "real name": [
+      "Blake Tower"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "title": [
+      "United States Attorney for the Southern District of New York",
+      "Assistant District Attorney (formerly)"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Stephen Rider"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "12 episodes"
+      },
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

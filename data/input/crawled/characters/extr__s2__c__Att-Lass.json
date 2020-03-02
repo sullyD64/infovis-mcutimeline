@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Att-Lass",
+    "real name": [
+      "Att-Lass"
+    ],
+    "species": [
+      "Kree"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "Kree Imperial"
+    ],
+    "affiliation": [
+      "Starforce"
+    ],
+    "actor": [
+      "Algenis Perez Soto"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

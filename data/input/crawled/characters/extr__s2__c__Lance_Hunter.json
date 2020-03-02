@@ -1,0 +1,68 @@
+[
+  {
+    "cid": "Lance Hunter",
+    "real name": [
+      "Amadeus Ravenclaw Hunter"
+    ],
+    "alias": [
+      "Lance Hunter",
+      "Tyler",
+      "''Trainspotting''",
+      "Soccer Hands",
+      "Divorced Guy",
+      "Ron Burgundy",
+      "Magnum, P.I.",
+      "Teacup",
+      "Great Master of Melodrama",
+      "Richy",
+      "Gitmo",
+      "Dane",
+      "God Save The Queen",
+      "Rusty Peltzer",
+      "Blackwell",
+      "Brit"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Lieutenant (formerly)",
+      "Agent of S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "British Armed Forces (formerly)",
+      "*Special Air Service (formerly)",
+      "S.H.I.E.L.D. (formerly)",
+      "HYDRA (undercover;formerly)"
+    ],
+    "actor": [
+      "Nick Blood"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "34 episodes"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.: Slingshot",
+        "source__type": "web series"
+      },
+      {
+        "source__title": "Reunion (Agents of S.H.I.E.L.D.: Slingshot)",
+        "source__type": "web series",
+        "notes": "indirectly mentioned"
+      }
+    ]
+  }
+]

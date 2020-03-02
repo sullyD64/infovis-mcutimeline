@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Jake Nelson",
+    "real name": [
+      "Jake Nelson"
+    ],
+    "alias": [
+      "Soldier",
+      "Meth Head",
+      "Son of a Bitch"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "United States Army (formerly)",
+      "Jigsaw's Crew (formerly)"
+    ],
+    "actor": [
+      "Jordan Dean"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

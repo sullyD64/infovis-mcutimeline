@@ -1,0 +1,56 @@
+[
+  {
+    "cid": "Stern",
+    "real name": [
+      "Stern"
+    ],
+    "alias": [
+      "Mr. Senator"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Senator (formerly)"
+    ],
+    "affiliation": [
+      "United States Congress (formerly)",
+      "HYDRA"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "actor": [
+      "Garry Shandling"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Iron Man 2: Public Identity",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Prelude: Fury's Big Week",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Man 2 Adaptation",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

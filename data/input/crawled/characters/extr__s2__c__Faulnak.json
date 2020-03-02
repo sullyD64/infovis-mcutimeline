@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Faulnak",
+    "real name": [
+      "Faulnak"
+    ],
+    "alias": [
+      "Most Trusted Messenger"
+    ],
+    "species": [
+      "Kree"
+    ],
+    "citizenship": [
+      "Kree Imperial"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2091"
+    ],
+    "affiliation": [
+      "House of Kasius"
+    ],
+    "actor": [
+      "Samuel Roukin"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Uzman",
+    "real name": [
+      "Uzman"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "MI6 (formerly)"
+    ],
+    "actor": [
+      "Divian Ladwa"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

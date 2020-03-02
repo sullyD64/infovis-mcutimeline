@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Dinesh",
+    "real name": [
+      "Dinesh"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Judas Goat",
+        "source__type": "tv series",
+        "notes": "{mentioned)"
+      },
+      {
+        "source__title": "Cold Steel",
+        "source__type": "tv series",
+        "notes": "{mentioned)"
+      }
+    ]
+  }
+]

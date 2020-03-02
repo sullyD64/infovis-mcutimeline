@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Vanessa Marianna",
+    "real name": [
+      "Vanessa Marianna"
+    ],
+    "alias": [
+      "Little Miss Hairdo",
+      "A Wanted Fugitive",
+      "Mrs. Wilson Fisk"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Scene Contempo Gallery (formerly)"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Ayelet Zurer"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "11 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Akari Minoru",
+    "real name": [
+      "Akari Minoru"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [],
+    "affiliation": [],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Kingdom",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Enter The Dreamland",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

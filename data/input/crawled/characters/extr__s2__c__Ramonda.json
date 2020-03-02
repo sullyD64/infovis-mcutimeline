@@ -1,0 +1,45 @@
+[
+  {
+    "cid": "Ramonda",
+    "real name": [
+      "Ramonda"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Wakandan"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Queen of Wakanda (formerly)",
+      " Queen Mother"
+    ],
+    "alias": [
+      "Mama",
+      "Auntie"
+    ],
+    "affiliation": [
+      "Golden Tribe",
+      "Tribal Council"
+    ],
+    "actor": [
+      "Angela Bassett"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Black Panther (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

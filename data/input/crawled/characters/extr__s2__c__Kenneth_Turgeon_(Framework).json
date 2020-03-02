@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Kenneth Turgeon (Framework)",
+    "real name": [
+      "Kenneth Turgeon"
+    ],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "DOD": [
+      "2017"
+    ],
+    "affiliation": [
+      "HYDRA"
+    ],
+    "actor": [
+      "Adam Kulbersh"
+    ],
+    "status": [
+      "Deleted"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "No Regrets",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

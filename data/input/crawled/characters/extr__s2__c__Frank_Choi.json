@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Frank Choi",
+    "real name": [
+      "Frank Choi"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Chinese",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [],
+    "affiliation": [
+      "Frank Choi's Furniture",
+      "Golden Tigers (formerly)"
+    ],
+    "actor": [
+      "Les J.N. Mau"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "War Without End",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

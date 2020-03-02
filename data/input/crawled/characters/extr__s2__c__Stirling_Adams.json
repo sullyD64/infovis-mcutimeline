@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Stirling Adams",
+    "real name": [
+      "Stirling Adams"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2005"
+    ],
+    "affiliation": [],
+    "actor": [
+      "Mat Vairo"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA I Want Your Cray Cray",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Shark in the Bathtub, Monster in the Bed",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

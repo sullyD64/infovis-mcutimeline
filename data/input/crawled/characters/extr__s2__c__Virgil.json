@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Virgil",
+    "real name": [
+      "Virgil"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Lighthouse"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "October 2091"
+    ],
+    "affiliation": [
+      "True Believers"
+    ],
+    "actor": [
+      "Deniz Akdeniz"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

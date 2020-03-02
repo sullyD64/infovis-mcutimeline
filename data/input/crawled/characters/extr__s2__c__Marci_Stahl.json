@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Marci Stahl",
+    "real name": [
+      "Marci Stahl"
+    ],
+    "alias": [
+      "Meat Grinder in the Pencil Skirt"
+    ],
+    "affiliation": [
+      "Landman and Zack (formerly)",
+      "Hogarth, Chao and Benowitz"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Amy Rutberg"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "11 episodes"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

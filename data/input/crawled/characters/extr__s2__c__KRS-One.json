@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "KRS-One",
+    "real name": [
+      "Lawrence Parker"
+    ],
+    "alias": [
+      "KRS-One",
+      "Kris Parker",
+      "Teacha",
+      "Blastmaster"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Himself"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Can't Front on Me",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Paul Edmonds",
+    "real name": [
+      "Paul Edmonds"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "Birch Psychiatric Hospital"
+    ],
+    "actor": [
+      "Murray Bartlett"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

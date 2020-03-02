@@ -1,0 +1,72 @@
+[
+  {
+    "cid": "Wong",
+    "real name": [
+      "Wong"
+    ],
+    "alias": [
+      "BeyoncéWizard"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Chinese"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Early 2017 (resurrected by Doctor Strange)",
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "title": [
+      "Librarian of Kamar-Taj (formerly)",
+      "Master of the New York Sanctum (formerly)"
+    ],
+    "affiliation": [
+      "Masters of the Mystic Arts"
+    ],
+    "actor": [
+      "Benedict Wong"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Doctor Strange (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Doctor Strange in the Multiverse of Madness",
+        "source__type": "movie",
+        "notes": "<a href=\"https://www.hollywoodreporter.com/heat-vision/doctor-strange-2-scott-derrickson-returning-direct-1168156\">Scott Derrickson Returning to Direct 'Doctor Strange' Sequel</a>"
+      },
+      {
+        "source__title": "Doctor Strange Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Doctor Strange: Mystic Apprentice",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "cid": "Ultron",
+    "real name": [
+      "Ultron"
+    ],
+    "alias": [
+      "Murder Bot",
+      "Genie",
+      "Junior",
+      "Platinum Bastard",
+      "The Big Guy"
+    ],
+    "species": [
+      "Android"
+    ],
+    "gender": [
+      "Male (masculine programming & voice)"
+    ],
+    "age": [
+      "4 days"
+    ],
+    "DOB": [
+      "May 2015"
+    ],
+    "DOD": [
+      "May 2015"
+    ],
+    "actor": [
+      "James Spader (voice)",
+      "Neil Fingleton (motion capture)"
+    ],
+    "voice actor": [
+      "Ross Marquand"
+    ],
+    "status": [
+      "Destroyed"
+    ],
+    "appearences": [
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie",
+        "notes": "indirectly mentioned"
+      },
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie",
+        "notes": "head & arm"
+      },
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie",
+        "notes": "indirectly mentioned"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Captain America: Road to War",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "flashbacks"
+      },
+      {
+        "source__title": "Captain Marvel Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Black Widow Prelude",
+        "source__type": "comic",
+        "notes": "flashbacks"
+      }
+    ]
+  }
+]

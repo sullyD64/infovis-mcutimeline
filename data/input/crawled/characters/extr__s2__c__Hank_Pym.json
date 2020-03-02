@@ -1,0 +1,97 @@
+[
+  {
+    "cid": "Hank Pym",
+    "real name": [
+      "Henry Jonathan Pym"
+    ],
+    "alias": [
+      "Hank Pym",
+      "Ant-Man",
+      "My Henry",
+      "Senile Old Man",
+      "Haggard Man",
+      "Dad",
+      "Daddy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "1941-1950"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "title": [
+      "Doctor",
+      "CEO of Pym Technologies (formerly)",
+      "Consultant for S.H.I.E.L.D. (formerly)"
+    ],
+    "affiliation": [
+      "United States Army (formerly)",
+      " SHD1 (formerly)",
+      "*Project G.O.L.I.A.T.H. (formerly)",
+      "Pym Technologies (formerly)"
+    ],
+    "actor": [
+      "Michael Douglas",
+      "Dax Griffin (young)",
+      "John Michael Morris (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor (film)",
+        "source__type": "movie",
+        "notes": "indirectly mentioned"
+      },
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Captain America: Civil War",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Ant-Man 3",
+        "source__type": "movie",
+        "notes": " (unreleased)"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series",
+        "notes": "picture"
+      },
+      {
+        "source__title": "Ant-Man Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Ant-Man: Larger Than Life",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

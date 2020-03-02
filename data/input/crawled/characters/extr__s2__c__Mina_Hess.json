@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Mina Hess",
+    "real name": [
+      "Mina Hess"
+    ],
+    "alias": [],
+    "species": [
+      "Human",
+      "Terror (formerly)"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "affiliation": [
+      "Roxxon Corporation"
+    ],
+    "actor": [
+      "Ally Maki",
+      "Hannah Hardin (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Soren",
+    "real name": [
+      "Soren"
+    ],
+    "alias": [
+      "Maria Hill"
+    ],
+    "species": [
+      "Skrull"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Nick Fury's Crew (formerly)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Sharon Blynn",
+      "Cobie Smulders (disguised)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain Marvel (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

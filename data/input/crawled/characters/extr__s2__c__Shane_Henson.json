@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Shane Henson",
+    "real name": [
+      "Shane Henson"
+    ],
+    "DOD": [
+      "Late 2015"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Nick Eversman"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Devils You Know",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

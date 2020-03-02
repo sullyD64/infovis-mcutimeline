@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Sheldon McFee",
+    "real name": [
+      "Sheldon McFee"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Daisy Clover",
+      "Leet Brannis"
+    ],
+    "actor": [
+      "Devin Ratray"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Bridge and Tunnel",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Sin to Err",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Snafu",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

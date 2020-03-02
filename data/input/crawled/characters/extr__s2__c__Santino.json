@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Santino",
+    "real name": [
+      "Santino"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Moisés Acevedo"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Cut Man",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "In the Blood",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Daniel Sousa",
+    "real name": [
+      "Daniel Sousa"
+    ],
+    "alias": [
+      "Pegleg",
+      "Killer",
+      "Mr. Auerbach",
+      "Danny Boy",
+      "Curly",
+      "Andy Hardy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Agent of SSR (formerly)",
+      "Chief of the SSR (formerly)"
+    ],
+    "affiliation": [
+      "United States Army (formerly)",
+      "SSR"
+    ],
+    "actor": [
+      "Enver Gjokaj"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "18 episodes"
+      }
+    ]
+  }
+]

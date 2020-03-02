@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Yauch",
+    "real name": [
+      "Yauch"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Agent of SSR"
+    ],
+    "affiliation": [
+      "SSR"
+    ],
+    "actor": [
+      "Alexander Carroll"
+    ],
+    "DOD": [
+      "May 7, 1946"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "5 episodes"
+      }
+    ]
+  }
+]

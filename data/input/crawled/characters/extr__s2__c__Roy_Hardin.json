@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Roy Hardin",
+    "real name": [
+      "Roy Hardin"
+    ],
+    "alias": [
+      "Boss"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Sheriff"
+    ],
+    "affiliation": [
+      "Larkville Police Department"
+    ],
+    "actor": [
+      "Joe Holt"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Fight or Flight",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Trouble the Water",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

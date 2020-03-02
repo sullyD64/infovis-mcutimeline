@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Moore (Aryan Brotherhood)",
+    "real name": [
+      "R. Moore"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "March 2017"
+    ],
+    "affiliation": [
+      "Aryan Brotherhood"
+    ],
+    "actor": [
+      "Jace Jeanes"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Ghost",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

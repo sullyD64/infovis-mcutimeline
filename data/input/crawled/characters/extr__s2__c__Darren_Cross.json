@@ -1,0 +1,57 @@
+[
+  {
+    "cid": "Darren Cross",
+    "real name": [
+      "Darren Cross"
+    ],
+    "alias": [
+      "Yellowjacket"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "CEO of Cross Technologies"
+    ],
+    "affiliation": [
+      "MIT (formerly)",
+      " PYM",
+      "Cross Technologies"
+    ],
+    "actor": [
+      "Corey Stoll"
+    ],
+    "status": [
+      "Unknown<ref name=\"YellowjacketAlive\">[http://comicbook.com/marvel/2018/07/07/ant-man-director-yellowjacket-could-be-alive/ 'Ant-Man' Director Hints Yellowjacket Could Still Be Alive]</ref>"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series"
+      },
+      {
+        "source__title": "WIRED Insider Interviews Darren Cross, CEO of Pym Technologies",
+        "source__type": "web series"
+      },
+      {
+        "source__title": "WHIH EXCLUSIVE: Scott Lang Interview",
+        "source__type": "web series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Ant-Man and the Wasp Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

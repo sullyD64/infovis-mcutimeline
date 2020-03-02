@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Ray Krzeminski",
+    "real name": [
+      "Ray Walter Krzeminski"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "title": [
+      "Agent of SSR"
+    ],
+    "affiliation": [
+      "SSR"
+    ],
+    "actor": [
+      "Kyle Bornheimer"
+    ],
+    "DOD": [
+      "April 20, 1946"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

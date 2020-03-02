@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "Luanne McClure",
+    "real name": [
+      "Luanne McClure"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "2005<ref name=\"JJ207\">''Jessica Jones: 2.07: AKA I Want Your Cray Cray''</ref><ref>''Jessica Jones: 2.08: AKA Ain't We Got Fun''</ref>"
+    ],
+    "affiliation": [
+      "IGH"
+    ],
+    "actor": [
+      "LeeAnne Hutchison"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA God Help the Hobo",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "AKA The Octopus",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "AKA I Want Your Cray Cray",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "cid": "Willis Stryker",
+    "real name": [
+      "Willis Stryker"
+    ],
+    "alias": [
+      "Diamondback",
+      "Snake",
+      "Luke Cage",
+      "Cat With a Hoodie",
+      "Willie",
+      "Death",
+      "Slippery Son of a Bitch",
+      "Rattlesnake",
+      "Pimp Stormtrooper",
+      "Angel of Death",
+      "Diamond Jim"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Lieber Academy (formerly)",
+      "Harlem's Paradise (formerly)"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "40<!-- Born between May 14 and July 1978-->"
+    ],
+    "DOB": [
+      "1978"
+    ],
+    "actor": [
+      "Erik LaRay Harvey",
+      "Jared Kemp (young)"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

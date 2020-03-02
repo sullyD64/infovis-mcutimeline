@@ -1,0 +1,33 @@
+[
+  {
+    "cid": "Spider Raymond",
+    "real name": [],
+    "alias": [
+      "Spider Raymond"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "April 15, 1946"
+    ],
+    "actor": [
+      "Andre Royo"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

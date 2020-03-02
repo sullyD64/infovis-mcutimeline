@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Diana Tsai",
+    "real name": [
+      "Diana Tsai"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Chinese",
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Lya Yanne"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Fury of Iron Fist",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

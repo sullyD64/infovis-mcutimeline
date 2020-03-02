@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Fenris",
+    "real name": [
+      "Fenris"
+    ],
+    "alias": [
+      "Darling",
+      "Stupid Dog"
+    ],
+    "species": [
+      "Asgardian Wolf"
+    ],
+    "citizenship": [
+      "Asgardian"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Thor: Ragnarok",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

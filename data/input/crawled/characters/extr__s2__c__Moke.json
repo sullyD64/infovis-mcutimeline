@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Moke",
+    "real name": [
+      "Moke"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "May 2018"
+    ],
+    "affiliation": [
+      "United States Army (formerly)",
+      "Jigsaw's Crew"
+    ],
+    "actor": [
+      "Brendan Ryan"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Flustercluck",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

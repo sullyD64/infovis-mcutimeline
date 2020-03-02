@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Kirk Vogel",
+    "real name": [
+      "Kirk Vogel"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "HYDRA"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "June 2016<ref>''Captain America: Civil War''</ref><ref>''WHiH World News: 2.05: WHiH Breaking News: Attack in Lagos''</ref><ref name=\"AoS311\">''Agents of S.H.I.E.L.D.: 3.11: Bouncing Back''</ref><ref>''Agents of S.H.I.E.L.D.: 3.13: Parting Shot''</ref>"
+    ],
+    "actor": [
+      "Mark Atteberry"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Paradise Lost",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Failed Experiments",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

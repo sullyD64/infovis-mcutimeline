@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Candace Miller",
+    "real name": [
+      "Candace Miller"
+    ],
+    "alias": [
+      "Candy",
+      "West Indian Lookin' Chick",
+      "Felicia"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Harlem's Paradise"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Deborah Ayorinde"
+    ],
+    "DOD": [
+      "December 3, 2015"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

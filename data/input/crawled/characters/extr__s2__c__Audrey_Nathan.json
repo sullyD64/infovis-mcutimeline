@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Audrey Nathan",
+    "real name": [
+      "Audrey Nathan"
+    ],
+    "alias": [
+      "The Cellist"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Amy Acker"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Avengers",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "1 episode"
+      }
+    ]
+  }
+]

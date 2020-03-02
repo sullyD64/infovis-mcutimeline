@@ -1,0 +1,28 @@
+[
+  {
+    "cid": "Cassius",
+    "real name": [
+      "Cassius"
+    ],
+    "species": [
+      "Goat"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Judas Goat",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "William Pike",
+    "real name": [
+      "William Pike"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Captain"
+    ],
+    "affiliation": [
+      "NYPD"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "David Shih"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Morning of the Mindstorm",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "War Without End",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

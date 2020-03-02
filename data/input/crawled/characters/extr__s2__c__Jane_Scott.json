@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Jane Scott",
+    "real name": [
+      "Jane Scott"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Isodyne Energy"
+    ],
+    "actor": [],
+    "DOD": [
+      "July 9, 1947"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

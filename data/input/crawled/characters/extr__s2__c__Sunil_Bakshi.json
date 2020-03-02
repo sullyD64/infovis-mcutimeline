@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "Sunil Bakshi",
+    "real name": [
+      "Sunil Bakshi"
+    ],
+    "alias": [
+      "Glenn Talbot",
+      "Warship"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "1980"
+    ],
+    "DOD": [
+      "2015"
+    ],
+    "age": [
+      "35<ref name=\"AoS214\">''Agents of S.H.I.E.L.D.: 2.14: Love in the Time of HYDRA''</ref>"
+    ],
+    "affiliation": [
+      "British Armed Forces (formerly)",
+      "HYDRA (formerly)",
+      "Grant Ward (brainwashed)"
+    ],
+    "actor": [
+      "Simon Kassianides",
+      "Adrian Pasdar (disguised)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "11 episodes"
+      }
+    ]
+  }
+]

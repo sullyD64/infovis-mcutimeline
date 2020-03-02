@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Raj Patel",
+    "real name": [
+      "Raj Patel"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Indian",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Alok Tewari"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Rolling Thunder Cannon Punch",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Eight Diagram Dragon Palm",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Ernst Kaufmann",
+    "real name": [
+      "Ernst Kaufmann"
+    ],
+    "alias": [
+      "Graf Von Kaufmann"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Nazi German"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Graf",
+      "Gruppenführer"
+    ],
+    "affiliation": [
+      "Sturmabteilung"
+    ],
+    "DOD": [
+      "June 30, 1934"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: First Vengeance",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

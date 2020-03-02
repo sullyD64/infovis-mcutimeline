@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Everett Starr",
+    "real name": [
+      "Everett Starr"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Late 2017"
+    ],
+    "actor": [
+      "Ned Van Zandt"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Revelations",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A New Napkin",
+        "source__type": "tv series",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

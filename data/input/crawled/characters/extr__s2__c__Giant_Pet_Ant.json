@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Giant Pet Ant",
+    "alias": [
+      "Messed-Up Looking Dog"
+    ],
+    "species": [
+      "Bullet Ant"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "WHiH Newsfront (web series)",
+        "source__type": "web series"
+      },
+      {
+        "source__title": "WHIH Newsfront: The Avengers and The White House",
+        "source__type": "web series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

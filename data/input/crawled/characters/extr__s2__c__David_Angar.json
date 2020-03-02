@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "David Angar",
+    "real name": [
+      "David Alan Angar"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Slicing Talons"
+    ],
+    "actor": [
+      "Jeff Daniel Phillips"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "One of Us",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

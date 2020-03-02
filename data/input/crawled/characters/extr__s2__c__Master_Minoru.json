@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Master Minoru",
+    "real name": [
+      "Tina Minoru"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Master of the Hong Kong Sanctum"
+    ],
+    "affiliation": [
+      "Masters of the Mystic Arts"
+    ],
+    "actor": [
+      "Linda Louise Duan"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Doctor Strange (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Doctor Strange Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

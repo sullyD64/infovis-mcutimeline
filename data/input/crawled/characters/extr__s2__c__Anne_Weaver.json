@@ -1,0 +1,38 @@
+[
+  {
+    "cid": "Anne Weaver",
+    "real name": [
+      "Anne Weaver"
+    ],
+    "alias": [
+      "Lady Thomas Jefferson"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D.",
+      "S.H.I.E.L.D. Academy of Science and Technology (formerly)"
+    ],
+    "actor": [
+      "Christine Adams"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "9 episodes"
+      }
+    ]
+  }
+]

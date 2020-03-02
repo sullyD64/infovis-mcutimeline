@@ -1,0 +1,106 @@
+[
+  {
+    "cid": "Happy Hogan",
+    "real name": [
+      "Harold Joseph Hogan"
+    ],
+    "alias": [
+      "Happy Hogan",
+      "Hap",
+      "Iron Man's Bodyguard",
+      "Forehead of Security",
+      "Lapdog",
+      "Mr. Happy",
+      "Sweaty Guy"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Head of Security",
+      "Asset Manager"
+    ],
+    "affiliation": [
+      "Stark Industries",
+      "Salvation Army"
+    ],
+    "actor": [
+      "Jon Favreau"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man (film)",
+        "source__type": "movie",
+        "notes": "<br/>"
+      },
+      {
+        "source__title": "Iron Man 3",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie",
+        "notes": "deleted scene"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Iron Man: I Am Iron Man!",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Security Breach",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Public Identity",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2: Black Widow: Agent of S.H.I.E.L.D.",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers: Iron Man Mark VII",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Man 2 Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Captain America: Civil War Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Black Widow Prelude",
+        "source__type": "comic",
+        "notes": "flashbacks"
+      }
+    ]
+  }
+]

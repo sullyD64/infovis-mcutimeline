@@ -1,0 +1,112 @@
+[
+  {
+    "cid": "Matt Murdock",
+    "real name": [
+      "Matthew Michael Murdock"
+    ],
+    "alias": [
+      "Matt Murdock",
+      "Daredevil",
+      "Matty",
+      "Doc",
+      "Mike",
+      "Mother Teresa",
+      "The Man in the Mask",
+      "The Man in Black",
+      "The Mask",
+      "Black Mask",
+      "The Masked Idiot",
+      "Собака в Маске<ref>Translated from Russian: ''Masked Dog''</ref>",
+      "The Devil of Hell's Kitchen",
+      "Sunshine",
+      "Heckle and Jeckle (with Foggy Nelson)",
+      "Devil Man",
+      "D",
+      "Red",
+      "Altar Boy",
+      "Blind Bastard",
+      "Magoo",
+      "Akuma-san<ref>Translated from Japanese: ''Mister Devil''</ref>",
+      "Saint Matthew",
+      "Mutual Friend",
+      "The Horny One",
+      "The Loyal One",
+      "A Blind Man Who Can See",
+      "Blind Ninja",
+      "Counselor",
+      "Devil Boy",
+      "The Costume Guy",
+      "Pro Bono Lawyer",
+      "Blind Lawyer",
+      "A Man Without Fear",
+      "The Guy in the Mask",
+      "Unidentified Assailant",
+      "The Devil",
+      "Facilitator",
+      "Franklin Nelson",
+      "Saint Matthew",
+      "Hell's Kitchen's Renowned Vigilante",
+      "The Hero of Hell's Kitchen",
+      "Mr. Daredevil"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Columbia University (formerly)",
+      "Landman and Zack (formerly)",
+      "Nelson and Murdock (formerly)",
+      "Defenders (formerly)",
+      "Nelson, Murdock and Page"
+    ],
+    "actor": [
+      "Charlie Cox",
+      "Skylar Gaertner (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series",
+        "notes": "39 episodes"
+      },
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "8 episodes"
+      },
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Jessica Jones (comic)",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

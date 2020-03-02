@@ -1,0 +1,31 @@
+[
+  {
+    "cid": "Farah Madani",
+    "real name": [
+      "Farah Madani"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Iranian",
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Shohreh Aghdashloo"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series",
+        "notes": "4 episodes"
+      }
+    ]
+  }
+]

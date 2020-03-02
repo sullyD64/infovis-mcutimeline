@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Melter",
+    "real name": [
+      "Bruno Horgan"
+    ],
+    "alias": [
+      "Melter"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "voice actor": [
+      "Gavin Hammon"
+    ],
+    "status": [
+      "In Custody"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man: The Coming of the Melter",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

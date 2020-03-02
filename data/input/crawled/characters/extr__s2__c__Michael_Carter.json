@@ -1,0 +1,43 @@
+[
+  {
+    "cid": "Michael Carter",
+    "real name": [
+      "Michael Carter"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "British",
+      "English"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Captain"
+    ],
+    "affiliation": [
+      "British Armed Forces"
+    ],
+    "actor": [
+      "Max Brown",
+      "Webb Baker Hayes (young)"
+    ],
+    "status": [
+      "Alive<ref name=\"MichaelsFate\">[https://www.digitalspy.com/tv/ustv/a861357/agent-carter-season-3-plot-why-revival-wont-happen-netflix/ Agent Carter writers reveal Michael Carter's Fate]</ref>"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "newspaper"
+      },
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

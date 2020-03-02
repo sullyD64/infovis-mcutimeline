@@ -1,0 +1,51 @@
+[
+  {
+    "cid": "Rufus Hunt",
+    "real name": [
+      "Rufus Hunt"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Head of Security of the Arena Club"
+    ],
+    "affiliation": [
+      "United States Army (former)",
+      "Council of Nine"
+    ],
+    "DOD": [
+      "July 18, 1947"
+    ],
+    "actor": [
+      "Chris Browning"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A View in the Dark",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Better Angels",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Smoke & Mirrors",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

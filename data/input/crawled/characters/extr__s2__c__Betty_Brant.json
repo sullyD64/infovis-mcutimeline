@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "Betty Brant",
+    "real name": [
+      "Elizabeth Brant"
+    ],
+    "alias": [
+      "Betty BrantBabe"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOB": [
+      "2001"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "affiliation": [
+      "Midtown School of Science and Technology",
+      "*''Midtown News''"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Angourie Rice"
+    ],
+    "appearences": [
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

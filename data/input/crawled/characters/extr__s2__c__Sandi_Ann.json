@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Sandi Ann",
+    "real name": [
+      "Sandi Ann"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Rand Enterprises"
+    ],
+    "actor": [
+      "Shirine Babb"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Under Leaf Pluck Lotus",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Mistress of All Agonies",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

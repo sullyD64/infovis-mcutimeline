@@ -1,0 +1,74 @@
+[
+  {
+    "cid": "Drax the Destroyer",
+    "real name": [
+      "Drax"
+    ],
+    "alias": [
+      "Drax The Destroyer",
+      "The Big Guy",
+      "The Walking Thesaurus",
+      "The Biggest Idiots in the Galaxy (with Star-Lord, Rocket Raccoon and Groot)",
+      "Princess",
+      "Tough Guy",
+      "Muscle-Bound Whack-Job",
+      "Mr. Clean",
+      "Morons (with Star-Lord, Gamora and Mantis)"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Guardians of the Galaxy"
+    ],
+    "actor": [
+      "Dave Bautista"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 3",
+        "source__type": "movie",
+        "notes": "unreleased"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Prequel Infinite Comic",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2 Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "flashback"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "White",
+    "real name": [
+      "White"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "SSR"
+    ],
+    "title": [
+      "Agent of SSR"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A View in the Dark",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Better Angels",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

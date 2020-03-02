@@ -1,0 +1,45 @@
+[
+  {
+    "cid": "Tone",
+    "real name": [],
+    "alias": [
+      "Tone",
+      "Cornell's Flunky"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Stokes Crime Family"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Warner Miller"
+    ],
+    "DOD": [
+      "November 16, 2015"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Moment of Truth",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Code of the Streets",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

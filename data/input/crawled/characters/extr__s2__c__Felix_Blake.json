@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "Felix Blake",
+    "real name": [
+      "Felix Blake"
+    ],
+    "alias": [
+      "Top Brass"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "57"
+    ],
+    "DOB": [
+      "March 12, 1961"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly)",
+      "Watchdogs"
+    ],
+    "title": [
+      "Agent of S.H.I.E.L.D. (formerly)"
+    ],
+    "actor": [
+      "Titus Welliver"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Marvel One-Shot: Item 47",
+        "source__type": "oneshot"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

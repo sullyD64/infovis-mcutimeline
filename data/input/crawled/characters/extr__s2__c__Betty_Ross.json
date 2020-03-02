@@ -1,0 +1,59 @@
+[
+  {
+    "cid": "Betty Ross",
+    "real name": [
+      "Elizabeth Ross"
+    ],
+    "alias": [
+      "Betty Ross"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "DOD": [
+      "Spring 2018 (victim of the Snap; resurrected by Hulk in 2023)"
+    ],
+    "affiliation": [
+      "30px Harvard University (formerly)",
+      "Culver University"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "actor": [
+      "Liv Tyler"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Incredible Hulk",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "The Incredible Hulk: The Big Picture",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers Prelude: Fury's Big Week",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Thor: Ragnarok Prelude",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Black Widow Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

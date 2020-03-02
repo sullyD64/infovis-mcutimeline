@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "Tom Weems",
+    "real name": [
+      "Thomas Weems"
+    ],
+    "alias": [
+      "Tom Weems"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [],
+    "title": [
+      "Agent"
+    ],
+    "affiliation": [
+      "United States Marine Corps (formerly)",
+      "Anvil"
+    ],
+    "actor": [
+      "Graham Wolfe"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Cold Steel",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Virtue of the Vicious",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

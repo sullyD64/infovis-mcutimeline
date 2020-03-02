@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Hannah Hutchins",
+    "real name": [
+      "Hannah Hutchins"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Safety Inspector"
+    ],
+    "affiliation": [
+      "StatiCorp"
+    ],
+    "actor": [
+      "Laura Seay"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Repairs",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

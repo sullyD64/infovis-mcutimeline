@@ -1,0 +1,49 @@
+[
+  {
+    "cid": "Liz Toomes",
+    "real name": [
+      "Elizabeth Toomes"
+    ],
+    "alias": [
+      "Liz Toomes",
+      "Gumdrop"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "age": [
+      "24-25"
+    ],
+    "DOB": [
+      "1999<ref name=\"SMH\"/>"
+    ],
+    "affiliation": [
+      "Midtown School of Science and Technology (formerly)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Laura Harrier"
+    ],
+    "title": [
+      "Captain of The Academic Decathlon Team (formerly)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Spider-Man: Homecoming",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Spider-Man: Far From Home Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Miklos Kozlov",
+    "real name": [
+      "Miklos Kozlov"
+    ],
+    "alias": [
+      "Doc",
+      "Opportunistic Prick"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "IGH"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "actor": [
+      "Thomas Kopache"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

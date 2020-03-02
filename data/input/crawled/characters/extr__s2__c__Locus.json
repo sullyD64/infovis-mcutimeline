@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Locus",
+    "real name": [
+      "Locus"
+    ],
+    "alias": [
+      "Royal Finder"
+    ],
+    "citizenship": [
+      "Attilan"
+    ],
+    "species": [
+      "Inhuman"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Attilan Royal Guard"
+    ],
+    "actor": [
+      "Sumire Matsubara"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Inhumans (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Divide -- And Conquer",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Make Way For... Medusa",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Something Inhuman This Way Comes...",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

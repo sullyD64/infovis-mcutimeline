@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Cagliostro",
+    "real name": [],
+    "alias": [
+      "Cagliostro"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Doctor Strange (film)",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Doctor Strange Prelude - The Zealot",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Doctor Strange: Mystic Apprentice",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

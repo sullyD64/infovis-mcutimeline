@@ -1,0 +1,29 @@
+[
+  {
+    "cid": "Ignacio",
+    "real name": [
+      "Ignacio"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Mexican"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "actor": [
+      "Danny Vasquez"
+    ],
+    "appearences": [
+      {
+        "source__title": "Ant-Man (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

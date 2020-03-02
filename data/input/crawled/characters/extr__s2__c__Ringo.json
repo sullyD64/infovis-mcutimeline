@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Ringo",
+    "real name": [
+      "Ringo"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Spring 2018"
+    ],
+    "affiliation": [
+      "''Lola's Roadhouse''"
+    ],
+    "actor": [
+      "Avery Mason"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Roadhouse Blues",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

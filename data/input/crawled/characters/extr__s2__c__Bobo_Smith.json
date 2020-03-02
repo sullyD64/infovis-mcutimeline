@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Bobo Smith",
+    "real name": [
+      "Bobo Smith"
+    ],
+    "alias": [
+      "Divine Pairing (with Jack Rogers)"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Stefan Rollins"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Ghost Stories",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Colony Collapse",
+        "source__type": "tv series",
+        "notes": "flashback"
+      }
+    ]
+  }
+]

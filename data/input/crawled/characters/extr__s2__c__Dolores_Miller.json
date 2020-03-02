@@ -1,0 +1,46 @@
+[
+  {
+    "cid": "Dolores Miller",
+    "real name": [
+      "Dolores Miller"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Debbi Morgan"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Blowin' Up the Spot",
+        "source__type": "tv series",
+        "notes": "indirectly mentioned"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The H Word",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Worst Behavior",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

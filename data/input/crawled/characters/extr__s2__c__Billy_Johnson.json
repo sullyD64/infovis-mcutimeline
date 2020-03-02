@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "Billy Johnson",
+    "real name": [
+      "William Johnson"
+    ],
+    "alias": [
+      "Billy Johnson",
+      "B",
+      "Billy J",
+      "Johnson Kid"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Beaumaire High School",
+      "Wild Red Hawks"
+    ],
+    "DOB": [
+      "August 1, 1990<ref name=\"C&D104\">''Cloak & Dagger: 1.04: Call/Response''</ref><ref>''Cloak & Dagger: 2.03: Shadow Selves''</ref>"
+    ],
+    "DOD": [
+      "February 25, 2009<ref>''Cloak & Dagger: 1.10: Colony Collapse''</ref><ref name=\"C&D108\">''Cloak & Dagger: 1.08: Ghost Stories''</ref>"
+    ],
+    "actor": [
+      "Marqus Clae",
+      "Carsyn Taylor (young)"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "age": [
+      "18"
+    ],
+    "appearences": [
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      }
+    ]
+  }
+]

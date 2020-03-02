@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Sugar",
+    "real name": [],
+    "alias": [
+      "Sugar",
+      "Sug",
+      "Uber For Thugs"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "affiliation": [
+      "Grambling State University (formerly)",
+      "Stokes Crime Family (formerly)"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Sean Ringgold"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "14 episodes"
+      }
+    ]
+  }
+]

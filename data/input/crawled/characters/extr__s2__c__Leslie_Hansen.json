@@ -1,0 +1,50 @@
+[
+  {
+    "cid": "Leslie Hansen",
+    "real name": [
+      "Leslie Hansen"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "affiliation": [
+      "Metro-General Hospital (formerly)",
+      "IGH"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "actor": [
+      "Renata Hinrichs"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Sole Survivor",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "AKA I Want Your Cray Cray",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "AKA Three Lives and Counting",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

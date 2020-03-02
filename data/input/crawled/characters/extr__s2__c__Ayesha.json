@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Ayesha",
+    "real name": [
+      "Ayesha"
+    ],
+    "alias": [
+      "The Ayesha Chick",
+      "Golden Gal"
+    ],
+    "species": [
+      "Sovereign"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Golden High Priestess"
+    ],
+    "actor": [
+      "Elizabeth Debicki"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "affiliation": [
+      "Priestesses of the Sovereign"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy Vol. 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Guardians of the Galaxy Vol. 3",
+        "source__type": "movie",
+        "notes": "unreleased"
+      }
+    ]
+  }
+]

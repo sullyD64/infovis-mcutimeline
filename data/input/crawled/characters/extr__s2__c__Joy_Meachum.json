@@ -1,0 +1,54 @@
+[
+  {
+    "cid": "Joy Meachum",
+    "real name": [
+      "Joy Meachum"
+    ],
+    "alias": [
+      "A Strong-Willed Woman",
+      "Worthless Piece of Shit"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "Chief Counsel (formerly)"
+    ],
+    "DOB": [
+      "1990"
+    ],
+    "age": [
+      "27-28"
+    ],
+    "affiliation": [
+      "The Bombers (formerly)",
+      "Pierson College (formerly)",
+      "Columbia University (formerly)",
+      "Rand Enterprises (formerly)"
+    ],
+    "actor": [
+      "Jessica Stroup",
+      "Aimee Laurence (young)"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "23 episodes"
+      },
+      {
+        "source__title": "New York Bulletin/Promotional Campaign",
+        "source__type": "web series"
+      }
+    ]
+  }
+]

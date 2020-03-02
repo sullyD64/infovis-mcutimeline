@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Mika Prada",
+    "real name": [
+      "Mika Prada"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [],
+    "affiliation": [
+      "Pierson College (formerly)",
+      "Bailey's Auction House"
+    ],
+    "actor": [
+      "Julee Cerda"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

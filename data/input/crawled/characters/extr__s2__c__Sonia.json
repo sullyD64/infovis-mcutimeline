@@ -1,0 +1,32 @@
+[
+  {
+    "cid": "Sonia",
+    "real name": [
+      "Sonia"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American",
+      "Peruvian"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "actor": [
+      "Victoria Cartagena"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Jessica Jones (TV series)",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

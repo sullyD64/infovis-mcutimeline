@@ -1,0 +1,42 @@
+[
+  {
+    "cid": "Tina Minoru",
+    "real name": [
+      "Tina Minoru"
+    ],
+    "alias": [
+      "Alpha User",
+      "Monster",
+      "Homicidal Maniac",
+      "Control Freak",
+      "Oriental"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "title": [
+      "CEO of Wizard"
+    ],
+    "affiliation": [
+      "MIT (formerly)",
+      "Wizard",
+      "PRIDE"
+    ],
+    "actor": [
+      "Brittany Ishibashi"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Runaways (TV series)",
+        "source__type": "tv series",
+        "notes": "30 episodes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "Stone",
+    "alias": [
+      "Stone"
+    ],
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Chaste"
+    ],
+    "actor": [
+      "Jasson Finney"
+    ],
+    "voice actor": [
+      "David Sobolov"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Daredevil (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Stick (episode)",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

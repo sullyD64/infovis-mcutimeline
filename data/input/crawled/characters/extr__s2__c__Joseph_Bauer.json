@@ -1,0 +1,40 @@
+[
+  {
+    "cid": "Joseph Bauer",
+    "real name": [
+      "Joseph Bauer"
+    ],
+    "alias": [
+      "Joe"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "German",
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Momentum Labs (formerly)"
+    ],
+    "actor": [
+      "Kerr Smith"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      }
+    ]
+  }
+]

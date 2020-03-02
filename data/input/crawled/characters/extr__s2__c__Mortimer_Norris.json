@@ -1,0 +1,37 @@
+[
+  {
+    "cid": "Mortimer Norris",
+    "real name": [
+      "Mortimer Norris"
+    ],
+    "alias": [
+      "Morty",
+      "Mr. Fish"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Hakim Callender"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Wig Out",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

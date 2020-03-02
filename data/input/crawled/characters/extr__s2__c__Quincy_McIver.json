@@ -1,0 +1,34 @@
+[
+  {
+    "cid": "Quincy McIver",
+    "real name": [
+      "Quincy Purcell McIver"
+    ],
+    "alias": [
+      "Flunkie"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Jamaican"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "Harlem's Paradise"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

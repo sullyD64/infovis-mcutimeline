@@ -1,0 +1,47 @@
+[
+  {
+    "cid": "Ebony Maw",
+    "real name": [
+      "Ebony Maw"
+    ],
+    "alias": [
+      "The Maw",
+      "Squidward"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Spring 2018 (original self)",
+      "October 2023 (time-traveled version from 2014)"
+    ],
+    "affiliation": [
+      "Black Order"
+    ],
+    "actor": [
+      "Tom Vaughan-Lawlor"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Guardians of the Galaxy (film)",
+        "source__type": "movie",
+        "notes": "indirectly mentioned"
+      },
+      {
+        "source__title": "Avengers: Infinity War",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame Prelude",
+        "source__type": "comic"
+      }
+    ]
+  }
+]

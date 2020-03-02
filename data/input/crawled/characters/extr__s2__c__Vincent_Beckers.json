@@ -1,0 +1,41 @@
+[
+  {
+    "cid": "Vincent Beckers",
+    "real name": [
+      "Vincent Beckers"
+    ],
+    "alias": [],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Belgian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOB": [
+      "April 2, 1900<ref name=\"AoS206\"/>"
+    ],
+    "DOD": [
+      "December 9, 1978<ref name=\"AoS206\"/>"
+    ],
+    "affiliation": [
+      "HYDRA"
+    ],
+    "actor": [],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "A Fractured House",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

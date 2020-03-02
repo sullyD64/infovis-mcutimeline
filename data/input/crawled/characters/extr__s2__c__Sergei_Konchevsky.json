@@ -1,0 +1,55 @@
+[
+  {
+    "cid": "Sergei Konchevsky",
+    "real name": [
+      "Sergei Konchevsky"
+    ],
+    "alias": [
+      "Dima",
+      "Bleeding Man",
+      "Creepy White Old Guy",
+      "Russian Gang Dude"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "affiliation": [
+      "Russian Mafia"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "Spring 2018"
+    ],
+    "actor": [
+      "Alex Notkin"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "The Punisher",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "Roadhouse Blues",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "One-Eyed Jacks",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "The Whirlwind",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

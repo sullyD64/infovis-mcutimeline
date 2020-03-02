@@ -1,0 +1,63 @@
+[
+  {
+    "cid": "List",
+    "real name": [
+      "List"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "German"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "April 2015"
+    ],
+    "affiliation": [
+      "S.H.I.E.L.D. (formerly,undercover)",
+      "HYDRA"
+    ],
+    "title": [
+      "Doctor"
+    ],
+    "actor": [
+      "Henry Goodman"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Captain America: The Winter Soldier",
+        "source__type": "movie",
+        "notes": "mid-credits scene"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Avengers: Endgame",
+        "source__type": "movie",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "3 episodes"
+      },
+      {
+        "source__title": "Avengers: Age of Ultron Prelude - This Scepter'd Isle",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Avengers: Infinity War Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

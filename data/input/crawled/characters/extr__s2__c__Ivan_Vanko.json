@@ -1,0 +1,75 @@
+[
+  {
+    "cid": "Ivan Vanko",
+    "real name": [
+      "Ivan Antonovich Vanko"
+    ],
+    "alias": [
+      "Whiplash",
+      "Vanya",
+      "Boris Turgenov",
+      "Birdman",
+      "Toast"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Russian"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "age": [
+      "42"
+    ],
+    "DOB": [
+      "February 15, 1968"
+    ],
+    "DOD": [
+      "May 31, 2010"
+    ],
+    "affiliation": [
+      "Hammer Industries (formerly)"
+    ],
+    "actor": [
+      "Mickey Rourke"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Man 2",
+        "source__type": "movie"
+      },
+      {
+        "source__title": "Iron Man 2: Public Identity",
+        "source__type": "comic",
+        "notes": "indirectly mentioned"
+      },
+      {
+        "source__title": "The Avengers Prelude: Fury's Big Week",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "The Avengers: Iron Man Mark VII",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 2 Adaptation",
+        "source__type": "comic"
+      },
+      {
+        "source__title": "Iron Man 3 Prelude",
+        "source__type": "comic",
+        "notes": "mentioned"
+      },
+      {
+        "source__title": "Black Widow Prelude",
+        "source__type": "comic",
+        "notes": "picture"
+      }
+    ]
+  }
+]

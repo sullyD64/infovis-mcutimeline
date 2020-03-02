@@ -1,0 +1,36 @@
+[
+  {
+    "cid": "W'Kabi",
+    "real name": [
+      "W'Kabi"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Wakandan"
+    ],
+    "affiliation": [
+      "Border Tribe",
+      "Tribal Council (formerly)"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Royal Advisor (formerly)"
+    ],
+    "actor": [
+      "Daniel Kaluuya"
+    ],
+    "status": [
+      "Alive (In Custody)"
+    ],
+    "appearences": [
+      {
+        "source__title": "Black Panther (film)",
+        "source__type": "movie"
+      }
+    ]
+  }
+]

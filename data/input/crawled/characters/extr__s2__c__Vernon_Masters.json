@@ -1,0 +1,35 @@
+[
+  {
+    "cid": "Vernon Masters",
+    "real name": [
+      "Vernon Masters"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "affiliation": [
+      "FBI",
+      "United States Department of War",
+      "Council of Nine"
+    ],
+    "actor": [
+      "Kurtwood Smith"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agent Carter (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      }
+    ]
+  }
+]

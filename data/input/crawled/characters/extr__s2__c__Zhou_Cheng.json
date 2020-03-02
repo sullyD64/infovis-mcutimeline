@@ -1,0 +1,39 @@
+[
+  {
+    "cid": "Zhou Cheng",
+    "real name": [
+      "Zhou Cheng"
+    ],
+    "alias": [
+      "Sworn Defender of the Hand"
+    ],
+    "species": [
+      "Human"
+    ],
+    "citizenship": [
+      "Chinese"
+    ],
+    "affiliation": [
+      "Hand"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "actor": [
+      "Lewis Tan"
+    ],
+    "status": [
+      "Unknown"
+    ],
+    "appearences": [
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "The Blessing of Many Fractures",
+        "source__type": "tv series"
+      }
+    ]
+  }
+]

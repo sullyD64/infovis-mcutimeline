@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Taryan",
+    "real name": [
+      "Taryan"
+    ],
+    "alias": [
+      "Partner",
+      "First Born",
+      "Straight Shooter",
+      "Kasius",
+      "Father Kasius"
+    ],
+    "species": [
+      "Kree"
+    ],
+    "citizenship": [
+      "Kree Imperial"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "title": [
+      "Master of the House of Kasius"
+    ],
+    "affiliation": [
+      "House of Kasius",
+      "Confederacy"
+    ],
+    "actor": [
+      "Craig Parker"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series",
+        "notes": "2 episodes"
+      }
+    ]
+  }
+]

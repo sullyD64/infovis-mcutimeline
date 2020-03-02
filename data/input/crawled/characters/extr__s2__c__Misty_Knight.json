@@ -1,0 +1,79 @@
+[
+  {
+    "cid": "Misty Knight",
+    "real name": [
+      "Mercedes Kelly Knight"
+    ],
+    "alias": [
+      "Misty Knight",
+      "Horton",
+      "Miss Daisy",
+      "Curandera",
+      "Baby Girl",
+      "Misguided Beat Cop",
+      "The Visualist",
+      "Trick",
+      "Iyanla Knight",
+      "The Short Arm of the Law",
+      "Private Ryan",
+      "Ripley",
+      "Sarah Connor",
+      "Robocop",
+      "Bullshit Tin Man from The Wiz",
+      "Legitimate Champion",
+      "Crip Raggedy Ann",
+      "Captain Misty",
+      "One-Armed Detective"
+    ],
+    "species": [
+      "Human (Cyborg)"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "age": [
+      "33-34"
+    ],
+    "DOB": [
+      "1984-1985"
+    ],
+    "affiliation": [
+      "DeWitt Clinton High School (formerly)",
+      "NYPD"
+    ],
+    "title": [
+      "Detective"
+    ],
+    "actor": [
+      "Simone Missick"
+    ],
+    "status": [
+      "Alive"
+    ],
+    "appearences": [
+      {
+        "source__title": "Luke Cage (TV series)",
+        "source__type": "tv series",
+        "notes": "26 episodes"
+      },
+      {
+        "source__title": "Iron Fist (TV series)",
+        "source__type": "tv series",
+        "notes": "7 episodes"
+      },
+      {
+        "source__title": "The Defenders",
+        "source__type": "tv series",
+        "notes": "6 episodes"
+      },
+      {
+        "source__title": "Cloak & Dagger",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]

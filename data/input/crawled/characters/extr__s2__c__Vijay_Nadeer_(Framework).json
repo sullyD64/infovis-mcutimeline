@@ -1,0 +1,44 @@
+[
+  {
+    "cid": "Vijay Nadeer (Framework)",
+    "real name": [
+      "Vijay Nadeer"
+    ],
+    "alias": [
+      "Jason Rajan"
+    ],
+    "species": [
+      "Artificial Intelligence"
+    ],
+    "citizenship": [
+      "American"
+    ],
+    "gender": [
+      "Male"
+    ],
+    "DOD": [
+      "2017"
+    ],
+    "actor": [
+      "Manish Dayal"
+    ],
+    "status": [
+      "Deceased"
+    ],
+    "appearences": [
+      {
+        "source__title": "Agents of S.H.I.E.L.D.",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "What If...",
+        "source__type": "tv series"
+      },
+      {
+        "source__title": "World's End",
+        "source__type": "tv series",
+        "notes": "mentioned"
+      }
+    ]
+  }
+]
