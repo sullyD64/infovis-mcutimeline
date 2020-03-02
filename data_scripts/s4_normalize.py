@@ -45,6 +45,10 @@ def main():
         .count('sources')
     )
 
+    extr_reflinks = (Extractor(infile = next(OUTPUT.glob('*__final_reflinks.json')))
+        .parse_raw(structs.RefLink)
+    )
+
     # extr_sources_hierarchy = (Extractor(infile = next(OUTPUT.glob('*__timeline_hierarchy.json'))))
 
     # ================================
@@ -286,24 +290,47 @@ def main():
         .save('sources_characters')
     )
     
-    # (Extractor(data=[extr_sources.get_index('sid')]).save('sources_index', nostep=True))
-
     # discover new characters in event descriptions using character ids and names
     actions.set_counters(*['cnt_updated'])
+    sources_index = extr_sources.get_index('sid')
+    allchars_index = extr_allchars.get_index('cid')
     (extr_events
         .fork()
         .addattr('characters', actions.s3__addattr__events__discover_characters, **{
             'sources': extr_sources.get(),
-            'sources_index': extr_sources.get_index('sid'),
+            'sources_index': sources_index,
+        })
+        .addattr('characters', actions.s3__addattr__events__normalize_character_cids, **{
+            'allchars': extr_allchars.get(),
+            'allchars_index': allchars_index,
         })
         .save('events_witchars_additional')
     )
     cntrs = actions.get_counters()
     log.info(f'-- Updated events: {cntrs["cnt_updated"]}')
 
+    # merge consecutive similar events they share the same date, sources and the characters of any subsequent event are at most equal to the characters of the first event
+    actions.set_legends(**{
+        'events_newid': {}
+    })
     (extr_events
         .iterate(actions.s3__iterate__events__merge_consecutive_similar_events)
+        .save('events_witchars_additional_merged')
     )
+
+    # update sources and reflinks
+    log.info('Updating sources and reflinks eids for merged events')
+    (extr_sources
+        .mapto(actions.s3__mapto__sources__update_eids)
+        .save('sources_updated')
+    )
+    (extr_reflinks
+        .mapto(actions.s3__mapto__reflinks__update_eids)
+        .save('reflinks_updated')
+    )
+    
+
+
 
 if __name__ == "__main__":
     logconfig.config()

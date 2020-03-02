@@ -735,8 +735,6 @@ def main():
         .save('timeline_hierarchy')
     )
 
-    # ---------------------------------------------------------------------------------
-
     # 13.3A hierarchy for tv shows
     (extr_hierarchy.fork()
         .filter_rows(lambda rootsrc: rootsrc.type == constants.SRC_TV_SERIES)
@@ -756,7 +754,14 @@ def main():
 
     # --------------------------------------------------------------------
     log.info('')
-    log.info(f'### 14. FINALIZE ###')
+    log.info(f'### 14. CHARACTERS ###')
+    # --------------------------------------------------------------------
+
+    # TODO move from S4
+
+    # --------------------------------------------------------------------
+    log.info('')
+    log.info(f'### 15. FINALIZE ###')
     # --------------------------------------------------------------------
 
     log.info('Finalizing output without step number:')

@@ -149,16 +149,39 @@ class Event(Struct):
         self.line = f'{start_line}-{max([ev.line for ev in sub_evs])}'
         self.desc = self.desc + '\n' + '\n'.join([ev.desc for ev in sub_evs])
         self.multiple = True
-        self.links = list(set(self.links).union(set([element for sublist in [ev.links for ev in sub_evs] for element in sublist])))
+
+        if hasattr(self, 'links'):
+            self.links = list(set(self.links).union(set([element for sublist in [ev.links for ev in sub_evs] for element in sublist])))
+        
         # self.templates = list(set(self.templates).union(set([element for sublist in [ev.templates for ev in sub_evs] for element in sublist])))
 
-        sub_evs_refs_flat = [element for sublist in [ev.refs for ev in sub_evs] for element in sublist]
-        sub_evs_refs_unique = set(sub_evs_refs_flat)
+        if hasattr(self, 'refs'):
+            sub_evs_refs_flat = [element for sublist in [ev.refs for ev in sub_evs] for element in sublist]
+            sub_evs_refs_unique = set(sub_evs_refs_flat)
+            def change_eid(ref):
+                ref.event__id = self.eid
+                return ref
+            self.refs = list(map(change_eid, list(set(self.refs).union(sub_evs_refs_unique))))
 
-        def change_eid(ref):
-            ref.event__id = self.eid
-            return ref
-        self.refs = list(map(change_eid, list(set(self.refs).union(sub_evs_refs_unique))))
+        if hasattr(self, 'non_characters'):
+            self.non_characters = list(set(self.non_characters).union(set([element for sublist in [ev.non_characters for ev in sub_evs] for element in sublist])))
+        
+        if hasattr(self, 'reflinks'):
+            self.reflinks = sorted(set([*self.reflinks, *[rl for ev in sub_evs for rl in ev.reflinks]]))
+
+        if not self.title:
+            found_titles = list(filter(None, [ev.title for ev in sub_evs]))
+            if len(found_titles) > 2:
+                raise NotImplementedError
+            else:
+                self.title = next(iter(found_titles), None)
+        
+        if hasattr(self, 'ref_special'):
+            if not getattr(self, 'ref_special'):
+                found_refspecial = list(filter(None, [ev.ref_special for ev in sub_evs]))
+                if found_refspecial:
+                    raise NotImplementedError
+
 
     def __get_date(self, day: str, month: str, year: str):
         date_str = ''

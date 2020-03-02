@@ -755,9 +755,7 @@ class Actions():
     def s3__addattr__events__discover_characters(self, event: Event, **kwargs):
         sources = kwargs['sources']
         sources_index = kwargs['sources_index']
-        newattr = []
-        found = False
-
+    
         chars_event_sources = []
         event_sources = [sources[sources_index[sid]] for sid in event.sources]
         for event_src in event_sources:
@@ -770,6 +768,7 @@ class Actions():
         chars_noduplicates = [i for n, i in enumerate(chars_event_sources) if i not in chars_event_sources[n + 1:]]
         chars = sorted(chars_noduplicates, key=lambda char: char['num_occurrences'], reverse=True)
         
+        matching_chars = []
         tf = utils.TextFormatter()
         desc_toread = tf.text(event.desc).remove_wikilinks().remove_html_comments().get()
         for char in chars:
@@ -807,39 +806,80 @@ class Actions():
                 log.debug(f'{event.eid} match "{patterns[matching_index]}"')
                 for pattern in patterns: 
                     desc_toread = desc_toread.replace(pattern, '')
-                if char['cid'] not in event.characters:
-                    found = True
-                    newattr.append(char)
+                # if char['cid'] not in event.characters:
+                matching_chars.append(char)
 
-        if found:
+        discovered_chars = []
+        for char in matching_chars:
+            if not any(cid in event.characters for cid in [char['cid'], *char['cid_redirects']]):
+                discovered_chars.append(char['cid'])
+
+        newattr = []
+        if len(discovered_chars) > 0:
             self.counters['cnt_updated'] +=1
-            log.debug(f'[x] {event.eid} adding {len(newattr)} {[char["cid"] for char in newattr]}')
+            log.info(f'[x] {event.eid} existing {len(event.characters)}, adding {len(discovered_chars)} {discovered_chars}')
+            newattr = [*event.characters, *discovered_chars]
         else:
             log.debug(f'[_] {event.eid} no characters found')
-
-        if len(event.characters) > 0:
-            existing_characters = event.characters
-            for newchar in newattr:
-                if not any(cid in existing_characters for cid in [newchar['cid'], *newchar['cid_redirects']]):
-                    existing_characters.append(newchar['cid'])
-            newattr = existing_characters
-        else:
-            newattr = [char['cid'] for char in newattr]
+            newattr = event.characters
         return newattr
 
-    def s3__mapto__events__normalize_character_cids(self, event: Event):
-        # TODO uniform all cids in events from using redirects to always using primary cid.
-        return event
-
-
+    def s3__addattr__events__normalize_character_cids(self, event: Event, **kwargs):
+        allchars = kwargs['allchars']
+        allchars_index = kwargs['allchars_index']
+        newattr = []
+        for cid in event.characters:
+            if cid in allchars_index.keys():
+                newattr.append(cid)
+            else:
+                matching_char = next(iter(list(filter(lambda char: cid in char['cid_redirects'], allchars))), None)
+                if not matching_char:
+                    log.error(f'{event.eid} not found {cid}')
+                    raise Exception
+                newattr.append(matching_char['cid'])
+                log.info(f'{event.eid} replacing {cid} => {matching_char["cid"]}')
+        return newattr
 
     def s3__iterate__events__merge_consecutive_similar_events(self, events: list):
+        events_newid = self.legends['events_newid']
         output = []
-        # TODO group se: eventi consecutivi (stessa data), con stessa source e AL PIÙ gli stessi character.
-        output = events
-
-        for ev in events:
-            pass
-
-
+        sub_evs = []
+        main_ev = next(iter(events))
+    
+        for ev in events[1:]:
+            if (
+                main_ev.date == ev.date and
+                main_ev.sources == ev.sources and
+                any(char in ev.characters for char in main_ev.characters)
+            ):
+                events_newid[ev.eid] = main_ev.eid
+                sub_evs.append(ev)
+            else:
+                if sub_evs:
+                    log.info(f'Grouping {main_ev.eid} with {[e.eid for e in sub_evs]}')
+                    main_ev.join(sub_evs)
+                    sub_evs = []
+                main_ev = ev
+                output.append(ev)
         return output
+
+
+    def s3__mapto__sources__update_eids(self, src: Source):
+        events_newid = self.legends['events_newid']
+
+        for eid in src.events:
+            if eid in events_newid.keys():
+                src.events[src.events.index(eid)] = events_newid[eid]
+                log.debug(f'{src.sid:7} replacing {eid} => {events_newid[eid]}')
+        return src
+
+
+    def s3__mapto__reflinks__update_eids(self, rl: RefLink):
+        events_newid = self.legends['events_newid']
+
+        eid = rl.evt
+        if eid in events_newid.keys():
+            rl.evt = events_newid[eid]
+            log.debug(f'{rl.lid} replacing {eid} => {rl.evt}')
+
+        return rl
