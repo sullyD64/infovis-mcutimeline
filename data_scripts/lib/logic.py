@@ -19,8 +19,6 @@ class Extractor(object):
     An Extractor maintains a list of elements, which can be subsequentially manipulated by method chaining.
     Elements can be Objects or dictionaries.
     """
-    PRFX = 'extr'
-    SEP = '__'
     __code = None
     __dir = None
     __step = 0
@@ -40,7 +38,7 @@ class Extractor(object):
     def clean_output(cls):
         if not cls.__dir:
             raise errors.ExtractorOutdirMissingError
-        for outfile in cls.__dir.glob(cls.SEP.join([cls.PRFX, cls.__code, '*'])):
+        for outfile in cls.__dir.glob(constants.EXTRACTOR_SEP.join([constants.EXTRACTOR_PRFX, cls.__code, '*'])):
             os.remove(outfile)
         log.warning(f'Cleaned: {cls.__code} files at {cls.__dir}')
 
@@ -49,8 +47,8 @@ class Extractor(object):
         if infile:
             with open(infile) as rawfile:
                 self.data = utils.jloads(rawfile)
-        self.prfx = Extractor.PRFX
-        self.sep = Extractor.SEP
+        self.prfx = constants.EXTRACTOR_PRFX
+        self.sep = constants.EXTRACTOR_SEP
 
     def fork(self):
         """
@@ -302,11 +300,11 @@ class Extractor(object):
         if not Extractor.__dir:
             raise errors.ExtractorOutdirMissingError
 
-        outfile_tkns = [Extractor.PRFX, Extractor.__code, f'{Extractor.__step:02d}', f'{outfile}.json']
+        outfile_tkns = [constants.EXTRACTOR_PRFX, Extractor.__code, f'{Extractor.__step:02d}', f'{outfile}.json']
         if nostep:
             outfile_tkns.pop(2)
             Extractor.__step -= 1
-        outfile_fullname = Extractor.SEP.join(outfile_tkns)
+        outfile_fullname = constants.EXTRACTOR_SEP.join(outfile_tkns)
         outpath = Extractor.__dir / outfile_fullname
 
         with open(outpath, 'w') as outfile:
@@ -558,4 +556,4 @@ class Scraper(object):
         return result
 
     def get_clean_pagetitle(self, pagetitle: str):
-        return re.sub(r"[\\\/]", "__", re.sub(' ', '_', pagetitle))
+        return re.sub(r"[\\\/]", "__", re.sub(r'[\" ]', '_', pagetitle))

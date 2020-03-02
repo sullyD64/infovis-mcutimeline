@@ -9,6 +9,9 @@ PATH_INPUT_MANUAL = PATH_INPUT / 'manual'
 PATH_INPUT_RAW = PATH_INPUT / 'raw'
 PATH_OUTPUT = PATH_ROOT / 'output'
 
+EXTRACTOR_PRFX = 'extr'
+EXTRACTOR_SEP = '__'
+
 TIMELINE_PAGES = ['before-20th', '1900s', '1910s', '1920s', '1930s', '1940s', '1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010', '2011',
                   '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2023', '2024', '2091', 'framework', 'lighthouse', 'dark-dimension', 'time-heist', ]
 
