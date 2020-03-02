@@ -1,0 +1,500 @@
+[
+  {
+    "sid": "F_IM",
+    "clarification": "(Film series)",
+    "title": "Iron Man (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_H",
+    "clarification": "(Film series)",
+    "title": "Hulk (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_T",
+    "clarification": "(Film series)",
+    "title": "Thor (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_CA",
+    "clarification": "(Film series)",
+    "title": "Captain America (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_A",
+    "clarification": "(Film series)",
+    "title": "Avengers (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_GotG",
+    "clarification": "(Film series)",
+    "title": "Guardians of the Galaxy (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_AM",
+    "clarification": "(Film series)",
+    "title": "Ant-Man (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_DS",
+    "clarification": "(Film series)",
+    "title": "Doctor Strange (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_SM",
+    "clarification": "(Film series)",
+    "title": "Spider-Man (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_BP",
+    "clarification": "(Film series)",
+    "title": "Black Panther (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_CM",
+    "clarification": "(Film series)",
+    "title": "Captain Marvel (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "AoS",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D.",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "AoS1",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D./Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS2",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D./Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS3",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D./Season Three",
+    "type": "tv season",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS4",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D./Season Four",
+    "type": "tv season",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS5",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D./Season Five",
+    "type": "tv season",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS6",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D./Season Six",
+    "type": "tv season",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 6,
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AC",
+    "clarification": "(TV series)",
+    "title": "Agent Carter (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "AC1",
+    "clarification": null,
+    "title": "Agent Carter (TV series)/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 1,
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC2",
+    "clarification": null,
+    "title": "Agent Carter (TV series)/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 2,
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AoSSS",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D.: Slingshot",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "AoSSS1",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D.: Slingshot/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.: Slingshot",
+      "season": 1,
+      "series_id": "AoSSS"
+    }
+  },
+  {
+    "sid": "I",
+    "clarification": "(TV series)",
+    "title": "Inhumans (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "I1",
+    "clarification": null,
+    "title": "Inhumans (TV series)/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Inhumans (TV series)",
+      "season": 1,
+      "series_id": "I"
+    }
+  },
+  {
+    "sid": "DD",
+    "clarification": "(TV series)",
+    "title": "Daredevil (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "DD1",
+    "clarification": null,
+    "title": "Daredevil (TV series)/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD2",
+    "clarification": null,
+    "title": "Daredevil (TV series)/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 2,
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD3",
+    "clarification": null,
+    "title": "Daredevil (TV series)/Season Three",
+    "type": "tv season",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "JJ",
+    "clarification": "(TV series)",
+    "title": "Jessica Jones (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "JJ1",
+    "clarification": null,
+    "title": "Jessica Jones (TV series)/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 1,
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ2",
+    "clarification": null,
+    "title": "Jessica Jones (TV series)/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 2,
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ3",
+    "clarification": null,
+    "title": "Jessica Jones (TV series)/Season Three",
+    "type": "tv season",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 3,
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "LC",
+    "clarification": "(TV series)",
+    "title": "Luke Cage (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "LC1",
+    "clarification": null,
+    "title": "Luke Cage (TV series)/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 1,
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC2",
+    "clarification": null,
+    "title": "Luke Cage (TV series)/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 2,
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "IF",
+    "clarification": "(TV series)",
+    "title": "Iron Fist (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "IF1",
+    "clarification": null,
+    "title": "Iron Fist (TV series)/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 1,
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF2",
+    "clarification": null,
+    "title": "Iron Fist (TV series)/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 2,
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "TD",
+    "clarification": null,
+    "title": "The Defenders",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "TD1",
+    "clarification": null,
+    "title": "The Defenders/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "The Defenders",
+      "season": 1,
+      "series_id": "TD"
+    }
+  },
+  {
+    "sid": "TP",
+    "clarification": null,
+    "title": "The Punisher",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "TP1",
+    "clarification": null,
+    "title": "The Punisher/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP2",
+    "clarification": null,
+    "title": "The Punisher/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "The Punisher",
+      "season": 2,
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "R",
+    "clarification": "(TV series)",
+    "title": "Runaways (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "R1",
+    "clarification": null,
+    "title": "Runaways (TV series)/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 1,
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R2",
+    "clarification": null,
+    "title": "Runaways (TV series)/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R3",
+    "clarification": null,
+    "title": "Runaways (TV series)/Season Three",
+    "type": "tv season",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 3,
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "C&D",
+    "clarification": null,
+    "title": "Cloak & Dagger",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "C&D1",
+    "clarification": null,
+    "title": "Cloak & Dagger/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 1,
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D2",
+    "clarification": null,
+    "title": "Cloak & Dagger/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 2,
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "WHiH",
+    "clarification": null,
+    "title": "WHiH Newsfront",
+    "type": "web series",
+    "details": null
+  },
+  {
+    "sid": "WHiHAMC",
+    "clarification": null,
+    "title": "WHiH Newsfront/Season One",
+    "type": "web series",
+    "details": {
+      "series": "WHiH Newsfront",
+      "season": 1,
+      "series_id": "WHiH"
+    }
+  },
+  {
+    "sid": "WHiHCACWC",
+    "clarification": null,
+    "title": "WHiH Newsfront/Season Two",
+    "type": "web series",
+    "details": {
+      "series": "WHiH Newsfront",
+      "season": 2,
+      "series_id": "WHiH"
+    }
+  }
+]

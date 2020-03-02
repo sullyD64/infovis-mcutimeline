@@ -1,0 +1,42 @@
+[
+  {
+    "rid": "R00992",
+    "name": null,
+    "complex": false,
+    "events": [
+      "E00552"
+    ],
+    "desc": "<i>[[Captain America: Evil Lurks Everywhere]]</i>",
+    "source": null
+  },
+  {
+    "rid": "R05173",
+    "name": null,
+    "complex": false,
+    "events": [
+      "E02827"
+    ],
+    "desc": "<i>[[Guardians of the Galaxy Prequel Infinite Comic]]</i>",
+    "source": null
+  },
+  {
+    "rid": "R05248",
+    "name": null,
+    "complex": false,
+    "events": [
+      "E02885"
+    ],
+    "desc": "<i>[[Captain America: The Winter Soldier Infinite Comic]]</i>",
+    "source": null
+  },
+  {
+    "rid": "R10014",
+    "name": null,
+    "complex": false,
+    "events": [
+      "E06118"
+    ],
+    "desc": "<i>[[Spider-Man: Far From Home Prelude]]</i>",
+    "source": null
+  }
+]

@@ -1,0 +1,6361 @@
+[
+  {
+    "sid": "IM",
+    "clarification": "(film)",
+    "title": "Iron Man (film)",
+    "type": "film",
+    "details": {
+      "series": "Iron Man",
+      "series_id": "F_IM",
+      "year": 2008,
+      "phase": 1
+    }
+  },
+  {
+    "sid": "TIH",
+    "clarification": null,
+    "title": "The Incredible Hulk",
+    "type": "film",
+    "details": {
+      "series": "Hulk",
+      "series_id": "F_H",
+      "year": 2008,
+      "phase": 1
+    }
+  },
+  {
+    "sid": "IM2",
+    "clarification": null,
+    "title": "Iron Man 2",
+    "type": "film",
+    "details": {
+      "series": "Iron Man",
+      "series_id": "F_IM",
+      "year": 2010,
+      "phase": 1
+    }
+  },
+  {
+    "sid": "T",
+    "clarification": "(film)",
+    "title": "Thor (film)",
+    "type": "film",
+    "details": {
+      "series": "Thor",
+      "series_id": "F_T",
+      "year": 2011,
+      "phase": 1
+    }
+  },
+  {
+    "sid": "CATFA",
+    "clarification": null,
+    "title": "Captain America: The First Avenger",
+    "type": "film",
+    "details": {
+      "series": "Captain America",
+      "series_id": "F_CA",
+      "year": 2011,
+      "phase": 1
+    }
+  },
+  {
+    "sid": "TA",
+    "clarification": null,
+    "title": "The Avengers",
+    "type": "film",
+    "details": {
+      "series": "Avengers",
+      "series_id": "F_A",
+      "year": 2012,
+      "phase": 2
+    }
+  },
+  {
+    "sid": "IM3",
+    "clarification": null,
+    "title": "Iron Man 3",
+    "type": "film",
+    "details": {
+      "series": "Iron Man",
+      "series_id": "F_IM",
+      "year": 2013,
+      "phase": 2
+    }
+  },
+  {
+    "sid": "TTDW",
+    "clarification": null,
+    "title": "Thor: The Dark World",
+    "type": "film",
+    "details": {
+      "series": "Thor",
+      "series_id": "F_T",
+      "year": 2013,
+      "phase": 2
+    }
+  },
+  {
+    "sid": "CATWS",
+    "clarification": null,
+    "title": "Captain America: The Winter Soldier",
+    "type": "film",
+    "details": {
+      "series": "Captain America",
+      "series_id": "F_CA",
+      "year": 2014,
+      "phase": 2
+    }
+  },
+  {
+    "sid": "GotG",
+    "clarification": "(film)",
+    "title": "Guardians of the Galaxy (film)",
+    "type": "film",
+    "details": {
+      "series": "Guardians of the Galaxy",
+      "series_id": "F_GotG",
+      "year": 2014,
+      "phase": 2
+    }
+  },
+  {
+    "sid": "AAoU",
+    "clarification": null,
+    "title": "Avengers: Age of Ultron",
+    "type": "film",
+    "details": {
+      "series": "Avengers",
+      "series_id": "F_A",
+      "year": 2015,
+      "phase": 2
+    }
+  },
+  {
+    "sid": "AM",
+    "clarification": "(film)",
+    "title": "Ant-Man (film)",
+    "type": "film",
+    "details": {
+      "series": "Ant-Man",
+      "series_id": "F_AM",
+      "year": 2015,
+      "phase": 2
+    }
+  },
+  {
+    "sid": "CACW",
+    "clarification": null,
+    "title": "Captain America: Civil War",
+    "type": "film",
+    "details": {
+      "series": "Captain America",
+      "series_id": "F_CA",
+      "year": 2016,
+      "phase": 3
+    }
+  },
+  {
+    "sid": "DS",
+    "clarification": "(film)",
+    "title": "Doctor Strange (film)",
+    "type": "film",
+    "details": {
+      "series": "Doctor Strange",
+      "series_id": "F_DS",
+      "year": 2016,
+      "phase": 3
+    }
+  },
+  {
+    "sid": "GotGV2",
+    "clarification": null,
+    "title": "Guardians of the Galaxy Vol. 2",
+    "type": "film",
+    "details": {
+      "series": "Guardians of the Galaxy",
+      "series_id": "F_GotG",
+      "year": 2017,
+      "phase": 3
+    }
+  },
+  {
+    "sid": "SMH",
+    "clarification": null,
+    "title": "Spider-Man: Homecoming",
+    "type": "film",
+    "details": {
+      "series": "Spider-Man",
+      "series_id": "F_SM",
+      "year": 2017,
+      "phase": 3
+    }
+  },
+  {
+    "sid": "TR",
+    "clarification": null,
+    "title": "Thor: Ragnarok",
+    "type": "film",
+    "details": {
+      "series": "Thor",
+      "series_id": "F_T",
+      "year": 2017,
+      "phase": 3
+    }
+  },
+  {
+    "sid": "BP",
+    "clarification": "(film)",
+    "title": "Black Panther (film)",
+    "type": "film",
+    "details": {
+      "series": "Black Panther",
+      "series_id": "F_BP",
+      "year": 2018,
+      "phase": 3
+    }
+  },
+  {
+    "sid": "AIW",
+    "clarification": null,
+    "title": "Avengers: Infinity War",
+    "type": "film",
+    "details": {
+      "series": "Avengers",
+      "series_id": "F_A",
+      "year": 2018,
+      "phase": 3
+    }
+  },
+  {
+    "sid": "AMatW",
+    "clarification": null,
+    "title": "Ant-Man and the Wasp",
+    "type": "film",
+    "details": {
+      "series": "Ant-Man",
+      "series_id": "F_AM",
+      "year": 2018,
+      "phase": 3
+    }
+  },
+  {
+    "sid": "CM",
+    "clarification": "(film)",
+    "title": "Captain Marvel (film)",
+    "type": "film",
+    "details": {
+      "series": "Captain Marvel",
+      "series_id": "F_CM",
+      "year": 2019,
+      "phase": 3
+    }
+  },
+  {
+    "sid": "AE",
+    "clarification": null,
+    "title": "Avengers: Endgame",
+    "type": "film",
+    "details": {
+      "series": "Avengers",
+      "series_id": "F_A",
+      "year": 2019,
+      "phase": 3
+    }
+  },
+  {
+    "sid": "SMFFH",
+    "clarification": null,
+    "title": "Spider-Man: Far From Home",
+    "type": "film",
+    "details": {
+      "series": "Spider-Man",
+      "series_id": "F_SM",
+      "year": 2019,
+      "phase": 3
+    }
+  },
+  {
+    "sid": "AoS101",
+    "clarification": null,
+    "title": "Pilot",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 1,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS103",
+    "clarification": null,
+    "title": "The Asset",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 3,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS104",
+    "clarification": null,
+    "title": "Eye-Spy",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 4,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS105",
+    "clarification": null,
+    "title": "Girl in the Flower Dress",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 5,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS106",
+    "clarification": null,
+    "title": "FZZT",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 6,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS107",
+    "clarification": null,
+    "title": "The Hub",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 7,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS108",
+    "clarification": null,
+    "title": "The Well",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 8,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS109",
+    "clarification": null,
+    "title": "Repairs",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 9,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS110",
+    "clarification": null,
+    "title": "The Bridge",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 10,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS111",
+    "clarification": null,
+    "title": "The Magical Place",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 11,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS112",
+    "clarification": null,
+    "title": "Seeds",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 12,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS113",
+    "clarification": null,
+    "title": "T.R.A.C.K.S.",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 13,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS114",
+    "clarification": null,
+    "title": "T.A.H.I.T.I.",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 14,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS115",
+    "clarification": null,
+    "title": "Yes Men",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 15,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS116",
+    "clarification": null,
+    "title": "End of the Beginning",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 16,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS117",
+    "clarification": null,
+    "title": "Turn, Turn, Turn",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 17,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS119",
+    "clarification": null,
+    "title": "The Only Light in the Darkness",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 19,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS120",
+    "clarification": null,
+    "title": "Nothing Personal",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 20,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS121",
+    "clarification": null,
+    "title": "Ragtag",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 21,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS122",
+    "clarification": null,
+    "title": "Beginning of the End",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 22,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS201",
+    "clarification": null,
+    "title": "Shadows",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 1,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS202",
+    "clarification": null,
+    "title": "Heavy is the Head",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 2,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS203",
+    "clarification": null,
+    "title": "Making Friends and Influencing People",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 3,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS204",
+    "clarification": null,
+    "title": "Face My Enemy",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 4,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS205",
+    "clarification": null,
+    "title": "A Hen in the Wolf House",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 5,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS206",
+    "clarification": null,
+    "title": "A Fractured House",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 6,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS207",
+    "clarification": null,
+    "title": "The Writing on the Wall",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 7,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS208",
+    "clarification": null,
+    "title": "The Things We Bury",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 8,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS209",
+    "clarification": null,
+    "title": "...Ye Who Enter Here",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 9,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS210",
+    "clarification": null,
+    "title": "What They Become",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 10,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS211",
+    "clarification": null,
+    "title": "Aftershocks",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 11,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS212",
+    "clarification": null,
+    "title": "Who You Really Are",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 12,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS213",
+    "clarification": null,
+    "title": "One of Us",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 13,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS214",
+    "clarification": null,
+    "title": "Love in the Time Of HYDRA",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 14,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS215",
+    "clarification": null,
+    "title": "One Door Closes",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 15,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS217",
+    "clarification": null,
+    "title": "Melinda",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 17,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS218",
+    "clarification": null,
+    "title": "The Frenemy of My Enemy",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 18,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS219",
+    "clarification": null,
+    "title": "The Dirty Half Dozen",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 19,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS220",
+    "clarification": null,
+    "title": "Scars",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 20,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS221",
+    "clarification": null,
+    "title": "S.O.S. Part One",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 21,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS222",
+    "clarification": null,
+    "title": "S.O.S. Part Two",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 22,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS301",
+    "clarification": null,
+    "title": "Laws of Nature",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 1,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS302",
+    "clarification": null,
+    "title": "Purpose in the Machine",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 2,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS303",
+    "clarification": null,
+    "title": "A Wanted (Inhu)man",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 3,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS304",
+    "clarification": null,
+    "title": "Devils You Know",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 4,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS305",
+    "clarification": null,
+    "title": "4,722 Hours",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 5,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS306",
+    "clarification": null,
+    "title": "Among Us Hide...",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 6,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS307",
+    "clarification": null,
+    "title": "Chaos Theory",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 7,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS308",
+    "clarification": null,
+    "title": "Many Heads, One Tale",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 8,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS309",
+    "clarification": null,
+    "title": "Closure",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 9,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS310",
+    "clarification": null,
+    "title": "Maveth",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 10,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS311",
+    "clarification": null,
+    "title": "Bouncing Back",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 11,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS312",
+    "clarification": null,
+    "title": "The Inside Man",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 12,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS313",
+    "clarification": null,
+    "title": "Parting Shot",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 13,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS315",
+    "clarification": null,
+    "title": "Spacetime",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 15,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS316",
+    "clarification": null,
+    "title": "Paradise Lost",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 16,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS317",
+    "clarification": null,
+    "title": "The Team",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 17,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS318",
+    "clarification": null,
+    "title": "The Singularity",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 18,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS319",
+    "clarification": null,
+    "title": "Failed Experiments",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 19,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS320",
+    "clarification": null,
+    "title": "Emancipation",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 20,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS321",
+    "clarification": null,
+    "title": "Absolution",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 21,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS322",
+    "clarification": null,
+    "title": "Ascension",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 22,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS401",
+    "clarification": null,
+    "title": "The Ghost",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 1,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS402",
+    "clarification": null,
+    "title": "Meet the New Boss",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 2,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS403",
+    "clarification": null,
+    "title": "Uprising",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 3,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS404",
+    "clarification": null,
+    "title": "Let Me Stand Next to Your Fire",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 4,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS405",
+    "clarification": null,
+    "title": "Lockup",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 5,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS406",
+    "clarification": null,
+    "title": "The Good Samaritan",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 6,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS407",
+    "clarification": null,
+    "title": "Deals With Our Devils",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 7,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS408",
+    "clarification": null,
+    "title": "The Laws of Inferno Dynamics",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 8,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS409",
+    "clarification": null,
+    "title": "Broken Promises",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 9,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS410",
+    "clarification": null,
+    "title": "The Patriot",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 10,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS411",
+    "clarification": null,
+    "title": "Wake Up",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 11,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS412",
+    "clarification": null,
+    "title": "Hot Potato Soup",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 12,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS413",
+    "clarification": null,
+    "title": "BOOM",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 13,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS414",
+    "clarification": null,
+    "title": "The Man Behind the Shield",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 14,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS415",
+    "clarification": null,
+    "title": "Self Control",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 15,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS416",
+    "clarification": null,
+    "title": "What If...",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 16,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS417",
+    "clarification": null,
+    "title": "Identity and Change",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 17,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS418",
+    "clarification": null,
+    "title": "No Regrets",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 18,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS419",
+    "clarification": null,
+    "title": "All the Madame's Men",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 19,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS420",
+    "clarification": null,
+    "title": "Farewell, Cruel World!",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 20,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS421",
+    "clarification": null,
+    "title": "The Return",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 21,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS422",
+    "clarification": null,
+    "title": "World's End",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "episode": 22,
+      "season_id": "AoS4",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS501",
+    "clarification": null,
+    "title": "Orientation Part One",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 1,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS502",
+    "clarification": null,
+    "title": "Orientation Part Two",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 2,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS503",
+    "clarification": null,
+    "title": "A Life Spent",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 3,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS504",
+    "clarification": null,
+    "title": "A Life Earned",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 4,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS506",
+    "clarification": null,
+    "title": "Fun & Games",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 6,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS507",
+    "clarification": null,
+    "title": "Together or Not at All",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 7,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS508",
+    "clarification": null,
+    "title": "The Last Day",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 8,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS509",
+    "clarification": null,
+    "title": "Best Laid Plans",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 9,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS511",
+    "clarification": null,
+    "title": "All the Comforts of Home",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 11,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS512",
+    "clarification": null,
+    "title": "The Real Deal",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 12,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS514",
+    "clarification": null,
+    "title": "The Devil Complex",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 14,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS515",
+    "clarification": null,
+    "title": "Rise and Shine",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 15,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS516",
+    "clarification": null,
+    "title": "Inside Voices",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 16,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS517",
+    "clarification": null,
+    "title": "The Honeymoon",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 17,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS518",
+    "clarification": null,
+    "title": "All Roads Lead...",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 18,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS519",
+    "clarification": null,
+    "title": "Option Two",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 19,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS520",
+    "clarification": null,
+    "title": "The One Who Will Save Us All",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 20,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS521",
+    "clarification": null,
+    "title": "The Force of Gravity",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 21,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS522",
+    "clarification": null,
+    "title": "The End",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 22,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS601",
+    "clarification": null,
+    "title": "Missing Pieces",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 6,
+      "episode": 1,
+      "season_id": "AoS6",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS602",
+    "clarification": null,
+    "title": "Window of Opportunity",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 6,
+      "episode": 2,
+      "season_id": "AoS6",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS603",
+    "clarification": null,
+    "title": "Fear and Loathing on the Planet of Kitson",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 6,
+      "episode": 3,
+      "season_id": "AoS6",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS604",
+    "clarification": null,
+    "title": "Code Yellow",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 6,
+      "episode": 4,
+      "season_id": "AoS6",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS605",
+    "clarification": null,
+    "title": "The Other Thing",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 6,
+      "episode": 5,
+      "season_id": "AoS6",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS606",
+    "clarification": null,
+    "title": "Inescapable",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 6,
+      "episode": 6,
+      "season_id": "AoS6",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS607",
+    "clarification": null,
+    "title": "Toldja",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 6,
+      "episode": 7,
+      "season_id": "AoS6",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS608",
+    "clarification": null,
+    "title": "Collision Course Part One",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 6,
+      "episode": 8,
+      "season_id": "AoS6",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS609",
+    "clarification": null,
+    "title": "Collision Course Part Two",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 6,
+      "episode": 9,
+      "season_id": "AoS6",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS610",
+    "clarification": null,
+    "title": "Leap",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 6,
+      "episode": 10,
+      "season_id": "AoS6",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS611",
+    "clarification": null,
+    "title": "From the Ashes",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 6,
+      "episode": 11,
+      "season_id": "AoS6",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS612",
+    "clarification": null,
+    "title": "The Sign",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 6,
+      "episode": 12,
+      "season_id": "AoS6",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS613",
+    "clarification": null,
+    "title": "New Life",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 6,
+      "episode": 13,
+      "season_id": "AoS6",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AC101",
+    "clarification": null,
+    "title": "Now is Not the End",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 1,
+      "episode": 1,
+      "season_id": "AC1",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC102",
+    "clarification": null,
+    "title": "Bridge and Tunnel",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 1,
+      "episode": 2,
+      "season_id": "AC1",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC103",
+    "clarification": null,
+    "title": "Time and Tide",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 1,
+      "episode": 3,
+      "season_id": "AC1",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC104",
+    "clarification": null,
+    "title": "The Blitzkrieg Button",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 1,
+      "episode": 4,
+      "season_id": "AC1",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC105",
+    "clarification": null,
+    "title": "The Iron Ceiling",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 1,
+      "episode": 5,
+      "season_id": "AC1",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC106",
+    "clarification": null,
+    "title": "A Sin to Err",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 1,
+      "episode": 6,
+      "season_id": "AC1",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC107",
+    "clarification": null,
+    "title": "Snafu",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 1,
+      "episode": 7,
+      "season_id": "AC1",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC108",
+    "clarification": null,
+    "title": "Valediction",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 1,
+      "episode": 8,
+      "season_id": "AC1",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC201",
+    "clarification": null,
+    "title": "The Lady in the Lake",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 2,
+      "episode": 1,
+      "season_id": "AC2",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC202",
+    "clarification": null,
+    "title": "A View in the Dark",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 2,
+      "episode": 2,
+      "season_id": "AC2",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC203",
+    "clarification": null,
+    "title": "Better Angels",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 2,
+      "episode": 3,
+      "season_id": "AC2",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC204",
+    "clarification": null,
+    "title": "Smoke & Mirrors",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 2,
+      "episode": 4,
+      "season_id": "AC2",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC205",
+    "clarification": null,
+    "title": "The Atomic Job",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 2,
+      "episode": 5,
+      "season_id": "AC2",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC206",
+    "clarification": null,
+    "title": "Life of the Party",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 2,
+      "episode": 6,
+      "season_id": "AC2",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC207",
+    "clarification": null,
+    "title": "Monsters",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 2,
+      "episode": 7,
+      "season_id": "AC2",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC208",
+    "clarification": null,
+    "title": "The Edge of Mystery",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 2,
+      "episode": 8,
+      "season_id": "AC2",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC209",
+    "clarification": null,
+    "title": "A Little Song and Dance",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 2,
+      "episode": 9,
+      "season_id": "AC2",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC210",
+    "clarification": null,
+    "title": "Hollywood Ending",
+    "type": "tv episode",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 2,
+      "episode": 10,
+      "season_id": "AC2",
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AoSSS101",
+    "clarification": null,
+    "title": "Vendetta",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.: Slingshot",
+      "season": 1,
+      "episode": 1,
+      "season_id": "AoSSS1",
+      "series_id": "AoSSS"
+    }
+  },
+  {
+    "sid": "AoSSS102",
+    "clarification": null,
+    "title": "John Hancock",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.: Slingshot",
+      "season": 1,
+      "episode": 2,
+      "season_id": "AoSSS1",
+      "series_id": "AoSSS"
+    }
+  },
+  {
+    "sid": "AoSSS103",
+    "clarification": null,
+    "title": "Progress",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.: Slingshot",
+      "season": 1,
+      "episode": 3,
+      "season_id": "AoSSS1",
+      "series_id": "AoSSS"
+    }
+  },
+  {
+    "sid": "AoSSS105",
+    "clarification": null,
+    "title": "Deal Breaker",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.: Slingshot",
+      "season": 1,
+      "episode": 5,
+      "season_id": "AoSSS1",
+      "series_id": "AoSSS"
+    }
+  },
+  {
+    "sid": "AoSSS106",
+    "clarification": null,
+    "title": "Justicia",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.: Slingshot",
+      "season": 1,
+      "episode": 6,
+      "season_id": "AoSSS1",
+      "series_id": "AoSSS"
+    }
+  },
+  {
+    "sid": "I101",
+    "clarification": null,
+    "title": "Behold…The Inhumans!",
+    "type": "tv episode",
+    "details": {
+      "series": "Inhumans (TV series)",
+      "season": 1,
+      "episode": 1,
+      "season_id": "I1",
+      "series_id": "I"
+    }
+  },
+  {
+    "sid": "I102",
+    "clarification": null,
+    "title": "Those Who Would Destroy Us",
+    "type": "tv episode",
+    "details": {
+      "series": "Inhumans (TV series)",
+      "season": 1,
+      "episode": 2,
+      "season_id": "I1",
+      "series_id": "I"
+    }
+  },
+  {
+    "sid": "I103",
+    "clarification": null,
+    "title": "Divide -- And Conquer",
+    "type": "tv episode",
+    "details": {
+      "series": "Inhumans (TV series)",
+      "season": 1,
+      "episode": 3,
+      "season_id": "I1",
+      "series_id": "I"
+    }
+  },
+  {
+    "sid": "I104",
+    "clarification": null,
+    "title": "Make Way For... Medusa",
+    "type": "tv episode",
+    "details": {
+      "series": "Inhumans (TV series)",
+      "season": 1,
+      "episode": 4,
+      "season_id": "I1",
+      "series_id": "I"
+    }
+  },
+  {
+    "sid": "I105",
+    "clarification": null,
+    "title": "Something Inhuman This Way Comes...",
+    "type": "tv episode",
+    "details": {
+      "series": "Inhumans (TV series)",
+      "season": 1,
+      "episode": 5,
+      "season_id": "I1",
+      "series_id": "I"
+    }
+  },
+  {
+    "sid": "I106",
+    "clarification": null,
+    "title": "The Gentleman's Name is Gorgon",
+    "type": "tv episode",
+    "details": {
+      "series": "Inhumans (TV series)",
+      "season": 1,
+      "episode": 6,
+      "season_id": "I1",
+      "series_id": "I"
+    }
+  },
+  {
+    "sid": "I107",
+    "clarification": null,
+    "title": "Havoc in the Hidden Land",
+    "type": "tv episode",
+    "details": {
+      "series": "Inhumans (TV series)",
+      "season": 1,
+      "episode": 7,
+      "season_id": "I1",
+      "series_id": "I"
+    }
+  },
+  {
+    "sid": "I108",
+    "clarification": null,
+    "title": "...And Finally: Black Bolt",
+    "type": "tv episode",
+    "details": {
+      "series": "Inhumans (TV series)",
+      "season": 1,
+      "episode": 8,
+      "season_id": "I1",
+      "series_id": "I"
+    }
+  },
+  {
+    "sid": "DD101",
+    "clarification": null,
+    "title": "Into the Ring",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 1,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD102",
+    "clarification": null,
+    "title": "Cut Man",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 2,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD104",
+    "clarification": null,
+    "title": "In the Blood",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 4,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD105",
+    "clarification": null,
+    "title": "World on Fire",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 5,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD106",
+    "clarification": null,
+    "title": "Condemned",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 6,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD108",
+    "clarification": null,
+    "title": "Shadows in the Glass",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 8,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD109",
+    "clarification": null,
+    "title": "Speak of the Devil",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 9,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD110",
+    "clarification": null,
+    "title": "Nelson v. Murdock",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 10,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD111",
+    "clarification": null,
+    "title": "The Path of the Righteous",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 11,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD112",
+    "clarification": null,
+    "title": "The Ones We Leave Behind",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 12,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD201",
+    "clarification": null,
+    "title": "Bang",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 2,
+      "episode": 1,
+      "season_id": "DD2",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD202",
+    "clarification": null,
+    "title": "Dogs to a Gunfight",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 2,
+      "episode": 2,
+      "season_id": "DD2",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD203",
+    "clarification": null,
+    "title": "New York's Finest",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 2,
+      "episode": 3,
+      "season_id": "DD2",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD204",
+    "clarification": null,
+    "title": "Penny and Dime",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 2,
+      "episode": 4,
+      "season_id": "DD2",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD205",
+    "clarification": null,
+    "title": "Kinbaku",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 2,
+      "episode": 5,
+      "season_id": "DD2",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD206",
+    "clarification": null,
+    "title": "Regrets Only",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 2,
+      "episode": 6,
+      "season_id": "DD2",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD207",
+    "clarification": null,
+    "title": "Semper Fidelis",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 2,
+      "episode": 7,
+      "season_id": "DD2",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD208",
+    "clarification": null,
+    "title": "Guilty as Sin",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 2,
+      "episode": 8,
+      "season_id": "DD2",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD209",
+    "clarification": null,
+    "title": "Seven Minutes in Heaven",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 2,
+      "episode": 9,
+      "season_id": "DD2",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD210",
+    "clarification": null,
+    "title": "The Man in the Box",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 2,
+      "episode": 10,
+      "season_id": "DD2",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD211",
+    "clarification": null,
+    "title": ".380",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 2,
+      "episode": 11,
+      "season_id": "DD2",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD212",
+    "clarification": null,
+    "title": "The Dark at the End of the Tunnel",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 2,
+      "episode": 12,
+      "season_id": "DD2",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD213",
+    "clarification": null,
+    "title": "A Cold Day in Hell's Kitchen",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 2,
+      "episode": 13,
+      "season_id": "DD2",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD301",
+    "clarification": null,
+    "title": "Resurrection",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "episode": 1,
+      "season_id": "DD3",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD302",
+    "clarification": null,
+    "title": "Please",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "episode": 2,
+      "season_id": "DD3",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD303",
+    "clarification": null,
+    "title": "No Good Deed",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "episode": 3,
+      "season_id": "DD3",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD304",
+    "clarification": null,
+    "title": "Blindsided",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "episode": 4,
+      "season_id": "DD3",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD305",
+    "clarification": null,
+    "title": "The Perfect Game",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "episode": 5,
+      "season_id": "DD3",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD306",
+    "clarification": null,
+    "title": "The Devil You Know",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "episode": 6,
+      "season_id": "DD3",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD307",
+    "clarification": null,
+    "title": "Aftermath",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "episode": 7,
+      "season_id": "DD3",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD308",
+    "clarification": null,
+    "title": "Upstairs/Downstairs",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "episode": 8,
+      "season_id": "DD3",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD309",
+    "clarification": null,
+    "title": "Revelations",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "episode": 9,
+      "season_id": "DD3",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD312",
+    "clarification": null,
+    "title": "One Last Shot",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "episode": 12,
+      "season_id": "DD3",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD313",
+    "clarification": null,
+    "title": "A New Napkin",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "episode": 13,
+      "season_id": "DD3",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "JJ101",
+    "clarification": null,
+    "title": "AKA Ladies Night",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 1,
+      "episode": 1,
+      "season_id": "JJ1",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ102",
+    "clarification": null,
+    "title": "AKA Crush Syndrome",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 1,
+      "episode": 2,
+      "season_id": "JJ1",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ103",
+    "clarification": null,
+    "title": "AKA It's Called Whiskey",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 1,
+      "episode": 3,
+      "season_id": "JJ1",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ104",
+    "clarification": null,
+    "title": "AKA 99 Friends",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 1,
+      "episode": 4,
+      "season_id": "JJ1",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ105",
+    "clarification": null,
+    "title": "AKA The Sandwich Saved Me",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 1,
+      "episode": 5,
+      "season_id": "JJ1",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ106",
+    "clarification": null,
+    "title": "AKA You're a Winner!",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 1,
+      "episode": 6,
+      "season_id": "JJ1",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ107",
+    "clarification": null,
+    "title": "AKA Top Shelf Perverts",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 1,
+      "episode": 7,
+      "season_id": "JJ1",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ108",
+    "clarification": null,
+    "title": "AKA WWJD?",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 1,
+      "episode": 8,
+      "season_id": "JJ1",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ109",
+    "clarification": null,
+    "title": "AKA Sin Bin",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 1,
+      "episode": 9,
+      "season_id": "JJ1",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ110",
+    "clarification": null,
+    "title": "AKA 1,000 Cuts",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 1,
+      "episode": 10,
+      "season_id": "JJ1",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ111",
+    "clarification": null,
+    "title": "AKA I've Got the Blues",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 1,
+      "episode": 11,
+      "season_id": "JJ1",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ112",
+    "clarification": null,
+    "title": "AKA Take a Bloody Number",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 1,
+      "episode": 12,
+      "season_id": "JJ1",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ113",
+    "clarification": null,
+    "title": "AKA Smile",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 1,
+      "episode": 13,
+      "season_id": "JJ1",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ201",
+    "clarification": null,
+    "title": "AKA Start at the Beginning",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 2,
+      "episode": 1,
+      "season_id": "JJ2",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ202",
+    "clarification": null,
+    "title": "AKA Freak Accident",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 2,
+      "episode": 2,
+      "season_id": "JJ2",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ203",
+    "clarification": null,
+    "title": "AKA Sole Survivor",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 2,
+      "episode": 3,
+      "season_id": "JJ2",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ204",
+    "clarification": null,
+    "title": "AKA God Help the Hobo",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 2,
+      "episode": 4,
+      "season_id": "JJ2",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ205",
+    "clarification": null,
+    "title": "AKA The Octopus",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 2,
+      "episode": 5,
+      "season_id": "JJ2",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ206",
+    "clarification": null,
+    "title": "AKA Facetime",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 2,
+      "episode": 6,
+      "season_id": "JJ2",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ207",
+    "clarification": null,
+    "title": "AKA I Want Your Cray Cray",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 2,
+      "episode": 7,
+      "season_id": "JJ2",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ208",
+    "clarification": null,
+    "title": "AKA Ain't We Got Fun",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 2,
+      "episode": 8,
+      "season_id": "JJ2",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ209",
+    "clarification": null,
+    "title": "AKA Shark in the Bathtub, Monster in the Bed",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 2,
+      "episode": 9,
+      "season_id": "JJ2",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ210",
+    "clarification": null,
+    "title": "AKA Pork Chop",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 2,
+      "episode": 10,
+      "season_id": "JJ2",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ211",
+    "clarification": null,
+    "title": "AKA Three Lives and Counting",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 2,
+      "episode": 11,
+      "season_id": "JJ2",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ212",
+    "clarification": null,
+    "title": "AKA Pray for My Patsy",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 2,
+      "episode": 12,
+      "season_id": "JJ2",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ213",
+    "clarification": null,
+    "title": "AKA Playland",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 2,
+      "episode": 13,
+      "season_id": "JJ2",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ301",
+    "clarification": null,
+    "title": "AKA The Perfect Burger",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 3,
+      "episode": 1,
+      "season_id": "JJ3",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ302",
+    "clarification": null,
+    "title": "AKA You're Welcome",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 3,
+      "episode": 2,
+      "season_id": "JJ3",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ303",
+    "clarification": null,
+    "title": "AKA I Have No Spleen",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 3,
+      "episode": 3,
+      "season_id": "JJ3",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ304",
+    "clarification": null,
+    "title": "AKA Customer Service is Standing By",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 3,
+      "episode": 4,
+      "season_id": "JJ3",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ305",
+    "clarification": null,
+    "title": "AKA I Wish",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 3,
+      "episode": 5,
+      "season_id": "JJ3",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ306",
+    "clarification": null,
+    "title": "AKA Sorry Face",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 3,
+      "episode": 6,
+      "season_id": "JJ3",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ307",
+    "clarification": null,
+    "title": "AKA The Double Half-Wappinger",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 3,
+      "episode": 7,
+      "season_id": "JJ3",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ308",
+    "clarification": null,
+    "title": "AKA Camera Friendly",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 3,
+      "episode": 8,
+      "season_id": "JJ3",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ309",
+    "clarification": null,
+    "title": "AKA I Did Something Today",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 3,
+      "episode": 9,
+      "season_id": "JJ3",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ310",
+    "clarification": null,
+    "title": "AKA Hero Pants",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 3,
+      "episode": 10,
+      "season_id": "JJ3",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ311",
+    "clarification": null,
+    "title": "AKA Hellcat",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 3,
+      "episode": 11,
+      "season_id": "JJ3",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ312",
+    "clarification": null,
+    "title": "AKA A Lotta Worms",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 3,
+      "episode": 12,
+      "season_id": "JJ3",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ313",
+    "clarification": null,
+    "title": "AKA Everything",
+    "type": "tv episode",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 3,
+      "episode": 13,
+      "season_id": "JJ3",
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "LC101",
+    "clarification": null,
+    "title": "Moment of Truth",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 1,
+      "episode": 1,
+      "season_id": "LC1",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC102",
+    "clarification": null,
+    "title": "Code of the Streets",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 1,
+      "episode": 2,
+      "season_id": "LC1",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC103",
+    "clarification": null,
+    "title": "Who's Gonna Take the Weight?",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 1,
+      "episode": 3,
+      "season_id": "LC1",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC104",
+    "clarification": null,
+    "title": "Step in the Arena",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 1,
+      "episode": 4,
+      "season_id": "LC1",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC105",
+    "clarification": null,
+    "title": "Just to Get a Rep",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 1,
+      "episode": 5,
+      "season_id": "LC1",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC106",
+    "clarification": null,
+    "title": "Suckas Need Bodyguards",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 1,
+      "episode": 6,
+      "season_id": "LC1",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC107",
+    "clarification": null,
+    "title": "Manifest",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 1,
+      "episode": 7,
+      "season_id": "LC1",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC108",
+    "clarification": null,
+    "title": "Blowin' Up the Spot",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 1,
+      "episode": 8,
+      "season_id": "LC1",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC109",
+    "clarification": null,
+    "title": "DWYCK",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 1,
+      "episode": 9,
+      "season_id": "LC1",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC110",
+    "clarification": null,
+    "title": "Take It Personal",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 1,
+      "episode": 10,
+      "season_id": "LC1",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC111",
+    "clarification": null,
+    "title": "Now You're Mine",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 1,
+      "episode": 11,
+      "season_id": "LC1",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC112",
+    "clarification": null,
+    "title": "Soliloquy of Chaos",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 1,
+      "episode": 12,
+      "season_id": "LC1",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC113",
+    "clarification": null,
+    "title": "You Know My Steez",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 1,
+      "episode": 13,
+      "season_id": "LC1",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC201",
+    "clarification": null,
+    "title": "Soul Brother 1",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 2,
+      "episode": 1,
+      "season_id": "LC2",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC202",
+    "clarification": null,
+    "title": "Straighten It Out",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 2,
+      "episode": 2,
+      "season_id": "LC2",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC203",
+    "clarification": null,
+    "title": "Wig Out",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 2,
+      "episode": 3,
+      "season_id": "LC2",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC204",
+    "clarification": null,
+    "title": "I Get Physical",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 2,
+      "episode": 4,
+      "season_id": "LC2",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC205",
+    "clarification": null,
+    "title": "All Souled Out",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 2,
+      "episode": 5,
+      "season_id": "LC2",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC206",
+    "clarification": null,
+    "title": "The Basement",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 2,
+      "episode": 6,
+      "season_id": "LC2",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC207",
+    "clarification": null,
+    "title": "On and On",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 2,
+      "episode": 7,
+      "season_id": "LC2",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC208",
+    "clarification": null,
+    "title": "If It Ain't Rough, It Ain't Right",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 2,
+      "episode": 8,
+      "season_id": "LC2",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC209",
+    "clarification": null,
+    "title": "For Pete's Sake",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 2,
+      "episode": 9,
+      "season_id": "LC2",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC210",
+    "clarification": null,
+    "title": "The Main Ingredient",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 2,
+      "episode": 10,
+      "season_id": "LC2",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC211",
+    "clarification": null,
+    "title": "The Creator",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 2,
+      "episode": 11,
+      "season_id": "LC2",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC212",
+    "clarification": null,
+    "title": "Can't Front on Me",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 2,
+      "episode": 12,
+      "season_id": "LC2",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC213",
+    "clarification": null,
+    "title": "They Reminisce Over You (T.R.O.Y.)",
+    "type": "tv episode",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 2,
+      "episode": 13,
+      "season_id": "LC2",
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "IF101",
+    "clarification": null,
+    "title": "Snow Gives Way",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 1,
+      "episode": 1,
+      "season_id": "IF1",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF102",
+    "clarification": null,
+    "title": "Shadow Hawk Takes Flight",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 1,
+      "episode": 2,
+      "season_id": "IF1",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF103",
+    "clarification": null,
+    "title": "Rolling Thunder Cannon Punch",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 1,
+      "episode": 3,
+      "season_id": "IF1",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF104",
+    "clarification": null,
+    "title": "Eight Diagram Dragon Palm",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 1,
+      "episode": 4,
+      "season_id": "IF1",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF105",
+    "clarification": null,
+    "title": "Under Leaf Pluck Lotus",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 1,
+      "episode": 5,
+      "season_id": "IF1",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF106",
+    "clarification": null,
+    "title": "Immortal Emerges from Cave",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 1,
+      "episode": 6,
+      "season_id": "IF1",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF107",
+    "clarification": null,
+    "title": "Felling Tree with Roots",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 1,
+      "episode": 7,
+      "season_id": "IF1",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF108",
+    "clarification": null,
+    "title": "The Blessing of Many Fractures",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 1,
+      "episode": 8,
+      "season_id": "IF1",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF109",
+    "clarification": null,
+    "title": "The Mistress of All Agonies",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 1,
+      "episode": 9,
+      "season_id": "IF1",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF110",
+    "clarification": null,
+    "title": "Black Tiger Steals Heart",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 1,
+      "episode": 10,
+      "season_id": "IF1",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF111",
+    "clarification": null,
+    "title": "Lead Horse Back to Stable",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 1,
+      "episode": 11,
+      "season_id": "IF1",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF112",
+    "clarification": null,
+    "title": "Bar the Big Boss",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 1,
+      "episode": 12,
+      "season_id": "IF1",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF113",
+    "clarification": null,
+    "title": "Dragon Plays with Fire",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 1,
+      "episode": 13,
+      "season_id": "IF1",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF201",
+    "clarification": null,
+    "title": "The Fury of Iron Fist",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 2,
+      "episode": 1,
+      "season_id": "IF2",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF202",
+    "clarification": null,
+    "title": "The City's Not for Burning",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 2,
+      "episode": 2,
+      "season_id": "IF2",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF203",
+    "clarification": null,
+    "title": "This Deadly Secret",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 2,
+      "episode": 3,
+      "season_id": "IF2",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF204",
+    "clarification": null,
+    "title": "Target: Iron Fist",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 2,
+      "episode": 4,
+      "season_id": "IF2",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF205",
+    "clarification": null,
+    "title": "Heart of the Dragon",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 2,
+      "episode": 5,
+      "season_id": "IF2",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF206",
+    "clarification": null,
+    "title": "The Dragon Dies at Dawn",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 2,
+      "episode": 6,
+      "season_id": "IF2",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF207",
+    "clarification": null,
+    "title": "Morning of the Mindstorm",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 2,
+      "episode": 7,
+      "season_id": "IF2",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF208",
+    "clarification": null,
+    "title": "Citadel on the Edge of Vengeance",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 2,
+      "episode": 8,
+      "season_id": "IF2",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF209",
+    "clarification": null,
+    "title": "War Without End",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 2,
+      "episode": 9,
+      "season_id": "IF2",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF210",
+    "clarification": null,
+    "title": "A Duel of Iron",
+    "type": "tv episode",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 2,
+      "episode": 10,
+      "season_id": "IF2",
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "TD101",
+    "clarification": null,
+    "title": "The H Word",
+    "type": "tv episode",
+    "details": {
+      "series": "The Defenders",
+      "season": 1,
+      "episode": 1,
+      "season_id": "TD1",
+      "series_id": "TD"
+    }
+  },
+  {
+    "sid": "TD102",
+    "clarification": null,
+    "title": "Mean Right Hook",
+    "type": "tv episode",
+    "details": {
+      "series": "The Defenders",
+      "season": 1,
+      "episode": 2,
+      "season_id": "TD1",
+      "series_id": "TD"
+    }
+  },
+  {
+    "sid": "TD103",
+    "clarification": null,
+    "title": "Worst Behavior",
+    "type": "tv episode",
+    "details": {
+      "series": "The Defenders",
+      "season": 1,
+      "episode": 3,
+      "season_id": "TD1",
+      "series_id": "TD"
+    }
+  },
+  {
+    "sid": "TD105",
+    "clarification": null,
+    "title": "Take Shelter",
+    "type": "tv episode",
+    "details": {
+      "series": "The Defenders",
+      "season": 1,
+      "episode": 5,
+      "season_id": "TD1",
+      "series_id": "TD"
+    }
+  },
+  {
+    "sid": "TD106",
+    "clarification": null,
+    "title": "Ashes, Ashes",
+    "type": "tv episode",
+    "details": {
+      "series": "The Defenders",
+      "season": 1,
+      "episode": 6,
+      "season_id": "TD1",
+      "series_id": "TD"
+    }
+  },
+  {
+    "sid": "TD107",
+    "clarification": null,
+    "title": "Fish in the Jailhouse",
+    "type": "tv episode",
+    "details": {
+      "series": "The Defenders",
+      "season": 1,
+      "episode": 7,
+      "season_id": "TD1",
+      "series_id": "TD"
+    }
+  },
+  {
+    "sid": "TP101",
+    "clarification": null,
+    "title": "3 AM",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "episode": 1,
+      "season_id": "TP1",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP102",
+    "clarification": null,
+    "title": "Two Dead Men",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "episode": 2,
+      "season_id": "TP1",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP104",
+    "clarification": null,
+    "title": "Resupply",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "episode": 4,
+      "season_id": "TP1",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP106",
+    "clarification": null,
+    "title": "The Judas Goat",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "episode": 6,
+      "season_id": "TP1",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP107",
+    "clarification": null,
+    "title": "Crosshairs",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "episode": 7,
+      "season_id": "TP1",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP108",
+    "clarification": null,
+    "title": "Cold Steel",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "episode": 8,
+      "season_id": "TP1",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP109",
+    "clarification": null,
+    "title": "Front Toward Enemy",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "episode": 9,
+      "season_id": "TP1",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP110",
+    "clarification": null,
+    "title": "Virtue of the Vicious",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "episode": 10,
+      "season_id": "TP1",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP111",
+    "clarification": null,
+    "title": "Danger Close",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "episode": 11,
+      "season_id": "TP1",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP112",
+    "clarification": null,
+    "title": "Home",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "episode": 12,
+      "season_id": "TP1",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP113",
+    "clarification": null,
+    "title": "Memento Mori",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "episode": 13,
+      "season_id": "TP1",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP201",
+    "clarification": null,
+    "title": "Roadhouse Blues",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 2,
+      "episode": 1,
+      "season_id": "TP2",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP202",
+    "clarification": null,
+    "title": "Fight or Flight",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 2,
+      "episode": 2,
+      "season_id": "TP2",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP203",
+    "clarification": null,
+    "title": "Trouble the Water",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 2,
+      "episode": 3,
+      "season_id": "TP2",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP204",
+    "clarification": null,
+    "title": "Scar Tissue",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 2,
+      "episode": 4,
+      "season_id": "TP2",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP205",
+    "clarification": null,
+    "title": "One-Eyed Jacks",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 2,
+      "episode": 5,
+      "season_id": "TP2",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP206",
+    "clarification": null,
+    "title": "Nakazat",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 2,
+      "episode": 6,
+      "season_id": "TP2",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP207",
+    "clarification": null,
+    "title": "One Bad Day",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 2,
+      "episode": 7,
+      "season_id": "TP2",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP208",
+    "clarification": null,
+    "title": "My Brother's Keeper",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 2,
+      "episode": 8,
+      "season_id": "TP2",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP209",
+    "clarification": null,
+    "title": "Flustercluck",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 2,
+      "episode": 9,
+      "season_id": "TP2",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP210",
+    "clarification": null,
+    "title": "The Dark Hearts of Men",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 2,
+      "episode": 10,
+      "season_id": "TP2",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP211",
+    "clarification": null,
+    "title": "The Abyss",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 2,
+      "episode": 11,
+      "season_id": "TP2",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP212",
+    "clarification": null,
+    "title": "Collision Course",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 2,
+      "episode": 12,
+      "season_id": "TP2",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP213",
+    "clarification": null,
+    "title": "The Whirlwind",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 2,
+      "episode": 13,
+      "season_id": "TP2",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "R103",
+    "clarification": null,
+    "title": "Destiny",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 1,
+      "episode": 3,
+      "season_id": "R1",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R104",
+    "clarification": null,
+    "title": "Fifteen",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 1,
+      "episode": 4,
+      "season_id": "R1",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R105",
+    "clarification": null,
+    "title": "Kingdom",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 1,
+      "episode": 5,
+      "season_id": "R1",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R106",
+    "clarification": null,
+    "title": "Metamorphosis",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 1,
+      "episode": 6,
+      "season_id": "R1",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R107",
+    "clarification": null,
+    "title": "Refraction",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 1,
+      "episode": 7,
+      "season_id": "R1",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R108",
+    "clarification": null,
+    "title": "Tsunami",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 1,
+      "episode": 8,
+      "season_id": "R1",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R109",
+    "clarification": null,
+    "title": "Doomsday",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 1,
+      "episode": 9,
+      "season_id": "R1",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R110",
+    "clarification": null,
+    "title": "Hostile",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 1,
+      "episode": 10,
+      "season_id": "R1",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R201",
+    "clarification": null,
+    "title": "Gimmie Shelter",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "episode": 1,
+      "season_id": "R2",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R202",
+    "clarification": null,
+    "title": "Radio On",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "episode": 2,
+      "season_id": "R2",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R203",
+    "clarification": null,
+    "title": "Double Zeros",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "episode": 3,
+      "season_id": "R2",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R204",
+    "clarification": null,
+    "title": "Old School",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "episode": 4,
+      "season_id": "R2",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R205",
+    "clarification": null,
+    "title": "Rock Bottom",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "episode": 5,
+      "season_id": "R2",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R206",
+    "clarification": null,
+    "title": "Bury Another",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "episode": 6,
+      "season_id": "R2",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R207",
+    "clarification": null,
+    "title": "Last Rites",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "episode": 7,
+      "season_id": "R2",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R209",
+    "clarification": null,
+    "title": "Big Shot",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "episode": 9,
+      "season_id": "R2",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R210",
+    "clarification": null,
+    "title": "Hostile Takeover",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "episode": 10,
+      "season_id": "R2",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R211",
+    "clarification": null,
+    "title": "Last Waltz",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "episode": 11,
+      "season_id": "R2",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R212",
+    "clarification": null,
+    "title": "Earth Angel",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "episode": 12,
+      "season_id": "R2",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R213",
+    "clarification": null,
+    "title": "Split Up",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "episode": 13,
+      "season_id": "R2",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R301",
+    "clarification": null,
+    "title": "Smoke and Mirrors",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 3,
+      "episode": 1,
+      "season_id": "R3",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R302",
+    "clarification": null,
+    "title": "The Great Escape",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 3,
+      "episode": 2,
+      "season_id": "R3",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R303",
+    "clarification": null,
+    "title": "Lord of Lies",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 3,
+      "episode": 3,
+      "season_id": "R3",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R304",
+    "clarification": null,
+    "title": "Rite of Thunder",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 3,
+      "episode": 4,
+      "season_id": "R3",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R305",
+    "clarification": null,
+    "title": "Enter The Dreamland",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 3,
+      "episode": 5,
+      "season_id": "R3",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R306",
+    "clarification": null,
+    "title": "Merry Meet Again",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 3,
+      "episode": 6,
+      "season_id": "R3",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R307",
+    "clarification": null,
+    "title": "Left-Hand Path",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 3,
+      "episode": 7,
+      "season_id": "R3",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R308",
+    "clarification": null,
+    "title": "Devil's Torture Chamber",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 3,
+      "episode": 8,
+      "season_id": "R3",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R309",
+    "clarification": null,
+    "title": "The Broken Circle",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 3,
+      "episode": 9,
+      "season_id": "R3",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R310",
+    "clarification": null,
+    "title": "Cheat The Gallows",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 3,
+      "episode": 10,
+      "season_id": "R3",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "C&D101",
+    "clarification": null,
+    "title": "First Light",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 1,
+      "episode": 1,
+      "season_id": "C&D1",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D102",
+    "clarification": null,
+    "title": "Suicide Sprints",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 1,
+      "episode": 2,
+      "season_id": "C&D1",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D103",
+    "clarification": null,
+    "title": "Stained Glass",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 1,
+      "episode": 3,
+      "season_id": "C&D1",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D104",
+    "clarification": null,
+    "title": "Call/Response",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 1,
+      "episode": 4,
+      "season_id": "C&D1",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D105",
+    "clarification": null,
+    "title": "Princeton Offense",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 1,
+      "episode": 5,
+      "season_id": "C&D1",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D106",
+    "clarification": null,
+    "title": "Funhouse Mirrors",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 1,
+      "episode": 6,
+      "season_id": "C&D1",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D107",
+    "clarification": null,
+    "title": "Lotus Eaters",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 1,
+      "episode": 7,
+      "season_id": "C&D1",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D108",
+    "clarification": null,
+    "title": "Ghost Stories",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 1,
+      "episode": 8,
+      "season_id": "C&D1",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D109",
+    "clarification": null,
+    "title": "Back Breaker",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 1,
+      "episode": 9,
+      "season_id": "C&D1",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D110",
+    "clarification": null,
+    "title": "Colony Collapse",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 1,
+      "episode": 10,
+      "season_id": "C&D1",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D201",
+    "clarification": null,
+    "title": "Restless Energy",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 2,
+      "episode": 1,
+      "season_id": "C&D2",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D202",
+    "clarification": null,
+    "title": "White Lines",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 2,
+      "episode": 2,
+      "season_id": "C&D2",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D203",
+    "clarification": null,
+    "title": "Shadow Selves",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 2,
+      "episode": 3,
+      "season_id": "C&D2",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D204",
+    "clarification": null,
+    "title": "Rabbit Hold",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 2,
+      "episode": 4,
+      "season_id": "C&D2",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D205",
+    "clarification": null,
+    "title": "Alignment Chart",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 2,
+      "episode": 5,
+      "season_id": "C&D2",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D206",
+    "clarification": null,
+    "title": "B Sides",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 2,
+      "episode": 6,
+      "season_id": "C&D2",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D207",
+    "clarification": null,
+    "title": "Vikingtown Sound",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 2,
+      "episode": 7,
+      "season_id": "C&D2",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D208",
+    "clarification": null,
+    "title": "Two Player",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 2,
+      "episode": 8,
+      "season_id": "C&D2",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D209",
+    "clarification": null,
+    "title": "Blue Note",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 2,
+      "episode": 9,
+      "season_id": "C&D2",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D210",
+    "clarification": null,
+    "title": "Level Up",
+    "type": "tv episode",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 2,
+      "episode": 10,
+      "season_id": "C&D2",
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "WHiHAMC1",
+    "clarification": null,
+    "title": "WHIH Newsfront Promo",
+    "type": "web series",
+    "details": {
+      "series": "WHiH Newsfront",
+      "season": 1,
+      "episode": 1,
+      "season_id": "WHiHAMC",
+      "series_id": "WHiH"
+    }
+  },
+  {
+    "sid": "WHiHAMC2",
+    "clarification": null,
+    "title": "WHIH Newsfront Top Stories",
+    "type": "web series",
+    "details": {
+      "series": "WHiH Newsfront",
+      "season": 1,
+      "episode": 2,
+      "season_id": "WHiHAMC",
+      "series_id": "WHiH"
+    }
+  },
+  {
+    "sid": "WHiHAMC3",
+    "clarification": null,
+    "title": "WHIH EXCLUSIVE: 2012 VistaCorp break-in security footage involving cyber-criminal Scott Lang",
+    "type": "web series",
+    "details": {
+      "series": "WHiH Newsfront",
+      "season": 1,
+      "episode": 3,
+      "season_id": "WHiHAMC",
+      "series_id": "WHiH"
+    }
+  },
+  {
+    "sid": "WHiHAMC4",
+    "clarification": null,
+    "title": "WIRED Insider Interviews Darren Cross, CEO of Pym Technologies",
+    "type": "web series",
+    "details": {
+      "series": "WHiH Newsfront",
+      "season": 1,
+      "episode": 4,
+      "season_id": "WHiHAMC",
+      "series_id": "WHiH"
+    }
+  },
+  {
+    "sid": "WHiHAMC5",
+    "clarification": null,
+    "title": "WHIH EXCLUSIVE: Scott Lang Interview",
+    "type": "web series",
+    "details": {
+      "series": "WHiH Newsfront",
+      "season": 1,
+      "episode": 5,
+      "season_id": "WHiHAMC",
+      "series_id": "WHiH"
+    }
+  },
+  {
+    "sid": "WHiHCACWC1",
+    "clarification": null,
+    "title": "AVENGERS IMPACT: A WHIH Newsfront Special Report",
+    "type": "web series",
+    "details": {
+      "series": "WHiH Newsfront",
+      "season": 2,
+      "episode": 1,
+      "season_id": "WHiHCACWC",
+      "series_id": "WHiH"
+    }
+  },
+  {
+    "sid": "WHiHCACWC2",
+    "clarification": null,
+    "title": "WHIH Newsfront: The Cost of Saving the World",
+    "type": "web series",
+    "details": {
+      "series": "WHiH Newsfront",
+      "season": 2,
+      "episode": 2,
+      "season_id": "WHiHCACWC",
+      "series_id": "WHiH"
+    }
+  },
+  {
+    "sid": "WHiHCACWC3",
+    "clarification": null,
+    "title": "WHIH Newsfront: The Avengers and The White House",
+    "type": "web series",
+    "details": {
+      "series": "WHiH Newsfront",
+      "season": 2,
+      "episode": 3,
+      "season_id": "WHiHCACWC",
+      "series_id": "WHiH"
+    }
+  },
+  {
+    "sid": "WHiHCACWC4",
+    "clarification": null,
+    "title": "WHIH Newsfront Exclusive: President Ellis Discusses the Avengers",
+    "type": "web series",
+    "details": {
+      "series": "WHiH Newsfront",
+      "season": 2,
+      "episode": 4,
+      "season_id": "WHiHCACWC",
+      "series_id": "WHiH"
+    }
+  },
+  {
+    "sid": "WHiHCACWC5",
+    "clarification": null,
+    "title": "WHIH Breaking News: Attack in Lagos",
+    "type": "web series",
+    "details": {
+      "series": "WHiH Newsfront",
+      "season": 2,
+      "episode": 5,
+      "season_id": "WHiHCACWC",
+      "series_id": "WHiH"
+    }
+  },
+  {
+    "sid": "F_IM",
+    "clarification": "(Film series)",
+    "title": "Iron Man (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_H",
+    "clarification": "(Film series)",
+    "title": "Hulk (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_T",
+    "clarification": "(Film series)",
+    "title": "Thor (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_CA",
+    "clarification": "(Film series)",
+    "title": "Captain America (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_A",
+    "clarification": "(Film series)",
+    "title": "Avengers (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_GotG",
+    "clarification": "(Film series)",
+    "title": "Guardians of the Galaxy (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_AM",
+    "clarification": "(Film series)",
+    "title": "Ant-Man (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_DS",
+    "clarification": "(Film series)",
+    "title": "Doctor Strange (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_SM",
+    "clarification": "(Film series)",
+    "title": "Spider-Man (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_BP",
+    "clarification": "(Film series)",
+    "title": "Black Panther (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "F_CM",
+    "clarification": "(Film series)",
+    "title": "Captain Marvel (Film series)",
+    "type": "film series",
+    "details": null
+  },
+  {
+    "sid": "AoS",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D.",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "AoS1",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D./Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS2",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D./Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS3",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D./Season Three",
+    "type": "tv season",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS4",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D./Season Four",
+    "type": "tv season",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 4,
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS5",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D./Season Five",
+    "type": "tv season",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS6",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D./Season Six",
+    "type": "tv season",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 6,
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AC",
+    "clarification": "(TV series)",
+    "title": "Agent Carter (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "AC1",
+    "clarification": null,
+    "title": "Agent Carter (TV series)/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 1,
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AC2",
+    "clarification": null,
+    "title": "Agent Carter (TV series)/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Agent Carter (TV series)",
+      "season": 2,
+      "series_id": "AC"
+    }
+  },
+  {
+    "sid": "AoSSS",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D.: Slingshot",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "AoSSS1",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D.: Slingshot/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.: Slingshot",
+      "season": 1,
+      "series_id": "AoSSS"
+    }
+  },
+  {
+    "sid": "I",
+    "clarification": "(TV series)",
+    "title": "Inhumans (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "I1",
+    "clarification": null,
+    "title": "Inhumans (TV series)/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Inhumans (TV series)",
+      "season": 1,
+      "series_id": "I"
+    }
+  },
+  {
+    "sid": "DD",
+    "clarification": "(TV series)",
+    "title": "Daredevil (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "DD1",
+    "clarification": null,
+    "title": "Daredevil (TV series)/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD2",
+    "clarification": null,
+    "title": "Daredevil (TV series)/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 2,
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD3",
+    "clarification": null,
+    "title": "Daredevil (TV series)/Season Three",
+    "type": "tv season",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "JJ",
+    "clarification": "(TV series)",
+    "title": "Jessica Jones (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "JJ1",
+    "clarification": null,
+    "title": "Jessica Jones (TV series)/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 1,
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ2",
+    "clarification": null,
+    "title": "Jessica Jones (TV series)/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 2,
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "JJ3",
+    "clarification": null,
+    "title": "Jessica Jones (TV series)/Season Three",
+    "type": "tv season",
+    "details": {
+      "series": "Jessica Jones (TV series)",
+      "season": 3,
+      "series_id": "JJ"
+    }
+  },
+  {
+    "sid": "LC",
+    "clarification": "(TV series)",
+    "title": "Luke Cage (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "LC1",
+    "clarification": null,
+    "title": "Luke Cage (TV series)/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 1,
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "LC2",
+    "clarification": null,
+    "title": "Luke Cage (TV series)/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Luke Cage (TV series)",
+      "season": 2,
+      "series_id": "LC"
+    }
+  },
+  {
+    "sid": "IF",
+    "clarification": "(TV series)",
+    "title": "Iron Fist (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "IF1",
+    "clarification": null,
+    "title": "Iron Fist (TV series)/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 1,
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "IF2",
+    "clarification": null,
+    "title": "Iron Fist (TV series)/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Iron Fist (TV series)",
+      "season": 2,
+      "series_id": "IF"
+    }
+  },
+  {
+    "sid": "TD",
+    "clarification": null,
+    "title": "The Defenders",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "TD1",
+    "clarification": null,
+    "title": "The Defenders/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "The Defenders",
+      "season": 1,
+      "series_id": "TD"
+    }
+  },
+  {
+    "sid": "TP",
+    "clarification": null,
+    "title": "The Punisher",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "TP1",
+    "clarification": null,
+    "title": "The Punisher/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP2",
+    "clarification": null,
+    "title": "The Punisher/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "The Punisher",
+      "season": 2,
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "R",
+    "clarification": "(TV series)",
+    "title": "Runaways (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "R1",
+    "clarification": null,
+    "title": "Runaways (TV series)/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 1,
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R2",
+    "clarification": null,
+    "title": "Runaways (TV series)/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "R3",
+    "clarification": null,
+    "title": "Runaways (TV series)/Season Three",
+    "type": "tv season",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 3,
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "C&D",
+    "clarification": null,
+    "title": "Cloak & Dagger",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "C&D1",
+    "clarification": null,
+    "title": "Cloak & Dagger/Season One",
+    "type": "tv season",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 1,
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "C&D2",
+    "clarification": null,
+    "title": "Cloak & Dagger/Season Two",
+    "type": "tv season",
+    "details": {
+      "series": "Cloak & Dagger",
+      "season": 2,
+      "series_id": "C&D"
+    }
+  },
+  {
+    "sid": "WHiH",
+    "clarification": null,
+    "title": "WHiH Newsfront",
+    "type": "web series",
+    "details": null
+  },
+  {
+    "sid": "WHiHAMC",
+    "clarification": null,
+    "title": "WHiH Newsfront/Season One",
+    "type": "web series",
+    "details": {
+      "series": "WHiH Newsfront",
+      "season": 1,
+      "series_id": "WHiH"
+    }
+  },
+  {
+    "sid": "WHiHCACWC",
+    "clarification": null,
+    "title": "WHiH Newsfront/Season Two",
+    "type": "web series",
+    "details": {
+      "series": "WHiH Newsfront",
+      "season": 2,
+      "series_id": "WHiH"
+    }
+  },
+  {
+    "sid": "AoS102",
+    "clarification": "(episode)",
+    "title": "0-8-4 (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 2,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS216",
+    "clarification": "(episode)",
+    "title": "Afterlife (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 16,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "DD113",
+    "clarification": "(episode)",
+    "title": "Daredevil (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 13,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD310",
+    "clarification": "(episode)",
+    "title": "Karen (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "episode": 10,
+      "season_id": "DD3",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "AoS510",
+    "clarification": "(Agents of S.H.I.E.L.D.)",
+    "title": "Past Life (Agents of S.H.I.E.L.D.)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 10,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "R208",
+    "clarification": "(Runaways)",
+    "title": "Past Life (Runaways)",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "episode": 8,
+      "season_id": "R2",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "AoS513",
+    "clarification": "(episode)",
+    "title": "Principia (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 13,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS118",
+    "clarification": "(episode)",
+    "title": "Providence (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 18,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "DD103",
+    "clarification": "(episode)",
+    "title": "Rabbit in a Snowstorm (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 3,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "AoSSS104",
+    "clarification": "(Agents of S.H.I.E.L.D.: Slingshot)",
+    "title": "Reunion (Agents of S.H.I.E.L.D.: Slingshot)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.: Slingshot",
+      "season": 1,
+      "episode": 4,
+      "season_id": "AoSSS1",
+      "series_id": "AoSSS"
+    }
+  },
+  {
+    "sid": "DD311",
+    "clarification": "(Daredevil)",
+    "title": "Reunion (Daredevil)",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "episode": 11,
+      "season_id": "DD3",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "R101",
+    "clarification": "(Runaways)",
+    "title": "Reunion (Runaways)",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 1,
+      "episode": 1,
+      "season_id": "R1",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "AoS505",
+    "clarification": "(Agents of S.H.I.E.L.D.)",
+    "title": "Rewind (Agents of S.H.I.E.L.D.)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 5,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "R102",
+    "clarification": "(Runaways)",
+    "title": "Rewind (Runaways)",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 1,
+      "episode": 2,
+      "season_id": "R1",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "TD104",
+    "clarification": "(episode)",
+    "title": "Royal Dragon (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "The Defenders",
+      "season": 1,
+      "episode": 4,
+      "season_id": "TD1",
+      "series_id": "TD"
+    }
+  },
+  {
+    "sid": "DD107",
+    "clarification": "(episode)",
+    "title": "Stick (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 7,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "TD108",
+    "clarification": "(episode)",
+    "title": "The Defenders (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "The Defenders",
+      "season": 1,
+      "episode": 8,
+      "season_id": "TD1",
+      "series_id": "TD"
+    }
+  },
+  {
+    "sid": "AoS314",
+    "clarification": "(episode)",
+    "title": "Watchdogs (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 14,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D.: Double Agent",
+    "type": "web series",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Ant-Man 3",
+    "type": "movie",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Ant-Man and the Wasp Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Avengers: Age of Ultron Episode 0",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Avengers: Endgame Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Black Panther II",
+    "type": "movie",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": "(film)",
+    "title": "Black Widow (film)",
+    "type": "movie",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Black Widow Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Captain America: Evil Lurks Everywhere",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Captain America: The Winter Soldier Infinite Comic",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Captain Marvel 2",
+    "type": "movie",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Captain Marvel Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "type": "movie",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Doctor Strange: Episode 0",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Guardians of the Galaxy Prequel Infinite Comic",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Guardians of the Galaxy Vol. 3",
+    "type": "movie",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": "(TV series)",
+    "title": "Hawkeye (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Infiltrating the Set",
+    "type": "web series",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Iron Man: The Price of Doing Business",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": "(TV series)",
+    "title": "Loki (TV series)",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "New York Bulletin/Promotional Campaign",
+    "type": "web series",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Nick Fury: Spies Like Us",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "type": "movie",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Spider-Man 3",
+    "type": "movie",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Spider-Man: Far From Home Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Spider-Man: Homecoming: School of Shock",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Stark Expo/Promotional Campaign",
+    "type": "web series",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Team Darryl",
+    "type": "web series",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Team Thor",
+    "type": "web series",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Team Thor: Part 2",
+    "type": "web series",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "The Avengers: Cutting Edge",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "The Falcon and the Winter Soldier",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "Thor: Love and Thunder",
+    "type": "movie",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": "(web series)",
+    "title": "WHiH Newsfront (web series)",
+    "type": "web series",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "WandaVision",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": null,
+    "clarification": null,
+    "title": "What If...?",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "TP103",
+    "clarification": "(episode)",
+    "title": "Kandahar (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "episode": 3,
+      "season_id": "TP1",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP105",
+    "clarification": "(episode)",
+    "title": "Gunner (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "episode": 5,
+      "season_id": "TP1",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TRPC",
+    "clarification": null,
+    "title": "Thor: Ragnarok Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "TTMA",
+    "clarification": null,
+    "title": "Thor, The Mighty Avenger",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "AAOUTSI",
+    "clarification": null,
+    "title": "Avengers: Age of Ultron Prelude - This Scepter'd Isle",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "CAFV",
+    "clarification": null,
+    "title": "Captain America: First Vengeance",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "CATFAA",
+    "clarification": null,
+    "title": "Captain America: The First Avenger Adaptation",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "AIWP",
+    "clarification": null,
+    "title": "Avengers: Infinity War Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "TATAI",
+    "clarification": null,
+    "title": "The Avengers: The Avengers Initiative",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "CA&TA",
+    "clarification": null,
+    "title": "Captain America & Thor: Avengers!",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "MOSAC",
+    "clarification": null,
+    "title": "Marvel One-Shot: Agent Carter",
+    "type": "oneshot",
+    "details": null
+  },
+  {
+    "sid": "AHTK",
+    "clarification": null,
+    "title": "Marvel One-Shot: All Hail the King",
+    "type": "oneshot",
+    "details": null
+  },
+  {
+    "sid": "IM2PI",
+    "clarification": null,
+    "title": "Iron Man 2: Public Identity",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "AMLTL",
+    "clarification": null,
+    "title": "Ant-Man: Larger Than Life",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "IM3P",
+    "clarification": null,
+    "title": "Iron Man 3 Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "AMP",
+    "clarification": null,
+    "title": "Ant-Man Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "DSP",
+    "clarification": null,
+    "title": "Doctor Strange Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "DSPTZ",
+    "clarification": null,
+    "title": "Doctor Strange Prelude - The Zealot",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "BPP",
+    "clarification": null,
+    "title": "Black Panther Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "TTDWP",
+    "clarification": null,
+    "title": "Thor: The Dark World Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "TIHTBP",
+    "clarification": null,
+    "title": "The Incredible Hulk: The Big Picture",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "TIHTFF",
+    "clarification": null,
+    "title": "The Incredible Hulk: The Fury Files",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "IMFF",
+    "clarification": null,
+    "title": "Iron Man: Fast Friends",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "IMLE",
+    "clarification": null,
+    "title": "Iron Man: Limited Edition",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "IMSM",
+    "clarification": null,
+    "title": "Iron Man: Security Measures",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "TAIMMVII",
+    "clarification": null,
+    "title": "The Avengers: Iron Man Mark VII",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "IMIAIM!",
+    "clarification": null,
+    "title": "Iron Man: I Am Iron Man!",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "IMPCAoS",
+    "clarification": null,
+    "title": "Iron Man 2: Phil Coulson: Agent of S.H.I.E.L.D.",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "IM2SB",
+    "clarification": null,
+    "title": "Iron Man 2: Security Breach",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "IMWOEP?",
+    "clarification": null,
+    "title": "Iron Man: Will Online Evils Prevail?",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "IM2NFDoS",
+    "clarification": null,
+    "title": "Iron Man 2: Nick Fury: Director of S.H.I.E.L.D.",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "IMRPCC",
+    "clarification": null,
+    "title": "Iron Man Royal Purple Custom Comic",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "IM2FoI",
+    "clarification": null,
+    "title": "Iron Man 2: Fist of Iron",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "IM2BWAoS",
+    "clarification": null,
+    "title": "Iron Man 2: Black Widow: Agent of S.H.I.E.L.D.",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "IM2AC",
+    "clarification": null,
+    "title": "Iron Man 2 Adaptation",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "TAPFBW",
+    "clarification": null,
+    "title": "The Avengers Prelude: Fury's Big Week",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "T1A",
+    "clarification": null,
+    "title": "Thor Adaptation",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "MOSAFTHOTWTTH",
+    "clarification": null,
+    "title": "Marvel One-Shot: A Funny Thing Happened on the Way to Thor's Hammer",
+    "type": "oneshot",
+    "details": null
+  },
+  {
+    "sid": "MOSTC",
+    "clarification": null,
+    "title": "Marvel One-Shot: The Consultant",
+    "type": "oneshot",
+    "details": null
+  },
+  {
+    "sid": "AoS214",
+    "clarification": null,
+    "title": "Love in the Time of HYDRA",
+    "type": "tv series",
+    "details": null
+  },
+  {
+    "sid": "TAPBWS",
+    "clarification": null,
+    "title": "The Avengers Prelude: Black Widow Strikes",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "TAA",
+    "clarification": null,
+    "title": "The Avengers Adaptation",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "I47",
+    "clarification": null,
+    "title": "Marvel One-Shot: Item 47",
+    "type": "oneshot",
+    "details": null
+  },
+  {
+    "sid": "AMST",
+    "clarification": null,
+    "title": "Ant-Man - Scott Lang: Small Time",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "IMTCotM",
+    "clarification": null,
+    "title": "Iron Man: The Coming of the Melter",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "CACWP",
+    "clarification": null,
+    "title": "Captain America: Civil War Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "GotGP",
+    "clarification": null,
+    "title": "Guardians of the Galaxy Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "TCoF",
+    "clarification": null,
+    "title": "Thor: Crown of Fools",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "CAHC",
+    "clarification": null,
+    "title": "Captain America: Homecoming",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "AoSTC",
+    "clarification": null,
+    "title": "Agents of S.H.I.E.L.D.: The Chase",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "CACWPIC",
+    "clarification": null,
+    "title": "Captain America: Civil War Prelude Infinite Comic",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "GotGMW",
+    "clarification": null,
+    "title": "Guardians of the Galaxy: Galaxy's Most Wanted",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "GotGV2P",
+    "clarification": null,
+    "title": "Guardians of the Galaxy Vol. 2 Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "JJC",
+    "clarification": "(comic)",
+    "title": "Jessica Jones (comic)",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "AOH",
+    "clarification": null,
+    "title": "Avengers: Operation HYDRA",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "CARW",
+    "clarification": null,
+    "title": "Captain America: Road to War",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "SMHP",
+    "clarification": null,
+    "title": "Spider-Man: Homecoming Prelude",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "DSMA",
+    "clarification": null,
+    "title": "Doctor Strange: Mystic Apprentice",
+    "type": "comic",
+    "details": null
+  },
+  {
+    "sid": "PTDL",
+    "clarification": null,
+    "title": "Peter's To-Do List",
+    "type": "oneshot",
+    "details": null
+  },
+  {
+    "sid": "TDB",
+    "clarification": null,
+    "title": "The Daily Bugle/Promotional Campaign",
+    "type": "web series",
+    "details": null
+  }
+]

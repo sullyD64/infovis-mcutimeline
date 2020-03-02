@@ -1,0 +1,28 @@
+[
+  {
+    "sid": "TP103",
+    "clarification": "(episode)",
+    "title": "Kandahar (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "episode": 3,
+      "season_id": "TP1",
+      "series_id": "TP"
+    }
+  },
+  {
+    "sid": "TP105",
+    "clarification": "(episode)",
+    "title": "Gunner (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "The Punisher",
+      "season": 1,
+      "episode": 5,
+      "season_id": "TP1",
+      "series_id": "TP"
+    }
+  }
+]

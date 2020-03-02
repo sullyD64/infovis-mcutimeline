@@ -8,7 +8,7 @@ __pycache__
 *.sqlite3
 .vscode/launch.json
 # /data/input/crawled/*/*
-/data/output/*
-# /data/output/extr__s4__*
+# /data/output/*
+/data/output/extr__s4__*
 !**/.gitkeep
 migrations

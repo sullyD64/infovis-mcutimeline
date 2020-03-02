@@ -1,0 +1,2861 @@
+[
+  {
+    "eid": "E00003",
+    "file": "before-20th",
+    "line": "16",
+    "date": "c. 4,540,000,000 B.C.",
+    "reality": "Main",
+    "title": null,
+    "desc": "*Planet [[Earth]] is formed.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Earth"
+    ]
+  },
+  {
+    "eid": "E00008",
+    "file": "before-20th",
+    "line": "31",
+    "date": "c. 30,100 B.C.",
+    "reality": "Main",
+    "title": null,
+    "desc": "*The [[Eternals]], a species genetically engineered by the [[Celestials]], begin inhabiting [[Earth]] amongst the [[Humans|human]] populace.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Earth",
+      "Celestials",
+      "Humans",
+      "Eternals"
+    ]
+  },
+  {
+    "eid": "E00049",
+    "file": "before-20th",
+    "line": "147",
+    "date": "995 A.D.",
+    "reality": "Main",
+    "title": null,
+    "desc": "*The [[Kree]] and [[Skrulls]] engage in a [[Kree-Skrull War|war]] which lasts for over a thousand years.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Kree-Skrull War",
+      "Kree",
+      "Skrulls"
+    ]
+  },
+  {
+    "eid": "E00051",
+    "file": "before-20th",
+    "line": "153",
+    "date": "1015",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Thanos]] is born on [[Titan]].",
+    "multiple": false,
+    "characters": [
+      "Thanos"
+    ],
+    "non_characters": [
+      "Titan"
+    ]
+  },
+  {
+    "eid": "E00058",
+    "file": "before-20th",
+    "line": "181",
+    "date": "1316",
+    "reality": "Main",
+    "title": null,
+    "desc": "*The [[Ancient One]] is born.",
+    "multiple": false,
+    "characters": [
+      "Ancient One"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E00158",
+    "file": "before-20th",
+    "line": "565",
+    "date": "September 14th, 1869",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Abraham Erskine]] is born in [[Augsburg]], [[Germany]].",
+    "multiple": false,
+    "characters": [
+      "Abraham Erskine"
+    ],
+    "non_characters": [
+      "Augsburg",
+      "Germany"
+    ]
+  },
+  {
+    "eid": "E00166",
+    "file": "before-20th",
+    "line": "593",
+    "date": "December 3rd, 1874",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Chester Phillips]] is born.",
+    "multiple": false,
+    "characters": [
+      "Chester Phillips"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E00172",
+    "file": "before-20th",
+    "line": "613",
+    "date": "1878",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Mount Olivet Baptist Church]] is organized.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Mount Olivet Baptist Church"
+    ]
+  },
+  {
+    "eid": "E00276",
+    "file": "1910s",
+    "line": "82",
+    "date": "1914",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Camp Lehigh]] is established in [[Wheaton]], [[New Jersey]].",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "New Jersey",
+      "Camp Lehigh",
+      "Wheaton"
+    ]
+  },
+  {
+    "eid": "E00279",
+    "file": "1910s",
+    "line": "94",
+    "date": "July 28th, 1914",
+    "reality": "Main",
+    "title": null,
+    "desc": "*World War I begins.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E00289",
+    "file": "1910s",
+    "line": "133",
+    "date": "August 15th, 1917",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Howard Stark]] is born.",
+    "multiple": false,
+    "characters": [
+      "Howard Stark"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E00357",
+    "file": "1930s",
+    "line": "43",
+    "date": "1931",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Victor Torres]] is born.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Victor Torres"
+    ]
+  },
+  {
+    "eid": "E00457",
+    "file": "1940s",
+    "line": "104",
+    "date": "1942",
+    "reality": "Main",
+    "title": null,
+    "desc": "*Don Julio is introduced.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E00460",
+    "file": "1940s",
+    "line": "115",
+    "date": "February 9th, 1942",
+    "reality": "Main",
+    "title": null,
+    "desc": "*The Nazi German dictator [[Adolf Hitler]] appoints Albert Speer the General Inspector for Water and Energy.",
+    "multiple": false,
+    "characters": [
+      "Adolf Hitler"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E00542",
+    "file": "1940s",
+    "line": "356",
+    "date": "April 30th, 1945",
+    "reality": "Main",
+    "title": null,
+    "desc": "*In his bunker in [[Berlin]], [[Adolf Hitler]] appoints Grand Admiral Karl Doenitz, the Commander-in-Chief of the [[Wehrmacht|German Navy]], as his successor. Hitler commits a suicide in order to evade capture after Nazi Germany's defeat. Nazi propaganda attempts to present his death as a heroic fall in the struggle against Bolshevism.",
+    "multiple": false,
+    "characters": [
+      "Adolf Hitler"
+    ],
+    "non_characters": [
+      "Berlin",
+      "Wehrmacht"
+    ]
+  },
+  {
+    "eid": "E00547",
+    "file": "1940s",
+    "line": "373",
+    "date": "May 19th, 1945",
+    "reality": "Main",
+    "title": null,
+    "desc": "*The United States begin Operation Overcast, later renamed [[Operation Paperclip]], an effort to recruit former Nazi scientists to work for the United States.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Operation Paperclip"
+    ]
+  },
+  {
+    "eid": "E00552",
+    "file": "1940s",
+    "line": "387",
+    "date": "June 25th, 1945",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Gary Hendricks]] buys a newly printed comic about the war hero [[Captain America]], avidly reading it.",
+    "multiple": false,
+    "characters": [
+      "Gary Hendricks"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E00702",
+    "file": "1940s",
+    "line": "645",
+    "date": "May 7th, 1946",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Edwin Jarvis]] tries to help Carter with a false confession he forged with Howard Stark's name. But Dooley wants Stark in exchange for Carter and keeps them both in the office.",
+    "multiple": false,
+    "characters": [
+      "Edwin Jarvis"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E00883",
+    "file": "1940s",
+    "line": "951",
+    "date": "December 1949",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Henry Hunter]] is born.",
+    "multiple": false,
+    "characters": [
+      "Henry Hunter"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E00905",
+    "file": "1950s",
+    "line": "88",
+    "date": "October 13th, 1952",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Isodyne Energy|Isodyne Manufacturing Corporation]] transfers ownership to [[Roxxon Corporation]].",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Isodyne Energy",
+      "Roxxon Corporation"
+    ]
+  },
+  {
+    "eid": "E00908",
+    "file": "1950s",
+    "line": "98",
+    "date": "January 20th, 1953",
+    "reality": "Main",
+    "title": null,
+    "desc": "*Dwight D. Eisenhower becomes President of the United States, replacing the incumbent [[Harry S. Truman]].",
+    "multiple": false,
+    "characters": [
+      "Harry S. Truman"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E00910",
+    "file": "1950s",
+    "line": "106",
+    "date": "April 13th, 1953",
+    "reality": "Main",
+    "title": null,
+    "desc": "*The [[CIA]] officially begins Project MKUltra.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "CIA"
+    ]
+  },
+  {
+    "eid": "E00935",
+    "file": "1950s",
+    "line": "199",
+    "date": "1957",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Nelson's Meats]] opens in [[New York City]].",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Nelson's Meats",
+      "New York City"
+    ]
+  },
+  {
+    "eid": "E00969",
+    "file": "1960s",
+    "line": "60",
+    "date": "May 1961",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Wilson Fisk]] is born to [[Bill Fisk|Bill]] and [[Marlene Fisk]].",
+    "multiple": false,
+    "characters": [
+      "Bill Fisk",
+      "Wilson Fisk"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E00973",
+    "file": "1960s",
+    "line": "74",
+    "date": "September 1961",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Meredith Quill]] is born.",
+    "multiple": false,
+    "characters": [
+      "Meredith Quill"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E00990",
+    "file": "1960s",
+    "line": "127",
+    "date": "October 14th-28th, 1962",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[HYDRA]] manipulates the Cuban Missile Crisis.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "HYDRA"
+    ]
+  },
+  {
+    "eid": "E01003",
+    "file": "1960s",
+    "line": "164",
+    "date": "November 1963",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Zuri]] is born in [[Wakanda]].",
+    "multiple": false,
+    "characters": [
+      "Zuri"
+    ],
+    "non_characters": [
+      "Wakanda"
+    ]
+  },
+  {
+    "eid": "E01013",
+    "file": "1960s",
+    "line": "184",
+    "date": "1964",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Coffee A Go-Go]] is established.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Coffee A Go-Go"
+    ]
+  },
+  {
+    "eid": "E01024",
+    "file": "1960s",
+    "line": "215",
+    "date": "August 1964",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Carol Danvers]] is born to [[Joseph Danvers]] and his wife.",
+    "multiple": false,
+    "characters": [
+      "Carol Danvers",
+      "Joseph Danvers"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01056",
+    "file": "1960s",
+    "line": "314",
+    "date": "June 1967",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Jeri Hogarth]] is born.",
+    "multiple": false,
+    "characters": [
+      "Jeri Hogarth"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01075",
+    "file": "1960s",
+    "line": "371",
+    "date": "January 1968",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Lily Ellison]] is born.",
+    "multiple": false,
+    "characters": [
+      "Lily Ellison"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01190",
+    "file": "1970s",
+    "line": "273",
+    "date": "February 1974",
+    "reality": "Main",
+    "title": null,
+    "desc": "*The covered song <i>Hooked a Feeling</i> by [[Blue Sweede]] is released. This song is later featured in [[Meredith Quill|Meredith]] and [[Peter Quill]]'s mixtape <i>[[Awesome Mix Vol. 1]]</i>.",
+    "multiple": false,
+    "characters": [
+      "Peter Quill",
+      "Meredith Quill"
+    ],
+    "non_characters": [
+      "Awesome Mix Vol. 1",
+      "Blue Sweede"
+    ]
+  },
+  {
+    "eid": "E01208",
+    "file": "1970s",
+    "line": "329",
+    "date": "February 1975",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Reva Connors]] is born.",
+    "multiple": false,
+    "characters": [
+      "Reva Connors"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01215",
+    "file": "1970s",
+    "line": "354",
+    "date": "November 1975",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Albert (Royal Al Moving)|Albert]] is born.",
+    "multiple": false,
+    "characters": [
+      "Albert (Royal Al Moving)"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01218",
+    "file": "1970s",
+    "line": "365",
+    "date": "March 1976",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Dontrell Hamilton]] is born.",
+    "multiple": false,
+    "characters": [
+      "Dontrell Hamilton"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01228",
+    "file": "1970s",
+    "line": "396",
+    "date": "January 1977",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Jason Ellison]] is born.",
+    "multiple": false,
+    "characters": [
+      "Jason Ellison"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01239",
+    "file": "1970s",
+    "line": "433",
+    "date": "November 1977",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Raymond Jones]] is born.",
+    "multiple": false,
+    "characters": [
+      "Raymond Jones"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01268",
+    "file": "1970s",
+    "line": "515",
+    "date": "1979",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Hamid Madani|Hamid]] and [[Farah Madani]] move to the [[United States of America]].",
+    "multiple": false,
+    "characters": [
+      "Hamid Madani",
+      "Farah Madani"
+    ],
+    "non_characters": [
+      "United States of America"
+    ]
+  },
+  {
+    "eid": "E01293",
+    "file": "1980s",
+    "line": "25",
+    "date": "March 1980",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Robert Coleman]] is born.",
+    "multiple": false,
+    "characters": [
+      "Robert Coleman"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01299",
+    "file": "1980s",
+    "line": "45",
+    "date": "July 10th, 1980",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Foggy Nelson|Franklin Nelson]] is born to [[Edward Nelson|Edward]] and [[Anna Nelson]].",
+    "multiple": false,
+    "characters": [
+      "Edward Nelson",
+      "Anna Nelson",
+      "Foggy Nelson"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01300",
+    "file": "1980s",
+    "line": "48",
+    "date": "August 1980",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[T'Challa]] is born to Prince [[T'Chaka]] of Wakanda and his wife [[Ramonda]]. As T'Chaka's firstborn, he becomes next in line to be King of Wakanda after his father.",
+    "multiple": false,
+    "characters": [
+      "T'Chaka",
+      "Ramonda",
+      "T'Challa"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01309",
+    "file": "1980s",
+    "line": "74",
+    "date": "December 1980",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Ray Nadeem]] is born.",
+    "multiple": false,
+    "characters": [
+      "Ray Nadeem"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01314",
+    "file": "1980s",
+    "line": "91",
+    "date": "April 1981",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Nakia]] is born into the [[River Tribe]] of [[Wakanda]], and would grow up with Prince [[T'Challa]].",
+    "multiple": false,
+    "characters": [
+      "T'Challa",
+      "Nakia"
+    ],
+    "non_characters": [
+      "River Tribe",
+      "Wakanda"
+    ]
+  },
+  {
+    "eid": "E01333",
+    "file": "1980s",
+    "line": "156",
+    "date": "September 30th, 1982",
+    "reality": "Main",
+    "title": null,
+    "desc": "*<i>Cheers</i> airs its first episode in the [[United States of America]]. Peter Quill became a fan later in his life of the series",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "United States of America"
+    ]
+  },
+  {
+    "eid": "E01350",
+    "file": "1980s",
+    "line": "204",
+    "date": "June 1983",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Erik Stevens]] is born to [[N'Jobu]], brother of King [[T'Chaka]] of [[Wakanda]], and his American wife, who he met on a [[War Dogs]] assignment in [[Oakland]], [[California]].",
+    "multiple": false,
+    "characters": [
+      "T'Chaka",
+      "Erik Stevens",
+      "N'Jobu"
+    ],
+    "non_characters": [
+      "Wakanda",
+      "War Dogs",
+      "California",
+      "Oakland"
+    ]
+  },
+  {
+    "eid": "E01357",
+    "file": "1980s",
+    "line": "225",
+    "date": "November 1983",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Benjamin Poindexter]] is born.",
+    "multiple": false,
+    "characters": [
+      "Benjamin Poindexter"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01373",
+    "file": "1980s",
+    "line": "268",
+    "date": "April 15th, 1984",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Aaron Davis]] is born.",
+    "multiple": false,
+    "characters": [
+      "Aaron Davis"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01379",
+    "file": "1980s",
+    "line": "282",
+    "date": "June 1984",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Gamora]] is born on [[Zen-Whoberi]].",
+    "multiple": false,
+    "characters": [
+      "Gamora"
+    ],
+    "non_characters": [
+      "Zen-Whoberi"
+    ]
+  },
+  {
+    "eid": "E01388",
+    "file": "1980s",
+    "line": "311",
+    "date": "November 1984",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Karen Page]] is born to [[Paxton Page|Paxton]] and [[Penelope Page]].",
+    "multiple": false,
+    "characters": [
+      "Penelope Page",
+      "Karen Page",
+      "Paxton Page"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01390",
+    "file": "1980s",
+    "line": "317",
+    "date": "November 21st, 1984",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Donald Blake]] is born.",
+    "multiple": false,
+    "characters": [
+      "Donald Blake"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01392",
+    "file": "1980s",
+    "line": "323",
+    "date": "December 1984",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Inez Green]] is born.",
+    "multiple": false,
+    "characters": [
+      "Inez Green"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01415",
+    "file": "1980s",
+    "line": "368",
+    "date": "June 1985",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Trish Walker]] is born.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E01425",
+    "file": "1980s",
+    "line": "399",
+    "date": "January 28th, 1986",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Mitchell Ellison|Mitchell]] and [[Lily Ellison]] renew their wedding vows on Long Beach in front of their whole family, including 8-year-old nephew [[Jason Ellison]].",
+    "multiple": false,
+    "characters": [
+      "Jason Ellison",
+      "Mitchell Ellison",
+      "Lily Ellison"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01438",
+    "file": "1980s",
+    "line": "444",
+    "date": "August 26th, 1986",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Stark Industries]] designs the  of the [[Bus]] for [[S.H.I.E.L.D.]]",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Bus",
+      "S.H.I.E.L.D.",
+      "Stark Industries"
+    ]
+  },
+  {
+    "eid": "E01446",
+    "file": "1980s",
+    "line": "466",
+    "date": "January 1987",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Anton Vanko]] returns to [[Moscow]] from his exile in [[Siberia]] following Mikhail Gorbachev's calls for democratization.",
+    "multiple": false,
+    "characters": [
+      "Anton Vanko"
+    ],
+    "non_characters": [
+      "Moscow",
+      "Siberia"
+    ]
+  },
+  {
+    "eid": "E01464",
+    "file": "1980s",
+    "line": "525",
+    "date": "June 5th, 1987",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Tony Stark]] graduates summa cum laude from MIT.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E01471",
+    "file": "1980s",
+    "line": "548",
+    "date": "August 19th, 1987",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Leo Fitz]] is born.",
+    "multiple": false,
+    "characters": [
+      "Leo Fitz"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01486",
+    "file": "1980s",
+    "line": "597",
+    "date": "August 1988",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Ava Starr]] is born to [[Elihas Starr|Elihas]] and [[Catherine Starr]].",
+    "multiple": false,
+    "characters": [
+      "Ava Starr",
+      "Elihas Starr",
+      "Catherine Starr"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01567",
+    "file": "1990s",
+    "line": "55",
+    "date": "May 1990",
+    "reality": "Main",
+    "title": null,
+    "desc": "*Twins [[Pietro Maximoff|Pietro]] and [[Wanda Maximoff]] are born in [[Sokovia]], with Pietro being born 12 minutes before his sister.",
+    "multiple": false,
+    "characters": [
+      "Pietro Maximoff",
+      "Wanda Maximoff"
+    ],
+    "non_characters": [
+      "Sokovia"
+    ]
+  },
+  {
+    "eid": "E01576",
+    "file": "1990s",
+    "line": "84",
+    "date": "September 1990",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Mina Hess]] is born.",
+    "multiple": false,
+    "characters": [
+      "Mina Hess"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01583",
+    "file": "1990s",
+    "line": "101",
+    "date": "1991",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Jasper Evans]] goes to a convenience store with a gun. Severely mentally unwell, when the cashier angers him he ends up shooting them, as well as an old woman buying a lottery ticket. He is locked up with a life sentence.",
+    "multiple": false,
+    "characters": [
+      "Jasper Evans"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01626",
+    "file": "1990s",
+    "line": "224",
+    "date": "September 22nd, 1992",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Julie Coulson]], mother of [[Phil Coulson]], dies.",
+    "multiple": false,
+    "characters": [
+      "Julie Coulson",
+      "Phil Coulson"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01644",
+    "file": "1990s",
+    "line": "284",
+    "date": "June 11th, 1993",
+    "reality": "Main",
+    "title": null,
+    "desc": "*<i>Jurassic Park</i>, directed by Steven Spielberg, is released in theaters.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E01669",
+    "file": "1990s",
+    "line": "365",
+    "date": "September 25th, 1994",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Rick Cotton]] is born.",
+    "multiple": false,
+    "characters": [
+      "Rick Cotton"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01705",
+    "file": "1990s",
+    "line": "465",
+    "date": "June 6th, 1995",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Donny Chavez]] is born.",
+    "multiple": false,
+    "characters": [
+      "Donny Chavez"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01891",
+    "file": "1990s",
+    "line": "854",
+    "date": "March 1998",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Robert Coleman]] gets drunk on his 18th birthday, diving off a roof to fall into a swimming pool but missing, severely injuring himself. He is taken by [[IGH]], who experiment on him and give him powers of super-speed, eventually becoming known by the nickname of \"Whizzer\".",
+    "multiple": false,
+    "characters": [
+      "Robert Coleman"
+    ],
+    "non_characters": [
+      "IGH"
+    ]
+  },
+  {
+    "eid": "E01893",
+    "file": "1990s",
+    "line": "860",
+    "date": "April 1998",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Jessica Jones]], aged 12, goes on holiday with her family.",
+    "multiple": false,
+    "characters": [
+      "Jessica Jones"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01920",
+    "file": "1990s",
+    "line": "949",
+    "date": "Trivia",
+    "reality": "Main",
+    "title": null,
+    "desc": "*In the film <i>[[Spider-Man: Homecoming]]</i> there is a scene where [[Spider-Man]] tries to apprehend [[Adrian Toomes' Crew|Vulture's men]] in the Staten Island Ferry, the director [[Jon Watts]] pointed out at a mistake that occurred creating that action sequence: <i>\"“The only real flaw is that there are cars on the ferry, and there haven’t been cars allowed since the ’90s. So I’ll declare that in the [[Marvel Cinematic Universe]], they never had these rules.”</i> This proves that the reality from the [[Marvel Cinematic Universe]] sometimes differs from the real world reality.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Jon Watts",
+      "Marvel Cinematic Universe",
+      "Adrian Toomes' Crew",
+      "Spider-Man: Homecoming"
+    ]
+  },
+  {
+    "eid": "E01950",
+    "file": "2000s",
+    "line": "96",
+    "date": "May 2001",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[James Lucas]] takes photographs of his son, [[Carl Lucas|Carl]], at his graduation.",
+    "multiple": false,
+    "characters": [
+      "James Lucas",
+      "Carl Lucas"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01951",
+    "file": "2000s",
+    "line": "100",
+    "date": "June 10th, 2001",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Michelle Jones]] is born.",
+    "multiple": false,
+    "characters": [
+      "Michelle Jones"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01959",
+    "file": "2000s",
+    "line": "127",
+    "date": "September 12th, 2001",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Frank Castle]] enlists in the Marine Corps and is placed under the command of [[Ray Schoonover]].",
+    "multiple": false,
+    "characters": [
+      "Frank Castle"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01962",
+    "file": "2000s",
+    "line": "137",
+    "date": "October 29th, 2001",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Danny Rand]] buys <i>2001</i> by Dr. Dre before his flight to [[China]].",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "China"
+    ]
+  },
+  {
+    "eid": "E01967",
+    "file": "2000s",
+    "line": "160",
+    "date": "November 10th, 2001",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Ned Leeds|Edward \"Ned\" Leeds]] is born.",
+    "multiple": false,
+    "characters": [
+      "Ned Leeds"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E01971",
+    "file": "2000s",
+    "line": "174",
+    "date": "March 16th, 2002",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Mary Walker]] begins serving in the [[United States Armed Forces]].",
+    "multiple": false,
+    "characters": [
+      "Mary Walker"
+    ],
+    "non_characters": [
+      "United States Armed Forces"
+    ]
+  },
+  {
+    "eid": "E01980",
+    "file": "2000s",
+    "line": "203",
+    "date": "2003",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Whiskers]] gay club opens in [[New York City]].",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "New York City",
+      "Whiskers"
+    ]
+  },
+  {
+    "eid": "E01981",
+    "file": "2000s",
+    "line": "204",
+    "date": "2003",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Victor Torres]] dies.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Victor Torres"
+    ]
+  },
+  {
+    "eid": "E01992",
+    "file": "2000s",
+    "line": "241",
+    "date": "June 14th, 2003",
+    "reality": "Main",
+    "title": null,
+    "desc": "*The Stokes family attend The Lydian Singers' performance at Whitman Hall in [[Brooklyn]].",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Brooklyn"
+    ]
+  },
+  {
+    "eid": "E02047",
+    "file": "2000s",
+    "line": "388",
+    "date": "July 2004",
+    "reality": "Main",
+    "title": null,
+    "desc": "*The [[Momentum Labs]] facility in [[New York City]] is shut down.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Momentum Labs",
+      "New York City"
+    ]
+  },
+  {
+    "eid": "E02156",
+    "file": "2000s",
+    "line": "696",
+    "date": "November 2007",
+    "reality": "Main",
+    "title": null,
+    "desc": "*The [[Momentum Labs]] facility in [[Pasadena]], [[California]] is shut down.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Momentum Labs",
+      "Pasadena",
+      "California"
+    ]
+  },
+  {
+    "eid": "E02159",
+    "file": "2000s",
+    "line": "706",
+    "date": "2008",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Jeri Hogarth]] wins an award she would later keep in her office.",
+    "multiple": false,
+    "characters": [
+      "Jeri Hogarth"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E02238",
+    "file": "2000s",
+    "line": "907",
+    "date": "March 1st, 2009",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Giyera|R. Giyera]] enlists as a security specialist in the [[Maryland]] branch of [[Endotex Labs]].",
+    "multiple": false,
+    "characters": [
+      "Giyera"
+    ],
+    "non_characters": [
+      "Maryland",
+      "Endotex Labs"
+    ]
+  },
+  {
+    "eid": "E02331",
+    "file": "2010",
+    "line": "111",
+    "date": "March 26th, 2010",
+    "reality": "Main",
+    "title": null,
+    "desc": "*<i>How to Train Your Dragon</i> is released in the United States of America.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E02340",
+    "file": "2010",
+    "line": "133",
+    "date": "April 13th, 2010",
+    "reality": "Main",
+    "title": null,
+    "desc": "*The criminals return and open fire on Stark, but he fends them off with the glove of the [[Iron Man Armor: Mark IV|Mark IV]] Iron Man armor. He manages to return the paintings to the museum and get to the meeting, where he meets the same woman whose tire he repaired.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Iron Man Armor: Mark IV"
+    ]
+  },
+  {
+    "eid": "E02439",
+    "file": "2011",
+    "line": "18",
+    "date": "January 11th, 2011",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Ghost]] goes on a mission through a forest to steal something for [[S.H.I.E.L.D.]].",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "S.H.I.E.L.D."
+    ]
+  },
+  {
+    "eid": "E02443",
+    "file": "2011",
+    "line": "34",
+    "date": "April 9th, 2011",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[S.H.I.E.L.D.]] updates a image about the [[Mjølnir]] from last year.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Mjølnir",
+      "S.H.I.E.L.D."
+    ]
+  },
+  {
+    "eid": "E02452",
+    "file": "2011",
+    "line": "57",
+    "date": "June 28th, 2011",
+    "reality": "Main",
+    "title": null,
+    "desc": "*The <i>[[New York Bulletin]]</i> presents a philanthropy award to [[Rand Enterprises]] for \"dedication and contributions to others\".",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Rand Enterprises",
+      "New York Bulletin"
+    ]
+  },
+  {
+    "eid": "E02478",
+    "file": "2011",
+    "line": "138",
+    "date": "December 30th, 2011",
+    "reality": "Main",
+    "title": null,
+    "desc": "*The Stokes family attend The Radio City Christmas Spectacular at Radio City Music Hall.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E02479",
+    "file": "2012",
+    "line": "11",
+    "date": "2012",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Dinah Madani]] is sent to [[Kandahar]], [[Afghanistan]], where she works with [[Ahmad Zubair]] as a liaison to a [[United States Armed Forces]] mission.",
+    "multiple": false,
+    "characters": [
+      "Ahmad Zubair",
+      "Dinah Madani"
+    ],
+    "non_characters": [
+      "United States Armed Forces",
+      "Kandahar",
+      "Afghanistan"
+    ]
+  },
+  {
+    "eid": "E02480",
+    "file": "2012",
+    "line": "12",
+    "date": "2012",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Foggy Nelson]]'s [[New York]] driver license is issued.",
+    "multiple": false,
+    "characters": [
+      "Foggy Nelson"
+    ],
+    "non_characters": [
+      "New York"
+    ]
+  },
+  {
+    "eid": "E02485",
+    "file": "2012",
+    "line": "27",
+    "date": "January 12th, 2012",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Ghost]] phases to prevent herself from harm as she is shot at on a [[S.H.I.E.L.D.]] spy mission.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "S.H.I.E.L.D."
+    ]
+  },
+  {
+    "eid": "E02569",
+    "file": "2012",
+    "line": "163",
+    "date": "May 5th, 2012",
+    "reality": "Main",
+    "title": null,
+    "desc": "*The <i>[[New York Bulletin]]</i> has a front page article titled \"[[Battle of New York|Battle of NY]]\" which pictures a [[Leviathans|Leviathan]] causing multiple deaths when it fell on a building.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Leviathans",
+      "New York Bulletin",
+      "Battle of New York"
+    ]
+  },
+  {
+    "eid": "E02584",
+    "file": "2012",
+    "line": "187",
+    "date": "May 8th, 2012",
+    "reality": "Main",
+    "title": null,
+    "desc": "*After finding transceivers in the wreckage of a [[Chitauri]] cruiser from the [[Battle of New York]], [[HYDRA]] use them to reach out to aliens. They get a reply from an alliance of six alien races, known as the [[Confederacy]], who make a deal with the organization to help protect [[Earth]] in return for [[gravitonium]] and [[Inhumans]].",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Chitauri",
+      "Battle of New York",
+      "gravitonium",
+      "Confederacy",
+      "HYDRA",
+      "Inhumans",
+      "Earth"
+    ]
+  },
+  {
+    "eid": "E02650",
+    "file": "2013",
+    "line": "16",
+    "date": "January 12th, 2013",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Ghost]] kills a man who shoots at her on a mission for [[S.H.I.E.L.D.]], under the promise that in return, S.H.I.E.L.D. will help find her a cure to her molecular disequilibrium.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "S.H.I.E.L.D."
+    ]
+  },
+  {
+    "eid": "E02656",
+    "file": "2013",
+    "line": "32",
+    "date": "May 2013",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Amy Minoru]] is given an athletics award.",
+    "multiple": false,
+    "characters": [
+      "Amy Minoru"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E02664",
+    "file": "2013",
+    "line": "57",
+    "date": "July 23rd, 2013",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[James Lucas|James]] and [[Etta Lucas]] visit their son, [[Carl Lucas]], in [[Seagate Penitentiary]]. James blames the stress of Carl's incarceration for Etta's diminishing health and has them leave prematurely, and Carl would never see Etta again.",
+    "multiple": false,
+    "characters": [
+      "Etta Lucas",
+      "Carl Lucas",
+      "James Lucas"
+    ],
+    "non_characters": [
+      "Seagate Penitentiary"
+    ]
+  },
+  {
+    "eid": "E02885",
+    "file": "2013",
+    "line": "434",
+    "date": "December 17th, 2013",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Captain America]], along with [[Black Widow]] and [[Brock Rumlow]], take down a terrorist cell that stole the [[Zodiac]] weapon from [[S.H.I.E.L.D.]].",
+    "multiple": false,
+    "characters": [
+      "Brock Rumlow",
+      "Black Widow"
+    ],
+    "non_characters": [
+      "Zodiac",
+      "S.H.I.E.L.D."
+    ]
+  },
+  {
+    "eid": "E02907",
+    "file": "2014",
+    "line": "12",
+    "date": "2014",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Rand Enterprises]] contribute to and support the \"Landman | Zack Day of Giving Back 2014\", and [[Landman and Zack]] present them with a sponsor recognition plaque.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Rand Enterprises",
+      "Landman and Zack"
+    ]
+  },
+  {
+    "eid": "E02927",
+    "file": "2014",
+    "line": "43",
+    "date": "January 4th, 2014",
+    "reality": "Main",
+    "title": null,
+    "desc": "*Reva Connors returns home to [[Harlem]] with Luke Cage. She visits [[Pop]] with him, and Pop is happy to not ask questions.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Harlem"
+    ]
+  },
+  {
+    "eid": "E02999",
+    "file": "2014",
+    "line": "139",
+    "date": "January 13th, 2014",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Bill Foster]] takes [[Ava Starr]] in to help her following the fall of S.H.I.E.L.D..",
+    "multiple": false,
+    "characters": [
+      "Bill Foster",
+      "Ava Starr"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E03056",
+    "file": "2014",
+    "line": "210",
+    "date": "January 17th, 2014",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Raina]] and [[Ian Quinn]] travel in a van with the [[gravitonium]] taken from [[John Garrett]]. Raina opens its container, however, and the material absorbs Quinn into itself completely.",
+    "multiple": false,
+    "characters": [
+      "Ian Quinn",
+      "Raina",
+      "John Garrett"
+    ],
+    "non_characters": [
+      "gravitonium"
+    ]
+  },
+  {
+    "eid": "E03077",
+    "file": "2014",
+    "line": "269",
+    "date": "April 29th, 2014",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Amy Minoru]] wins a tennis trophy.",
+    "multiple": false,
+    "characters": [
+      "Amy Minoru"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E03130",
+    "file": "2014",
+    "line": "368",
+    "date": "July 20th, 2014",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Foggy Nelson]] receives his law license.",
+    "multiple": false,
+    "characters": [
+      "Foggy Nelson"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E03263",
+    "file": "2015",
+    "line": "11",
+    "date": "2015",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[William Rawlins]] becomes Director of Covert Affairs at the [[CIA]].",
+    "multiple": false,
+    "characters": [
+      "William Rawlins"
+    ],
+    "non_characters": [
+      "CIA"
+    ]
+  },
+  {
+    "eid": "E03264",
+    "file": "2015",
+    "line": "12",
+    "date": "2015",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Dinah Madani]] returns from [[Kandahar]] to the [[United States of America]] after a 3-year mission in which her partner, [[Ahmad Zubair]], ended up killed.",
+    "multiple": false,
+    "characters": [
+      "Dinah Madani",
+      "Ahmad Zubair"
+    ],
+    "non_characters": [
+      "Kandahar",
+      "United States of America"
+    ]
+  },
+  {
+    "eid": "E03744",
+    "file": "2015",
+    "line": "729",
+    "date": "April 16th, 2015",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Pam]] is released from prison after just 3 days.",
+    "multiple": false,
+    "characters": [
+      "Pam"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E04042",
+    "file": "2015",
+    "line": "1245",
+    "date": "August 11th, 2015",
+    "reality": "Main",
+    "title": null,
+    "desc": "*[[Hank Pym]] explains to [[Hope van Dyne]] that [[Scott Lang]]'s return from the [[Quantum Realm]] has given him hope that they might be able to save [[Janet van Dyne|Janet]], and that he has an idea for building a [[Quantum Tunnel]] to try.",
+    "multiple": false,
+    "characters": [
+      "Hank Pym",
+      "Janet van Dyne"
+    ],
+    "non_characters": [
+      "Quantum Tunnel",
+      "Quantum Realm"
+    ]
+  },
+  {
+    "eid": "E04080",
+    "file": "2015",
+    "line": "1332",
+    "date": "October 28th, 2015",
+    "reality": "Main",
+    "title": null,
+    "desc": "*Murdock, Page and Nelson play pool and drink at [[Josie's Bar]]. Murdock notices Grotto at the bar and notes that his adrenaline is high. ",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Josie's Bar"
+    ]
+  },
+  {
+    "eid": "E04748",
+    "file": "2016",
+    "line": "105",
+    "date": "February 7th, 2016",
+    "reality": "Main",
+    "title": null,
+    "desc": "*Rand goes to his [[Rand Residence|old house]] and breaks in, discovering that it is now the home of [[Joy Meachum]].",
+    "multiple": false,
+    "characters": [
+      "Joy Meachum"
+    ],
+    "non_characters": [
+      "Rand Residence"
+    ]
+  },
+  {
+    "eid": "E04835",
+    "file": "2016",
+    "line": "217",
+    "date": "February 17th, 2016",
+    "reality": "Main",
+    "title": null,
+    "desc": "*In [[K'un-Lun]], [[Davos]] visits his mother, [[Priya]]'s room. Standing outside of her door, he tells her he is leaving K'un-Lun to bring Danny Rand back. He tells her he understands why she pushed him hard in life, and that he hopes they might be able to say things to each other from their hearts, as he may never return. Priya starts to become emotional, still loving her son despite his failure, and considers responding, but Davos gives up and leaves, stating that he will make her proud, and maybe then she will talk to him.",
+    "multiple": false,
+    "characters": [
+      "Davos",
+      "Priya"
+    ],
+    "non_characters": [
+      "K'un-Lun"
+    ]
+  },
+  {
+    "eid": "E05576",
+    "file": "2016",
+    "line": "1158",
+    "date": "June 2016",
+    "reality": "Main",
+    "title": null,
+    "desc": "*A letter is delivered to [[Matt Murdock's Apartment|Matt Murdock's apartment]], but [[Matt Murdock]] is not there to open it.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Matt Murdock's Apartment"
+    ]
+  },
+  {
+    "eid": "E05658",
+    "file": "2016",
+    "line": "1269",
+    "date": "June 24th, 2016",
+    "reality": "Main",
+    "title": null,
+    "desc": "*With [[Scott Lang]] arrested for breaking the [[Sokovia Accords]], by association, [[Hank Pym]] and [[Hope van Dyne]] become fugitives. They choose to go on the run.",
+    "multiple": false,
+    "characters": [
+      "Hank Pym"
+    ],
+    "non_characters": [
+      "Sokovia Accords"
+    ]
+  },
+  {
+    "eid": "E05713",
+    "file": "2016",
+    "line": "1334",
+    "date": "June 27th, 2016",
+    "reality": "Main",
+    "title": null,
+    "desc": "*Lang hands himself over to the [[FBI]] for his involvement in breaking the [[Sokovia Accords]]. Following negotiations between [[United States Department of Homeland Security|Homeland Security]] and the German government, it is decided that Lang can remain in the U.S., provided he served 2 years under house arrest, followed by 3 years of probation, while avoiding any unauthorized activities, technology, or contact with his colleagues.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "FBI",
+      "Sokovia Accords",
+      "United States Department of Homeland Security"
+    ]
+  },
+  {
+    "eid": "E06213",
+    "file": "2016",
+    "line": "2032",
+    "date": "November 9th, 2016",
+    "reality": "Main",
+    "title": null,
+    "desc": "*A new president of the [[United States of America]] is elected. The choice makes [[Dave Griffith|D. W. Griffith]] feel uncomfortable.",
+    "multiple": false,
+    "characters": [
+      "Dave Griffith"
+    ],
+    "non_characters": [
+      "United States of America"
+    ]
+  },
+  {
+    "eid": "E06405",
+    "file": "2016",
+    "line": "2300",
+    "date": "December 11th, 2016",
+    "reality": "Main",
+    "title": "Kidnapping of Curtis Hoyle",
+    "desc": "*<b>[[Kidnapping of Curtis Hoyle]]</b>: Curtis Hoyle calls Wilson, hoping to help him, but he does not pick up. He walks to [[O'Connor]]'s home to talk with him about Wilson, but is forced to break in when he becomes worried about the lack of response. He is hit by the smell of a rotting corpse and discovers O'Connor's dead body, as well as the remnants of one of Wilson's explosives. Wilson then approaches him, having been hiding, pulling a gun on Hoyle. Hoyle tries to talk to him, but he is not responsive and lifts the gun to him, forcing Hoyle to engage him in a fight. He knocks the gun out of the young man's hand and manages to knock him to the ground, but Wilson kicks out his prosthetic leg from under him and beats Hoyle, then detaching the leg and hitting him with it until he is knocked out.",
+    "multiple": false,
+    "characters": [
+      "O'Connor"
+    ],
+    "non_characters": [
+      "Kidnapping of Curtis Hoyle"
+    ]
+  },
+  {
+    "eid": "E06655",
+    "file": "2017",
+    "line": "202",
+    "date": "February 15th, 2017",
+    "reality": "Main",
+    "title": null,
+    "desc": "*Bowen gets out of the car, bleeding from her forehead. Johnson approaches her and believes that she has been traumatized. She asks him about his gun, and he replies that he did not want to shoot her and that appeared before her without knowing how. Angry, Bowen gets back in the car and starts it, driving away, not wanting to see Tyrone again.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E07441",
+    "file": "2017",
+    "line": "1360",
+    "date": "May 12th, 2017",
+    "reality": "Main",
+    "title": null,
+    "desc": "*<!--Most likely lunchtime, since that's when it was said that Malus visits. In Episode 6, it's shown that the incident caused after Malus goes to the aquarium was 13:22, so he is usually there around 13:20, this is likely around 13:20-->Jessica goes to the octopus tank. She takes a photo of a family looking at the seals.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E08486",
+    "file": "2017",
+    "line": "2666",
+    "date": "October 28th, 2017",
+    "reality": "Main",
+    "title": null,
+    "desc": "*<i>[[The New York Examiner]]</i> reports on the [[Attack on the New York Bulletin Building|attack on the <i>New York Bulletin</i>]] with the front page headline \"The <i>Bulletin</i> Attack\".",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "The New York Examiner",
+      "Attack on the New York Bulletin Building"
+    ]
+  },
+  {
+    "eid": "E09654",
+    "file": "2018",
+    "line": "387",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The [[Jonah|Magistrate]], his [[Magistrate's Wife|wife]], and his [[Magistrate's Daughter|daughter]] hold a press conference in which they address the damage done during Minoru's battle against her parents at a PRIDE facilities. They refer to the damage as a gas leak, and reveal that [[Robert Minoru]] was critically injured. ",
+    "multiple": false,
+    "characters": [
+      "Magistrate's Wife",
+      "Robert Minoru",
+      "Magistrate's Daughter"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E09655",
+    "file": "2018",
+    "line": "388",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Xavin recognizes that the Magistrate's family has possessed the three PRIDE members in the press conference: [[Victor Stein]], [[Tina Minoru]], and [[Stacey Yorkes]].",
+    "multiple": false,
+    "characters": [
+      "Stacey Yorkes",
+      "Victor Stein",
+      "Tina Minoru"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E09656",
+    "file": "2018",
+    "line": "389",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* She explains that when a [[Gibborim]] takes a human host, the two battle for control until the human is extinguished completely. She also explains that it makes sense that the Magistrate's family would possess the nearest host when their [[Magistrate's Ship|ship]] [[Battle at the PRIDE Construction Site|blew up]].",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Gibborim",
+      "Magistrate's Ship",
+      "Battle at the PRIDE Construction Site"
+    ]
+  },
+  {
+    "eid": "E09657",
+    "file": "2018",
+    "line": "390",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The Magistrate's Wife demanded that her [[Magistrate's Son|son]] return to them. The Runaways realize that this means he's still out there.",
+    "multiple": false,
+    "characters": [
+      "Magistrate's Son"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E09658",
+    "file": "2018",
+    "line": "391",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The Gibborim denounce the charges against [[Geoffrey Wilder|Geoffrey]] and [[Catherine Wilder]], saying that they're racially motivated.",
+    "multiple": false,
+    "characters": [
+      "Catherine Wilder",
+      "Geoffrey Wilder"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E09659",
+    "file": "2018",
+    "line": "392",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The Runaways make a plan to save the people kidnapped by the Magistrate's family. They go on a recon mission, with Wilder and Minoru checking the [[Stein Mansion]], and Hernandez and Xavin checking the [[Yorkes Residence]]. ",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Stein Mansion",
+      "Yorkes Residence"
+    ]
+  },
+  {
+    "eid": "E09660",
+    "file": "2018",
+    "line": "393",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* In the Yorkes' cabin, [[Dale Yorkes]] tries to get a panicking [[Old Lace]] to calm down, while [[Gert Yorkes]] remains tied to a chair. ",
+    "multiple": false,
+    "characters": [
+      "Old Lace",
+      "Gert Yorkes",
+      "Dale Yorkes"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E09661",
+    "file": "2018",
+    "line": "394",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Gert tries to convince Dale to let her go, but fails. ",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09662",
+    "file": "2018",
+    "line": "395",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The Magistrate's family eats breakfast, and the daughter comments on the Magistrate's decaying form. They discuss the lives of their former hosts, and the Magistrate says that they need to continue to lead their lives.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09663",
+    "file": "2018",
+    "line": "396",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Xavin tells the Runaways that they must be willing to kill their parents in order to stop the Gibborim. Hernandez is hesitant, but eventually agrees.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09664",
+    "file": "2018",
+    "line": "397",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The Wilders meet with their lawyer, who informs them that the gun they found was involved in a liquor store robbery in [[Darius Davis]]' former territory.",
+    "multiple": false,
+    "characters": [
+      "Darius Davis"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E09665",
+    "file": "2018",
+    "line": "398",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Janet Stein figures out that she is in the Healing Algorithm, and tries to escape. She finds the door to the Healing Algorithm, but can't open it. Instead, the algorithm starts to glitch from having so many people in it at once, and Janet talks to Chase. However, the glitch closes and corrects itself before they can talk.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09666",
+    "file": "2018",
+    "line": "399",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* [[Leslie Dean]] starts having contractions.",
+    "multiple": false,
+    "characters": [
+      "Leslie Dean"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E09667",
+    "file": "2018",
+    "line": "400",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Hernandez and Xavin don't find anyone. Xavin notices that Hernandez is stressed, so the two talk about the disappearances.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09668",
+    "file": "2018",
+    "line": "401",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Hernandez notices her pink pin which she had lost , and Xavin tries to smile, but fails.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09669",
+    "file": "2018",
+    "line": "402",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The Magistrate's Wife enters Karolina's Healing Algorithm world and demands to know her relationship to the Magistrate. ",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09670",
+    "file": "2018",
+    "line": "403",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Minoru and Wilder arrive at the Stein Mansion, noting the new security. Wilder uses x-ray goggles to see in the lab, where he finds three tubes, with a body inside each one, with the Magistrate's Wife touching the tube.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09671",
+    "file": "2018",
+    "line": "404",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Dean tells the Magistrate's Wife that the Magistrate is her father. The Magistrate's Wife reveals to Dean that the wedding is fake.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09672",
+    "file": "2018",
+    "line": "405",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The Magistrate's Wife gets revenge by making everyone disappear, leaving Dean alone in her world.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09673",
+    "file": "2018",
+    "line": "406",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Gert convinces Dale to untie her, but first teaches her to \"drive\" Old Lace. She crashes Old Lace into a tree, knocking them both out.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09674",
+    "file": "2018",
+    "line": "407",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Catherine confesses to the [[Assassination of Darius Davis]].",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Assassination of Darius Davis"
+    ]
+  },
+  {
+    "eid": "E09675",
+    "file": "2018",
+    "line": "408",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Geoffrey gets let out of prison. He talks to Catherine and tries to talk her out of it, but she had already made up her mind. As Catherine gets taken away, she tells Geoffrey to wait for her.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09692",
+    "file": "2018",
+    "line": "426",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The Magistrate looks for Wilder and Minoru, but Minoru makes them invisible using the [[Staff of One]].",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Staff of One"
+    ]
+  },
+  {
+    "eid": "E09693",
+    "file": "2018",
+    "line": "427",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The Magistrate and his daughter discuss the change in his marriage. The daughter reveals that she and her mother know that Dean is her daughter. She also reveals that her mother has already ordered the construction of their portal home. This leads the Magistrate offer to leave his wife behind, instead taking Dean. In return, the Magistrate promises to strip his son of his power, and his daughter taking over when the Magistrate steps down.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09694",
+    "file": "2018",
+    "line": "428",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Gert packs to leave the cabin and Dale calls her inside. Old Lace makes a noise from her cage, but Gert promises her its for her safety.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09695",
+    "file": "2018",
+    "line": "429",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Dale gives Gert his road trip cash in order to keep Hernandez safe. Dale plans to live at the cabin, growing his own food.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09696",
+    "file": "2018",
+    "line": "430",
+    "date": "January 30th, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Stacey arrives and tells Gert and Dale the Gibborim's plan to leave, revealing that after they leave, the [[Scrub Squad]] will come and kill everybody who knew about them. She tells them about the Magistrate's worsening condition and gets taken over before telling them how to defeat the Gibborim.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Scrub Squad"
+    ]
+  },
+  {
+    "eid": "E09709",
+    "file": "2018",
+    "line": "445",
+    "date": "January 31st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* A scientist tells the Magistrate's Daughter about problems with Wizard's 5G Program, but the Daughter cancels it in favor of developing a portal. She chooses several scientists, and points to a food delivery man. She hooks up with the delivery man.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09724",
+    "file": "2018",
+    "line": "460",
+    "date": "January 31st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* While returning home, the Magistrate's Son takes control of Wilder and damages the [[X-Ray Specs]]. He leaves them outside of the [[Hostel]].",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "X-Ray Specs",
+      "Hostel"
+    ]
+  },
+  {
+    "eid": "E09725",
+    "file": "2018",
+    "line": "461",
+    "date": "January 31st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The Runaways return to the [[Hostel]], and Yorkes talks about wanting to remove Stein from the group. While Wilder only wants to give Stein only one night, Hernandez tries to convince Wilder and Yorkes to allow him back. However, they don't bend.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Hostel"
+    ]
+  },
+  {
+    "eid": "E09727",
+    "file": "2018",
+    "line": "463",
+    "date": "January 31st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* [[Geoffrey Wilder]] visits [[Catherine Wilder]] in prison. Geoffrey once again tries to talk Catherine out of going to jail, but once again fails. Catherine asks Geoffrey to track down their son and get him to visit.",
+    "multiple": false,
+    "characters": [
+      "Geoffrey Wilder",
+      "Catherine Wilder"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E09728",
+    "file": "2018",
+    "line": "464",
+    "date": "January 31st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Minoru explains why she thinks she's the [[Magistrate's Son]], and Xavin tries to kill her, but the Runaways stop her. The Runaways catch each other up, and Chase reveals that his x-ray goggles could reveal who is and isn't a Gibborim.",
+    "multiple": false,
+    "characters": [
+      "Magistrate's Son"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E09729",
+    "file": "2018",
+    "line": "465",
+    "date": "January 31st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Stein goes to get the x-ray goggles, and notices they're gone. The group resolves to get rest and deal with the Magistrate's Son the next morning. Xavin decides to keep guard, despite being encouraged not too.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09730",
+    "file": "2018",
+    "line": "466",
+    "date": "January 31st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Stein attempts to go to bed, but gets interrupted by Old Lace, who missed him. Yorkes expresses her condolences about his mother's death, and Stein thanks her.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09731",
+    "file": "2018",
+    "line": "467",
+    "date": "January 31st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Dean tries to call her mother, who doesn't answer. Minoru comforts her and encourages her to relax. They discuss Dean's vision of their wedding in the Healing Algorithm. They kiss, and it activates Dean's powers and Minoru's darkness, causing the broken [[Staff of One]] to shake. This prompts Minoru to destroy the staff.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Staff of One"
+    ]
+  },
+  {
+    "eid": "E09732",
+    "file": "2018",
+    "line": "468",
+    "date": "January 31st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Xavin stops her on her way out, but Minoru assures the [[Xartans|Xartan]] that if she is the Magistrate's Son, she will kill herself. She also tells Xavin that the prophecy she believes in is falls, as Dean loves Minoru.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Xartans"
+    ]
+  },
+  {
+    "eid": "E09733",
+    "file": "2018",
+    "line": "469",
+    "date": "January 31st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Hernandez teaches Xavin how to sleep, something that isn't done on her home planet.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09734",
+    "file": "2018",
+    "line": "470",
+    "date": "January 31st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Minoru is about to destroy the vision, when she's interrupted by [[Morgan le Fay]]. le Fay offers to be Minoru's mentor and encourages her not to fear the Staff. Nico burns it anyway.",
+    "multiple": false,
+    "characters": [
+      "Morgan le Fay"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E09736",
+    "file": "2018",
+    "line": "475",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* [[Leslie Dean]] meets with [[Vaughn Kaye]] at a fair. After an awkward conversation, Kaye leaves, and she is joined by [[Susan Ellerh]]. She asks Ellerh to keep her child in the [[Crater]] in order to hide it from the [[Magistrate]], but Ellerh says no and instead gives Dean a journal by her [[David Ellerh|father]].",
+    "multiple": false,
+    "characters": [
+      "Magistrate",
+      "Leslie Dean",
+      "Susan Ellerh",
+      "David Ellerh",
+      "Vaughn Kaye"
+    ],
+    "non_characters": [
+      "Crater"
+    ]
+  },
+  {
+    "eid": "E09737",
+    "file": "2018",
+    "line": "476",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The Magistrate, and his [[Magistrate's Daughter|daughter]] clean up after yesterday's [[Infiltration into the Stein Mansion|battle]], and they are rejoined by the [[Magistrate's Wife]]. They start looking for their [[Magistrate's Son|son]].",
+    "multiple": false,
+    "characters": [
+      "Magistrate's Wife",
+      "Magistrate's Daughter",
+      "Magistrate's Son"
+    ],
+    "non_characters": [
+      "Infiltration into the Stein Mansion"
+    ]
+  },
+  {
+    "eid": "E09738",
+    "file": "2018",
+    "line": "477-481",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* <b>[[Search for the Magistrate's Son]]: </b>The Runaways eat breakfast. Leslie returns to the [[Hostel]] with the broken [[X-Ray Specs]], casting suspicion on her.\n** The Runaways make a plan to use the [[Anti-Gibborim Inhibitor|Anti-Gibborim Inhibitors]] from the [[Minoru Mansion]] in order to determine who is the alien. Leslie decides not to go due to her cravings.\n** [[Geoffrey Wilder]] visits [[Tamar]], asking for help finding his [[Alex Wilder|son]]. She gives Geoffrey her phone, so he calls Alex and tells him that Catherine is in jail. Per Catherine's instructions, he tells Alex that she knows the IP address that Alex uses to do his hacking. This convinces Alex to visit her.\n** [[Chase Stein]] sets up [[Wizard]] cameras, planning to prove whether Leslie is the alien. [[Gert Yorkes]] catches him, and they discuss Stein's plan, agreeing to keep it secret.\n** Yorkes and Stein join [[Molly Hernandez]], [[Nico Minoru]], [[Karolina Dean]], and [[Xavin]] in looking for the inhibitors at the Minoru Mansion. Dean finds her [[Church of Gibborim Bracelet]], which had inhibitor technology,  which leads to the discovery of the inhibitors themselves. They decide to take the test at the Hostel, along with Leslie Dean and Alex Wilder.",
+    "multiple": true,
+    "characters": [
+      "Geoffrey Wilder",
+      "Alex Wilder",
+      "Tamar",
+      "Karolina Dean",
+      "Gert Yorkes",
+      "Nico Minoru",
+      "Chase Stein",
+      "Xavin",
+      "Molly Hernandez"
+    ],
+    "non_characters": [
+      "Church of Gibborim Bracelet",
+      "Anti-Gibborim Inhibitor",
+      "Minoru Mansion",
+      "X-Ray Specs",
+      "Hostel",
+      "Search for the Magistrate's Son",
+      "Wizard"
+    ]
+  },
+  {
+    "eid": "E09743",
+    "file": "2018",
+    "line": "482",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Minoru finds an illusion of a picture of her [[Tina Minoru|mother]] with [[Morgan le Fay]], wondering how they knew each other. She sees an illusion of her father, [[Robert Minoru]]. \"Robert\" forgives Nico and asks where the [[Staff of One]] is, and Nico tells him that she destroyed it. She asks how her mother and le Fay knew each other, and \"Robert\" tells Nico that they trained in magic together. Nico leaves, telling \"Robert\" that she is happy she destroyed the Staff.",
+    "multiple": false,
+    "characters": [
+      "Morgan le Fay",
+      "Robert Minoru",
+      "Tina Minoru"
+    ],
+    "non_characters": [
+      "Staff of One"
+    ]
+  },
+  {
+    "eid": "E09744",
+    "file": "2018",
+    "line": "483",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The illusion disappears. Outside of the Minoru Mansion, a crow flies away in order to report to le Fay. The picture also loses its illusion.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09745",
+    "file": "2018",
+    "line": "484",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The real Robert starts to die in his hospital bed, as a crow watches from outside.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09746",
+    "file": "2018",
+    "line": "485",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Alex visits Catherine in jail. Catherine accuses him of felonies, but reveals she doesn't plan to report him. She asks about his wellbeing, and Alex confronts her about her past. He says that he is satisfied with Catherine's condition, but she responds by saying she only confessed as an attempt at fixing the Wilder family. Alex refuses and storms out.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09747",
+    "file": "2018",
+    "line": "486",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The [[Magistrate's Daughter]] talks to a scientist at [[Wizard]], who tells the daughter that they don't have an energy source powerful enough for their portal to [[Gibborim (planet)|Gibborim]], but the daughter tells her that she and her family can handle that part by tapping into the fourth dimension, referring to her powers. She has the scientists bring her a snack, offering a million dollar reward for the best snack. She turns on the portal, creating a magnetic storm which frightens her.",
+    "multiple": false,
+    "characters": [
+      "Magistrate's Daughter"
+    ],
+    "non_characters": [
+      "Wizard",
+      "Gibborim (planet)"
+    ]
+  },
+  {
+    "eid": "E09748",
+    "file": "2018",
+    "line": "487",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* She returns to the [[Stein Mansion]], and her parents admonish her. ",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Stein Mansion"
+    ]
+  },
+  {
+    "eid": "E09749",
+    "file": "2018",
+    "line": "488-490",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* <b>[[Search for the Magistrate's Son]]: </b>The [[Magistrate's Wife]] demands that the [[Magistrate]] find their son as soon as possible. The Magistrate confirms with his daughter that their plan to leave the wife behind is still on.\n** The Runaways drive to the [[Hostel]] in an awkward silence. Xavin reveals that she plans to kill the host, leading to an argument.\n** Yorkes has the group take the test in a public park, so that nobody can kill anyone.",
+    "multiple": true,
+    "characters": [
+      "Magistrate",
+      "Magistrate's Wife"
+    ],
+    "non_characters": [
+      "Hostel",
+      "Search for the Magistrate's Son"
+    ]
+  },
+  {
+    "eid": "E09752",
+    "file": "2018",
+    "line": "491",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* [[Assassination of Catherine Wilder|<b>Assassination of Catherine Wilder</b>]]<b>: </b>Catherine gets taken back to her cell, where the guard closes the door quickly, and Wilder realizes there are three other women with her, who [[Tamar]] had ordered to kill her. The leader stabs her and then leaves the cell.",
+    "multiple": false,
+    "characters": [
+      "Tamar"
+    ],
+    "non_characters": [
+      "Assassination of Catherine Wilder"
+    ]
+  },
+  {
+    "eid": "E09753",
+    "file": "2018",
+    "line": "492-495",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* [[Search for the Magistrate's Son|<b>Search for the Magistrate's Son</b>]]<b>:</b> They start to take the test, and find that none of them are the Magistrate's son.\n** Alex returns to the [[Hostel]] and receives a call from Geoffrey, informing him of Catherine's death. The Magistrate's Son takes over his body and goes to Leslie's bedroom. He discovers that the Magistrate is the father of her son, and then wakes her up, telling her that danger is coming and driving away with her.\n** Karolina embraces Minoru, and the group returns to the Hostel.\n** They call out for Wilder and Leslie, but can't find them. Yorkes and Stein tell the group about the cameras that Stein hid, and although the group is initially angry, they decide to check the footage and discover that Wilder is the alien. They start looking for him.",
+    "multiple": true,
+    "characters": [],
+    "non_characters": [
+      "Hostel",
+      "Search for the Magistrate's Son"
+    ]
+  },
+  {
+    "eid": "E09760",
+    "file": "2018",
+    "line": "499",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Xavin and Hernandez talk, and Hernandez helps Xavin realize that she doesn't really love Karolina. [[Morgan le Fay]] communicates once again with Minoru. ",
+    "multiple": false,
+    "characters": [
+      "Morgan le Fay"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E09761",
+    "file": "2018",
+    "line": "500",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* She reaches through the mirror and touches Minoru's chest, planting the [[Staff of One]] inside of her.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Staff of One"
+    ]
+  },
+  {
+    "eid": "E09762",
+    "file": "2018",
+    "line": "501-508",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* [[Chase of the Magistrate's Son|<b>Chase of the Magistrate's Son</b>]]: The Runaways discover that [[Catherine Wilder]] is dead.\n** Tamar puts her [[Xerxes|child]] to sleep as the Magistrate's Son and Leslie arrive at her door. She takes them in, and  Tamar sits her down. Leslie asks Tamar for lavender oil, so Tamar sends the Magistrate's Son to get it from the car. While he's gone, Leslie tells Tamar that she suspects Wilder to be the alien, and asks Tamar to text her daughter and leave with Xerxes.\n** While the Magistrate's Son takes Leslie into her room, Tamar reaches out to Karolina and gets Xerxes to safety. \n** Yorkes and Stein start preparing the weapons with Anti-Gibborim technology.\n** Karolina, Minoru, Hernandez, and Xavin receive Tamar's text and leave to help Leslie. \n** The Magistrate's Son notices that Tamar and Xerxes have left, so he threatens Leslie. Tamar rescues her, so he starts to torture her, but the Runaways arrive and save her. The Magistrate's Son runs off, leading to a chase between him, Minoru, and Karolina. Tamar hands them a gun for the chase.\n** Tamar, Xavin, and Hernandez help Leslie deliver the child.\n** Karolina and Minoru split up, planning to cut off the Magistrate's Son. Minoru catches him and points a gun at him, threatening him to kill her. The son plans on taking on all of the pain Minoru might inflict, threatening to jump into Minoru's body, letting Wilder fell the pain and killing Karolina. The Magistrate's Son leaves, and Minoru tells Karolina that he got away.",
+    "multiple": true,
+    "characters": [
+      "Catherine Wilder",
+      "Xerxes"
+    ],
+    "non_characters": [
+      "Chase of the Magistrate's Son"
+    ]
+  },
+  {
+    "eid": "E09770",
+    "file": "2018",
+    "line": "509",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* [[Elle Dean]] is born.",
+    "multiple": false,
+    "characters": [
+      "Elle Dean"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E09771",
+    "file": "2018",
+    "line": "510",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Xavin holds her, realizing how much she loves her.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09772",
+    "file": "2018",
+    "line": "511",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The [[Abstract]] shakes from inside of the Magistrate's Son's duffle bag, recognizing Elle as part of the [[Magistrate]]'s family, and Xavin reads it. Xavin reveals that the Magistrate and his family plan to open a portal leave Earth, and that conditions are favorable to do it. She sees that they plan to do it tonight at the [[Marine Vivarium Desalination Plant]].",
+    "multiple": false,
+    "characters": [
+      "Magistrate"
+    ],
+    "non_characters": [
+      "Abstract",
+      "Marine Vivarium Desalination Plant"
+    ]
+  },
+  {
+    "eid": "E09773",
+    "file": "2018",
+    "line": "512",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* While Hernandez believes this to be a positive development, Xavin reveals that this will result in the arrival of the [[Scrub Squad]], a group tasked with killing everybody the [[Gibborim]] have come in contact with.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Gibborim",
+      "Scrub Squad"
+    ]
+  },
+  {
+    "eid": "E09774",
+    "file": "2018",
+    "line": "513",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The Runaways resolve to go to the plant and stop them from leaving. They arrive at the Hostel and take weapons designed to kill Gibborim.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09775",
+    "file": "2018",
+    "line": "514",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Leslie decides to name her child Elle, after her [[David Ellerh|father]]'s last name. She shows Xavin her father's journal, which contains the prophecy Xavin was planning to fulfill. The journal reveals, however, that the love described is between a mother and father, as the child of the Magistrate that was prophesied would be \"raised by another.\"",
+    "multiple": false,
+    "characters": [
+      "David Ellerh"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E09776",
+    "file": "2018",
+    "line": "515",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Minoru practices using a sword and talks to Karolina about their plans, and the two kiss.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09777",
+    "file": "2018",
+    "line": "516",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Stein is going to talk to Yorkes, but decides against it. He goes back to her room right as she opens the door, and he pretends to be asking about the Anti-Gibborim technology. They talk about their fight, and Chase tells her he loves her. She doesn't return it, to his dismay.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09778",
+    "file": "2018",
+    "line": "517",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Tamar holds Elle as the Magistrate's Sona arrives, disguised as a medic. She tells Xavin to take Elle to her [[Gibborim (planet)|home planet]]. The Magistrate's Son takes Elle.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Gibborim (planet)"
+    ]
+  },
+  {
+    "eid": "E09779",
+    "file": "2018",
+    "line": "518",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* Yorkes and Old Lace argue about whether she was right to turn Stein away, when they are interrupted by Karolina, and the Runaways rush to the Marine Vivarium Desalination Plant, leaving Old Lace behind.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E09780",
+    "file": "2018",
+    "line": "519",
+    "date": "February 1st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "* The Magistrate's Son brings Elle to his parents, who argue about whether she should be allowed to return with them in his stead. The daughter kills the scientists, and the son plans on joining the Scrub Squad. The gravitational alignment becomes perfect for the portal, and the Gibborim begin the sequence to leave.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E10345",
+    "file": "2018",
+    "line": "1240",
+    "date": "May 21st, 2018",
+    "reality": "Main",
+    "title": null,
+    "desc": "*<!--08:00/13:00 Herefordshire-->A [[Sleeper Mechs|Sleeper Mech]] finds [[Yo-Yo Rodriguez]] in the [[Quinjet]]. She shoots the android and continues to wait for her pain to subside.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": [
+      "Quinjet",
+      "Sleeper Mechs"
+    ]
+  },
+  {
+    "eid": "E11127",
+    "file": "dark-dimension",
+    "line": "5",
+    "date": "February 1st, 2018",
+    "reality": "Dark Dimension",
+    "title": null,
+    "desc": "* [[Alex Wilder]], [[Tina Minoru]], [[Stacey Yorkes]], and [[Victor Stein]] appear in the Hostel, where they talk to [[Quinton the Great]]. Against his advice, the group goes outside and ends up in their worst memories. Minoru goes to the day her daughter died, Yorkes to the day her daughter discovered her experiments with a dinosaur, Stein to a day when his father was beating him, and Wilder to an alternate world where he is in prison.",
+    "multiple": false,
+    "characters": [
+      "Quinton the Great",
+      "Tina Minoru",
+      "Alex Wilder",
+      "Victor Stein",
+      "Stacey Yorkes"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E11128",
+    "file": "dark-dimension",
+    "line": "6",
+    "date": "February 1st, 2018",
+    "reality": "Dark Dimension",
+    "title": null,
+    "desc": "* [[Nico Minoru]] and [[Karolina Dean]] wake up to old fashioned music playing in the [[Hostel]]. They meet [[Chase Stein]], [[Molly Hernandez]], and [[Gert Yorkes]] in the main area, where they witness a party full of people dressed like the 1920s. They speculate as to what is happening.",
+    "multiple": false,
+    "characters": [
+      "Nico Minoru",
+      "Chase Stein",
+      "Karolina Dean",
+      "Molly Hernandez",
+      "Gert Yorkes"
+    ],
+    "non_characters": [
+      "Hostel"
+    ]
+  },
+  {
+    "eid": "E11129",
+    "file": "dark-dimension",
+    "line": "7",
+    "date": "February 1st, 2018",
+    "reality": "Dark Dimension",
+    "title": null,
+    "desc": "* They find [[Quinton the Great]], who tries to get them to watch a magic show, and they discover that none of them have their powers. Quinton warns them against leaving the Hostel, and storms off.",
+    "multiple": false,
+    "characters": [
+      "Quinton the Great"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E11130",
+    "file": "dark-dimension",
+    "line": "8",
+    "date": "February 1st, 2018",
+    "reality": "Dark Dimension",
+    "title": null,
+    "desc": "* The Runaways follow him and ask for help. Quinton tells the Runaways that he's seen the former hosts of the Gibborim, who went outside. Quinton tells them that where they are, the Dark Dimension, is a thin place between other dimension, and that their friends are trapped in a moment that tortures them. They leave the Hostel and the Dark Dimensions separates them.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E11131",
+    "file": "dark-dimension",
+    "line": "9",
+    "date": "February 1st, 2018",
+    "reality": "Dark Dimension",
+    "title": null,
+    "desc": "* Minoru appears in a hill, where she sees [[Akari Minoru|Akari]], [[Tokiko Minoru|Tokiko]], and [[Judith Minoru]], her grandmother and aunts. She talks to them about the [[Staff of One]]. Her relatives don't trust her with it, and they discuss the Staff's new ability to enter her chest. They try to cut her open, but [[Amy Minoru]] appears and stops them. They appear in the [[Minoru Mansion]], where Nico finds Tina standing over Amy's corpse. An illusion of Nico walks out of Amy's room, and is comforted by an illusion of [[Robert Minoru]]. Tina tries to resurrect \"Amy,\" but can't remember the spell. She hands Nico the Staff of One, and she uses it to stab \"Amy,\" causing her to disappear. She convinces Tina that their not in the real world, and Tina resolves to leave with Nico. They try to find the real Amy, who has disappeared. They go to the garage to get a car.",
+    "multiple": false,
+    "characters": [
+      "Amy Minoru",
+      "Robert Minoru",
+      "Tokiko Minoru",
+      "Judith Minoru",
+      "Akari Minoru"
+    ],
+    "non_characters": [
+      "Staff of One",
+      "Minoru Mansion"
+    ]
+  },
+  {
+    "eid": "E11132",
+    "file": "dark-dimension",
+    "line": "10",
+    "date": "February 1st, 2018",
+    "reality": "Dark Dimension",
+    "title": null,
+    "desc": "* Stein appears in a street, where he witnesses [[Victor Stein]] being abused by his father, [[Curtis Stein]]. Chase runs over to the car and is confronted by Curtis, leading to a chase. Chase outruns Curtis and returns to his father. He tries to drive away, but the car doesn't work, so Victor and Chase fight Curtis off together. Chase gets carried away, and Victor stops him, hoping to end the cycle of abuse in the Stein family. They run away together, looking for their friends.",
+    "multiple": false,
+    "characters": [
+      "Curtis Stein",
+      "Victor Stein"
+    ],
+    "non_characters": []
+  },
+  {
+    "eid": "E11133",
+    "file": "dark-dimension",
+    "line": "11",
+    "date": "February 1st, 2018",
+    "reality": "Dark Dimension",
+    "title": null,
+    "desc": "* Dean appears in an encampment, where she is met by [[Destiny Gonzalez]] and the other victims of the [[Rite of Blood]]. It starts to get dark, and Gonzalez asks her for help from the monster who always comes to them in the dark. The group ties Dean to a fence, and a monster, who looks like Nico Minoru chained to the Magistrate's corpse, attacks the camp. The monster tries to kiss her, but Dean refuses and tricks her into untying her. Dean the gets a crowbar and separates the chain, untethering the monster from the corpse. Dean flees, and starts hearing Minoru's voice. She appears in a town square, where she reunites with the real Nico and Tina.",
+    "multiple": false,
+    "characters": [
+      "Destiny Gonzalez"
+    ],
+    "non_characters": [
+      "Rite of Blood"
+    ]
+  },
+  {
+    "eid": "E11134",
+    "file": "dark-dimension",
+    "line": "12",
+    "date": "February 1st, 2018",
+    "reality": "Dark Dimension",
+    "title": null,
+    "desc": "* Hernandez appears in her childhood home, in a time when she is still four years old and being offered breakfast by her parents. Molly notices a present left for her by [[Alice Hernandez]], the hair clip she treasures. Molly realizes this is because the Hernandezes never watched Molly grow up. Her parents tell them that they're going to do charity work at the [[Church of Gibborim]]. The Hernandezes serve fruit punch at the church, and they find potential [[Rite of Blood|sacrifice]] victims for the [[Magistrate]]. Molly confronts them about it, and they tell Molly that they are honored and proud to work for him. All of the kids in the room die from poisoned punch, and [[Gene Hernandez|Gene]] and Alice offer her punch. She runs out of the church and looks back in through the glass, to find the room empty.",
+    "multiple": false,
+    "characters": [
+      "Magistrate",
+      "Gene Hernandez",
+      "Alice Hernandez"
+    ],
+    "non_characters": [
+      "Church of Gibborim",
+      "Rite of Blood"
+    ]
+  },
+  {
+    "eid": "E11135",
+    "file": "dark-dimension",
+    "line": "13",
+    "date": "February 1st, 2018",
+    "reality": "Dark Dimension",
+    "title": null,
+    "desc": "* Yorkes appears in the basement of her [[Yorkes Residence|house]], where she wanders downstairs and discovers her mother experimenting on a prototype version of [[Old Lace]]. Proto-Old Lace bangs against the door of her cage, scaring Yorkes, and [[Stacey Yorkes]] turns the lights on. Stacey prepared the [[Synnergy Serum]] to use on Gert, as she realized it really happened, and that it was both of their nightmare. Stacey injects Gert with the serum. Some time later, Gert wakes up to her mother still experimenting, realizing what happened. Gert realizes that this was the cause of her anxiety disorder. Stacey tries to defend herself, and she asks Gert to prove herself by feeding the prototype dinosaur. She enters the cage with a raw chicken, successfully feeds her, but gets attacked. Stacey shoots the dinosaur with a tranquilizer, Gert escapes, and they are met by Chase and Victor.",
+    "multiple": false,
+    "characters": [
+      "Old Lace",
+      "Stacey Yorkes"
+    ],
+    "non_characters": [
+      "Synnergy Serum",
+      "Yorkes Residence"
+    ]
+  },
+  {
+    "eid": "E11136",
+    "file": "dark-dimension",
+    "line": "14",
+    "date": "February 1st, 2018",
+    "reality": "Dark Dimension",
+    "title": null,
+    "desc": "* The Steins and Yorkeses drive, and discover corpses hanging off of buildings.",
+    "multiple": false,
+    "characters": [],
+    "non_characters": []
+  },
+  {
+    "eid": "E11137",
+    "file": "dark-dimension",
+    "line": "15",
+    "date": "February 1st, 2018",
+    "reality": "Dark Dimension",
+    "title": null,
+    "desc": "* Dean and the Minoru's discover Molly, and they are rejoined by the Steins and Yorkeses. Hernandez doesn't recognize Stacey, and everyone realizes that [[Quinton the Great]] was right about them losing their memories. They leave Wilder behind and return to the [[Hostel]].",
+    "multiple": false,
+    "characters": [
+      "Quinton the Great"
+    ],
+    "non_characters": [
+      "Hostel"
+    ]
+  },
+  {
+    "eid": "E11138",
+    "file": "dark-dimension",
+    "line": "16",
+    "date": "February 1st, 2018",
+    "reality": "Dark Dimension",
+    "title": null,
+    "desc": "* Amy reunites with them and tells them that she is an emissary of [[Morgan le Fay]]. Tina and Nico cast a spell to create a portal to Earth, and they all enter.",
+    "multiple": false,
+    "characters": [
+      "Morgan le Fay"
+    ],
+    "non_characters": []
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "sid": "AoS102",
+    "clarification": "(episode)",
+    "title": "0-8-4 (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 2,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS216",
+    "clarification": "(episode)",
+    "title": "Afterlife (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 2,
+      "episode": 16,
+      "season_id": "AoS2",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "DD113",
+    "clarification": "(episode)",
+    "title": "Daredevil (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 13,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "DD310",
+    "clarification": "(episode)",
+    "title": "Karen (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "episode": 10,
+      "season_id": "DD3",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "AoS510",
+    "clarification": "(Agents of S.H.I.E.L.D.)",
+    "title": "Past Life (Agents of S.H.I.E.L.D.)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 10,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "R208",
+    "clarification": "(Runaways)",
+    "title": "Past Life (Runaways)",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 2,
+      "episode": 8,
+      "season_id": "R2",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "AoS513",
+    "clarification": "(episode)",
+    "title": "Principia (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 13,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "AoS118",
+    "clarification": "(episode)",
+    "title": "Providence (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 1,
+      "episode": 18,
+      "season_id": "AoS1",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "DD103",
+    "clarification": "(episode)",
+    "title": "Rabbit in a Snowstorm (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 3,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "AoSSS104",
+    "clarification": "(Agents of S.H.I.E.L.D.: Slingshot)",
+    "title": "Reunion (Agents of S.H.I.E.L.D.: Slingshot)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.: Slingshot",
+      "season": 1,
+      "episode": 4,
+      "season_id": "AoSSS1",
+      "series_id": "AoSSS"
+    }
+  },
+  {
+    "sid": "DD311",
+    "clarification": "(Daredevil)",
+    "title": "Reunion (Daredevil)",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 3,
+      "episode": 11,
+      "season_id": "DD3",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "R101",
+    "clarification": "(Runaways)",
+    "title": "Reunion (Runaways)",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 1,
+      "episode": 1,
+      "season_id": "R1",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "AoS505",
+    "clarification": "(Agents of S.H.I.E.L.D.)",
+    "title": "Rewind (Agents of S.H.I.E.L.D.)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 5,
+      "episode": 5,
+      "season_id": "AoS5",
+      "series_id": "AoS"
+    }
+  },
+  {
+    "sid": "R102",
+    "clarification": "(Runaways)",
+    "title": "Rewind (Runaways)",
+    "type": "tv episode",
+    "details": {
+      "series": "Runaways (TV series)",
+      "season": 1,
+      "episode": 2,
+      "season_id": "R1",
+      "series_id": "R"
+    }
+  },
+  {
+    "sid": "TD104",
+    "clarification": "(episode)",
+    "title": "Royal Dragon (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "The Defenders",
+      "season": 1,
+      "episode": 4,
+      "season_id": "TD1",
+      "series_id": "TD"
+    }
+  },
+  {
+    "sid": "DD107",
+    "clarification": "(episode)",
+    "title": "Stick (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Daredevil (TV series)",
+      "season": 1,
+      "episode": 7,
+      "season_id": "DD1",
+      "series_id": "DD"
+    }
+  },
+  {
+    "sid": "TD108",
+    "clarification": "(episode)",
+    "title": "The Defenders (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "The Defenders",
+      "season": 1,
+      "episode": 8,
+      "season_id": "TD1",
+      "series_id": "TD"
+    }
+  },
+  {
+    "sid": "AoS314",
+    "clarification": "(episode)",
+    "title": "Watchdogs (episode)",
+    "type": "tv episode",
+    "details": {
+      "series": "Agents of S.H.I.E.L.D.",
+      "season": 3,
+      "episode": 14,
+      "season_id": "AoS3",
+      "series_id": "AoS"
+    }
+  }
+]
