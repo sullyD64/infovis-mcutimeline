@@ -1,12 +1,15 @@
-{% load static %}
+{% load render_bundle from webpack_loader %}
+{% load webpack_static from webpack_loader %}
 <!DOCTYPE html>
 <html>
 <head>
     <title>d3js-mcutimeline</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Oswald&display=swap">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/style.min.css' %}" />
+
+    {% render_bundle 'vendor' 'css' %}
+    {% render_bundle 'mcu_frontend' 'css' %}
+
 </head>
 <body class="navy bg-gray">
     <div class="sitecontainer">
@@ -17,27 +20,18 @@
                 <button type="button" id="sidebarToggle" class="btn btn-dark align-self-start m-3 p-1">
                     <i class="fas fa-cog"></i>
                 </button>
-
                 <div class="d-flex flex-column p-3">
                     <div class="h1 accent">The Marvel Cinematic Universe Timeline</div>
                     <div class="h5 mx-auto">Data crawled, refined and extracted from the <a href="https://marvelcinematicuniverse.fandom.com/timeline" class="link">MCU wiki timeline</a>.</div>
                 </div>
-
                 <a class="btn btn-outline-secondary align-self-start m-3" href="{% url 'admin:index' %}">Django Admin</a>
             </header>
-
-        
             {% comment %} Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, fugiat dolorum. Eum velit assumenda ipsa autem libero nulla adipisci ad nesciunt accusamus, harum tenetur labore quidem mollitia commodi sapiente. Tenetur? {% endcomment %}
         </main>
 
     </div>
 
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/65680da3fd.js" crossorigin="anonymous"></script>
-    <script src="{% static 'js/tests.js' %}"></script>
-    <script src="{% static 'js/sidebar.js' %}"></script>
+    {% render_bundle 'vendor' 'js' %}
+    {% render_bundle 'mcu_frontend' 'js' %}
 </body>
 </html>

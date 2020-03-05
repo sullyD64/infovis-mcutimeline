@@ -1,4 +1,5 @@
 {% block content %}
+{% load webpack_static from webpack_loader %}
 <!-- Sidebar  -->
 <nav id="sidebar" class="sidebar bg-secondary d-flex flex-column">
     <button id="sidebarDismiss" class="btn btn-dark m-3" style="font-size: 20px">
@@ -10,12 +11,12 @@
       
         <div>
             Select the sources you would like to include 
-            <!-- # TODO -->
+            {% comment %} TODO {% endcomment %}
             <br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores beatae dolores explicabo officia neque quaerat velit, doloremque maxime temporibus, cupiditate consectetur id labore perferendis soluta et amet libero aspernatur?
         </div>
-
     </div>
+    <img src="{% webpack_static 'marvel-studios.svg' %}" class="img-fluid p-3" style="opacity: 0.5" alt="">
     <footer class="bg-maroon white w-100 p-3 text-center">
         made with 💜 by sullyD64. <a href="https://github.com/sullyD64/infovis-mcutimeline" class="badge badge-dark">See the code on GitHub <i class="m-1 fab fa-github"></i></a>
     </footer>

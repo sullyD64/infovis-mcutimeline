@@ -18,4 +18,16 @@
     },
     "code-runner.runInTerminal": true,
     "code-runner.customCommand": ". $workspaceRoot/venv/bin/activate; python manage.py livereload &>/dev/null & python manage.py runserver",
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "search.exclude": {
+        "**/raw/*": true,
+        "**/*.json": true,
+    }
 }

@@ -7,7 +7,14 @@ setup(
     version='1.0', 
     packages=find_packages(),
     install_requires = [
+        'pip-autoremove',
         'wikitextparser',
-        'requests'
+        'requests',
+        'bs4',
+        'django',
+        'django_extensions',
+        'django-webpack-loader',
+        'djangorestframework',
+        'pygments',
     ]
 )
