@@ -2,8 +2,6 @@ import '../scss/style.scss';
 import d3 from './d3Importer';
 import '@fortawesome/fontawesome-free/js/fontawesome';
 import '@fortawesome/fontawesome-free/js/solid';
-import '@fortawesome/fontawesome-free/js/regular';
-import '@fortawesome/fontawesome-free/js/brands';
 
 $(document).ready(() => {
   // $('#sidebar').addClass('active');

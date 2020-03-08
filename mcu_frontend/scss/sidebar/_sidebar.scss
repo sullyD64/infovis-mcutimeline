@@ -1,14 +1,21 @@
 .sidebar {
     position: fixed;
-    height: 100vh;
-    width: 25%;
+    height: 100%;
+    width: 430px;
     top: 0;
-    left: -25%;
+    left: -430px;
     z-index: 999;
     color: $white;
     transition: all 0.3s;
     overflow-y: auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        left: -100%;
+    }
 }
 
 .sidebar.active {
