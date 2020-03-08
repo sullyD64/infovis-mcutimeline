@@ -5,16 +5,19 @@ const BundleTracker = require('webpack-bundle-tracker');
 const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const path = require('path');
+
+const dir = path.resolve(__dirname, '../');
 
 module.exports = {
   mode: 'production',
   entry: {
-    mcu_frontend: `${__dirname}/mcu_frontend/js/index.js`,
+    mcu_frontend: `${dir}/mcu_frontend/js/index.js`,
   },
   output: {
     filename: '[name].[hash].bundle.js',
-    path: `${__dirname}/mcu_frontend/dist/`,
-    publicPath: '/mcu_frontend/',
+    path: `${dir}/mcu_frontend/dist/`,
+    publicPath: `${dir}/mcu_frontend/`,
   },
   module: {
     rules: [
@@ -36,6 +39,16 @@ module.exports = {
         test: /.js$/,
         exclude: /node_modules/,
         use: 'babel-loader',
+      },
+      {
+        test: /.*\.(png|jpe?g|gif|svg)$/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 8192,
+            name: '[path][name].[ext]',
+          },
+        },
       },
     ],
   },

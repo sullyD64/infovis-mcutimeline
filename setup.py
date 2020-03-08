@@ -16,5 +16,6 @@ setup(
         'django-webpack-loader',
         'djangorestframework',
         'pygments',
+        'pylint',
     ]
 )

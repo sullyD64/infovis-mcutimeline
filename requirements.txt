@@ -1,23 +1,31 @@
 asgiref==3.2.3
+astroid==2.3.3
 beautifulsoup4==4.8.2
 bs4==0.0.1
 certifi==2019.11.28
 chardet==3.0.4
 Django==3.0.4
 django-extensions==2.2.8
+django-livereload-server==0.3.2
 django-webpack-loader==0.7.0
 djangorestframework==3.11.0
 idna==2.9
--e git+https://github.com/sullyD64/infovis-mcutimeline@1a21412729fb4c1b43599785ed666ea9fe113148#egg=mcutimeline
+isort==4.3.21
+lazy-object-proxy==1.4.3
+mccabe==0.6.1
+-e git+https://github.com/sullyD64/infovis-mcutimeline@c37037ace3ae17e4c46a221e44882ac907df6465#egg=mcutimeline
 pip-autoremove==0.9.1
 pkg-resources==0.0.0
 Pygments==2.5.2
+pylint==2.4.4
 pytz==2019.3
 regex==2020.2.20
 requests==2.23.0
 six==1.14.0
 soupsieve==2.0
 sqlparse==0.3.1
+tornado==6.0.4
 urllib3==1.25.8
 wcwidth==0.1.8
 wikitextparser==0.32.0
+wrapt==1.11.2

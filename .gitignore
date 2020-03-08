@@ -11,3 +11,5 @@ __pycache__
 /data/output/*
 !**/.gitkeep
 migrations
+webpack-stats.json
+mcu_frontend/dist/*

@@ -2,7 +2,10 @@
 // Development configuration, used by webpack-dev-server
 
 const merge = require('webpack-merge');
-const common = require('./webpack.config.js');
+const path = require('path');
+const common = require('./webpack.common.js');
+
+const dir = path.resolve(__dirname, '../');
 
 module.exports = merge(common, {
   mode: 'development',
@@ -18,7 +21,7 @@ module.exports = merge(common, {
     watchOptions: {
       ignored: /node_modules/,
     },
-    contentBase: `${__dirname}/mcu_frontend`,
+    contentBase: `${dir}/mcu_frontend`,
     watchContentBase: false,
   },
 });
