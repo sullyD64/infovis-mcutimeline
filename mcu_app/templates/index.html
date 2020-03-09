@@ -5,8 +5,6 @@
 <head>
     <title>d3js-mcutimeline</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Oswald&display=swap">
-
     {% render_bundle 'vendor' 'css' %}
     {% render_bundle 'mcu_frontend' 'css' %}
 
@@ -16,15 +14,15 @@
         {% include "sidebar.html" %}
         <div class="overlay"></div>
         <main>
-            <header class="d-flex w-100 justify-content-between shadow-lg">
-                <button type="button" id="sidebarToggle" class="btn btn-dark align-self-start m-3 p-1">
-                    <i class="fas fa-cog"></i>
+            <header>
+                <button type="button" id="sidebarToggle" class="sidebar__btn align-self-start">
+                    <i class="material-icons">settings</i>
                 </button>
-                <div class="d-flex flex-column p-3">
+                <div class="header__title">
                     <div class="h1 accent">The Marvel Cinematic Universe Timeline</div>
                     <div class="h5 mx-auto">Data crawled, refined and extracted from the <a href="https://marvelcinematicuniverse.fandom.com/timeline" class="link">MCU wiki timeline</a>.</div>
                 </div>
-                <a class="btn btn-outline-secondary align-self-start m-3" href="{% url 'admin:index' %}">Django Admin</a>
+                <a id="djangoBtn" href="{% url 'admin:index' %}">Django Admin</a>
             </header>
             {% comment %} Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, fugiat dolorum. Eum velit assumenda ipsa autem libero nulla adipisci ad nesciunt accusamus, harum tenetur labore quidem mollitia commodi sapiente. Tenetur? {% endcomment %}
         </main>

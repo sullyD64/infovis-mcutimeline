@@ -1,22 +1,27 @@
 @import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css?family=Material+Icons|Roboto+Condensed|Oswald&subset=latin&display=swap");
+
+// fix align for material icons
+.material-icons {
+  vertical-align: middle;
+}
 
 /*--------------------------------------------------------------
 # Colors
 --------------------------------------------------------------*/
 
-    /***
+/***
 
-    colors.css v2.0.0
-    http://clrs.cc
-    @mrmrs
-    MIT License
+  colors.css v2.0.0
+  http://clrs.cc
+  @mrmrs
+  MIT License
 
-    ***/
+  ***/
 
 @import "colors/variables";
 
 @import "colors/skins";
-
 
 /*--------------------------------------------------------------
 # Main 

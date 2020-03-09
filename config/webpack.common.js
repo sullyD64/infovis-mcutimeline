@@ -2,10 +2,10 @@
 // Production configuration for webpack
 
 const BundleTracker = require('webpack-bundle-tracker');
-const webpack = require('webpack');
-const autoprefixer = require('autoprefixer');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const autoprefixer = require('autoprefixer');
 const path = require('path');
+const webpack = require('webpack');
 
 const dir = path.resolve(__dirname, '../');
 

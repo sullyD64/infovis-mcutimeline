@@ -1,13 +1,13 @@
 {% block content %}
 {% load webpack_static from webpack_loader %}
 <!-- Sidebar  -->
-<nav id="sidebar" class="sidebar bg-secondary d-flex flex-column">
-    <button id="sidebarDismiss" class="btn btn-dark m-3" style="font-size: 20px">
-        <i class="fas fa-arrow-left icon-4x"></i>
+<nav id="sidebar" class="sidebar">
+    <button id="sidebarDismiss" class="sidebar__btn">
+        <i class="material-icons">close</i>
     </button>
-    <div class="sidebar__header h2 accent p-3">Settings</div>
+    <div class="sidebar__header">Settings</div>
 
-    <div class="sidebar__content flex-grow-1 p-4">
+    <div class="sidebar__content">
       
         <div>
             Select the sources you would like to include 
@@ -16,8 +16,8 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores beatae dolores explicabo officia neque quaerat velit, doloremque maxime temporibus, cupiditate consectetur id labore perferendis soluta et amet libero aspernatur?
         </div>
     </div>
-    <img src="{% webpack_static 'marvel-studios.svg' %}" class="img-fluid p-3 align-self-center" style="opacity: 0.5; max-width: 300px" alt="">
-    <footer class="bg-maroon white w-100 p-3 text-center" style="line-height: 2">
+    <img class="sidebar__hero" src="{% webpack_static 'marvel-studios.svg' %}">
+    <footer class="sidebar__footer">
         made with 💜 by <i>sullyD64</i>. <a href="https://github.com/sullyD64/infovis-mcutimeline" class="btn btn-dark p-1">See the code on <img src="{% webpack_static 'github-logo-white.png' %}" width="50px"></a>
     </footer>
 </nav>

@@ -6,14 +6,7 @@ html {
 body {
   height: 100%;
   margin: 0;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-header {
-  z-index: 997;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .sitecontainer {
@@ -22,24 +15,24 @@ header {
 }
 
 .accent {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
 
 .overlay {
-    display: none;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, .35);
-    z-index: 998;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 998;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
 }
 .overlay.active {
-    display: block;
-    opacity: 1;
+  display: block;
+  opacity: 1;
 }
 
 .link {
@@ -49,5 +42,21 @@ header {
 
 .link:hover {
   color: $fuchsia;
-  text-decoration: underline dotted
+  text-decoration: underline dotted;
+}
+
+header {
+  @extend .d-flex, .justify-content-between, .w-100, .shadow-lg;
+  z-index: 997;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header__title {
+  @extend .d-flex, .flex-column, .p-3;
+}
+
+header > #djangoBtn {
+  @extend .btn, .btn-outline-secondary, .align-self-start, .m-3;
 }

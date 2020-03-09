@@ -241,9 +241,11 @@ def main():
 
     (extr_events
         .fork()
-        .consume_key('date')
+        .select_cols(['file', 'date'])
+        .sort('date')
         .unique()
-        .sort()
+        .sort('file')
+        .unique()
         .save('legend__events_dates')
     )
 

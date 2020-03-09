@@ -17,7 +17,7 @@
         "python": "$pythonPath -u $fullFileName"
     },
     "code-runner.runInTerminal": true,
-    "code-runner.customCommand": ". $workspaceRoot/venv/bin/activate; python manage.py livereload &>/dev/null & python manage.py runserver",
+    "code-runner.customCommand": ". $workspaceRoot/venv/bin/activate; python3 manage.py livereload --ignore-static-dirs &>/dev/null & python3 manage.py runserver",
     "files.associations": {
         "**/*.html": "html",
         "**/templates/**/*.html": "django-html",
@@ -31,5 +31,9 @@
         "**/*.json": true,
     },
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "editor.tabSize": 2,
+    "[python]": {
+        "editor.tabSize": 4
+    }
 }

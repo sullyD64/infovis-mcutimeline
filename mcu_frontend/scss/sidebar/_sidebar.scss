@@ -1,52 +1,57 @@
 .sidebar {
-    position: fixed;
-    height: 100%;
-    width: 430px;
-    top: 0;
-    left: -430px;
-    z-index: 999;
-    color: $white;
-    transition: all 0.3s;
-    overflow-y: auto;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  @extend .bg-secondary, .d-flex, .flex-column;
+  position: fixed;
+  height: 100%;
+  width: 430px;
+  top: 0;
+  left: -430px;
+  z-index: 999;
+  color: $white;
+  transition: all 0.3s;
+  overflow-y: auto;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 768px) {
-    .sidebar {
-        width: 100%;
-        left: -100%;
-    }
+  .sidebar {
+    width: 100%;
+    left: -100%;
+  }
 }
 
 .sidebar.active {
-    left: 0;
+  left: 0;
 }
 
 .sidebar > .sidebar__header {
-    width: 100%;
-    margin-bottom: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, .2);
+  @extend .h2, .accent, .p-3;
+  width: 100%;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-// .sidebar > .sidebar__content {
-// }
-
-#sidebarToggle {
-    width: 40px;
-    height: 40px;
+.sidebar > .sidebar__content {
+  @extend .flex-grow-1, .p-4;
 }
 
-// #sidebarToggle span {
-//     width: 80%;
-//     height: 2px;
-//     margin: 5px auto;
-//     display: block;
-//     background: $white;
-// }
+.sidebar > img.sidebar__hero {
+  @extend .img-fluid, .align-self-center, .p-3;
+  opacity: 0.5;
+  max-width: 300px;
+}
 
-#sidebarDismiss {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    float: left;
+.sidebar > .sidebar__footer {
+  @extend .bg-maroon, .white, .w-100, .p-3, .text-center;
+  line-height: 2;
+}
+
+.sidebar__btn {
+  @extend .btn, .btn-dark, .m-3, .p-1;
+  width: 40px;
+  height: 40px;
+}
+
+.sidebar > #sidebarDismiss {
+  position: absolute;
+  float: left;
 }
