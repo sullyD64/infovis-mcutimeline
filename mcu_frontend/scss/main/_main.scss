@@ -4,6 +4,7 @@ html {
 }
 
 body {
+  @extend .navy, .bg-gray;
   height: 100%;
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
@@ -46,7 +47,7 @@ body {
 }
 
 header {
-  @extend .d-flex, .justify-content-between, .w-100, .shadow-lg;
+  @extend .d-flex, .justify-content-between, .w-100, .shadow-lg, .bg-gray;
   z-index: 997;
   position: fixed;
   top: 0;

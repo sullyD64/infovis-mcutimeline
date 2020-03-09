@@ -9,6 +9,7 @@ const dir = path.resolve(__dirname, '../');
 
 module.exports = merge(common, {
   mode: 'development',
+  devtool: 'inline-source-map',
   output: {
     publicPath: 'http://localhost:3000/static/dist/',
   },

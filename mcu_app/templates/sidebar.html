@@ -1,20 +1,14 @@
 {% block content %}
 {% load webpack_static from webpack_loader %}
 <!-- Sidebar  -->
-<nav id="sidebar" class="sidebar">
+<nav class="sidebar">
     <button id="sidebarDismiss" class="sidebar__btn">
         <i class="material-icons">close</i>
     </button>
     <div class="sidebar__header">Settings</div>
 
     <div class="sidebar__content">
-      
-        <div>
-            Select the sources you would like to include 
-            {% comment %} TODO {% endcomment %}
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores beatae dolores explicabo officia neque quaerat velit, doloremque maxime temporibus, cupiditate consectetur id labore perferendis soluta et amet libero aspernatur?
-        </div>
+        <div id="sidebarList">Select the sources you would like to include</div>
     </div>
     <img class="sidebar__hero" src="{% webpack_static 'marvel-studios.svg' %}">
     <footer class="sidebar__footer">

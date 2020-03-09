@@ -21,6 +21,7 @@
             { 
                 "devDependencies": true
             }
-        ]
+        ],
+        "no-console": "off"
     }
 }

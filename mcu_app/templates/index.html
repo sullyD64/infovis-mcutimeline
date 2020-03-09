@@ -9,7 +9,7 @@
     {% render_bundle 'mcu_frontend' 'css' %}
 
 </head>
-<body class="navy bg-gray">
+<body>
     <div class="sitecontainer">
         {% include "sidebar.html" %}
         <div class="overlay"></div>
@@ -26,9 +26,9 @@
             </header>
             {% comment %} Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, fugiat dolorum. Eum velit assumenda ipsa autem libero nulla adipisci ad nesciunt accusamus, harum tenetur labore quidem mollitia commodi sapiente. Tenetur? {% endcomment %}
         </main>
-
     </div>
 
+    {% csrf_token %}
     {% render_bundle 'vendor' 'js' %}
     {% render_bundle 'mcu_frontend' 'js' %}
 </body>

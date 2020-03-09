@@ -19,7 +19,8 @@ from django.urls import path
 from mcu_app import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('', views.index, name='index'),
-    path('api/events', views.EventView.as_view())
+    path('admin/', admin.site.urls),
+    path('api/events_by_src/<str:source>/', views.get_events_by_sid),
+    path('api/events_by_src/multi', views.get_events_by_sid_list),
 ]
