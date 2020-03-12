@@ -8,7 +8,12 @@
     <div class="sidebar__header">Settings</div>
 
     <div class="sidebar__content">
-        <div id="sidebarList">Select the sources you would like to include</div>
+        <p>Select the sources you would like to include:</p>
+        <div id="sourceTree">
+            {% for src in sources %}
+                <div>{{src}}</div>
+            {% endfor %}
+        </div>
     </div>
     <img class="sidebar__hero" src="{% webpack_static 'marvel-studios.svg' %}">
     <footer class="sidebar__footer">

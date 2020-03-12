@@ -1,7 +1,7 @@
 # mcu_app/admin.py
 from django.contrib import admin
 
-from mcu_app.models import Source, Character, Event, Ref, Reflink
+from mcu_app.models import Source, SourceHierarchy, Character, Event, Ref, Reflink
 
 class SourceAdmin(admin.ModelAdmin):
     def events_count(self, obj):
@@ -12,6 +12,11 @@ class SourceAdmin(admin.ModelAdmin):
     ]
     list_display = ('sid', 'parent', 'title', 'type', 'details', 'events_count')
     readonly_fields = ('details', 'details_formatted')
+
+
+class SourceHierarchyAdmin(admin.ModelAdmin):
+    fieldsets = [('Hierarchy', {'fields': ['hierarchy_formatted']})]
+    readonly_fields = ('hierarchy', 'hierarchy_formatted')
 
 
 class CharacterAdmin(admin.ModelAdmin):
@@ -36,6 +41,7 @@ class ReflinkAdmin(admin.ModelAdmin):
     list_display = ('lid', 'evt', 'src', 'ref')
 
 admin.site.register(Source, SourceAdmin)
+admin.site.register(SourceHierarchy, SourceHierarchyAdmin)
 admin.site.register(Character, CharacterAdmin)
 admin.site.register(Event, EventAdmin)
 admin.site.register(Ref, RefAdmin)

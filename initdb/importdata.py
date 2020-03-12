@@ -119,6 +119,17 @@ def importdata(apps, schema_editor):
         rl_obj.save()
         log.debug(f'[{i}/{len(reflinks)}] {rl_obj}')
 
+    
+    log.info('')
+    log.info('6. SOURCE HIERARCHY')
+    source_hierarchy = (Extractor(infile=next(OUTPUT.glob('*__final_source_hierarchy.json')))
+        .get()
+    )
+    SourceHierarchy = apps.get_model('mcu_app', 'SourceHierarchy')
+    hierarchy_obj = SourceHierarchy(hierarchy=json.dumps(source_hierarchy))
+    hierarchy_obj.save()
+
+
 class Migration(migrations.Migration):
 
     dependencies = [

@@ -7,6 +7,14 @@ from pygments import highlight
 from pygments.formatters.html import HtmlFormatter
 from pygments.lexers.data import JsonLexer
 
+def to_json_field(field):
+    json_obj = json.loads(field)
+    data = json.dumps(json_obj, indent=2)
+    formatter = HtmlFormatter(style='colorful')
+    response = highlight(data, JsonLexer(), formatter)
+    style = "<style>" + formatter.get_style_defs() + "</style><br/>"
+    return mark_safe(style + response)
+
 
 class Source(models.Model):
     sid     = models.CharField(max_length=8, primary_key=True)
@@ -16,15 +24,17 @@ class Source(models.Model):
     parent  = models.ForeignKey('self', on_delete=models.CASCADE, related_name='sub_sources', null=True)
 
     def details_formatted(self):
-        json_obj = json.loads(self.details)
-        data = json.dumps(json_obj, indent=2)
-        formatter = HtmlFormatter(style='colorful')
-        response = highlight(data, JsonLexer(), formatter)
-        style = "<style>" + formatter.get_style_defs() + "</style><br/>"
-        return mark_safe(style + response)
+        return to_json_field(self.details)
 
     def __str__(self):
         return self.sid
+
+
+class SourceHierarchy(models.Model):
+    hierarchy = models.TextField()
+
+    def hierarchy_formatted(self):
+        return to_json_field(self.hierarchy)
 
 
 class Character(models.Model):

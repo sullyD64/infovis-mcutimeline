@@ -703,12 +703,14 @@ def main():
     log.info(f'\t\t Out of these sources, {cntrs["cnt_existing_in_reflinks"]} go through reflinks.')
 
     # 11.10 remove duplicate Sources 
+    # 11.11 manually fix Sources where title is missing
     """
     It's perfectly OK to have duplicate sources and to handle them now, since they are exact copies 
     (having the same sid) with the exception of one having the title and one not having it.
     """
     (extr_sources
         .iterate(actions.s3__iterate__sources__merge_remove_duplicates)
+        .mapto(actions.s3__mapto__sources__manual_fix_missing_titles)
         .save('sources_9')
     )
 
@@ -717,39 +719,55 @@ def main():
     log.info(f'### 13. SOURCE HIERARCHY ###')
     # --------------------------------------------------------------------
 
-    # 13.1 build source/ref hierarchy by adding sub_sources recursive list.
-    actions.set_legends(**{'hierarchy': []})
+    # 13.0 add link to parent source
+    (extr_sources
+        .addattr('parent', actions.s3__addattr__sources__parent_source)
+        .save('sources_9_parent')
+    )
+
+    # 13.1 extract all unique source types for hierarchy's level0
+    hierarchy_level0 = (extr_sources
+        .fork()
+        .consume_key('type')
+        .sort()
+        .unique()
+        .mapto(lambda x: {'val': x, 'children': []})
+        .get()
+    )
+
+    # 13.2 build source/ref hierarchy by adding sub_sources recursive list.
+    actions.set_legends(**{'hierarchy': hierarchy_level0})
     (extr_sources
         .fork()
-        .addattr('sub_sources', [])
+        .remove_cols(['refs', 'reflinks', 'events'])
+        .addattr('parent', lambda src: src.parent if src.parent else src.type)
+        .addattr('title', actions.s3__addattr__sources__title_no_clarification)
         .addattr('level', actions.s3__addattr__sources__level)
-        .mapto(actions.s3__mapto__sources__hierarchy_level0)
-        .mapto(actions.s3__mapto__sources__hierarchy_level1)
-        .mapto(actions.s3__mapto__sources__hierarchy_level2)
-        .save('sources_level')
+        .addattr('visited', False)
+        .iterate(actions.s3__iterate__sources__build_hierarchy)
+        .remove_cols(['level', 'visited'])
     )
 
-    # 13.2 obtain non-flattened 3-level file with all refs (referenced by ID),
+    # 13.3 obtain non-flattened 3-level file with all refs (referenced by ID),
     # grouped by main source, subgrouped by (eventually) seasons and episodes or by films.
     extr_hierarchy = (Extractor(data=actions.get_legend('hierarchy'))
-        .save('timeline_hierarchy')
+        .save('source_hierarchy')
     )
 
-    # 13.3A hierarchy for tv shows
+    # 13.4A hierarchy for tv shows
     (extr_hierarchy.fork()
-        .filter_rows(lambda rootsrc: rootsrc.type == constants.SRC_TV_SERIES)
-        .save('timeline_hierarchy_tv')
+        .filter_rows(lambda node: node['val'] == constants.SRC_TV_SERIES)
+        .save('source_hierarchy_tv')
     )
 
-    # 13.3B hierarchy for films
-    film_countrefs=(extr_hierarchy.fork()
-        .filter_rows(lambda rootsrc: rootsrc.type == constants.SRC_FILM_SERIES)
-        .save('timeline_hierarchy_film')
-        .consume_key('sub_sources')
-        .flatten()
-        .addattr('year', lambda src: src.details['year'])
-        .save('timeline_hierarchy_film_countrefs')
-        .get()
+    # 13.4B hierarchy for films
+    (extr_hierarchy.fork()
+        .filter_rows(lambda node: node['val'] == constants.SRC_FILM_SERIES)
+        .save('source_hierarchy_film')
+        # .consume_key('sub_sources')
+        # .flatten()
+        # .addattr('year', lambda src: src.details['year'])
+        # .save('source_hierarchy_film_roots)
     )
 
     # --------------------------------------------------------------------
@@ -766,15 +784,14 @@ def main():
         .addattr('num_occurrences', lambda char: occ_chars[char['cid']])
     )
 
-    # 14.2 add link to parent source
-    # 14.3 add characters to sources based on the 'appearence' key
+    # 14.2 add characters to sources based on the 'appearence' key
     (extr_sources
         .addattr('parent', actions.s3__addattr__sources__parent_source)
         .addattr('characters', actions.s3__addattr__sources__characters, **{'allchars': extr_allchars.get()})
-        .save('sources_9_parent_characters')
+        .save('sources_9_characters')
     )
 
-    # 14.4 discover new characters in event descriptions using character ids and names
+    # 14.3 discover new characters in event descriptions using character ids and names
     actions.set_counters(*['cnt_updated'])
     sources_index = extr_sources.get_index('sid')
     allchars_index = extr_allchars.get_index('cid')
@@ -806,7 +823,7 @@ def main():
         .save('events_4_reordered')
     )
 
-    # 14.5 merge consecutive similar events if they share dates, sources, reality
+    # 14.4 merge consecutive similar events if they share dates, sources, reality
     # >>> and the characters of any subsequent event are at most equal to the characters of the first event.
     actions.set_legends(**{
         'events_newid': {}
@@ -818,7 +835,7 @@ def main():
         .save('events_5')
     )
 
-    # 14.6 update old event ids in Sources and Reflinks
+    # 14.5 update old event ids in Sources and Reflinks
     log.info('Updating sources and reflinks eids for merged events')
     (extr_sources
         .mapto(actions.s3__mapto__sources__update_eids)
@@ -829,7 +846,7 @@ def main():
         .save('final_reflinks', nostep=True)
     )
     
-    # 14.7 remove characters from sources
+    # 14.6 remove characters from sources
     (extr_sources
         .remove_cols(['characters'])
     )
@@ -844,7 +861,7 @@ def main():
     (extr_refs.save('final_refs', nostep=True))
     (extr_events.save('final_events', nostep=True))
     (extr_allchars.save('final_allchars', nostep=True))
-    
+    (extr_hierarchy.save('final_source_hierarchy', nostep=True))
     (extr_refs_multisource.save('extra_refs_multisource', nostep=True))
 
     log.info(f'### End ###')

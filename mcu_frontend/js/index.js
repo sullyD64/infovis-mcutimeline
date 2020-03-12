@@ -3,7 +3,7 @@ import d3 from './d3Importer';
 
 $(document).ready(() => {
   const $target = $('.sidebar, .overlay');
-  // $target.addClass('active');
+  $target.addClass('active');
   $('#sidebarDismiss, .overlay').on('click', () => {
     $target.removeClass('active');
   });
@@ -11,6 +11,10 @@ $(document).ready(() => {
     $target.addClass('active');
     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
   });
+});
+
+$(window).on('load resize', () => {
+  $('.sidebar__content').outerHeight($(window).outerHeight() - $('.sidebar__header').outerHeight() - $('.sidebar__footer').outerHeight() - $('.sidebar__hero').outerHeight());
 });
 
 const margin = {
