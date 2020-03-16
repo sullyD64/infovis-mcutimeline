@@ -1,6 +1,6 @@
 # data_scripts/lib/structs.py
-
 import re
+import json
 
 import wikitextparser as wtp
 
@@ -301,6 +301,8 @@ class Source(Struct):
         for k, v in kwargs.items():
             if k == 'sub_sources':
                 src.sub_sources = [Source.from_dict(**x) for x in v]
+            elif k == 'details':
+                src.details = json.loads(v)
             else:
                 setattr(src, k, v)
         return src
@@ -315,6 +317,9 @@ class Source(Struct):
 
     def __str__(self):
         return utils.jdumps(self.to_dict())
+
+    def __repr__(self):
+        return json.dumps(self.to_dict())
 
     def key(self):
         return (self.sid, self.title, self.type, self.details)

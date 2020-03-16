@@ -45,10 +45,7 @@ SRC_TV_EPISODE = SRC_TYPES['tve']
 SRC_TV_SEASON = SRC_TYPES['tvse']
 SRC_TV_SERIES = SRC_TYPES['tvs']
 SRC_WEB_SERIES = SRC_TYPES['ws']
-SRC_WEB_SERIES_SEASON = SRC_TYPES['wss']
-SRC_WEB_SERIES_EPISODE = SRC_TYPES['wse']
 SRC_COMIC = SRC_TYPES['c']
-SRC_COMIC_SERIES = SRC_TYPES['cs']
 SRC_ONESHOT = SRC_TYPES['os']
 SRC_OTHER = SRC_TYPES['o']
 
@@ -58,3 +55,21 @@ CHAR_SELECTED_ARGS = ['real name', 'alias', 'species', 'citizenship', 'gender', 
 CHAR_APPEARENCE_MEDIA_TYPES_ALLOWED = ['movie', 'oneshot', 'tv series', 'web series', 'comic']
 CHAR_APPEARENCE_SKIP_WORDS = ['mentioned', 'drawing', 'footage', 'picture', 'photo']
 CHAR_NAME_SKIP_WORDS = ['Man', 'Woman', 'Boy', 'Girl']
+
+HIERARCHY_ORDER = [
+    SRC_FILM_SERIES,
+    SRC_TV_SERIES,
+    SRC_COMIC,
+    SRC_ONESHOT,
+    SRC_WEB_SERIES,
+    SRC_OTHER,
+]
+
+SRC_CATEGORY_MAP = {
+    SRC_FILM_SERIES: 'films',
+    SRC_TV_SERIES: 'tv series',
+    SRC_COMIC: 'tie-in comics',
+    SRC_ONESHOT: 'one-shots',
+    SRC_WEB_SERIES: 'web series and promo material',
+    SRC_OTHER: 'other sources',
+}

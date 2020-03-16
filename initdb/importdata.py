@@ -17,7 +17,6 @@ def importdata(apps, schema_editor):
     if not infile:
         raise errors.RequiredInputMissingError(CODE)
 
-    log.info('')
     log.info('1. SOURCES')
     extr_sources = (Extractor(infile=next(OUTPUT.glob('*__final_sources.json')))
         .remove_cols(['clarification', 'events', 'refs', 'reflinks'])
@@ -49,7 +48,7 @@ def importdata(apps, schema_editor):
         log.debug(f'[{i}/{len(sources_parents)}] Binding parent {src_obj_child} => {src_obj_parent}')
 
 
-    log.info('')
+    log.debug('')
     log.info('2. CHARACTERS')
     characters = (Extractor(infile=next(OUTPUT.glob('*__final_allchars.json')))
         .addattr('voice_actor', lambda char_dict: char_dict['voice actor'])
@@ -64,7 +63,7 @@ def importdata(apps, schema_editor):
         log.debug(f'[{i}/{len(characters)}] {char_obj}')
 
 
-    log.info('')
+    log.debug('')
     log.info('3. EVENTS')
     events = (Extractor(infile=next(OUTPUT.glob('*__final_events.json')))
         .addattr('filename', lambda evt: evt['file'])
@@ -87,7 +86,7 @@ def importdata(apps, schema_editor):
         log.debug(f'[{i}/{len(events)}] {evt_obj} [sources: {evt_obj.sources.count()}, characters: {evt_obj.characters.count()}]')
 
 
-    log.info('')
+    log.debug('')
     log.info('4. REFS')
     refs = (Extractor(infile=next(OUTPUT.glob('*__final_refs.json')))
        .remove_cols(['complex', 'noinfo', 'events'])
@@ -104,7 +103,7 @@ def importdata(apps, schema_editor):
         log.debug(f'[{i}/{len(refs)}] {ref_obj} [{src_obj}]')
 
 
-    log.info('')
+    log.debug('')
     log.info('5. REFLINKS')
     reflinks = (Extractor(infile=next(OUTPUT.glob('*__final_reflinks.json')))
         .get()
@@ -119,8 +118,8 @@ def importdata(apps, schema_editor):
         rl_obj.save()
         log.debug(f'[{i}/{len(reflinks)}] {rl_obj}')
 
-    
-    log.info('')
+
+    log.debug('')
     log.info('6. SOURCE HIERARCHY')
     source_hierarchy = (Extractor(infile=next(OUTPUT.glob('*__final_source_hierarchy.json')))
         .get()

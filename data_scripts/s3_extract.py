@@ -751,6 +751,8 @@ def main():
     # 13.3 obtain non-flattened 3-level file with all refs (referenced by ID),
     # grouped by main source, subgrouped by (eventually) seasons and episodes or by films.
     extr_hierarchy = (Extractor(data=actions.get_legend('hierarchy'))
+        .filter_rows(lambda tree: tree['children'])
+        .iterate(actions.s3__iterate__source_hierarchy__sort)
         .save('source_hierarchy')
     )
 

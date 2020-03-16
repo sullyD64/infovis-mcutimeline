@@ -206,8 +206,8 @@ class Actions():
             )
             if src.sid.startswith('WHiH'):  # TODO workaround for WHiH
                 src.type = constants.SRC_WEB_SERIES
-                rootsrc_season.type = constants.SRC_WEB_SERIES_SEASON
-                rootsrc_series.type = constants.SRC_WEB_SERIES_EPISODE
+                rootsrc_season.type = constants.SRC_WEB_SERIES
+                rootsrc_series.type = constants.SRC_WEB_SERIES
             if rootsrc_series not in root_sources:
                 root_sources.append(rootsrc_series)
                 log.debug(f'Found new tv root source: {rootsrc_series.title}')
@@ -722,13 +722,12 @@ class Actions():
 
         def build_hierarchy(node, level, sources):
             for src in sources: 
-                if (src.level >= level and not src.visited and 
-                    (level > 1 and src.parent == node['val'].sid) or
-                    (level == 1 and src.parent == node['val'])
+                if (src.level >= level 
+                    and not src.visited 
+                    and src.parent == node['val']
                 ):
-                    debug_val = node['val'] if level == 1 else {node['val'].sid}
-                    log.debug(f'adding {src.sid} to {debug_val} {level}')
-                    node['children'].append({'val': src, 'children': []})
+                    log.debug(f'adding {src.sid} to {node["val"]} {level}')
+                    node['children'].append({'val': src.sid, 'children': []})
                     src.visited = True
             for child_node in node['children']:
                 build_hierarchy(child_node, level+1, sources)
@@ -739,6 +738,9 @@ class Actions():
         if any([not src.visited for src in sources]):
             raise Exception('Some sources were not visited')
         return sources
+
+    def s3__iterate__source_hierarchy__sort(self, hierarchy: list):
+        return sorted(hierarchy, key=lambda tree: constants.HIERARCHY_ORDER.index(tree['val']))
 
     def s3__mapto__chars__normalize_missing_attributes(self, char: dict):
         for key in constants.CHAR_SELECTED_ARGS:

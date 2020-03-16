@@ -1,46 +1,20 @@
 # mcu_app/views.py
-import json
 import logging as log
-from data_scripts.lib import structs, utils
-from data_scripts.lib.logic import Extractor
+import json
 
 from django.http import JsonResponse
 from django.shortcuts import render
 
-from .models import Event, Source
+from .processing import process_source_hierarchy
+from .models import Event, Source, SourceHierarchy
 from .serializers import EventSerializer
 
 def index(request):
-
-    # TODO: remove clarification from title
-    # TODO: get hierarchy instead of flat source list
-    # hierarchy level 0: source type
-    # hierarchy level 1: root source
-    # hierarchy level 2: season (optional)
-    # hierarchy level 3: leaf source (movie/episode/issue)
-
     sources = list(Source.objects.values())
-
-    extr_sources = (Extractor(data=sources)
-        .parse_raw(structs.Source)
-        .select_cols(['sid', 'parent_id', 'title'])
-    )
-
-    def remove_clarif(title):
-        log.info(title)
-        title = utils.TextFormatter().text(title).strip_clarification().get()
-        return title
-
-    titles = (extr_sources
-        .consume_key('title')
-        .mapto(remove_clarif)
-        .get()
-    )
-
+    hierarchy = SourceHierarchy.objects.first().hierarchy
     context = {
-        'sources': titles
+        'sources_forest': process_source_hierarchy(sources, hierarchy)
     }
-
     return render(request, 'index.html', context)
 
 
