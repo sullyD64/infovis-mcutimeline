@@ -1,21 +1,9 @@
 import '../scss/style.scss';
 import d3 from './d3Importer';
 
-$(document).ready(() => {
-  const $target = $('.sidebar, .overlay');
-  $target.addClass('active');
-  $('#sidebarDismiss, .overlay').on('click', () => {
-    $target.removeClass('active');
-  });
-  $('#sidebarToggle').on('click', () => {
-    $target.addClass('active');
-    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-  });
-});
+import sidebar from './sidebar';
 
-$(window).on('load resize', () => {
-  $('.sidebar__content').outerHeight($(window).outerHeight() - $('.sidebar__header').outerHeight() - $('.sidebar__footer').outerHeight() - $('.sidebar__hero').outerHeight());
-});
+sidebar();
 
 const margin = {
   top: window.innerHeight * 0.3,

@@ -8,11 +8,17 @@
     <div class="sidebar__header">Settings</div>
 
     <div class="sidebar__content">
-        <p>Select the sources you would like to include:</p>
-        <div id="sourceTree">
-            {% for src in sources %}
-                <div>{{src}}</div>
-            {% endfor %}
+        <div class="h5">Sources</div>
+        <div>Select the sources you would like to include:</div>
+        <div class="tree__controls">
+            <a id="sidebarTreeSelectAll">Select all</a>
+            <a id="sidebarTreeReset">Reset</a>
+            <div><span id="sidebarTreeSelectedCount">0</span><span> selected.</span></div>
+        </div>
+        <div id="sidebarTree" class="tree">
+            <ul>
+                {% include "treeview.html" with tree=sources_forest %}
+            </ul>
         </div>
     </div>
     <img class="sidebar__hero" src="{% webpack_static 'marvel-studios.svg' %}">
@@ -21,4 +27,4 @@
     </footer>
 </nav>
 
-{% endblock content %}
+{% endblock %}

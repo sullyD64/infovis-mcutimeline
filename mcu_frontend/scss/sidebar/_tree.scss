@@ -1,0 +1,74 @@
+.tree {
+  @extend .list-group, .list-group-flush;
+  overflow-y: auto;
+
+  a {
+    @extend .p-1;
+    display: block;
+    color: $silver;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  input[type="checkbox"] {
+    @extend .form-check-input, .my-2;
+    &:checked + a {
+      color: $white;
+    }
+  }
+
+  ul {
+    @extend .pl-4;
+  }
+
+  li {
+    @extend .list-group-item, .p-0;
+    background-color: transparent;
+    list-style: none;
+
+    &.has-children > a {
+      @extend .pl-4;
+      &::before {
+        content: '+';
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 2px;
+        width: 1rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+      }
+      &:hover::before {
+        @extend .green;
+      }
+      &.active::before {
+        content: '-';
+      }
+      &.active:hover::before {
+        @extend .red;
+      }
+    }
+  }
+  small {
+    @extend .d-inline-block, .pl-1;
+    opacity: 0.5;
+  }
+}
+
+.tree__controls {
+  @extend .d-flex, .p-1;
+  > a {
+    @extend .btn, .btn-outline-dark, .my-1, .mr-2;
+  }
+
+  > div {
+    @extend .my-auto, .pl-3;
+    color: $silver;
+  }
+
+  > div:last-child {
+    @extend .font-italic;
+  }
+}

@@ -30,20 +30,19 @@ body {
   z-index: 998;
   opacity: 0;
   transition: all 0.5s ease-in-out;
-}
-.overlay.active {
-  display: block;
-  opacity: 1;
+  &.active {
+    display: block;
+    opacity: 1;
+  }
 }
 
 .link {
   color: $purple;
   text-decoration: underline dotted;
-}
-
-.link:hover {
-  color: $fuchsia;
-  text-decoration: underline dotted;
+  &:hover {
+    color: $fuchsia;
+    text-decoration: underline dotted;
+  }
 }
 
 header {
@@ -52,12 +51,12 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+
+  > #djangoBtn {
+    @extend .btn, .btn-outline-secondary, .align-self-start, .m-3;
+  }
 }
 
 .header__title {
   @extend .d-flex, .flex-column, .p-3;
-}
-
-header > #djangoBtn {
-  @extend .btn, .btn-outline-secondary, .align-self-start, .m-3;
 }
