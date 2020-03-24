@@ -43,9 +43,16 @@ img.sidebar__hero {
   height: 92px;
 }
 
+
 .sidebar__footer {
   @extend .bg-maroon, .white, .w-100, .p-3, .text-center;
   line-height: 2;
+}
+
+@media screen and (max-height: 700px) {
+  img.sidebar__hero, .sidebar__footer {
+    display: none;
+  }
 }
 
 .sidebar__btn {
