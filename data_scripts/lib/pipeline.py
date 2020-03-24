@@ -717,23 +717,34 @@ class Actions():
             newattr = 3 if 'season' in src.details.keys() else 2
         return newattr
 
-    def s3__iterate__sources__build_hierarchy(self, sources: list):
+    def s3__iterate__sources__build_hierarchy(self, sources: list, **kwargs):
         hierarchy = self.legends['hierarchy']
 
-        def build_hierarchy(node, level, sources):
+        def recursive(node, level, sources):
             for src in sources: 
                 if (src.level >= level 
                     and not src.visited 
                     and src.parent == node['val']
                 ):
                     log.debug(f'adding {src.sid} to {node["val"]} {level}')
-                    node['children'].append({'val': src.sid, 'children': []})
+                    node['children'].append({
+                        'level': level, 
+                        'val': src.sid, 
+                        'children': []
+                        })
                     src.visited = True
             for child_node in node['children']:
-                build_hierarchy(child_node, level+1, sources)
+                recursive(child_node, level+1, sources)
 
-        for root_node in hierarchy:
-            build_hierarchy(root_node, 1, sources)
+        for src_type in kwargs['src_types']:
+            level = 0
+            tree = {
+                'level': level,
+                'val': src_type,
+                'children': []
+            }
+            recursive(tree, level+1, sources)
+            hierarchy.append(tree)
 
         if any([not src.visited for src in sources]):
             raise Exception('Some sources were not visited')

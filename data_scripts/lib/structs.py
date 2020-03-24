@@ -301,7 +301,7 @@ class Source(Struct):
         for k, v in kwargs.items():
             if k == 'sub_sources':
                 src.sub_sources = [Source.from_dict(**x) for x in v]
-            elif k == 'details':
+            elif k == 'details' and isinstance(v, str):
                 src.details = json.loads(v)
             else:
                 setattr(src, k, v)

@@ -1,5 +1,5 @@
 # mcu_app/views.py
-import logging as log
+# import logging as log
 import json
 
 from django.http import JsonResponse

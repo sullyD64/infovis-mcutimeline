@@ -719,24 +719,36 @@ def main():
     log.info(f'### 13. SOURCE HIERARCHY ###')
     # --------------------------------------------------------------------
 
+    '''
+    Here we build a hierarchy for linking sources together based on the relationships between them.
+    For each source type, we build a separate tree (thus resulting in a forest).
+    Each tree node has three attributes:
+        - level (of depth)
+        - val: for level 0 is the source type, for levels > 0 is the source sid
+        - children: list of trees. each children is a direct descendent of the current tree
+    Examples: 
+        - Film Series -> Iron Man film series -> Iron Man (2008)) 
+        - TV Series -> Runaways -> Season 1 -> Episode 4
+        ...
+    '''
+
     # 13.0 add link to parent source
     (extr_sources
         .addattr('parent', actions.s3__addattr__sources__parent_source)
         .save('sources_9_parent')
     )
 
-    # 13.1 extract all unique source types for hierarchy's level0
-    hierarchy_level0 = (extr_sources
+    # 13.1 extract all unique source types for hierarchy's roots
+    src_types = (extr_sources
         .fork()
         .consume_key('type')
         .sort()
         .unique()
-        .mapto(lambda x: {'val': x, 'children': []})
         .get()
     )
 
     # 13.2 build source/ref hierarchy by adding sub_sources recursive list.
-    actions.set_legends(**{'hierarchy': hierarchy_level0})
+    actions.set_legends(**{'hierarchy': []})
     (extr_sources
         .fork()
         .remove_cols(['refs', 'reflinks', 'events'])
@@ -744,12 +756,13 @@ def main():
         .addattr('title', actions.s3__addattr__sources__title_no_clarification)
         .addattr('level', actions.s3__addattr__sources__level)
         .addattr('visited', False)
-        .iterate(actions.s3__iterate__sources__build_hierarchy)
+        .iterate(actions.s3__iterate__sources__build_hierarchy, **{'src_types': src_types})
         .remove_cols(['level', 'visited'])
     )
 
     # 13.3 obtain non-flattened 3-level file with all refs (referenced by ID),
     # grouped by main source, subgrouped by (eventually) seasons and episodes or by films.
+    # >>> trees for types which have no children are removed
     extr_hierarchy = (Extractor(data=actions.get_legend('hierarchy'))
         .filter_rows(lambda tree: tree['children'])
         .iterate(actions.s3__iterate__source_hierarchy__sort)

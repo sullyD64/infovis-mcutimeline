@@ -65,7 +65,7 @@ HIERARCHY_ORDER = [
     SRC_OTHER,
 ]
 
-SRC_CATEGORY_MAP = {
+HIERARCHY_CATEGORY_MAP = {
     SRC_FILM_SERIES: 'films',
     SRC_TV_SERIES: 'tv series',
     SRC_COMIC: 'tie-in comics',
@@ -73,3 +73,5 @@ SRC_CATEGORY_MAP = {
     SRC_WEB_SERIES: 'web series and promo material',
     SRC_OTHER: 'other sources',
 }
+
+HIERARCHY_INITIAL_ROOTS = [SRC_FILM_SERIES]

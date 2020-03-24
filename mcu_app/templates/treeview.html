@@ -2,7 +2,7 @@
 {% block content %}
   {% for node in tree %}
       <li aria-expanded="false" {% if node.children|length %}class="has-children"{% endif %}>
-          <input type="checkbox" id="{{ node|get_id }}" />
+          <input type="checkbox" id="{{ node|get_id }}" level={{node.level}} default={{node.default}} />
           <a>{{ node|get_display_title|capfirst|safe }}</a>
           {% if node.children|length %}
               <ul>

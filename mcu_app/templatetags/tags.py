@@ -15,7 +15,7 @@ def get_id(node: dict):
 @register.filter
 def get_display_title(node: dict):
     if node['level'] == 0:
-        title = constants.SRC_CATEGORY_MAP[node['val']]
+        title = constants.HIERARCHY_CATEGORY_MAP[node['val']]
     else:
         src = node['val']
         title = (utils.TextFormatter()
