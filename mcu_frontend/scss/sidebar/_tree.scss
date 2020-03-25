@@ -1,7 +1,6 @@
-.tree {
-  @extend .list-group, .list-group-flush;
-  overflow-y: auto;
-
+.tree-of-checkboxes {
+  @extend .list-group, .list-group-flush, .pl-3;
+  height: inherit;
   a {
     @extend .p-1;
     display: block;
@@ -18,6 +17,9 @@
     }
   }
 
+  > ul {
+    @extend .m-0;
+  }
   ul {
     @extend .pl-4;
   }
@@ -41,7 +43,7 @@
         text-align: center;
       }
       &:hover::before {
-        @extend .green;
+        @extend .olive;
       }
       &.active::before {
         content: '-';
@@ -54,21 +56,5 @@
   small {
     @extend .d-inline-block, .pl-1;
     opacity: 0.5;
-  }
-}
-
-.tree__controls {
-  @extend .d-flex, .p-1;
-  > a {
-    @extend .btn, .btn-outline-dark, .my-1, .mr-2;
-  }
-
-  > div {
-    @extend .my-auto, .pl-3;
-    color: $silver;
-  }
-
-  > div:last-child {
-    @extend .font-italic;
   }
 }

@@ -21,21 +21,6 @@ body {
   text-align: center;
 }
 
-#overlay {
-  display: none;
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.35);
-  z-index: 998;
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
-  &.active {
-    display: block;
-    opacity: 1;
-  }
-}
-
 .link {
   color: $purple;
   text-decoration: underline dotted;
@@ -45,18 +30,53 @@ body {
   }
 }
 
-header {
-  @extend .d-flex, .justify-content-between, .w-100, .shadow-lg, .bg-gray;
-  z-index: 997;
-  position: fixed;
-  top: 0;
-  width: 100%;
+.btn-icon {
+  @extend .btn, .btn-dark, .m-3, .p-1;
+  width: 40px;
+  height: 40px;
+}
 
-  > #djangoBtn {
-    @extend .btn, .btn-outline-secondary, .align-self-start, .m-3;
+.border-bottom-semi {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+main {
+  header {
+    @extend .d-flex, .justify-content-between, .w-100, .shadow-lg, .bg-gray;
+    z-index: 990;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    .title {
+      @extend .d-flex, .flex-column, .p-3;
+    }
+    .sidebtn {
+      flex-basis: 5%;
+      #django-admin {
+        @extend .btn, .btn-outline-secondary, .align-self-start, .m-3;
+      }
+    }
   }
 }
 
-.header__title {
-  @extend .d-flex, .flex-column, .p-3;
+.overlay {
+  display: block;
+  visibility: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 995;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  &.overlay-bright {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  &.overlay-dark {
+    background: rgba(0, 0, 0, 0.35);
+  }
+  &.active {
+    visibility: visible;
+    opacity: 1;
+  }
 }

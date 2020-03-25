@@ -8,14 +8,19 @@ export default class Loader {
     this.ids = [];
   }
 
-  getSids() {
-    return this.sids;
+  getLoaded() {
+    return this.data.length;
   }
 
-  fetch(selection, thenHandler) {
-    // console.log(selection);
-    d3.json('/api/events_by_src/multi',
-      {
+  /**
+  * Given a list of selected sources, loads events and joins them with the currently loaded
+  * to avoid duplicates.
+  */
+  async loadEvents(selectedSources) {
+    try {
+      console.log(`Fetching events for ${selectedSources.length} sources...`);
+      const start = new Date();
+      const data = await d3.json('/api/events_by_src/multi', {
         method: 'post',
         // credentials: 'same-origin',
         headers: {
@@ -23,18 +28,8 @@ export default class Loader {
           // 'Content-Types': 'application/json',
           'X-CSRFToken': this.csrftoken,
         },
-        body: JSON.stringify(selection),
-      })
-      .then(thenHandler)
-      .catch((error) => { console.error(error); });
-  }
-
-  /**
-  * Given a list of selected sources, loads events and joins them with the currently loaded
-  * to avoid duplicates.
-  */
-  loadEvents(selectedSources) {
-    this.fetch(selectedSources, (data) => {
+        body: JSON.stringify(selectedSources),
+      });
       const ids = data.map((d) => d.eid);
       const delta = ids.filter((eid) => !this.ids.includes(eid));
       this.ids = [...this.ids, ...delta];
@@ -44,8 +39,12 @@ export default class Loader {
         .enter()
         .append('div')
         .text((el) => `${el.eid}, ${el.date} [${el.sources}]`);
-      console.log(`added ${delta.length} events, total: ${this.data.length}`);
-    });
+      console.log(`Added ${delta.length} events, total: ${this.data.length} (took ${new Date() - start} ms)`);
+      return this.data.length;
+    } catch (error) {
+      console.error(error);
+      return -1;
+    }
   }
 
   /**
@@ -71,13 +70,16 @@ export default class Loader {
       .data(this.data)
       .exit()
       .remove();
-    console.log(`removed ${delta.length} events, total: ${this.data.length}`);
+    console.log(`Removed ${delta.length} events, total: ${this.data.length}`);
+    return this.data.length;
   }
 
   reset() {
     this.data = [];
     this.ids = [];
-    this.logDump.selectAll('div').data(this.data).exit().remove();
-    return this;
+    this.logDump.selectAll('div')
+      .data(this.data)
+      .exit()
+      .remove();
   }
 }

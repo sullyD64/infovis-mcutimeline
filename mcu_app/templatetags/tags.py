@@ -37,12 +37,12 @@ def get_display_title(node: dict):
             title = f'<i>{title}</i>'
 
         elif src.type in [constants.SRC_FILM_SERIES, constants.SRC_TV_SERIES]:
-            title = f'<b>{title}</b>'
+            title = f'{title}'
 
         elif (src.type == constants.SRC_TV_SEASON
             or src.type == constants.SRC_WEB_SERIES and node['level'] == 2):
-            title = f'<b>Season {src.details["season"]}</b>'
-        
+            title = f'Season {src.details["season"]}'
+
         elif (src.type == constants.SRC_TV_EPISODE
             or src.type == constants.SRC_WEB_SERIES and node['level'] == 3):
             title = f'Ep{src.details["episode"]}: <i>{title}</i>'

@@ -2,27 +2,41 @@
 {% load webpack_static from webpack_loader %}
 <!-- Sidebar  -->
 <nav class="sidebar">
-    <button id="sidebarDismiss" class="sidebar__btn">
+    <button id="hideSidebar" class="btn-icon">
         <i class="material-icons">close</i>
     </button>
-    <div class="sidebar__header">Settings</div>
+    <header>Settings</header>
 
-    <div class="sidebar__content">
-        <div class="h5">Sources</div>
-        <div>Select the sources you would like to include:</div>
-        <div class="tree__controls">
-            <a id="sidebarTreeSelectAll">Select all</a>
-            <a id="sidebarTreeReset">Reset</a>
-            <div><span id="sidebarTreeSelectedCount">0</span><span> selected.</span></div>
+    <div class="content">
+        <div class="controller" id="sourcesSettings">
+            <div class="title">Sources</div>
+            <div class="description">Select the sources you want to include in the drawing.</div>
+            <div class="controls-row">
+                <a id="sourcesSettingsSelectAll">Select all</a>
+                <a id="sourcesSettingsReset">Reset</a>
+                <div class="status active">Now displaying <span id="sourcesSettingsEventCount">0</span> events from <span id="sourcesSettingsSourceCount">0</span> sources.</div>
+                <div class="status"><div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div></div></div>
+            <div class="tree-of-checkboxes">
+                <ul>
+                    {% include "treeview.html" with tree=sources_forest %}
+                </ul>
+            </div>
         </div>
-        <div id="sidebarTree" class="tree">
-            <ul>
-                {% include "treeview.html" with tree=sources_forest %}
-            </ul>
+
+        {% comment %} <div class="controller" id="foo">
+            <div class="title">Sources</div>
         </div>
+
+        <div class="controller" id="foo">
+            <div class="title">Sources</div>
+        </div>
+
+        <div class="controller" id="foo">
+            <div class="title">Sources</div>
+        </div> {% endcomment %}
     </div>
-    <img class="sidebar__hero" src="{% webpack_static 'marvel-studios.svg' %}">
-    <footer class="sidebar__footer">
+    <img class="hero" src="{% webpack_static 'marvel-studios.svg' %}">
+    <footer>
         made with 💜 by <i>sullyD64</i>. <a href="https://github.com/sullyD64/infovis-mcutimeline" class="btn btn-dark p-1">See the code on <img src="{% webpack_static 'github-logo-white.png' %}" width="50px"></a>
     </footer>
 </nav>

@@ -1,54 +1,27 @@
 import Loader from './loader';
 import { DEBUG } from './constants';
 
-export default class Sidebar {
-  constructor() {
-    this.tree = $('#sidebarTree');
-    this.counter = $('#sidebarTreeSelectedCount').text(0);
-    this.loader = new Loader();
-    this.selected = [];
+class SourcesSettingsController {
+  constructor(root) {
+    this.root = $(root);
+    this.tree = this.root.find('.tree-of-checkboxes');
+    this.evtCount = this.root.find('.status > span').first().text(0);
+    this.srcCount = this.root.find('.status > span').last().text(0);
 
+    this.listen();
+
+    this.loader = new Loader();
+    this.selection = [];
     this.tree.find('input[type=checkbox]')
       .prop('checked', false)
       .each((i, el) => {
         if (JSON.parse(el.getAttribute('default'))) {
           el.checked = true;
-          this.selected.push(el.id);
+          this.selection.push(el.id);
         }
       });
-    this.default = this.selected;
-    this.loader.loadEvents(this.selected);
-    this.updateCounter();
-  }
-
-  listen() {
-    const target = $('.sidebar, .overlay');
-    if (DEBUG) target.toggleClass('active');
-    $('#sidebarToggle').on('click', () => {
-      target.addClass('active');
-      $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-    });
-    $('#sidebarDismiss, .overlay').on('click', () => {
-      target.removeClass('active');
-    });
-
-    $(window).on('load resize', () => {
-      const treeHeight = $(window).outerHeight()
-        - $('.sidebar__header').outerHeight()
-        - $('.sidebar__hero').outerHeight()
-        - $('.sidebar__footer').outerHeight();
-      $('.sidebar__content').outerHeight(treeHeight);
-    });
-
-    this.tree.find('li.has-children')
-      .children('ul').hide()
-      .siblings('a')
-      .on('click', (ev) => this.constructor.handleDisplay(ev.target));
-    $('#sidebarTreeSelectAll').on('click', () => this.handleSelectAll());
-    $('#sidebarTreeReset').on('click', () => this.handleReset());
-
-    this.tree.find('input[type=checkbox]')
-      .on('change', (ev) => this.handleSelected(ev.target));
+    this.defaultSelection = this.selection;
+    this.update('load', this.selection);
   }
 
   static handleDisplay(node) {
@@ -58,8 +31,42 @@ export default class Sidebar {
       .slideToggle(300);
   }
 
-  updateCounter() {
-    this.counter.text(this.selected.length);
+  listen() {
+    this.root.find('#sourcesSettingsSelectAll')
+      .on('click', () => this.handleSelectAll());
+    this.root.find('#sourcesSettingsReset')
+      .on('click', () => this.handleReset());
+    this.tree.find('li.has-children')
+      .children('ul').hide()
+      .siblings('a')
+      .on('click', (ev) => this.constructor.handleDisplay(ev.target));
+    this.tree.find('input[type=checkbox]')
+      .on('change', (ev) => this.handleSelected(ev.target));
+  }
+
+  pause() {
+    this.root.toggleClass('busy');
+    this.root.find('.status').toggleClass('active');
+    this.root.find('*').off();
+  }
+
+  resume() {
+    this.root.toggleClass('busy');
+    this.root.find('.status').toggleClass('active');
+    this.listen();
+  }
+
+  async update(mode, selection, legend = null) {
+    this.pause();
+    let len = 0;
+    if (mode === 'load') {
+      len = await this.loader.loadEvents(selection);
+    } else if (mode === 'unload') {
+      len = this.loader.unloadEvents(selection, legend);
+    }
+    this.evtCount.text(len);
+    this.srcCount.text(this.selection.length);
+    this.resume();
   }
 
   handleSelected(node) {
@@ -79,13 +86,12 @@ export default class Sidebar {
       if (!a.hasClass('active') && $(node).parent('li').hasClass('has-children')) {
         this.constructor.handleDisplay(a);
       }
-      this.loader.loadEvents(affected);
-      this.selected = [...this.selected, ...affected];
+      this.update('load', affected);
+      this.selection = [...this.selection, ...affected];
     } else {
-      this.loader.unloadEvents(affected, this.selected);
-      this.selected = this.selected.filter((id) => !affected.includes(id));
+      this.update('unload', affected, this.selection);
+      this.selection = this.selection.filter((id) => !affected.includes(id));
     }
-    this.updateCounter();
   }
 
   handleSelectAll() {
@@ -93,16 +99,52 @@ export default class Sidebar {
     this.tree.find('input[type=checkbox]:not(:checked)')
       .prop('checked', true)
       .each((i, el) => affected.push(el.id));
-    this.loader.loadEvents(affected);
-    this.selected = [...this.selected, ...affected];
+    this.update('load', affected);
+    this.selection = [...this.selection, ...affected];
   }
 
   handleReset() {
+    this.selection = this.defaultSelection;
     this.tree.find('input[type=checkbox]')
       .each((i, el) => {
-        el.checked = this.default.includes(el.id);
+        el.checked = this.defaultSelection.includes(el.id);
       });
-    this.selected = new Array(this.default);
-    this.loader.reset().loadEvents(this.default);
+    this.tree.find('a[aria-expanded=true]').click();
+    this.loader.reset();
+    this.update('load', this.selection);
+  }
+}
+
+export default class Sidebar {
+  constructor() {
+    this.view = $('.sidebar');
+    const overlay = $('.sitecontainer > .overlay');
+    const hideButton = this.view.find('#hideSidebar');
+    const showButton = $('#showSidebar');
+
+    showButton.on('click', () => {
+      this.view.add(overlay).addClass('active');
+      this.view.find('a[aria-expanded=true]').attr('aria-expanded', 'false');
+    });
+
+    hideButton.add(overlay).on('click', () => {
+      this.view.add(overlay).removeClass('active');
+    });
+
+    $(window).on('load resize', () => {
+      const contentHeight = $(window).outerHeight()
+        - this.view.find('header').outerHeight()
+        - this.view.find('footer').outerHeight()
+        - this.view.find('.hero').outerHeight();
+      this.view.find('.content').outerHeight(contentHeight);
+    });
+
+    if (DEBUG) showButton.click();
+  }
+
+  loadControllers() {
+    this.sourcesSettingsController = new SourcesSettingsController(
+      this.view.find('.content > #sourcesSettings').get(0),
+    );
   }
 }

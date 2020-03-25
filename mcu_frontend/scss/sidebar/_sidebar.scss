@@ -1,11 +1,11 @@
 .sidebar {
-  @extend .bg-secondary, .d-flex, .flex-column;
+  @extend .bg-dark, .d-flex, .flex-column;
   position: fixed;
   height: 100%;
   width: 500px;
   top: 0;
   left: -500px;
-  z-index: 999;
+  z-index: 996;
   color: $white;
   transition: all 0.3s;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
@@ -18,49 +18,72 @@
   &.active {
     left: 0;
   }
-}
 
-.sidebar__header {
-  @extend .h2, .accent, .p-3;
-  width: 100%;
-  margin-bottom: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.sidebar__content {
-  @extend .flex-grow-1, .p-4, .d-flex, .flex-column;
-  @media screen and (max-width: 768px) {
-    $padding: 4rem !important;
-    padding-left: $padding;
-    padding-right: $padding;
-  }
-}
-
-img.sidebar__hero {
-  @extend .align-self-center, .p-3;
-  opacity: 0.5;
-  width: 300px;
-  height: 92px;
-}
-
-
-.sidebar__footer {
-  @extend .bg-maroon, .white, .w-100, .p-3, .text-center;
-  line-height: 2;
-}
-
-@media screen and (max-height: 700px) {
-  img.sidebar__hero, .sidebar__footer {
-    display: none;
-  }
-}
-
-.sidebar__btn {
-  @extend .btn, .btn-dark, .m-3, .p-1;
-  width: 40px;
-  height: 40px;
-  &#sidebarDismiss {
+  #hideSidebar {
     position: absolute;
     float: left;
+  }
+  
+  header {
+    @extend .h2, .accent, .p-3, .border-bottom-semi;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .content {
+    @extend .flex-grow-1, .d-flex, .flex-column, .overflow-auto;
+    @media screen and (max-width: 768px) {
+      $padding: 4rem !important;
+      padding-left: $padding;
+      padding-right: $padding;
+    }
+    .controller {
+      @extend .p-4, .border-bottom-semi;
+      transition: all 0.1s linear;
+      &.busy {
+        background-color: rgba(255, 255, 255, 0.2);
+        opacity: 0.7;
+      }
+      .title {
+        @extend .h5;
+      }
+      // .description {
+      // }
+      .controls-row {
+        @extend .d-flex, .py-3, .text-nowrap;
+        > a {
+          @extend .btn, .btn-outline-light, .my-auto, .mr-2;
+        }
+        .status {
+          @extend .flex-grow-1, .my-auto, .text-center;
+          display: none;
+          &.active {
+            display: block;
+          }
+          span {
+            @extend .olive;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+
+  img.hero {
+    @extend .align-self-center, .p-3;
+    opacity: 0.5;
+    width: 300px;
+    height: 92px;
+  }
+
+  footer {
+    @extend .bg-maroon, .white, .w-100, .p-3, .text-center;
+    line-height: 2;
+  }
+
+  @media screen and (max-height: 700px) {
+    img.hero, footer {
+      display: none;
+    }
   }
 }

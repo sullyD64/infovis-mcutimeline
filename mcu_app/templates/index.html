@@ -12,19 +12,22 @@
 <body>
     <div class="sitecontainer">
         {% include "sidebar.html" %}
-        <div id="overlay"></div>
+        <div class="overlay overlay-dark"></div>
         <main>
             <header>
-                <button type="button" id="sidebarToggle" class="sidebar__btn align-self-start">
-                    <i class="material-icons">settings</i>
-                </button>
-                <div class="header__title">
+                <div class="sidebtn">
+                    <button type="button" id="showSidebar" class="btn-icon">
+                        <i class="material-icons">settings</i>
+                    </button>
+                </div>
+                <div class="title">
                     <div class="h1 accent">The Marvel Cinematic Universe Timeline</div>
                     <div class="h5 mx-auto">Data crawled, refined and extracted from the <a href="https://marvelcinematicuniverse.fandom.com/timeline" class="link">MCU wiki timeline</a>.</div>
                 </div>
-                <a id="djangoBtn" href="{% url 'admin:index' %}">Django Admin</a>
+                <div class="sidebtn">
+                    <a id="django-admin" href="{% url 'admin:index' %}">Django Admin</a>
+                </div>
             </header>
-            {% comment %} Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, fugiat dolorum. Eum velit assumenda ipsa autem libero nulla adipisci ad nesciunt accusamus, harum tenetur labore quidem mollitia commodi sapiente. Tenetur? {% endcomment %}
         </main>
     </div>
 

@@ -6,7 +6,6 @@ import {
 import Sidebar from './sidebar';
 
 // Initialize SVG and logDump
-// const svg = d3.select('main')
 const svg = d3.select('main')
   .append('svg')
   .attrs({
@@ -21,9 +20,8 @@ d3.select('main')
     class: `${DEBUG ? 'd-flex flex-column align-items-end mx-5' : 'd-none'}`,
   });
 
-
 $(document).ready(() => {
-  new Sidebar().listen();
+  new Sidebar().loadControllers();
 });
 
 // TODO temporary
