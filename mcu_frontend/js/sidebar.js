@@ -8,6 +8,8 @@ class SourcesSettingsController {
     this.evtCount = this.root.find('.status > span').first().text(0);
     this.srcCount = this.root.find('.status > span').last().text(0);
 
+    this.tree.find('li.has-children')
+      .children('ul').hide();
     this.listen();
 
     this.loader = new Loader();
@@ -26,9 +28,11 @@ class SourcesSettingsController {
 
   static handleDisplay(node) {
     $(node).toggleClass('active')
-      .attr('aria-expanded', (i, elem) => (elem === 'true' ? 'false' : 'true'))
       .next('ul')
       .slideToggle(300);
+    $(node)
+      .parent('li')
+      .attr('aria-expanded', (i, elem) => (elem === 'true' ? 'false' : 'true'));
   }
 
   listen() {
@@ -37,8 +41,7 @@ class SourcesSettingsController {
     this.root.find('#sourcesSettingsReset')
       .on('click', () => this.handleReset());
     this.tree.find('li.has-children')
-      .children('ul').hide()
-      .siblings('a')
+      .children('a')
       .on('click', (ev) => this.constructor.handleDisplay(ev.target));
     this.tree.find('input[type=checkbox]')
       .on('change', (ev) => this.handleSelected(ev.target));
@@ -86,11 +89,11 @@ class SourcesSettingsController {
       if (!a.hasClass('active') && $(node).parent('li').hasClass('has-children')) {
         this.constructor.handleDisplay(a);
       }
-      this.update('load', affected);
       this.selection = [...this.selection, ...affected];
+      this.update('load', affected);
     } else {
-      this.update('unload', affected, this.selection);
       this.selection = this.selection.filter((id) => !affected.includes(id));
+      this.update('unload', affected, this.selection);
     }
   }
 
@@ -109,7 +112,7 @@ class SourcesSettingsController {
       .each((i, el) => {
         el.checked = this.defaultSelection.includes(el.id);
       });
-    this.tree.find('a[aria-expanded=true]').click();
+    this.tree.find('li[aria-expanded=true]').children('a').click();
     this.loader.reset();
     this.update('load', this.selection);
   }
@@ -124,7 +127,7 @@ export default class Sidebar {
 
     showButton.on('click', () => {
       this.view.add(overlay).addClass('active');
-      this.view.find('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      this.view.find('li[aria-expanded=true]').attr('aria-expanded', 'false');
     });
 
     hideButton.add(overlay).on('click', () => {
