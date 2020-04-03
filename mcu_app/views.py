@@ -18,8 +18,8 @@ def index(request):
     return render(request, 'index.html', context)
 
 
-def handle_request_common(request, queryset, serializer_clazz):
-    data = serializer_clazz(queryset, many=True).data
+def handle_request_common(request, queryset, SerializerClazz):
+    data = SerializerClazz(queryset, many=True).data
     return JsonResponse(data, safe=False)
 
 

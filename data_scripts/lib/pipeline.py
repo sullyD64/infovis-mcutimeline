@@ -97,7 +97,6 @@ class Actions():
         output = []
 
         for c1 in chars:
-            out = c1
             for c2 in chars:
                 cid1, cid2 = c1['cid'], c2['cid']
                 def get_plain(char):
@@ -111,15 +110,10 @@ class Actions():
                 ):
                     log.info(f'Grouping {cid1} ({oc[cid1][1]}) with {cid2} ({oc[cid2][1]})')
                     chars.remove(c2)
-                    c1['cid_redirects'] = [cid2]
-                    out = {**{
-                        'cid': cid1,
-                        'cid_redirects': [cid2]
-                        }, **c1
-                    }
+                    c1['cid_redirects'] = [*c1['cid_redirects'], cid2]
                     oc[cid1] = (oc[cid1][0], oc[cid1][1] + oc[cid2][1])
                     oc.pop(cid2)
-            output.append(out)
+            output.append(c1)
         return output
 
     def s2__mapto__linkoccurrences__initialize(self, occ: dict):

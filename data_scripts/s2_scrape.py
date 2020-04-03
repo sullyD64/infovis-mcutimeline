@@ -105,7 +105,7 @@ def main():
             extr_allchars.extend(Extractor(infile=char_path))
         (extr_allchars
             .count('allchars before grouping')
-            .addattr('cid_redirects', [])
+            .mapto(lambda char: {**{'cid': char.pop('cid'), 'cid_redirects': []}, **char}) # insert new key in 2nd position
             .iterate(actions.s2__iterate__characters__group_alteregos)
             .count('allchars after grouping')
             .save('allchars', nostep=True)

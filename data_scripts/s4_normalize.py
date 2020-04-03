@@ -55,12 +55,20 @@ def main():
 
     (extr_events
         .fork()
+        .consume_key('date')
+        .unique()
+        .sort()
+        .save('event_alldates')
+    )
+
+    (extr_events
+        .fork()
         .sort('date')
         .groupby('date')
         .addattr('num_events', lambda d: len(d['elements']))
         .remove_cols(['elements'])
         .sort('num_events', reverse=True)
-        .save('events_bydate')
+        .save('event_dates_count')
     )
 
     (extr_events
@@ -242,11 +250,9 @@ def main():
     (extr_events
         .fork()
         .select_cols(['file', 'date'])
-        .sort('date')
-        .unique()
-        .sort('file')
-        .unique()
-        .save('legend__events_dates')
+        .groupby('file')
+        .mapto(lambda group: {'file': group['file'], 'dates': sorted(list(set([ev.date for ev in group['elements']])))})
+        .save('event_dates_by_filename')
     )
 
     (extr_events

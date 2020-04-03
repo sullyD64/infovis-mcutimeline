@@ -30,7 +30,9 @@ class EventAdmin(admin.ModelAdmin):
         return obj.sources.count()
     def reflinks_count(self, obj):
         return obj.reflinks.count()
-    list_display = ('eid', 'filename', 'date', 'reality', 'title', 'desc', 'sources_count', 'reflinks_count')
+    def characters_count(self, obj):
+        return obj.characters.count()
+    list_display = ('eid', 'filename', 'date', 'reality', 'title', 'desc', 'sources_count', 'reflinks_count', 'characters_count')
     search_fields = ('eid', )
 
 

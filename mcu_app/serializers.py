@@ -4,4 +4,4 @@ from .models import Event
 class EventSerializer(serializers.ModelSerializer):
     class Meta:
         model = Event
-        fields = ('eid', 'date', 'reality', 'title', 'desc', 'sources')
+        fields = ('eid', 'filename', 'line', 'date', 'reality', 'title', 'desc', 'multiple', 'sources')
