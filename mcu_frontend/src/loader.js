@@ -38,7 +38,8 @@ export default class Loader {
         .data(this.data)
         .enter()
         .append('div')
-        .text((el) => `${el.eid}, ${el.date} [${el.sources}]`);
+        // .text((el) => `${el.eid}, ${el.date} [${el.sources}]`);
+        .text((el) => `(${el.filename} - ${el.line}), ${el.eid} ${el.date}`);
       console.log(`Added ${delta.length} events, total: ${this.data.length} (took ${new Date() - start} ms)`);
       return this.data.length;
     } catch (error) {

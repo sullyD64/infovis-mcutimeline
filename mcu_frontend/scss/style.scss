@@ -1,35 +1,22 @@
 @import "~bootstrap/scss/bootstrap";
 @import url("https://fonts.googleapis.com/css2?family=Material+Icons&family=Oswald&family=Roboto+Condensed:wght@400;700&display=swap");
 
-@import "~spin.js/spin";
-
 // fix align for material icons
 .material-icons {
   vertical-align: middle;
 }
 
-/*--------------------------------------------------------------
-# Colors
---------------------------------------------------------------*/
-
 /***
-
   colors.css v2.0.0
   http://clrs.cc
   @mrmrs
   MIT License
-
-  ***/
+***/
 
 @import "colors/variables";
-
 @import "colors/skins";
-
-/*--------------------------------------------------------------
-# Main 
---------------------------------------------------------------*/
 
 @import "main/main";
 
-@import "sidebar/sidebar";
-@import "sidebar/tree";
+@import "components/sidebar";
+@import "components/tree";

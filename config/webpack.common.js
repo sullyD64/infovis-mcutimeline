@@ -12,7 +12,7 @@ const dir = path.resolve(__dirname, '../');
 module.exports = {
   mode: 'production',
   entry: {
-    mcu_frontend: `${dir}/mcu_frontend/js/index.js`,
+    mcu_frontend: `${dir}/mcu_frontend/src/index.js`,
   },
   output: {
     filename: '[name].[hash].bundle.js',

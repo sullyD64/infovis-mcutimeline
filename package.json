@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "infovis-mcutimeline",
   "private": true,
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config config/webpack.common.js",
@@ -21,7 +20,9 @@
   "homepage": "https://github.com/sullyD64/infovis-mcutimeline#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "d3-array": "^2.4.0",
     "d3-axis": "^1.0.12",
+    "d3-dag": "^0.3.5",
     "d3-extended": "^2.0.0",
     "d3-fetch": "^1.1.2",
     "d3-selection": "^1.4.1",

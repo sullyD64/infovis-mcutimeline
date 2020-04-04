@@ -17,7 +17,7 @@ d3.select('main')
   .append('div')
   .attrs({
     id: 'logDump',
-    class: `${DEBUG ? 'd-flex flex-column align-items-end mx-5' : 'd-none'}`,
+    class: `${DEBUG ? 'd-flex flex-column align-items-center mx-5' : 'd-none'}`,
   });
 
 $(document).ready(() => {
@@ -25,7 +25,7 @@ $(document).ready(() => {
 });
 
 // TODO temporary
-svg.attr('height', `${$('header').height()}px`);
+svg.attr('height', `${$('header').outerHeight()}px`);
 // svg.append('g')
 //   .attr('class', 'chart')
 //   .attr('transform', `translate(${MARGIN.left}, ${MARGIN.top})`);
