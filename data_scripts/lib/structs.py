@@ -163,6 +163,9 @@ class Event(Struct):
                 return ref
             self.refs = list(map(change_eid, list(set(self.refs).union(sub_evs_refs_unique))))
 
+        if hasattr(self, 'characters'):
+            self.characters = list(set(self.characters).union(set([element for sublist in [ev.characters for ev in sub_evs] for element in sublist])))
+
         if hasattr(self, 'non_characters'):
             self.non_characters = list(set(self.non_characters).union(set([element for sublist in [ev.non_characters for ev in sub_evs] for element in sublist])))
         
