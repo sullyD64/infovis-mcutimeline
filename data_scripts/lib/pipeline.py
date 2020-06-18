@@ -7,7 +7,8 @@ import re
 import wikitextparser as wtp
 
 from data_scripts.lib import constants, utils
-from data_scripts.lib.structs import Event, Ref, Source, SourceBuilder, RefLink
+from data_scripts.lib.structs import Event, Ref, Source, SourceBuilder, Reflink
+
 
 class Actions():
     def __init__(self):
@@ -70,11 +71,11 @@ class Actions():
         quick = kwargs['quick']
 
         if link in onc.keys():
-            onc[link] = (onc[link][0], onc[link][1] + 1) 
+            onc[link] = (onc[link][0], onc[link][1] + 1)
         elif (scraper.is_cached(CHARS_DIR, link) or (not quick and scraper.crawl_character(CHARS_DIR, link, kwargs['templates']))):
             oc[link] = (oc[link][0], oc[link][1] + 1) if link in oc.keys() else (0, 1)
         elif (not scraper.is_cached(CHARS_DIR, link) and (quick or not scraper.crawl_character(CHARS_DIR, link, kwargs['templates']))):
-            onc[link] = (0,1) 
+            onc[link] = (0, 1)
         else:
             raise Exception(f'FATAL: dead end {link}')
 
@@ -99,6 +100,7 @@ class Actions():
         for c1 in chars:
             for c2 in chars:
                 cid1, cid2 = c1['cid'], c2['cid']
+
                 def get_plain(char):
                     return json.dumps({k: v for (k, v) in copy.deepcopy(char).items() if k not in ['cid', 'cid_redirects']})
                 c1_plain = get_plain(c1)
@@ -143,12 +145,12 @@ class Actions():
         output = []
         for msrc in manual_sources:
             src = (SourceBuilder()
-                .sid(msrc.pop('sid'))
-                .title(msrc.pop('title'))
-                .stype(constants.SRC_FILM if msrc['series_id'].startswith('F_') else constants.SRC_TV_EPISODE)
-                .details(msrc)
-                .build()
-            )
+                   .sid(msrc.pop('sid'))
+                   .title(msrc.pop('title'))
+                   .stype(constants.SRC_FILM if msrc['series_id'].startswith('F_') else constants.SRC_TV_EPISODE)
+                   .details(msrc)
+                   .build()
+                   )
             output.append(src)
         return output
 
@@ -156,11 +158,11 @@ class Actions():
         root_sources = self.legends['root_sources']
         if src.type == constants.SRC_FILM:
             rootsrc = (SourceBuilder()
-                .sid(src.details['series_id'])
-                .title(f'{src.details["series"]} (Film series)')
-                .stype(constants.SRC_FILM_SERIES)
-                .build()
-            )
+                       .sid(src.details['series_id'])
+                       .title(f'{src.details["series"]} (Film series)')
+                       .stype(constants.SRC_FILM_SERIES)
+                       .build()
+                       )
             if not rootsrc in root_sources:
                 root_sources.append(rootsrc)
                 log.debug(f'Found new film root source: {rootsrc.title}')
@@ -184,20 +186,20 @@ class Actions():
             src_season_details = {k: v for k, v in src.details.items()}
             src_season_details.pop('episode')
             rootsrc_season = (SourceBuilder()
-                .sid(src_season_details.pop('season_id'))
-                .title(get_season_title(src_season_details['series'], src_season_details['season']))
-                .stype(constants.SRC_TV_SEASON)
-                .details(src_season_details)
-                .build()
-            )
+                              .sid(src_season_details.pop('season_id'))
+                              .title(get_season_title(src_season_details['series'], src_season_details['season']))
+                              .stype(constants.SRC_TV_SEASON)
+                              .details(src_season_details)
+                              .build()
+                              )
             src_series_details = {k: v for k, v in src_season_details.items()}
             src_series_details.pop('season')
             rootsrc_series = (SourceBuilder()
-                .sid(src_series_details['series_id'])
-                .title(src_series_details['series'])
-                .stype(constants.SRC_TV_SERIES)
-                .build()
-            )
+                              .sid(src_series_details['series_id'])
+                              .title(src_series_details['series'])
+                              .stype(constants.SRC_TV_SERIES)
+                              .build()
+                              )
             if src.sid.startswith('WHiH'):  # TODO workaround for WHiH
                 src.type = constants.SRC_WEB_SERIES
                 rootsrc_season.type = constants.SRC_WEB_SERIES
@@ -219,20 +221,20 @@ class Actions():
             plaintitle, clarif = Source.split_titlestr(fulltitle)
             found_existing = False
             if (any([(src.title == fulltitle
-                        or (src.plaintitle() == plaintitle
-                            and src.clarification
-                            and ((clarif and src.clarification.lower() == clarif.lower())
-                                or (not clarif and src.clarification[1:-1].lower() == stype.lower())))
-                    ) for src in [*sources, *sources_updated]])
+                      or (src.plaintitle() == plaintitle
+                              and src.clarification
+                              and ((clarif and src.clarification.lower() == clarif.lower())
+                                   or (not clarif and src.clarification[1:-1].lower() == stype.lower())))
+                      ) for src in [*sources, *sources_updated]])
                 ):
                 found_existing = True
                 # log.debug(f'[_] Already existing "{fulltitle}"')
             else:
                 for src in [*sources, *sources_updated]:
                     if (clarif
-                        and src.is_updatable_with_new_clarification(clarif)
-                        and src.plaintitle() == plaintitle
-                    ):
+                            and src.is_updatable_with_new_clarification(clarif)
+                            and src.plaintitle() == plaintitle
+                            ):
                         found_existing = True
                         log.debug(f' ⮡  Updating {src.sid} "{src.title}" => "{fulltitle}"')
                         if src in sources:
@@ -243,10 +245,10 @@ class Actions():
                             self.counters['cnt_updated'] += 1
             if not found_existing:
                 newsrc = (SourceBuilder()
-                    .title(fulltitle)
-                    .stype(stype)
-                    .build()
-                )
+                          .title(fulltitle)
+                          .stype(stype)
+                          .build()
+                          )
                 if not newsrc in sources_additional:
                     sources_additional.append(newsrc)
                     log.debug(f'[X] Discovered new source: {newsrc.title} type: {newsrc.type}')
@@ -264,7 +266,7 @@ class Actions():
                     newattr = links[0].title
                     self.counters['cnt_existing'] += 1
 
-                # special handling for named refs 
+                # special handling for named refs
                 if ref.name:
                     # simplify refname for named refs which have been matched with pattern 2
                     if re.match(re.compile(kwargs['patterns'][2]), ref.desc) and ref.name[-1].isdigit():
@@ -307,10 +309,10 @@ class Actions():
             self.counters['cnt_existing'] += 1
         else:
             newsrc = (SourceBuilder()
-                .title(fulltitle)
-                .stype(constants.SRC_OTHER)
-                .build()
-            )
+                      .title(fulltitle)
+                      .stype(constants.SRC_OTHER)
+                      .build()
+                      )
             sources_additional.append(newsrc)
             self.counters['cnt_discovered'] += 1
             log.debug(f'[_] {ref.rid} discovered new source: "{fulltitle}"')
@@ -329,10 +331,10 @@ class Actions():
                 self.counters['cnt_existing'] += 1
                 log.debug(f'[X] {ref.rid} binding to {src.sid} "{src.title}"')
                 if (not src.sid
-                    and src.title == ref.source__title
-                    and src in sources
-                    and not len(ref.name.split(' ')) > 1
-                ):
+                        and src.title == ref.source__title
+                        and src in sources
+                        and not len(ref.name.split(' ')) > 1
+                        ):
                     log.debug(f' ⮡  {ref.rid} Updating source "{src.title}", adding sid "{ref.name}"')
                     sources.remove(src)
                     src.sid = ref.name
@@ -364,12 +366,12 @@ class Actions():
                 log.debug(f'[_] {ref.rid} source not found: "{ref.name}"')
                 if len(tkns) == 1:
                     newsrc = (SourceBuilder()
-                        .sid(ref.name)
-                        .title(ref.source__title)
-                        .stype(constants.SRC_OTHER)
-                        .build()
-                    )
-                    if tkns[0].startswith('SE2010'): # TODO special case (SE2010)
+                              .sid(ref.name)
+                              .title(ref.source__title)
+                              .stype(constants.SRC_OTHER)
+                              .build()
+                              )
+                    if tkns[0].startswith('SE2010'):  # TODO special case (SE2010)
                         refname_before = ref.name
                         ref.name = ref.name[:-3]
                         log.debug(f' ⮡  {ref.rid} Updating name {refname_before} => {ref.name}')
@@ -491,9 +493,9 @@ class Actions():
         at this point they don't have the constants.TMP_MARKERS[2] as source__id. 
         The predicate after the 'or' checks this particular case and fixes it.
         """
-        return (ref.source__id == constants.TMP_MARKERS[2] 
-            or ref.source__id != constants.TMP_MARKERS[1] and ref.name and len(ref.name.split(' ')) > 1
-        )
+        return (ref.source__id == constants.TMP_MARKERS[2]
+                or ref.source__id != constants.TMP_MARKERS[1] and ref.name and len(ref.name.split(' ')) > 1
+                )
 
     def s3__mapto__refs__convert_srcid_srctitle_to_sourcelist(self, ref: Ref):
         if len(ref.sources) == 0:
@@ -539,12 +541,12 @@ class Actions():
         for this_ref in refs:
             if not output:
                 output.append(this_ref)
-            
+
             existing_ref = next(iter(list(filter(lambda that_ref: (
                 this_ref.source == that_ref.source
                 and all([this_ref.noinfo, that_ref.noinfo])
             ), output))), None)
-            
+
             if existing_ref:
                 existing_ref.events = sorted(list(set([*existing_ref.events, *this_ref.events])))
             elif not this_ref in output:
@@ -566,13 +568,13 @@ class Actions():
 
         if not ref.noinfo:
             for eid in ref.events:
-                rl = RefLink(eid, ref.rid, ref.source)
+                rl = Reflink(eid, ref.rid, ref.source)
                 if rl not in reflinks:
                     reflinks.append(rl)
         return ref
 
     def s3__mapto__refs__clean_deleted_eids(self, ref: Ref):
-        invalid_eids = self.legends['invalid_eids'] 
+        invalid_eids = self.legends['invalid_eids']
         new_events = []
         updated = False
         for eid in ref.events:
@@ -715,17 +717,17 @@ class Actions():
         hierarchy = self.legends['hierarchy']
 
         def recursive(node, level, sources):
-            for src in sources: 
-                if (src.level >= level 
-                    and not src.visited 
-                    and src.parent == node['val']
-                ):
+            for src in sources:
+                if (src.level >= level
+                        and not src.visited
+                        and src.parent == node['val']
+                        ):
                     log.debug(f'adding {src.sid} to {node["val"]} {level}')
                     node['children'].append({
-                        'level': level, 
-                        'val': src.sid, 
+                        'level': level,
+                        'val': src.sid,
                         'children': []
-                        })
+                    })
                     src.visited = True
             for child_node in node['children']:
                 recursive(child_node, level+1, sources)
@@ -759,10 +761,10 @@ class Actions():
         for char in kwargs['allchars']:
             for app in char['appearences']:
                 if (app['source__title'] == src.title
-                    and (not 'notes' in app.keys()
-                        or (app['notes']
-                            and not any(substring in app['notes'] for substring in constants.CHAR_APPEARENCE_SKIP_WORDS)))
-                ):
+                        and (not 'notes' in app.keys()
+                             or (app['notes']
+                                         and not any(substring in app['notes'] for substring in constants.CHAR_APPEARENCE_SKIP_WORDS)))
+                        ):
                     newattr.append({k: char[k] for k in ('cid', 'cid_redirects', 'real_name', 'num_occurrences')})
         log.debug(f'{src.sid} added {len(newattr)} characters')
         return newattr
@@ -770,7 +772,7 @@ class Actions():
     def s3__addattr__events__discover_characters(self, event: Event, **kwargs):
         sources = kwargs['sources']
         sources_index = kwargs['sources_index']
-    
+
         chars_event_sources = []
         event_sources = [sources[sources_index[sid]] for sid in event.sources]
         for event_src in event_sources:
@@ -782,30 +784,30 @@ class Actions():
                     break
         chars_noduplicates = [i for n, i in enumerate(chars_event_sources) if i not in chars_event_sources[n + 1:]]
         chars = sorted(chars_noduplicates, key=lambda char: char['num_occurrences'], reverse=True)
-        
+
         matching_chars = []
         tf = utils.TextFormatter()
         desc_toread = tf.text(event.desc).remove_wikilinks().remove_html_comments().get()
         for char in chars:
             cid_clean = (tf.text(char['cid'])
-                .strip_clarification()
-                .remove_html_comments()
-                .get()
-                .strip()
-            )
+                         .strip_clarification()
+                         .remove_html_comments()
+                         .get()
+                         .strip()
+                         )
             cid_redirects_clean = [tf.text(cr)
-                .strip_clarification()
-                .remove_html_comments()
-                .get()
-                .strip()
-                for cr in char['cid_redirects']]
+                                   .strip_clarification()
+                                   .remove_html_comments()
+                                   .get()
+                                   .strip()
+                                   for cr in char['cid_redirects']]
             real_names_clean = [tf.text(rn)
-                .remove_ref_nodes()
-                .strip_clarification()
-                .remove_html_comments()
-                .get()
-                .strip() 
-                for rn in char['real_name']]
+                                .remove_ref_nodes()
+                                .strip_clarification()
+                                .remove_html_comments()
+                                .get()
+                                .strip()
+                                for rn in char['real_name']]
             patterns = [
                 cid_clean,
                 cid_clean.split(' ')[-1],
@@ -819,7 +821,7 @@ class Actions():
             if any(matches):
                 matching_index = matches.index(True)
                 log.debug(f'{event.eid} match "{patterns[matching_index]}"')
-                for pattern in patterns: 
+                for pattern in patterns:
                     desc_toread = desc_toread.replace(pattern, '')
                 # if char['cid'] not in event.characters:
                 matching_chars.append(char)
@@ -831,7 +833,7 @@ class Actions():
 
         newattr = []
         if len(discovered_chars) > 0:
-            self.counters['cnt_updated'] +=1
+            self.counters['cnt_updated'] += 1
             log.debug(f'[x] {event.eid} existing {len(event.characters)}, adding {len(discovered_chars)} {discovered_chars}')
             newattr = [*event.characters, *discovered_chars]
         else:
@@ -861,7 +863,7 @@ class Actions():
         output = []
         sub_evs = []
         main_ev = next(iter(events))
-    
+
         for ev in events[1:]:
             if (
                 main_ev.date == ev.date and
@@ -880,7 +882,6 @@ class Actions():
                 output.append(ev)
         return output
 
-
     def s3__mapto__sources__update_eids(self, src: Source):
         events_newid = self.legends['events_newid']
 
@@ -890,8 +891,7 @@ class Actions():
                 log.debug(f'{src.sid:7} replacing {eid} => {events_newid[eid]}')
         return src
 
-
-    def s3__mapto__reflinks__update_eids(self, rl: RefLink):
+    def s3__mapto__reflinks__update_eids(self, rl: Reflink):
         events_newid = self.legends['events_newid']
 
         eid = rl.evt

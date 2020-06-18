@@ -73,7 +73,7 @@ class EventAdmin(admin.ModelAdmin):
         linkify(field_name='reflinks', many=True),
         'desc',
     )
-    search_fields = ('eid', 'desc')
+    search_fields = ('eid', 'sources__sid')
 
 
 class RefAdmin(admin.ModelAdmin):
@@ -86,7 +86,7 @@ class ReflinkAdmin(admin.ModelAdmin):
         linkify(field_name='src'), 
         linkify(field_name='ref'),
     )
-    search_fields = ('lid', )
+    search_fields = ('lid', 'evt__eid' )
 
 admin.site.register(Source, SourceAdmin)
 admin.site.register(SourceHierarchy, SourceHierarchyAdmin)

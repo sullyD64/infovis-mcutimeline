@@ -14,9 +14,10 @@ idna==2.9
 isort==4.3.21
 lazy-object-proxy==1.4.3
 mccabe==0.6.1
--e git+https://github.com/sullyD64/infovis-mcutimeline@6aa94c3a4671d13b0e957c474f6d938fbd4feeae#egg=mcutimeline
+-e git+https://github.com/sullyD64/infovis-mcutimeline@3475d556dfd953525a4910bba93d319767b338c6#egg=mcutimeline
 pip-autoremove==0.9.1
 pkg-resources==0.0.0
+psycopg2-binary==2.8.5
 pycodestyle==2.5.0
 Pygments==2.5.2
 pylint==2.4.4

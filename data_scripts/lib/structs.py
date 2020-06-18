@@ -360,7 +360,7 @@ class SourceBuilder(object):
         return self.src
 
 
-class RefLink(Struct):
+class Reflink(Struct):
     lid = 0
 
     def __init__(
@@ -373,15 +373,15 @@ class RefLink(Struct):
         if empty:
             return
 
-        RefLink.lid += 1
-        self.lid = f'L{RefLink.lid:05d}'
+        Reflink.lid += 1
+        self.lid = f'L{Reflink.lid:05d}'
         self.evt = eid
         self.src = sid
         self.ref = rid
 
     @classmethod
     def from_dict(cls, **kwargs):
-        rl = RefLink(empty=True)
+        rl = Reflink(empty=True)
         for k, v in kwargs.items():
             setattr(rl, k, v)
         return rl

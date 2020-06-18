@@ -1,11 +1,4 @@
 {
-    "liveSassCompile.settings.formats": [
-        {
-            "format": "compressed",
-            "extensionName": ".min.css",
-            "savePath": "/mcu_app/static/css"
-        }
-    ],
     "python.pythonPath": "venv/bin/python",
     "python.linting.pylintPath": "venv/bin/pylint",
     "python.linting.pylintArgs": [
@@ -13,6 +6,9 @@
         "--logging-format-style=fstr",
         "--load-plugins=pylint_django"
     ],
+    "[python]": {
+        "editor.formatOnSave": false
+    },
     "code-runner.clearPreviousOutput": true,
     "code-runner.executorMap": {
         "python": "$pythonPath -u $fullFileName"
@@ -24,17 +20,7 @@
         "**/templates/**/*.html": "django-html",
         "**/requirements{/**,*}.{txt,in}": "pip-requirements"
     },
-    "emmet.includeLanguages": {
-        "django-html": "html"
-    },
     "search.exclude": {
-        "**/raw/*": true,
-        "**/*.json": true,
-    },
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
-    "editor.tabSize": 2,
-    "[python]": {
-        "editor.tabSize": 4
+        "data/*": true
     }
 }

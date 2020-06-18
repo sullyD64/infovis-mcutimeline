@@ -1,0 +1,9 @@
+db:
+    container_name: django_postgres
+    image: postgres
+    volumes:
+        - ../db:/var/lib/postgresql/data
+    environment:
+        POSTGRES_PASSWORD: pgroot
+    ports:
+        - 5432:5432

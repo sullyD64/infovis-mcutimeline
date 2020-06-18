@@ -17,9 +17,9 @@ def to_json_field(field):
 
 
 class Source(models.Model):
-    sid     = models.CharField(max_length=8, primary_key=True)
-    title   = models.CharField(max_length=100, null=True)
-    type    = models.CharField(max_length=30)
+    sid     = models.CharField(max_length=255, primary_key=True)
+    title   = models.CharField(max_length=255, null=True)
+    type    = models.CharField(max_length=255)
     details = models.TextField()
     parent  = models.ForeignKey('self', on_delete=models.CASCADE, related_name='sub_sources', null=True)
 
@@ -38,7 +38,7 @@ class SourceHierarchy(models.Model):
 
 
 class Character(models.Model):
-    cid             = models.CharField(max_length=50, primary_key=True)
+    cid             = models.CharField(max_length=255, primary_key=True)
     cid_redirects   = models.TextField(null=True)
     real_name       = models.TextField(null=True)
     alias           = models.TextField(null=True)
@@ -60,12 +60,12 @@ class Character(models.Model):
 
 
 class Event(models.Model):
-    eid        = models.CharField(max_length=8, primary_key=True)
-    filename   = models.CharField(max_length=30)
-    line       = models.CharField(max_length=30)
-    date       = models.CharField(max_length=100)
-    reality    = models.CharField(max_length=30)
-    title      = models.CharField(max_length=200, null=True)
+    eid        = models.CharField(max_length=255, primary_key=True)
+    filename   = models.CharField(max_length=255)
+    line       = models.CharField(max_length=255)
+    date       = models.CharField(max_length=255)
+    reality    = models.CharField(max_length=255)
+    title      = models.CharField(max_length=255, null=True)
     desc       = models.TextField()
     multiple   = models.BooleanField(default=False)
     sources    = models.ManyToManyField(Source, related_name='events')
@@ -78,8 +78,8 @@ class Event(models.Model):
 
 
 class Ref(models.Model):
-    rid    = models.CharField(max_length=8, primary_key=True)
-    name   = models.CharField(max_length=30, null=True)
+    rid    = models.CharField(max_length=255, primary_key=True)
+    name   = models.CharField(max_length=255, null=True)
     desc   = models.TextField()
     source = models.ForeignKey(Source, on_delete=models.CASCADE, related_name='refs')
 
@@ -88,7 +88,7 @@ class Ref(models.Model):
 
 
 class Reflink(models.Model):
-    lid = models.CharField(max_length=8, primary_key=True)
+    lid = models.CharField(max_length=255, primary_key=True)
     evt = models.ForeignKey(Event,  on_delete=models.CASCADE, related_name='reflinks')
     src = models.ForeignKey(Source, on_delete=models.CASCADE, related_name='reflinks')
     ref = models.ForeignKey(Ref,    on_delete=models.CASCADE, related_name='reflinks')

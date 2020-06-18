@@ -17,5 +17,6 @@ setup(
         'djangorestframework',
         'pygments',
         'pylint',
+        'psycopg2-binary',
     ]
 )

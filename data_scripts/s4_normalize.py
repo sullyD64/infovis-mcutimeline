@@ -46,7 +46,7 @@ def main():
     )
 
     extr_reflinks = (Extractor(infile = next(OUTPUT.glob('*__final_reflinks.json')))
-        .parse_raw(structs.RefLink)
+        .parse_raw(structs.Reflink)
     )
 
     # extr_sources_hierarchy = (Extractor(infile = next(OUTPUT.glob('*__timeline_hierarchy.json'))))

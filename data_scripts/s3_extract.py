@@ -515,11 +515,11 @@ def main():
                 (sid, eid)
         - For each type-A ref:
             - If there is no entry on this list, add it
-            - Create then a new object of type RefLink with the following attributes: eid, sid and rid.
+            - Create then a new object of type Reflink with the following attributes: eid, sid and rid.
         
         After this, update Sources, Events and Refs:
             - Link Events and Sources together
-            - Links Events, Sources and Refs together using RefLinks (when needed)
+            - Links Events, Sources and Refs together using Reflinks (when needed)
 
         The final structure is the following:
                         Ref
